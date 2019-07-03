@@ -45,7 +45,6 @@ filetype plugin indent on    " required
 set runtimepath+=~/.vim_runtime
 set number
 set wrap linebreak nolist
-set colorscheme monokai_pro.vim
 
 source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
