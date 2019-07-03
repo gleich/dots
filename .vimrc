@@ -57,3 +57,4 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry
 Plugin 'wakatime/vim-wakatime'
+let g:rehash256 = 1
