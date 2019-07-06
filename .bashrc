@@ -12,6 +12,7 @@ alias gc="git commit -m"
 alias root="cd ~"
 alias gs="git status"
 alias gitb="cd Documents/Github"
+alias p=python
 
 source bash-wakatime/bash-wakatime.sh;
 cd Documents/Github;
