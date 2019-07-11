@@ -18,3 +18,6 @@ fi
 unset __conda_setup
 # <<< conda init <<<
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# Flutter Addtion:
+export PATH="$PATH:/Users/matthewgleich/flutter/bin"
