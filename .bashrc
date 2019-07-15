@@ -11,7 +11,7 @@ alias v=vim
 alias gc="git commit -m"
 alias root="cd ~"
 alias gs="git status"
-alias gitb="cd Documents/Github"
+alias gitb="cd ~/Documents/Github"
 alias p=python
 alias sim="open -a Simulator"
 
