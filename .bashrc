@@ -13,6 +13,7 @@ alias root="cd ~"
 alias gs="git status"
 alias gitb="cd Documents/Github"
 alias p=python
+alias sim="open -a Simulator"
 
 source bash-wakatime/bash-wakatime.sh;
 cd Documents/Github;
