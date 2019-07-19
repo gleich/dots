@@ -19,5 +19,8 @@ unset __conda_setup
 # <<< conda init <<<
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
-# Flutter Addtion:
+# Flutter Addition:
 export PATH="$PATH:/Users/matthewgleich/flutter/bin"
+
+# Hub Addition (Github extra for git CLI)
+eval "$(hub alias -s)"
