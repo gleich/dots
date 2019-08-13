@@ -18,3 +18,5 @@ alias sim="open -a Simulator"
 
 source bash-wakatime/bash-wakatime.sh;
 cd Documents/Github;
+
+eval "$(thefuck --alias)"
