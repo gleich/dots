@@ -55,6 +55,11 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry
 Plugin 'wakatime/vim-wakatime'
+let python_highlight_all=1
+syntax on
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
+
 let g:rehash256 = 1
 colorscheme molokai
-Plugin 'aurieh/discord.nvim'
