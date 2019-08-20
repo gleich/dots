@@ -16,7 +16,7 @@ alias gitb="cd ~/Documents/Github"
 alias p=python
 alias sim="open -a Simulator"
 
-source bash-wakatime/bash-wakatime.sh;
+source ~/bash-wakatime/bash-wakatime.sh;
 cd Documents/Github;
 
 eval "$(thefuck --alias)"
