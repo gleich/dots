@@ -1,23 +1,10 @@
-neofetch
-
-export PATH="/usr/local/sbin:$PATH
-
-PROMPT_COMMAND='PS1="\[\033[0;33m\][\!]\`if [[ \$? = "0" ]]; then echo "\\[\\033[32m\\]"; else echo "\\[\\033[31m\\]"; fi\`[\u.\h: \`if [[ `pwd|wc -c|tr -d " "` > 18 ]]; then echo "\\W"; else echo "\\w"; fi\`]\$\[\033[0m\] "; echo -ne "\033]0;`hostname -s`:`pwd`\007"'
-
-alias q=exit
-alias c=clear
-alias h=history
-alias pd=pwd
-alias t=time
-alias v=vim
-alias gc="git commit -m"
-alias root="cd ~"
-alias gs="git status"
-alias gitb="cd ~/Documents/Github"
-alias p=python
-alias sim="open -a Simulator"
-
-source ~/bash-wakatime/bash-wakatime.sh;
-cd Documents/Github;
-
-eval "$(thefuck --alias)"
+# Alias created by latexSolve Program# https://github.com/Matt-Gleich/CLi-CalclatexSolve="python3 /Users/matthewgleich/Documents/GitHub/Cli-Calcmain.py"# Alias created by latexSolve Program# https://github.com/Matt-Gleich/CLi-CalclatexSolve="python3 /Users/matthewgleich/Documents/GitHub/Cli-Calcmain.py"
+# Alias created by latexSolve Program
+# https://github.com/Matt-Gleich/CLi-Calc
+latexSolve="python3 /Users/matthewgleich/Documents/GitHub/Cli-Calcmain.py"
+# Alias created by latexSolve Program
+# https://github.com/Matt-Gleich/CLi-Calc
+latexSolve="python3 /Users/matthewgleich/Documents/GitHub/Cli-Calc/main.py"
+# Alias created by latexSolve Program
+# https://github.com/Matt-Gleich/CLi-Calc
+alias latexSolve="python3 /Users/matthewgleich/Documents/GitHub/Cli-Calc/main.py"

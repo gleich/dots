@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+ # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -70,7 +70,7 @@ ZSH_THEME="norm"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    zsh-wakatime
+    wakatime
     )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,7 +106,7 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias q=exit
 alias c=clear
 alias h=history
-alias pd=pwd 
+alias pd=pwd
 alias t=time
 alias v=vim
 alias gc="git commit -m"
@@ -114,13 +114,13 @@ alias root="cd ~"
 alias gs="git status"
 alias gitb="cd ~/Documents/Github"
 alias p=python3
-alias sim="open -a Simulator"
-# alias sl="ls"
-alias sp="cd ~/Documents/Github && open -a GitKraken && code School-Papers"
-alias pdfmv="python3 ~/Documents/Github/School_Papers/Template-Generators/move-pdf-files.py"
-alias mktex="code ~/Documents/Github/School_Papers && python3 ~/Documents/Github/School_Papers/Template-Generators/make-template.py"
+alias pip=pip3
+alias sl=ls
+alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/move-pdf-files.py"
+alias mktex="code ~/Documents/Github/School/School_Papers && python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
+alias dsa="docker ps -a"
 
-source ~/bash-wakatime/bash-wakatime.sh;
+# source ~/bash-wakatime/bash-wakatime.sh;
 cd ~/Documents/Github;
 
 # added by travis gem
@@ -130,3 +130,5 @@ cd ~/Documents/Github;
 export PATH=/usr/local/bin:$PATH
 
 eval "$(thefuck --alias)"
+
+export PATH="$PATH:/Users/matthewgleich/development/flutter/bin"
