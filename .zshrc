@@ -120,7 +120,6 @@ alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/
 alias mktex="code ~/Documents/Github/School/School_Papers && python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
 alias dsa="docker ps -a"
 
-# source ~/bash-wakatime/bash-wakatime.sh;
 cd ~/Documents/Github;
 
 # added by travis gem
@@ -129,6 +128,8 @@ cd ~/Documents/Github;
 # Homebrew
 export PATH=/usr/local/bin:$PATH
 
+# fuck alias
 eval "$(thefuck --alias)"
 
+# Flutter:
 export PATH="$PATH:/Users/matthewgleich/development/flutter/bin"
