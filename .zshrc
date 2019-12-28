@@ -115,12 +115,12 @@ alias gs="git status"
 alias gitb="cd ~/Documents/Github"
 alias p=python3
 alias pip=pip3
-# alias sl=ls
+alias sl=ls
 alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/move-pdf-files.py"
 alias mktex="code ~/Documents/Github/School/School_Papers && python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
 alias dsa="docker ps -a"
-alias personal="cd ~/Documents/Github/Personal"
-alias school="cd ~/Documents/Github/School"
+alias per="cd ~/Documents/Github/Personal"
+alias sch="cd ~/Documents/Github/School"
 
 cd ~/Documents/Github;
 
