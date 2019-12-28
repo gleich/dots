@@ -121,6 +121,7 @@ alias mktex="code ~/Documents/Github/School/School_Papers && python3 ~/Documents
 alias dsa="docker ps -a"
 alias per="cd ~/Documents/Github/Personal"
 alias sch="cd ~/Documents/Github/School"
+alias da="dart"
 
 cd ~/Documents/Github;
 
