@@ -62,6 +62,7 @@ let python_highlight_all=1
 syntax on
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'lervag/vimtex'
 
 setlocal spell
 set spelllang=en_us
