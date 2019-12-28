@@ -44,6 +44,9 @@ filetype plugin indent on    " required
 set runtimepath+=~/.vim_runtime
 set number
 set wrap linebreak nolist
+set smartindent
+set shiftwidth=4
+set expandtab
 
 source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
@@ -65,4 +68,3 @@ set spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 let g:rehash256 = 1
-colorscheme molokai
