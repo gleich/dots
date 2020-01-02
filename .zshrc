@@ -122,6 +122,7 @@ alias dsa="docker ps -a"
 alias per="cd ~/Documents/Github/Personal"
 alias sch="cd ~/Documents/Github/School"
 alias da="dart"
+alias ta=task
 
 cd ~/Documents/Github;
 
