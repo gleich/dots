@@ -120,7 +120,7 @@ alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/
 alias mktex="code ~/Documents/Github/School/School_Papers && python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
 alias dsa="docker ps -a"
 alias per="cd ~/Documents/Github/Personal"
-alias sch="cd ~/Documents/Github/School"
+alias sch="cd ~/Documents/Github/School/School_Papers"
 alias da="dart"
 alias ta=task
 
