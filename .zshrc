@@ -137,3 +137,4 @@ eval "$(thefuck --alias)"
 
 # Flutter:
 export PATH="$PATH:/Users/matthewgleich/development/flutter/bin"
+export ENABLE_FLUTTER_DESKTOP=true
