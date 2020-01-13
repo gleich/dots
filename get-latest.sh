@@ -4,6 +4,12 @@ rm .zshrc
 rm .bashrc
 rm .bash_profile
 rm .vimrc
+rm Brewfile
+
+cwd=$(pwd)
+cd ~
+brew bundle dump
+cd $cwd
 
 cp ~/.zshrc .zshrc
 cp ~/.vimrc .vimrc
