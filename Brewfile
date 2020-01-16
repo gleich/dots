@@ -49,7 +49,6 @@ brew "nano"
 brew "neofetch"
 brew "nmap"
 brew "nsnake"
-brew "opencv", link: false
 brew "php"
 brew "pick"
 brew "pipes-sh"
