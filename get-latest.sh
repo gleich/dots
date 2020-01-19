@@ -18,6 +18,3 @@ cp ~/.bashrc .bashrc
 cp ~/.bash_profile .bash_profile
 cp ~/Brewfile Brewfile
 
-git add .
-git commit -m "Update to latest"
-git push
