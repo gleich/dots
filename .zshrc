@@ -118,6 +118,7 @@ alias sl=ls
 alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/move-pdf-files.py"
 alias mktex="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
 alias dsa="docker ps -a"
+alias dp="docker system prune -a"
 alias per="cd ~/Documents/Github/Personal"
 alias sch="cd ~/Documents/Github/School/School_Papers"
 alias da="dart"
