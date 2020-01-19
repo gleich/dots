@@ -121,6 +121,7 @@ alias dsa="docker ps -a"
 alias dp="docker system prune -a"
 alias per="cd ~/Documents/Github/Personal"
 alias sch="cd ~/Documents/Github/School/School_Papers"
+alias robo="cd ~/Documents/Github/Robotics"
 alias da="dart"
 alias ta=task
 
