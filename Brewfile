@@ -25,6 +25,7 @@ brew "little-cms2"
 brew "webp"
 brew "fish"
 brew "fortune"
+brew "ghi"
 brew "git", link: false
 brew "gnupg", link: false
 brew "go"
