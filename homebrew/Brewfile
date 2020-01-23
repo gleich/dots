@@ -109,12 +109,14 @@ cask "windows95"
 cask "zoomus"
 cask "zwift"
 mas "1Focus", id: 969210610
+mas "Asphalt 9", id: 1491129197
 mas "Battery Monitor", id: 836505650
 mas "Break", id: 1273243144
 mas "CleanMyDrive 2", id: 523620159
 mas "ColorSlurp", id: 1287239339
 mas "com.donewithcomputers.winston", id: 1161123070
 mas "Countdowns", id: 926707738
+mas "Day One", id: 1055511498
 mas "Disk Speed Test", id: 425264550
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Encrypto", id: 935235287
@@ -146,6 +148,7 @@ mas "Spark", id: 1176895641
 mas "Speedtest", id: 1153157709
 mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
+mas "Transporter", id: 1450874784
 mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
