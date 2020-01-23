@@ -1,16 +1,27 @@
 #!/bin/bash
 
-rm .zshrc
-rm .vimrc
-rm Brewfile
+# Removing repo copy folders
+rm -rf zsh
+rm -rf vim
+rm -rf homebrew
+rm -rf flutter
 
+# Making new folders
+mkdir zsh
+mkdir vim
+mkdir homebrew
+mkdir flutter
+
+# Generating Brewfile
 cwd=$(pwd)
 cd ~
 rm Brewfile
 brew bundle dump
 cd $cwd
 
-cp ~/.zshrc .zshrc
-cp ~/.vimrc .vimrc
-cp ~/Brewfile Brewfile
+# Copying files to repo
+cp ~/.zshrc ./zsh/.zshrc
+cp ~/.vimrc ./vim/.vimrc
+cp ~/Brewfile ./homebrew/Brewfile
+cp ~/.flutter_settings ./flutter/.flutter_settings
 
