@@ -37,24 +37,18 @@
   "tabInfo": {
     "tabs": [
       {
-        "id": "407a2a4d-d3a0-4d9b-9f04-f18ac6f38867",
-        "type": "REPO",
-        "repoName": "Dot-Files",
-        "repoPath": "/Users/matthewgleich/Documents/GitHub/Personal/Dot-Files/"
-      },
-      {
-        "id": "4c168f16-502c-466c-9957-713c06399b05",
+        "id": "bd321201-e005-473b-80f6-4b06b7886707",
         "type": "REPO",
         "repoName": "School_Papers",
         "repoPath": "/Users/matthewgleich/Documents/GitHub/School/School_Papers/"
       }
     ],
-    "selectedTabId": "4c168f16-502c-466c-9957-713c06399b05"
+    "selectedTabId": "bd321201-e005-473b-80f6-4b06b7886707"
   },
   "favoriteRepositories": [
     "/Users/matthewgleich/Documents/GitHub/School/School_Papers"
   ],
-  "zoom": 1.2,
+  "zoom": 1.1,
   "ui": {
     "theme": "dark",
     "useAuthorInitialsForAvatars": false
@@ -68,5 +62,6 @@
     "/Users/matthewgleich/Documents/GitHub/Templates": "Templates",
     "/Users/matthewgleich/Documents/GitHub/OpenSource": "OpenSource"
   },
-  "rememberTabs": false
+  "rememberTabs": false,
+  "mergeTool": "file-merge"
 }
