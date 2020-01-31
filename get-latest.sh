@@ -11,7 +11,6 @@ mkdir zsh
 mkdir vim
 mkdir homebrew
 mkdir flutter
-mkdir git
 
 # Generating Brewfile
 cwd=$(pwd)
