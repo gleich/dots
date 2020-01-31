@@ -108,6 +108,7 @@ cask "windows95"
 cask "zoomus"
 cask "zwift"
 mas "1Focus", id: 969210610
+mas "Affinity Photo", id: 824183456
 mas "Asphalt 9", id: 1491129197
 mas "Battery Monitor", id: 836505650
 mas "Break", id: 1273243144
@@ -117,8 +118,10 @@ mas "com.donewithcomputers.winston", id: 1161123070
 mas "Countdowns", id: 926707738
 mas "Day One", id: 1055511498
 mas "Disk Speed Test", id: 425264550
+mas "Downlink", id: 1454269192
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Encrypto", id: 935235287
+mas "Endel", id: 1484348796
 mas "Filters for Photos", id: 1083965373
 mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
