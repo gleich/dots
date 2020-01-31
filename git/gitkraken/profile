@@ -37,13 +37,11 @@
   "tabInfo": {
     "tabs": [
       {
-        "id": "334bfb01-2cb7-41f1-ab9b-21715f956d96",
-        "type": "REPO",
-        "repoName": "Quick-Git",
-        "repoPath": "/Users/matthewgleich/Documents/GitHub/Personal/Quick-Git/"
+        "id": "0030d71a-1c43-4f8d-9dd3-e8dc3126d3aa",
+        "type": "NEW"
       }
     ],
-    "selectedTabId": "334bfb01-2cb7-41f1-ab9b-21715f956d96"
+    "selectedTabId": "0030d71a-1c43-4f8d-9dd3-e8dc3126d3aa"
   },
   "favoriteRepositories": [
     "/Users/matthewgleich/Documents/GitHub/School/School_Papers"
