@@ -37,11 +37,13 @@
   "tabInfo": {
     "tabs": [
       {
-        "id": "0030d71a-1c43-4f8d-9dd3-e8dc3126d3aa",
-        "type": "NEW"
+        "id": "6ddd476d-cb16-4987-b2e4-d51074e2b0ba",
+        "type": "REPO",
+        "repoName": "Dot-Files",
+        "repoPath": "/Users/matthewgleich/Documents/GitHub/Personal/Dot-Files/"
       }
     ],
-    "selectedTabId": "0030d71a-1c43-4f8d-9dd3-e8dc3126d3aa"
+    "selectedTabId": "6ddd476d-cb16-4987-b2e4-d51074e2b0ba"
   },
   "favoriteRepositories": [
     "/Users/matthewgleich/Documents/GitHub/School/School_Papers"

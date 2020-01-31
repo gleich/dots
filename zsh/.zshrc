@@ -113,7 +113,6 @@ alias gc="git commit -m"
 alias gs="git status"
 alias gitb="cd ~/Documents/Github"
 alias p=python3
-alias pip="python3 -m pip"
 alias sl=ls
 alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/move-pdf-files.py"
 alias mktex="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
