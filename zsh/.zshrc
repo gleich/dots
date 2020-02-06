@@ -117,6 +117,7 @@ alias sl=ls
 alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/move-pdf-files.py"
 alias mktex="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
 alias aco="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/auto-commit.py"
+alias study='open -na "Google Chrome" --args --incognito "https://www.youtube.com/watch?v=PErqizZqLjI"'
 alias dsa="docker ps -a"
 alias dp="docker system prune -a"
 alias per="cd ~/Documents/Github/Personal"
