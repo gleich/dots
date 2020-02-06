@@ -125,6 +125,7 @@ alias sch="cd ~/Documents/Github/School/School_Papers"
 alias robo="cd ~/Documents/Github/Robotics"
 alias da="dart"
 alias ta=task
+alias gcom='open -na "Google Chrome" --args "https://github.com/Matt-Gleich"'
 
 cd ~/Documents/Github;
 
