@@ -60,4 +60,6 @@
     "latex-workshop.intellisense.package.enabled": true,
     "editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monospace",
     "explorer.confirmDragAndDrop": false,
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": false,
 }
