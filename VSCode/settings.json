@@ -54,7 +54,7 @@
     "python.jediEnabled": false,
     "files.autoSaveDelay": 500,
     "emmet.showSuggestionsAsSnippets": true,
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.formatOnSave": true,
     "latex-workshop.intellisense.package.enabled": true,
