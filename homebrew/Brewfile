@@ -85,6 +85,7 @@ brew "zsh-syntax-highlighting"
 brew "antoniott15/fgf/fgf"
 brew "dart-lang/dart/dart"
 brew "github/gh/gh"
+cask "atom"
 cask "balenaetcher"
 cask "brave-browser"
 cask "cakebrew"
@@ -127,12 +128,10 @@ mas "CleanMyDrive 2", id: 523620159
 mas "ColorSlurp", id: 1287239339
 mas "com.donewithcomputers.winston", id: 1161123070
 mas "Countdowns", id: 926707738
-mas "Day One", id: 1055511498
 mas "Disk Speed Test", id: 425264550
 mas "Downlink", id: 1454269192
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Encrypto", id: 935235287
-mas "Endel", id: 1484348796
 mas "Filters for Photos", id: 1083965373
 mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
@@ -161,7 +160,6 @@ mas "Speedtest", id: 1153157709
 mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
 mas "Toolbox for Keynote -Templates", id: 582635628
-mas "Toolbox for Pages - Templates", id: 571654652
 mas "Transporter", id: 1450874784
 mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
