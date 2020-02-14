@@ -8,7 +8,11 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.exclude": {
         ".idea": true,
-        "**/*.class": true
+        "**/*.class": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     },
     "git.autofetch": true,
     "search.useGlobalIgnoreFiles": true,
@@ -49,7 +53,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "terminal.integrated.inheritEnv": false,
-    "go.formatTool": "goimports",
+    "go.formatTool": "gofmt",
     "go.useLanguageServer": true,
     "python.jediEnabled": false,
     "files.autoSaveDelay": 500,
@@ -65,4 +69,25 @@
     "yaclock.showDate": true,
     "yaclock.showAmPm": true,
     "workbench.colorTheme": "Kelp Forest Italic",
+    "resmon.showcpufreq": false,
+    "resmon.showmem": false,
+    "editor.renderWhitespace": "selection",
+    "editor.wordWrap": "on",
+    "editor.autoClosingBrackets": "always",
+    "workbench.editor.labelFormat": "short",
+    "zenMode.hideLineNumbers": false,
+    "timeline.showView": true,
+    "dart.flutterCreateAndroidLanguage": "java",
+    "dart.previewFlutterUiGuides": true,
+    "discord.silent": true,
+    "discord.workspaceElapsedTime": true,
+    "discord.detailsIdle": "Just Chillin",
+    "git.alwaysSignOff": true,
+    "go.autocompleteUnimportedPackages": true,
+    "html.format.indentInnerHtml": true,
+    "html.mirrorCursorOnMatchingTag": true,
+    "latex-workshop.hover.preview.cursor.enabled": false,
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "yaclock.flashTimeSeparator": true,
+    "yaclock.priority": 100
 }
