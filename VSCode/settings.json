@@ -16,7 +16,7 @@
     },
     "git.autofetch": true,
     "search.useGlobalIgnoreFiles": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "editor.fontSize": 16.5,
     "java.errors.incompleteClasspath.severity": "ignore",
     "sync.gist": "1c8f567b8f0109cc00bd0083cd7434b7",
@@ -75,6 +75,7 @@
     "editor.renderWhitespace": "selection",
     "editor.wordWrap": "on",
     "editor.autoClosingBrackets": "always",
+    "workbench.editor.limit.value": 3,
     "workbench.editor.labelFormat": "short",
     "zenMode.hideLineNumbers": false,
     "timeline.showView": true,
@@ -125,5 +126,13 @@
         "typescriptreact",
         "yaml",
         "yml"
-    ]
+    ],
+    "copyrightInserter.holder": "Matthew Gleich",
+    "copyrightInserter.license": "mit",
+    "copyrightInserter.year": "2020",
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path": "/Users/matthewgleich/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.helm-path": "/Users/matthewgleich/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path": "/Users/matthewgleich/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    }
 }

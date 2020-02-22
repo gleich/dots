@@ -120,6 +120,7 @@ cask "windows95"
 cask "zoomus"
 cask "zwift"
 mas "1Focus", id: 969210610
+mas "AdBlock", id: 1402042596
 mas "Affinity Photo", id: 824183456
 mas "Asphalt 9", id: 1491129197
 mas "Battery Monitor", id: 836505650
