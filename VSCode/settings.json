@@ -35,6 +35,7 @@
         "RGBO",
         "chdir",
         "colorbox",
+        "cupertino",
         "dateutil",
         "dtype",
         "imread",
