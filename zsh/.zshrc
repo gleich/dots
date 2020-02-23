@@ -126,7 +126,7 @@ alias robo="cd ~/Documents/Github/Robotics"
 alias da="dart"
 alias ta=task
 alias gcom='open -na "Google Chrome" --args "https://github.com/Matt-Gleich"'
-alias updateEverything="brew update && brew upgrade && brew cask upgrade && flutter upgrade"
+alias updateEverything="brew update && brew upgrade && brew cask upgrade && flutter upgrade && brew cleanup"
 
 cd ~/Documents/Github;
 
