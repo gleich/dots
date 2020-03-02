@@ -63,7 +63,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.formatOnSave": true,
     "latex-workshop.intellisense.package.enabled": true,
-    "editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code",
     "explorer.confirmDragAndDrop": false,
     "dart.debugExternalLibraries": true,
     "dart.debugSdkLibraries": true,
@@ -138,5 +138,6 @@
     },
     "yaml.schemas": {
         "file:///Users/matthewgleich/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.6/schemas/action.schema.json": "/action.yml"
-    }
+    },
+    "editor.fontLigatures": true,
 }
