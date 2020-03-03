@@ -17,6 +17,7 @@ brew "bash-completion"
 brew "libpng"
 brew "python"
 brew "cask"
+brew "ccat"
 brew "cmake"
 brew "cmatrix"
 brew "cookiecutter"
@@ -148,6 +149,7 @@ mas "Encrypto", id: 935235287
 mas "Filters for Photos", id: 1083965373
 mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
+mas "GIPHY CAPTURE", id: 668208984
 mas "HEIC Converter", id: 1294126402
 mas "Howler Timer", id: 428846772
 mas "Hype 4", id: 1460330618
