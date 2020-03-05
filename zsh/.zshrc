@@ -129,6 +129,8 @@ alias gcom='open -na "Google Chrome" --args "https://github.com/Matt-Gleich"'
 alias updateEverything="brew update && brew upgrade && brew cask upgrade && flutter upgrade && brew cleanup"
 alias gitkraken="/Applications/GitKraken.app/Contents/MacOS/GitKraken -p "
 alias cat=ccat
+alias dcu="docker compose up -d"
+alias dcd="docker compose down && docker system prune -a"
 
 cd ~/Documents/Github;
 
