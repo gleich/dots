@@ -41,6 +41,7 @@
         "imread",
         "infographics",
         "mattgleich",
+        "matthewgleich",
         "ngnix",
         "numpy",
         "popen",
@@ -140,4 +141,5 @@
         "file:///Users/matthewgleich/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.6/schemas/action.schema.json": "/action.yml"
     },
     "editor.fontLigatures": true,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
 }
