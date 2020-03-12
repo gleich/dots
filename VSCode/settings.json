@@ -33,6 +33,7 @@
         "Hagner",
         "Ints",
         "RGBO",
+        "Rubba",
         "chdir",
         "colorbox",
         "cupertino",
@@ -72,7 +73,6 @@
     "yaclock.hour12": true,
     "yaclock.showDate": true,
     "yaclock.showAmPm": true,
-    "workbench.colorTheme": "Polykai",
     "resmon.showcpufreq": false,
     "resmon.showmem": false,
     "editor.renderWhitespace": "selection",
@@ -145,4 +145,5 @@
     "editor.fontLigatures": true,
     "dart.warnWhenEditingFilesOutsideWorkspace": false,
     "liveshare.featureSet": "insiders",
+    "workbench.colorTheme": "Polykai",
 }
