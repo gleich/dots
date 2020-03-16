@@ -145,5 +145,5 @@
     "editor.fontLigatures": true,
     "dart.warnWhenEditingFilesOutsideWorkspace": false,
     "liveshare.featureSet": "insiders",
-    "workbench.colorTheme": "An old Hope with italics",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
 }

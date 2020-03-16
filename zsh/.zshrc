@@ -150,3 +150,4 @@ source /Users/matthewgleich/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting
 
 # Dart Pub
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+
