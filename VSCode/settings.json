@@ -34,6 +34,7 @@
         "Ints",
         "RGBO",
         "Rubba",
+        "Xcode",
         "chdir",
         "colorbox",
         "cupertino",
@@ -144,7 +145,7 @@
     "editor.fontLigatures": true,
     "dart.warnWhenEditingFilesOutsideWorkspace": false,
     "liveshare.featureSet": "insiders",
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorTheme": "Kelp Forest Italic",
     "workbench.editor.highlightModifiedTabs": true,
     "discord.detailsEditing": "✏️{filename} in {dirname}",
     "discord.detailsDebugging": "🐞{filename} in {dirname}",
@@ -153,4 +154,7 @@
     "discord.largeImageIdle": "🥶Idling",
     "discord.largeImage": "✏️{LANG} file",
     "discord.lowerDetailsIdle": "🥶Idling",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
 }
