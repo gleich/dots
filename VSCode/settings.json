@@ -1,5 +1,4 @@
 {
-    "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "cSpell.language": "en",
@@ -45,6 +44,7 @@
         "macos",
         "mattgleich",
         "matthewgleich",
+        "mgleich",
         "ngnix",
         "numpy",
         "popen",
@@ -67,7 +67,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.formatOnSave": true,
     "latex-workshop.intellisense.package.enabled": true,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace",
     "explorer.confirmDragAndDrop": false,
     "dart.debugExternalLibraries": true,
     "dart.debugSdkLibraries": true,
@@ -145,7 +145,7 @@
     "editor.fontLigatures": true,
     "dart.warnWhenEditingFilesOutsideWorkspace": false,
     "liveshare.featureSet": "insiders",
-    "workbench.colorTheme": "Kelp Forest Italic",
+    "workbench.colorTheme": "Julia (Monokai Vibrant)",
     "workbench.editor.highlightModifiedTabs": true,
     "discord.detailsEditing": "✏️{filename} in {dirname}",
     "discord.detailsDebugging": "🐞{filename} in {dirname}",
@@ -157,4 +157,65 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "name": "comment",
+    //             "scope": [
+    //                 "comment"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "name": "Keyword Storage",
+    //             "scope": [
+    //                 "keyword",
+    //                 "storage",
+    //                 "keyword.control"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "name": "Entity",
+    //             "scope": [
+    //                 "entity.name.type.class", //class names
+    //                 "entity.other.attribute-name",
+    //                 "entity.name.method",
+    //                 "entity.name.tag"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "name": "Variable",
+    //             "scope": [
+    //                 "variable.language",
+    //                 "meta.paragraph.markdown",
+    //                 "support.type.property-name.json",
+    //                 "string.other.link.title.markdown"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "name": "Markdown",
+    //             "scope": [
+    //                 "meta.paragraph.markdown",
+    //                 "string.other.link.title.markdown",
+    //                 "markup.underline.link.markdown"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //     ]
+    // }
 }
