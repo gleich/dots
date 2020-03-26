@@ -3,22 +3,21 @@
 # Removing repo copy folders
 rm -rf zsh
 rm -rf vim
-rm -rf homebrew
+rm -rf homebrew/Brewfile
 rm -rf flutter
 rm -rf VSCode
 
 # Making new folders
 mkdir zsh
 mkdir vim
-mkdir homebrew
 mkdir flutter
 mkdir VSCode
 
 # Generating Brewfile
 cwd=$(pwd)
 cd ~
-rm Brewfile
-brew bundle dump
+rm -rf Brewfile
+brew bundle dump --describe
 cd $cwd
 
 # Copying files to repo
