@@ -11,90 +11,177 @@ tap "homebrew/services"
 tap "rodionovd/taps"
 tap "sambadevi/powerlevel9k"
 cask "xquartz"
+# Automate deployment, configuration, and upgrading
 brew "ansible"
+# C++ template library for linear algebra
 brew "eigen"
+# Programmable completion for Bash 3.2
 brew "bash-completion"
+# Library for manipulating PNG images
 brew "libpng"
+# Interpreted, interactive, object-oriented programming language
 brew "python"
+# Emacs dependency management
 brew "cask"
+# Like cat but displays content with syntax highlighting
 brew "ccat"
+# Cross-platform make
 brew "cmake"
+# Console Matrix
 brew "cmatrix"
+# Utility that creates projects from templates
 brew "cookiecutter"
+# Configurable talking characters in ASCII art
 brew "cowsay"
+# Tool for exploring each layer in a docker image
 brew "dive"
+# Pack, ship and run any application as a lightweight container
 brew "docker", link: false
+# Isolated development environments using Docker
 brew "docker-compose", link: false
+# Image manipulation library
 brew "jpeg"
+# TIFF library and utilities
 brew "libtiff"
+# Perl lib for reading and writing EXIF metadata
 brew "exiftool"
+# Color management engine supporting ICC profiles
 brew "little-cms2"
+# Image format providing lossless and lossy compression for web images
 brew "webp"
+# User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Infamous electronic fortune-cookie generator
 brew "fortune"
+# Work on GitHub issues on the command-line
 brew "ghi"
+# Distributed revision control system
 brew "git", link: false
+# GNU Pretty Good Privacy (PGP) package
 brew "gnupg", link: false
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Google Search and News from the command-line
 brew "googler"
+# Version Control Visualization Tool
 brew "gource"
+# GitHub Markdown previewer
 brew "grip"
+# Improved top (interactive process viewer)
 brew "htop"
+# Add GitHub support to git on the command-line
 brew "hub"
+# Library to communicate with iOS devices natively
 brew "libimobiledevice", args: ["HEAD"]
+# Tool for managing apps on iOS devices
 brew "ideviceinstaller"
+# High dynamic-range image file format
 brew "openexr"
+# Install and debug iPhone apps from the command-line
 brew "ios-deploy"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# Tool to move from `docker-compose` to Kubernetes
 brew "kompose"
+# Kubernetes command-line interface
 brew "kubernetes-cli"
+# LastPass command-line interface tool
 brew "lastpass-cli"
+# Terminal file manager
 brew "lf"
+# USB multiplexor library for iOS devices
 brew "libusbmuxd", args: ["HEAD"]
+# Text-based web browser
 brew "lynx"
+# Mac App Store command-line interface
 brew "mas"
+# Run a Kubernetes cluster locally
 brew "minikube"
+# UNIX movie player
 brew "mplayer"
+# Open source relational database management system
 brew "mysql"
+# Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Fast, highly customisable system info script
 brew "neofetch"
+# Port scanning utility for large networks
 brew "nmap"
+# Platform built on V8 to build network applications
 brew "node", link: false
+# Classic snake game with textual interface
 brew "nsnake"
+# High-level interpreted language for numerical computing
 brew "octave"
+# Open source computer vision library
 brew "opencv", link: false
+# General-purpose scripting language
 brew "php"
+# Utility to choose one option from a set of choices
 brew "pick"
+# Animated pipes terminal screensaver
 brew "pipes-sh"
+# Manage compile and link flags for libraries
 brew "pkg-config"
+# Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
+# Interpreted, interactive, object-oriented programming language
 brew "python@2"
+# File browser
 brew "ranger"
+# Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Safe, concurrent, practical language
 brew "rust"
+# Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
+# Low-level access to audio, keyboard, mouse, joystick and graphics
 brew "sdl"
+# Prints a steam locomotive if you type sl instead of ls
 brew "sl"
+# Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Feature-rich console based todo list manager
 brew "task"
+# User interface to the TELNET protocol
 brew "telnet"
+# Programatically correct mistyped console commands
 brew "thefuck"
+# Terminal multiplexer
 brew "tmux"
+# Color-based alternative to figlet (uses libcaca)
 brew "toilet"
+# Command-line client for Travis CI
 brew "travis"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Simple GTD-style task management for the command-line
 brew "ultralist"
+# Terminal-based Tetris clone
+brew "vitetris"
+# Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
 brew "wget"
+# The personal information dashboard for your terminal
 brew "wtfutil"
+# Download YouTube videos from the command-line
 brew "youtube-dl"
+# UNIX shell (command interpreter)
 brew "zsh"
+# Additional completion definitions for zsh
 brew "zsh-completions"
+# Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# CLI for google fonts installation in flutter
 brew "antoniott15/fgf/fgf"
+# ⛏ A CLI Emoji Picker
 brew "bcongdon/ep/ep"
+# The Dart SDK
 brew "dart-lang/dart/dart"
+# GitHub CLI
 brew "github/gh/gh"
+# CLI manager for your text replacements on macOS
 brew "rodionovd/taps/shortcuts"
 cask "adobe-creative-cloud"
 cask "atom"
@@ -121,12 +208,12 @@ cask "google-earth-pro"
 cask "grammarly"
 cask "hazeover"
 cask "hyper"
-cask "istat-menus"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "libreoffice"
 cask "macs-fan-control"
 cask "mactex"
+cask "michaelvillar-timer"
 cask "minecraft"
 cask "notion"
 cask "obinslab-starter"
