@@ -17,3 +17,4 @@ I use Emojis for all of my commits so I can easily identify and sort them. Below
 | 🟡    | Update a file  |
 | 🟢    | Create a file  |
 | 🐛    | Debugging      |
+| 🎨    | UI Changes     |
