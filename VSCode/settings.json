@@ -50,6 +50,7 @@
         "numpy",
         "popen",
         "repo",
+        "sdks",
         "subnational"
     ],
     "workbench.startupEditor": "newUntitledFile",
