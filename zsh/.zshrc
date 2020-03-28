@@ -131,7 +131,7 @@ alias gitkraken="/Applications/GitKraken.app/Contents/MacOS/GitKraken -p "
 alias cat=ccat
 alias dcu="docker-compose up -d"
 alias dcd="docker compose down && docker system prune -a"
-alias snake='open -a "Google Chrome" --args "https://www.google.com/fbx?fbx=snake_arcade"'
+alias snake='open https://www.google.com/fbx\?fbx\=snake_arcade'
 cd ~/Documents/Github;
 
 # added by travis gem

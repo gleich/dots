@@ -15,7 +15,7 @@
     },
     "git.autofetch": true,
     "search.useGlobalIgnoreFiles": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.fontSize": 16.5,
     "java.errors.incompleteClasspath.severity": "ignore",
     "sync.gist": "1c8f567b8f0109cc00bd0083cd7434b7",
@@ -161,7 +161,7 @@
     "latex-workshop.message.error.show": false,
     "latex-workshop.message.warning.show": false,
     "kite.showGoBetaNotification": false,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     // "editor.tokenColorCustomizations": {
     //     "textMateRules": [
     //         {
