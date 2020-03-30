@@ -20,3 +20,4 @@ I use Emojis for all of my commits so I can easily identify and sort them. Below
 | 🎨    | UI Changes     |
 | 📦    | Dependencies   |
 | 🤖    | CI/CD          |
+| 🧹    | Clean Up Code  |
