@@ -9,7 +9,7 @@ I use Emojis for all of my commits so I can easily identify and sort them. Below
 | Emoji | Description    |
 | ----- | -------------- |
 | 📄    | Documentation  |
-| 🔧    | Fix            |
+| 🛠️    | Fix            |
 | 🚀    | New Feature    |
 | 🧪    | Testing        |
 | 🙁    | Remove Feature |
@@ -19,3 +19,4 @@ I use Emojis for all of my commits so I can easily identify and sort them. Below
 | 🐛    | Debugging      |
 | 🎨    | UI Changes     |
 | 📦    | Dependencies   |
+| 🤖    | CI/CD          |
