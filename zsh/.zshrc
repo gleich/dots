@@ -114,20 +114,19 @@ alias gs="git status"
 alias gitb="cd ~/Documents/Github"
 alias p=python3
 alias sl=ls
-alias pdfmv="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/move-pdf-files.py"
-alias mktex="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/make-template.py"
-alias aco="python3 ~/Documents/Github/School/School_Papers/Automation-Scripts/auto-commit.py"
+alias pdfmv="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/move-pdf-files.py"
+alias mktex="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/make-template.py"
+alias aco="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/auto-commit.py"
 alias study='open -na "Google Chrome" --args --incognito "https://www.youtube.com/watch?v=PErqizZqLjI"'
 alias dsa="docker ps -a"
 alias dp="docker system prune -a"
 alias per="cd ~/Documents/Github/Personal"
-alias sch="cd ~/Documents/Github/School/School_Papers"
+alias sch="cd ~/Documents/Github/School/School-Papers"
 alias robo="cd ~/Documents/Github/Robotics"
 alias da="dart"
 alias ta=task
 alias gcom='open -na "Google Chrome" --args "https://github.com/Matt-Gleich"'
 alias updateEverything="brew update && brew upgrade && brew cask upgrade && flutter upgrade && brew cleanup"
-alias gitkraken="/Applications/GitKraken.app/Contents/MacOS/GitKraken -p "
 alias cat=ccat
 alias dcu="docker-compose up -d"
 alias dcd="docker compose down && docker system prune -a"
@@ -146,6 +145,8 @@ eval "$(thefuck --alias)"
 # Flutter:
 export PATH="$PATH:/Users/matthewgleich/development/flutter/bin"
 export ENABLE_FLUTTER_DESKTOP=true
+
+# ZSH Syntax Highlighting
 source /Users/matthewgleich/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Dart Pub

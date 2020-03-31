@@ -69,7 +69,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.formatOnSave": true,
     "latex-workshop.intellisense.package.enabled": true,
-    "editor.fontFamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code",
     "explorer.confirmDragAndDrop": false,
     "dart.debugExternalLibraries": true,
     "dart.debugSdkLibraries": true,
