@@ -12,7 +12,7 @@ I use Emojis for all of my commits so I can easily identify and sort them. Below
 | 🛠️    | Fix            |
 | 🚀    | New Feature    |
 | 🧪    | Testing        |
-| 🙁    | Remove Feature |
+| ❌    | Remove Feature |
 | 🍎    | Remove a file  |
 | 🍊    | Update a file  |
 | 🍏    | Create a file  |
@@ -20,4 +20,5 @@ I use Emojis for all of my commits so I can easily identify and sort them. Below
 | 🎨    | UI Changes     |
 | 📦    | Dependencies   |
 | 🤖    | CI/CD          |
-| 🧹    | Clean Up Code  |
+| 🧼    | Clean Up Code  |
+| ⚙️      | Configuration  |
