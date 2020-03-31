@@ -163,6 +163,7 @@
     "latex-workshop.message.warning.show": false,
     "kite.showGoBetaNotification": false,
     "workbench.activityBar.visible": true,
+    "discord.workspaceElapsedTime": true,
     // "editor.tokenColorCustomizations": {
     //     "textMateRules": [
     //         {
