@@ -18,9 +18,6 @@
     "window.zoomLevel": 0,
     "editor.fontSize": 16.5,
     "java.errors.incompleteClasspath.severity": "ignore",
-    "sync.gist": "1c8f567b8f0109cc00bd0083cd7434b7",
-    "sync.autoDownload": true,
-    "sync.autoUpload": true,
     "latex-workshop.message.update.show": false,
     "latex-workshop.view.pdf.viewer": "tab",
     "workbench.iconTheme": "vscode-icons",
@@ -77,8 +74,6 @@
     "yaclock.hour12": true,
     "yaclock.showDate": true,
     "yaclock.showAmPm": true,
-    "resmon.showcpufreq": false,
-    "resmon.showmem": false,
     "editor.renderWhitespace": "selection",
     "editor.wordWrap": "on",
     "editor.autoClosingBrackets": "always",
@@ -147,13 +142,12 @@
     },
     "editor.fontLigatures": true,
     "dart.warnWhenEditingFilesOutsideWorkspace": false,
-    "liveshare.featureSet": "insiders",
     "workbench.colorTheme": "Julia (Monokai Vibrant)",
     "workbench.editor.highlightModifiedTabs": true,
     "discord.detailsEditing": "✏️{filename} in {dirname}",
-    "discord.detailsDebugging": "🐞{filename} in {dirname}",
+    "discord.detailsDebugging": "✏️{filename} in {dirname}",
     "discord.lowerDetailsEditing": "📦{workspace}",
-    "discord.lowerDetailsDebugging": "🐞{workspace}",
+    "discord.lowerDetailsDebugging": "✏️{workspace}",
     "discord.largeImageIdle": "🥶Idling",
     "discord.largeImage": "✏️{LANG} file",
     "discord.lowerDetailsIdle": "🥶Idling",
@@ -165,63 +159,5 @@
     "kite.showGoBetaNotification": false,
     "workbench.activityBar.visible": false,
     "discord.workspaceElapsedTime": true,
-    // "editor.tokenColorCustomizations": {
-    //     "textMateRules": [
-    //         {
-    //             "name": "comment",
-    //             "scope": [
-    //                 "comment"
-    //             ],
-    //             "settings": {
-    //                 "fontStyle": "italic"
-    //             }
-    //         },
-    //         {
-    //             "name": "Keyword Storage",
-    //             "scope": [
-    //                 "keyword",
-    //                 "storage",
-    //                 "keyword.control"
-    //             ],
-    //             "settings": {
-    //                 "fontStyle": "italic"
-    //             }
-    //         },
-    //         {
-    //             "name": "Entity",
-    //             "scope": [
-    //                 "entity.name.type.class", //class names
-    //                 "entity.other.attribute-name",
-    //                 "entity.name.method",
-    //                 "entity.name.tag"
-    //             ],
-    //             "settings": {
-    //                 "fontStyle": "italic"
-    //             }
-    //         },
-    //         {
-    //             "name": "Variable",
-    //             "scope": [
-    //                 "variable.language",
-    //                 "meta.paragraph.markdown",
-    //                 "support.type.property-name.json",
-    //                 "string.other.link.title.markdown"
-    //             ],
-    //             "settings": {
-    //                 "fontStyle": "italic"
-    //             }
-    //         },
-    //         {
-    //             "name": "Markdown",
-    //             "scope": [
-    //                 "meta.paragraph.markdown",
-    //                 "string.other.link.title.markdown",
-    //                 "markup.underline.link.markdown"
-    //             ],
-    //             "settings": {
-    //                 "fontStyle": "italic"
-    //             }
-    //         },
-    //     ]
-    // }
+    "workbench.editor.showTabs": false
 }
