@@ -10,7 +10,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "rodionovd/taps"
 tap "sambadevi/powerlevel9k"
-cask "xquartz"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # C++ template library for linear algebra
@@ -188,7 +187,6 @@ cask "atom"
 cask "balenaetcher"
 cask "cakebrew"
 cask "chromedriver"
-cask "cinebench"
 cask "cool-retro-term"
 cask "corona-tracker"
 cask "discord"
@@ -198,16 +196,12 @@ cask "dozer"
 cask "drawio"
 cask "figma"
 cask "font-fira-code"
-cask "geekbench"
 cask "geotag-photos-pro"
 cask "github"
-cask "githubpulse"
 cask "google-backup-and-sync"
 cask "google-chrome"
-cask "google-earth-pro"
 cask "grammarly"
 cask "hazeover"
-cask "hyper"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "libreoffice"
@@ -216,15 +210,12 @@ cask "mactex"
 cask "michaelvillar-timer"
 cask "minecraft"
 cask "notion"
-cask "obinslab-starter"
 cask "obs"
 cask "opera"
 cask "pock"
 cask "postman"
-cask "roblox"
 cask "rocket"
 cask "sdformatter"
-cask "sensei"
 cask "shortcuts"
 cask "vagrant"
 cask "visual-studio-code"
@@ -235,13 +226,11 @@ cask "zwift"
 mas "1Focus", id: 969210610
 mas "AdBlock", id: 1402042596
 mas "Affinity Photo", id: 824183456
-mas "Asphalt 9", id: 1491129197
 mas "Battery Monitor", id: 836505650
 mas "Break", id: 1273243144
 mas "CleanMyDrive 2", id: 523620159
 mas "ColorSlurp", id: 1287239339
 mas "com.donewithcomputers.winston", id: 1161123070
-mas "Countdowns", id: 926707738
 mas "Disk Speed Test", id: 425264550
 mas "Downlink", id: 1454269192
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
@@ -251,7 +240,6 @@ mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "HEIC Converter", id: 1294126402
-mas "Howler Timer", id: 428846772
 mas "Hype 4", id: 1460330618
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
@@ -273,11 +261,9 @@ mas "Slack", id: 803453959
 mas "Sleep Alarm Clock", id: 1091149644
 mas "Spark", id: 1176895641
 mas "Speedtest", id: 1153157709
-mas "Subnet 64", id: 1348607909
 mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
 mas "The Unarchiver", id: 425424353
-mas "Toolbox for Keynote -Templates", id: 582635628
 mas "Transporter", id: 1450874784
 mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543

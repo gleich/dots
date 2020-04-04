@@ -15,7 +15,7 @@
     },
     "git.autofetch": true,
     "search.useGlobalIgnoreFiles": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.fontSize": 16.5,
     "java.errors.incompleteClasspath.severity": "ignore",
     "latex-workshop.message.update.show": false,
@@ -23,6 +23,8 @@
     "workbench.iconTheme": "vscode-icons",
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "cSpell.userWords": [
+        "COVID",
+        "Coronavirus",
         "Gleich",
         "Goffstown",
         "Graff",
@@ -92,7 +94,6 @@
     "latex-workshop.hover.preview.cursor.enabled": false,
     "vsintellicode.features.python.deepLearning": "enabled",
     "yaclock.flashTimeSeparator": true,
-    "yaclock.priority": 100,
     "cSpell.enabledLanguageIds": [
         "asciidoc",
         "c",
@@ -159,5 +160,9 @@
     "kite.showGoBetaNotification": false,
     "workbench.activityBar.visible": false,
     "discord.workspaceElapsedTime": true,
-    "workbench.editor.showTabs": false
+    "workbench.editor.showTabs": false,
+    "resmon.show.cpufreq": false,
+    "resmon.show.mem": false,
+    "yaclock.prefix": "⏰ ",
+    "yaclock.showDay": true
 }
