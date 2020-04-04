@@ -130,8 +130,6 @@ brew "python@2"
 brew "ranger"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
-# Safe, concurrent, practical language
-brew "rust"
 # Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
 # Low-level access to audio, keyboard, mouse, joystick and graphics
