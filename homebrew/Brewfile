@@ -18,14 +18,14 @@ brew "eigen"
 brew "bash-completion"
 # Library for manipulating PNG images
 brew "libpng"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Emacs dependency management
 brew "cask"
 # Like cat but displays content with syntax highlighting
 brew "ccat"
 # Cross-platform make
 brew "cmake"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Console Matrix
 brew "cmatrix"
 # Utility that creates projects from templates
