@@ -150,7 +150,7 @@
     "discord.detailsEditing": "✏️{filename} in {dirname}",
     "discord.detailsDebugging": "✏️{filename} in {dirname}",
     "discord.lowerDetailsEditing": "📦{workspace}",
-    "discord.lowerDetailsDebugging": "✏️{workspace}",
+    "discord.lowerDetailsDebugging": "📦{workspace}",
     "discord.largeImageIdle": "🥶Idling",
     "discord.largeImage": "✏️{LANG} file",
     "discord.lowerDetailsIdle": "🥶Idling",
