@@ -92,17 +92,5 @@
 		<key>shortcut</key>
 		<string>:feature:</string>
 	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>On my way!</string>
-		<key>shortcut</key>
-		<string>omw</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>Join. we give lots of troops. we have nice people</string>
-		<key>shortcut</key>
-		<string>cl</string>
-	</dict>
 </array>
 </plist>

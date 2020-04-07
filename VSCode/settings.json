@@ -166,5 +166,7 @@
     "resmon.show.cpufreq": false,
     "resmon.show.mem": false,
     "yaclock.prefix": "⏰ ",
-    "yaclock.showDay": true
+    "yaclock.showDay": true,
+    "workbench.sideBar.location": "right",
+    "debug.openDebug": "neverOpen"
 }
