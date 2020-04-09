@@ -51,6 +51,7 @@
         "ngnix",
         "numpy",
         "popen",
+        "pubspec",
         "repo",
         "sdks",
         "subnational"
