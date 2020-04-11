@@ -10,6 +10,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "rodionovd/taps"
+tap "romkatv/powerlevel10k"
 tap "sambadevi/powerlevel9k"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
@@ -181,6 +182,8 @@ brew "dart-lang/dart/dart"
 brew "github/gh/gh"
 # CLI manager for your text replacements on macOS
 brew "rodionovd/taps/shortcuts"
+# A Zsh Theme
+brew "romkatv/powerlevel10k/powerlevel10k"
 cask "adobe-creative-cloud"
 cask "atom"
 cask "balenaetcher"
