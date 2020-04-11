@@ -28,7 +28,7 @@ shortcuts read --as-plist >> macos/shortcuts.plist
 
 # Copying files to repo
 cp ~/.zshrc ./zsh/.zshrc
-cp ~/.p10k.zsh ./zsh/.zshrc
+cp ~/.p10k.zsh ./zsh/.p10k.zsh
 cp ~/.vimrc ./vim/.vimrc
 cp ~/Brewfile ./homebrew/Brewfile
 cp ~/.flutter_settings ./flutter/.flutter_settings
