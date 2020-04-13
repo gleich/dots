@@ -138,6 +138,7 @@ alias cat=ccat
 alias dcu="docker-compose up -d"
 alias dcd="docker compose down && docker system prune -a"
 alias snake='open https://www.google.com/fbx\?fbx\=snake_arcade'
+alias lgf='flutter pub run local_google_fonts:main'
 cd ~/Documents/Github;
 
 # added by travis gem
