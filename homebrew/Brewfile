@@ -94,6 +94,8 @@ brew "lastpass-cli"
 brew "lf"
 # USB multiplexor library for iOS devices
 brew "libusbmuxd", args: ["HEAD"]
+# List USB devices, just like the Linux lsusb command
+brew "lsusb"
 # Text-based web browser
 brew "lynx"
 # Mac App Store command-line interface
