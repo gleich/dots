@@ -58,7 +58,8 @@
         "pubspec",
         "repo",
         "sdks",
-        "subnational"
+        "subnational",
+        "textsuperscript"
     ],
     "workbench.startupEditor": "newUntitledFile",
     "[javascript]": {
@@ -183,4 +184,10 @@
     "workbench.settings.useSplitJSON": true,
     "editor.minimap.enabled": false,
     "workbench.activityBar.visible": false,
+    "ltex.en-US.dictionary": [
+        "compat",
+        "Gleich",
+        "itemsep",
+        "todolist"
+    ],
 }
