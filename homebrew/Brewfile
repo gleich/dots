@@ -124,6 +124,8 @@ brew "opencv"
 brew "php"
 # Utility to choose one option from a set of choices
 brew "pick"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
 # Animated pipes terminal screensaver
 brew "pipes-sh"
 # Manage compile and link flags for libraries
