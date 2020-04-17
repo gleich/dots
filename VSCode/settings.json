@@ -183,7 +183,7 @@
     "terminal.external.osxExec": "iTerm.app",
     "workbench.settings.useSplitJSON": true,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "ltex.en-US.dictionary": [
         "compat",
         "Gleich",
