@@ -194,4 +194,18 @@
     ],
     "yaml.format.singleQuote": true,
     "prettier.singleQuote": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment",
+                    "variable.language"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
 }
