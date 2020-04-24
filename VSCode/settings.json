@@ -19,7 +19,7 @@
     "editor.fontSize": 16.5,
     "java.errors.incompleteClasspath.severity": "ignore",
     "latex-workshop.message.update.show": false,
-    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.viewer": "browser",
     "workbench.iconTheme": "vscode-icons",
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "cSpell.userWords": [
@@ -185,7 +185,7 @@
     "terminal.external.osxExec": "iTerm.app",
     "workbench.settings.useSplitJSON": true,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "ltex.en-US.dictionary": [
         "compat",
         "Gleich",
