@@ -191,6 +191,7 @@ brew "rodionovd/taps/shortcuts"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 cask "adobe-creative-cloud"
+cask "airtable"
 cask "arduino"
 cask "atom"
 cask "balenaetcher"
