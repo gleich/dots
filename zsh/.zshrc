@@ -78,7 +78,11 @@ ZSH_THEME="norm"
 plugins=(
     git
     wakatime
+    zsh-completions
     )
+
+# Reload competitions
+autoload -U compinit && compinit
 
 source $ZSH/oh-my-zsh.sh
 

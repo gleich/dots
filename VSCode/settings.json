@@ -41,6 +41,7 @@
         "Rubba",
         "Stateful",
         "Xcode",
+        "arange",
         "autofocus",
         "chdir",
         "colorbox",
@@ -48,6 +49,7 @@
         "cupertino",
         "dateutil",
         "dtype",
+        "fluttercommunity",
         "getcwd",
         "imread",
         "infographics",
@@ -56,6 +58,7 @@
         "matthewgleich",
         "mgleich",
         "mkdir",
+        "ndarray",
         "ngnix",
         "numpy",
         "popen",
@@ -188,7 +191,7 @@
     "terminal.external.osxExec": "iTerm.app",
     "workbench.settings.useSplitJSON": true,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "ltex.en-US.dictionary": [
         "compat",
         "Gleich",
@@ -211,4 +214,7 @@
             }
         ]
     },
+    "bracket-pair-colorizer-2.rulerPosition": "Full",
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+    "bracket-pair-colorizer-2.highlightActiveScope": true,
 }
