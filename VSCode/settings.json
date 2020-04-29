@@ -26,6 +26,7 @@
         "COVID",
         "Coronavirus",
         "Datatypes",
+        "Elon",
         "Gleich",
         "Goffstown",
         "Graff",
@@ -67,7 +68,8 @@
         "repo",
         "sdks",
         "subnational",
-        "textsuperscript"
+        "textsuperscript",
+        "zwift"
     ],
     "workbench.startupEditor": "newUntitledFile",
     "[javascript]": {
