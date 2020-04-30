@@ -145,9 +145,6 @@ alias snake='open https://www.google.com/fbx\?fbx\=snake_arcade'
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
 
-# Python
-echo 'export PATH="/usr/local/opt/python@3.8/bin:$PATH"' >> ~/.zshrc
-
 # added by travis gem
 [ -f /Users/matthewgleich/.travis/travis.sh ] && source /Users/matthewgleich/.travis/travis.sh
 
@@ -173,11 +170,3 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
