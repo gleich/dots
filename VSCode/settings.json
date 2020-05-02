@@ -61,6 +61,7 @@
         "mgleich",
         "mkdir",
         "ndarray",
+        "negatable",
         "ngnix",
         "numpy",
         "popen",
