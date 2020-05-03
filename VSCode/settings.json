@@ -15,7 +15,7 @@
     },
     "git.autofetch": true,
     "search.useGlobalIgnoreFiles": true,
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 1,
     "editor.fontSize": 16.5,
     "java.errors.incompleteClasspath.severity": "ignore",
     "latex-workshop.message.update.show": false,
