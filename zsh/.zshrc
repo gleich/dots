@@ -145,6 +145,9 @@ alias snake='open https://www.google.com/fbx\?fbx\=snake_arcade'
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
 
+# morse-module
+export PATH="$PATH:/Users/matthewgleich/Documents/Github/Personal/Morse-Module/releases/macos"
+
 # added by travis gem
 [ -f /Users/matthewgleich/.travis/travis.sh ] && source /Users/matthewgleich/.travis/travis.sh
 
