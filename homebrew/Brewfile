@@ -35,6 +35,8 @@ brew "cmatrix"
 brew "cookiecutter"
 # Configurable talking characters in ASCII art
 brew "cowsay"
+# Command-line JavaScript / TypeScript engine
+brew "deno"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
