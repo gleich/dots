@@ -142,6 +142,8 @@ module.exports = {
     hyperline: {
       plugins: ['cpu', 'network', 'battery'],
     },
+
+    commands: ['cd /Users/matthewgleich/Documents/Github', 'clear'],
   },
 
   // a list of plugins to fetch and install from npm
@@ -150,7 +152,14 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-search', 'hyper-pane'],
+  plugins: [
+    'hyper-search',
+    'hyper-pane',
+    'hyper-startup',
+    'hypercwd',
+    'hyperterm-paste',
+    'hyperterm-crosshair',
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
