@@ -8,6 +8,7 @@ rm -rf flutter
 rm -rf VSCode
 rm -rf macos
 rm -rf jrnl
+rm -rf hyper
 
 # Making new folders
 mkdir zsh
@@ -16,6 +17,7 @@ mkdir flutter
 mkdir VSCode
 mkdir macos
 mkdir jrnl
+mkdir hyper
 
 # Generating Brewfile
 cwd=$(pwd)
@@ -29,6 +31,7 @@ touch macos/shortcuts.plist
 shortcuts read --as-plist >> macos/shortcuts.plist
 
 # Copying files to repo
+cp ~/.hyper.js ./hyper/.hyper.js
 cp ~/.zshrc ./zsh/.zshrc
 cp ~/.p10k.zsh ./zsh/.p10k.zsh
 cp ~/.vimrc ./vim/.vimrc

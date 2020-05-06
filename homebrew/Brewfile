@@ -194,15 +194,12 @@ brew "rodionovd/taps/shortcuts"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 cask "adobe-creative-cloud"
-cask "airtable"
 cask "arduino"
 cask "atom"
 cask "balenaetcher"
 cask "brave-browser"
-cask "cakebrew"
 cask "chromedriver"
 cask "cool-retro-term"
-cask "corona-tracker"
 cask "discord"
 cask "docker"
 cask "dockey"
@@ -221,15 +218,13 @@ cask "hazeover"
 cask "hyper"
 cask "iterm2"
 cask "jetbrains-toolbox"
-cask "libreoffice"
+cask "kite"
 cask "macs-fan-control"
 cask "mactex"
 cask "michaelvillar-timer"
-cask "minecraft"
 cask "notion"
 cask "obs"
 cask "opera"
-cask "parallels"
 cask "pock"
 cask "postman"
 cask "rocket"
@@ -245,7 +240,6 @@ mas "1Focus", id: 969210610
 mas "AdBlock", id: 1402042596
 mas "Affinity Photo", id: 824183456
 mas "Battery Monitor", id: 836505650
-mas "Break", id: 1273243144
 mas "CleanMyDrive 2", id: 523620159
 mas "ColorSlurp", id: 1287239339
 mas "com.donewithcomputers.winston", id: 1161123070
@@ -258,7 +252,6 @@ mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "HEIC Converter", id: 1294126402
-mas "Hype 4", id: 1460330618
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
 mas "IPYNB Viewer", id: 1400977081
@@ -285,5 +278,4 @@ mas "The Unarchiver", id: 425424353
 mas "Transporter", id: 1450874784
 mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
-mas "World of Tanks Blitz", id: 1068932208
 mas "Xcode", id: 497799835
