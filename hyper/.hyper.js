@@ -80,14 +80,14 @@ module.exports = {
       blue: '#0A2FC4',
       magenta: '#C839C5',
       cyan: '#20C5C6',
-      white: '#C7C7C7',
-      lightBlack: '#686868',
-      lightRed: '#FD6F6B',
-      lightGreen: '#67F86F',
-      lightYellow: '#FFFA72',
-      lightBlue: '#6A76FB',
-      lightMagenta: '#FD7CFC',
-      lightCyan: '#68FDFE',
+      white: '#FFFFFF',
+      lightBlack: '#000000',
+      lightRed: '#C51E14',
+      lightGreen: '#1DC121',
+      lightYellow: '#C7C329',
+      lightBlue: '#0A2FC4',
+      lightMagenta: '#C839C5',
+      lightCyan: '#20C5C6',
       lightWhite: '#FFFFFF',
     },
 
@@ -143,7 +143,7 @@ module.exports = {
       plugins: ['cpu', 'memory', 'battery', 'hostname'],
     },
 
-    commands: ['cd /Users/matthewgleich/Documents/Github', 'clear'],
+    commands: ['cd /Users/matthewgleich/Documents/Github', 'clear', 'neofetch'],
   },
 
   // a list of plugins to fetch and install from npm
@@ -159,7 +159,7 @@ module.exports = {
     'hypercwd',
     'hyperterm-paste',
     'hyperterm-crosshair',
-    "hyperline"
+    'hyperline',
   ],
 
   // in development, you can create a directory under
