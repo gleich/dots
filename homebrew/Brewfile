@@ -155,6 +155,8 @@ brew "task"
 brew "telnet"
 # Programatically correct mistyped console commands
 brew "thefuck"
+# Command-line time tracking application
+brew "timewarrior"
 # Terminal multiplexer
 brew "tmux"
 # Color-based alternative to figlet (uses libcaca)

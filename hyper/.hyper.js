@@ -24,7 +24,7 @@ module.exports = {
     lineHeight: 1,
 
     // letter spacing as a relative unit
-    letterSpacing: 3,
+    letterSpacing: 2,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(0, 212, 42,0.8)',
@@ -140,7 +140,7 @@ module.exports = {
     // for advanced config flags please refer to https://hyper.is/#cfg
 
     hyperline: {
-      plugins: ['cpu', 'network', 'battery'],
+      plugins: ['cpu', 'memory', 'battery', 'hostname'],
     },
 
     commands: ['cd /Users/matthewgleich/Documents/Github', 'clear'],
@@ -159,6 +159,7 @@ module.exports = {
     'hypercwd',
     'hyperterm-paste',
     'hyperterm-crosshair',
+    "hyperline"
   ],
 
   // in development, you can create a directory under

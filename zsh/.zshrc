@@ -144,6 +144,7 @@ alias dcd="docker compose down && docker system prune -a"
 alias snake='open https://www.google.com/fbx\?fbx\=snake_arcade'
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
+alias weather='curl wttr.in'
 
 # morse-module
 export PATH="$PATH:/Users/matthewgleich/Documents/Github/Personal/Morse-Module/releases/macos"
@@ -173,4 +174,4 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export EDITOR=code 
+export EDITOR=code
