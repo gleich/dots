@@ -169,10 +169,13 @@ source /Users/matthewgleich/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting
 # Dart Pub
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
+# Powerlevel 10k
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# setting default editor
 export EDITOR=code
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+
+export PATH="$PATH":/Users/matthewgleich/library/python/3.7/bin
