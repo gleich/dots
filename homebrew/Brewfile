@@ -1,5 +1,6 @@
 tap "antoniott15/fgf"
 tap "bcongdon/ep"
+tap "buo/cask-upgrade"
 tap "dart-lang/dart"
 tap "github/gh"
 tap "homebrew/aliases"
@@ -13,6 +14,8 @@ tap "morse-module/morse-module"
 tap "rodionovd/taps"
 tap "romkatv/powerlevel10k"
 tap "sambadevi/powerlevel9k"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # C++ template library for linear algebra
@@ -67,6 +70,8 @@ brew "gnupg"
 brew "go"
 # Google Search and News from the command-line
 brew "googler"
+# Deliver Go binaries as fast and easily as possible
+brew "goreleaser"
 # Version Control Visualization Tool
 brew "gource"
 # GitHub Markdown previewer
