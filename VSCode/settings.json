@@ -76,6 +76,7 @@
         "sdks",
         "subnational",
         "textsuperscript",
+        "uint",
         "zwift"
     ],
     "workbench.startupEditor": "newUntitledFile",
