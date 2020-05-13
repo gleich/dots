@@ -204,7 +204,7 @@
     "terminal.external.osxExec": "Hyper.app",
     "workbench.settings.useSplitJSON": true,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "ltex.en-US.dictionary": [
         "compat",
         "Gleich",
@@ -242,4 +242,6 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "git.enableSmartCommit": true,
+    "git.enableCommitSigning": true,
 }
