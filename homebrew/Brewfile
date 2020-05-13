@@ -60,6 +60,10 @@ brew "webp"
 brew "fish"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
+# Platform built on V8 to build network applications
+brew "node"
+# Gatsby command-line interface
+brew "gatsby-cli"
 # Work on GitHub issues on the command-line
 brew "ghi"
 # Distributed revision control system
@@ -120,8 +124,6 @@ brew "nano"
 brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
-brew "node"
 # Classic snake game with textual interface
 brew "nsnake"
 # High-level interpreted language for numerical computing

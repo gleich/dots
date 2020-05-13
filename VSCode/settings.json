@@ -77,6 +77,7 @@
         "subnational",
         "textsuperscript",
         "uint",
+        "uncommented",
         "zwift"
     ],
     "workbench.startupEditor": "newUntitledFile",
@@ -167,7 +168,6 @@
     },
     "editor.fontLigatures": true,
     "dart.warnWhenEditingFilesOutsideWorkspace": false,
-    "workbench.colorTheme": "Julia (Monokai Vibrant)",
     "workbench.editor.highlightModifiedTabs": true,
     "discord.detailsEditing": "✏️{filename} in {dirname}",
     "discord.detailsDebugging": "✏️{filename} in {dirname}",
@@ -201,7 +201,7 @@
     "terminal.external.osxExec": "Hyper.app",
     "workbench.settings.useSplitJSON": true,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "ltex.en-US.dictionary": [
         "compat",
         "Gleich",
@@ -233,4 +233,7 @@
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.cursorStyle": "line",
+    "workbench.colorTheme": "Julia (Monokai Vibrant)",
+    "activitusbar.activeColour": "mediumseagreen",
+    "activitusbar.searchViewInPanel": false,
 }
