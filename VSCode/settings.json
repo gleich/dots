@@ -23,6 +23,7 @@
     "workbench.iconTheme": "vscode-icons",
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "cSpell.userWords": [
+        "Boesen",
         "COVID",
         "Coronavirus",
         "Datatypes",
@@ -39,6 +40,7 @@
         "Kubernetes",
         "Linkedin",
         "Minikube",
+        "Printf",
         "Println",
         "RGBO",
         "Roboto",
@@ -78,6 +80,7 @@
         "textsuperscript",
         "uint",
         "uncommented",
+        "unstaged",
         "zwift"
     ],
     "workbench.startupEditor": "newUntitledFile",
@@ -236,4 +239,7 @@
     "workbench.colorTheme": "Julia (Monokai Vibrant)",
     "activitusbar.activeColour": "mediumseagreen",
     "activitusbar.searchViewInPanel": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
