@@ -11,6 +11,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "morse-module/morse-module"
+tap "octo-cli/octo"
 tap "rodionovd/taps"
 tap "romkatv/powerlevel10k"
 tap "sambadevi/powerlevel9k"
@@ -39,7 +40,7 @@ brew "cookiecutter"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Command-line JavaScript / TypeScript engine
-brew "deno"
+brew "deno", link: false
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
@@ -198,6 +199,8 @@ brew "bcongdon/ep/ep"
 brew "dart-lang/dart/dart"
 # GitHub CLI
 brew "github/gh/gh"
+# cli client for GitHub
+brew "octo-cli/octo/octo"
 # CLI manager for your text replacements on macOS
 brew "rodionovd/taps/shortcuts"
 # A Zsh Theme
