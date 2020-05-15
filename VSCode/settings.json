@@ -55,6 +55,7 @@
         "cupertino",
         "dateutil",
         "dtype",
+        "fanboat",
         "fluttercommunity",
         "getcwd",
         "imread",
