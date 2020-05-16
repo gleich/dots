@@ -183,6 +183,8 @@ brew "watch"
 brew "wget"
 # The personal information dashboard for your terminal
 brew "wtfutil"
+# JavaScript package manager
+brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # UNIX shell (command interpreter)
