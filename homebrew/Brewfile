@@ -173,6 +173,8 @@ brew "toilet"
 brew "travis"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Language for application scale JavaScript development
+brew "typescript"
 # Simple GTD-style task management for the command-line
 brew "ultralist"
 # Terminal-based Tetris clone
