@@ -39,7 +39,7 @@ brew "cmatrix"
 brew "cookiecutter"
 # Configurable talking characters in ASCII art
 brew "cowsay"
-# Command-line JavaScript / TypeScript engine
+# Secure runtime for JavaScript and TypeScript
 brew "deno", link: false
 # Tool for exploring each layer in a docker image
 brew "dive"
