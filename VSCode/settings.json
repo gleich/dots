@@ -246,4 +246,5 @@
     },
     "git.enableSmartCommit": true,
     "git.enableCommitSigning": true,
+    "bracket-pair-colorizer-2.showBracketsInRuler": true,
 }
