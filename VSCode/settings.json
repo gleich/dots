@@ -201,7 +201,6 @@
         "#EC407A",
         "#FFFF00",
     ],
-    "editor.cursorStyle": "line-thin",
     "editor.accessibilitySupport": "off",
     "terminal.external.osxExec": "Hyper.app",
     "workbench.settings.useSplitJSON": true,
@@ -247,4 +246,6 @@
     "git.enableSmartCommit": true,
     "git.enableCommitSigning": true,
     "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.hover.delay": 200,
 }
