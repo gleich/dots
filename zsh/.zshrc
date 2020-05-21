@@ -114,34 +114,18 @@ source $ZSH/oh-my-zsh.sh
 #
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-alias q=exit
 alias c=clear
-alias h=history
-alias pd=pwd
-alias t=time
 alias v=vim
-alias gc="git commit -m"
-alias gs="git status"
 alias gitb="cd ~/Documents/Github"
-alias p=python3
 alias sl=ls
 alias pdfmv="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/move-pdf-files.py"
 alias mktex="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/make-template.py"
 alias aco="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/auto-commit.py"
-alias study='open -na "Google Chrome" --args --incognito "https://www.youtube.com/watch?v=PErqizZqLjI"'
-alias dsa="docker ps -a"
-alias dp="docker system prune -a"
 alias per="cd ~/Documents/Github/Personal"
 alias sch="cd ~/Documents/Github/School/School-Papers"
 alias robo="cd ~/Documents/Github/Robotics"
-alias da="dart"
-alias ta=task
-alias gcom='open -na "Google Chrome" --args "https://github.com/Matt-Gleich"'
 alias updateEverything="brew update && brew upgrade && brew cask upgrade && flutter upgrade && brew cleanup && npm upgrade -g && cd /Users/matthewgleich/Documents/Github/Personal/Dot-Files/ && sh push-latest.sh"
 alias cat=ccat
-alias dcu="docker-compose up -d"
-alias dcd="docker compose down && docker system prune -a"
-alias snake='open https://www.google.com/fbx\?fbx\=snake_arcade'
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
 alias weather='curl wttr.in'
@@ -178,4 +162,5 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 # setting default editor
 export EDITOR=code
 
+# Python:
 export PATH="$PATH":/Users/matthewgleich/library/python/3.7/bin
