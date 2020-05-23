@@ -40,7 +40,7 @@ brew "cookiecutter"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Secure runtime for JavaScript and TypeScript
-brew "deno", link: false
+brew "deno"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
@@ -69,6 +69,8 @@ brew "gatsby-cli"
 brew "ghi"
 # Distributed revision control system
 brew "git"
+# GitHub-like contributions calendar but on the command-line
+brew "git-cal"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -268,6 +270,7 @@ mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
 mas "GIPHY CAPTURE", id: 668208984
+mas "GitGrass", id: 1501139279
 mas "HEIC Converter", id: 1294126402
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
