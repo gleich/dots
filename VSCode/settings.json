@@ -249,4 +249,6 @@
     "bracket-pair-colorizer-2.showBracketsInRuler": true,
     "editor.cursorStyle": "line-thin",
     "editor.hover.delay": 200,
+    "files.insertFinalNewline": true,
+    "html.format.endWithNewline": true,
 }
