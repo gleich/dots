@@ -161,8 +161,6 @@ brew "sdl"
 brew "sl"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
-# High-performance system programming language
-brew "swift"
 # Feature-rich console based todo list manager
 brew "task"
 # User interface to the TELNET protocol
