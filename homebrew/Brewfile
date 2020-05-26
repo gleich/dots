@@ -187,6 +187,8 @@ brew "vitetris"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# Translate common Internet acronyms
+brew "wtf"
 # The personal information dashboard for your terminal
 brew "wtfutil"
 # JavaScript package manager
