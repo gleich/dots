@@ -40,6 +40,8 @@ brew "python"
 brew "cmatrix"
 # Utility that creates projects from templates
 brew "cookiecutter"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Secure runtime for JavaScript and TypeScript
@@ -74,6 +76,8 @@ brew "ghi"
 brew "git"
 # GitHub-like contributions calendar but on the command-line
 brew "git-cal"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -136,6 +140,8 @@ brew "nsnake"
 brew "octave"
 # Open source computer vision library
 brew "opencv"
+# Outputs current CPU temperature for OSX
+brew "osx-cpu-temp"
 # General-purpose scripting language
 brew "php"
 # Utility to choose one option from a set of choices
