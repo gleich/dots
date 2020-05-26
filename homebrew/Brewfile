@@ -10,6 +10,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "matt-gleich/taps"
 tap "morse-module/morse-module"
 tap "octo-cli/octo"
 tap "rodionovd/taps"
@@ -21,6 +22,8 @@ brew "python@3.8"
 brew "ansible"
 # C++ template library for linear algebra
 brew "eigen"
+# Record and share terminal sessions
+brew "asciinema"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Library for manipulating PNG images
@@ -207,6 +210,8 @@ brew "bcongdon/ep/ep"
 brew "dart-lang/dart/dart"
 # GitHub CLI
 brew "github/gh/gh"
+# ☢️ Force quit all applications with one terminal command on macos
+brew "matt-gleich/taps/nuke"
 # cli client for GitHub
 brew "octo-cli/octo/octo"
 # CLI manager for your text replacements on macOS
