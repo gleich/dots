@@ -85,6 +85,7 @@
         "uint",
         "uncommented",
         "unstaged",
+        "vlan",
         "zwift"
     ],
     "workbench.startupEditor": "newUntitledFile",
