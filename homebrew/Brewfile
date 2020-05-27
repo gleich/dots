@@ -67,7 +67,7 @@ brew "fish"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
 # Platform built on V8 to build network applications
-brew "node"
+brew "node", link: false
 # Gatsby command-line interface
 brew "gatsby-cli"
 # Work on GitHub issues on the command-line
@@ -136,6 +136,8 @@ brew "neofetch"
 brew "nmap"
 # Classic snake game with textual interface
 brew "nsnake"
+# Manage multiple Node.js versions
+brew "nvm"
 # High-level interpreted language for numerical computing
 brew "octave"
 # Open source computer vision library

@@ -118,6 +118,11 @@ alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
 alias weather='curl wttr.in'
 
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 # morse-module
 export PATH="$PATH:/Users/matthewgleich/Documents/Github/Personal/Morse-Module/releases/macos"
 
