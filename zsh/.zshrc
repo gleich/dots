@@ -157,3 +157,6 @@ export EDITOR=code
 
 # Python:
 export PATH="$PATH":/Users/matthewgleich/library/python/3.7/bin
+
+# go path:
+export PATH="$PATH":/Users/matthewgleich/go/bin

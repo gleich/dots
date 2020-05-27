@@ -24,6 +24,8 @@ brew "ansible"
 brew "eigen"
 # Record and share terminal sessions
 brew "asciinema"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Library for manipulating PNG images
