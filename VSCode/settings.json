@@ -87,6 +87,7 @@
         "uncommented",
         "unstaged",
         "vlan",
+        "wakatime",
         "zwift"
     ],
     "workbench.startupEditor": "newUntitledFile",
@@ -254,4 +255,11 @@
     "editor.hover.delay": 200,
     "files.insertFinalNewline": true,
     "html.format.endWithNewline": true,
+    "java.semanticHighlighting.enabled": false,
+    "java.imports.gradle.wrapper.checksums": [
+        {
+            "sha256": "16caeaf66d57a0d1d2087fef6a97efa62de8da69afa5b908f40db35afc4342da",
+            "allowed": true
+        }
+    ],
 }
