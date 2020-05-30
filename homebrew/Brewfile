@@ -69,7 +69,7 @@ brew "fish"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
 # Platform built on V8 to build network applications
-brew "node", link: false
+brew "node"
 # Gatsby command-line interface
 brew "gatsby-cli"
 # Work on GitHub issues on the command-line

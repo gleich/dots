@@ -101,7 +101,7 @@
     "go.formatTool": "gofmt",
     "go.useLanguageServer": true,
     "python.jediEnabled": false,
-    "files.autoSaveDelay": 500,
+    "files.autoSaveDelay": 100,
     "emmet.showSuggestionsAsSnippets": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.formatOnSave": true,
