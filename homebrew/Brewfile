@@ -222,7 +222,7 @@ brew "bcongdon/ep/ep"
 brew "dart-lang/dart/dart"
 # GitHub CLI
 brew "github/gh/gh"
-# ☢️ Force quit all applications with one terminal command on macos
+# ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # cli client for GitHub
 brew "octo-cli/octo/octo"
