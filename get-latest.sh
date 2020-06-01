@@ -9,6 +9,7 @@ rm -rf VSCode
 rm -rf macos
 rm -rf jrnl
 rm -rf hyper
+rm -rf alacritty
 
 # Making new folders
 mkdir zsh
@@ -39,3 +40,4 @@ cp ~/Brewfile ./homebrew/Brewfile
 cp ~/.flutter_settings ./flutter/.flutter_settings
 cp ~/.config/jrnl/jrnl.yaml ./jrnl/.jrnl.yaml
 cp ~/Library/Application' 'Support/Code/User/settings.json ./VSCode/settings.json
+cp ~/.config/alacritty/alacritty.yml ./alacritty/alacritty.yml
