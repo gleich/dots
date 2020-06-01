@@ -19,6 +19,7 @@ mkdir VSCode
 mkdir macos
 mkdir jrnl
 mkdir hyper
+mkdir alacritty
 
 # Generating Brewfile
 cwd=$(pwd)
