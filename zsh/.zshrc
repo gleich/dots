@@ -160,3 +160,7 @@ export PATH="$PATH":/Users/matthewgleich/library/python/3.7/bin
 
 # go path:
 export PATH="$PATH":/Users/matthewgleich/go/bin
+
+# term:
+export TERM=xterm-256color
+
