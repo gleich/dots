@@ -264,4 +264,5 @@
             "allowed": true
         }
     ],
+    "trailing-spaces.showStatusBarMessage": false,
 }
