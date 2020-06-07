@@ -11,12 +11,12 @@
 # check the local terminfo database and use `alacritty` if it is
 # available, otherwise `xterm-256color` is used.
 TERM: alacritty
-#window:
+# window:
 # Window dimensions (changes require restart)
 #
 # Specified in number of columns/lines, not pixels.
 # If both are `0`, this setting is ignored.
-#dimensions:
+# dimensions:
 #  columns: 0
 #  lines: 0
 
@@ -32,9 +32,9 @@ TERM: alacritty
 #
 # Blank space added around the window in pixels. This padding is scaled
 # by DPI and the specified value is always added at both opposing sides.
-padding:
-  x: 20
-  # y: 0
+# padding:
+#   x: 10
+#   y: 0
 
 # Spread additional padding evenly around the terminal content.
 #dynamic_padding: false
