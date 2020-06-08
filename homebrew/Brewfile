@@ -160,6 +160,8 @@ brew "pinentry-mac"
 brew "pipes-sh"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# Python package management tool
+brew "poetry"
 # Show ps output as a tree
 brew "pstree"
 # Alternative to pyenv for managing virtualenvs
