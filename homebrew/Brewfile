@@ -212,6 +212,8 @@ brew "wtfutil"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# The Dungeon modified from FORTRAN to C
+brew "zork"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Additional completion definitions for zsh
