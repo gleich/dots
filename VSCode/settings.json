@@ -267,4 +267,5 @@
         }
     ],
     "trailing-spaces.showStatusBarMessage": false,
+    "extensions.ignoreRecommendations": false,
 }
