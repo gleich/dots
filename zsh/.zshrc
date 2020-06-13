@@ -109,7 +109,7 @@ alias sl=ls
 alias aco="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/auto-commit.py"
 alias per="cd ~/Documents/Github/Personal"
 alias robo="cd ~/Documents/Github/Robotics"
-alias updateEverything="brew update && brew upgrade && brew cask upgrade && flutter upgrade && brew cleanup && npm upgrade -g && cd /Users/matthewgleich/Documents/Github/Personal/Dot-Files/ && sh push-latest.sh"
+alias updateEverything="brew update && brew upgrade && brew cask upgrade && brew cleanup && npm upgrade -g && cd /Users/matthewgleich/Documents/Github/Personal/Dot-Files/ && sh push-latest.sh"
 alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
@@ -132,10 +132,6 @@ export PATH=/usr/local/bin:$PATH
 
 # fuck alias
 eval "$(thefuck --alias)"
-
-# Flutter:
-export PATH="$PATH:/Users/matthewgleich/development/flutter/bin"
-export ENABLE_FLUTTER_DESKTOP=true
 
 # ZSH Syntax Highlighting
 source /Users/matthewgleich/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
