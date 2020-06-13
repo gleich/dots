@@ -258,7 +258,6 @@ cask "g-desktop-suite"
 cask "geotag-photos-pro"
 cask "github"
 cask "gitify"
-cask "google-backup-and-sync"
 cask "google-chrome"
 cask "grammarly"
 cask "hazeover"
@@ -268,7 +267,6 @@ cask "iterm2"
 cask "jetbrains-toolbox"
 cask "kite"
 cask "macs-fan-control"
-cask "mactex"
 cask "michaelvillar-timer"
 cask "microsoft-outlook"
 cask "microsoft-teams"
@@ -308,6 +306,7 @@ mas "HEIC Converter", id: 1294126402
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
 mas "IPYNB Viewer", id: 1400977081
+mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
