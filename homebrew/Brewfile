@@ -7,6 +7,7 @@ tap "github/gh"
 tap "homebrew/aliases"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
@@ -241,6 +242,7 @@ brew "rodionovd/taps/shortcuts"
 brew "romkatv/powerlevel10k/powerlevel10k"
 cask "adobe-creative-cloud"
 cask "alacritty"
+cask "alfred"
 cask "atom"
 cask "balenaetcher"
 cask "brave-browser"
@@ -268,6 +270,7 @@ cask "icons8"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "kite"
+cask "logitech-options"
 cask "macs-fan-control"
 cask "michaelvillar-timer"
 cask "microsoft-outlook"
@@ -308,7 +311,6 @@ mas "HEIC Converter", id: 1294126402
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
 mas "IPYNB Viewer", id: 1400977081
-mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
