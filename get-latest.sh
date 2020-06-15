@@ -10,6 +10,7 @@ rm -rf macos
 rm -rf jrnl
 rm -rf hyper
 rm -rf alacritty
+rm -rf nuke
 
 # Making new folders
 mkdir zsh
@@ -20,6 +21,7 @@ mkdir macos
 mkdir jrnl
 mkdir hyper
 mkdir alacritty
+mkdir nuke
 
 # Generating Brewfile
 cwd=$(pwd)
@@ -42,3 +44,4 @@ cp ~/.flutter_settings ./flutter/.flutter_settings
 cp ~/.config/jrnl/jrnl.yaml ./jrnl/.jrnl.yaml
 cp ~/Library/Application' 'Support/Code/User/settings.json ./VSCode/settings.json
 cp ~/.config/alacritty/alacritty.yml ./alacritty/alacritty.yml
+cp ~/.config/nuke/config.yml ./nuke/config.yml
