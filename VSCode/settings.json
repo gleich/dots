@@ -64,6 +64,7 @@
     "fluttercommunity",
     "getcwd",
     "gitlab",
+    "gomod",
     "goreleaser",
     "hackathons",
     "imread",
@@ -114,7 +115,7 @@
   "latex-workshop.intellisense.package.enabled": true,
   "editor.fontFamily": "Fira Code",
   "explorer.confirmDragAndDrop": false,
-  "dart.debugExternalLibraries": false,
+  "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "yaclock.hour12": true,
   "yaclock.showDate": true,
@@ -259,5 +260,6 @@
   ],
   "trailing-spaces.showStatusBarMessage": false,
   "extensions.ignoreRecommendations": false,
-  "editor.insertSpaces": false
+  "editor.insertSpaces": false,
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh"
 }
