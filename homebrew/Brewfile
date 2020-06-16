@@ -100,6 +100,8 @@ brew "grip"
 brew "htop"
 # Add GitHub support to git on the command-line
 brew "hub"
+# USB multiplexor library for iOS devices
+brew "libusbmuxd", args: ["HEAD"]
 # Library to communicate with iOS devices natively
 brew "libimobiledevice", args: ["HEAD"]
 # Tool for managing apps on iOS devices
@@ -120,8 +122,6 @@ brew "kubernetes-cli"
 brew "lastpass-cli"
 # Terminal file manager
 brew "lf"
-# USB multiplexor library for iOS devices
-brew "libusbmuxd", args: ["HEAD"]
 # List USB devices, just like the Linux lsusb command
 brew "lsusb"
 # Text-based web browser
