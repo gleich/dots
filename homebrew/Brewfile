@@ -50,6 +50,10 @@ brew "coreutils"
 brew "cowsay"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Go dependency management tool
+brew "dep"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
@@ -86,8 +90,6 @@ brew "git-cal"
 brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Google Search and News from the command-line
 brew "googler"
 # Deliver Go binaries as fast and easily as possible
