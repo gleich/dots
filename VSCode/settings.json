@@ -263,5 +263,6 @@
   "trailing-spaces.showStatusBarMessage": false,
   "extensions.ignoreRecommendations": false,
   "editor.insertSpaces": false,
-  "terminal.integrated.shell.osx": "/usr/local/bin/zsh"
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "python.languageServer": "Microsoft"
 }
