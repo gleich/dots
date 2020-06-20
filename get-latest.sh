@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Removing repo copy folders
+echo Removing current copied folders
 rm -rf zsh
 rm -rf vim
 rm -rf homebrew/Brewfile
@@ -13,6 +14,7 @@ rm -rf alacritty
 rm -rf nuke
 
 # Making new folders
+echo Making the new folders
 mkdir zsh
 mkdir vim
 mkdir flutter
@@ -24,6 +26,7 @@ mkdir alacritty
 mkdir nuke
 
 # Generating Brewfile
+echo Generating brew file
 cwd=$(pwd)
 cd ~
 rm -rf Brewfile
@@ -31,10 +34,12 @@ brew bundle dump --describe
 cd $cwd
 
 # Generating shortcuts plist
+echo Generating shortcuts plist
 touch macos/shortcuts.plist
 shortcuts read --as-plist >> macos/shortcuts.plist
 
 # Copying files to repo
+echo Copying files to repo
 cp ~/.hyper.js ./hyper/.hyper.js
 cp ~/.zshrc ./zsh/.zshrc
 cp ~/.p10k.zsh ./zsh/.p10k.zsh
