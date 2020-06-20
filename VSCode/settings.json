@@ -240,7 +240,6 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorStyle": "line",
-  "workbench.colorTheme": "ƒ - Gruvbox",
   "activitusbar.activeColour": "mediumseagreen",
   "activitusbar.searchViewInPanel": false,
   "[html]": {
@@ -265,5 +264,7 @@
   "editor.insertSpaces": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "python.languageServer": "Microsoft",
-  "synthwave84.brightness": 1
+  "synthwave84.brightness": 1,
+  "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+  "errorLens.fontStyleItalic": true
 }
