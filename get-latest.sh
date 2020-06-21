@@ -50,3 +50,7 @@ cp ~/.config/jrnl/jrnl.yaml ./jrnl/.jrnl.yaml
 cp ~/Library/Application' 'Support/Code/User/settings.json ./VSCode/settings.json
 cp ~/.config/alacritty/alacritty.yml ./alacritty/alacritty.yml
 cp ~/.config/nuke/config.yml ./nuke/config.yml
+
+# Removing generated files
+echo Removing generated files
+rm ~/Brewfile
