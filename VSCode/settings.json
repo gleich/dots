@@ -266,5 +266,7 @@
   "python.languageServer": "Microsoft",
   "synthwave84.brightness": 1,
   "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
-  "errorLens.fontStyleItalic": true
+  "errorLens.fontStyleItalic": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single"
 }
