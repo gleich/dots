@@ -17,6 +17,7 @@ Website: https://gitstalk.netlify.app/Matt-Gleich
 
 .logo-image,
 .darkmode,
-.search {
+.search,
+footer {
   display: none !important;
 }
