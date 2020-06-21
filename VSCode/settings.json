@@ -266,7 +266,7 @@
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "python.languageServer": "Microsoft",
   "synthwave84.brightness": 1,
-  "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "errorLens.fontStyleItalic": true,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single"

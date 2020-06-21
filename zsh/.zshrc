@@ -104,24 +104,32 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Alias
 alias c=clear
 alias v=vim
-alias gitb="cd ~/Documents/Github"
 alias sl=ls
-alias aco="python3 ~/Documents/Github/School/School-Papers/Automation-Scripts/auto-commit.py"
-alias per="cd ~/Documents/Github/Personal"
-alias robo="cd ~/Documents/Github/Robotics"
-alias updateEverything="brew update && brew upgrade && brew cask upgrade && brew cleanup && npm upgrade -g && cd /Users/matthewgleich/Documents/Github/Personal/Dot-Files/ && sh push-latest.sh"
+alias updateEverything="brew update && brew upgrade && brew cask upgrade && brew cleanup && npm upgrade -g && cd /Users/matthewgleich/Documents/GitHub/Personal/Bash/Dot-Files/ && sh push-latest.sh"
 alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
 alias weather='curl wttr.in'
 
+# Folder alias
+alias per="cd ~/Documents/GitHub/Personal"
+alias robo="cd ~/Documents/GitHub/Robotics"
+alias gitb="cd ~/Documents/GitHub"
+alias fgo="cd ~/Documents/GitHub/Personal/Golang"
+alias fbash="cd ~/Documents/GitHub/Personal/Bash"
+alias fflutter="cd ~/Documents/GitHub/Personal/Flutter"
+alias fdart="cd ~/Documents/GitHub/Personal/Dart"
+alias fts="cd ~/Documents/GitHub/Personal/TypeScript"
+alias freact="cd ~/Documents/GitHub/Personal/React"
+alias fpy="cd ~/Documents/GitHub/Personal/Python"
+alias fyaml="cd ~/Documents/GitHub/Personal/Yaml"
+alias fdocker="cd ~/Documents/GitHub/Personal/Dockerfile"
+alias fruby="cd ~/Documents/GitHub/Personal/Ruby"
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-# morse-module
-export PATH="$PATH:/Users/matthewgleich/Documents/Github/Personal/Morse-Module/releases/macos"
 
 # added by travis gem
 [ -f /Users/matthewgleich/.travis/travis.sh ] && source /Users/matthewgleich/.travis/travis.sh

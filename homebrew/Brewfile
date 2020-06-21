@@ -293,10 +293,10 @@ cask "visual-studio-code"
 cask "vmware-horizon-client"
 cask "webex-meetings"
 cask "windows95"
+cask "wwdc"
 cask "zoomus"
 cask "zwift"
 mas "1Focus", id: 969210610
-mas "AdBlock", id: 1402042596
 mas "Affinity Photo", id: 824183456
 mas "Battery Monitor", id: 836505650
 mas "CleanMyDrive 2", id: 523620159
@@ -323,10 +323,8 @@ mas "Markoff", id: 1084713122
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "MindNode", id: 1289197285
 mas "Mini Metro", id: 1047760200
-mas "myHomework", id: 970610831
 mas "Numbers", id: 409203825
 mas "Octagon", id: 691956219
-mas "Octotree Pro", id: 1457450145
 mas "Pages", id: 409201541
 mas "Plash", id: 1494023538
 mas "RAW Power", id: 1157116444
@@ -337,7 +335,6 @@ mas "Spark", id: 1176895641
 mas "Speedtest", id: 1153157709
 mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
-mas "The Unarchiver", id: 425424353
 mas "Transporter", id: 1450874784
 mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
