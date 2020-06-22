@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Removing repo copy folders
 echo Removing current copied folders
 rm -rf zsh
 rm -rf vim
@@ -12,8 +11,8 @@ rm -rf jrnl
 rm -rf hyper
 rm -rf alacritty
 rm -rf nuke
+rm -rf npm
 
-# Making new folders
 echo Making the new folders
 mkdir zsh
 mkdir vim
@@ -24,8 +23,8 @@ mkdir jrnl
 mkdir hyper
 mkdir alacritty
 mkdir nuke
+mkdir npm
 
-# Generating Brewfile
 echo Generating brew file
 cwd=$(pwd)
 cd ~
@@ -33,12 +32,14 @@ rm -rf Brewfile
 brew bundle dump --describe
 cd $cwd
 
-# Generating shortcuts plist
 echo Generating shortcuts plist
 touch macos/shortcuts.plist
 shortcuts read --as-plist >> macos/shortcuts.plist
 
-# Copying files to repo
+echo Generating global npm package list
+touch npm/packages.txt
+npm list -g --depth 0 >> npm/packages.txt
+
 echo Copying files to repo
 cp ~/.hyper.js ./hyper/.hyper.js
 cp ~/.zshrc ./zsh/.zshrc

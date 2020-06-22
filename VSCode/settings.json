@@ -24,6 +24,7 @@
   "python.dataScience.sendSelectionToInteractiveWindow": false,
   "cSpell.userWords": [
     "Boesen",
+    "CNDs",
     "COVID",
     "Coronavirus",
     "Datatypes",
@@ -363,7 +364,6 @@
   "python.languageServer": "Microsoft",
   "synthwave84.brightness": 1,
   "workbench.colorTheme": "Julia (Monokai Vibrant)",
-  "errorLens.fontStyleItalic": true,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single"
 }
