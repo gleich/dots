@@ -1,4 +1,5 @@
 /usr/local/lib
+├── coffeescript@2.5.1
 ├── create-react-app@3.4.1
 ├── diffchecker@0.1.4
 ├── emoj@3.0.1
