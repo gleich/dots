@@ -86,6 +86,7 @@
     "negatable",
     "ngnix",
     "numpy",
+    "oauthlib",
     "popen",
     "prefs",
     "pubspec",
