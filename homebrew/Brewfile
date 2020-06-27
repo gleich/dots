@@ -288,20 +288,21 @@ cask "postman"
 cask "rocket"
 cask "sdformatter"
 cask "shortcuts"
+cask "telegram"
 cask "vagrant"
 cask "visual-studio-code"
 cask "vmware-horizon-client"
 cask "webex-meetings"
 cask "windows95"
-cask "wwdc"
 cask "zoomus"
 cask "zwift"
 mas "1Focus", id: 969210610
 mas "Affinity Photo", id: 824183456
 mas "Battery Monitor", id: 836505650
+mas "Battery Stats for AirPods", id: 1405763798
 mas "CleanMyDrive 2", id: 523620159
 mas "ColorSlurp", id: 1287239339
-mas "com.donewithcomputers.winston", id: 1161123070
+mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
 mas "Downlink", id: 1454269192
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
@@ -312,6 +313,7 @@ mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
 mas "GIPHY CAPTURE", id: 668208984
 mas "GitGrass", id: 1501139279
+mas "Grammarly for Safari", id: 1462114288
 mas "HEIC Converter", id: 1294126402
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
@@ -319,7 +321,6 @@ mas "IPYNB Viewer", id: 1400977081
 mas "Keynote", id: 409183694
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
-mas "Markoff", id: 1084713122
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "MindNode", id: 1289197285
 mas "Mini Metro", id: 1047760200
