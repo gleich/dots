@@ -137,7 +137,6 @@
   "git.alwaysSignOff": true,
   "go.autocompleteUnimportedPackages": true,
   "html.format.indentInnerHtml": true,
-  "html.mirrorCursorOnMatchingTag": true,
   "latex-workshop.hover.preview.cursor.enabled": false,
   "vsintellicode.features.python.deepLearning": "enabled",
   "yaclock.flashTimeSeparator": true,
@@ -382,9 +381,11 @@
     "editor.wordBasedSuggestions": false
   },
   "vim.cursorStylePerMode.insert": "line",
-  "vim.cursorStylePerMode.normal": "line",
+  "vim.cursorStylePerMode.normal": "block",
   "vim.cursorStylePerMode.replace": "line",
   "vim.cursorStylePerMode.visual": "line",
   "vim.cursorStylePerMode.visualblock": "line",
-  "vim.cursorStylePerMode.visualline": "line"
+  "vim.cursorStylePerMode.visualline": "line",
+  "editor.cursorBlinking": "phase",
+  "terminal.integrated.cursorBlinking": true
 }
