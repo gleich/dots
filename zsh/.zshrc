@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+# ZSH Autosuggestions:
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Alias
@@ -109,7 +110,6 @@ alias updateEverything="brew update && brew upgrade && brew cask upgrade && brew
 alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
-alias weather='curl wttr.in'
 
 # Folder alias
 alias per="cd ~/Documents/GitHub/Personal"

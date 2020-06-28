@@ -205,7 +205,6 @@
   "kite.showGoBetaNotification": false,
   "discord.workspaceElapsedTime": true,
   "workbench.editor.showTabs": false,
-  "resmon.show.cpufreq": false,
   "resmon.show.mem": false,
   "yaclock.prefix": "⏰ ",
   "yaclock.showDay": true,
@@ -215,7 +214,6 @@
   "editor.accessibilitySupport": "off",
   "terminal.external.osxExec": "Hyper.app",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.visible": false,
   "ltex.en-US.dictionary": ["compat", "Gleich", "itemsep", "todolist"],
   "yaml.format.singleQuote": true,
   "prettier.singleQuote": true,
@@ -387,5 +385,9 @@
   "vim.cursorStylePerMode.visualblock": "line",
   "vim.cursorStylePerMode.visualline": "line",
   "editor.cursorBlinking": "phase",
-  "terminal.integrated.cursorBlinking": true
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.activityBar.visible": false,
+  "resmon.show.cpufreq": false,
+  "resmon.show.cputemp": true,
+  "vim.debug.silent": true
 }
