@@ -7,6 +7,7 @@
 ├── generator-code@1.2.16
 ├── git-stats@2.10.11
 ├── gitmoji-cli@3.2.6
+├── hackclub-ship@0.0.2
 ├── hoot-cli@2.0.1
 ├── jest@26.1.0
 ├── kasaya@0.1.3
