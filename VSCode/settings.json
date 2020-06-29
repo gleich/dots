@@ -113,7 +113,6 @@
   "terminal.integrated.inheritEnv": false,
   "go.formatTool": "gofmt",
   "go.useLanguageServer": true,
-  "python.jediEnabled": false,
   "files.autoSaveDelay": 100,
   "emmet.showSuggestionsAsSnippets": true,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -206,7 +205,7 @@
   "discord.workspaceElapsedTime": true,
   "workbench.editor.showTabs": false,
   "resmon.show.mem": false,
-  "yaclock.prefix": "⏰ ",
+  "yaclock.prefix": "🍒 ",
   "yaclock.showDay": true,
   "workbench.sideBar.location": "right",
   "debug.openDebug": "neverOpen",
@@ -365,13 +364,10 @@
       }
     ]
   },
-  "editor.cursorSurroundingLines": 1000000000,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -389,5 +385,7 @@
   "workbench.activityBar.visible": false,
   "resmon.show.cpufreq": false,
   "resmon.show.cputemp": true,
-  "vim.debug.silent": true
+  "vim.debug.silent": true,
+  "InstantWeather.location": "Shanghai, CN",
+  "InstantWeather.key": "0a04946749f3c796cbdf0d98a06bcb94"
 }
