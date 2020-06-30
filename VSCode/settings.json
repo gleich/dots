@@ -384,8 +384,5 @@
   "terminal.integrated.cursorBlinking": true,
   "workbench.activityBar.visible": false,
   "resmon.show.cpufreq": false,
-  "resmon.show.cputemp": true,
-  "vim.debug.silent": true,
-  "InstantWeather.location": "Shanghai, CN",
-  "InstantWeather.key": "0a04946749f3c796cbdf0d98a06bcb94"
+  "resmon.show.cputemp": true
 }
