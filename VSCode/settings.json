@@ -119,7 +119,6 @@
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
   "editor.fontFamily": "Fira Code, Consolas, Courier New, monospace",
-  "explorer.confirmDragAndDrop": false,
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "yaclock.hour12": true,
@@ -209,7 +208,12 @@
   "yaclock.showDay": true,
   "workbench.sideBar.location": "right",
   "debug.openDebug": "neverOpen",
-  "bracket-pair-colorizer-2.colors": ["#00BCD4", "#9C2", "#EC407A", "#FFFF00"],
+  "bracket-pair-colorizer-2.colors": [
+    "#00BCD4",
+    "#1eff00",
+    "#EC407A",
+    "#FFFF00"
+  ],
   "editor.accessibilitySupport": "off",
   "terminal.external.osxExec": "Hyper.app",
   "editor.minimap.enabled": false,
@@ -225,7 +229,8 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorStyle": "line",
-  "activitusbar.activeColour": "mediumseagreen",
+  "activitusbar.activeColour": "#1eff00",
+  "activitusbar.inactiveColour": "#ffffff",
   "activitusbar.searchViewInPanel": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -384,5 +389,22 @@
   "terminal.integrated.cursorBlinking": true,
   "workbench.activityBar.visible": false,
   "resmon.show.cpufreq": false,
-  "resmon.show.cputemp": true
+  "resmon.show.cputemp": true,
+  "workbench.colorCustomizations": {
+    "[Julia (Monokai Vibrant)]": {
+      "editorPane.background": "#070707",
+      "editor.background": "#070707",
+      "statusBar.background": "#070707",
+      "foreground": "#ffffff",
+      "sideBar.background": "#070707",
+      "sideBar.border": "#101010",
+      "window.activeBorder": "#070707",
+      "titleBar.activeBackground": "#070707",
+      "titleBar.inactiveBackground": "#070707",
+      "titleBar.border": "#070707",
+      "sideBarTitle.foreground": "#1eff00"
+    }
+  },
+  "workbench.panel.defaultLocation": "left",
+  "errorLens.statusBarMessageEnabled": true
 }
