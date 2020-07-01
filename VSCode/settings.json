@@ -4,7 +4,6 @@
   "cSpell.language": "en",
   "kite.showWelcomeNotificationOnStartup": false,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.exclude": {
     ".idea": true,
     "**/*.class": true,
@@ -17,7 +16,6 @@
   "search.useGlobalIgnoreFiles": true,
   "window.zoomLevel": 1,
   "editor.fontSize": 16.5,
-  "java.errors.incompleteClasspath.severity": "ignore",
   "latex-workshop.message.update.show": false,
   "latex-workshop.view.pdf.viewer": "browser",
   "workbench.iconTheme": "vscode-icons",
@@ -136,7 +134,6 @@
   "go.autocompleteUnimportedPackages": true,
   "html.format.indentInnerHtml": true,
   "latex-workshop.hover.preview.cursor.enabled": false,
-  "vsintellicode.features.python.deepLearning": "enabled",
   "yaclock.flashTimeSeparator": true,
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -173,9 +170,6 @@
     "yaml",
     "yml"
   ],
-  "copyrightInserter.holder": "Matthew Gleich",
-  "copyrightInserter.license": "mit",
-  "copyrightInserter.year": "2020",
   "vs-kubernetes": {
     "vs-kubernetes.minikube-path": "/Users/matthewgleich/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
     "vs-kubernetes.helm-path": "/Users/matthewgleich/.vs-kubernetes/tools/helm/darwin-amd64/helm",
@@ -202,7 +196,6 @@
   "latex-workshop.message.warning.show": false,
   "kite.showGoBetaNotification": false,
   "discord.workspaceElapsedTime": true,
-  "workbench.editor.showTabs": false,
   "resmon.show.mem": false,
   "yaclock.prefix": "🍒 ",
   "yaclock.showDay": true,
@@ -229,9 +222,6 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorStyle": "line",
-  "activitusbar.activeColour": "#1eff00",
-  "activitusbar.inactiveColour": "#ffffff",
-  "activitusbar.searchViewInPanel": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -242,19 +232,11 @@
   "editor.hover.delay": 200,
   "files.insertFinalNewline": true,
   "html.format.endWithNewline": true,
-  "java.semanticHighlighting.enabled": false,
-  "java.imports.gradle.wrapper.checksums": [
-    {
-      "sha256": "16caeaf66d57a0d1d2087fef6a97efa62de8da69afa5b908f40db35afc4342da",
-      "allowed": true
-    }
-  ],
   "trailing-spaces.showStatusBarMessage": false,
   "extensions.ignoreRecommendations": false,
   "editor.insertSpaces": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "python.languageServer": "Microsoft",
-  "synthwave84.brightness": 1,
   "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
@@ -379,12 +361,6 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "vim.cursorStylePerMode.insert": "line",
-  "vim.cursorStylePerMode.normal": "block",
-  "vim.cursorStylePerMode.replace": "line",
-  "vim.cursorStylePerMode.visual": "line",
-  "vim.cursorStylePerMode.visualblock": "line",
-  "vim.cursorStylePerMode.visualline": "line",
   "editor.cursorBlinking": "phase",
   "terminal.integrated.cursorBlinking": true,
   "workbench.activityBar.visible": false,
@@ -405,6 +381,7 @@
       "sideBarTitle.foreground": "#1eff00"
     }
   },
-  "workbench.panel.defaultLocation": "left",
-  "errorLens.statusBarMessageEnabled": true
+  "errorLens.statusBarMessageEnabled": true,
+  "workbench.tree.indent": 16,
+  "workbench.editor.showTabs": false
 }
