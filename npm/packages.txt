@@ -4,7 +4,7 @@
 ├── diffchecker@0.1.4
 ├── emoj@3.0.1
 ├── firebase-tools@8.4.3
-├── generator-code@1.2.17
+├── generator-code@1.2.18
 ├── git-stats@2.10.11
 ├── gitmoji-cli@3.2.6
 ├── hackclub-ship@0.0.3
