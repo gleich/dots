@@ -57,9 +57,9 @@ brew "dep"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Isolated development environments using Docker
-brew "docker-compose", link: false
+brew "docker-compose"
 # Image manipulation library
 brew "jpeg"
 # TIFF library and utilities
@@ -170,8 +170,6 @@ brew "poetry"
 brew "pstree"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
-# Interpreted, interactive, object-oriented programming language
-brew "python@2"
 # File browser
 brew "ranger"
 # Powerful, clean, object-oriented scripting language
