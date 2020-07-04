@@ -5,7 +5,7 @@ rm -rf zsh
 rm -rf vim
 rm -rf homebrew/Brewfile
 rm -rf flutter
-rm -rf VSCode
+rm -rf vscode
 rm -rf macos
 rm -rf jrnl
 rm -rf hyper
@@ -18,7 +18,7 @@ echo Making the new folders
 mkdir zsh
 mkdir vim
 mkdir flutter
-mkdir VSCode
+mkdir vscode
 mkdir macos
 mkdir jrnl
 mkdir hyper
@@ -42,9 +42,9 @@ echo Generating global npm package list
 touch npm/packages.txt
 npm list -g --depth 0 >> npm/packages.txt
 
-echo Generating list of VScode extensions
-touch VSCode/extensions.txt
-code --list-extensions >> VSCode/extensions.txt
+echo Generating list of vscode extensions
+touch vscode/extensions.txt
+code --list-extensions >> vscode/extensions.txt
 
 echo Copying files to repo
 cp ~/.hyper.js ./hyper/.hyper.js
@@ -54,7 +54,7 @@ cp ~/.vimrc ./vim/.vimrc
 cp ~/Brewfile ./homebrew/Brewfile
 cp ~/.flutter_settings ./flutter/.flutter_settings
 cp ~/.config/jrnl/jrnl.yaml ./jrnl/.jrnl.yaml
-cp ~/Library/Application' 'Support/Code/User/settings.json ./VSCode/settings.json
+cp ~/Library/Application' 'Support/Code/User/settings.json ./vscode/settings.json
 cp ~/.config/alacritty/alacritty.yml ./alacritty/alacritty.yml
 cp ~/.config/nuke/config.yml ./nuke/config.yml
 cp ~/.taskrc ./taskwarrior/.taskrc
