@@ -4,93 +4,9 @@
 <array>
 	<dict>
 		<key>phrase</key>
-		<string>📂</string>
+		<string>Looks good to me!</string>
 		<key>shortcut</key>
-		<string>:arch:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🚩</string>
-		<key>shortcut</key>
-		<string>:rmf:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>⚙️</string>
-		<key>shortcut</key>
-		<string>:config:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🧼</string>
-		<key>shortcut</key>
-		<string>:clean:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🤖</string>
-		<key>shortcut</key>
-		<string>:automation:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>📦</string>
-		<key>shortcut</key>
-		<string>:package:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🎨</string>
-		<key>shortcut</key>
-		<string>:ui:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🐛</string>
-		<key>shortcut</key>
-		<string>:bug:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🍊</string>
-		<key>shortcut</key>
-		<string>:update:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🍎</string>
-		<key>shortcut</key>
-		<string>:remove:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🍏</string>
-		<key>shortcut</key>
-		<string>:create:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🧪</string>
-		<key>shortcut</key>
-		<string>:test:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🛠</string>
-		<key>shortcut</key>
-		<string>:fix:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>📄</string>
-		<key>shortcut</key>
-		<string>:doc:</string>
-	</dict>
-	<dict>
-		<key>phrase</key>
-		<string>🚀</string>
-		<key>shortcut</key>
-		<string>:feature:</string>
+		<string>lgtm</string>
 	</dict>
 </array>
 </plist>

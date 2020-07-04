@@ -42,6 +42,10 @@ echo Generating global npm package list
 touch npm/packages.txt
 npm list -g --depth 0 >> npm/packages.txt
 
+echo Generating list of VScode extensions
+touch VSCode/extensions.txt
+code --list-extensions >> VSCode/extensions.txt
+
 echo Copying files to repo
 cp ~/.hyper.js ./hyper/.hyper.js
 cp ~/.zshrc ./zsh/.zshrc
