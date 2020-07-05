@@ -125,6 +125,7 @@ alias fpy="cd ~/Documents/GitHub/Personal/Python"
 alias fyaml="cd ~/Documents/GitHub/Personal/Yaml"
 alias fdocker="cd ~/Documents/GitHub/Personal/Dockerfile"
 alias fruby="cd ~/Documents/GitHub/Personal/Ruby"
+alias fmarkdown="cd ~/Documents/Github/Personal/Markdown"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"

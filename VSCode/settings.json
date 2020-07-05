@@ -63,6 +63,7 @@
     "fanboat",
     "fluttercommunity",
     "getcwd",
+    "getenv",
     "gitlab",
     "gofmt",
     "gomod",
