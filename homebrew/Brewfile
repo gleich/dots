@@ -232,8 +232,6 @@ brew "bcongdon/ep/ep"
 brew "dart-lang/dart/dart"
 # GitHub CLI
 brew "github/gh/gh"
-# 📂 Blazing fast file sorting
-brew "matt-gleich/taps/light-speed-sorting"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # Separate your pdfs from your tex files
