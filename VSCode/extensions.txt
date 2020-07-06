@@ -15,6 +15,7 @@ dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 eg2.vscode-npm-script
 esbenp.prettier-vscode
+foam.foam-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.github-actions

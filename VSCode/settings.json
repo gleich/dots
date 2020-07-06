@@ -92,6 +92,7 @@
     "pytest",
     "repo",
     "sdks",
+    "strftime",
     "subnational",
     "texsch",
     "textdegree",
