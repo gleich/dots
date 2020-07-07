@@ -104,7 +104,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Alias
 alias c=clear
-alias v=vim
 alias sl=ls
 alias updateEverything="brew update && brew upgrade && brew cask upgrade && brew cleanup && npm upgrade -g && cd /Users/matthewgleich/Documents/GitHub/Personal/Bash/Dot-Files/ && sh push-latest.sh"
 alias cat=ccat

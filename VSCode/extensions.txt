@@ -22,6 +22,7 @@ formulahendry.github-actions
 GitHub.vscode-pull-request-github
 gmlewis-vscode.flutter-stylizer
 golang.go
+Gruntfuggly.activitusbar
 GulajavaMinistudio.mayukaithemevsc
 henriiik.docker-linter
 icrawl.discord-vscode
