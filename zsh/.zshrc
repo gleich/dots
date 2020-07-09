@@ -154,10 +154,10 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # setting default editor
-export EDITOR=code
+# export EDITOR=code
 
 # Python:
-export PATH="$PATH":/Users/matthewgleich/library/python/3.7/bin
+# export PATH="$PATH":/Users/matthewgleich/library/python/3.7/bin
 
 # go path:
 export PATH="$PATH":/Users/matthewgleich/go/bin
