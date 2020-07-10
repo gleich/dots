@@ -19,7 +19,7 @@ tap "rodionovd/taps"
 tap "romkatv/powerlevel10k"
 tap "sambadevi/powerlevel9k"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
+brew "python@3.8", link: false
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # C++ template library for linear algebra
@@ -87,7 +87,7 @@ brew "git-cal"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
+brew "gnupg", link: false
 # Google Search and News from the command-line
 brew "googler"
 # Deliver Go binaries as fast and easily as possible
@@ -100,8 +100,6 @@ brew "grip"
 brew "htop"
 # Add GitHub support to git on the command-line
 brew "hub"
-# USB multiplexor library for iOS devices
-brew "libusbmuxd", args: ["HEAD"]
 # Library to communicate with iOS devices natively
 brew "libimobiledevice", args: ["HEAD"]
 # Tool for managing apps on iOS devices
