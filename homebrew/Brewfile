@@ -13,6 +13,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "matt-gleich/taps"
 tap "morse-module/morse-module"
+tap "nektos/tap"
 tap "octo-cli/octo"
 tap "puppetlabs/puppet"
 tap "rodionovd/taps"
@@ -232,6 +233,8 @@ brew "github/gh/gh"
 brew "matt-gleich/taps/nuke"
 # Separate your pdfs from your tex files
 brew "matt-gleich/taps/texsep"
+# Run GitHub Actions locally
+brew "nektos/tap/act"
 # cli client for GitHub
 brew "octo-cli/octo/octo"
 # CLI manager for your text replacements on macOS
