@@ -19,6 +19,7 @@ tap "puppetlabs/puppet"
 tap "rodionovd/taps"
 tap "romkatv/powerlevel10k"
 tap "sambadevi/powerlevel9k"
+cask "xquartz"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8", link: false
 # Automate deployment, configuration, and upgrading
@@ -205,6 +206,8 @@ brew "vitetris"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# UNIX/Linux command-line tool to interact with an EWMH/NetWM
+brew "wmctrl"
 # The personal information dashboard for your terminal
 brew "wtfutil"
 # Linter for YAML files
