@@ -243,7 +243,7 @@
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Julia (Monokai Vibrant)",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.tokenColorCustomizations": {
