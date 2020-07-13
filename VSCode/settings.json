@@ -54,6 +54,7 @@
     "auralite",
     "autofocus",
     "bottomline",
+    "btask",
     "chdir",
     "colorbox",
     "creds",
@@ -243,7 +244,7 @@
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.tokenColorCustomizations": {

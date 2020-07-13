@@ -54,6 +54,7 @@ shardulm94.trailing-spaces
 skyran.js-jsx-snippets
 spywhere.now-playing
 streetsidesoftware.code-spell-checker
+teabyii.ayu
 tecosaur.latex-utilities
 thomanq.math-snippets
 tomphilbin.gruvbox-themes
