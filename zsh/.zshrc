@@ -105,7 +105,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Alias
 alias c=clear
 alias sl=ls
-alias updateEverything="brew update && brew upgrade && brew cask upgrade && brew cleanup && npm upgrade -g && cd /Users/matthewgleich/Documents/GitHub/Personal/Bash/Dot-Files/ && sh push-latest.sh"
 alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
