@@ -108,22 +108,23 @@ alias sl=ls
 alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
+alias update='sh /Users/matthewgleich/Documents/GitHub/Personal/Bash/scripts/update.sh'
 
 # Folder alias
-alias per="cd ~/Documents/GitHub/Personal"
-alias robo="cd ~/Documents/GitHub/Robotics"
-alias gitb="cd ~/Documents/GitHub"
-alias fgo="cd ~/Documents/GitHub/Personal/Golang"
-alias fbash="cd ~/Documents/GitHub/Personal/Bash"
-alias fflutter="cd ~/Documents/GitHub/Personal/Flutter"
-alias fdart="cd ~/Documents/GitHub/Personal/Dart"
-alias fts="cd ~/Documents/GitHub/Personal/TypeScript"
-alias freact="cd ~/Documents/GitHub/Personal/React"
-alias fpy="cd ~/Documents/GitHub/Personal/Python"
-alias fyaml="cd ~/Documents/GitHub/Personal/Yaml"
-alias fdocker="cd ~/Documents/GitHub/Personal/Dockerfile"
-alias fruby="cd ~/Documents/GitHub/Personal/Ruby"
-alias fmarkdown="cd ~/Documents/Github/Personal/Markdown"
+alias per='cd ~/Documents/GitHub/Personal'
+alias robo='cd ~/Documents/GitHub/Robotics'
+alias gitb='cd ~/Documents/GitHub'
+alias fgo='cd ~/Documents/GitHub/Personal/Golang'
+alias fbash='cd ~/Documents/GitHub/Personal/Bash'
+alias fflutter='cd ~/Documents/GitHub/Personal/Flutter'
+alias fdart='cd ~/Documents/GitHub/Personal/Dart'
+alias fts='cd ~/Documents/GitHub/Personal/TypeScript'
+alias freact='cd ~/Documents/GitHub/Personal/React'
+alias fpy='cd ~/Documents/GitHub/Personal/Python'
+alias fyaml='cd ~/Documents/GitHub/Personal/Yaml'
+alias fdocker='cd ~/Documents/GitHub/Personal/Dockerfile'
+alias fruby='cd ~/Documents/GitHub/Personal/Ruby'
+alias fmarkdown='cd ~/Documents/Github/Personal/Markdown'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
