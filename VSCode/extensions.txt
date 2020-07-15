@@ -61,6 +61,7 @@ tomphilbin.gruvbox-themes
 usernamehw.errorlens
 valentjn.vscode-ltex-en
 vscode-icons-team.vscode-icons
+vscodevim.vim
 Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
 windmilleng.vscode-go-autotest

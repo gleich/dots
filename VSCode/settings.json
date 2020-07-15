@@ -391,5 +391,12 @@
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
   "workbench.editor.showTabs": false,
-  "editor.lightbulb.enabled": false
+  "editor.lightbulb.enabled": false,
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block",
+  "vim.cursorStylePerMode.visual": "block-outline",
+  "vim.cursorStylePerMode.visualblock": "block",
+  "vim.cursorStylePerMode.visualline": "block",
+  "vim.startInInsertMode": true
 }
