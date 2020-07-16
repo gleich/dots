@@ -21,7 +21,7 @@ tap "romkatv/powerlevel10k"
 tap "sambadevi/powerlevel9k"
 cask "xquartz"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8", link: false
+brew "python@3.8"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # C++ template library for linear algebra
