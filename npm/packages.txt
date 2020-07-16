@@ -3,7 +3,7 @@
 ├── create-react-app@3.4.1
 ├── diffchecker@0.1.4
 ├── emoj@3.0.1
-├── firebase-tools@8.5.0
+├── firebase-tools@8.6.0
 ├── generator-code@1.2.19
 ├── git-stats@2.10.11
 ├── gitmoji-cli@3.2.6
