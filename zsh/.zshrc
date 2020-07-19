@@ -103,7 +103,6 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Alias
-alias c=clear
 alias sl=ls
 alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
