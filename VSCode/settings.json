@@ -245,7 +245,7 @@
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "GitHub Light",
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.tokenColorCustomizations": {
@@ -392,12 +392,5 @@
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
   "workbench.editor.showTabs": false,
-  "editor.lightbulb.enabled": false,
-  "vim.cursorStylePerMode.insert": "line-thin",
-  "vim.cursorStylePerMode.normal": "block",
-  "vim.cursorStylePerMode.replace": "block",
-  "vim.cursorStylePerMode.visual": "block-outline",
-  "vim.cursorStylePerMode.visualblock": "block",
-  "vim.cursorStylePerMode.visualline": "block",
-  "vim.startInInsertMode": true
+  "editor.lightbulb.enabled": false
 }
