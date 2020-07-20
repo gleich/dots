@@ -103,11 +103,13 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Alias
+alias c=clear
 alias sl=ls
 alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
 alias update='sh /Users/matthewgleich/Documents/GitHub/Personal/Bash/scripts/update.sh'
+alias mindnode='cd /Users/matthewgleich/Library/Mobile\ Documents/W6L39UYL6Z~com~mindnode~MindNode/Documents'
 
 # Folder alias
 alias per='cd ~/Documents/GitHub/Personal'

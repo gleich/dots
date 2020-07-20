@@ -132,8 +132,6 @@ brew "mas"
 brew "minikube"
 # UNIX movie player
 brew "mplayer"
-# Open source relational database management system
-brew "mysql"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Fast, highly customisable system info script
