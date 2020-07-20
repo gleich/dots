@@ -125,7 +125,8 @@ alias fpy='cd ~/Documents/GitHub/Personal/Python'
 alias fyaml='cd ~/Documents/GitHub/Personal/Yaml'
 alias fdocker='cd ~/Documents/GitHub/Personal/Dockerfile'
 alias fruby='cd ~/Documents/GitHub/Personal/Ruby'
-alias fmarkdown='cd ~/Documents/Github/Personal/Markdown'
+alias fmarkdown='cd ~/Documents/GitHub/Personal/Markdown'
+alias fjs='cd ~/Documents/GitHub/Personal/JavaScript'
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -159,4 +160,3 @@ export PATH="$PATH":/Users/matthewgleich/go/bin
 
 # term:
 export TERM=xterm-256color
-
