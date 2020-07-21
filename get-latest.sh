@@ -49,6 +49,7 @@ code --list-extensions >> vscode/extensions.txt
 echo Copying files to repo
 cp ~/.hyper.js ./hyper/.hyper.js
 cp ~/.zshrc ./zsh/.zshrc
+cp ~/.zprofile ./zsh/.zprofile
 cp ~/.p10k.zsh ./zsh/.p10k.zsh
 cp ~/.vimrc ./vim/.vimrc
 cp ~/Brewfile ./homebrew/Brewfile
