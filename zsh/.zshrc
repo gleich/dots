@@ -136,27 +136,17 @@ export NVM_DIR="$HOME/.nvm"
 # added by travis gem
 [ -f /Users/matthewgleich/.travis/travis.sh ] && source /Users/matthewgleich/.travis/travis.sh
 
-# Homebrew
-export PATH="/usr/local/sbin:$PATH"
-export PATH=/usr/local/bin:$PATH
-
 # fuck alias
 eval "$(thefuck --alias)"
 
 # ZSH Syntax Highlighting
 source /Users/matthewgleich/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# Dart Pub
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-
 # Powerlevel 10k
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# go path:
-export PATH="$PATH":/Users/matthewgleich/go/bin
 
 # term:
 export TERM=xterm-256color
