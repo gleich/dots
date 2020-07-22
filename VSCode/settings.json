@@ -393,5 +393,8 @@
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
   "workbench.editor.showTabs": false,
-  "editor.lightbulb.enabled": false
+  "editor.lightbulb.enabled": false,
+  "python.formatting.autopep8Args": [
+    "--aggressive"
+  ]
 }
