@@ -122,6 +122,8 @@ brew "kubernetes-cli"
 brew "lastpass-cli"
 # Terminal file manager
 brew "lf"
+# Rainbows and unicorns in your console!
+brew "lolcat"
 # List USB devices, just like the Linux lsusb command
 brew "lsusb"
 # Text-based web browser
