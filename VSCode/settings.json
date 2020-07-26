@@ -91,6 +91,7 @@
     "ngnix",
     "numpy",
     "oauthlib",
+    "osascript",
     "popen",
     "prefs",
     "pubspec",

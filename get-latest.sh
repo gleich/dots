@@ -23,7 +23,6 @@ mkdir macos
 mkdir jrnl
 mkdir hyper
 mkdir alacritty
-mkdir nuke
 mkdir npm
 mkdir taskwarrior
 
@@ -57,7 +56,6 @@ cp ~/.flutter_settings ./flutter/.flutter_settings
 cp ~/.config/jrnl/jrnl.yaml ./jrnl/.jrnl.yaml
 cp ~/Library/Application' 'Support/Code/User/settings.json ./vscode/settings.json
 cp ~/.config/alacritty/alacritty.yml ./alacritty/alacritty.yml
-cp ~/.config/nuke/config.yml ./nuke/config.yml
 cp ~/.taskrc ./taskwarrior/.taskrc
 
 # Removing generated files
