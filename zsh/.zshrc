@@ -1,5 +1,5 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
+# # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -109,7 +109,7 @@ alias cat=ccat
 alias lgf='flutter pub run local_google_fonts:main'
 alias importsort='flutter pub run import_sorter:main'
 alias update='sh /Users/matthewgleich/Documents/GitHub/Personal/Bash/scripts/update.sh'
-alias mindnode='cd /Users/matthewgleich/Library/Mobile\ Documents/W6L39UYL6Z~com~mindnode~MindNode/Documents'
+alias mindnode='python3 /Users/matthewgleich/Documents/GitHub/Personal/Bash/scripts/mindnode.py'
 
 # Folder alias
 alias per='cd ~/Documents/GitHub/Personal'
