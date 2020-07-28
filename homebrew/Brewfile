@@ -207,6 +207,8 @@ brew "vitetris"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# UNIX/Linux command-line tool to interact with an EWMH/NetWM
+brew "wmctrl"
 # The personal information dashboard for your terminal
 brew "wtfutil"
 # Linter for YAML files

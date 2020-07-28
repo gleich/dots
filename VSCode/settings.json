@@ -140,7 +140,6 @@
   "zenMode.hideLineNumbers": false,
   "dart.previewFlutterUiGuides": true,
   "discord.silent": true,
-  "discord.detailsIdle": "👀Vibing",
   "git.alwaysSignOff": true,
   "go.autocompleteUnimportedPackages": true,
   "html.format.indentInnerHtml": true,
@@ -395,7 +394,5 @@
   "workbench.tree.indent": 16,
   "workbench.editor.showTabs": false,
   "editor.lightbulb.enabled": false,
-  "python.formatting.autopep8Args": [
-    "--aggressive"
-  ]
+  "python.formatting.autopep8Args": ["--aggressive"]
 }
