@@ -1,5 +1,5 @@
 /Users/matthewgleich/.nvm/versions/node/v12.17.0/lib
-├── next@9.5.0
+├── next@9.5.1
 ├── npm@6.14.7
 ├── UNMET PEER DEPENDENCY react@^16.6.0
 └── UNMET PEER DEPENDENCY react-dom@^16.6.0
