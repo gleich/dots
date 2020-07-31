@@ -14,7 +14,7 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "window.zoomLevel": 3,
+  "window.zoomLevel": 1,
   "editor.fontSize": 16.5,
   "latex-workshop.message.update.show": false,
   "latex-workshop.view.pdf.viewer": "browser",
