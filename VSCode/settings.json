@@ -246,7 +246,6 @@
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.tokenColorCustomizations": {
@@ -394,5 +393,8 @@
   "workbench.tree.indent": 16,
   "workbench.editor.showTabs": false,
   "editor.lightbulb.enabled": false,
-  "python.formatting.autopep8Args": ["--aggressive"]
+  "python.formatting.autopep8Args": [
+    "--aggressive"
+  ],
+  "workbench.colorTheme": "Julia (Monokai Vibrant)"
 }
