@@ -287,7 +287,6 @@ cask "obinslab-starter"
 cask "obs"
 cask "opera"
 cask "pdk"
-cask "pock"
 cask "postman"
 cask "rocket"
 cask "sdformatter"
@@ -305,20 +304,16 @@ cask "zwift"
 mas "1Focus", id: 969210610
 mas "Affinity Photo", id: 824183456
 mas "Battery Monitor", id: 836505650
-mas "Battery Stats for AirPods", id: 1405763798
 mas "CleanMyDrive 2", id: 523620159
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
-mas "Downlink", id: 1454269192
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Encrypto", id: 935235287
 mas "Filters for Photos", id: 1083965373
 mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
-mas "GIPHY CAPTURE", id: 668208984
-mas "GitGrass", id: 1501139279
 mas "Grammarly for Safari", id: 1462114288
 mas "HEIC Converter", id: 1294126402
 mas "Helium", id: 1054607607
@@ -343,7 +338,5 @@ mas "Spark", id: 1176895641
 mas "Speedtest", id: 1153157709
 mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
-mas "Transporter", id: 1450874784
-mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
