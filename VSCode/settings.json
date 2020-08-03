@@ -371,7 +371,6 @@
   },
   "editor.cursorBlinking": "phase",
   "terminal.integrated.cursorBlinking": true,
-  "workbench.activityBar.visible": false,
   "resmon.show.cpufreq": false,
   "resmon.show.cputemp": true,
   "workbench.colorCustomizations": {
@@ -386,15 +385,23 @@
       "titleBar.activeBackground": "#070707",
       "titleBar.inactiveBackground": "#070707",
       "titleBar.border": "#070707",
-      "sideBarTitle.foreground": "#1eff00"
+      "sideBarTitle.foreground": "#1eff00",
+      "tab.inactiveBackground": "#070707",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#ffffff",
+      "tab.activeBorderTop": "#1eff00",
+      "tab.activeBackground": "#070707",
+      "titleBar.activeForeground": "#1eff00",
+      "editorGroupHeader.tabsBackground": "#070707"
     }
   },
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
-  "workbench.editor.showTabs": false,
   "editor.lightbulb.enabled": false,
-  "python.formatting.autopep8Args": [
-    "--aggressive"
-  ],
-  "workbench.colorTheme": "Julia (Monokai Vibrant)"
+  "python.formatting.autopep8Args": ["--aggressive"],
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.activityBar.visible": false
 }

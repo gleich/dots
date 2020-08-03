@@ -67,6 +67,8 @@ brew "jpeg"
 brew "libtiff"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
 # Image format providing lossless and lossy compression for web images
@@ -121,6 +123,10 @@ brew "kompose"
 brew "kubernetes-cli"
 # LastPass command-line interface tool
 brew "lastpass-cli"
+# The lazier way to manage everything docker
+brew "lazydocker"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Terminal file manager
 brew "lf"
 # Rainbows and unicorns in your console!
@@ -161,8 +167,6 @@ brew "pick"
 brew "pinentry-mac"
 # Animated pipes terminal screensaver
 brew "pipes-sh"
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Python package management tool
 brew "poetry"
 # Show ps output as a tree
