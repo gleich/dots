@@ -400,8 +400,8 @@
   "editor.lightbulb.enabled": false,
   "python.formatting.autopep8Args": ["--aggressive"],
   "workbench.colorTheme": "Julia (Monokai Vibrant)",
-  "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "editor.smoothScrolling": true
 }
