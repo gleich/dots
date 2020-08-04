@@ -41,6 +41,7 @@
     "Kubernetes",
     "Linkedin",
     "Minikube",
+    "Monokai",
     "PDFs",
     "Printf",
     "Println",
@@ -119,7 +120,6 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.inheritEnv": false,
   "go.formatTool": "gofmt",
   "go.useLanguageServer": true,
   "files.autoSaveDelay": 100,
