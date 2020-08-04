@@ -390,6 +390,7 @@
       "tab.activeForeground": "#ffffff",
       "tab.inactiveForeground": "#ffffff",
       "tab.activeBorderTop": "#1eff00",
+      "tab.activeModifiedBorder": "#ff8400",
       "tab.activeBackground": "#070707",
       "titleBar.activeForeground": "#1eff00",
       "editorGroupHeader.tabsBackground": "#070707"
@@ -403,5 +404,7 @@
   "workbench.list.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.activityBar.visible": false,
-  "editor.smoothScrolling": true
+  "editor.smoothScrolling": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"]
 }

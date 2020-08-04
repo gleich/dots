@@ -3,6 +3,7 @@ tap "buo/cask-upgrade"
 tap "dart-lang/dart"
 tap "flschweiger/flutter"
 tap "github/gh"
+tap "golangci/tap"
 tap "homebrew/aliases"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -237,6 +238,8 @@ brew "bcongdon/ep/ep"
 brew "dart-lang/dart/dart"
 # GitHub CLI
 brew "github/gh/gh"
+# Fast linters runner for Go.
+brew "golangci/tap/golangci-lint"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # Separate your pdfs from your tex files
