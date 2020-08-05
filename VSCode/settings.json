@@ -27,6 +27,7 @@
     "Coronavirus",
     "Datatypes",
     "Desmos",
+    "Dockerfiles",
     "Elon",
     "Gleich",
     "Gleich's",
@@ -406,5 +407,9 @@
   "workbench.activityBar.visible": false,
   "editor.smoothScrolling": true,
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--fast"]
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/usr/local/bin/black"
 }
