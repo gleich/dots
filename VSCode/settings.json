@@ -411,5 +411,6 @@
     "--fast"
   ],
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/usr/local/bin/black"
+  "python.formatting.blackPath": "/usr/local/bin/black",
+  "yaclock.showSecond": true
 }
