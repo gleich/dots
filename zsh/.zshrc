@@ -128,11 +128,6 @@ alias fruby='cd ~/Documents/GitHub/Personal/Ruby'
 alias fmarkdown='cd ~/Documents/GitHub/Personal/Markdown'
 alias fjs='cd ~/Documents/GitHub/Personal/JavaScript'
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 # added by travis gem
 [ -f /Users/matthewgleich/.travis/travis.sh ] && source /Users/matthewgleich/.travis/travis.sh
 
