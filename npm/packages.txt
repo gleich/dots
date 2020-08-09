@@ -5,12 +5,13 @@
 ├── emoj@3.0.1
 ├── firebase-tools@8.7.0
 ├── generator-code@1.2.20
-├── git-stats@2.10.11
+├── git-stats@2.10.12
 ├── gitmoji-cli@3.2.6
 ├── hackclub-ship@0.0.4
 ├── hoot-cli@2.0.1
 ├── jest@26.2.2
 ├── kasaya@0.1.3
+├── licensed@1.5.0
 ├── npm@6.14.7
 ├── pnpm@5.4.12
 ├── prettier@2.0.5
