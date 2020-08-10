@@ -46,6 +46,18 @@ brew "ccat"
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Image manipulation library
+brew "jpeg"
+# TIFF library and utilities
+brew "libtiff"
+# Color management engine supporting ICC profiles
+brew "little-cms2"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Music player with an ncurses based interface
+brew "cmus"
 # Utility that creates projects from templates
 brew "cookiecutter"
 # GNU File, Shell, and Text utilities
@@ -64,18 +76,8 @@ brew "dive"
 brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose"
-# Image manipulation library
-brew "jpeg"
-# TIFF library and utilities
-brew "libtiff"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
-# Manage compile and link flags for libraries
-brew "pkg-config"
-# Color management engine supporting ICC profiles
-brew "little-cms2"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # macOS CLI for managing custom icons for files and folders
 brew "fileicon"
 # User-friendly command-line shell for UNIX-like operating systems

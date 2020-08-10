@@ -194,13 +194,6 @@
   "editor.fontLigatures": true,
   "dart.warnWhenEditingFilesOutsideWorkspace": false,
   "workbench.editor.highlightModifiedTabs": true,
-  "discord.detailsEditing": "✏️{filename} in {dirname}",
-  "discord.detailsDebugging": "✏️{filename} in {dirname}",
-  "discord.lowerDetailsEditing": "📦{workspace}",
-  "discord.lowerDetailsDebugging": "📦{workspace}",
-  "discord.largeImageIdle": "🥶Idling",
-  "discord.largeImage": "✏️{LANG} file",
-  "discord.lowerDetailsIdle": "🥶Idling",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
@@ -408,9 +401,7 @@
   "workbench.activityBar.visible": false,
   "editor.smoothScrolling": true,
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": [
-    "--fast"
-  ],
+  "go.lintFlags": ["--fast"],
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/usr/local/bin/black",
   "yaclock.showSecond": true
