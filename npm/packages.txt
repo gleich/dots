@@ -6,7 +6,7 @@
 ├── firebase-tools@8.7.0
 ├── generator-code@1.2.21
 ├── git-stats@2.10.12
-├── gitmoji-cli@3.2.6
+├── gitmoji-cli@3.2.7
 ├── hackclub-ship@0.0.4
 ├── hoot-cli@2.0.1
 ├── jest@26.3.0
