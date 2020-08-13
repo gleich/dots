@@ -104,6 +104,8 @@ brew "googler"
 brew "goreleaser"
 # Version Control Visualization Tool
 brew "gource"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # GitHub Markdown previewer
 brew "grip"
 # Smarter Dockerfile linter to validate best practices
