@@ -9,12 +9,12 @@
 ├── gitmoji-cli@3.2.7
 ├── hackclub-ship@0.0.4
 ├── hoot-cli@2.0.1
-├── jest@26.3.0
+├── jest@26.4.0
 ├── kasaya@0.1.3
 ├── licensed@1.5.0
 ├── npm@6.14.7
 ├── pnpm@5.5.1
 ├── prettier@2.0.5
-├── react-scripts@3.4.2
+├── react-scripts@3.4.3
 └── yo@3.1.1
 

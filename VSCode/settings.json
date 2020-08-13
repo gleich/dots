@@ -102,6 +102,7 @@
     "pytest",
     "pyyaml",
     "repo",
+    "repos",
     "sdks",
     "strftime",
     "subnational",
