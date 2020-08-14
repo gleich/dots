@@ -275,14 +275,12 @@ cask "flutter"
 cask "font-computer-modern"
 cask "font-fira-code"
 cask "font-metropolis"
-cask "g-desktop-suite"
 cask "geotag-photos-pro"
 cask "github"
 cask "gitify"
 cask "google-chrome"
 cask "grammarly"
 cask "hazeover"
-cask "icons8"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "kite"
@@ -293,12 +291,10 @@ cask "macintoshjs"
 cask "macs-fan-control"
 cask "memorize.ai"
 cask "michaelvillar-timer"
-cask "microsoft-outlook"
 cask "microsoft-teams"
 cask "minecraft"
 cask "notion"
 cask "obinslab-starter"
-cask "obs"
 cask "opera"
 cask "pdk"
 cask "postman"
@@ -310,11 +306,8 @@ cask "telegram"
 cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
-cask "vmware-horizon-client"
-cask "webex-meetings"
 cask "windows95"
 cask "zoomus"
-cask "zwift"
 mas "1Focus", id: 969210610
 mas "Affinity Photo", id: 824183456
 mas "Battery Monitor", id: 836505650
@@ -352,4 +345,5 @@ mas "Speedtest", id: 1153157709
 mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
 mas "Twitter", id: 1482454543
+mas "WeatherBug", id: 1059074180
 mas "Xcode", id: 497799835
