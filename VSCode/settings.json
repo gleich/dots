@@ -400,11 +400,11 @@
   "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "workbench.list.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
-  "workbench.activityBar.visible": false,
   "editor.smoothScrolling": true,
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/usr/local/bin/black",
-  "yaclock.showSecond": true
+  "yaclock.showSecond": true,
+  "workbench.activityBar.visible": false
 }
