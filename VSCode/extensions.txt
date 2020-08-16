@@ -4,7 +4,6 @@ abusaidm.html-snippets
 adamgraham.polykai-theme
 aleksandra.go-group-imports
 alex-shnayder.theme-raspberry
-auchenberg.vscode-browser-preview
 cameronbieganek.julia-color-themes
 christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2
@@ -14,7 +13,6 @@ Dart-Code.flutter
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
-eamodio.gitlens
 eg2.vscode-npm-script
 esbenp.prettier-vscode
 exiasr.hadolint
@@ -28,7 +26,6 @@ gmlewis-vscode.flutter-stylizer
 golang.go
 GulajavaMinistudio.mayukaithemevsc
 hediet.vscode-drawio
-henriiik.docker-linter
 icrawl.discord-vscode
 ipedrazas.kubernetes-snippets
 James-Yu.latex-workshop
