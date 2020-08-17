@@ -398,7 +398,7 @@
   "workbench.tree.indent": 16,
   "editor.lightbulb.enabled": false,
   "python.formatting.autopep8Args": ["--aggressive"],
-  "workbench.colorTheme": "GitHub Light",
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "workbench.list.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.smoothScrolling": true,
