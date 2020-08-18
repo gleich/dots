@@ -6,14 +6,14 @@
 ├── firebase-tools@8.7.0
 ├── generator-code@1.2.21
 ├── git-stats@2.10.12
-├── gitmoji-cli@3.2.9
+├── gitmoji-cli@3.2.10
 ├── hackclub-ship@0.0.4
 ├── hoot-cli@2.0.1
 ├── jest@26.4.0
 ├── kasaya@0.1.3
 ├── licensed@1.5.0
 ├── npm@6.14.8
-├── pnpm@5.5.1
+├── pnpm@5.5.2
 ├── prettier@2.0.5
 ├── react-scripts@3.4.3
 └── yo@3.1.1
