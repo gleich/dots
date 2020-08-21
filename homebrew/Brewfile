@@ -151,6 +151,8 @@ brew "minikube"
 brew "mplayer"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Wrap web apps natively
+brew "nativefier"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
