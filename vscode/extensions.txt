@@ -39,6 +39,7 @@ KevinRose.vsc-python-indent
 kiteco.kite
 leveluptutorials.theme-levelup
 markfknight.monokai-operator-theme
+MartinLaRegina.clear-view-indent
 monokai.theme-monokai-pro-vscode
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
