@@ -89,6 +89,8 @@ brew "fortune"
 brew "node"
 # Gatsby command-line interface
 brew "gatsby-cli"
+# GitHub command-line tool
+brew "gh"
 # Work on GitHub issues on the command-line
 brew "ghi"
 # Distributed revision control system
@@ -245,8 +247,6 @@ brew "zsh-syntax-highlighting"
 brew "bcongdon/ep/ep"
 # The Dart SDK
 brew "dart-lang/dart/dart"
-# GitHub CLI
-brew "github/gh/gh"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # ☢️ Force quit all applications with one terminal command
