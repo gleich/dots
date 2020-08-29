@@ -97,6 +97,8 @@ brew "ghi"
 brew "git"
 # GitHub-like contributions calendar but on the command-line
 brew "git-cal"
+# Emoji guide for your commit messages
+brew "gitmoji"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
