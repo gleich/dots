@@ -40,6 +40,7 @@ leveluptutorials.theme-levelup
 markfknight.monokai-operator-theme
 MartinLaRegina.clear-view-indent
 monokai.theme-monokai-pro-vscode
+mquandalle.graphql
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
