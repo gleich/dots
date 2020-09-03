@@ -107,6 +107,8 @@ brew "gnupg", link: false
 brew "googler"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser"
+# Terminal based graphical activity monitor inspired by gtop and vtop
+brew "gotop"
 # Version Control Visualization Tool
 brew "gource"
 # GitHub Markdown previewer
