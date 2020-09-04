@@ -1,3 +1,4 @@
+tap "alexellis/alexellis"
 tap "bcongdon/ep"
 tap "buo/cask-upgrade"
 tap "dart-lang/dart"
@@ -57,12 +58,12 @@ brew "deno"
 brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Image manipulation library
 brew "jpeg"
 # TIFF library and utilities
 brew "libtiff"
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
 # Image format providing lossless and lossy compression for web images
@@ -215,6 +216,8 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Install k3s over SSH with ('ketchup')
+brew "alexellis/alexellis/k3sup", link: false
 # ⛏ A CLI Emoji Picker
 brew "bcongdon/ep/ep"
 # The Dart SDK
