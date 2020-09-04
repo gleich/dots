@@ -39,26 +39,12 @@ brew "bash-completion"
 brew "black"
 # Library for manipulating PNG images
 brew "libpng"
-# Emacs dependency management
-brew "cask"
 # Like cat but displays content with syntax highlighting
 brew "ccat"
 # Cross-platform make
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
-# Manage compile and link flags for libraries
-brew "pkg-config"
-# Image manipulation library
-brew "jpeg"
-# TIFF library and utilities
-brew "libtiff"
-# Color management engine supporting ICC profiles
-brew "little-cms2"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
-# Music player with an ncurses based interface
-brew "cmus"
 # Utility that creates projects from templates
 brew "cookiecutter"
 # GNU File, Shell, and Text utilities
@@ -67,18 +53,20 @@ brew "coreutils"
 brew "cowsay"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Go dependency management tool
-brew "dep"
-# Tool for exploring each layer in a docker image
-brew "dive"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose"
-# Perl lib for reading and writing EXIF metadata
-brew "exiftool"
+# Image manipulation library
+brew "jpeg"
+# TIFF library and utilities
+brew "libtiff"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Color management engine supporting ICC profiles
+brew "little-cms2"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # macOS CLI for managing custom icons for files and folders
 brew "fileicon"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -91,28 +79,22 @@ brew "node"
 brew "gatsby-cli"
 # GitHub command-line tool
 brew "gh"
-# Work on GitHub issues on the command-line
-brew "ghi"
 # Distributed revision control system
 brew "git"
-# GitHub-like contributions calendar but on the command-line
-brew "git-cal"
 # Emoji guide for your commit messages
 brew "gitmoji"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg", link: false
-# Google Search and News from the command-line
-brew "googler"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser"
 # Terminal based graphical activity monitor inspired by gtop and vtop
 brew "gotop"
 # Version Control Visualization Tool
 brew "gource"
-# GitHub Markdown previewer
-brew "grip"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Improved top (interactive process viewer)
@@ -169,12 +151,6 @@ brew "nmap"
 brew "nsnake"
 # High-level interpreted language for numerical computing
 brew "octave"
-# Open source computer vision library
-brew "opencv"
-# Outputs current CPU temperature for OSX
-brew "osx-cpu-temp"
-# General-purpose scripting language
-brew "php"
 # Utility to choose one option from a set of choices
 brew "pick"
 # Pinentry for GPG on Mac
@@ -199,8 +175,6 @@ brew "screenfetch"
 brew "sdl"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
-# Command-line interface for https://speedtest.net bandwidth tests
-brew "speedtest-cli"
 # Feature-rich console based todo list manager
 brew "task"
 # User interface to the TELNET protocol
@@ -211,10 +185,6 @@ brew "thefuck"
 brew "timewarrior"
 # Terminal multiplexer
 brew "tmux"
-# Color-based alternative to figlet (uses libcaca)
-brew "toilet"
-# Command-line client for Travis CI
-brew "travis"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Language for application scale JavaScript development
@@ -227,8 +197,6 @@ brew "vitetris"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# UNIX/Linux command-line tool to interact with an EWMH/NetWM
-brew "wmctrl"
 # The personal information dashboard for your terminal
 brew "wtfutil"
 # Linter for YAML files
@@ -317,6 +285,7 @@ cask "visual-studio-code"
 cask "webex-meetings"
 cask "windows95"
 cask "zoomus"
+cask "zwift"
 mas "1Focus", id: 969210610
 mas "Affinity Photo", id: 824183456
 mas "Battery Monitor", id: 836505650

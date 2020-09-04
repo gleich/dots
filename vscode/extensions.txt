@@ -53,6 +53,7 @@ phr0s.bib
 pnp.polacode
 redhat.vscode-yaml
 ritwickdey.LiveServer
+sharat.vscode-brewfile
 shardulm94.trailing-spaces
 skyran.js-jsx-snippets
 spywhere.now-playing
