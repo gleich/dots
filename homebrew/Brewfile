@@ -192,6 +192,8 @@ brew "tree"
 brew "typescript"
 # Simple GTD-style task management for the command-line
 brew "ultralist"
+# Vi 'workalike' with many additional features
+brew "vim"
 # Terminal-based Tetris clone
 brew "vitetris"
 # Executes a program periodically, showing output fullscreen
