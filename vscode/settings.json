@@ -406,5 +406,6 @@
   "python.formatting.blackPath": "/usr/local/bin/black",
   "yaclock.showSecond": true,
   "workbench.activityBar.visible": false,
-  "editor.smoothScrolling": true
+  "editor.smoothScrolling": true,
+  "git.confirmSync": false
 }
