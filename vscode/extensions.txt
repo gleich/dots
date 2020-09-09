@@ -48,6 +48,7 @@ msjsdiag.debugger-for-chrome
 Nash.awesome-flutter-snippets
 naumovs.color-highlight
 njpwerner.autodocstring
+npxms.hide-gitignored
 philsinatra.popping-and-locking-vscode-black
 phr0s.bib
 pnp.polacode
