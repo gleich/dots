@@ -57,7 +57,7 @@ brew "deno"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Isolated development environments using Docker
-brew "docker-compose"
+brew "docker-compose", link: false
 # Manage compile and link flags for libraries
 brew "pkg-config"
 # Image manipulation library
