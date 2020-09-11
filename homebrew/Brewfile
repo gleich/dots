@@ -38,6 +38,8 @@ brew "awscli"
 brew "bash-completion"
 # Python code formatter
 brew "black"
+# Interpreter for the brainfuck language
+brew "brainfuck"
 # Library for manipulating PNG images
 brew "libpng"
 # Like cat but displays content with syntax highlighting

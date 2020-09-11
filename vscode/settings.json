@@ -68,6 +68,7 @@
     "dateutil",
     "dtype",
     "eagleye",
+    "effecient",
     "fanboat",
     "fluttercommunity",
     "getcwd",
@@ -370,8 +371,6 @@
   },
   "editor.cursorBlinking": "phase",
   "terminal.integrated.cursorBlinking": true,
-  "resmon.show.cpufreq": false,
-  "resmon.show.cputemp": true,
   "workbench.colorCustomizations": {
     "[Julia (Monokai Vibrant)]": {
       "editorPane.background": "#070707",
@@ -399,7 +398,7 @@
   "workbench.tree.indent": 16,
   "editor.lightbulb.enabled": false,
   "python.formatting.autopep8Args": ["--aggressive"],
-  "workbench.colorTheme": "Julia (Monokai Vibrant)",
+  "workbench.colorTheme": "Polykai",
   "workbench.list.smoothScrolling": true,
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
