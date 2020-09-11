@@ -69,3 +69,4 @@ vscode-icons-team.vscode-icons
 Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
 windmilleng.vscode-go-autotest
+znck.grammarly
