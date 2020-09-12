@@ -407,5 +407,6 @@
       }
     ]
   },
-  "terminal.integrated.fontWeight": "bold"
+  "terminal.integrated.fontWeight": "bold",
+  "editor.lineHeight": 22
 }
