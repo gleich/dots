@@ -14,6 +14,7 @@ rm -rf nuke
 rm -rf npm
 rm -rf taskwarrior
 rm -rf nuke
+rm -rf phoenix
 
 echo Making the new folders
 mkdir zsh
@@ -27,6 +28,7 @@ mkdir alacritty
 mkdir npm
 mkdir taskwarrior
 mkdir nuke
+mkdir phoenix
 
 echo Generating brew file
 cwd=$(pwd)
@@ -60,6 +62,7 @@ cp ~/Library/Application' 'Support/Code/User/settings.json ./vscode/settings.jso
 cp ~/.config/alacritty/alacritty.yml ./alacritty/alacritty.yml
 cp ~/.taskrc ./taskwarrior/.taskrc
 cp ~/.config/nuke/config.yml ./nuke/config.yml
+cp ~/.phoenix.js ./phoenix/.phoenix.js
 
 # Removing generated files
 echo Removing generated files

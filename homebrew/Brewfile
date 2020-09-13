@@ -74,6 +74,8 @@ brew "webp"
 brew "fileicon"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Command-line outline and bitmap font editor/converter
+brew "fontforge"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
 # Platform built on V8 to build network applications
@@ -190,6 +192,8 @@ brew "timewarrior"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Digital clock in ncurses
+brew "tty-clock"
 # Language for application scale JavaScript development
 brew "typescript"
 # Simple GTD-style task management for the command-line
@@ -285,6 +289,7 @@ cask "notion"
 cask "obinslab-starter"
 cask "opera"
 cask "pdk"
+cask "phoenix"
 cask "postman"
 cask "rocket"
 cask "sdformatter"
@@ -304,11 +309,11 @@ mas "Battery Monitor", id: 836505650
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
-mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Encrypto", id: 935235287
 mas "Filters for Photos", id: 1083965373
 mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
+mas "Ghounter", id: 1438633677
 mas "Gifski", id: 1351639930
 mas "Grammarly for Safari", id: 1462114288
 mas "HEIC Converter", id: 1294126402

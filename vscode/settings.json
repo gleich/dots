@@ -134,7 +134,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "'3270 Condensed', Arial",
+  "editor.fontFamily": "'3270 Condensed', FiraCode",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "yaclock.hour12": true,
@@ -218,7 +218,6 @@
   ],
   "editor.accessibilitySupport": "off",
   "terminal.external.osxExec": "iTerm2.app",
-  "editor.minimap.enabled": false,
   "ltex.en-US.dictionary": ["compat", "Gleich", "itemsep", "todolist"],
   "yaml.format.singleQuote": true,
   "prettier.singleQuote": true,
@@ -285,8 +284,9 @@
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
   "editor.lightbulb.enabled": false,
-  "python.formatting.autopep8Args": ["--aggressive"],
-  "workbench.colorTheme": "Julia (Monokai Vibrant)",
+  "python.formatting.autopep8Args": [
+    "--aggressive"
+  ],
   "workbench.list.smoothScrolling": true,
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
@@ -408,5 +408,7 @@
     ]
   },
   "terminal.integrated.fontWeight": "bold",
-  "editor.lineHeight": 22
+  "editor.lineHeight": 22,
+  "workbench.colorTheme": "Polykai",
+  "workbench.editor.showTabs": false
 }
