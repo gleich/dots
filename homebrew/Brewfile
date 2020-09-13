@@ -13,6 +13,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "jmhobbs/parrot"
 tap "linuss1/taps"
 tap "matt-gleich/taps"
 tap "memorize-ai/taps"
@@ -232,6 +233,8 @@ brew "bcongdon/ep/ep"
 brew "dart-lang/dart/dart"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
+# Party Parrot for your terminal
+brew "jmhobbs/parrot/terminal-parrot"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # Separate your pdfs from your tex files
