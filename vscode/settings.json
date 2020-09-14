@@ -83,7 +83,6 @@
     "infographics",
     "jira",
     "kubectl",
-    "lamo",
     "logoru",
     "loguru",
     "macos",
@@ -284,9 +283,7 @@
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
   "editor.lightbulb.enabled": false,
-  "python.formatting.autopep8Args": [
-    "--aggressive"
-  ],
+  "python.formatting.autopep8Args": ["--aggressive"],
   "workbench.list.smoothScrolling": true,
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
