@@ -31,62 +31,48 @@ brew "python@3.8"
 brew "ansible"
 # C++ template library for linear algebra
 brew "eigen"
-# Record and share terminal sessions
-brew "asciinema"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Python code formatter
 brew "black"
-# Interpreter for the brainfuck language
-brew "brainfuck"
 # Library for manipulating PNG images
 brew "libpng"
 # Like cat but displays content with syntax highlighting
 brew "ccat"
 # Cross-platform make
 brew "cmake"
-# Console Matrix
-brew "cmatrix"
 # Utility that creates projects from templates
 brew "cookiecutter"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Configurable talking characters in ASCII art
 brew "cowsay"
-# Secure runtime for JavaScript and TypeScript
-brew "deno"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose", link: false
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Image manipulation library
 brew "jpeg"
 # TIFF library and utilities
 brew "libtiff"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # macOS CLI for managing custom icons for files and folders
 brew "fileicon"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
 # Command-line outline and bitmap font editor/converter
 brew "fontforge"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
-# Platform built on V8 to build network applications
-brew "node"
-# Gatsby command-line interface
-brew "gatsby-cli"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Platform built on V8 to build network applications
+brew "node"
 # Emoji guide for your commit messages
 brew "gitmoji"
 # GNU implementation of the famous stream editor
@@ -105,8 +91,6 @@ brew "gource"
 brew "hadolint"
 # Improved top (interactive process viewer)
 brew "htop"
-# Add GitHub support to git on the command-line
-brew "hub"
 # Library to communicate with iOS devices natively
 brew "libimobiledevice", args: ["HEAD"]
 # Tool for managing apps on iOS devices
@@ -117,18 +101,10 @@ brew "openexr"
 brew "ios-deploy"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Command-line note taker
-brew "jrnl"
 # Tool to move from `docker-compose` to Kubernetes
 brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# LastPass command-line interface tool
-brew "lastpass-cli"
-# The lazier way to manage everything docker
-brew "lazydocker"
-# Simple terminal UI for git commands
-brew "lazygit"
 # Terminal file manager
 brew "lf"
 # Rainbows and unicorns in your console!
@@ -139,12 +115,8 @@ brew "lsusb"
 brew "lynx"
 # Mac App Store command-line interface
 brew "mas"
-# Run a Kubernetes cluster locally
-brew "minikube"
 # UNIX movie player
 brew "mplayer"
-# Free (GNU) replacement for the Pico text editor
-brew "nano"
 # Wrap web apps natively
 brew "nativefier"
 # Fast, highly customisable system info script
@@ -155,14 +127,10 @@ brew "neovim"
 brew "nmap"
 # Classic snake game with textual interface
 brew "nsnake"
-# High-level interpreted language for numerical computing
-brew "octave"
 # Utility to choose one option from a set of choices
 brew "pick"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Animated pipes terminal screensaver
-brew "pipes-sh"
 # Python package management tool
 brew "poetry"
 # Show ps output as a tree
@@ -181,22 +149,14 @@ brew "screenfetch"
 brew "sdl"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
-# Feature-rich console based todo list manager
-brew "task"
 # User interface to the TELNET protocol
 brew "telnet"
 # Programatically correct mistyped console commands
 brew "thefuck"
-# Command-line time tracking application
-brew "timewarrior"
-# Terminal multiplexer
-brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
-# Language for application scale JavaScript development
-brew "typescript"
 # Simple GTD-style task management for the command-line
 brew "ultralist"
 # Vi 'workalike' with many additional features
@@ -213,8 +173,6 @@ brew "wtfutil"
 brew "yamllint"
 # JavaScript package manager
 brew "yarn"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
 # The Dungeon modified from FORTRAN to C
 brew "zork"
 # UNIX shell (command interpreter)
@@ -275,6 +233,7 @@ cask "google-chrome"
 cask "grammarly"
 cask "graphiql"
 cask "hazeover"
+cask "hyper"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "kite"
@@ -343,6 +302,7 @@ mas "Spark", id: 1176895641
 mas "Speedtest", id: 1153157709
 mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
+mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
 mas "WeatherBug", id: 1059074180
 mas "Xcode", id: 497799835
