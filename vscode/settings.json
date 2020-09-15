@@ -74,6 +74,7 @@
     "getcwd",
     "getenv",
     "gitlab",
+    "gitmoji",
     "gofmt",
     "gomod",
     "goreleaser",
