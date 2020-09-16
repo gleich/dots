@@ -68,7 +68,7 @@ cp ~/.taskrc ./taskwarrior/.taskrc
 cp ~/.config/nuke/config.yml ./nuke/config.yml
 cp ~/.phoenix.js ./phoenix/.phoenix.js
 cp ~/.config/neofetch/config.conf ./neofetch/config.conf
-cp ~/.config/bashtop/bashtop.cfg ./neofetch/bashtop.cfg
+cp ~/.config/bashtop/bashtop.cfg ./bashtop/bashtop.cfg
 
 
 # Removing generated files
