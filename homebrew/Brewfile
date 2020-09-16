@@ -151,8 +151,6 @@ brew "sdl"
 brew "sl"
 # User interface to the TELNET protocol
 brew "telnet"
-# Programatically correct mistyped console commands
-brew "thefuck"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Digital clock in ncurses

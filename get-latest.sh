@@ -15,6 +15,8 @@ rm -rf npm
 rm -rf taskwarrior
 rm -rf nuke
 rm -rf phoenix
+rm -rf neofetch
+rm -rf bashtop
 
 echo Making the new folders
 mkdir zsh
@@ -29,6 +31,8 @@ mkdir npm
 mkdir taskwarrior
 mkdir nuke
 mkdir phoenix
+mkdir neofetch
+mkdir bashtop
 
 echo Generating brew file
 cwd=$(pwd)
@@ -63,6 +67,9 @@ cp ~/.config/alacritty/alacritty.yml ./alacritty/alacritty.yml
 cp ~/.taskrc ./taskwarrior/.taskrc
 cp ~/.config/nuke/config.yml ./nuke/config.yml
 cp ~/.phoenix.js ./phoenix/.phoenix.js
+cp ~/.config/neofetch/config.conf ./neofetch/config.conf
+cp ~/.config/bashtop/bashtop.cfg ./neofetch/bashtop.cfg
+
 
 # Removing generated files
 echo Removing generated files

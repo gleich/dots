@@ -131,9 +131,6 @@ alias fjs='cd ~/Documents/GitHub/Personal/JavaScript'
 # added by travis gem
 [ -f /Users/matthewgleich/.travis/travis.sh ] && source /Users/matthewgleich/.travis/travis.sh
 
-# fuck alias
-eval "$(thefuck --alias)"
-
 # ZSH Syntax Highlighting
 source /Users/matthewgleich/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
