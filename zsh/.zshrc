@@ -128,9 +128,6 @@ alias fruby='cd ~/Documents/GitHub/Personal/Ruby'
 alias fmarkdown='cd ~/Documents/GitHub/Personal/Markdown'
 alias fjs='cd ~/Documents/GitHub/Personal/JavaScript'
 
-# added by travis gem
-[ -f /Users/matthewgleich/.travis/travis.sh ] && source /Users/matthewgleich/.travis/travis.sh
-
 # ZSH Syntax Highlighting
 source /Users/matthewgleich/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

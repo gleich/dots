@@ -206,13 +206,13 @@ brew "rodionovd/taps/shortcuts"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 cask "adobe-creative-cloud"
-cask "alacritty"
 cask "alfred"
 cask "android-studio"
 cask "atom"
 cask "balenaetcher"
 cask "bartender"
 cask "brave-browser"
+cask "cheatsheet"
 cask "chromedriver"
 cask "cool-retro-term"
 cask "discord"
@@ -225,15 +225,13 @@ cask "font-computer-modern"
 cask "font-fira-code"
 cask "font-inconsolata"
 cask "font-metropolis"
+cask "g-desktop-suite"
 cask "gitify"
 cask "google-backup-and-sync"
 cask "google-chrome"
 cask "grammarly"
-cask "hazeover"
-cask "hyper"
 cask "iterm2"
 cask "kite"
-cask "kubecontext"
 cask "logitech-options"
 cask "macs-fan-control"
 cask "mactex"
@@ -255,20 +253,15 @@ mas "1Focus", id: 969210610
 mas "Affinity Photo", id: 824183456
 mas "Battery Monitor", id: 836505650
 mas "ColorSlurp", id: 1287239339
-mas "Developer", id: 640199958
-mas "Disk Speed Test", id: 425264550
 mas "Encrypto", id: 935235287
 mas "Filters for Photos", id: 1083965373
 mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "Ghounter", id: 1438633677
 mas "Gifski", id: 1351639930
-mas "Grammarly for Safari", id: 1462114288
 mas "HEIC Converter", id: 1294126402
 mas "Helium", id: 1054607607
-mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
-mas "IPYNB Viewer", id: 1400977081
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
 mas "LastPass", id: 926036361
@@ -280,15 +273,10 @@ mas "Numbers", id: 409203825
 mas "Octagon", id: 691956219
 mas "Pages", id: 409201541
 mas "Plash", id: 1494023538
-mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Slack", id: 803453959
-mas "Sleep Alarm Clock", id: 1091149644
 mas "Spark", id: 1176895641
-mas "Speedtest", id: 1153157709
-mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
-mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
 mas "WeatherBug", id: 1059074180
 mas "Xcode", id: 497799835
