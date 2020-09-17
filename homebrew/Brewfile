@@ -41,6 +41,8 @@ brew "libpng"
 brew "ccat"
 # Cross-platform make
 brew "cmake"
+# Console Matrix
+brew "cmatrix"
 # Utility that creates projects from templates
 brew "cookiecutter"
 # GNU File, Shell, and Text utilities
@@ -188,7 +190,7 @@ brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
 # Install k3s over SSH with ('ketchup')
-brew "alexellis/alexellis/k3sup", link: false
+brew "alexellis/alexellis/k3sup"
 # ⛏ A CLI Emoji Picker
 brew "bcongdon/ep/ep"
 # The Dart SDK

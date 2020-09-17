@@ -408,5 +408,8 @@
   "terminal.integrated.fontWeight": "bold",
   "editor.lineHeight": 22,
   "workbench.colorTheme": "Polykai",
-  "workbench.editor.showTabs": false
+  "terminal.integrated.rendererType": "dom",
+  "vscode_vibrancy.opacity": -1000,
+  "vscode_vibrancy.theme": "Default Dark",
+  "editor.minimap.enabled": false
 }
