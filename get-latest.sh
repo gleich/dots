@@ -17,6 +17,7 @@ rm -rf nuke
 rm -rf phoenix
 rm -rf neofetch
 rm -rf bashtop
+rm -rf eDEX-UI
 
 echo Making the new folders
 mkdir zsh
@@ -33,6 +34,7 @@ mkdir nuke
 mkdir phoenix
 mkdir neofetch
 mkdir bashtop
+mkdir eDEX-UI
 
 echo Generating brew file
 cwd=$(pwd)
@@ -69,6 +71,7 @@ cp ~/.config/nuke/config.yml ./nuke/config.yml
 cp ~/.phoenix.js ./phoenix/.phoenix.js
 cp ~/.config/neofetch/config.conf ./neofetch/config.conf
 cp ~/.config/bashtop/bashtop.cfg ./bashtop/bashtop.cfg
+cp /Users/matthewgleich/Library/Application' 'Support/eDEX-UI/settings.json ./eDEX-UI/settings.json
 
 
 # Removing generated files
