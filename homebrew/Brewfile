@@ -105,6 +105,10 @@ brew "jq"
 brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
+# The lazier way to manage everything docker
+brew "lazydocker"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Terminal file manager
 brew "lf"
 # Rainbows and unicorns in your console!
