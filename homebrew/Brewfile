@@ -50,7 +50,7 @@ brew "coreutils"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Isolated development environments using Docker
 brew "docker-compose", link: false
 # Image manipulation library
