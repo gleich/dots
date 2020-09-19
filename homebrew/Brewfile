@@ -163,6 +163,8 @@ brew "telnet"
 brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
+# Language for application scale JavaScript development
+brew "typescript"
 # Simple GTD-style task management for the command-line
 brew "ultralist"
 # Vi 'workalike' with many additional features
