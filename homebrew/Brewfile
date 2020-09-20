@@ -107,7 +107,7 @@ brew "jq"
 brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# The lazier way to manage everything docker
+# Lazier way to manage everything docker
 brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
@@ -175,13 +175,13 @@ brew "vitetris"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# The personal information dashboard for your terminal
+# Personal information dashboard for your terminal
 brew "wtfutil"
 # Linter for YAML files
 brew "yamllint"
 # JavaScript package manager
 brew "yarn"
-# The Dungeon modified from FORTRAN to C
+# Dungeon modified from FORTRAN to C
 brew "zork"
 # UNIX shell (command interpreter)
 brew "zsh"
