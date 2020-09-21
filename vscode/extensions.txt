@@ -52,6 +52,7 @@ npxms.hide-gitignored
 philsinatra.popping-and-locking-vscode-black
 phr0s.bib
 pnp.polacode
+redhat.java
 redhat.vscode-yaml
 ritwickdey.LiveServer
 sharat.vscode-brewfile
@@ -65,6 +66,12 @@ thomanq.math-snippets
 tomphilbin.gruvbox-themes
 usernamehw.errorlens
 valentjn.vscode-ltex-en
+VisualStudioExptTeam.vscodeintellicode
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
 vscode-icons-team.vscode-icons
 Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
