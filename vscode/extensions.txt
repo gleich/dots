@@ -19,6 +19,7 @@ exiasr.hadolint
 foam.foam-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
+formulahendry.code-runner
 formulahendry.github-actions
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
