@@ -384,7 +384,7 @@
   },
   "terminal.integrated.fontWeight": "bold",
   "editor.lineHeight": 22,
-  "workbench.colorTheme": "Julia (Monokai Vibrant)",
+  "workbench.colorTheme": "Polykai",
   "terminal.integrated.rendererType": "dom",
   "editor.minimap.enabled": false
 }
