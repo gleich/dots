@@ -73,7 +73,5 @@ cp ~/.config/neofetch/config.conf ./neofetch/config.conf
 cp ~/.config/bpytop/bpytop.cfg ./bpytop/bpytop.cfg
 cp /Users/matthewgleich/Library/Application' 'Support/eDEX-UI/settings.json ./eDEX-UI/settings.json
 
-
-# Removing generated files
 echo Removing generated files
 rm ~/Brewfile
