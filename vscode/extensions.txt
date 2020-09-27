@@ -66,7 +66,6 @@ tecosaur.latex-utilities
 thomanq.math-snippets
 tomphilbin.gruvbox-themes
 usernamehw.errorlens
-valentjn.vscode-ltex-en
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency

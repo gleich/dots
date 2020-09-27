@@ -1,289 +1,97 @@
 tap "alexellis/alexellis"
-tap "bcongdon/ep"
-tap "buo/cask-upgrade"
 tap "dart-lang/dart"
-tap "flschweiger/flutter"
-tap "github/gh"
 tap "golangci/tap"
-tap "homebrew/aliases"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/services"
-tap "jmhobbs/parrot"
-tap "linuss1/taps"
 tap "matt-gleich/taps"
-tap "memorize-ai/taps"
-tap "morse-module/morse-module"
 tap "nektos/tap"
-tap "octo-cli/octo"
-tap "puppetlabs/puppet"
 tap "rodionovd/taps"
-tap "romkatv/powerlevel10k"
-tap "sambadevi/powerlevel9k"
-cask "xquartz"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
-# Automate deployment, configuration, and upgrading
-brew "ansible"
-# C++ template library for linear algebra
-brew "eigen"
-# Programmable completion for Bash 3.2
-brew "bash-completion"
 # Python code formatter
 brew "black"
-# Library for manipulating PNG images
-brew "libpng"
-# Like cat but displays content with syntax highlighting
-brew "ccat"
-# Cross-platform make
-brew "cmake"
-# Console Matrix
-brew "cmatrix"
-# Utility that creates projects from templates
-brew "cookiecutter"
-# GNU File, Shell, and Text utilities
-brew "coreutils"
-# Configurable talking characters in ASCII art
-brew "cowsay"
-# Pack, ship and run any application as a lightweight container
-brew "docker", link: false
-# Isolated development environments using Docker
-brew "docker-compose", link: false
-# Image manipulation library
-brew "jpeg"
-# TIFF library and utilities
-brew "libtiff"
-# Manage compile and link flags for libraries
-brew "pkg-config"
-# Color management engine supporting ICC profiles
-brew "little-cms2"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
-# macOS CLI for managing custom icons for files and folders
-brew "fileicon"
-# Command-line outline and bitmap font editor/converter
-brew "fontforge"
-# Infamous electronic fortune-cookie generator
-brew "fortune"
-# GitHub command-line tool
-brew "gh"
-# Distributed revision control system
-brew "git"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # Platform built on V8 to build network applications
 brew "node"
+# Unfancy JavaScript
+brew "coffeescript"
+# Configurable talking characters in ASCII art
+brew "cowsay"
+# Isolated development environments using Docker
+brew "docker-compose"
+# GitHub command-line tool
+brew "gh"
 # Emoji guide for your commit messages
 brew "gitmoji"
-# GNU implementation of the famous stream editor
-brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
-brew "gnupg", link: false
+brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Deliver Go binaries as fast and easily as possible
-brew "goreleaser"
-# Terminal based graphical activity monitor inspired by gtop and vtop
-brew "gotop"
 # Version Control Visualization Tool
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
-# Improved top (interactive process viewer)
-brew "htop"
-# Library to communicate with iOS devices natively
-brew "libimobiledevice", args: ["HEAD"]
-# Tool for managing apps on iOS devices
-brew "ideviceinstaller"
-# High dynamic-range image file format
-brew "openexr"
-# Install and debug iPhone apps from the command-line
-brew "ios-deploy"
-# Lightweight and flexible command-line JSON processor
-brew "jq"
-# Tool to move from `docker-compose` to Kubernetes
-brew "kompose"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
-# Lazier way to manage everything docker
-brew "lazydocker"
-# Simple terminal UI for git commands
-brew "lazygit"
-# Terminal file manager
-brew "lf"
-# Rainbows and unicorns in your console!
-brew "lolcat"
-# List USB devices, just like the Linux lsusb command
-brew "lsusb"
-# Text-based web browser
-brew "lynx"
 # Mac App Store command-line interface
 brew "mas"
-# UNIX movie player
-brew "mplayer"
-# Wrap web apps natively
-brew "nativefier"
 # Fast, highly customisable system info script
 brew "neofetch"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
-# Port scanning utility for large networks
-brew "nmap"
-# Classic snake game with textual interface
-brew "nsnake"
-# Development kit for the Java programming language
-brew "openjdk"
-# Utility to choose one option from a set of choices
-brew "pick"
-# Pinentry for GPG on Mac
-brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
 # Show ps output as a tree
 brew "pstree"
-# Alternative to pyenv for managing virtualenvs
-brew "pyenv-virtualenvwrapper"
-# It's not just a linter that annoys you!
-brew "pylint"
-# File browser
-brew "ranger"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
-# Generate ASCII art with terminal, shell, and OS info
-brew "screenfetch"
-# Low-level access to audio, keyboard, mouse, joystick and graphics
-brew "sdl"
-# Prints a steam locomotive if you type sl instead of ls
-brew "sl"
-# User interface to the TELNET protocol
-brew "telnet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
-# Language for application scale JavaScript development
-brew "typescript"
-# Simple GTD-style task management for the command-line
-brew "ultralist"
-# Vi 'workalike' with many additional features
-brew "vim"
-# Terminal-based Tetris clone
-brew "vitetris"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
-# Internet file retriever
-brew "wget"
-# Personal information dashboard for your terminal
-brew "wtfutil"
-# Linter for YAML files
-brew "yamllint"
 # JavaScript package manager
 brew "yarn"
-# Dungeon modified from FORTRAN to C
-brew "zork"
-# UNIX shell (command interpreter)
-brew "zsh"
-# Fish-like fast/unobtrusive autosuggestions for zsh
-brew "zsh-autosuggestions"
-# Additional completion definitions for zsh
-brew "zsh-completions"
-# Fish shell like syntax highlighting for zsh
-brew "zsh-syntax-highlighting"
 # Install k3s over SSH with ('ketchup')
 brew "alexellis/alexellis/k3sup"
-# ⛏ A CLI Emoji Picker
-brew "bcongdon/ep/ep"
 # The Dart SDK
 brew "dart-lang/dart/dart"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
-# Party Parrot for your terminal
-brew "jmhobbs/parrot/terminal-parrot"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
-# Separate your pdfs from your tex files
-brew "matt-gleich/taps/texsep"
 # Run GitHub Actions locally
 brew "nektos/tap/act"
-# cli client for GitHub
-brew "octo-cli/octo/octo"
 # CLI manager for your text replacements on macOS
 brew "rodionovd/taps/shortcuts"
-# A Zsh Theme
-brew "romkatv/powerlevel10k/powerlevel10k"
 cask "adobe-creative-cloud"
+cask "alacritty"
 cask "alfred"
 cask "android-studio"
-cask "atom"
-cask "balenaetcher"
 cask "bartender"
 cask "brave-browser"
 cask "cheatsheet"
-cask "chromedriver"
 cask "cool-retro-term"
 cask "discord"
 cask "docker"
 cask "drawio"
 cask "edex-ui"
-cask "flutter"
 cask "font-3270"
-cask "font-computer-modern"
 cask "font-fira-code"
-cask "font-inconsolata"
-cask "font-metropolis"
 cask "github"
 cask "gitify"
-cask "google-backup-and-sync"
-cask "google-chrome"
 cask "grammarly"
+cask "hyper"
 cask "iterm2"
 cask "kite"
+cask "lastpass"
 cask "logitech-options"
-cask "macs-fan-control"
 cask "mactex"
-cask "microsoft-auto-update"
-cask "minecraft"
-cask "notion"
-cask "obinslab-starter"
 cask "opera"
 cask "phoenix"
 cask "postman"
-cask "sdformatter"
-cask "shortcuts"
+cask "slack"
 cask "steam"
-cask "telegram"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "zoomus"
-mas "1Focus", id: 969210610
-mas "Affinity Photo", id: 824183456
-mas "Battery Monitor", id: 836505650
-mas "ColorSlurp", id: 1287239339
-mas "Encrypto", id: 935235287
-mas "Filters for Photos", id: 1083965373
-mas "Firewatch", id: 1164603847
-mas "GarageBand", id: 682658836
-mas "Ghounter", id: 1438633677
-mas "Gifski", id: 1351639930
-mas "HEIC Converter", id: 1294126402
-mas "Helium", id: 1054607607
-mas "iMovie", id: 408981434
-mas "iStat Menus", id: 1319778037
-mas "Keynote", id: 409183694
-mas "LastPass", id: 926036361
-mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "MindNode", id: 1289197285
-mas "Mini Metro", id: 1047760200
-mas "Numbers", id: 409203825
-mas "Octagon", id: 691956219
-mas "Pages", id: 409201541
-mas "Plash", id: 1494023538
-mas "Shazam", id: 897118787
-mas "Slack", id: 803453959
-mas "Spark", id: 1176895641
-mas "Termius", id: 1176074088
-mas "WeatherBug", id: 1059074180
-mas "Xcode", id: 497799835

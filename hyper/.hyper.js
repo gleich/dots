@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 18,
+    fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: 'MesloLGS NF',
+    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -24,19 +24,19 @@ module.exports = {
     lineHeight: 1,
 
     // letter spacing as a relative unit
-    letterSpacing: 2,
+    letterSpacing: 0,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(0, 212, 42,0.8)',
+    cursorColor: 'rgba(248,28,229,0.8)',
 
     // terminal text color under BLOCK cursor
-    cursorAccentColor: 'rgba(0, 212, 42,0.8)',
+    cursorAccentColor: '#000',
 
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
-    cursorShape: 'BEAM',
+    cursorShape: 'BLOCK',
 
     // set to `true` (without backticks and without quotes) for blinking cursor
-    cursorBlink: true,
+    cursorBlink: false,
 
     // color of the text
     foregroundColor: '#fff',
@@ -46,10 +46,10 @@ module.exports = {
     backgroundColor: '#000',
 
     // terminal selection color
-    selectionColor: 'rgba(0, 212, 42,0.8)',
+    selectionColor: 'rgba(248,28,229,0.3)',
 
     // border color (window, tabs)
-    borderColor: '#000',
+    borderColor: '#333',
 
     // custom CSS to embed in the main window
     css: '',
@@ -67,7 +67,7 @@ module.exports = {
     showWindowControls: '',
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
-    padding: '12px 20px',
+    padding: '12px 14px',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -80,14 +80,14 @@ module.exports = {
       blue: '#0A2FC4',
       magenta: '#C839C5',
       cyan: '#20C5C6',
-      white: '#FFFFFF',
+      white: '#C7C7C7',
       lightBlack: '#686868',
-      lightRed: '#C51E14',
-      lightGreen: '#1DC121',
-      lightYellow: '#C7C329',
-      lightBlue: '#0A2FC4',
-      lightMagenta: '#C839C5',
-      lightCyan: '#20C5C6',
+      lightRed: '#FD6F6B',
+      lightGreen: '#67F86F',
+      lightYellow: '#FFFA72',
+      lightBlue: '#6A76FB',
+      lightMagenta: '#FD7CFC',
+      lightCyan: '#68FDFE',
       lightWhite: '#FFFFFF',
     },
 
@@ -113,10 +113,10 @@ module.exports = {
     env: {},
 
     // set to `false` for no bell
-    bell: false,
+    bell: 'SOUND',
 
     // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
-    copyOnSelect: true,
+    copyOnSelect: false,
 
     // if `true` (without backticks and without quotes), hyper will be set as the default protocol client for SSH
     defaultSSHApp: true,
@@ -138,12 +138,6 @@ module.exports = {
     webGLRenderer: true,
 
     // for advanced config flags please refer to https://hyper.is/#cfg
-
-    hyperline: {
-      plugins: ['cpu', 'memory', 'battery', 'hostname'],
-    },
-
-    commands: ['cd /Users/matthewgleich/Documents/Github', 'clear', 'neofetch'],
   },
 
   // a list of plugins to fetch and install from npm
@@ -152,15 +146,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    'hyper-search',
-    'hyper-pane',
-    'hyper-startup',
-    'hypercwd',
-    'hyperterm-paste',
-    'hyperterm-crosshair',
-    'hyperline',
-  ],
+  plugins: [],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
