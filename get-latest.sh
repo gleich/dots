@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo Removing current copied folders
 rm -rf zsh
 rm -rf vim
@@ -71,7 +69,7 @@ cp ~/.config/nuke/config.yml ./nuke/config.yml
 cp ~/.phoenix.js ./phoenix/.phoenix.js
 cp ~/.config/neofetch/config.conf ./neofetch/config.conf
 cp ~/.config/bpytop/bpytop.cfg ./bpytop/bpytop.cfg
-cp /Users/matthewgleich/Library/Application' 'Support/eDEX-UI/settings.json ./eDEX-UI/settings.json
+cp ~/Library/Application' 'Support/eDEX-UI/settings.json ./eDEX-UI/settings.json
 
 echo Removing generated files
 rm ~/Brewfile
