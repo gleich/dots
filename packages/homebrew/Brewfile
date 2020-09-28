@@ -100,6 +100,7 @@ cask "steam"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "zoomus"
+mas "2048 Game", id: 871033113
 mas "AdGuard for Safari", id: 1440147259
 mas "Dark Reader for Safari", id: 1438243180
 mas "Firewatch", id: 1164603847
@@ -116,5 +117,6 @@ mas "Pages", id: 409201541
 mas "Plash", id: 1494023538
 mas "Spark", id: 1176895641
 mas "Termius", id: 1176074088
+mas "Todoist", id: 585829637
 mas "WeatherBug", id: 1059074180
 mas "Xcode", id: 497799835
