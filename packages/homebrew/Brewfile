@@ -32,6 +32,8 @@ brew "gitmoji"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Deliver Go binaries as fast and easily as possible
+brew "goreleaser"
 # Version Control Visualization Tool
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
@@ -85,6 +87,7 @@ cask "font-3270"
 cask "font-fira-code"
 cask "github"
 cask "gitify"
+cask "google-backup-and-sync"
 cask "gpg-suite"
 cask "grammarly"
 cask "hyper"
