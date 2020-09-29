@@ -21,6 +21,7 @@ mkdir ./.config/fgh/
 mkdir ./.config/nuke/
 mkdir ./.config/neofetch/
 mkdir ./.config/gh/
+mkdir ./.config/jrnl/
 
 mkdir ./packages/homebrew/
 mkdir ./packages/npm/
@@ -46,6 +47,7 @@ cp ~/.config/fgh/config.yaml          ./.config/fgh/config.yaml
 cp ~/.config/nuke/config.yml          ./.config/nuke/config.yml
 cp ~/.config/neofetch/config.conf     ./.config/neofetch/config.conf
 cp ~/.config/gh/config.yml            ./.config/gh/config.yml
+cp ~/.config/jrnl/jrnl.yaml           ./.config/jrnl/jrnl.yaml
 
 #----------------------------
 echo Generating global npm package list
