@@ -384,5 +384,6 @@
   "editor.lineHeight": 22,
   "workbench.colorTheme": "Polykai",
   "terminal.integrated.rendererType": "dom",
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false
 }
