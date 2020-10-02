@@ -23,7 +23,7 @@ brew "coffeescript"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Isolated development environments using Docker
-brew "docker-compose"
+brew "docker-compose", link: false
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -111,6 +111,7 @@ cask "zoomus"
 mas "2048 Game", id: 871033113
 mas "AdGuard for Safari", id: 1440147259
 mas "Dark Reader for Safari", id: 1438243180
+mas "Encrypto", id: 935235287
 mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
 mas "Git Streaks", id: 1525795950
