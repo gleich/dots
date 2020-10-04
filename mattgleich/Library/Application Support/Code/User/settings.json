@@ -382,7 +382,7 @@
   },
   "terminal.integrated.fontWeight": "bold",
   "editor.lineHeight": 22,
-  "workbench.colorTheme": "GitHub Light",
+  "workbench.colorTheme": "Polykai",
   "terminal.integrated.rendererType": "dom",
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false
