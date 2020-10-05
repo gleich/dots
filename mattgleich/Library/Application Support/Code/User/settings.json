@@ -226,7 +226,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "'3270 Condensed', Arial",
+  "terminal.integrated.fontFamily": "'3270 Condensed', 'MesloLGS-NF-Regular'",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.cursorStyle": "line",
   "[html]": {
