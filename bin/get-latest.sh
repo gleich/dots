@@ -79,6 +79,6 @@ cp ~/.docker/config.json                                     ./mattgleich/.docke
 cp ~/Library/Application\ Support/eDEX-UI/settings.json      ./mattgleich/Library/Application\ Support/eDEX-UI/settings.json
 cp ~/Library/Application\ Support/Code/User/keybindings.json ./mattgleich/Library/Application\ Support/Code/User/keybindings.json
 cp ~/Library/Application\ Support/Code/User/settings.json    ./mattgleich/Library/Application\ Support/Code/User/settings.json
-cp ~/Documents/Zwift/prefs.xml                               ./mattgleich/Documents/Zwift/Zwift.xml
+cp ~/Documents/Zwift/prefs.xml                               ./mattgleich/Documents/Zwift/prefs.xml
 cp -r ~/Pictures/Wallpaper/                                  ./mattgleich/Pictures/Wallpaper/
 
