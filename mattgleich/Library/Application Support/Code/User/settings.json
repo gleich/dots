@@ -217,7 +217,7 @@
     "#FFFF00"
   ],
   "editor.accessibilitySupport": "off",
-  "terminal.external.osxExec": "iTerm2.app",
+  "terminal.external.osxExec": "iTerm.app",
   "yaml.format.singleQuote": true,
   "prettier.singleQuote": true,
   "bracket-pair-colorizer-2.rulerPosition": "Full",

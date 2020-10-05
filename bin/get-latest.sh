@@ -1,5 +1,5 @@
 cd ..
-cwd=$(pwd)
+dots=$(pwd)
 
 #----------------------------
 echo Removing head folders
@@ -16,12 +16,17 @@ mkdir ./mattgleich/
 #----------------------------
 echo Making folders
 mkdir ./.config/alacritty/
-mkdir ./.config/bpytop/
+mkdir ./.config
 mkdir ./.config/fgh/
 mkdir ./.config/nuke/
 mkdir ./.config/neofetch/
 mkdir ./.config/gh/
 mkdir ./.config/jrnl/
+mkdir ./.config/iTerm2/
+mkdir ./.config/alfred/
+mkdir ./.config/configstore/
+mkdir ./.config/StardewValley/
+mkdir -p ./.config/bpytop/themes/
 
 mkdir ./packages/homebrew/
 mkdir ./packages/npm/
@@ -37,17 +42,21 @@ mkdir -p ./mattgleich/Library/Application\ Support/Code/User/
 echo Generating homebrew package lists
 cd ./packages/homebrew/
 brew bundle dump --describe --file=Brewfile
-cd $cwd
+cd $dots
 
 #----------------------------
 echo Copying over files from ~/.config
-cp ~/.config/alacritty/.alacritty.yml ./.config/alacritty/.alacritty.yml
-cp ~/.config/bpytop/bpytop.conf       ./.config/bpytop/bpytop.conf
-cp ~/.config/fgh/config.yaml          ./.config/fgh/config.yaml
-cp ~/.config/nuke/config.yml          ./.config/nuke/config.yml
-cp ~/.config/neofetch/config.conf     ./.config/neofetch/config.conf
-cp ~/.config/gh/config.yml            ./.config/gh/config.yml
-cp ~/.config/jrnl/jrnl.yaml           ./.config/jrnl/jrnl.yaml
+cp ~/.config/bpytop/bpytop.conf                   ./.config/bpytop/bpytop.conf
+cp ~/.config/fgh/config.yaml                      ./.config/fgh/config.yaml
+cp ~/.config/gh/config.yml                        ./.config/gh/config.yml
+cp -p ~/.config/jrnl/                             ./.config/jrnl/
+cp -p ~/.config/alfred/                           ./.config/alfred
+cp -p ~/.config/neofetch/                         ./.config/neofetch/
+cp -p ~/.config/nuke/                             ./.config/nuke/
+cp -p ~/.config/bpytop/themes/                    ./.config/byptop/themes
+cp -p ~/.config/alacritty/                        ./.config/alacritty/
+cp -p ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
+cp -p ~/.config/iTerm2/                           ./.config/iTerm2/
 
 #----------------------------
 echo Generating global npm package list
