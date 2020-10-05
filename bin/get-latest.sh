@@ -37,8 +37,6 @@ mkdir -p ./mattgleich/Pictures/Wallpaper/
 mkdir -p ./mattgleich/Library/Application\ Support/eDEX-UI/
 mkdir -p ./mattgleich/Library/Application\ Support/Code/User/
 
-exit
-
 #----------------------------
 echo Generating homebrew package lists
 cd ./packages/homebrew/
