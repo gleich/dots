@@ -49,14 +49,14 @@ echo Copying over files from ~/.config
 cp ~/.config/bpytop/bpytop.conf                   ./.config/bpytop/bpytop.conf
 cp ~/.config/fgh/config.yaml                      ./.config/fgh/config.yaml
 cp ~/.config/gh/config.yml                        ./.config/gh/config.yml
-cp -p ~/.config/jrnl/                             ./.config/jrnl/
-cp -p ~/.config/alfred/                           ./.config/alfred
-cp -p ~/.config/neofetch/                         ./.config/neofetch/
-cp -p ~/.config/nuke/                             ./.config/nuke/
-cp -p ~/.config/bpytop/themes/                    ./.config/byptop/themes
-cp -p ~/.config/alacritty/                        ./.config/alacritty/
-cp -p ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
-cp -p ~/.config/iTerm2/                           ./.config/iTerm2/
+cp ~/.config/jrnl/                                ./.config/jrnl/
+cp ~/.config/alfred/                              ./.config/alfred
+cp ~/.config/neofetch/                            ./.config/neofetch/
+cp ~/.config/nuke/                                ./.config/nuke/
+cp ~/.config/bpytop/themes/                       ./.config/byptop/themes
+cp ~/.config/alacritty/                           ./.config/alacritty/
+cp ~/.config/StardewValley/startup_preferences    ./.config/StardewValley/startup_preferences
+cp ~/.config/iTerm2/                              ./.config/iTerm2/
 
 #----------------------------
 echo Generating global npm package list
