@@ -36,6 +36,7 @@ mkdir ./mattgleich/.kite/
 mkdir -p ./mattgleich/Pictures/Wallpaper/
 mkdir -p ./mattgleich/Library/Application\ Support/eDEX-UI/
 mkdir -p ./mattgleich/Library/Application\ Support/Code/User/
+mkdir -p ./mattgleich/Documents/Zwift/
 
 #----------------------------
 echo Generating homebrew package lists
@@ -78,5 +79,6 @@ cp ~/.docker/config.json                                     ./mattgleich/.docke
 cp ~/Library/Application\ Support/eDEX-UI/settings.json      ./mattgleich/Library/Application\ Support/eDEX-UI/settings.json
 cp ~/Library/Application\ Support/Code/User/keybindings.json ./mattgleich/Library/Application\ Support/Code/User/keybindings.json
 cp ~/Library/Application\ Support/Code/User/settings.json    ./mattgleich/Library/Application\ Support/Code/User/settings.json
+cp ~/Documents/Zwift/prefs.xml                               ./mattgleich/Documents/Zwift/Zwift.xml
 cp -r ~/Pictures/Wallpaper/                                  ./mattgleich/Pictures/Wallpaper/
 

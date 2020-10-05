@@ -48,6 +48,8 @@ brew "jrnl"
 brew "mas"
 # Fast, highly customisable system info script
 brew "neofetch"
+# Development kit for the Java programming language
+brew "openjdk"
 # Python package management tool
 brew "poetry"
 # Show ps output as a tree

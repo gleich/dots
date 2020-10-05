@@ -385,5 +385,6 @@
   "workbench.colorTheme": "Polykai",
   "terminal.integrated.rendererType": "dom",
   "editor.minimap.enabled": false,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
 }
