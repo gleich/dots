@@ -16,7 +16,6 @@ mkdir ./mattgleich/
 #----------------------------
 echo Making folders
 mkdir ./.config/alacritty/
-mkdir ./.config
 mkdir ./.config/fgh/
 mkdir ./.config/nuke/
 mkdir ./.config/neofetch/
@@ -48,17 +47,17 @@ cd $dots
 
 #----------------------------
 echo Copying over files from ~/.config
-cp ~/.config/bpytop/bpytop.conf                   ./.config/bpytop/bpytop.conf
-cp ~/.config/fgh/config.yaml                      ./.config/fgh/config.yaml
-cp ~/.config/gh/config.yml                        ./.config/gh/config.yml
-cp -r ~/.config/jrnl/                             ./.config/jrnl/
-cp -r ~/.config/alfred/                           ./.config/alfred
-cp -r ~/.config/neofetch/                         ./.config/neofetch/
-cp -r ~/.config/nuke/                             ./.config/nuke/
-cp -r ~/.config/bpytop/themes/                    ./.config/byptop/themes
-cp -r ~/.config/alacritty/                        ./.config/alacritty/
-cp -r ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
-cp -r ~/.config/iTerm2/                           ./.config/iTerm2
+cp ~/.config/bpytop/bpytop.conf                ./.config/bpytop/bpytop.conf
+cp ~/.config/fgh/config.yaml                   ./.config/fgh/config.yaml
+cp ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
+cp ~/.config/gh/config.yml                     ./.config/gh/config.yml
+cp -r ~/.config/jrnl/                          ./.config/jrnl/
+cp -r ~/.config/alfred/                        ./.config/alfred
+cp -r ~/.config/neofetch/                      ./.config/neofetch/
+cp -r ~/.config/nuke/                          ./.config/nuke/
+cp -r ~/.config/bpytop/themes/                 ./.config/bpytop/themes/
+cp -r ~/.config/alacritty/                     ./.config/alacritty/
+cp -r ~/.config/iTerm2/                        ./.config/iTerm2/
 
 #----------------------------
 echo Generating global npm package list
