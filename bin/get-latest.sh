@@ -38,6 +38,8 @@ mkdir -p ./mattgleich/Pictures/Wallpaper/
 mkdir -p ./mattgleich/Library/Application\ Support/eDEX-UI/
 mkdir -p ./mattgleich/Library/Application\ Support/Code/User/
 
+exit
+
 #----------------------------
 echo Generating homebrew package lists
 cd ./packages/homebrew/
@@ -49,14 +51,14 @@ echo Copying over files from ~/.config
 cp ~/.config/bpytop/bpytop.conf                   ./.config/bpytop/bpytop.conf
 cp ~/.config/fgh/config.yaml                      ./.config/fgh/config.yaml
 cp ~/.config/gh/config.yml                        ./.config/gh/config.yml
-cp ~/.config/jrnl/                                ./.config/jrnl/
-cp ~/.config/alfred/                              ./.config/alfred
-cp ~/.config/neofetch/                            ./.config/neofetch/
-cp ~/.config/nuke/                                ./.config/nuke/
-cp ~/.config/bpytop/themes/                       ./.config/byptop/themes
-cp ~/.config/alacritty/                           ./.config/alacritty/
-cp ~/.config/StardewValley/startup_preferences    ./.config/StardewValley/startup_preferences
-cp ~/.config/iTerm2/                              ./.config/iTerm2/
+cp -r ~/.config/jrnl/                             ./.config/jrnl/
+cp -r ~/.config/alfred/                           ./.config/alfred
+cp -r ~/.config/neofetch/                         ./.config/neofetch/
+cp -r ~/.config/nuke/                             ./.config/nuke/
+cp -r ~/.config/bpytop/themes/                    ./.config/byptop/themes
+cp -r ~/.config/alacritty/                        ./.config/alacritty/
+cp -r ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
+cp -r ~/.config/iTerm2/                           ./.config/iTerm2
 
 #----------------------------
 echo Generating global npm package list
@@ -76,8 +78,8 @@ cp ~/.phoenix.js                                             ./mattgleich/.phoen
 cp ~/.p10k.zsh                                               ./mattgleich/.p10k.zsh
 cp ~/.kite/settings.json                                     ./mattgleich/.kite/settings.json
 cp ~/.docker/config.json                                     ./mattgleich/.docker/config.json
-cp -r ~/Pictures/Wallpaper/                                  ./mattgleich/Pictures/Wallpaper/
 cp ~/Library/Application\ Support/eDEX-UI/settings.json      ./mattgleich/Library/Application\ Support/eDEX-UI/settings.json
 cp ~/Library/Application\ Support/Code/User/keybindings.json ./mattgleich/Library/Application\ Support/Code/User/keybindings.json
 cp ~/Library/Application\ Support/Code/User/settings.json    ./mattgleich/Library/Application\ Support/Code/User/settings.json
+cp -r ~/Pictures/Wallpaper/                                  ./mattgleich/Pictures/Wallpaper/
 
