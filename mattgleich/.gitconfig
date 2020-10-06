@@ -1,7 +1,7 @@
 [user]
 	email = email@mattglei.ch
 	name = Matthew Gleich
-	signingkey = ABCBA433D06BB068
+	signingKey = 9DB641DA31D1CC8DD53ED82B80935494AB3F9F9B
 [commit]
 	gpgsign = true
 [filter "lfs"]

@@ -113,5 +113,11 @@ source $ZSH/oh-my-zsh.sh
 alias update="sh /Users/mattgleich/github/Matt-Gleich/public/Python/scripts/update.sh"
 alias mindnode="cd /Users/mattgleich/github/Matt-Gleich/public/Python/scripts/ && poetry run python3 mindnode.py"
 
+# Thanks @Safin! (https://github.com/safinsingh)
+alias ls="exa --icons --group-directories-first"
+alias la="exa -a --icons --group-directories-first"
+alias ll="exa -l -a --icons --group-directories-first"
+alias tree="exa -a --icons --tree --group-directories-first"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
