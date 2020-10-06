@@ -36,6 +36,8 @@ mkdir ./mattgleich/.kite/
 mkdir -p ./mattgleich/Pictures/Wallpaper/
 mkdir -p ./mattgleich/Library/Application\ Support/eDEX-UI/
 mkdir -p ./mattgleich/Library/Application\ Support/Code/User/
+mkdir -p ./mattgleich/Library/Developer/Xcode/UserData/KeyBindings/
+mkdir -p ./mattgleich/Library/Developer/Xcode/UserData/FontAndColorThemes/
 mkdir -p ./mattgleich/Documents/Zwift/
 
 #----------------------------
@@ -81,4 +83,6 @@ cp ~/Library/Application\ Support/Code/User/keybindings.json ./mattgleich/Librar
 cp ~/Library/Application\ Support/Code/User/settings.json    ./mattgleich/Library/Application\ Support/Code/User/settings.json
 cp ~/Documents/Zwift/prefs.xml                               ./mattgleich/Documents/Zwift/prefs.xml
 cp -r ~/Pictures/Wallpaper/                                  ./mattgleich/Pictures/Wallpaper/
+cp -r ~/Library/Developer/Xcode/UserData/KeyBindings/        ./mattgleich/Library/Developer/Xcode/UserData/KeyBindings/
+cp -r ~/Library/Developer/Xcode/UserData/FontAndColorThemes/ ./mattgleich/Library/Developer/Xcode/UserData/FontAndColorThemes/
 
