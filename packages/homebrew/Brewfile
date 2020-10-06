@@ -58,6 +58,8 @@ brew "poetry"
 brew "pstree"
 # File browser
 brew "ranger"
+# Command-line time tracking application
+brew "timewarrior"
 # Digital clock in ncurses
 brew "tty-clock"
 # Executes a program periodically, showing output fullscreen
