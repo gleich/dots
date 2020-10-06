@@ -10,6 +10,8 @@ tap "homebrew/core"
 tap "matt-gleich/taps"
 tap "nektos/tap"
 tap "rodionovd/taps"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Interpreted, interactive, object-oriented programming language
@@ -26,12 +28,16 @@ brew "coffeescript"
 brew "cowsay"
 # Modern replacement for 'ls'
 brew "exa"
+# C routines to compute the Discrete Fourier Transform
+brew "fftw"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
 brew "git"
 # Emoji guide for your commit messages
 brew "gitmoji"
+# Generic library support script
+brew "libtool"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -48,12 +54,16 @@ brew "hadolint"
 brew "jrnl"
 # Mac App Store command-line interface
 brew "mas"
+# Text-based UI library
+brew "ncurses"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Development kit for the Java programming language
 brew "openjdk"
 # Python package management tool
 brew "poetry"
+# Cross-platform library for audio I/O
+brew "portaudio"
 # Show ps output as a tree
 brew "pstree"
 # File browser
@@ -82,6 +92,7 @@ cask "adobe-creative-cloud"
 cask "alacritty"
 cask "alfred"
 cask "android-studio"
+cask "background-music"
 cask "bartender"
 cask "brave-browser"
 cask "cheatsheet"

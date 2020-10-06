@@ -25,6 +25,7 @@ mkdir ./.config/iTerm2/
 mkdir ./.config/alfred/
 mkdir ./.config/configstore/
 mkdir ./.config/StardewValley/
+mkdir ./.config/cava/
 mkdir -p ./.config/bpytop/themes/
 
 mkdir ./packages/homebrew/
@@ -52,6 +53,7 @@ cp ~/.config/bpytop/bpytop.conf                ./.config/bpytop/bpytop.conf
 cp ~/.config/fgh/config.yaml                   ./.config/fgh/config.yaml
 cp ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
 cp ~/.config/gh/config.yml                     ./.config/gh/config.yml
+cp ~/.config/cava/config                       ./.config/cava/config
 cp -r ~/.config/jrnl/                          ./.config/jrnl/
 cp -r ~/.config/alfred/                        ./.config/alfred
 cp -r ~/.config/neofetch/                      ./.config/neofetch/
