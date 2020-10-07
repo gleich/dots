@@ -14,10 +14,10 @@ tap "rodionovd/taps"
 brew "automake"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Python code formatter
 brew "black"
+# Cross-platform make
+brew "cmake"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Platform built on V8 to build network applications
@@ -36,6 +36,8 @@ brew "gh"
 brew "git"
 # Emoji guide for your commit messages
 brew "gitmoji"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Generic library support script
 brew "libtool"
 # GNU Pretty Good Privacy (PGP) package
@@ -145,6 +147,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Plash", id: 1494023538
 mas "Spark", id: 1176895641
+mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
 mas "Todoist", id: 585829637
 mas "WeatherBug", id: 1059074180
