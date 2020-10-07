@@ -64,6 +64,8 @@ brew "openjdk"
 brew "poetry"
 # Cross-platform library for audio I/O
 brew "portaudio"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Show ps output as a tree
 brew "pstree"
 # File browser
