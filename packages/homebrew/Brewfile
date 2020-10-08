@@ -131,13 +131,13 @@ cask "visual-studio-code"
 cask "zoomus"
 cask "zwift"
 mas "2048 Game", id: 871033113
-mas "AdGuard for Safari", id: 1440147259
 mas "Dark Reader for Safari", id: 1438243180
 mas "Encrypto", id: 935235287
 mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
 mas "Git Streaks", id: 1525795950
 mas "Grammarly for Safari", id: 1462114288
+mas "HEIC Converter", id: 1294126402
 mas "Helium", id: 1054607607
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
