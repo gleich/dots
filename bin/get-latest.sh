@@ -26,6 +26,7 @@ mkdir ./.config/alfred/
 mkdir ./.config/configstore/
 mkdir ./.config/StardewValley/
 mkdir ./.config/cava/
+mkdir ./.config/ranger/
 mkdir -p ./.config/bpytop/themes/
 
 mkdir ./packages/homebrew/
@@ -42,7 +43,7 @@ mkdir -p ./mattgleich/Library/Developer/Xcode/UserData/FontAndColorThemes/
 mkdir -p ./mattgleich/Documents/Zwift/
 
 #----------------------------
-echo Generating homebrew package lists
+echo Generating homebrew package list
 cd ./packages/homebrew/
 brew bundle dump --describe --file=Brewfile
 cd $dots
@@ -61,6 +62,7 @@ cp -r ~/.config/nuke/                          ./.config/nuke/
 cp -r ~/.config/bpytop/themes/                 ./.config/bpytop/themes/
 cp -r ~/.config/alacritty/                     ./.config/alacritty/
 cp -r ~/.config/iTerm2/                        ./.config/iTerm2/
+cp -r ~/.config/ranger/                        ./.config/ranger/
 
 #----------------------------
 echo Generating global npm package list
