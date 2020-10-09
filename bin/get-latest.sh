@@ -27,6 +27,7 @@ mkdir ./.config/configstore/
 mkdir ./.config/StardewValley/
 mkdir ./.config/cava/
 mkdir ./.config/ranger/
+mkdir ./.config/nvim/
 mkdir -p ./.config/bpytop/themes/
 
 mkdir ./packages/homebrew/
@@ -63,6 +64,9 @@ cp -r ~/.config/bpytop/themes/                 ./.config/bpytop/themes/
 cp -r ~/.config/alacritty/                     ./.config/alacritty/
 cp -r ~/.config/iTerm2/                        ./.config/iTerm2/
 cp -r ~/.config/ranger/                        ./.config/ranger/
+cp -r ~/.config/nvim/                          ./.config/nvim/
+
+rm -rf ./.config/nvim/autoload/
 
 #----------------------------
 echo Generating global npm package list
