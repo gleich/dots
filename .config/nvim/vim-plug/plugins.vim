@@ -17,7 +17,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Blazing fast autocompletion
     Plug 'kiteco/vim-plugin', { 'as': 'kite.vim' }
     " Code time tracking
-    Plug 'wakatime/vim-wakatime'    
+    Plug 'wakatime/vim-wakatime'
+    " Autoremove whitespace from files
+    Plug 'bronson/vim-trailing-whitespace'
+    " Auto completion
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Golang Support
+    Plug 'fatih/vim-go'
 
 call plug#end()
 
