@@ -122,6 +122,7 @@ alias tree="exa -a --icons --tree --group-directories-first"
 
 alias cat="bat"
 alias lp="ls -la --git"
+alias clock="tty-clock -tSbBc"
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
