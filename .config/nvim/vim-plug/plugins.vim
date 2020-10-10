@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Autoremove whitespace from files
     Plug 'bronson/vim-trailing-whitespace'
     " Auto completion
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'dense-analysis/ale'
     " Golang Support
     Plug 'fatih/vim-go'
 
