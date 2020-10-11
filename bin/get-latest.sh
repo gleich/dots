@@ -28,6 +28,7 @@ mkdir ./.config/StardewValley/
 mkdir ./.config/cava/
 mkdir ./.config/ranger/
 mkdir ./.config/nvim/
+mkdir ./.config/texsch/
 mkdir -p ./.config/bpytop/themes/
 
 mkdir ./packages/homebrew/
@@ -65,6 +66,7 @@ cp -r ~/.config/alacritty/                     ./.config/alacritty/
 cp -r ~/.config/iTerm2/                        ./.config/iTerm2/
 cp -r ~/.config/ranger/                        ./.config/ranger/
 cp -r ~/.config/nvim/                          ./.config/nvim/
+cp -r ~/.config/texsch/                        ./.config/texsch/
 
 rm -rf ./.config/nvim/autoload/
 
