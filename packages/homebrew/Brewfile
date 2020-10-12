@@ -99,6 +99,7 @@ cask "alacritty"
 cask "alfred"
 cask "android-studio"
 cask "background-music"
+cask "balenaetcher"
 cask "bartender"
 cask "brave-browser"
 cask "cheatsheet"
@@ -122,7 +123,6 @@ cask "kite"
 cask "logitech-options"
 cask "mactex"
 cask "ngrok"
-cask "notion"
 cask "opera"
 cask "phoenix"
 cask "postman"
@@ -133,7 +133,6 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "zoomus"
 cask "zwift"
-mas "2048 Game", id: 871033113
 mas "Dark Reader for Safari", id: 1438243180
 mas "Encrypto", id: 935235287
 mas "Firewatch", id: 1164603847
@@ -148,10 +147,6 @@ mas "LastPass", id: 926036361
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Plash", id: 1494023538
 mas "Spark", id: 1176895641
-mas "Surviving Mars", id: 1384295904
 mas "Termius", id: 1176074088
-mas "Todoist", id: 585829637
-mas "WeatherBug", id: 1059074180
 mas "Xcode", id: 497799835
