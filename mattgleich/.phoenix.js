@@ -97,14 +97,19 @@ p =
 
     ## ACTIVATE WITH mods.base
     snaps:                   # Toggle: window snap proportions
-      q:      [-1/2, -1/2]
-      a:      [-1/2, 1  ]
-      z:      [-1/2, 1/2 ]
-      ']':    [1/2,  -1/2]
-      '\'':   [1/2,  1  ]
-      '/':    [1/2,  1/2 ]
-      'down': [1, 1/2]
-      'up':   [1, -1/2]
+      q:      [-1/2, -1/2] # Top left corner
+      a:      [-1/2, 1  ]  # Entire left side
+      z:      [-1/2, 1/2 ] # Bottom left corner
+      ']':    [1/2,  -1/2] # Top right corner
+      '\'':   [1/2,  1  ]  # Entire right side
+      '/':    [1/2,  1/2 ] # Bottom right corner
+      'down': [1, 1/2]     # Entire bottom half
+      'up':   [1, -1/2]    # Entire top half
+      w:      [1, -1/3]    # Top third
+      s:      [1, 1]       # Middle third
+      x:      [1, 1/3]     # Bottom third
+      e:      [1, -2/3]    # Top two thirds
+      c:      [1, 2/3]     # Bottom two thirds
     quick: 'tab'             # Random quick actions
     maximize: 'm'            # Toggle: maximize window, w/ gaps
     center: 'c'              # Toggle: center window
