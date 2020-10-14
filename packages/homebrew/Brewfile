@@ -136,6 +136,7 @@ cask "zoomus"
 cask "zwift"
 mas "Dark Reader for Safari", id: 1438243180
 mas "Encrypto", id: 935235287
+mas "Endel", id: 1484348796
 mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
 mas "Git Streaks", id: 1525795950
@@ -149,5 +150,6 @@ mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
+mas "Telegram", id: 747648890
 mas "Termius", id: 1176074088
 mas "Xcode", id: 497799835
