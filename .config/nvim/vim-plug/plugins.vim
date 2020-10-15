@@ -24,6 +24,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dense-analysis/ale'
     " Golang Support
     Plug 'fatih/vim-go'
+    " Minimap
+    Plug 'wfxr/minimap.vim'
 
 call plug#end()
 

@@ -10,6 +10,7 @@ tap "homebrew/core"
 tap "matt-gleich/taps"
 tap "nektos/tap"
 tap "rodionovd/taps"
+tap "wfxr/code-minimap"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -96,6 +97,8 @@ brew "matt-gleich/taps/nuke"
 brew "nektos/tap/act"
 # CLI manager for your text replacements on macOS
 brew "rodionovd/taps/shortcuts"
+# A high performance code minimap generator written in rust
+brew "wfxr/code-minimap/code-minimap"
 cask "adobe-creative-cloud"
 cask "alacritty"
 cask "alfred"
