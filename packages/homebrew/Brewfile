@@ -64,6 +64,8 @@ brew "neofetch"
 brew "neovim"
 # Development kit for the Java programming language
 brew "openjdk"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
 # Cross-platform library for audio I/O
