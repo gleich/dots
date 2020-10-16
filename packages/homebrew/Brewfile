@@ -139,6 +139,7 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "zoomus"
 cask "zwift"
+mas "AdBlock Pro", id: 1018301773
 mas "Dark Reader for Safari", id: 1438243180
 mas "Encrypto", id: 935235287
 mas "Endel", id: 1484348796
