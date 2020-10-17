@@ -388,6 +388,8 @@
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
   "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
-  "editor.lineNumbers": "off",
-  "workbench.editor.showTabs": false
+  "workbench.editor.showTabs": false,
+  "editor.glyphMargin": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.folding": false
 }
