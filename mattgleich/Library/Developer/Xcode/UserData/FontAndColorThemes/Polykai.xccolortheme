@@ -156,59 +156,59 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.character</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.declaration.other</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.declaration.type</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.mark</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.markup.code</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.number</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.string</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 		<key>xcode.syntax.url</key>
-		<string>3270SemiCondensed - 20.0</string>
+		<string>3270SemiCondensed - 22.0</string>
 	</dict>
 </dict>
 </plist>
