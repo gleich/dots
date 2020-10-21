@@ -84,6 +84,8 @@ brew "ranger"
 brew "timewarrior"
 # Digital clock in ncurses
 brew "tty-clock"
+# Command-line interface to the WakaTime api
+brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # JavaScript package manager
@@ -127,6 +129,7 @@ cask "font-sf-pro"
 cask "github"
 cask "gitify"
 cask "gitkraken"
+cask "gitup"
 cask "google-backup-and-sync"
 cask "gpg-suite"
 cask "grammarly"
