@@ -15,7 +15,7 @@
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
   "window.zoomLevel": 1,
-  "editor.fontSize": 19,
+  "editor.fontSize": 17,
   "latex-workshop.message.update.show": false,
   "latex-workshop.view.pdf.viewer": "browser",
   "workbench.iconTheme": "vscode-icons",
@@ -135,7 +135,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "'3270 Condensed', FiraCode",
+  "editor.fontFamily": "'Iosevka Extralight'",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "yaclock.hour12": true,
@@ -227,7 +227,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "'3270 Condensed', 'MesloLGS-NF-Regular'",
+  "terminal.integrated.fontFamily": "'Iosevka Extralight', 'MesloLGS-NF-Regular'",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.cursorStyle": "line",
   "[html]": {
@@ -381,9 +381,8 @@
       }
     ]
   },
-  "terminal.integrated.fontWeight": "bold",
   "editor.lineHeight": 22,
-  "workbench.colorTheme": "Polykai",
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "terminal.integrated.rendererType": "dom",
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
