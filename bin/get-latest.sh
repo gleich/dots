@@ -29,6 +29,7 @@ mkdir ./.config/cava/
 mkdir ./.config/ranger/
 mkdir ./.config/nvim/
 mkdir ./.config/texsch/
+mkdir -p ./.config/vis/colors/
 mkdir -p ./.config/bpytop/themes/
 
 mkdir ./packages/homebrew/
@@ -57,6 +58,7 @@ cp ~/.config/fgh/config.yaml                   ./.config/fgh/config.yaml
 cp ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
 cp ~/.config/gh/config.yml                     ./.config/gh/config.yml
 cp ~/.config/cava/config                       ./.config/cava/config
+cp ~/.config/vis/config                        ./.config/vis/config
 cp -r ~/.config/jrnl/                          ./.config/jrnl/
 cp -r ~/.config/alfred/                        ./.config/alfred
 cp -r ~/.config/neofetch/                      ./.config/neofetch/
@@ -67,6 +69,7 @@ cp -r ~/.config/iTerm2/                        ./.config/iTerm2/
 cp -r ~/.config/ranger/                        ./.config/ranger/
 cp -r ~/.config/nvim/                          ./.config/nvim/
 cp -r ~/.config/texsch/                        ./.config/texsch/
+cp -r ~/.config/vis/colors/                    ./.config/vis/colors/
 
 rm -rf ./.config/nvim/autoload/
 
