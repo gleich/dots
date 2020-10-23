@@ -40,8 +40,6 @@ brew "gh"
 brew "git"
 # Emoji guide for your commit messages
 brew "gitmoji"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Generic library support script
 brew "libtool"
 # GNU Pretty Good Privacy (PGP) package
@@ -56,6 +54,8 @@ brew "gotop"
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Command-line note taker
 brew "jrnl"
 # Mac App Store command-line interface
@@ -96,6 +96,8 @@ brew "alexellis/alexellis/k3sup"
 brew "dart-lang/dart/dart"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
+# 📁 Automate the organization of your cloned GitHub repositories
+brew "matt-gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # Run GitHub Actions locally
@@ -169,6 +171,7 @@ mas "LastPass", id: 926036361
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Telegram", id: 747648890
 mas "Termius", id: 1176074088
