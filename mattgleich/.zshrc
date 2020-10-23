@@ -126,6 +126,8 @@ alias ra="cd ~/github && ranger"
 alias nv="nvim"
 alias vim="nvim"
 alias gm="gitmoji --commit"
+alias c="clear"
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
