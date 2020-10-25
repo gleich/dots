@@ -271,7 +271,6 @@
   "workbench.activityBar.visible": false,
   "editor.smoothScrolling": true,
   "git.confirmSync": false,
-  "editor.lineHeight": 22,
   "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "terminal.integrated.rendererType": "dom",
   "editor.minimap.enabled": false,
@@ -296,5 +295,6 @@
         }
       }
     ]
-  }
+  },
+  "editor.cursorSmoothCaretAnimation": true,
 }
