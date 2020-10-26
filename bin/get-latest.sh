@@ -1,17 +1,11 @@
-cd ..
-dots=$(pwd)
-
-#----------------------------
-echo Removing head folders
-rm -rf ./.config/
-rm -rf ./packages/
-rm -rf ./mattgleich/
+rm -rf /Users/mattgleich/github/Matt-Gleich/public/Shell/dots/mattgleich
 
 #----------------------------
 echo Creating head folders
+mkdir /Users/mattgleich/github/Matt-Gleich/public/Shell/dots/mattgleich
+cd /Users/mattgleich/github/Matt-Gleich/public/Shell/dots/mattgleich
 mkdir ./.config/
 mkdir ./packages/
-mkdir ./mattgleich/
 
 #----------------------------
 echo Making folders
@@ -29,6 +23,7 @@ mkdir ./.config/cava/
 mkdir ./.config/ranger/
 mkdir ./.config/nvim/
 mkdir ./.config/texsch/
+mkdir ./.config/omf/
 mkdir -p ./.config/vis/colors/
 mkdir -p ./.config/bpytop/themes/
 
@@ -36,20 +31,20 @@ mkdir ./packages/homebrew/
 mkdir ./packages/npm/
 mkdir ./packages/vscode/
 
-mkdir ./mattgleich/.docker/
-mkdir ./mattgleich/.kite/
-mkdir -p ./mattgleich/Pictures/Wallpaper/
-mkdir -p ./mattgleich/Library/Application\ Support/eDEX-UI/
-mkdir -p ./mattgleich/Library/Application\ Support/Code/User/
-mkdir -p ./mattgleich/Library/Developer/Xcode/UserData/KeyBindings/
-mkdir -p ./mattgleich/Library/Developer/Xcode/UserData/FontAndColorThemes/
-mkdir -p ./mattgleich/Documents/Zwift/
+mkdir ./.docker/
+mkdir ./.kite/
+mkdir -p ./Pictures/Wallpaper/
+mkdir -p ./Library/Application\ Support/eDEX-UI/
+mkdir -p ./Library/Application\ Support/Code/User/
+mkdir -p ./Library/Developer/Xcode/UserData/KeyBindings/
+mkdir -p ./Library/Developer/Xcode/UserData/FontAndColorThemes/
+mkdir -p ./Documents/Zwift/
 
 #----------------------------
 echo Generating homebrew package list
 cd ./packages/homebrew/
 brew bundle dump --describe --file=Brewfile
-cd $dots
+cd ../..
 
 #----------------------------
 echo Copying over files from ~/.config
@@ -60,7 +55,7 @@ cp ~/.config/gh/config.yml                     ./.config/gh/config.yml
 cp ~/.config/cava/config                       ./.config/cava/config
 cp ~/.config/vis/config                        ./.config/vis/config
 cp -r ~/.config/jrnl/                          ./.config/jrnl/
-cp -r ~/.config/alfred/                        ./.config/alfred
+cp -r ~/.config/alfred/                        ./.config/alfred/
 cp -r ~/.config/neofetch/                      ./.config/neofetch/
 cp -r ~/.config/nuke/                          ./.config/nuke/
 cp -r ~/.config/bpytop/themes/                 ./.config/bpytop/themes/
@@ -69,6 +64,7 @@ cp -r ~/.config/iTerm2/                        ./.config/iTerm2/
 cp -r ~/.config/ranger/                        ./.config/ranger/
 cp -r ~/.config/nvim/                          ./.config/nvim/
 cp -r ~/.config/texsch/                        ./.config/texsch/
+cp -r ~/.config/omf/                           ./.config/omf/
 cp -r ~/.config/vis/colors/                    ./.config/vis/colors/
 
 rm -rf ./.config/nvim/autoload/
@@ -83,19 +79,19 @@ code --list-extensions >> ./packages/vscode/extensions.txt
 
 #----------------------------
 echo Copying over files from ~
-cp ~/.gitconfig                                              ./mattgleich/.gitconfig
-cp ~/.zshrc                                                  ./mattgleich/.zshrc
-cp ~/.zprofile                                               ./mattgleich/.zprofile
-cp ~/.vimrc                                                  ./mattgleich/.vimrc
-cp ~/.phoenix.js                                             ./mattgleich/.phoenix.js
-cp ~/.p10k.zsh                                               ./mattgleich/.p10k.zsh
-cp ~/.kite/settings.json                                     ./mattgleich/.kite/settings.json
-cp ~/.docker/config.json                                     ./mattgleich/.docker/config.json
-cp ~/Library/Application\ Support/eDEX-UI/settings.json      ./mattgleich/Library/Application\ Support/eDEX-UI/settings.json
-cp ~/Library/Application\ Support/Code/User/keybindings.json ./mattgleich/Library/Application\ Support/Code/User/keybindings.json
-cp ~/Library/Application\ Support/Code/User/settings.json    ./mattgleich/Library/Application\ Support/Code/User/settings.json
-cp ~/Documents/Zwift/prefs.xml                               ./mattgleich/Documents/Zwift/prefs.xml
-cp -r ~/Pictures/Wallpaper/                                  ./mattgleich/Pictures/Wallpaper/
-cp -r ~/Library/Developer/Xcode/UserData/KeyBindings/        ./mattgleich/Library/Developer/Xcode/UserData/KeyBindings/
-cp -r ~/Library/Developer/Xcode/UserData/FontAndColorThemes/ ./mattgleich/Library/Developer/Xcode/UserData/FontAndColorThemes/
+cp ~/.gitconfig                                              ./.gitconfig
+cp ~/.zshrc                                                  ./.zshrc
+cp ~/.zprofile                                               ./.zprofile
+cp ~/.vimrc                                                  ./.vimrc
+cp ~/.phoenix.js                                             ./.phoenix.js
+cp ~/.p10k.zsh                                               ./.p10k.zsh
+cp ~/.kite/settings.json                                     ./.kite/settings.json
+cp ~/.docker/config.json                                     ./.docker/config.json
+cp ~/Library/Application\ Support/eDEX-UI/settings.json      ./Library/Application\ Support/eDEX-UI/settings.json
+cp ~/Library/Application\ Support/Code/User/keybindings.json ./Library/Application\ Support/Code/User/keybindings.json
+cp ~/Library/Application\ Support/Code/User/settings.json    ./Library/Application\ Support/Code/User/settings.json
+cp ~/Documents/Zwift/prefs.xml                               ./Documents/Zwift/prefs.xml
+cp -r ~/Pictures/Wallpaper/                                  ./Pictures/Wallpaper/
+cp -r ~/Library/Developer/Xcode/UserData/KeyBindings/        ./Library/Developer/Xcode/UserData/KeyBindings/
+cp -r ~/Library/Developer/Xcode/UserData/FontAndColorThemes/ ./Library/Developer/Xcode/UserData/FontAndColorThemes/
 
