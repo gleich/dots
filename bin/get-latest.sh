@@ -17,7 +17,6 @@ mkdir ./.config/gh/
 mkdir ./.config/jrnl/
 mkdir ./.config/iTerm2/
 mkdir ./.config/alfred/
-mkdir ./.config/configstore/
 mkdir ./.config/StardewValley/
 mkdir ./.config/cava/
 mkdir ./.config/ranger/
@@ -51,10 +50,10 @@ cd ../..
 echo Copying over files from ~/.config
 cp ~/.config/bpytop/bpytop.conf                ./.config/bpytop/bpytop.conf
 cp ~/.config/fgh/config.yaml                   ./.config/fgh/config.yaml
-cp ~/.config/StardewValley/startup_preferences ./.config/StardewValley/startup_preferences
 cp ~/.config/gh/config.yml                     ./.config/gh/config.yml
 cp ~/.config/cava/config                       ./.config/cava/config
 cp ~/.config/vis/config                        ./.config/vis/config
+
 cp -r ~/.config/jrnl/                          ./.config/jrnl/
 cp -r ~/.config/alfred/                        ./.config/alfred/
 cp -r ~/.config/neofetch/                      ./.config/neofetch/
@@ -68,6 +67,7 @@ cp -r ~/.config/texsch/                        ./.config/texsch/
 cp -r ~/.config/omf/                           ./.config/omf/
 cp -r ~/.config/vis/colors/                    ./.config/vis/colors/
 
+xmllint --format ~/.config/StardewValley/startup_preferences >> ./.config/StardewValley/startup_preferences
 rm -rf ./.config/nvim/autoload/
 
 #----------------------------

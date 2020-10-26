@@ -1,0 +1,12 @@
+*.xml linguist-detectable=true
+*.xml linguist-documentation=false
+*.yml linguist-detectable=true
+*.yml linguist-documentation=false
+*.yaml linguist-detectable=true
+*.yaml linguist-documentation=false
+*.txt linguist-detectable=true
+*.txt linguist-documentation=false
+*.json linguist-detectable=true
+*.json linguist-documentation=false
+*.toml linguist-detectable=true
+*.toml linguist-documentation=false
