@@ -38,6 +38,7 @@ mkdir -p ./Library/Application\ Support/eDEX-UI/
 mkdir -p ./Library/Application\ Support/Code/User/
 mkdir -p ./Library/Developer/Xcode/UserData/KeyBindings/
 mkdir -p ./Library/Developer/Xcode/UserData/FontAndColorThemes/
+mkdir -p ./Library/Preferences/gitmoji-nodejs/
 mkdir -p ./Documents/Zwift/
 
 #----------------------------
@@ -82,6 +83,7 @@ echo Copying over files from ~
 cp ~/.gitconfig                                              ./.gitconfig
 cp ~/.zshrc                                                  ./.zshrc
 cp ~/.zprofile                                               ./.zprofile
+cp ~/.profile                                                ./.profile
 cp ~/.vimrc                                                  ./.vimrc
 cp ~/.phoenix.js                                             ./.phoenix.js
 cp ~/.p10k.zsh                                               ./.p10k.zsh
@@ -94,4 +96,5 @@ cp ~/Documents/Zwift/prefs.xml                               ./Documents/Zwift/p
 cp -r ~/Pictures/Wallpaper/                                  ./Pictures/Wallpaper/
 cp -r ~/Library/Developer/Xcode/UserData/KeyBindings/        ./Library/Developer/Xcode/UserData/KeyBindings/
 cp -r ~/Library/Developer/Xcode/UserData/FontAndColorThemes/ ./Library/Developer/Xcode/UserData/FontAndColorThemes/
+cp -r ~/Library/Preferences/gitmoji-nodejs/                  ./Library/Preferences/gitmoji-nodejs/
 
