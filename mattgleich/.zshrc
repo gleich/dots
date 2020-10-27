@@ -115,11 +115,10 @@ alias update="sh /Users/mattgleich/github/Matt-Gleich/public/Python/scripts/upda
 alias mindnode="cd /Users/mattgleich/github/Matt-Gleich/public/Python/scripts/ && poetry run python3 mindnode.py"
 
 # Thanks @Safin! (https://github.com/safinsingh)
-alias ls="exa -l -a --icons --group-directories-first"
+alias ls="exa -l -a --git --icons --group-directories-first"
 alias tree="exa -a --icons --tree --group-directories-first"
 
 alias cat="bat"
-alias lp="ls -la --git"
 alias clock="tty-clock -tSbBc"
 alias ra="cd ~/github && ranger"
 
@@ -127,7 +126,6 @@ alias nv="nvim"
 alias vim="nvim"
 alias gm="gitmoji --commit"
 alias c="clear"
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
