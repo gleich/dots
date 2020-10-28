@@ -126,6 +126,7 @@ alias nv="nvim"
 alias vim="nvim"
 alias gm="gitmoji --commit"
 alias c="clear"
+alias brainfmt="prettier -w /Users/mattgleich/Library/Mobile\ Documents/com~apple~CloudDocs/cerebrum/"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
