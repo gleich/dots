@@ -55,7 +55,7 @@ brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
+brew "python@3.8", link: true
 # Command-line note taker
 brew "jrnl"
 # Mac App Store command-line interface
