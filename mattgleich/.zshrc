@@ -128,5 +128,8 @@ alias gm="gitmoji --commit"
 alias c="clear"
 alias brainfmt="prettier -w /Users/mattgleich/Library/Mobile\ Documents/com~apple~CloudDocs/cerebrum/"
 
+# cd with fgh (https://github.com/Matt-Gleich/fgh)
+function fcd() { cd $(fgh ls "$@") }
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
