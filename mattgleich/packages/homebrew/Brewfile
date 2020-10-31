@@ -80,6 +80,8 @@ brew "prettier"
 brew "pstree"
 # File browser
 brew "ranger"
+# Safe, concurrent, practical language
+brew "rust", link: false
 # Command-line time tracking application
 brew "timewarrior"
 # Digital clock in ncurses
@@ -96,6 +98,8 @@ brew "alexellis/alexellis/k3sup"
 brew "dart-lang/dart/dart"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
+# 📁 Automate the organization of your cloned GitHub repositories
+brew "matt-gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # Run GitHub Actions locally
