@@ -120,7 +120,7 @@ alias tree="exa -a --icons --tree --group-directories-first"
 
 alias cat="bat"
 alias clock="tty-clock -tSbBc"
-alias ra="cd ~/github && ranger"
+alias ra="ranger"
 
 alias nv="nvim"
 alias vim="nvim"
@@ -130,6 +130,8 @@ alias brainfmt="prettier -w /Users/mattgleich/Library/Mobile\ Documents/com~appl
 
 # cd with fgh (https://github.com/Matt-Gleich/fgh)
 fcd() { cd "$(fgh ls "$@" 2>/dev/null)" || ( echo "Failed to find repository" && return 1; ) }
+# autocomplete for go doc (https://eli.thegreenplace.net/2018/command-line-autocomplete-for-go-documentation/)
+gdoc() { cat $HOME/.gosyms | dmenu -l 20 -i -b -p "go doc" | xargs go doc }
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

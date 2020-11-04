@@ -58,6 +58,8 @@ brew "hadolint"
 brew "python@3.8", link: true
 # Command-line note taker
 brew "jrnl"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Rainbows and unicorns in your console!
 brew "lolcat"
 # Mac App Store command-line interface
@@ -86,6 +88,8 @@ brew "ranger"
 brew "rust"
 # Command-line time tracking application
 brew "timewarrior"
+# Terminal multiplexer
+brew "tmux"
 # Digital clock in ncurses
 brew "tty-clock"
 # Command-line interface to the WakaTime api
@@ -156,6 +160,7 @@ cask "slack"
 cask "steam"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "xquartz"
 cask "zoomin"
 cask "zoomus"
 cask "zwift"
