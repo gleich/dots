@@ -160,13 +160,13 @@ cask "slack"
 cask "steam"
 cask "virtualbox"
 cask "visual-studio-code"
-cask "xquartz"
 cask "zoomin"
 cask "zoomus"
 cask "zwift"
 mas "AdBlock Pro", id: 1018301773
 mas "ColorSlurp", id: 1287239339
 mas "Dark Reader for Safari", id: 1438243180
+mas "Developer", id: 640199958
 mas "Encrypto", id: 935235287
 mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
