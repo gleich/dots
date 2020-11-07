@@ -29,6 +29,8 @@ brew "node"
 brew "coffeescript"
 # Configurable talking characters in ASCII art
 brew "cowsay"
+# AST-based pattern checker for JavaScript
+brew "eslint"
 # Modern replacement for 'ls'
 brew "exa"
 # C routines to compute the Discrete Fourier Transform
@@ -55,6 +57,10 @@ brew "gotop"
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Text-based UI library
+brew "ncurses"
+# Improved top (interactive process viewer)
+brew "htop"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8", link: true
 # Command-line note taker
@@ -65,8 +71,6 @@ brew "lazygit"
 brew "lolcat"
 # Mac App Store command-line interface
 brew "mas"
-# Text-based UI library
-brew "ncurses"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
