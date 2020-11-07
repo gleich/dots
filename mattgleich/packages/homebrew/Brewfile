@@ -101,8 +101,6 @@ brew "watch"
 brew "yarn"
 # Install k3s over SSH with ('ketchup')
 brew "alexellis/alexellis/k3sup"
-# The Dart SDK
-brew "dart-lang/dart/dart"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # 📁 Automate the organization of your cloned GitHub repositories
@@ -131,6 +129,7 @@ cask "docker"
 cask "drawio"
 cask "edex-ui"
 cask "figma"
+cask "flutter"
 cask "font-3270"
 cask "font-computer-modern"
 cask "font-fira-code"
@@ -186,4 +185,5 @@ mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Telegram", id: 747648890
 mas "Termius", id: 1176074088
+mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
