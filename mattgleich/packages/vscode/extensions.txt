@@ -41,6 +41,7 @@ kiteco.kite
 leveluptutorials.theme-levelup
 markfknight.monokai-operator-theme
 MartinLaRegina.clear-view-indent
+mikestead.dotenv
 monokai.theme-monokai-pro-vscode
 mquandalle.graphql
 ms-azuretools.vscode-docker

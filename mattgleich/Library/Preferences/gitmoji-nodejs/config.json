@@ -1,5 +1,5 @@
 {
-	"autoAdd": false,
+	"autoAdd": true,
 	"emojiFormat": "emoji",
 	"signedCommit": true,
 	"scopePrompt": false
