@@ -91,6 +91,8 @@ brew "pstree"
 brew "ranger"
 # Safe, concurrent, practical language
 brew "rust"
+# Formatting technology for Swift source code
+brew "swift-format"
 # Command-line time tracking application
 brew "timewarrior"
 # Terminal multiplexer
@@ -164,6 +166,7 @@ cask "postman"
 cask "ripcord"
 cask "slack"
 cask "steam"
+cask "swimat"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "zoomin"
