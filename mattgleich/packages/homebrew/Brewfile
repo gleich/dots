@@ -1,3 +1,4 @@
+tap "alexanderwillner/tap"
 tap "alexellis/alexellis"
 tap "dart-lang/dart"
 tap "golangci/tap"
@@ -161,8 +162,8 @@ cask "ngrok"
 cask "obinskit"
 cask "obsidian"
 cask "opera"
-cask "phoenix"
 cask "postman"
+cask "rectangle"
 cask "ripcord"
 cask "slack"
 cask "steam"
@@ -189,6 +190,7 @@ mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Playgrounds", id: 1496833156
+mas "Poolside FM", id: 1514817810
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Telegram", id: 747648890

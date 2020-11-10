@@ -26,6 +26,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'fatih/vim-go'
     " Minimap
     Plug 'wfxr/minimap.vim'
+    " LaTeX support
+    Plug 'lervag/vimtex'
 
 call plug#end()
 

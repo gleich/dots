@@ -85,7 +85,6 @@ cp ~/.zshrc                                                  ./.zshrc
 cp ~/.zprofile                                               ./.zprofile
 cp ~/.profile                                                ./.profile
 cp ~/.vimrc                                                  ./.vimrc
-cp ~/.phoenix.js                                             ./.phoenix.js
 cp ~/.p10k.zsh                                               ./.p10k.zsh
 cp ~/.kite/settings.json                                     ./.kite/settings.json
 cp ~/.docker/config.json                                     ./.docker/config.json
