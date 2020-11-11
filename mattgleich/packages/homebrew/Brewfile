@@ -110,8 +110,6 @@ brew "yarn"
 brew "alexellis/alexellis/k3sup"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
-# 📁 Automate the organization of your cloned GitHub repositories
-brew "matt-gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # Run GitHub Actions locally
@@ -132,6 +130,7 @@ cask "bartender"
 cask "brave-browser"
 cask "cheatsheet"
 cask "cool-retro-term"
+cask "discord"
 cask "docker"
 cask "drawio"
 cask "edex-ui"
@@ -173,13 +172,16 @@ cask "visual-studio-code"
 cask "zoomin"
 cask "zoomus"
 cask "zwift"
+mas "1Focus", id: 969210610
 mas "AdBlock Pro", id: 1018301773
+mas "Boop", id: 1518425043
 mas "ColorSlurp", id: 1287239339
 mas "Dark Reader for Safari", id: 1438243180
 mas "Developer", id: 640199958
 mas "Encrypto", id: 935235287
 mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
+mas "GoodNotes", id: 1444383602
 mas "Grammarly for Safari", id: 1462114288
 mas "HEIC Converter", id: 1294126402
 mas "Helium", id: 1054607607
@@ -197,4 +199,5 @@ mas "Telegram", id: 747648890
 mas "Termius", id: 1176074088
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
+mas "WeatherBug", id: 1059074180
 mas "Xcode", id: 497799835
