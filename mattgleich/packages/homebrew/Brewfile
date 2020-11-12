@@ -110,6 +110,8 @@ brew "yarn"
 brew "alexellis/alexellis/k3sup"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
+# 📁 Automate the organization of your cloned GitHub repositories
+brew "matt-gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
 # Run GitHub Actions locally
