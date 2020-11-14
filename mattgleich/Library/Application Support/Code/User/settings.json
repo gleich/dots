@@ -18,8 +18,7 @@
   "editor.fontSize": 17,
   "latex-workshop.message.update.show": false,
   "latex-workshop.view.pdf.viewer": "browser",
-  "workbench.iconTheme": "vscode-icons",
-  "python.dataScience.sendSelectionToInteractiveWindow": false,
+"workbench.iconTheme": "vscode-icons",
   "cSpell.userWords": [
     "Boesen",
     "CNDs",
@@ -298,5 +297,6 @@
   "zenMode.centerLayout": false,
   "stories.username": "peach_Sly Moore",
   "markdown.extension.toc.levels": "1..4",
-  "workbench.statusBar.visible": false,
+"workbench.statusBar.visible": false,
+"jupyter.sendSelectionToInteractiveWindow": false,
 }
