@@ -88,10 +88,7 @@ def main():
 
     shutil.rmtree(os.path.join(".", usr_name, ".config", "nvim", "autoload"))
 
-    # Pushing changes
-    os.system("git add .")
-    os.system('git commit -m "🔧 Update to latest"')
-    os.system("git push")
+    push_changes()
 
 
 def ensure_correct_path():
@@ -160,6 +157,15 @@ def copy_files(prefix: str, files: list):
             pass
         shutil.copyfile(actual_path, copy_path)
         logger.success(f"Copied config file:  {f}")
+
+
+def push_changes():
+    """Push the latest changes"""
+    logger.info("Pushing the latest changes")
+    os.system("git add .")
+    os.system('git commit -m "🔧 Update to latest"')
+    os.system("git push")
+    logger.success("Pushed the latest changes!")
 
 
 if __name__ == "__main__":
