@@ -23,6 +23,7 @@ mkdir ./.config/ranger/
 mkdir ./.config/nvim/
 mkdir ./.config/texsch/
 mkdir ./.config/omf/
+mkdir ./.config/zsh/
 mkdir -p ./.config/vis/colors/
 mkdir -p ./.config/bpytop/themes/
 
@@ -66,6 +67,7 @@ cp -r ~/.config/nvim/                          ./.config/nvim/
 cp -r ~/.config/texsch/                        ./.config/texsch/
 cp -r ~/.config/omf/                           ./.config/omf/
 cp -r ~/.config/vis/colors/                    ./.config/vis/colors/
+cp -r ~/.config/zsh/                           ./.config/zsh/
 
 xmllint --format ~/.config/StardewValley/startup_preferences >> ./.config/StardewValley/startup_preferences
 rm -rf ./.config/nvim/autoload/

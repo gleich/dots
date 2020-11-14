@@ -31,7 +31,6 @@ hediet.vscode-drawio
 icrawl.discord-vscode
 ipedrazas.kubernetes-snippets
 James-Yu.latex-workshop
-jameslan.yaclock
 jasontheiler.kelp-forest-theme-vscode
 jdinhlife.gruvbox
 JeffersonQin.latex-snippets-jeff
