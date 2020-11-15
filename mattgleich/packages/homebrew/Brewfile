@@ -94,12 +94,16 @@ brew "ranger"
 brew "rust"
 # Formatting technology for Swift source code
 brew "swift-format"
+# Formatting tool for reformatting Swift code
+brew "swiftformat"
 # Command-line time tracking application
 brew "timewarrior"
 # Terminal multiplexer
 brew "tmux"
 # Digital clock in ncurses
 brew "tty-clock"
+# Source code beautifier
+brew "uncrustify"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
@@ -108,6 +112,8 @@ brew "watch"
 brew "yarn"
 # Install k3s over SSH with ('ketchup')
 brew "alexellis/alexellis/k3sup"
+# The Dart SDK
+brew "dart-lang/dart/dart"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # 📁 Automate the organization of your cloned GitHub repositories
@@ -179,6 +185,7 @@ mas "AdBlock Pro", id: 1018301773
 mas "Boop", id: 1518425043
 mas "ColorSlurp", id: 1287239339
 mas "Dark Reader for Safari", id: 1438243180
+mas "DevCleaner", id: 1388020431
 mas "Developer", id: 640199958
 mas "Encrypto", id: 935235287
 mas "Firewatch", id: 1164603847
@@ -202,4 +209,5 @@ mas "Termius", id: 1176074088
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
 mas "WeatherBug", id: 1059074180
+mas "XCFormat", id: 1165321484
 mas "Xcode", id: 497799835
