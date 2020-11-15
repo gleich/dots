@@ -52,6 +52,7 @@ ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 Nash.awesome-flutter-snippets
 naumovs.color-highlight
+neilpanchal.hypersubatomic
 njpwerner.autodocstring
 npxms.hide-gitignored
 philsinatra.popping-and-locking-vscode-black
