@@ -35,6 +35,7 @@ jasontheiler.kelp-forest-theme-vscode
 jdinhlife.gruvbox
 JeffersonQin.latex-snippets-jeff
 jeroen-meijer.pubspec-assist
+jolaleye.horizon-theme-vscode
 KevinRose.vsc-python-indent
 kiteco.kite
 leveluptutorials.theme-levelup
