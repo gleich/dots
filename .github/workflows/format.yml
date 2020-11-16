@@ -1,0 +1,31 @@
+name: format
+
+on: push
+
+jobs:
+  autopep8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.9'
+      - uses: dschep/install-poetry-action@v1.3
+      - name: Install dependencies
+        run: |
+          cd bin/fetch
+          poetry install
+      - run: autopep8 --aggressive --exit-code --recursive --diff ./bin/fetch/
+  black:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.9'
+      - uses: dschep/install-poetry-action@v1.3
+      - name: Install dependencies
+        run: |
+          cd bin/fetch
+          poetry install
+      - run: black --check ./bin/fetch/
