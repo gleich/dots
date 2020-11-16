@@ -136,7 +136,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "'Iosevka Extralight'",
+  "editor.fontFamily": "'Iosevka Light'",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "yaclock.hour12": true,
@@ -297,6 +297,5 @@
   "zenMode.centerLayout": false,
   "stories.username": "peach_Sly Moore",
   "markdown.extension.toc.levels": "1..4",
-"workbench.statusBar.visible": false,
 "jupyter.sendSelectionToInteractiveWindow": false,
 }
