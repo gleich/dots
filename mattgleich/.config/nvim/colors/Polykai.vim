@@ -14,7 +14,7 @@ let g:colors_name = "Polykai"
 "hi TabLineSel -- no settings --
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
-hi Normal guifg=NONE guibg=NONE guisp=#141818 gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi Normal guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi CTagsImport -- no settings --
 "hi CTagsGlobalVariable -- no settings --
 "hi SpellRare -- no settings --
@@ -38,7 +38,7 @@ hi Title guifg=#ffdf80 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE c
 hi Folded guifg=#3c4848 guibg=#000000 guisp=#000000 gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
 hi PreCondit guifg=#ff0062 guibg=NONE guisp=NONE gui=bold ctermfg=197 ctermbg=NONE cterm=bold
 hi Include guifg=#9eff20 guibg=NONE guisp=NONE gui=NONE ctermfg=118 ctermbg=NONE cterm=NONE
-hi StatusLineNC guifg=#909090 guibg=#1e2424 guisp=#1e2424 gui=NONE ctermfg=246 ctermbg=235 cterm=NONE
+hi StatusLineNC guifg=#87FA00 guibg=#87FA00 guisp=#87FA00 gui=NONE ctermfg=246 ctermbg=235 cterm=NONE
 hi NonText guifg=#909090 guibg=#1e2424 guisp=#1e2424 gui=NONE ctermfg=246 ctermbg=235 cterm=NONE
 hi DiffText guifg=NONE guibg=#4C4745 guisp=#4C4745 gui=bold,italic ctermfg=NONE ctermbg=239 cterm=bold
 hi ErrorMsg guifg=#ff0062 guibg=#232526 guisp=#232526 gui=bold ctermfg=197 ctermbg=235 cterm=bold
@@ -52,7 +52,7 @@ hi StorageClass guifg=#FD971F guibg=NONE guisp=NONE gui=italic ctermfg=208 cterm
 hi Todo guifg=#1e2424 guibg=#f8f8f8 guisp=#f8f8f8 gui=bold ctermfg=235 ctermbg=15 cterm=bold
 hi Special guifg=#f8f8f8 guibg=#1e2424 guisp=#1e2424 gui=italic ctermfg=15 ctermbg=235 cterm=NONE
 hi LineNr guifg=#3c4848 guibg=#141818 guisp=#141818 gui=NONE ctermfg=238 ctermbg=234 cterm=NONE
-hi StatusLine guifg=#1e2424 guibg=#f8f8f8 guisp=#f8f8f8 gui=NONE ctermfg=235 ctermbg=15 cterm=NONE
+hi StatusLine guifg=#87FA00 guibg=#87fa00 guisp=#87FA00 gui=NONE ctermfg=235 ctermbg=15 cterm=NONE
 hi Label guifg=#ffdf80 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
 hi PMenuSel guifg=#f8f8f8 guibg=#1e2424 guisp=#1e2424 gui=NONE ctermfg=15 ctermbg=235 cterm=NONE
 hi Search guifg=#f8f8f8 guibg=#3c4848 guisp=#3c4848 gui=NONE ctermfg=15 ctermbg=238 cterm=NONE

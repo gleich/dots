@@ -15,4 +15,5 @@ alias gm="gitmoji --commit"
 alias c="clear"
 alias pimportsort="pub run import_sorter:main"
 alias fimportsort="flutter pub run import_sorter:main"
+alias t="touch"
 
