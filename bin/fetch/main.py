@@ -1,7 +1,7 @@
-from loguru import logger
 import os
 import shutil
 from pathlib import Path
+from loguru import logger
 
 usr_name = "mattgleich"
 home = Path.home()
