@@ -71,8 +71,14 @@ brew "jrnl"
 brew "lazygit"
 # Rainbows and unicorns in your console!
 brew "lolcat"
+# Powerful, lightweight programming language
+brew "lua"
+# Package manager for the Lua programming language
+brew "luarocks"
 # Mac App Store command-line interface
 brew "mas"
+# Modern and intuitive terminal-based text editor
+brew "micro"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -195,6 +201,7 @@ mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
 mas "GoodNotes", id: 1444383602
 mas "Grammarly for Safari", id: 1462114288
+mas "Hand Mirror", id: 1502839586
 mas "HEIC Converter", id: 1294126402
 mas "Helium", id: 1054607607
 mas "iStat Menus", id: 1319778037
