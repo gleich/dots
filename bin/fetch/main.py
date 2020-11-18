@@ -151,10 +151,7 @@ def copy_files(prefix: str, files: list):
         actual_path = os.path.join(home, prefix, f)
         logger.info(f"Copying file: {actual_path}")
         copy_path = os.path.join(".", usr_name, prefix, f)
-        try:
-            os.makedirs(os.path.dirname(copy_path))
-        except FileExistsError:
-            pass
+        os.makedirs(os.path.dirname(copy_path), exist_ok=True)
         shutil.copyfile(actual_path, copy_path)
         logger.success(f"Copied config file:  {f}")
 
