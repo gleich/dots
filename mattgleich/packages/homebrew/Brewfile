@@ -48,7 +48,7 @@ brew "gitmoji"
 # Generic library support script
 brew "libtool"
 # GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
+brew "gnupg", link: false
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Deliver Go binaries as fast and easily as possible
