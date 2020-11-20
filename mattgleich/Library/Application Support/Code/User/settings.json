@@ -270,7 +270,7 @@
   "workbench.activityBar.visible": false,
   "editor.smoothScrolling": true,
   "git.confirmSync": false,
-  "workbench.colorTheme": "Hypersubatomic",
+  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "terminal.integrated.rendererType": "dom",
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
