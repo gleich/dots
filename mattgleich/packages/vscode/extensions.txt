@@ -70,6 +70,7 @@ teabyii.ayu
 tecosaur.latex-utilities
 thomanq.math-snippets
 tomphilbin.gruvbox-themes
+tuguldurio.monokai-aora
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug

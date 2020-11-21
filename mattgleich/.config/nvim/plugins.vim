@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     " gruvbox theme
     Plug 'morhetz/gruvbox'
+    " The papercolor theme
+    Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
 

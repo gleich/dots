@@ -1,7 +1,8 @@
 let g:mapleader = "\<Space>"                " set leader key
 
 syntax on                                   " Enables syntax highlighting
-color gruvbox                               " Set color theme to gruvbox (https://github.com/morhetz/gruvbox)
+color PaperColor                            " Set color theme
+set background=dark                         " Setting the background to dark mode
 set guicursor=                              " Just use the GUI cursor
 set hidden                                  " Required to keep multiple buffers open
 set encoding=utf-8                          " The text encoding

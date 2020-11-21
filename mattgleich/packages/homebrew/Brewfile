@@ -47,8 +47,6 @@ brew "git"
 brew "gitmoji"
 # Generic library support script
 brew "libtool"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg", link: false
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Deliver Go binaries as fast and easily as possible
@@ -91,6 +89,8 @@ brew "pinentry-mac"
 brew "poetry"
 # Cross-platform library for audio I/O
 brew "portaudio"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Show ps output as a tree
@@ -188,6 +188,7 @@ cask "steam"
 cask "swimat"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "vlc"
 cask "zoomin"
 cask "zoomus"
 cask "zwift"

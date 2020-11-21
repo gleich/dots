@@ -153,7 +153,7 @@ def copy_files(prefix: str, files: list):
         copy_path = os.path.join(".", usr_name, prefix, f)
         os.makedirs(os.path.dirname(copy_path), exist_ok=True)
         shutil.copyfile(actual_path, copy_path)
-        logger.success(f"Copied config file:  {f}")
+        logger.success(f"Copied config file: {f}")
 
 
 def push_changes():

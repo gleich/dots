@@ -270,7 +270,6 @@
   "workbench.activityBar.visible": false,
   "editor.smoothScrolling": true,
   "git.confirmSync": false,
-  "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "terminal.integrated.rendererType": "dom",
   "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
@@ -298,4 +297,5 @@
   "stories.username": "peach_Sly Moore",
   "markdown.extension.toc.levels": "1..4",
 "jupyter.sendSelectionToInteractiveWindow": false,
+"workbench.colorTheme": "Julia (Monokai Vibrant)",
 }
