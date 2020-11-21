@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
     " Ranger integration
     Plug 'francoiscabrol/ranger.vim'
+    " LaTeX support
+    Plug 'lervag/vimtex'
 
 call plug#end()
 
