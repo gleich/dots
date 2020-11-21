@@ -1,8 +1,7 @@
 let g:mapleader = "\<Space>"                " set leader key
 
+" General settings
 syntax on                                   " Enables syntax highlighting
-color PaperColor                            " Set color theme
-set background=dark                         " Setting the background to dark mode
 set guicursor=                              " Just use the GUI cursor
 set hidden                                  " Required to keep multiple buffers open
 set encoding=utf-8                          " The text encoding
@@ -16,3 +15,9 @@ set timeoutlen=500                          " By default timeoutlen is 1000 ms
 set so=999                                  " Always center cursor in screen
 set scrolloff=5                             " Number of lines around cursor
 
+" Theme
+color Papercolor                             " Theme
+set background=dark                          " Background color
+hi Normal guibg=NONE ctermbg=NONE            " Transparent background
+hi LineNr guibg=NONE ctermbg=NONE            " Transparent line number background
+hi SignColumn guibg=NONE ctermbg=NONE        " Transparent gutter

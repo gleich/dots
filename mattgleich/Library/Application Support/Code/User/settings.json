@@ -298,4 +298,5 @@
   "markdown.extension.toc.levels": "1..4",
 "jupyter.sendSelectionToInteractiveWindow": false,
 "workbench.colorTheme": "Julia (Monokai Vibrant)",
+"vim.enableNeovim": true,
 }

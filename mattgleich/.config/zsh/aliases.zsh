@@ -7,6 +7,7 @@ alias ls="exa -l -a --git --icons --group-directories-first"
 alias tree="exa -a --icons --tree --group-directories-first"
 alias cat="bat"
 alias vim="nvim"
+alias dc="cd"
 
 alias clock="tty-clock -tSbBc"
 alias ra="ranger"

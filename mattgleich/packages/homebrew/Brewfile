@@ -49,6 +49,8 @@ brew "gitmoji"
 brew "libtool"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Language server for the Go language
+brew "gopls"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser"
 # Terminal based graphical activity monitor inspired by gtop and vtop

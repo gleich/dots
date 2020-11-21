@@ -8,8 +8,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
@@ -20,12 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'wakatime/vim-wakatime'
     " Autoremove whitespace from files
     Plug 'bronson/vim-trailing-whitespace'
-    " Auto completion
-    Plug 'dense-analysis/ale'
     " Golang Support
-    Plug 'fatih/vim-go'
-    " Minimap
-    Plug 'wfxr/minimap.vim'
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
     " Language server
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Smooth Scrolling
@@ -46,6 +40,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'morhetz/gruvbox'
     " The papercolor theme
     Plug 'NLKNguyen/papercolor-theme'
+    " Missing motion for vim
+    Plug 'justinmk/vim-sneak'
+    " Ranger integration
+    Plug 'francoiscabrol/ranger.vim'
 
 call plug#end()
 
