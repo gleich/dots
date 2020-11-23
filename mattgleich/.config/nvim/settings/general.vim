@@ -6,7 +6,6 @@ set guicursor=                              " Just use the GUI cursor
 set hidden                                  " Required to keep multiple buffers open
 set encoding=utf-8                          " The text encoding
 set ruler                                   " Show the cursor position at all times
-set tabstop=4                               " Insert 4 spaces for a tab
 set smarttab                                " Automatic switching for tab spacing based off document
 set autoindent                              " Auto indentation
 set number                                  " Display line numbers
@@ -21,3 +20,4 @@ set background=dark                          " Background color
 hi Normal guibg=NONE ctermbg=NONE            " Transparent background
 hi LineNr guibg=NONE ctermbg=NONE            " Transparent line number background
 hi SignColumn guibg=NONE ctermbg=NONE        " Transparent gutter
+

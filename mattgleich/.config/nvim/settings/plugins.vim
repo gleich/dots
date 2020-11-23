@@ -5,5 +5,5 @@ let g:go_def_mapping_enabled = 0 " Have coc manage go to definition
 let g:sneak#label = 1 " Display switch character
 
 " lervag/vimtex
-let g:tex_flavor = 'latex'
+let g:tex_flavor = 'pdflatex'
 

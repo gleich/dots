@@ -1,4 +1,4 @@
-clone_clipboard: true
+clone_clipboard: false
 structure: []
 structure_root: ''
 lowercase_lang: true
