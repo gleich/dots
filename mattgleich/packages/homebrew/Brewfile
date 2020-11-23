@@ -12,6 +12,7 @@ tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
 tap "nektos/tap"
 tap "orf/brew"
+tap "rishiosaur/taps"
 tap "rodionovd/taps"
 tap "sourcegraph/src-cli"
 tap "wfxr/code-minimap"
@@ -133,6 +134,8 @@ brew "matt-gleich/taps/nuke"
 brew "nektos/tap/act"
 # Ping, but with a graph.
 brew "orf/brew/gping"
+# A minimal interpreted language.
+brew "rishiosaur/taps/sepia"
 # CLI manager for your text replacements on macOS
 brew "rodionovd/taps/shortcuts"
 # Sourcegraph CLI
