@@ -106,6 +106,8 @@ brew "rust"
 brew "swift-format"
 # Formatting tool for reformatting Swift code
 brew "swiftformat"
+# Programatically correct mistyped console commands
+brew "thefuck"
 # Command-line time tracking application
 brew "timewarrior"
 # Terminal multiplexer
