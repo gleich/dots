@@ -102,6 +102,8 @@ brew "pstree"
 brew "ranger"
 # Safe, concurrent, practical language
 brew "rust"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Formatting technology for Swift source code
 brew "swift-format"
 # Formatting tool for reformatting Swift code
@@ -182,7 +184,6 @@ cask "kite"
 cask "logitech-options"
 cask "macs-fan-control"
 cask "mactex"
-cask "minecraft"
 cask "ngrok"
 cask "nova"
 cask "obinskit"

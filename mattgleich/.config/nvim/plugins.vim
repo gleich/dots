@@ -48,6 +48,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'lervag/vimtex'
     " Improved startup menu
     Plug 'mhinz/vim-startify'
+    " Ranger in neovim
+    Plug 'francoiscabrol/ranger.vim'
+    " Popup instead of new buffer
+    Plug 'kamykn/popup-menu.nvim'
 
 call plug#end()
 
