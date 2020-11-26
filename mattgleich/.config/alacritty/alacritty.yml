@@ -9,38 +9,41 @@ title: Gleich
 
 font:
   normal:
-    family: Iosevka Extralight
-  style: MesloLGS NF
+    family: MesloLGS NF
+  style: Regular
   family: MesloLGS NF
   size: 18
 
+
+# Colors (Blood Moon)
 colors:
   # Default colors
   primary:
-    background: '0x141818'
-    foreground: '0xf8f8f8'
+    background: '0x10100E'
+    foreground: '0xC6C6C4'
 
   # Normal colors
   normal:
-    black: '0x1e2424'
-    red: '0xff0060'
-    green: '0xa0ff20'
-    yellow: '0xffe080'
-    blue: '0x6080ff'
-    magenta: '0xc080ff'
-    cyan: '0x40c4ff'
-    white: '0xf8f8f8'
+    black:   '0x10100E'
+    red:     '0xC40233'
+    green:   '0x009F6B'
+    yellow:  '0xFFD700'
+    blue:    '0x0087BD'
+    magenta: '0x9A4EAE'
+    cyan:    '0x20B2AA'
+    white:   '0xC6C6C4'
 
   # Bright colors
   bright:
-    black: '0x3c4848'
-    red: '0xff0060'
-    green: '0xa0ff20'
-    yellow: '0xffe080'
-    blue: '0x6080ff'
-    magenta: '0xc080ff'
-    cyan: '0x40c4ff'
-    white: '0xf8f8f8'
+    black:   '0x696969'
+    red:     '0xFF2400'
+    yellow:  '0xFDFF00'
+    blue:    '0x007FFF'
+    green:   '0x009F6B'
+    magenta: '0xFF1493'
+    cyan:    '0x00CCCC'
+    white:   '0xFFFAFA'
+
 
 # Dim colors
 #

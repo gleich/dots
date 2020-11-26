@@ -46,7 +46,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'francoiscabrol/ranger.vim'
     " LaTeX support
     Plug 'lervag/vimtex'
-    "
+    " Improved startup menu
     Plug 'mhinz/vim-startify'
 
 call plug#end()

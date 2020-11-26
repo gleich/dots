@@ -6,4 +6,4 @@ export GOBIN="/Users/mattgleich/go/bin"
 export GOPATH="/Users/mattgleich/go"
 export PATH=$PATH:$GOBIN
 export GO111MODULE=on
-
+export force_color_prompt=yes

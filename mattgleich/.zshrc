@@ -7,21 +7,21 @@ fi
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
-	git
-	wakatime
-	zsh-autosuggestions
-	zsh-syntax-highlighting
+  git
+  wakatime
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='nvim'
+  export EDITOR='nvim'
 else
-    export EDITOR='nvim'
+  export EDITOR='nvim'
 fi
 
 # Sourcing files
 source $ZSH/oh-my-zsh.sh
 source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/functions.zsh
-
 source ~/.p10k.zsh
+

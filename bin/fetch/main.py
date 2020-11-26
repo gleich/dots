@@ -72,6 +72,7 @@ def main():
         ".",
         [
             ".gitconfig",
+            ".tmux.conf",
             ".zshrc",
             ".zprofile",
             ".profile",
