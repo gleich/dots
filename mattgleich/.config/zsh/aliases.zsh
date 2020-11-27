@@ -7,6 +7,7 @@ alias tree="exa -a --icons --tree --group-directories-first"
 alias cat="bat"
 alias vim="nvim"
 alias dc="cd"
+alias sl="ls"
 
 alias clock="tty-clock -tSbBc"
 alias ra="ranger"
@@ -15,6 +16,7 @@ alias c="clear"
 alias pimportsort="pub run import_sorter:main"
 alias fimportsort="flutter pub run import_sorter:main"
 alias t="touch"
+alias repos="cd ~/github/ && tree -L 4 -D"
 
 # git
 alias gstat="git status"
