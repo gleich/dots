@@ -36,6 +36,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kamykn/popup-menu.nvim'
     " Show git changes in the gutter
     Plug 'airblade/vim-gitgutter'
+    " Rust support
+    Plug 'rust-lang/rust.vim'
 
 call plug#end()
 

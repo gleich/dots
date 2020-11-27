@@ -18,3 +18,6 @@ augroup spelunker
   autocmd CursorHold *.vim,*.json,*.md,*.tex call spelunker#check_displayed_words()
 augroup END
 
+" rust-lang/rust.vim
+let g:rustfmt_autosave = 1
+

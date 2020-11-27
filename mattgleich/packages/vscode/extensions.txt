@@ -62,6 +62,7 @@ pnp.polacode
 redhat.java
 redhat.vscode-yaml
 ritwickdey.LiveServer
+rust-lang.rust
 shardulm94.trailing-spaces
 skyran.js-jsx-snippets
 spywhere.now-playing

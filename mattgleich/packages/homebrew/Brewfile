@@ -100,8 +100,8 @@ brew "prettier"
 brew "pstree"
 # File browser
 brew "ranger"
-# Safe, concurrent, practical language
-brew "rust"
+# Rust toolchain installer
+brew "rustup-init"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Formatting technology for Swift source code

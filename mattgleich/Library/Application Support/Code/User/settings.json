@@ -220,7 +220,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "'Iosevka Extralight', 'MesloLGS-NF-Regular'",
+  "terminal.integrated.fontFamily": "'Fira Code Retina', 'MesloLGS-NF-Regular'",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.cursorStyle": "line",
   "[html]": {
