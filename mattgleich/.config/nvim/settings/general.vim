@@ -16,7 +16,7 @@ set scrolloff=5                             " Number of lines around cursor
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " Default tab length
 
 " Theme
-color gruvbox                                " Theme
+color molokai                                " Setting theme
 set background=dark                          " Background color
 hi Normal guibg=NONE ctermbg=NONE            " Transparent background
 hi LineNr guibg=NONE ctermbg=NONE            " Transparent line number background

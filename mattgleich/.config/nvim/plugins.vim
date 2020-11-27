@@ -34,6 +34,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'francoiscabrol/ranger.vim'
     " Popup instead of new buffer
     Plug 'kamykn/popup-menu.nvim'
+    " Show git changes in the gutter
+    Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
