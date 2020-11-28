@@ -38,7 +38,7 @@ let g:ale_rust_rls_toolchain = ''
 let g:ale_rust_rls_executable = 'rust-analyzer'
 let g:ale_linters = {
 	\ 'rust': ['rust-analyzer'],
-        \ 'go': ['golangci-lint'],
+	\ 'go': ['golangci-lint'],
 	\ 'javascript': ['eslint', 'prettier'],
 	\ 'css': ['prettier'],
 	\ 'typescript': ['eslint', 'prettier'],
@@ -48,10 +48,10 @@ let g:ale_linters = {
 	\ 'html': ['prettier'],
 	\ 'json': ['prettier'],
 	\ 'markdown': ['prettier'],
-        \ 'latex': ['chktex', 'lacheck'],
-        \ 'Dockerfile': ['hadolint'],
-        \ 'Dart': ['dartanalyzer'],
-        \ 'Vim': ['vint'],
+	\ 'latex': ['chktex', 'lacheck'],
+	\ 'Dockerfile': ['hadolint'],
+	\ 'Dart': ['dartanalyzer'],
+	\ 'Vim': ['vint'],
 	\ }
 let g:ale_fixers = {
 	\ '*': [
@@ -73,8 +73,8 @@ let g:ale_fixers = {
 	\ 'markdown': ['prettier'],
 	\ 'html': ['prettier'],
 	\ 'yaml': ['prettier'],
-        \ 'Dockerfile': ['hadolint'],
-        \ 'Dart': ['dartfmt']
+	\ 'Dockerfile': ['hadolint'],
+	\ 'Dart': ['dartfmt']
 	\ }
 let g:ale_rust_rls_toolchain = 'stable'
 let g:ale_fix_on_save = 1
