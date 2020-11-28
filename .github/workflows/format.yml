@@ -34,3 +34,10 @@ jobs:
           poetry install --no-root -n
           poetry install
       - run: black --check ./bin/fetch/
+  vint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ludvighz/vint-action@v1
+        with:
+          path: ./mattgleich/.config/nvim/
