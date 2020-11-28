@@ -1,13 +1,21 @@
 <!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich", "whitesource-bolt-for-github[bot]"]:end -->
+
 # dots
 
 ![format](https://github.com/Matt-Gleich/dots/workflows/format/badge.svg)
 
-My dot files for zsh, vim and more. Feel free to use any of them.
+- OS: macOS Big Sur
+- Terminal: alacritty
+- WM: Rectangle
+- Main Editors:
+  - neovim
+  - Visual Studio Code
+  - Xcode
+- Shell: zsh
 
 <!-- DO NOT REMOVE - contributor_list:start -->
-## 👥 Contributors
 
+## 👥 Contributors
 
 - **[@Matt-Gleich](https://github.com/Matt-Gleich)**
 
