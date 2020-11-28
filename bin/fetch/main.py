@@ -3,16 +3,17 @@ import shutil
 from pathlib import Path
 from loguru import logger
 
-usr_name = "mattgleich"
+USR_NAME = "mattgleich"
 home = Path.home()
 
 
 @logger.catch
 def main():
+    """Main function"""
     ensure_correct_path()
     os.chdir("./../../")
     remove_current_config()
-    os.mkdir(usr_name)
+    os.mkdir(USR_NAME)
 
     generate_package(
         name="homebrew",
@@ -56,6 +57,7 @@ def main():
             "gh/config.yml",
             "cava/config",
             "vis/config",
+            "coc/extensions/package.json",
         ],
     )
 
@@ -87,7 +89,7 @@ def main():
         ],
     )
 
-    shutil.rmtree(os.path.join(".", usr_name, ".config", "nvim", "autoload"))
+    shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))
 
     push_changes()
 
@@ -105,7 +107,7 @@ def ensure_correct_path():
 def remove_current_config():
     """Remove the current configuration"""
     logger.info("Removing current configuration")
-    shutil.rmtree(os.path.join(".", usr_name))
+    shutil.rmtree(os.path.join(".", USR_NAME))
     logger.success("Removed the current configuration")
 
 
@@ -119,7 +121,7 @@ def generate_package(name: str, cmd: str, file_name: str):
     """
     logger.info(f"Generating {name} package")
     content = os.popen(cmd).read()
-    folder = os.path.join(".", usr_name, "packages", name)
+    folder = os.path.join(".", USR_NAME, "packages", name)
     os.makedirs(folder, exist_ok=True)
     with open(os.path.join(folder, file_name), "w") as file:
         file.write(content)
@@ -136,7 +138,7 @@ def copy_folders(prefix: str, folders: list):
     for f in folders:
         actual_path = os.path.join(home, prefix, f)
         logger.info(f"Copying folder: {actual_path}")
-        copy_path = os.path.join(".", usr_name, prefix, f)
+        copy_path = os.path.join(".", USR_NAME, prefix, f)
         shutil.copytree(actual_path, copy_path)
         logger.success(f"Copied config folder: {f}")
 
@@ -151,7 +153,7 @@ def copy_files(prefix: str, files: list):
     for f in files:
         actual_path = os.path.join(home, prefix, f)
         logger.info(f"Copying file: {actual_path}")
-        copy_path = os.path.join(".", usr_name, prefix, f)
+        copy_path = os.path.join(".", USR_NAME, prefix, f)
         os.makedirs(os.path.dirname(copy_path), exist_ok=True)
         shutil.copyfile(actual_path, copy_path)
         logger.success(f"Copied config file: {f}")

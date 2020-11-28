@@ -3,13 +3,13 @@ let g:go_def_mapping_enabled = 0 " Have coc manage go to definition
 let g:go_gopls_enabled = 0       " Turn off gopls
 
 " justinmk/vim-sneak
-let g:sneak#label = 1 " Display switch character
+let g:sneak#label = 1
 
 " lervag/vimtex
-let g:tex_flavor = 'pdflatex' " Setting the formula type
+let g:tex_flavor = 'pdflatex'
 
 " kamykn/spelunker.vim
-set nospell " Turning off vim's native spell check
+set nospell
 augroup spelunker
   autocmd!
   " Setting for g:spelunker_check_type = 1:
@@ -20,11 +20,14 @@ augroup spelunker
 augroup END
 
 " rust-lang/rust.vim
-let g:rustfmt_autosave = 1 " Run rustfmt on autosave
+let g:rustfmt_autosave = 1
 
 " hugolgst/vimsense
 let g:vimsence_small_text = 'NeoVim'
 let g:vimsence_small_image = 'neovim'
+
+" vim-airline/vim-airline
+let g:airline#extensions#ale#enabled = 1
 
 " dense-analysis/ale
 let g:ale_rust_rls_config = {
@@ -37,7 +40,7 @@ let g:ale_rust_rls_config = {
 let g:ale_rust_rls_toolchain = ''
 let g:ale_rust_rls_executable = 'rust-analyzer'
 let g:ale_linters = {
-	\ 'rust': ['rust-analyzer'],
+	\ 'rust': ['analyzer'],
 	\ 'go': ['golangci-lint'],
 	\ 'javascript': ['eslint', 'prettier'],
 	\ 'css': ['prettier'],
@@ -78,13 +81,7 @@ let g:ale_fixers = {
 	\ }
 let g:ale_rust_rls_toolchain = 'stable'
 let g:ale_fix_on_save = 1
-let g:ale_completion_enabled = 1
 let g:ale_go_golangci_lint_package = 1
 let g:ale_go_golangci_lint_options = '--fast -E gofumpt -E unparam -E unconvert -E maligned -E goimports -E godot -E goconst'
-
-" Shougo/deoplete.nvim
-let g:deoplete#enable_at_startup = 1
 let g:ale_completion_autoimport = 1
-call deoplete#custom#option('sources', {
-\ '_': ['ale'],
-\})
+let g:ale_disable_lsp = 1

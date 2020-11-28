@@ -35,8 +35,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     " Asynchronous Lint Engine
     Plug 'dense-analysis/ale'
-    " LSP Support
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    " Intellisense for a LSP
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     " Discord rich presense
     " Plug 'hugolgst/vimsence'
