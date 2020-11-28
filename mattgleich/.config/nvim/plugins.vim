@@ -33,11 +33,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Built in fuzzy finder
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
-    " Language server
+    " Asynchronous Lint Engine
     Plug 'dense-analysis/ale'
+    " LSP Support
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
     " Discord rich presense
     " Plug 'hugolgst/vimsence'
 
 call plug#end()
-

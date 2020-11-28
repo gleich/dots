@@ -81,3 +81,10 @@ let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
 let g:ale_go_golangci_lint_package = 1
 let g:ale_go_golangci_lint_options = '--fast -E gofumpt -E unparam -E unconvert -E maligned -E goimports -E godot -E goconst'
+
+" Shougo/deoplete.nvim
+let g:deoplete#enable_at_startup = 1
+let g:ale_completion_autoimport = 1
+call deoplete#custom#option('sources', {
+\ '_': ['ale'],
+\})
