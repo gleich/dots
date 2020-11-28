@@ -10,8 +10,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'bronson/vim-trailing-whitespace'
     " Golang Support
     Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-    " Language server
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Improved spell check
     Plug 'kamykn/spelunker.vim'
     " Improved status/tabline
@@ -22,10 +20,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     " gruvbox theme
     Plug 'morhetz/gruvbox'
-    " The papercolor theme
-    Plug 'NLKNguyen/papercolor-theme'
-    " Missing motion for vim
-    Plug 'justinmk/vim-sneak'
     " LaTeX support
     Plug 'lervag/vimtex'
     " Improved startup menu
@@ -36,8 +30,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kamykn/popup-menu.nvim'
     " Show git changes in the gutter
     Plug 'airblade/vim-gitgutter'
-    " Rust support
-    Plug 'rust-lang/rust.vim'
+    " Built in fuzzy finder
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    " Language server
+    Plug 'dense-analysis/ale'
+
+    " Discord rich presense
+    " Plug 'hugolgst/vimsence'
 
 call plug#end()
 
