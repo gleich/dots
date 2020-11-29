@@ -23,6 +23,7 @@ alias gstat="git status"
 alias gpull="git pull"
 alias gpush="git push"
 alias gm="gitmoji --commit"
+alias gmp="gitmoji --commit && git push"
 alias gl="git log"
 
 # alias for programs

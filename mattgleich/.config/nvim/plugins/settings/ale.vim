@@ -1,35 +1,3 @@
-" fatih/vim-go
-let g:go_def_mapping_enabled = 0 " Have coc manage go to definition
-let g:go_gopls_enabled = 0       " Turn off gopls
-
-" justinmk/vim-sneak
-let g:sneak#label = 1
-
-" lervag/vimtex
-let g:tex_flavor = 'pdflatex'
-
-" kamykn/spelunker.vim
-set nospell
-augroup spelunker
-  autocmd!
-  " Setting for g:spelunker_check_type = 1:
-  autocmd BufWinEnter,BufWritePost *.py,*.Dockerfile,*.go,*.js,*.ts,*.tsx,*.rs call spelunker#check()
-
-  " Setting for g:spelunker_check_type = 2:
-  autocmd CursorHold *.vim,*.json,*.md,*.tex call spelunker#check_displayed_words()
-augroup END
-
-" rust-lang/rust.vim
-let g:rustfmt_autosave = 1
-
-" hugolgst/vimsense
-let g:vimsence_small_text = 'NeoVim'
-let g:vimsence_small_image = 'neovim'
-
-" vim-airline/vim-airline
-let g:airline#extensions#ale#enabled = 1
-
-" dense-analysis/ale
 let g:ale_rust_rls_config = {
 	\ 'rust': {
 		\ 'all_targets': 1,

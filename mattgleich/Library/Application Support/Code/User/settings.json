@@ -384,5 +384,9 @@
         }
       }
     ]
-  }
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "rust.all_features": true
 }

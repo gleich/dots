@@ -1,3 +1,6 @@
-source ~/.config/nvim/settings/plugins.vim
-source ~/.config/nvim/settings/general.vim
-source ~/.config/nvim/plugins.vim
+source ~/.config/nvim/settings.vim
+source ~/.config/nvim/plugins/plugins.vim
+
+for fpath in split(globpath('~/.config/nvim/plugins/settings/', '*.vim'), '\n')
+  exe 'source' fpath
+endfor

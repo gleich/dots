@@ -4,6 +4,7 @@ abusaidm.html-snippets
 adamgraham.polykai-theme
 aleksandra.go-group-imports
 alex-shnayder.theme-raspberry
+bungcip.better-toml
 cameronbieganek.julia-color-themes
 christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2
