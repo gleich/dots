@@ -65,6 +65,7 @@
     "chdir",
     "cjdenio",
     "colorbox",
+    "consistuaiotn",
     "creds",
     "cupertino",
     "dateutil",
@@ -82,6 +83,7 @@
     "goreleaser",
     "hackathons",
     "hackclub",
+    "idelolocaial",
     "imread",
     "infographics",
     "jira",
@@ -388,5 +390,28 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust"
   },
-  "rust.all_features": true
+  "rust.all_features": true,
+  "workbench.colorCustomizations": {
+    "[Julia (Monokai Vibrant)]": {
+      "editorPane.background": "#000000",
+      "editor.background": "#000000",
+      "statusBar.background": "#000000",
+      "foreground": "#ffffff",
+      "sideBar.background": "#000000",
+      "sideBar.border": "#000000",
+      "window.activeBorder": "#000000",
+      "titleBar.activeBackground": "#000000",
+      "titleBar.inactiveBackground": "#000000",
+      "titleBar.border": "#000000",
+      "sideBarTitle.foreground": "#1eff00",
+      "tab.inactiveBackground": "#070707",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#ffffff",
+      "tab.activeBorderTop": "#1eff00",
+      "tab.activeModifiedBorder": "#ff8400",
+      "tab.activeBackground": "#000000",
+      "titleBar.activeForeground": "#1eff00",
+      "editorGroupHeader.tabsBackground": "#000000"
+    }
+  },
 }
