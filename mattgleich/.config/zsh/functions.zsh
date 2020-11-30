@@ -14,3 +14,7 @@ rrun() {
     ./$BINARY_NAME
     rm $BINARY_NAME
 }
+
+# push a new release in one command
+gitrelease() { git tag -a $1 -m "$1" && git push origin $1 }
+
