@@ -8,6 +8,7 @@ alias cat="bat"
 alias vim="nvim"
 alias dc="cd"
 alias sl="ls"
+alias rick="curl -s -L http://bit.ly/10hA8iC | bash"
 
 alias clock="tty-clock -tSbBc"
 alias ra="ranger"
