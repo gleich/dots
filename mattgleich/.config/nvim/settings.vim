@@ -13,7 +13,8 @@ set scrolloff=999                           " Always center cursor in screen
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " Default tab length
 
 " Theme
-color molokai                                " Setting theme
+let g:gruvbox_italics = 1                    " Turning on italics
+colorscheme gruvbox                          " Setting theme
 set background=dark                          " Background color
 hi Normal guibg=NONE ctermbg=NONE            " Transparent background
 hi LineNr guibg=NONE ctermbg=NONE            " Transparent line number background

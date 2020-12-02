@@ -4,6 +4,7 @@ abusaidm.html-snippets
 adamgraham.polykai-theme
 aleksandra.go-group-imports
 alex-shnayder.theme-raspberry
+alexperronnet.spectrum-vscode-icons
 bungcip.better-toml
 cameronbieganek.julia-color-themes
 christian-kohler.path-intellisense
@@ -76,6 +77,7 @@ tomphilbin.gruvbox-themes
 tuguldurio.monokai-aora
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
+vitoravelino.mosaic
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
 vscjava.vscode-java-pack

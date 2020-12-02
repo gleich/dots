@@ -37,6 +37,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dense-analysis/ale'
     " Intellisense for a LSP
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Indentation lines
+    Plug 'Yggdroot/indentLine'
 
     " Discord rich presense
     " Plug 'hugolgst/vimsence'
