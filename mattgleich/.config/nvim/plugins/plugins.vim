@@ -14,10 +14,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kamykn/spelunker.vim'
     " Improved status/tabline
     Plug 'vim-airline/vim-airline'
-    " Sick icon
-    Plug 'ryanoasis/vim-devicons'
-    " Hex color coloring
-    Plug 'norcalli/nvim-colorizer.lua'
     " gruvbox theme
     Plug 'morhetz/gruvbox'
     " LaTeX support
@@ -39,6 +35,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Indentation lines
     Plug 'Yggdroot/indentLine'
+    " Color display for CSS RGB or regular hex values
+    Plug 'gko/vim-coloresque'
 
     " Discord rich presense
     " Plug 'hugolgst/vimsence'

@@ -9,41 +9,44 @@ title: Gleich
 
 font:
   normal:
-    family: MesloLGS NF
+    family: Fira Code
+  italic:
+    family: Fira Code iScript
+    style: Italic
   style: Regular
   family: MesloLGS NF
   size: 18
 
-
-# Colors (Blood Moon)
+# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
-    background: '0x10100E'
-    foreground: '0xC6C6C4'
+    # hard contrast: background = '#1d2021'
+    background: "#000000"
+    # soft contrast: background = '#32302f'
+    foreground: "#ebdbb2"
 
   # Normal colors
   normal:
-    black:   '0x10100E'
-    red:     '0xC40233'
-    green:   '0x009F6B'
-    yellow:  '0xFFD700'
-    blue:    '0x0087BD'
-    magenta: '0x9A4EAE'
-    cyan:    '0x20B2AA'
-    white:   '0xC6C6C4'
+    black: "#282828"
+    red: "#cc241d"
+    green: "#98971a"
+    yellow: "#d79921"
+    blue: "#458588"
+    magenta: "#b16286"
+    cyan: "#689d6a"
+    white: "#a89984"
 
   # Bright colors
   bright:
-    black:   '0x696969'
-    red:     '0xFF2400'
-    yellow:  '0xFDFF00'
-    blue:    '0x007FFF'
-    green:   '0x009F6B'
-    magenta: '0xFF1493'
-    cyan:    '0x00CCCC'
-    white:   '0xFFFAFA'
-
+    black: "#928374"
+    red: "#fb4934"
+    green: "#b8bb26"
+    yellow: "#fabd2f"
+    blue: "#83a598"
+    magenta: "#d3869b"
+    cyan: "#8ec07c"
+    white: "#ebdbb2"
 
 # Dim colors
 #

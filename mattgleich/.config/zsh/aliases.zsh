@@ -9,6 +9,7 @@ alias vim="nvim"
 alias dc="cd"
 alias sl="ls"
 alias rick="curl -s -L http://bit.ly/10hA8iC | bash"
+alias cpwd="pwd | pbcopy"
 
 alias clock="tty-clock -tSbBc"
 alias ra="ranger"
@@ -27,5 +28,4 @@ alias gm="gitmoji --commit"
 alias gmp="gitmoji --commit && git push"
 alias gl="git log"
 
-# alias for programs
 eval $(thefuck --alias)

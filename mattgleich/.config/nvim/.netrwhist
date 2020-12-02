@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/mattgleich/.config/nvim/plugins/settings'
 let g:netrw_dirhist_3='/Users/mattgleich/github/Matt-Gleich/public/markdown/Matt-Gleich/standard_documents/licenses'
 let g:netrw_dirhist_2='/Users/mattgleich/github/Matt-Gleich/public/go/fgh/pkg/commands/remove'
 let g:netrw_dirhist_1='/Users/mattgleich/.config/nvim/vim-plug'
