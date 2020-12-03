@@ -87,10 +87,17 @@ def main():
             "Library/Application Support/Code/User/keybindings.json",
             "Library/Application Support/Code/User/settings.json",
             "Documents/Zwift/prefs.xml",
+            ".hyper.js",
         ],
     )
 
     shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))
+    copy_files(
+        ".config",
+        [
+            "nvim/autoload/plugged/vim-airline-themes/autoload/airline/themes/transparent.vim",
+        ],
+    )
 
     push_changes()
 

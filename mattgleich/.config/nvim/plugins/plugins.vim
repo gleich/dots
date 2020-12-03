@@ -61,6 +61,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'kamykn/popup-menu.nvim'
         " Sick icons
             Plug 'ryanoasis/vim-devicons'
+        " Themes for vim-airline
+            Plug 'vim-airline/vim-airline-themes'
+
 
     """""""""""
     " Retired "
