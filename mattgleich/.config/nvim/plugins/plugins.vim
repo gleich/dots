@@ -1,44 +1,72 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
-    " Blazing fast autocompletion
-    Plug 'kiteco/vim-plugin', { 'as': 'kite.vim' }
-    " Code time tracking
-    Plug 'wakatime/vim-wakatime'
-    " Autoremove whitespace from files
-    Plug 'bronson/vim-trailing-whitespace'
-    " Golang Support
-    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-    " Improved spell check
-    Plug 'kamykn/spelunker.vim'
-    " Improved status/tabline
-    Plug 'vim-airline/vim-airline'
-    " gruvbox theme
-    Plug 'morhetz/gruvbox'
-    " LaTeX support
-    Plug 'lervag/vimtex'
-    " Improved startup menu
-    Plug 'mhinz/vim-startify'
-    " Ranger in neovim
-    Plug 'francoiscabrol/ranger.vim'
-    " Popup instead of new buffer
-    Plug 'kamykn/popup-menu.nvim'
-    " Show git changes in the gutter
-    Plug 'airblade/vim-gitgutter'
-    " Built in fuzzy finder
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-    " Asynchronous Lint Engine
-    Plug 'dense-analysis/ale'
-    " Intellisense for a LSP
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Indentation lines
-    Plug 'Yggdroot/indentLine'
-    " Color display for CSS RGB or regular hex values
-    Plug 'gko/vim-coloresque'
+    """""""""""
+    " General "
+    """""""""""
 
-    " Discord rich presense
-    " Plug 'hugolgst/vimsence'
+        " Code time tracking
+            Plug 'wakatime/vim-wakatime'
+        " Improved spell check
+            Plug 'kamykn/spelunker.vim'
+        " Show git changes in the gutter
+            Plug 'airblade/vim-gitgutter'
+        " Built in fuzzy finder
+            Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+            Plug 'junegunn/fzf.vim'
+        " Quoting/Parenthesizing made simple
+            Plug 'tpope/vim-surround'
+        " Tree explorer
+            Plug 'scrooloose/nerdtree'
+
+    """"""""""""""
+    " Formatting "
+    """"""""""""""
+
+        " Indentation lines
+            Plug 'Yggdroot/indentLine'
+        " Autoremove whitespace from files
+            Plug 'bronson/vim-trailing-whitespace'
+        " Color display for CSS RGB or regular hex values
+            Plug 'gko/vim-coloresque'
+
+
+    """"""""""""""""""""
+    " Language Support "
+    """"""""""""""""""""
+
+        " Asynchronous Lint Engine
+            Plug 'dense-analysis/ale'
+        " Intellisense for a LSP
+            Plug 'neoclide/coc.nvim', {'branch': 'release'}
+        " LaTeX support
+            Plug 'lervag/vimtex'
+        " Golang Support
+            Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+        " Auto pairs for '(' '[' '{'
+            Plug 'jiangmiao/auto-pairs'
+        " Blazing fast autocompletion
+            Plug 'kiteco/vim-plugin', { 'as': 'kite.vim' }
+
+    """"""""""
+    " Themes "
+    """"""""""
+
+        " gruvbox theme
+            Plug 'morhetz/gruvbox'
+        " Improved status/tabline
+            Plug 'vim-airline/vim-airline'
+        " Improved startup menu
+            Plug 'mhinz/vim-startify'
+        " Popup instead of new buffer
+            Plug 'kamykn/popup-menu.nvim'
+        " Sick icons
+            Plug 'ryanoasis/vim-devicons'
+
+    """""""""""
+    " Retired "
+    """""""""""
+
+        " Discord rich presense
+        " Plug 'hugolgst/vimsence'
 
 call plug#end()
