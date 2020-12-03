@@ -15,7 +15,7 @@ set guifont=Fira\ Code\ iScript:h12         " Setting the font
 
 " Theme
 let g:gruvbox_italics = 1                    " Turning on italics
-colorscheme gruvbox                          " Setting theme
+colorscheme molokai                          " Setting theme
 set background=dark                          " Background color
 hi Normal guibg=NONE ctermbg=NONE            " Transparent background
 hi LineNr guibg=NONE ctermbg=NONE            " Transparent line number background

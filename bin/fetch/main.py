@@ -47,6 +47,7 @@ def main():
             "omf",
             "vis/colors",
             "zsh",
+            "kitty",
         ],
     )
     copy_files(
