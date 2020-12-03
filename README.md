@@ -5,7 +5,7 @@
 ![format](https://github.com/Matt-Gleich/dots/workflows/format/badge.svg)
 
 - OS: macOS Big Sur
-- Terminal: alacritty
+- Terminal: kitty
 - WM: Rectangle
 - Main Editors:
   - neovim
