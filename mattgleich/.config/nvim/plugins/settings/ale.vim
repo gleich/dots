@@ -19,7 +19,6 @@ let g:ale_linters = {
 	\ 'html': ['prettier'],
 	\ 'json': ['prettier'],
 	\ 'markdown': ['prettier'],
-	\ 'latex': ['chktex', 'lacheck'],
 	\ 'Dockerfile': ['hadolint'],
 	\ 'Dart': ['dartanalyzer'],
 	\ 'Vim': ['vint'],
