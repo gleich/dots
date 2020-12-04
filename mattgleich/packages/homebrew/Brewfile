@@ -207,6 +207,7 @@ cask "swimat"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
+cask "zoom"
 cask "zoomin"
 cask "zoomus"
 mas "1Focus", id: 969210610
