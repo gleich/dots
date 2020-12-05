@@ -5,7 +5,7 @@ fcd() { cd "$(fgh ls "$@" 2>/dev/null)" || ( echo "Failed to find repository" &&
 ccat() { cat "$1" | pbcopy }
 
 # cd into a config directory with ease
-conf() { cd ~ && cd ~/.config/"$1" }
+conf() { cd ~/.config/"$1" }
 
 # run a rust file in one command
 rrun() {

@@ -138,7 +138,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira Code iScript",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -321,5 +321,6 @@
         }
       }
     ]
-  }
+  },
+  "vim.enableNeovim": true
 }
