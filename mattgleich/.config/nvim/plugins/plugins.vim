@@ -65,6 +65,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     """""""""""
 
         " Discord rich presense
-        " Plug 'hugolgst/vimsence'
+            Plug 'hugolgst/vimsence'
 
 call plug#end()
