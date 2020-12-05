@@ -10,25 +10,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'kamykn/spelunker.vim'
         " Show git changes in the gutter
             Plug 'airblade/vim-gitgutter'
-        " Built in fuzzy finder
-            Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-            Plug 'junegunn/fzf.vim'
         " Quoting/Parenthesizing made simple
             Plug 'tpope/vim-surround'
         " Tree explorer
             Plug 'scrooloose/nerdtree'
+        " Snippets
+            Plug 'SirVer/ultisnips'
+            Plug 'honza/vim-snippets'
 
     """"""""""""""
     " Formatting "
     """"""""""""""
 
-        " Indentation lines
-            Plug 'Yggdroot/indentLine'
-        " Autoremove whitespace from files
-            Plug 'bronson/vim-trailing-whitespace'
         " Color display for CSS RGB or regular hex values
             Plug 'gko/vim-coloresque'
-
 
     """"""""""""""""""""
     " Language Support "
@@ -42,10 +37,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'lervag/vimtex'
         " Golang Support
             Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-        " Auto pairs for '(' '[' '{'
-            Plug 'jiangmiao/auto-pairs'
         " Blazing fast autocompletion
             Plug 'kiteco/vim-plugin', { 'as': 'kite.vim' }
+        " Auto pairs for '(' '[' '{'
+            Plug 'jiangmiao/auto-pairs'
 
     """"""""""
     " Themes "

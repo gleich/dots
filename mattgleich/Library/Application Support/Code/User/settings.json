@@ -322,5 +322,6 @@
       }
     ]
   },
-  "vim.enableNeovim": true
+  "vim.enableNeovim": true,
+  "latex-workshop.latex.autoBuild.run": "never"
 }

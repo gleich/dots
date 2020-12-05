@@ -16,6 +16,7 @@ tap "rishiosaur/taps"
 tap "rodionovd/taps"
 tap "sourcegraph/src-cli"
 tap "wfxr/code-minimap"
+tap "zegervdv/zathura"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
 # Clone of cat(1) with syntax highlighting and Git integration

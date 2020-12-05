@@ -2,7 +2,8 @@
 alias update="sh /Users/mattgleich/github/Matt-Gleich/public/python/scripts/update.sh"
 alias mindnode="cd /Users/mattgleich/github/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
 
-alias ls="exa -l -a --git --icons --group-directories-first"
+alias ls="exa --icons --group-directories-first -x | column"
+alias lsa="exa -l -a --git --icons --group-directories-first"
 alias tree="exa -a --icons --tree --group-directories-first"
 alias cat="bat"
 alias vim="nvim"
