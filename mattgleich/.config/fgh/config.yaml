@@ -1,6 +1,5 @@
 clone_clipboard: false
 structure: []
-structure_root: ''
+structure_root: ""
 lowercase_lang: true
-space_character: ''
-
+space_character: ""
