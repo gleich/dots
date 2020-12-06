@@ -11,6 +11,7 @@ alias dc="cd"
 alias sl="ls"
 alias rick="curl -s -L http://bit.ly/10hA8iC | bash"
 alias cpwd="pwd | pbcopy"
+alias weather="curl wttr.in"
 
 alias clock="tty-clock -tSbBc"
 alias ra="ranger"
