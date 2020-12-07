@@ -17,6 +17,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " Snippets
             Plug 'SirVer/ultisnips'
             Plug 'honza/vim-snippets'
+        " fzf for vim
+            Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+            Plug 'junegunn/fzf.vim'
 
     """"""""""""""
     " Formatting "
