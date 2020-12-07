@@ -17,9 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " Snippets
             Plug 'SirVer/ultisnips'
             Plug 'honza/vim-snippets'
-        " Discord rich presense
-            Plug 'hugolgst/vimsence'
-
 
     """"""""""""""
     " Formatting "
@@ -66,5 +63,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     """""""""""
     " Retired "
     """""""""""
+
+        " Discord rich presense
+            " Plug 'hugolgst/vimsence'
 
 call plug#end()
