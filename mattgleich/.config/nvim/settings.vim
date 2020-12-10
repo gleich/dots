@@ -1,5 +1,6 @@
 " General settings
 syntax on                                   " Enables syntax highlighting
+set termguicolors                           " Enable 256 colors
 set guicursor=                              " Just use the GUI cursor
 set hidden                                  " Required to keep multiple buffers open
 set encoding=utf-8                          " The text encoding
