@@ -15,6 +15,15 @@ rrun() {
     rm $BINARY_NAME
 }
 
+# run a java file in one command
+jrun() {
+    BINARY_NAME="${1:0:-5}"
+    javac $1
+    java $BINARY_NAME
+    rm $BINARY_NAME.class
+}
+
+
 # push a new release in one command
 gitrelease() { git tag -a $1 -m "$1" && git push origin $1 }
 
