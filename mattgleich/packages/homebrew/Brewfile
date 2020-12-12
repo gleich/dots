@@ -212,7 +212,6 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 cask "zoom"
-cask "zoomin"
 cask "zoomus"
 mas "1Focus", id: 969210610
 mas "AdBlock Pro", id: 1018301773
