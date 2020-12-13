@@ -48,6 +48,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'kiteco/vim-plugin', { 'as': 'kite.vim' }
         " Auto pairs for '(' '[' '{'
             Plug 'jiangmiao/auto-pairs'
+        " Improved JavaScript support
+            Plug 'pangloss/vim-javascript'
 
     """"""""""
     " Themes "

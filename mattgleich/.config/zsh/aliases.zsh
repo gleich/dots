@@ -1,6 +1,6 @@
 # Scripts
-alias update="sh /Users/mattgleich/github/Matt-Gleich/public/python/scripts/update.sh"
-alias mindnode="cd /Users/mattgleich/github/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
+alias update="sh /Users/mattgleich/Desktop/Matt-Gleich/public/python/scripts/update.sh"
+alias mindnode="cd /Users/mattgleich/Desktop/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
 
 alias ls="exa --icons --group-directories-first -x | column"
 alias lsa="exa -l -a --git --icons --group-directories-first"
