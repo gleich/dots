@@ -32,7 +32,6 @@ jobs:
           cd bin/fetch
           poetry config virtualenvs.create false
           poetry install --no-root -n
-          poetry install
       - run: black --check ./bin/fetch/
   vint:
     runs-on: ubuntu-latest
