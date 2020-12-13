@@ -8,6 +8,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'wakatime/vim-wakatime'
         " Improved spell check
             Plug 'kamykn/spelunker.vim'
+        " Grammar checker
+            Plug 'dpelle/vim-LanguageTool'
         " Improved writing for vim
             Plug 'reedes/vim-pencil'
         " Show git changes in the gutter

@@ -85,6 +85,8 @@ brew "lua"
 brew "luarocks"
 # Mac App Store command-line interface
 brew "mas"
+# Java-based project management
+brew "maven"
 # Modern and intuitive terminal-based text editor
 brew "micro"
 # Fast, highly customisable system info script
