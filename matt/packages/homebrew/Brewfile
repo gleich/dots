@@ -54,7 +54,7 @@ brew "ranger"
 brew "rustup-init"
 # Autoformat shell script source code
 brew "shfmt"
-# Programatically correct mistyped console commands
+# Programmatically correct mistyped console commands
 brew "thefuck"
 # Terminal multiplexer
 brew "tmux"
