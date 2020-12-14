@@ -1,4 +1,4 @@
-<!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich", "whitesource-bolt-for-github[bot]"]:end -->
+<!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich", "ImgBotApp", "whitesource-bolt-for-github[bot]"]:end -->
 
 # dots
 
@@ -14,10 +14,12 @@
 - Shell: zsh
 
 <!-- DO NOT REMOVE - contributor_list:start -->
-
 ## 👥 Contributors
 
+
 - **[@Matt-Gleich](https://github.com/Matt-Gleich)**
+
+- **[@ImgBotApp](https://github.com/ImgBotApp)**
 
 - **[@whitesource-bolt-for-github[bot]](https://github.com/apps/whitesource-bolt-for-github)**
 
