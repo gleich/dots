@@ -1,0 +1,123 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "matt-gleich/taps"
+tap "moritzsternemann/apple-fonts"
+# Plugin manager for zsh, inspired by oh-my-zsh and vundle
+brew "antigen"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Python code formatter
+brew "black"
+# Linux/OSX/FreeBSD resource monitor
+brew "bpytop"
+# AST-based pattern checker for JavaScript
+brew "eslint"
+# Modern replacement for 'ls'
+brew "exa"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Emoji guide for your commit messages
+brew "gitmoji"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Fast linters runner for Go
+brew "golangci-lint"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
+# Mac App Store command-line interface
+brew "mas"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Development kit for the Java programming language
+brew "openjdk"
+# Python package management tool
+brew "poetry"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
+# File browser
+brew "ranger"
+# Safe, concurrent, practical language
+brew "rust"
+# Autoformat shell script source code
+brew "shfmt"
+# Programatically correct mistyped console commands
+brew "thefuck"
+# Terminal multiplexer
+brew "tmux"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Vim script Language Lint
+brew "vint"
+# Command-line interface to the WakaTime api
+brew "wakatime-cli"
+# Internet file retriever
+brew "wget"
+# JavaScript package manager
+brew "yarn"
+# 📁 Automate the organization of your cloned GitHub repositories
+brew "matt-gleich/taps/fgh"
+# ☢️ Force quit all applications with one terminal command
+brew "matt-gleich/taps/nuke"
+cask "alfred"
+cask "discord"
+cask "docker"
+cask "drawio"
+cask "edex-ui"
+cask "firefox-developer-edition"
+cask "flutter"
+cask "font-3270"
+cask "font-computer-modern"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
+cask "font-iosevka"
+cask "font-iosevka-slab"
+cask "font-new-york"
+cask "font-sf-compact"
+cask "font-sf-mono"
+cask "font-sf-pro"
+cask "gitify"
+cask "grammarly"
+cask "kitty"
+cask "logitech-options"
+cask "mactex"
+cask "postman"
+cask "rectangle"
+cask "slack"
+cask "steam"
+cask "visual-studio-code"
+cask "vlc"
+cask "zoom"
+cask "zwift"
+mas "ColorSlurp", id: 1287239339
+mas "Dark Reader for Safari", id: 1438243180
+mas "DevCleaner", id: 1388020431
+mas "Developer", id: 640199958
+mas "Firewatch", id: 1164603847
+mas "Gifski", id: 1351639930
+mas "GoodNotes", id: 1444383602
+mas "HEIC Converter", id: 1294126402
+mas "iStat Menus", id: 1319778037
+mas "Keynote", id: 409183694
+mas "LastPass", id: 926036361
+mas "MindNode", id: 1289197285
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Poolside FM", id: 1514817810
+mas "Shazam", id: 897118787
+mas "Spark", id: 1176895641
+mas "Telegram", id: 747648890
+mas "Termius", id: 1176074088
+mas "Things", id: 904280696
+mas "Xcode", id: 497799835

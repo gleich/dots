@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 from loguru import logger
 
-USR_NAME = "mattgleich"
+USR_NAME = "matt"
 home = Path.home()
 
 
@@ -34,18 +34,13 @@ def main():
     copy_folders(
         ".config",
         [
-            "jrnl",
             "alfred",
             "neofetch",
             "nuke",
             "bpytop/themes",
-            "alacritty",
-            "iTerm2",
             "ranger",
             "nvim",
             "texsch",
-            "omf",
-            "vis/colors",
             "zsh",
             "kitty",
         ],
@@ -56,8 +51,6 @@ def main():
             "bpytop/bpytop.conf",
             "fgh/config.yaml",
             "gh/config.yml",
-            "cava/config",
-            "vis/config",
             "coc/extensions/package.json",
         ],
     )
@@ -65,7 +58,6 @@ def main():
     copy_folders(
         ".",
         [
-            "Pictures/Wallpaper",
             "Library/Developer/Xcode/UserData/KeyBindings",
             "Library/Developer/Xcode/UserData/FontAndColorThemes",
             "Library/Preferences/gitmoji-nodejs",
@@ -78,16 +70,11 @@ def main():
             ".tmux.conf",
             ".zshrc",
             ".zprofile",
-            ".profile",
-            ".vimrc",
             ".p10k.zsh",
-            ".kite/settings.json",
             ".docker/config.json",
             "Library/Application Support/eDEX-UI/settings.json",
             "Library/Application Support/Code/User/keybindings.json",
             "Library/Application Support/Code/User/settings.json",
-            "Documents/Zwift/prefs.xml",
-            ".hyper.js",
         ],
     )
     shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))
@@ -98,7 +85,7 @@ def ensure_correct_path():
     """Ensure that this program is running from the correct location"""
     logger.info("Verifying path")
     cwd = os.getcwd()
-    correct_path = "/Users/mattgleich/Desktop/Matt-Gleich/public/shell/dots/bin/fetch"
+    correct_path = f"/Users/{USR_NAME}/Desktop/Matt-Gleich/public/shell/dots/bin/fetch"
     if cwd != correct_path:
         logger.error(f"Please run from {correct_path}")
     logger.success("Correct path")
