@@ -24,3 +24,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/functions.zsh
 source ~/.p10k.zsh
+source $HOME/.cargo/env

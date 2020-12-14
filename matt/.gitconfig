@@ -2,3 +2,7 @@
 	signingkey = 11AA2426498FF843
 	name = Matthew Gleich
 	email = email@mattglei.ch
+[gpg]
+	program = /usr/local/bin/gpg
+[commit]
+	gpgsign = true

@@ -42,14 +42,16 @@ brew "neofetch"
 brew "neovim"
 # Development kit for the Java programming language
 brew "openjdk"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # File browser
 brew "ranger"
-# Safe, concurrent, practical language
-brew "rust"
+# Rust toolchain installer
+brew "rustup-init"
 # Autoformat shell script source code
 brew "shfmt"
 # Programatically correct mistyped console commands
