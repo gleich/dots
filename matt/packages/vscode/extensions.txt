@@ -60,6 +60,7 @@ njpwerner.autodocstring
 npxms.hide-gitignored
 philsinatra.popping-and-locking-vscode-black
 phr0s.bib
+plibither8.remove-comments
 pnp.polacode
 redhat.java
 redhat.vscode-yaml

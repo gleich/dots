@@ -2,7 +2,7 @@
 alias update="sh /Users/matt/Desktop/Matt-Gleich/public/python/scripts/update.sh"
 alias mindnode="cd /Users/matt/Desktop/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
 
-alias ls="exa -l -a --icons --group-directories-first"
+alias ls="exa -l --icons --group-directories-first"
 alias tree="exa -a --icons --tree --group-directories-first"
 alias cat="bat"
 alias vim="nvim"

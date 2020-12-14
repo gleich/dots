@@ -6,12 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
-# Sourcing files
 source /usr/local/share/antigen/antigen.zsh
-source $ZSH/oh-my-zsh.sh
-source ~/.config/zsh/aliases.zsh
-source ~/.config/zsh/functions.zsh
-source ~/.p10k.zsh
 
 # antigen
 antigen theme romkatv/powerlevel10k
@@ -24,3 +19,8 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 antigen apply
 
+# Sourcing files
+source $ZSH/oh-my-zsh.sh
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/functions.zsh
+source ~/.p10k.zsh
