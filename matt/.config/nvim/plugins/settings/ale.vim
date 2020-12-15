@@ -44,7 +44,8 @@ let g:ale_fixers = {
 	\ 'html': ['prettier'],
 	\ 'yaml': ['prettier'],
 	\ 'Dockerfile': ['hadolint'],
-	\ 'Dart': ['dartfmt']
+	\ 'Dart': ['dartfmt'],
+        \ 'java': ['google_java_format']
 	\ }
 let g:ale_rust_rls_toolchain = 'stable'
 let g:ale_fix_on_save = 1

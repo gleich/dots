@@ -2,8 +2,9 @@
 alias update="sh /Users/matt/Desktop/Matt-Gleich/public/python/scripts/update.sh"
 alias mindnode="cd /Users/matt/Desktop/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
 
-alias ls="exa -la --icons --group-directories-first"
-alias tree="exa -a --icons --tree --group-directories-first"
+alias ls="exa -a --grid --icons --group-directories-first --classify"
+alias lsa="exa -la --icons --git --group-directories-first --classify"
+alias tree="exa -a --icons --tree --group-directories-first --classify"
 alias cat="bat"
 alias vim="nvim"
 alias dc="cd"
@@ -19,12 +20,14 @@ alias c="clear"
 alias pimportsort="pub run import_sorter:main"
 alias fimportsort="flutter pub run import_sorter:main"
 alias t="touch"
+alias finfo="exa --long --extended "
 
 # git
 alias gst="git status"
 alias gpu="git pull"
 alias gp="git push"
 alias gm="gitmoji --commit"
+alias gma="git add . && gitmoji --commit"
 alias gmp="gitmoji --commit && git push"
 alias gl="git log"
 

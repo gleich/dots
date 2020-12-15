@@ -6,14 +6,21 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
+tap "orf/brew"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
+# Automatic configure script builder
+brew "autoconf"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Configurable talking characters in ASCII art
+brew "cowsay"
 # AST-based pattern checker for JavaScript
 brew "eslint"
 # Modern replacement for 'ls'
@@ -32,22 +39,40 @@ brew "gnupg"
 brew "go"
 # Fast linters runner for Go
 brew "golangci-lint"
+# Development kit for the Java programming language
+brew "openjdk"
+# Reformats Java source code to comply with Google Java Style
+brew "google-java-format"
+# Language server for the Go language
+brew "gopls"
+# Deliver Go binaries as fast and easily as possible
+brew "goreleaser"
+# Version Control Visualization Tool
+brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Improved top (interactive process viewer)
+brew "htop"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Rainbows and unicorns in your console!
+brew "lolcat"
+# Powerful, lightweight programming language
+brew "lua"
 # Mac App Store command-line interface
 brew "mas"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Development kit for the Java programming language
-brew "openjdk"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Show ps output as a tree
+brew "pstree"
 # File browser
 brew "ranger"
 # Rust toolchain installer
@@ -58,6 +83,8 @@ brew "shfmt"
 brew "thefuck"
 # Terminal multiplexer
 brew "tmux"
+# Digital clock in ncurses
+brew "tty-clock"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Vim script Language Lint
@@ -72,7 +99,11 @@ brew "yarn"
 brew "matt-gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
 brew "matt-gleich/taps/nuke"
+# Ping, but with a graph.
+brew "orf/brew/gping"
 cask "alfred"
+cask "amethyst"
+cask "android-studio"
 cask "discord"
 cask "docker"
 cask "drawio"
@@ -90,6 +121,7 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 cask "font-sf-pro"
 cask "gitify"
+cask "google-backup-and-sync"
 cask "grammarly"
 cask "kitty"
 cask "logitech-options"
