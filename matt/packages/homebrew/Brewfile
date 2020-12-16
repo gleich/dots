@@ -91,6 +91,8 @@ brew "vim"
 brew "vint"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
