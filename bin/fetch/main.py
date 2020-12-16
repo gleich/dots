@@ -86,7 +86,7 @@ def ensure_correct_path():
     """Ensure that this program is running from the correct location"""
     logger.info("Verifying path")
     cwd = os.getcwd()
-    correct_path = f"/Users/{USR_NAME}/Desktop/Matt-Gleich/public/shell/dots/bin/fetch"
+    correct_path = f"/Users/{USR_NAME}/github/Matt-Gleich/public/shell/dots/bin/fetch"
     if cwd != correct_path:
         logger.error(f"Please run from {correct_path}")
     logger.success("Correct path")
