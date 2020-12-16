@@ -52,6 +52,7 @@ def main():
             "fgh/config.yaml",
             "gh/config.yml",
             "coc/extensions/package.json",
+            "StardewValley/startup_preferences",
         ],
     )
 
