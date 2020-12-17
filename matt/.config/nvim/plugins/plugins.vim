@@ -50,6 +50,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'pangloss/vim-javascript'
         " Improved syntax highlighting
             Plug 'sheerun/vim-polyglot'
+        " LaTeX concealment
+            Plug   'KeitaNakamura/tex-conceal.vim', {'for': 'tex'}
 
     """"""""""
     " Themes "

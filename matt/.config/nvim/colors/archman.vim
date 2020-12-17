@@ -116,6 +116,7 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi TabLineFill  guifg=#333333 guibg=NONE gui=none
 hi TabLine      guifg=#666666 guibg=NONE gui=none
 hi TabLineSel   guifg=WHITE guibg=NONE gui=none
+hi Conceal guifg=WHITE guibg=NONE
 
 " Elixir {{{
 hi elixirAtom ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=italic"

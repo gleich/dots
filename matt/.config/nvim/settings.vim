@@ -20,12 +20,13 @@ set shiftwidth=4
 set autoindent
 
 " Theme
-let g:gruvbox_italics = 1                    " Turning on italics
-colorscheme moonlight                        " Setting theme
-set background=dark                          " Background color
-hi Normal guibg=NONE ctermbg=NONE            " Transparent background
-hi LineNr guibg=NONE ctermbg=NONE            " Transparent line number background
-hi SignColumn guibg=NONE ctermbg=NONE        " Transparent gutter
+let g:gruvbox_italics = 1                                    " Turning on italics
+colorscheme moonlight                                        " Setting theme
+set background=dark                                          " Background color
+hi Normal guibg=NONE ctermbg=NONE                            " Transparent background
+hi LineNr guibg=NONE ctermbg=NONE                            " Transparent line number background
+hi SignColumn guibg=NONE ctermbg=NONE                        " Transparent gutter
+hi Conceal ctermfg=109 guifg=#83a598 ctermbg=NONE guibg=NONE " Clear background for conceal
 
 " Key mapping
 nmap <leader>gd <Plug>(coc-definition)

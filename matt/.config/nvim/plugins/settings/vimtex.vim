@@ -1,1 +1,1 @@
-let g:tex_flavor = 'pdflatex'
+let g:tex_flavor = 'latex'
