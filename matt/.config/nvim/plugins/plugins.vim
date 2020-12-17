@@ -48,6 +48,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'jiangmiao/auto-pairs'
         " Improved JavaScript support
             Plug 'pangloss/vim-javascript'
+        " Improved syntax highlighting
+            Plug 'sheerun/vim-polyglot'
 
     """"""""""
     " Themes "
@@ -65,7 +67,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'ryanoasis/vim-devicons'
         " Themes for vim-airline
             Plug 'vim-airline/vim-airline-themes'
-
+        " hyper theme
+            Plug 'jdsimcoe/hyper.vim'
+        " moonlight theme
+            Plug 'lewis6991/moonlight.vim'
 
     """""""""""
     " Retired "
