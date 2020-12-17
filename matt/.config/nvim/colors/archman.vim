@@ -11,11 +11,11 @@
 set background=dark
 highlight clear
 
-if exists("syntax_on")
+if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = "archman"
+let g:colors_name = 'archman'
 
 hi Cursor ctermfg=24 ctermbg=231 cterm=NONE guifg=#7F4EFE guibg=#ffffff gui=NONE
 hi Visual ctermfg=NONE ctermbg=241 cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -144,5 +144,5 @@ hi vimHiGuiFgBg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE
 "      TERM=xterm-256color
 "      export $TERM
 
-execute "set background=dark"
+execute 'set background=dark'
 "-------------------
