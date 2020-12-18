@@ -19,6 +19,8 @@ brew "bat"
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Console Matrix
+brew "cmatrix"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Configurable talking characters in ASCII art
@@ -118,6 +120,7 @@ cask "flutter"
 cask "font-3270"
 cask "font-computer-modern"
 cask "font-fira-code"
+cask "font-gnu-unifont"
 cask "font-hack-nerd-font"
 cask "font-iosevka"
 cask "font-iosevka-slab"
