@@ -37,6 +37,8 @@ brew "gh"
 brew "git"
 # Emoji guide for your commit messages
 brew "gitmoji"
+# Render markdown on the CLI
+brew "glow"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -107,6 +109,7 @@ brew "matt-gleich/taps/fgh"
 brew "matt-gleich/taps/nuke"
 # Ping, but with a graph.
 brew "orf/brew/gping"
+brew "zegervdv/zathura/zathura"
 cask "alfred"
 cask "amethyst"
 cask "android-studio"

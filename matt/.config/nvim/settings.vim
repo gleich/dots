@@ -27,7 +27,3 @@ hi Normal guibg=NONE ctermbg=NONE                            " Transparent backg
 hi LineNr guibg=NONE ctermbg=NONE                            " Transparent line number background
 hi SignColumn guibg=NONE ctermbg=NONE                        " Transparent gutter
 hi Conceal ctermfg=109 guifg=#83a598 ctermbg=NONE guibg=NONE " Clear background for conceal
-
-" Key mapping
-nmap <leader>gd <Plug>(coc-definition)
-nmap <leader>gr <Plug>(coc-references)
