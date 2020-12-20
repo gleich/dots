@@ -26,3 +26,6 @@ source ~/.config/zsh/functions.zsh
 source ~/.p10k.zsh
 source $HOME/.cargo/env
 
+echo "Welcome back $(whoami)"
+echo "Current time is $(date)"
+echo "Have a good session!"
