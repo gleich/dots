@@ -73,6 +73,8 @@ brew "mas"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Pretty system information tool written in POSIX sh
+brew "pfetch"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Python package management tool
