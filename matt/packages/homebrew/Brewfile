@@ -59,6 +59,8 @@ brew "gource"
 brew "hadolint"
 # Improved top (interactive process viewer)
 brew "htop"
+# LastPass command-line interface tool
+brew "lastpass-cli"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Rainbows and unicorns in your console!
@@ -103,6 +105,8 @@ brew "watch"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# 🎄 A Christmas tree right from your terminal!
+brew "matt-gleich/taps/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
 brew "matt-gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
@@ -140,6 +144,7 @@ cask "mactex"
 cask "opera"
 cask "postman"
 cask "rectangle"
+cask "sf-symbols"
 cask "slack"
 cask "steam"
 cask "visual-studio-code"

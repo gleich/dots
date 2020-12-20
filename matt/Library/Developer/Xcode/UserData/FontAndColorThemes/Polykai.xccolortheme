@@ -21,7 +21,7 @@
 	<key>DVTConsoleExectuableOutputTextColor</key>
 	<string>0.972549 0.972549 0.972549 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>SMono-Bold - 18.0</string>
+	<string>FiraCode-Bold - 17.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.117647 0.141176 0.141176 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
@@ -43,33 +43,33 @@
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
-	<string>.SFNS-RegularItalic - 20.0</string>
+	<string>.SFNS-RegularItalic - 16.0</string>
 	<key>DVTMarkupTextInlineCodeColor</key>
 	<string>1 1 1 0.7</string>
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.33 0.247124 0.894195 1</string>
 	<key>DVTMarkupTextLinkFont</key>
-	<string>.SFNS-Regular - 20.0</string>
+	<string>.SFNS-Regular - 16.0</string>
 	<key>DVTMarkupTextNormalColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextNormalFont</key>
-	<string>.SFNS-Regular - 20.0</string>
+	<string>.SFNS-Regular - 16.0</string>
 	<key>DVTMarkupTextOtherHeadingColor</key>
 	<string>1 1 1 0.5</string>
 	<key>DVTMarkupTextOtherHeadingFont</key>
-	<string>.SFNS-Regular - 28.0</string>
+	<string>.SFNS-Regular - 22.4</string>
 	<key>DVTMarkupTextPrimaryHeadingColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextPrimaryHeadingFont</key>
-	<string>.SFNS-Regular - 48.0</string>
+	<string>.SFNS-Regular - 38.4</string>
 	<key>DVTMarkupTextSecondaryHeadingColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextSecondaryHeadingFont</key>
-	<string>.SFNS-Regular - 36.0</string>
+	<string>.SFNS-Regular - 28.8</string>
 	<key>DVTMarkupTextStrongColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextStrongFont</key>
-	<string>.SFNS-Bold - 20.0</string>
+	<string>.SFNS-Bold - 16.0</string>
 	<key>DVTScrollbarMarkerAnalyzerColor</key>
 	<string>0.403922 0.372549 1 1</string>
 	<key>DVTScrollbarMarkerBreakpointColor</key>
@@ -156,59 +156,59 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.character</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.declaration.other</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.declaration.type</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.mark</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.markup.code</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.number</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.string</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 		<key>xcode.syntax.url</key>
-		<string>FiraCode-Retina - 17.0</string>
+		<string>Unifont-JPMedium - 18.0</string>
 	</dict>
 </dict>
-</plist>F
+</plist>
