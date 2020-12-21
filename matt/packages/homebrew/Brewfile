@@ -90,6 +90,8 @@ brew "ranger"
 brew "rustup-init"
 # Autoformat shell script source code
 brew "shfmt"
+# Formatting tool for reformatting Swift code
+brew "swiftformat"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Terminal multiplexer
@@ -182,4 +184,5 @@ mas "Telegram", id: 747648890
 mas "Termius", id: 1176074088
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
+mas "XCFormat", id: 1165321484
 mas "Xcode", id: 497799835
