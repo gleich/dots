@@ -5,6 +5,7 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "k-vernooy/tap"
 tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
 tap "orf/brew"
@@ -107,6 +108,8 @@ brew "watch"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# My rendition of the classic tetris.
+brew "k-vernooy/tap/tetris"
 # 🎄 A Christmas tree right from your terminal!
 brew "matt-gleich/taps/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
@@ -119,6 +122,7 @@ brew "zegervdv/zathura/zathura"
 cask "alfred"
 cask "amethyst"
 cask "android-studio"
+cask "bartender"
 cask "cheatsheet"
 cask "discord"
 cask "docker"
@@ -129,6 +133,7 @@ cask "flutter"
 cask "font-3270"
 cask "font-computer-modern"
 cask "font-fira-code"
+cask "font-fira-code-nerd-font"
 cask "font-gnu-unifont"
 cask "font-hack-nerd-font"
 cask "font-iosevka"
@@ -138,6 +143,7 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 cask "font-sf-pro"
 cask "gitify"
+cask "gitkraken"
 cask "google-backup-and-sync"
 cask "grammarly"
 cask "kitty"
@@ -153,10 +159,12 @@ cask "visual-studio-code"
 cask "vlc"
 cask "zoom"
 cask "zwift"
+mas "Asset Catalog Creator Pro", id: 809625456
 mas "ColorSlurp", id: 1287239339
 mas "Dark Reader for Safari", id: 1438243180
 mas "DevCleaner", id: 1388020431
 mas "Developer", id: 640199958
+mas "Encrypto", id: 935235287
 mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
 mas "GoodNotes", id: 1444383602
@@ -172,5 +180,6 @@ mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Telegram", id: 747648890
 mas "Termius", id: 1176074088
+mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "Xcode", id: 497799835
