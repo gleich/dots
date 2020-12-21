@@ -10,3 +10,7 @@
 *.json linguist-documentation=false
 *.toml linguist-detectable=true
 *.toml linguist-documentation=false
+*.py linguist-detectable=false
+*.py linguist-documentation=false
+*.pyc linguist-detectable=false
+*.pyc linguist-detectable=false
