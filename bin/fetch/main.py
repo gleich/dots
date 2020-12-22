@@ -79,6 +79,7 @@ def main():
         ],
     )
     shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))
+    write_to_readme()
     push_changes()
 
 
@@ -154,6 +155,24 @@ def push_changes():
     os.system('git commit -m "🔧 Update to latest"')
     os.system("git push")
     logger.success("Pushed the latest changes!")
+
+
+def write_to_readme():
+    """Write to README.md"""
+    logger.info("Generating README")
+    neofetch_output = os.popen("neofetch --stdout").read()
+    with open("README.md", "w") as readme:
+        readme.write(
+            f"""
+# dots
+
+![format](https://github.com/Matt-Gleich/dots/workflows/format/badge.svg)
+
+```txt
+{neofetch_output}```
+"""
+        )
+    logger.success("Wrote to README")
 
 
 if __name__ == "__main__":

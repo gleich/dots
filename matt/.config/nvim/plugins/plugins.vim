@@ -10,14 +10,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'kamykn/spelunker.vim'
         " Grammar checker
             Plug 'dpelle/vim-LanguageTool'
-        " Improved writing for vim
-            Plug 'reedes/vim-pencil'
-        " Show git changes in the gutter
-            Plug 'airblade/vim-gitgutter'
-        " Quoting/Parenthesizing made simple
-            Plug 'tpope/vim-surround'
-        " Tree explorer
-            Plug 'scrooloose/nerdtree'
         " Snippets
             Plug 'SirVer/ultisnips'
             Plug 'honza/vim-snippets'
@@ -25,12 +17,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
             Plug 'junegunn/fzf.vim'
 
-    """"""""""""""
-    " Formatting "
-    """"""""""""""
+    """""""
+    " Git "
+    """""""
 
-        " Color display for CSS RGB or regular hex values
-            Plug 'gko/vim-coloresque'
+        " Run git commands
+            Plug 'tpope/vim-fugitive'
+        " Show git changes
+            Plug 'mhinz/vim-signify'
 
     """"""""""""""""""""
     " Language Support "

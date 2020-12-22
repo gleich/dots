@@ -1,26 +1,20 @@
-<!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich", "ImgBotApp", "whitesource-bolt-for-github[bot]"]:end -->
 
 # dots
 
 ![format](https://github.com/Matt-Gleich/dots/workflows/format/badge.svg)
 
-- OS: macOS Big Sur
-- Terminal: kitty
-- WM: Rectangle
-- Main Editors:
-  - neovim
-  - Visual Studio Code
-  - Xcode
-- Shell: zsh
+```txt
+matt@gleich.lan 
+--------------- 
+OS: macOS 11.1 x86_64 
+Host: MacBookPro16,1 
+Kernel: Darwin 20.2.0 
+Packages: 166 (brew) 
+Shell: zsh 5.8 
+DE: Aqua 
+WM: Rectangle 
+Terminal: kitty 
+Terminal Font: Unifont Regular 20.0 
+GPU Driver: macOS Default Graphics Driver 
 
-<!-- DO NOT REMOVE - contributor_list:start -->
-## 👥 Contributors
-
-
-- **[@Matt-Gleich](https://github.com/Matt-Gleich)**
-
-- **[@ImgBotApp](https://github.com/ImgBotApp)**
-
-- **[@whitesource-bolt-for-github[bot]](https://github.com/apps/whitesource-bolt-for-github)**
-
-<!-- DO NOT REMOVE - contributor_list:end -->
+```
