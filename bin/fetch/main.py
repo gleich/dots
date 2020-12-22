@@ -160,7 +160,7 @@ def push_changes():
 def write_to_readme():
     """Write to README.md"""
     logger.info("Generating README")
-    neofetch_output = os.popen("neofetch --stdout").read()
+    neofetch_output = os.popen("neofetch --stdout").read().strip("\n")
     with open("README.md", "w") as readme:
         readme.write(
             f"""
@@ -169,7 +169,8 @@ def write_to_readme():
 ![format](https://github.com/Matt-Gleich/dots/workflows/format/badge.svg)
 
 ```txt
-{neofetch_output}```
+{neofetch_output}
+```
 """
         )
     logger.success("Wrote to README")

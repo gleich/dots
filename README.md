@@ -16,5 +16,4 @@ WM: Rectangle
 Terminal: kitty 
 Terminal Font: Unifont Regular 20.0 
 GPU Driver: macOS Default Graphics Driver 
-
 ```
