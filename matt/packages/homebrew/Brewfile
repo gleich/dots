@@ -151,6 +151,7 @@ cask "grammarly"
 cask "kitty"
 cask "logitech-options"
 cask "mactex"
+cask "ngrok"
 cask "opera"
 cask "postman"
 cask "qutebrowser"
@@ -162,6 +163,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "zoom"
 cask "zwift"
+mas "1Focus", id: 969210610
 mas "Asset Catalog Creator Pro", id: 809625456
 mas "ColorSlurp", id: 1287239339
 mas "Dark Reader for Safari", id: 1438243180
