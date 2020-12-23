@@ -121,6 +121,7 @@ brew "matt-gleich/taps/nuke"
 # Ping, but with a graph.
 brew "orf/brew/gping"
 brew "zegervdv/zathura/zathura"
+brew "zegervdv/zathura/zathura-pdf-poppler"
 cask "alfred"
 cask "amethyst"
 cask "android-studio"
