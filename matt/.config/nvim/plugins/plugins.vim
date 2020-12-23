@@ -16,6 +16,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " fzf for vim
             Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
             Plug 'junegunn/fzf.vim'
+        " Floating Termial
+            Plug 'voldikss/vim-floaterm'
 
     """""""
     " Git "

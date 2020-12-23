@@ -60,6 +60,8 @@ brew "gource"
 brew "hadolint"
 # Improved top (interactive process viewer)
 brew "htop"
+# Style and grammar checker
+brew "languagetool"
 # LastPass command-line interface tool
 brew "lastpass-cli"
 # Simple terminal UI for git commands
