@@ -43,6 +43,7 @@ def main():
             "texsch",
             "zsh",
             "kitty",
+            "zathura",
         ],
     )
     copy_files(
