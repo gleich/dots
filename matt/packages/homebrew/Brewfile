@@ -124,6 +124,7 @@ brew "matt-gleich/taps/nuke"
 brew "orf/brew/gping"
 brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
+cask "adobe-creative-cloud"
 cask "alfred"
 cask "amethyst"
 cask "android-studio"
@@ -167,7 +168,9 @@ cask "vlc"
 cask "zoom"
 cask "zwift"
 mas "1Focus", id: 969210610
+mas "2048 Game", id: 871033113
 mas "Asset Catalog Creator Pro", id: 809625456
+mas "Boop", id: 1518425043
 mas "ColorSlurp", id: 1287239339
 mas "Dark Reader for Safari", id: 1438243180
 mas "DevCleaner", id: 1388020431
@@ -177,13 +180,17 @@ mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
 mas "GoodNotes", id: 1444383602
 mas "HEIC Converter", id: 1294126402
+mas "Interval", id: 973220423
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
 mas "LastPass", id: 926036361
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
+mas "Octagon", id: 691956219
 mas "Pages", id: 409201541
+mas "Playgrounds", id: 1496833156
 mas "Poolside FM", id: 1514817810
+mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Telegram", id: 747648890
