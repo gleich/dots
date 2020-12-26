@@ -62,6 +62,7 @@ def main():
         [
             "Library/Developer/Xcode/UserData/KeyBindings",
             "Library/Developer/Xcode/UserData/FontAndColorThemes",
+            "Library/Developer/Xcode/UserData/CodeSnippets",
             "Library/Preferences/gitmoji-nodejs",
         ],
     )
