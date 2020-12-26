@@ -78,6 +78,7 @@ def main():
             "Library/Application Support/eDEX-UI/settings.json",
             "Library/Application Support/Code/User/keybindings.json",
             "Library/Application Support/Code/User/settings.json",
+            ".gnupg/gpg-agent.conf",
         ],
     )
     shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))

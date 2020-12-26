@@ -1,8 +1,10 @@
 [user]
-	signingkey = 11AA2426498FF843
 	name = Matthew Gleich
 	email = email@mattglei.ch
+	signingkey = 11AA2426498FF843
 [gpg]
-	program = /usr/local/bin/gpg
+	program = gpg
 [commit]
 	gpgsign = true
+[tag]
+	forceSignAnnotated = true
