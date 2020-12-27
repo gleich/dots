@@ -94,6 +94,8 @@ brew "rustup-init"
 brew "shfmt"
 # Formatting tool for reformatting Swift code
 brew "swiftformat"
+# Tool to enforce Swift style and conventions
+brew "swiftlint"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Terminal multiplexer
@@ -135,6 +137,7 @@ cask "discord"
 cask "docker"
 cask "drawio"
 cask "edex-ui"
+cask "figma"
 cask "firefox-developer-edition"
 cask "flutter"
 cask "font-3270"
