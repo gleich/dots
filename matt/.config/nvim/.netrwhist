@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/matt/github/Magnesium-Software/public/markdown/shared'
 let g:netrw_dirhist_6='/Users/mattgleich/Desktop'
 let g:netrw_dirhist_5='/Users/mattgleich/github/Matt-Gleich/public/go/texsch/pkg/commands/auto_build'
 let g:netrw_dirhist_4='/Users/mattgleich/.config/nvim/plugins/settings'
