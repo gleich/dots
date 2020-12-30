@@ -28,7 +28,7 @@ alias gst="git status"
 alias gpu="git pull"
 alias gp="git push"
 alias gm="gitmoji --commit"
-alias gma="git add . && gitmoji --commit"
+alias gma="git add . && git status && gitmoji --commit"
 alias gmp="gitmoji --commit && git push"
 alias gl="git log"
 
