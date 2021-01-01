@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/matt/github/Matt-Gleich/public/go/cihat/docker'
+let g:netrw_dirhist_8='/Users/matt/github/Matt-Gleich/public/go/gh_fsync/pkg'
 let g:netrw_dirhist_7='/Users/matt/github/Magnesium-Software/public/markdown/shared'
 let g:netrw_dirhist_6='/Users/mattgleich/Desktop'
 let g:netrw_dirhist_5='/Users/mattgleich/github/Matt-Gleich/public/go/texsch/pkg/commands/auto_build'
