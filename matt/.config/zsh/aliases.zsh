@@ -21,6 +21,7 @@ alias c="clear"
 alias pimportsort="pub run import_sorter:main"
 alias fimportsort="flutter pub run import_sorter:main"
 alias t="touch"
+alias md="mkdir"
 alias finfo="exa --long --extended "
 
 # git
@@ -29,7 +30,6 @@ alias gpu="git pull"
 alias gp="git push"
 alias gm="gitmoji --commit"
 alias gma="git add . && git status && gitmoji --commit"
-alias gmp="gitmoji --commit && git push"
 alias gl="git log"
 
 eval $(thefuck --alias)
