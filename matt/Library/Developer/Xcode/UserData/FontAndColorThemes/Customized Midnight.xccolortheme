@@ -156,59 +156,59 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.character</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.declaration.other</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.declaration.type</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCodeiScript-Italic - 16.0</string>
 		<key>xcode.syntax.mark</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.markup.code</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.number</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.string</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 		<key>xcode.syntax.url</key>
-		<string>FiraCodeNerdFontCompleteM-Regular - 15.0</string>
+		<string>FiraCode-Regular - 16.0</string>
 	</dict>
 </dict>
 </plist>
