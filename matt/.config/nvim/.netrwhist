@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/matt/github/Matt-Gleich/public/go/fgh/pkg'
 let g:netrw_dirhist_1='/Users/matt/github/Matt-Gleich/public/go/fgh/pkg/commands/remove'
 let g:netrw_dirhist_0='/Users/matt/github/Matt-Gleich/public/go/fgh/pkg/commands/visualize'
 let g:netrw_dirhist_9='/Users/matt/github/Matt-Gleich/public/go/cihat/docker'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/Users/mattgleich/Desktop'
 let g:netrw_dirhist_5='/Users/mattgleich/github/Matt-Gleich/public/go/texsch/pkg/commands/auto_build'
 let g:netrw_dirhist_4='/Users/mattgleich/.config/nvim/plugins/settings'
 let g:netrw_dirhist_3='/Users/mattgleich/github/Matt-Gleich/public/markdown/Matt-Gleich/standard_documents/licenses'
-let g:netrw_dirhist_2='/Users/mattgleich/github/Matt-Gleich/public/go/fgh/pkg/commands/remove'
