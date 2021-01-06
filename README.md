@@ -14,6 +14,6 @@ Shell: zsh 5.8
 DE: Aqua 
 WM: Rectangle 
 Terminal: kitty 
-Terminal Font: Iosevka Light 18.0 
+Terminal Font: Fira Code 18.0 
 GPU Driver: macOS Default Graphics Driver 
 ```
