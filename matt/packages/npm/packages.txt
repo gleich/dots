@@ -1,3 +1,4 @@
 /usr/local/lib
+├── @jaebradley/wakatime-cli@1.4.9
 └── npm@7.3.0
 

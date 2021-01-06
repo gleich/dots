@@ -158,13 +158,13 @@ cask "gitify"
 cask "google-backup-and-sync"
 cask "grammarly"
 cask "kitty"
+cask "lastpass"
 cask "logitech-options"
 cask "mactex"
 cask "minecraft"
 cask "ngrok"
 cask "opera"
 cask "postman"
-cask "qutebrowser"
 cask "rectangle"
 cask "sf-symbols"
 cask "slack"
@@ -175,6 +175,7 @@ cask "zoom"
 cask "zwift"
 mas "1Focus", id: 969210610
 mas "2048 Game", id: 871033113
+mas "AdBlock Pro", id: 1018301773
 mas "Asset Catalog Creator Pro", id: 809625456
 mas "Boop", id: 1518425043
 mas "ColorSlurp", id: 1287239339
@@ -190,7 +191,6 @@ mas "iMovie", id: 408981434
 mas "Interval", id: 973220423
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
-mas "LastPass", id: 926036361
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Octagon", id: 691956219
