@@ -85,7 +85,7 @@ def main():
     )
     shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))
     os.system(
-        "xmllint --format matt/.config/StardewValley/startup_preferences >> matt/.config/StardewValley/startup_preferences"
+        "xmllint --format matt/.config/StardewValley/startup_preferences > matt/.config/StardewValley/startup_preferences"
     )
     write_to_readme()
     push_changes()
