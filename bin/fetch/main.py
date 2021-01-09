@@ -44,6 +44,7 @@ def main():
             "zsh",
             "kitty",
             "zathura",
+            "raycast",
         ],
     )
     copy_files(
