@@ -64,3 +64,31 @@ endsnippet
 snippet lp "Full parentheses"
 \left($1\right)
 endsnippet
+
+snippet / "Fraction"
+\frac{$1}{}
+endsnippet
+
+snippet ttab "Term Table"
+\begin{center}
+    \begin{tabular}{| c | c |}
+	\hline
+	\textbf{Term} && \textbf{Definition} \\\\ \hline \hline
+	$1 &  \\\\ \hline
+    \end{tabular}
+\end{center}
+endsnippet
+
+snippet vtab "Term Table"
+\begin{center}
+    \begin{tabular}{| c | c |}
+	\hline
+	\textbf{Variable} && \textbf{Definition} \\\\ \hline \hline
+	$ $1 $ &  \\\\ \hline
+    \end{tabular}
+\end{center}
+endsnippet
+
+snippet re "Row end"
+\\\\ \hline$1
+endsnippet

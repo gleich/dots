@@ -323,6 +323,6 @@
       ]
     },
     "vim.enableNeovim": true,
-    "latex-workshop.latex.autoBuild.run": "never"
+    "latex-workshop.latex.autoBuild.run": "onSave"
   }
   
