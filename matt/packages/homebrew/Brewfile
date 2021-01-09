@@ -102,6 +102,8 @@ brew "swiftlint"
 brew "thefuck"
 # Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
 # Vi 'workalike' with many additional features
@@ -165,7 +167,6 @@ cask "minecraft"
 cask "ngrok"
 cask "opera"
 cask "postman"
-cask "raycast"
 cask "rectangle"
 cask "sf-symbols"
 cask "slack"
