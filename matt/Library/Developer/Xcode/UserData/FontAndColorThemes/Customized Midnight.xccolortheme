@@ -103,11 +103,11 @@
 		<key>xcode.syntax.character</key>
 		<string>0.469 0.426 1 1</string>
 		<key>xcode.syntax.comment</key>
-		<string>0.255 0.801 0.27 1</string>
+		<string>0.103454 0.114383 0.104194 1</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>0.255 0.801 0.27 1</string>
+		<string>0.103454 0.114383 0.104194 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>0.255 0.801 0.27 1</string>
+		<string>0.103454 0.114383 0.104194 1</string>
 		<key>xcode.syntax.declaration.other</key>
 		<string>0.254902 0.631373 0.752941 1</string>
 		<key>xcode.syntax.declaration.type</key>
