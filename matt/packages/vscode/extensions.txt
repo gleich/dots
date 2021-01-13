@@ -30,6 +30,7 @@ golang.go
 GulajavaMinistudio.mayukaithemevsc
 hediet.vscode-drawio
 icrawl.discord-vscode
+idleberg.applescript
 ipedrazas.kubernetes-snippets
 James-Yu.latex-workshop
 jasontheiler.kelp-forest-theme-vscode
@@ -83,7 +84,6 @@ vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
 vscode-icons-team.vscode-icons
-vscodevim.vim
 Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
 windmilleng.vscode-go-autotest
