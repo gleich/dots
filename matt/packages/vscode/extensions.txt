@@ -38,7 +38,6 @@ JeffersonQin.latex-snippets-jeff
 jeroen-meijer.pubspec-assist
 jolaleye.horizon-theme-vscode
 KevinRose.vsc-python-indent
-kiteco.kite
 leveluptutorials.theme-levelup
 markfknight.monokai-operator-theme
 MartinLaRegina.clear-view-indent
@@ -84,6 +83,7 @@ vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
 vscode-icons-team.vscode-icons
+vscodevim.vim
 Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
 windmilleng.vscode-go-autotest
