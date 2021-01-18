@@ -13,7 +13,7 @@ Packages: 178 (brew)
 Shell: zsh 5.8 
 DE: Aqua 
 WM: Rectangle 
-Terminal: kitty 
-Terminal Font: Fira Code 18.0 
+Terminal: iTerm2 
+Terminal Font: Iosevka-Light 19 (normal) / FiraCodeNerdFontCompleteM-Regular 21 (non-ascii) 
 GPU Driver: macOS Default Graphics Driver 
 ```

@@ -49,6 +49,7 @@
       "Printf",
       "Println",
       "RGBO",
+      "Raycast",
       "Roboto",
       "Rubba",
       "Stateful",
