@@ -1,0 +1,65 @@
+{
+  "Subsection": {
+    "prefix": ["ss"],
+    "body": ["\\subsection{$1}"],
+    "description": "Subsection"
+  },
+  "Subsubsection": {
+    "prefix": ["sss"],
+    "body": ["\\subsubsection{$1}"],
+    "description": "Subsubsection"
+  },
+  "Center": {
+    "prefix": ["ce"],
+    "body": ["\\begin{center}\n    \\item $1 \n\\end{center}"],
+    "description": "Center environment"
+  },
+  "Center Math": {
+    "prefix": ["cm"],
+    "body": ["\\[ $1 \\]"],
+    "description": "Center Math"
+  },
+  "Enumeration with capital letters": {
+    "prefix": ["enumA"],
+    "body": [
+      "\\begin{enumerate}[label=\\Alph*.]\n    \\item $1 \n\\end{enumerate}"
+    ],
+    "description": "Enumeration with capital letters"
+  },
+  "Enumeration with lowercase letters": {
+    "prefix": ["enuma"],
+    "body": [
+      "\\begin{enumerate}[label=\\alph*.]\n    \\item $1 \n\\end{enumerate}"
+    ],
+    "description": "Enumeration with lowercase letters"
+  },
+  "Itemize with no bullets": {
+    "prefix": ["itemn"],
+    "body": ["\\begin{itemize}[label=]\n    \\item $1 \n\\end{itemize}"],
+    "description": "Itemize with no bullets"
+  },
+  "Full set of parentheses": {
+    "prefix": ["le"],
+    "body": ["\\left($1\\right)"],
+    "description": "Full set of parentheses"
+  },
+  "Term Table": {
+    "prefix": ["ttab"],
+    "body": [
+      "\\begin{center}\n    \\begin{tabular}{| c | c |}\n        \\hline\n        \\textbf{Term} & \\textbf{Definition} \\\\\\ \\hline \\hline\n        $1 & $2 \\\\\\ \\hline$3\n    \\end{tabular}\n\\end{center}"
+    ],
+    "description": "Term Table"
+  },
+  "Variable Table": {
+    "prefix": ["vtab"],
+    "body": [
+      "\\begin{center}\n    \\begin{tabular}{| c | c |}\n        \\hline\n        \\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n        $1 & $2 \\\\\\ \\hline$3\n    \\end{tabular}\n\\end{center}"
+    ],
+    "description": "Variable Table"
+  },
+  "Row": {
+    "prefix": ["re"],
+    "body": ["$1 & $2 \\\\\\ \\hline$3"],
+    "description": "Row"
+  }
+}
