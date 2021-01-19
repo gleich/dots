@@ -61,5 +61,10 @@
     "prefix": ["re"],
     "body": ["$1 & $2 \\\\\\ \\hline$3"],
     "description": "Row"
+  },
+  "Inline Math": {
+    "prefix": ["ie"],
+    "body": ["$ $1 $"],
+    "description": "Inline Math"
   }
 }

@@ -38,6 +38,7 @@ jdinhlife.gruvbox
 JeffersonQin.latex-snippets-jeff
 jeroen-meijer.pubspec-assist
 jolaleye.horizon-theme-vscode
+Kasik96.swift
 KevinRose.vsc-python-indent
 leveluptutorials.theme-levelup
 markfknight.monokai-operator-theme
