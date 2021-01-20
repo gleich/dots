@@ -108,6 +108,8 @@ brew "tmux"
 brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
+# HTTP load testing tool and library
+brew "vegeta"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Vim script Language Lint
