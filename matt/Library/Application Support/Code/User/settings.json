@@ -274,7 +274,7 @@
     "zenMode.centerLayout": false,
     "markdown.extension.toc.levels": "1..4",
     "jupyter.sendSelectionToInteractiveWindow": false,
-    "workbench.colorTheme": "Hypersubatomic",
+    "workbench.colorTheme": "Monokai Aora",
     "[rust]": {
       "editor.defaultFormatter": "rust-lang.rust"
     },

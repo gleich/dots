@@ -1,5 +1,6 @@
 /usr/local/lib
 ├── @jaebradley/wakatime-cli@1.4.9
+├── caprover@2.1.1
 ├── emoj@3.1.0
 └── npm@7.4.0
 

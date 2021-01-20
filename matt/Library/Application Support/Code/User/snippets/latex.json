@@ -66,5 +66,15 @@
     "prefix": ["ie"],
     "body": ["$ $1 $"],
     "description": "Inline Math"
+  },
+  "Mathmatical Solution": {
+    "prefix": ["sol"],
+    "body": ["\\begin{center}\n    \\item \\textit{Sol.}\n\\end{center}"],
+    "description": "Mathmatical Solution"
+  },
+  "Question": {
+    "prefix": ["qe"],
+    "body": ["\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        "],
+    "description": "Question"
   }
 }
