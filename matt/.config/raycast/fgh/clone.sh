@@ -9,7 +9,7 @@
 # @raycast.packageName fgh
 #
 # Optional parameters:
-# @raycast.icon ⬇️
+# @raycast.icon ./images/logo.png
 # @raycast.currentDirectoryPath ~/.config/
 # @raycast.needsConfirmation false
 #
