@@ -32,6 +32,8 @@ brew "cowsay"
 brew "eslint"
 # Modern replacement for 'ls'
 brew "exa"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool

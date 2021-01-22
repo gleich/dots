@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "coc-css": ">=1.2.6",
+    "coc-emoji": ">=1.2.3",
     "coc-flutter": ">=1.7.1",
     "coc-go": ">=0.12.1",
     "coc-java": ">=1.5.3",

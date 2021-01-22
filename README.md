@@ -9,11 +9,11 @@ matt@gleich.lan
 OS: macOS 11.1 x86_64 
 Host: MacBookPro16,1 
 Kernel: Darwin 20.2.0 
-Packages: 179 (brew) 
+Packages: 180 (brew) 
 Shell: zsh 5.8 
 DE: Aqua 
 WM: Rectangle 
-Terminal: kitty 
-Terminal Font: Fira Code 18.0 
+Terminal: iTerm2 
+Terminal Font: Iosevka-Light 19 (normal) / FiraCodeNerdFontCompleteM-Regular 21 (non-ascii) 
 GPU Driver: macOS Default Graphics Driver 
 ```

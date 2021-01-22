@@ -13,7 +13,6 @@ antigen theme romkatv/powerlevel10k
 
 antigen use oh-my-zsh
 
-antigen bundle wbingli/zsh-wakatime
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 

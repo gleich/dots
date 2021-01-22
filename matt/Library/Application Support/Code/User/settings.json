@@ -270,8 +270,10 @@
     "editor.glyphMargin": false,
     "editor.renderLineHighlight": "gutter",
     "editor.folding": false,
-    "grammarly.userWords": ["fgh", "repos"],
-    "zenMode.centerLayout": false,
+    "grammarly.userWords": [
+      "fgh",
+      "repos"
+    ],
     "markdown.extension.toc.levels": "1..4",
     "jupyter.sendSelectionToInteractiveWindow": false,
     "workbench.colorTheme": "Monokai Aora",

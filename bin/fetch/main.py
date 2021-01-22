@@ -42,6 +42,8 @@ def main():
             "nvim",
             "texsch",
             "zsh",
+            "fish",
+            "omf",
             "kitty",
             "zathura",
             "raycast",
