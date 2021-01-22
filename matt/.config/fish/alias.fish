@@ -13,6 +13,7 @@ alias sl="ls"
 alias rick="curl -s -L http://bit.ly/10hA8iC | bash"
 alias cpwd="pwd | pbcopy"
 alias weather="curl wttr.in"
+alias sch="fcd Junior-Year"
 
 alias clock="tty-clock -tSbBc"
 alias ra="ranger"
@@ -31,3 +32,8 @@ alias gp="git push"
 alias gm="gitmoji --commit"
 alias gma="git add . && git status && gitmoji --commit"
 alias gl="git log"
+
+# Docker
+alias dcup="docker-compose up"
+alias dcdn="docker-compose down"
+alias dsprune="docker system prune -a"

@@ -9,8 +9,6 @@ let g:ale_rust_rls_toolchain = ''
 let g:ale_rust_rls_executable = 'rust-analyzer'
 let g:ale_linters = {
 	\ 'rust': ['analyzer'],
-	\ 'go': ['golangci-lint'],
-	\ 'javascript': ['eslint', 'prettier'],
 	\ 'css': ['prettier'],
 	\ 'typescript': ['eslint', 'prettier'],
 	\ 'scss': ['prettier'],
@@ -49,7 +47,5 @@ let g:ale_fixers = {
 	\ }
 let g:ale_rust_rls_toolchain = 'stable'
 let g:ale_fix_on_save = 1
-let g:ale_go_golangci_lint_package = 1
-let g:ale_go_golangci_lint_options = '--fast -E gofumpt -E unparam -E unconvert -E maligned -E goimports -E godot -E goconst'
 let g:ale_completion_autoimport = 1
 let g:ale_disable_lsp = 1

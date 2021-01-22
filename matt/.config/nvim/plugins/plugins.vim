@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'junegunn/fzf.vim'
         " Floating Termial
             Plug 'voldikss/vim-floaterm'
+        " File tree for vim
+            Plug 'preservim/nerdtree'
 
     """""""
     " Git "
