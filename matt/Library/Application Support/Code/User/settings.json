@@ -139,7 +139,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.formatOnSave": true,
     "latex-workshop.intellisense.package.enabled": true,
-    "editor.fontFamily": "Iosevka Light",
+    "editor.fontFamily": "Victor Mono",
     "dart.debugExternalLibraries": true,
     "dart.debugSdkLibraries": false,
     "editor.wordWrap": "on",

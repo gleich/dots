@@ -14,6 +14,6 @@ Shell: fish 3.1.2
 DE: Aqua 
 WM: Rectangle 
 Terminal: iTerm2 
-Terminal Font: Iosevka-Light 19 (normal) / FiraCodeNerdFontCompleteM-Regular 21 (non-ascii) 
+Terminal Font: VictorMono-SemiBold 19 (normal) / FiraCodeNerdFontCompleteM-Regular 21 (non-ascii) 
 GPU Driver: macOS Default Graphics Driver 
 ```
