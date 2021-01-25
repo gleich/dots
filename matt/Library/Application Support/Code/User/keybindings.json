@@ -26,5 +26,9 @@
   {
     "key": "ctrl+r",
     "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "grammarly.check"
   }
 ]
