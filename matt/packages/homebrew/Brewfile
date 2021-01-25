@@ -136,18 +136,29 @@ brew "matt-gleich/taps/nuke"
 brew "orf/brew/gping"
 brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
+# Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Application launcher and productivity software
 cask "alfred"
+# Automatic tiling window manager similar to xmonad
 cask "amethyst"
+# Tools for building Android applications
 cask "android-studio"
+# Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
+# Menu bar icon organizer
 cask "bartender"
+# Tool to list all active shortcuts of the current application
 cask "cheatsheet"
+# App to build and share containerized applications and microservices
 cask "docker"
+# Draw.io is free online diagram software
 cask "drawio"
 cask "edex-ui"
 cask "figma"
+# Web browser
 cask "firefox-developer-edition"
+# UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
 cask "font-3270"
 cask "font-computer-modern"
@@ -155,33 +166,53 @@ cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-gnu-unifont"
 cask "font-hack-nerd-font"
+# Sans-serif, slab-serif, monospace and quasi‑proportional typeface family
 cask "font-iosevka"
+# Sans-serif, slab-serif, monospace and quasi‑proportional typeface family
 cask "font-iosevka-slab"
 cask "font-new-york"
 cask "font-sf-compact"
 cask "font-sf-mono"
 cask "font-sf-pro"
 cask "font-victor-mono"
+# App that shows GitHub notifications on the desktop
 cask "gitify"
 cask "google-backup-and-sync"
+# Utility to fix grammar errors and style issues in text
 cask "grammarly"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# GPU-based terminal emulator
 cask "kitty"
+# Password manager
 cask "lastpass"
+# Software for Logitech devices
 cask "logitech-options"
+# Full TeX Live distribution with GUI applications
 cask "mactex"
 cask "minecraft"
+# Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# Web browser
 cask "opera"
+# Collaboration platform for API development
 cask "postman"
+# Control your tools with a few keystrokes
 cask "raycast"
+# Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 cask "scrapple"
+# Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
+# Team communication and collaboration software
 cask "slack"
+# Video game digital distribution service
 cask "steam"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
+# Video communication and virtual meeting platform
 cask "zoom"
 cask "zwift"
 mas "1Focus", id: 969210610
