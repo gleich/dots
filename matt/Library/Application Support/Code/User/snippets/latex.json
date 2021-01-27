@@ -76,5 +76,10 @@
     "prefix": ["qe"],
     "body": ["\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        "],
     "description": "Question"
-  }
+  },
+  "Plain Enumeration": {
+    "prefix": ["enum"],
+    "body": ["\\begin{enumerate}\n    \\item $1 \n\\end{enumerate}"],
+    "description": "Plain Enumeration"
+  },
 }

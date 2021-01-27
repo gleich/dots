@@ -21,7 +21,7 @@ set autoindent
 
 " Theme
 let g:gruvbox_italics = 1                                    " Turning on italics
-colorscheme moonlight                                        " Setting theme
+colorscheme monovibrant                                      " Setting theme
 set background=dark                                          " Background color
 hi Function cterm=italic
 hi Normal guibg=NONE ctermbg=NONE                            " Transparent background
