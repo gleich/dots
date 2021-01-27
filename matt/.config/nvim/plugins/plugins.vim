@@ -71,6 +71,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'jdsimcoe/hyper.vim'
         " moonlight theme
             Plug 'lewis6991/moonlight.vim'
+        " monovibrant theme
+            Plug 'Matt-Gleich/monovibrant'
 
     """""""""""
     " Retired "
