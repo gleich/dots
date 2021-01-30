@@ -84,6 +84,7 @@ vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
 vscode-icons-team.vscode-icons
+vscodevim.vim
 Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
 windmilleng.vscode-go-autotest

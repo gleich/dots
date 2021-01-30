@@ -329,5 +329,6 @@
     },
     "grammarly.hideUnavailablePremiumAlerts": true,
     "editor.occurrencesHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "vim.enableNeovim": true
   }
