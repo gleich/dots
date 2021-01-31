@@ -17,7 +17,7 @@
     "window.zoomLevel": 1,
     "editor.fontSize": 16,
     "latex-workshop.message.update.show": false,
-    "latex-workshop.view.pdf.viewer": "browser",
+    "latex-workshop.view.pdf.viewer": "tab",
     "workbench.iconTheme": "vscode-icons",
     "cSpell.userWords": [
       "Boesen",
@@ -152,7 +152,6 @@
     "git.alwaysSignOff": true,
     "go.autocompleteUnimportedPackages": true,
     "html.format.indentInnerHtml": true,
-    "latex-workshop.hover.preview.cursor.enabled": false,
     "cSpell.enabledLanguageIds": [
       "asciidoc",
       "c",
@@ -276,7 +275,7 @@
     ],
     "markdown.extension.toc.levels": "1..4",
     "jupyter.sendSelectionToInteractiveWindow": false,
-    "workbench.colorTheme": "Monokai Aora",
+    "workbench.colorTheme": "Julia (Monokai Vibrant)",
     "[rust]": {
       "editor.defaultFormatter": "rust-lang.rust"
     },
@@ -305,8 +304,6 @@
       },
     },
     "editor.cursorStyle": "line-thin",
-    "latex-workshop.latex.autoBuild.run": "never",
-    "workbench.activityBar.visible": false,
     "emmet.triggerExpansionOnTab": true,
     "emmet.extensionsPath": "~/.config/emmet/",
     "editor.tokenColorCustomizations": {
@@ -330,5 +327,11 @@
     "grammarly.hideUnavailablePremiumAlerts": true,
     "editor.occurrencesHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "vim.enableNeovim": true
+    "vim.enableNeovim": true,
+    "latex-workshop.view.pdf.invert": 1,
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.build.forceRecipeUsage": true,
+    "workbench.activityBar.visible": false,
+    "latex-workshop.progress.barStyle": "none"
   }
