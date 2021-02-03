@@ -78,6 +78,7 @@
       "fluttercommunity",
       "getcwd",
       "getenv",
+      "githubv",
       "gitlab",
       "gitmoji",
       "gofmt",
