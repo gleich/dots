@@ -335,5 +335,6 @@
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.build.forceRecipeUsage": true,
     "workbench.activityBar.visible": false,
-    "latex-workshop.progress.barStyle": "none"
+    "latex-workshop.progress.barStyle": "none",
+    "editor.cursorSurroundingLines": 10000
   }

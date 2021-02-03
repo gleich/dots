@@ -209,6 +209,8 @@ cask "sf-symbols"
 cask "slack"
 # Video game digital distribution service
 cask "steam"
+# PGF/TikZ diagram editor
+cask "tikzit"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
