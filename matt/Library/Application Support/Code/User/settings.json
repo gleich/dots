@@ -224,7 +224,7 @@
     "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
     "trailing-spaces.borderColor": "rgba(0,0,0,0)",
     "trailing-spaces.trimOnSave": true,
-    "terminal.integrated.fontFamily": "'Fira Code Retina', 'MesloLGS-NF-Regular'",
+    "terminal.integrated.fontFamily": "'Victor Mono', 'MesloLGS-NF-Regular'",
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.cursorStyle": "line",
     "[html]": {
@@ -334,7 +334,6 @@
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.build.forceRecipeUsage": true,
-    "workbench.activityBar.visible": false,
     "latex-workshop.progress.barStyle": "none",
     "editor.cursorSurroundingLines": 10000
   }
