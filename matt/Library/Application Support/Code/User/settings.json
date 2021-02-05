@@ -337,6 +337,5 @@
     "latex-workshop.progress.barStyle": "none",
     "editor.cursorSurroundingLines": 10000,
     "workbench.editor.decorations.badges": true,
-    "workbench.editor.wrapTabs": true,
     "workbench.activityBar.visible": false
   }
