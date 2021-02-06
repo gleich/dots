@@ -47,6 +47,7 @@
       "Minikube",
       "Monokai",
       "PDFs",
+      "Powerpoint",
       "Printf",
       "Println",
       "RGBO",
@@ -335,7 +336,6 @@
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.build.forceRecipeUsage": true,
     "latex-workshop.progress.barStyle": "none",
-    "editor.cursorSurroundingLines": 10000,
     "workbench.editor.decorations.badges": true,
     "workbench.activityBar.visible": false
   }

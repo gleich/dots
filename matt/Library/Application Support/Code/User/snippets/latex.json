@@ -82,4 +82,9 @@
     "body": ["\\begin{enumerate}\n    \\item $1 \n\\end{enumerate}"],
     "description": "Plain Enumeration"
   },
+  "Plain Text in Math Mode": {
+    "prefix": ["rm"],
+    "body": ["\\textrm{$1}"],
+    "description": "Plain Text in Math Mode"
+  },
 }

@@ -148,6 +148,8 @@ cask "android-studio"
 cask "balenaetcher"
 # Menu bar icon organizer
 cask "bartender"
+# Web browser focusing on privacy
+cask "brave-browser-dev"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
 # App to build and share containerized applications and microservices
@@ -189,8 +191,8 @@ cask "kitty"
 cask "lastpass"
 # Software for Logitech devices
 cask "logitech-options"
-# Full TeX Live distribution with GUI applications
-cask "mactex"
+# Full TeX Live distribution without GUI applications
+cask "mactex-no-gui"
 cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
