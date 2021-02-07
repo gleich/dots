@@ -14,7 +14,6 @@
     },
     "git.autofetch": true,
     "search.useGlobalIgnoreFiles": true,
-    "window.zoomLevel": 1,
     "editor.fontSize": 16,
     "latex-workshop.message.update.show": false,
     "latex-workshop.view.pdf.viewer": "tab",
@@ -337,5 +336,6 @@
     "latex-workshop.latex.build.forceRecipeUsage": true,
     "latex-workshop.progress.barStyle": "none",
     "workbench.editor.decorations.badges": true,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 1
   }
