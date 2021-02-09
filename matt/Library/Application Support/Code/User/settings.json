@@ -23,6 +23,7 @@
       "CNDs",
       "COVID",
       "Coronavirus",
+      "DDOS",
       "Datatypes",
       "Denio",
       "Desmos",
@@ -64,6 +65,7 @@
       "autopep",
       "bottomline",
       "btask",
+      "caprover",
       "chdir",
       "cjdenio",
       "colorbox",
@@ -98,6 +100,7 @@
       "matthewgleich",
       "mgleich",
       "microservice",
+      "microservices",
       "mkdir",
       "multiline",
       "ndarray",
@@ -337,5 +340,6 @@
     "latex-workshop.progress.barStyle": "none",
     "workbench.editor.decorations.badges": true,
     "workbench.activityBar.visible": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "editor.cursorSurroundingLines": 1000
   }

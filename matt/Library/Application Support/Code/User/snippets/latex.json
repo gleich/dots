@@ -87,4 +87,19 @@
     "body": ["\\textrm{$1}"],
     "description": "Plain Text in Math Mode"
   },
+  "Bold text": {
+    "prefix": ["bf"],
+    "body": ["\\textbf{$1}"],
+    "description": "Bold text"
+  },
+  "Right Arrow": {
+    "prefix": ["ra"],
+    "body": ["$ \\rightarrow $"],
+    "description": "Right Arrow"
+  },
+  "Angle": {
+    "prefix": ["an"],
+    "body": ["$ \\measuredangle $1^{\\circ} $"],
+    "description": "A measured angle"
+  }
 }
