@@ -5,6 +5,7 @@ adamgraham.polykai-theme
 aleksandra.go-group-imports
 alexperronnet.spectrum-vscode-icons
 bungcip.better-toml
+CalebDenio.fgh-code
 cameronbieganek.julia-color-themes
 christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2

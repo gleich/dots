@@ -110,6 +110,8 @@ brew "tmux"
 brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
+# Language for application scale JavaScript development
+brew "typescript"
 # HTTP load testing tool and library
 brew "vegeta"
 # Vi 'workalike' with many additional features
