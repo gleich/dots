@@ -101,5 +101,20 @@
     "prefix": ["an"],
     "body": ["$ \\measuredangle $1^{\\circ} $"],
     "description": "A measured angle"
-  }
+  },
+  "Celcius": {
+    "prefix": ["ct"],
+    "body": ["$1 C$ ^{\\circ} $"],
+    "description": "A normal text celcius snippet"
+  },
+  "Fahrenheit": {
+    "prefix": ["ft"],
+    "body": ["$1 F$ ^{\\circ} $"],
+    "description": "A normal text fahrenheit snippet"
+  },
+  "Kelvin": {
+    "prefix": ["kt"],
+    "body": ["$1 K$ ^{\\circ} $"],
+    "description": "A normal text kelvin snippet"
+  },
 }
