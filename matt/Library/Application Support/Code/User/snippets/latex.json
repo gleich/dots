@@ -93,7 +93,7 @@
     "description": "Bold text"
   },
   "Right Arrow": {
-    "prefix": ["ra"],
+    "prefix": ["ira"],
     "body": ["$ \\rightarrow $"],
     "description": "Right Arrow"
   },
@@ -116,5 +116,80 @@
     "prefix": ["kt"],
     "body": ["$1 K$ ^{\\circ} $"],
     "description": "A normal text kelvin snippet"
+  },
+  "y axis": {
+    "prefix": ["yaxis"],
+    "body": ["$ y $-axis"],
+    "description": "Just the word y-axis with math mode for y"
+  },
+  "x axis": {
+    "prefix": ["xaxis"],
+    "body": ["$ x $-axis"],
+    "description": "Just the word x-axis with math mode for x"
+  },
+  "icos": {
+    "prefix": ["icos"],
+    "body": ["$ \\cos \\theta $"],
+    "description": "cos reference in normal text"
+  },
+  "isin": {
+    "prefix": ["isin"],
+    "body": ["$ \\sin \\theta $"],
+    "description": "sin reference in normal text"
+  },
+  "itan": {
+    "prefix": ["itan"],
+    "body": ["$ \\tan \\theta $"],
+    "description": "tan reference in normal text"
+  },
+  "cos": {
+    "prefix": ["cos"],
+    "body": ["\\cos \\theta"],
+    "description": "cos with theta"
+  },
+  "sin": {
+    "prefix": ["sin"],
+    "body": ["\\sin \\theta"],
+    "description": "sin with theta"
+  },
+  "tan": {
+    "prefix": ["tan"],
+    "body": ["\\tan \\theta"],
+    "description": "tan with theta"
+  },
+  "icsc": {
+    "prefix": ["icsc"],
+    "body": ["$ \\csc \\theta $"],
+    "description": "csc reference in normal text"
+  },
+  "isec": {
+    "prefix": ["isec"],
+    "body": ["$ \\sec \\theta $"],
+    "description": "sec reference in normal text"
+  },
+  "icot": {
+    "prefix": ["icot"],
+    "body": ["$ \\cot \\theta $"],
+    "description": "cot reference in normal text"
+  },
+  "csc": {
+    "prefix": ["csc"],
+    "body": ["\\csc \\theta"],
+    "description": "csc with theta"
+  },
+  "sec": {
+    "prefix": ["sec"],
+    "body": ["\\sec \\theta"],
+    "description": "sec with theta"
+  },
+  "cot": {
+    "prefix": ["cot"],
+    "body": ["\\cot \\theta"],
+    "description": "cot with theta"
+  },
+  "Riught Arrow": {
+    "prefix": ["ra"],
+    "body": ["\\rightarrow"],
+    "description": "Right arrow"
   },
 }

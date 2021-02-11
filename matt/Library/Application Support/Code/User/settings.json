@@ -29,6 +29,7 @@
       "Desmos",
       "Dockerfiles",
       "Elon",
+      "Funcs",
       "Gleich",
       "Gleich's",
       "Goffstown",
@@ -341,5 +342,8 @@
     "workbench.editor.decorations.badges": true,
     "workbench.activityBar.visible": false,
     "window.zoomLevel": 1,
-    "editor.cursorSurroundingLines": 1000
+    "editor.cursorSurroundingLines": 1000,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   }
