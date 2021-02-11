@@ -340,10 +340,13 @@
     "latex-workshop.latex.build.forceRecipeUsage": true,
     "latex-workshop.progress.barStyle": "none",
     "workbench.editor.decorations.badges": true,
-    "workbench.activityBar.visible": false,
     "window.zoomLevel": 1,
     "editor.cursorSurroundingLines": 1000,
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "vim.handleKeys": {
+      "<D-c>": false
+    },
+    "workbench.activityBar.visible": false,
   }
