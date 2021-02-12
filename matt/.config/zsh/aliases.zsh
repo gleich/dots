@@ -16,7 +16,7 @@ alias weather="curl wttr.in"
 
 alias clock="tty-clock -tSbBc"
 alias ra="ranger"
-alias v="nvim"
+alias nv="nvim"
 alias c="clear"
 alias pimportsort="pub run import_sorter:main"
 alias fimportsort="flutter pub run import_sorter:main"

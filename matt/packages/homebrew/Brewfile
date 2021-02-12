@@ -118,6 +118,8 @@ brew "vegeta"
 brew "vim"
 # Vim script Language Lint
 brew "vint"
+# V programming language
+brew "vlang"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
