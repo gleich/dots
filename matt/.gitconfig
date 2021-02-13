@@ -1,7 +1,7 @@
 [user]
 	name = Matthew Gleich
 	email = git@mattglei.ch
-	signingkey = 11AA2426498FF843
+	signingkey = 1512F5B740EBA9B3 
 [gpg]
 	program = gpg
 [commit]
