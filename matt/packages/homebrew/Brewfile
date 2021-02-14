@@ -217,8 +217,8 @@ cask "slack"
 cask "steam"
 # PGF/TikZ diagram editor
 cask "tikzit"
-# Open-source code editor
-cask "visual-studio-code"
+# Integrated development environment
+cask "visual-studio-code-insiders"
 # Multimedia player
 cask "vlc"
 # Video communication and virtual meeting platform

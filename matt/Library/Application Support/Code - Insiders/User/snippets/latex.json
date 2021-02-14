@@ -196,5 +196,6 @@
     "prefix": ["ra"],
     "body": ["\\rightarrow"],
     "description": "Right arrow"
-  },
+  }
 }
+

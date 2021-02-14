@@ -2,7 +2,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "cSpell.language": "en",
-    "kite.showWelcomeNotificationOnStartup": false,
     "editor.suggestSelection": "first",
     "files.exclude": {
       ".idea": true,
@@ -156,7 +155,6 @@
     "workbench.editor.limit.value": 3,
     "workbench.editor.labelFormat": "short",
     "dart.previewFlutterUiGuides": true,
-    "discord.silent": true,
     "git.alwaysSignOff": true,
     "go.autocompleteUnimportedPackages": true,
     "html.format.indentInnerHtml": true,
@@ -195,12 +193,6 @@
       "yaml",
       "yml"
     ],
-    "vs-kubernetes": {
-      "vs-kubernetes.minikube-path": "/Users/matthewgleich/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
-      "vs-kubernetes.helm-path": "/Users/matthewgleich/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-      "vs-kubernetes.draft-path": "/Users/matthewgleich/.vs-kubernetes/tools/draft/darwin-amd64/draft",
-      "vs-kubernetes.minikube-path.mac": "/Users/matthewgleich/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
-    },
     "yaml.schemas": {
       "file:///Users/matthewgleich/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.6/schemas/action.schema.json": "/action.yml"
     },
@@ -212,7 +204,6 @@
     },
     "latex-workshop.message.error.show": false,
     "latex-workshop.message.warning.show": false,
-    "discord.workspaceElapsedTime": true,
     "workbench.sideBar.location": "right",
     "debug.openDebug": "neverOpen",
     "bracket-pair-colorizer-2.colors": [
@@ -271,7 +262,6 @@
     "editor.smoothScrolling": true,
     "git.confirmSync": false,
     "terminal.integrated.rendererType": "dom",
-    "editor.minimap.enabled": false,
     "explorer.compactFolders": false,
     "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
     "editor.glyphMargin": false,
@@ -292,10 +282,8 @@
       "[Julia (Monokai Vibrant)]": {
         "editorPane.background": "#000000",
         "editor.background": "#000000",
-        "statusBar.background": "#000000",
         "foreground": "#ffffff",
         "sideBar.background": "#000000",
-        "sideBar.border": "#000000",
         "window.activeBorder": "#000000",
         "titleBar.activeBackground": "#000000",
         "titleBar.inactiveBackground": "#000000",
@@ -308,7 +296,36 @@
         "tab.activeModifiedBorder": "#ff8400",
         "tab.activeBackground": "#000000",
         "titleBar.activeForeground": "#1eff00",
-        "editorGroupHeader.tabsBackground": "#000000"
+        "editorGroupHeader.tabsBackground": "#000000",
+        "button.background": "#1a202a",
+        "button.foreground": "#1eff00",
+        "statusBar.border": "#232323",
+        "statusBar.background": "#000000",
+        "statusBar.noFolderBackground": "#000000",
+        "statusBar.debuggingBackground":"#000000",
+        "notificationCenterHeader.background": "#000000",
+        "notificationCenter.border": "#232323",
+        "notificationToast.border": "#232323",
+        "notifications.background": "#000000",
+        "notifications.border": "#232323",
+        "tab.border": "#232323",
+        "editorGroupHeader.tabsBorder": "#232323",
+        "badge.background": "#232323",
+        "badge.foreground": "#FFFFFF",
+        "sideBarSectionHeader.background": "#000000",
+        "sideBarSectionHeader.foreground": "#1eff00",
+        "sideBarSectionHeader.border": "#232323",
+        "sideBar.dropBackground": "#1eff00",
+        "sideBar.border": "#232323",
+        "progressBar.background": "#1eff00",
+        "gitDecoration.addedResourceForeground": "#1eff00",
+        "gitDecoration.deletedResourceForeground": "#ff0000",
+        "gitDecoration.modifiedResourceForeground": "#FFFF00",
+        "list.errorForeground": "#ff0000",
+        "contrastBorder": "#232323",
+        "input.background": "#000000",
+        "input.border": "#232323",
+        "welcomePage.background": "#000000"
       },
     },
     "editor.cursorStyle": "line-thin",
@@ -318,13 +335,13 @@
       "textMateRules": [
         {
           "scope": [
-            //following will be in italic (=FlottFlott)
+            // following will be in italic (=FlottFlott)
             "comment",
-            "entity.name.type.class", //class names
-            "keyword", //import, export, return…
-            "constant", //String, Number, Boolean…, this, super
-            "storage.modifier", //static keyword
-            "storage.type.class.js", //class keyword
+            "entity.name.type.class", // class names
+            "keyword", // import, export, return…
+            "constant", // String, Number, Boolean…, this, super
+            "storage.modifier", // static keyword
+            "storage.type.class.js", // class keyword
           ],
           "settings": {
             "fontStyle": "italic"
@@ -351,4 +368,11 @@
       "<D-c>": false
     },
     "workbench.activityBar.visible": false,
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter-notebook",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+    "editor.minimap.enabled": false,
   }

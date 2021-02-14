@@ -66,7 +66,7 @@ def main():
             "Library/Developer/Xcode/UserData/KeyBindings",
             "Library/Developer/Xcode/UserData/FontAndColorThemes",
             "Library/Developer/Xcode/UserData/CodeSnippets",
-            "Library/Application Support/Code/User/snippets",
+            "Library/Application Support/Code - Insiders/User/snippets",
             "Library/Preferences/gitmoji-nodejs",
         ],
     )
@@ -80,8 +80,8 @@ def main():
             ".p10k.zsh",
             ".docker/config.json",
             "Library/Application Support/eDEX-UI/settings.json",
-            "Library/Application Support/Code/User/keybindings.json",
-            "Library/Application Support/Code/User/settings.json",
+            "Library/Application Support/Code - Insiders/User/keybindings.json",
+            "Library/Application Support/Code - Insiders/User/settings.json",
             ".gnupg/gpg-agent.conf",
         ],
     )
