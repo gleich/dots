@@ -241,7 +241,9 @@
     "[dart]": {
       "editor.formatOnSave": true,
       "editor.formatOnType": true,
-      "editor.rulers": [80],
+      "editor.rulers": [
+        80
+      ],
       "editor.selectionHighlight": false,
       "editor.suggest.snippetsPreventQuickSuggestions": false,
       "editor.suggestSelection": "first",
@@ -321,6 +323,7 @@
         "gitDecoration.addedResourceForeground": "#1eff00",
         "gitDecoration.deletedResourceForeground": "#ff0000",
         "gitDecoration.modifiedResourceForeground": "#FFFF00",
+        "gitDecoration.untrackedResourceForeground": "#1eff00",
         "list.errorForeground": "#ff0000",
         "contrastBorder": "#232323",
         "input.background": "#000000",
