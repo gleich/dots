@@ -28,6 +28,8 @@ brew "cmatrix"
 brew "cocoapods"
 # Configurable talking characters in ASCII art
 brew "cowsay"
+# Disk Usage/Free Utility - a better 'df' alternative
+brew "duf"
 # AST-based pattern checker for JavaScript
 brew "eslint"
 # Modern replacement for 'ls'
