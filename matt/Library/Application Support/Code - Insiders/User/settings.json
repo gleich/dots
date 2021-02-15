@@ -378,4 +378,5 @@
       }
     ],
     "editor.minimap.enabled": false,
+    "latex-utilities.message.update.show": false,
   }
