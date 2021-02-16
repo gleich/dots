@@ -331,7 +331,6 @@
         "welcomePage.background": "#000000"
       },
     },
-    "editor.cursorStyle": "line-thin",
     "emmet.triggerExpansionOnTab": true,
     "emmet.extensionsPath": "~/.config/emmet/",
     "editor.tokenColorCustomizations": {
@@ -379,4 +378,5 @@
     ],
     "editor.minimap.enabled": false,
     "latex-utilities.message.update.show": false,
+    "workbench.tree.expandMode": "singleClick",
   }

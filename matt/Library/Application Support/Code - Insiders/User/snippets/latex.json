@@ -192,10 +192,27 @@
     "body": ["\\cot \\theta"],
     "description": "cot with theta"
   },
-  "Riught Arrow": {
+  "Right Arrow in Math": {
     "prefix": ["ra"],
     "body": ["\\rightarrow"],
-    "description": "Right arrow"
+    "description": "Right Arrow in Math"
+  },
+  "Practice Problem": {
+    "prefix": ["pra"],
+    "body": [
+      "\\section{}",
+      "\t\\subsection{Question}",
+      "\t\t$1",
+      "\t\\subsection{Work \\& Answer}",
+      "\t\t$2",
+      "\t\\subsection{Result}",
+      "\t\t$3",
+      "\t\\subsection{Correction/Take Away}",
+      "\t\t$4",
+      "",
+      "\\horizontalrule"
+    ],
+    "description": "Practice Problem"
   }
 }
 
