@@ -83,6 +83,7 @@ def main():
             "Library/Application Support/Code - Insiders/User/keybindings.json",
             "Library/Application Support/Code - Insiders/User/settings.json",
             ".gnupg/gpg-agent.conf",
+            ".rustup/settings.toml",
         ],
     )
     shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))

@@ -13,7 +13,6 @@ Packages: 184 (brew)
 Shell: zsh 5.8 
 DE: Aqua 
 WM: Rectangle 
-Terminal: iTerm2 
-Terminal Font: VictorMono-SemiBold 19 (normal) / FiraCodeNerdFontCompleteM-Regular 21 (non-ascii) 
+Terminal: vscode 
 GPU Driver: macOS Default Graphics Driver 
 ```
