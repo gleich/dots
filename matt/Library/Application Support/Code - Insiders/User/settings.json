@@ -379,4 +379,9 @@
     "editor.minimap.enabled": false,
     "latex-utilities.message.update.show": false,
     "workbench.tree.expandMode": "singleClick",
+    "sonarlint.rules": {
+      "java:S106": {
+        "level": "off"
+      }
+    },
   }

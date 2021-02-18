@@ -68,6 +68,7 @@ ritwickdey.LiveServer
 rust-lang.rust
 shardulm94.trailing-spaces
 skyran.js-jsx-snippets
+SonarSource.sonarlint-vscode
 spywhere.now-playing
 streetsidesoftware.code-spell-checker
 teabyii.ayu
