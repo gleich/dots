@@ -69,7 +69,7 @@
   },
   "Mathmatical Solution": {
     "prefix": ["sol"],
-    "body": ["\\begin{center}\n    \\item \\textit{Sol.}\n\\end{center}"],
+    "body": ["\\begin{center}\n    \\item \\textit{Sol.}\n\\end{center}\n"],
     "description": "Mathmatical Solution"
   },
   "Question": {
@@ -201,8 +201,6 @@
     "prefix": ["pra"],
     "body": [
       "\\section{}",
-      "\t\\subsection{Question}",
-      "\t\t$1",
       "\t\\subsection{Work \\& Answer}",
       "\t\t$2",
       "\t\\subsection{Result}",
