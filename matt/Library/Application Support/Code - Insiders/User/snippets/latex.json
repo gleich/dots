@@ -211,6 +211,28 @@
       "\\horizontalrule"
     ],
     "description": "Practice Problem"
+  },
+  "y-axis intercept": {
+    "prefix": ["yint"],
+    "body": [
+      "$ y $-intercept",
+    ],
+    "description": "y-axis intercept"
+  },
+  "x-axis intercept": {
+    "prefix": ["xint"],
+    "body": [
+      "$ x $-intercept",
+    ],
+    "description": "x-axis intercept"
+  },
+  "Table of Contents": {
+    "prefix": ["toc"],
+    "body": [
+      "\\tableofcontents",
+      "\\newpage"
+    ],
+    "description": "Table of Contents"
   }
 }
 
