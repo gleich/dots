@@ -12,6 +12,8 @@ tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
 tap "orf/brew"
 tap "zegervdv/zathura"
+# Run your GitHub Actions locally 🚀
+brew "act"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
 # Automatic configure script builder
@@ -223,6 +225,7 @@ cask "tikzit"
 cask "visual-studio-code-insiders"
 # Multimedia player
 cask "vlc"
+cask "webex-meetings"
 # Video communication and virtual meeting platform
 cask "zoom"
 cask "zwift"

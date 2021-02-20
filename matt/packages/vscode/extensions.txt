@@ -17,6 +17,7 @@ dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 dunstontc.viml
 eg2.vscode-npm-script
+emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
 foam.foam-vscode
