@@ -115,6 +115,7 @@
     "osascript",
     "popen",
     "postgres",
+    "postgresql",
     "prefs",
     "pubspec",
     "pytest",
@@ -360,7 +361,6 @@
   "latex-workshop.progress.barStyle": "none",
   "workbench.editor.decorations.badges": true,
   "window.zoomLevel": 1,
-  "editor.cursorSurroundingLines": 1000,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -389,5 +389,8 @@
         "cmd": "golines ${file} -w"
       }
     ]
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

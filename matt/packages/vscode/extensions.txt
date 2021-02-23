@@ -59,6 +59,7 @@ naumovs.color-highlight
 neilpanchal.hypersubatomic
 njpwerner.autodocstring
 npxms.hide-gitignored
+Perkovec.emoji
 philsinatra.popping-and-locking-vscode-black
 phr0s.bib
 plibither8.remove-comments

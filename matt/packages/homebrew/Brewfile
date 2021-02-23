@@ -11,6 +11,7 @@ tap "linuss1/taps"
 tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
 tap "orf/brew"
+tap "rootly-io/tap"
 tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
 brew "act"
