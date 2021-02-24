@@ -323,11 +323,15 @@
       "gitDecoration.deletedResourceForeground": "#ff0000",
       "gitDecoration.modifiedResourceForeground": "#FFFF00",
       "gitDecoration.untrackedResourceForeground": "#1eff00",
+      "gitDecoration.stageModifiedResourceForeground": "#FFFF00",
       "list.errorForeground": "#ff0000",
       "contrastBorder": "#232323",
       "input.background": "#000000",
       "input.border": "#232323",
-      "welcomePage.background": "#000000"
+      "welcomePage.background": "#000000",
+      "editorGutter.addedBackground": "#1eff00",
+      "editorGutter.deletedBackground": "#ff0000",
+      "editorGutter.modifiedBackground": "#FFFF00"
     }
   },
   "emmet.triggerExpansionOnTab": true,
@@ -380,6 +384,9 @@
   "sonarlint.rules": {
     "java:S106": {
       "level": "off"
+    },
+    "java:S125": {
+      "level": "off"
     }
   },
   "emeraldwalk.runonsave": {
@@ -391,6 +398,9 @@
     ]
   },
   "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
