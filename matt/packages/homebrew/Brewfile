@@ -11,7 +11,6 @@ tap "linuss1/taps"
 tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
 tap "orf/brew"
-tap "rootly-io/tap"
 tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
 brew "act"
@@ -213,6 +212,8 @@ cask "postman"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Desktop chat client for Slack (and Discord)
+cask "ripcord"
 cask "scrapple"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
