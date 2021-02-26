@@ -3,7 +3,7 @@ alias update="sh /Users/matt/github/Matt-Gleich/public/python/scripts/update.sh"
 alias fetch="cd /Users/matt/github/Matt-Gleich/public/shell/dots/bin/fetch && poetry run python3 main.py"
 alias mindnode="cd /Users/matt/github/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
 
-alias ls="exa -a --grid --icons --group-directories-first --classify"
+alias ls="exa -a --grid --group-directories-first --classify"
 alias lsa="exa -la --icons --git --group-directories-first --classify"
 alias tree="exa -a --icons --tree --group-directories-first --classify"
 alias cat="bat"

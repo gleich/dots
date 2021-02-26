@@ -13,7 +13,7 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "latex-workshop.message.update.show": false,
   "latex-workshop.view.pdf.viewer": "tab",
   "workbench.iconTheme": "vscode-icons",
@@ -153,7 +153,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "Victor Mono",
+  "editor.fontFamily": "Unifont",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -241,7 +241,7 @@
   "html.format.endWithNewline": true,
   "trailing-spaces.showStatusBarMessage": false,
   "extensions.ignoreRecommendations": true,
-  "python.languageServer": "Pylance",
+  "python.languageServer": "Jedi",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "[dart]": {
@@ -366,7 +366,6 @@
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.progress.barStyle": "none",
   "workbench.editor.decorations.badges": true,
-  "window.zoomLevel": 1,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -404,5 +403,7 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.zoomLevel": 1,
+  "editor.cursorSurroundingLines": 10000
 }

@@ -160,6 +160,7 @@ cask "bartender"
 cask "brave-browser-dev"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
+cask "cool-retro-term"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Draw.io is free online diagram software
