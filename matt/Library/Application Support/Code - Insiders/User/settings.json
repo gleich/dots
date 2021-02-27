@@ -241,7 +241,7 @@
   "html.format.endWithNewline": true,
   "trailing-spaces.showStatusBarMessage": false,
   "extensions.ignoreRecommendations": true,
-  "python.languageServer": "Jedi",
+  "python.languageServer": "Pylance",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "[dart]": {
@@ -404,9 +404,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1,
   "editor.cursorSurroundingLines": 10000,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.zoomLevel": 1
 }

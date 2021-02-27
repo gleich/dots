@@ -24,6 +24,7 @@ MartinLaRegina.clear-view-indent
 matklad.rust-analyzer
 mikestead.dotenv
 ms-python.python
+ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
