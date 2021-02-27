@@ -39,6 +39,7 @@ shardulm94.trailing-spaces
 SonarSource.sonarlint-vscode
 streetsidesoftware.code-spell-checker
 tecosaur.latex-utilities
+thomanq.math-snippets
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug

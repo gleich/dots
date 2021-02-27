@@ -74,12 +74,16 @@
   },
   "Question": {
     "prefix": ["qe"],
-    "body": ["\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        "],
+    "body": [
+      "\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        "
+    ],
     "description": "Question"
   },
   "Question Sub": {
     "prefix": ["qes"],
-    "body": ["\\subsection{}\n    \\subsubsection{Question}\n        $1\n    \\subsubsection{Work \\& Answer}\n        "],
+    "body": [
+      "\\subsection{}\n    \\subsubsection{Question}\n        $1\n    \\subsubsection{Work \\& Answer}\n        "
+    ],
     "description": "Question inside of a section"
   },
   "Plain Enumeration": {
@@ -214,25 +218,22 @@
   },
   "y-axis intercept": {
     "prefix": ["yint"],
-    "body": [
-      "$ y $-intercept",
-    ],
+    "body": ["$ y $-intercept"],
     "description": "y-axis intercept"
   },
   "x-axis intercept": {
     "prefix": ["xint"],
-    "body": [
-      "$ x $-intercept",
-    ],
+    "body": ["$ x $-intercept"],
     "description": "x-axis intercept"
   },
   "Table of Contents": {
     "prefix": ["toc"],
-    "body": [
-      "\\tableofcontents",
-      "\\newpage"
-    ],
+    "body": ["\\tableofcontents", "\\newpage"],
     "description": "Table of Contents"
+  },
+  "Explain Equation Macro": {
+    "prefix": ["ep"],
+    "body": ["\\explain{$2}{$1}"],
+    "description": "Explain Equation Macro"
   }
 }
-
