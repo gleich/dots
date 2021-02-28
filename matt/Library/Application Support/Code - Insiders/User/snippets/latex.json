@@ -235,5 +235,26 @@
     "prefix": ["ep"],
     "body": ["\\explain{$2}{$1}"],
     "description": "Explain Equation Macro"
+  },
+  "Starting Equation": {
+    "prefix": ["sta"],
+    "body": ["\\[ \\textrm{Starting } Eq. \\begin{cases} $1 \\end{cases}\\]"],
+    "description": "Starting Equation"
+  },
+  "Variable Declaration": {
+    "prefix": ["vade"],
+    "body": [
+      "\\begin{align*}",
+      "    \\textrm{Variables}\\begin{cases}",
+      "        $1 = $2 \\\\\\ $3",
+      "    \\end{cases}",
+      "\\end{align*}"
+    ],
+    "description": "Variable Declaration"
+  },
+  "Variable Declaration Statement": {
+    "prefix": ["va"],
+    "body": ["$1 = $2 \\\\\\ $3"],
+    "description": "Variable Declaration Statement"
   }
 }
