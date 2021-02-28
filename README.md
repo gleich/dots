@@ -9,8 +9,8 @@ matt@gleich.lan
 OS: macOS 11.2.1 x86_64 
 Host: MacBookPro16,1 
 Kernel: Darwin 20.3.0 
-Packages: 195 (brew) 
-Shell: zsh 5.8 
+Packages: 196 (brew) 
+Shell: fish 3.1.2 
 DE: Aqua 
 WM: Rectangle 
 Terminal: iTerm2 

@@ -110,6 +110,8 @@ brew "swiftlint"
 brew "thefuck"
 # Terminal multiplexer
 brew "tmux"
+# Program that allows you to count code, quickly
+brew "tokei"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Digital clock in ncurses
@@ -161,6 +163,8 @@ cask "brave-browser-dev"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
 cask "cool-retro-term"
+# Voice and text chat software
+cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Draw.io is free online diagram software

@@ -238,11 +238,11 @@
   },
   "Starting Equation": {
     "prefix": ["sta"],
-    "body": ["\\[ \\textrm{Starting } Eq. \\begin{cases} $1 \\end{cases}\\]"],
+    "body": ["\\[ \\textrm{Starting } eq. \\begin{cases} $1 \\end{cases}\\]"],
     "description": "Starting Equation"
   },
   "Variable Declaration": {
-    "prefix": ["vade"],
+    "prefix": ["vars"],
     "body": [
       "\\begin{align*}",
       "    \\textrm{Variables}\\begin{cases}",

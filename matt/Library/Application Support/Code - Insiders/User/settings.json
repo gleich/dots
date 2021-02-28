@@ -372,7 +372,6 @@
   "vim.handleKeys": {
     "<D-c>": false
   },
-  "workbench.activityBar.visible": false,
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter-notebook",
@@ -408,5 +407,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.activityBar.visible": false
 }

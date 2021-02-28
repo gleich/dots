@@ -16,6 +16,7 @@ esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.github-actions
 golang.go
+icrawl.discord-vscode
 ipedrazas.kubernetes-snippets
 James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
