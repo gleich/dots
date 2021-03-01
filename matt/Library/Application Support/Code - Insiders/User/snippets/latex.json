@@ -69,20 +69,20 @@
   },
   "Mathmatical Solution": {
     "prefix": ["sol"],
-    "body": ["\\begin{center}\n    \\item \\textit{Sol.}\n\\end{center}\n"],
+    "body": ["\\sol{$1}"],
     "description": "Mathmatical Solution"
   },
   "Question": {
     "prefix": ["qe"],
     "body": [
-      "\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        "
+      "\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\sol{$3}"
     ],
     "description": "Question"
   },
   "Question Sub": {
     "prefix": ["qes"],
     "body": [
-      "\\subsection{}\n    \\subsubsection{Question}\n        $1\n    \\subsubsection{Work \\& Answer}\n        "
+      "\\subsection{}\n    \\subsubsection{Question}\n        $1\n    \\subsubsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\sol{$3}"
     ],
     "description": "Question inside of a section"
   },
@@ -206,11 +206,14 @@
     "body": [
       "\\section{}",
       "\t\\subsection{Work \\& Answer}",
-      "\t\t$2",
+      "\t\t\\begin{align*}",
+      "\t\t\t$2",
+      "\t\t\\end{align*}",
+      "\t\t\\sol{$3}",
       "\t\\subsection{Result}",
-      "\t\t$3",
-      "\t\\subsection{Correction/Take Away}",
       "\t\t$4",
+      "\t\\subsection{Correction/Take Away}",
+      "\t\t$5",
       "",
       "\\horizontalrule"
     ],
@@ -233,13 +236,8 @@
   },
   "Explain Equation Macro": {
     "prefix": ["ep"],
-    "body": ["\\explain{$2}{$1}"],
+    "body": ["\\explain{$1}{$2}"],
     "description": "Explain Equation Macro"
-  },
-  "Starting Equation": {
-    "prefix": ["sta"],
-    "body": ["\\[ \\textrm{Starting } eq. \\begin{cases} $1 \\end{cases}\\]"],
-    "description": "Starting Equation"
   },
   "Variable Declaration": {
     "prefix": ["vars"],
@@ -256,5 +254,15 @@
     "prefix": ["va"],
     "body": ["$1 = $2 \\\\\\ $3"],
     "description": "Variable Declaration Statement"
+  },
+  "Text Super Script": {
+    "prefix": ["tss"],
+    "body": ["$2\\textsuperscript{$1}"],
+    "description": "Text Super Script"
+  },
+  "Initial Equation": {
+    "prefix": ["int"],
+    "body": ["\\initialeq{$1}"],
+    "description": "Initial Equation"
   }
 }

@@ -407,6 +407,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 1
 }
