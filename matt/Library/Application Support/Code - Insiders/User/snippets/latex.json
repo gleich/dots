@@ -69,20 +69,20 @@
   },
   "Mathmatical Solution": {
     "prefix": ["sol"],
-    "body": ["\\sol{$1}"],
+    "body": ["\\msol{$1}"],
     "description": "Mathmatical Solution"
   },
   "Question": {
     "prefix": ["qe"],
     "body": [
-      "\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\sol{$3}"
+      "\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\msol{$3}"
     ],
     "description": "Question"
   },
   "Question Sub": {
     "prefix": ["qes"],
     "body": [
-      "\\subsection{}\n    \\subsubsection{Question}\n        $1\n    \\subsubsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\sol{$3}"
+      "\\subsection{}\n    \\subsubsection{Question}\n        $1\n    \\subsubsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\msol{$3}"
     ],
     "description": "Question inside of a section"
   },
@@ -209,7 +209,7 @@
       "\t\t\\begin{align*}",
       "\t\t\t$2",
       "\t\t\\end{align*}",
-      "\t\t\\sol{$3}",
+      "\t\t\\msol{$3}",
       "\t\\subsection{Result}",
       "\t\t$4",
       "\t\\subsection{Correction/Take Away}",
@@ -264,5 +264,15 @@
     "prefix": ["int"],
     "body": ["\\initialeq{$1}"],
     "description": "Initial Equation"
+  },
+  "Variable Declaration in Problem": {
+    "prefix": ["vas"],
+    "body": ["\\variables{\n\t$1\n}"],
+    "description": "Variable Declaration in Problem"
+  },
+  "And shorthand symbol": {
+    "prefix": ["and"],
+    "body": ["\\&"],
+    "description": "And shorthand symbol"
   }
 }
