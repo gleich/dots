@@ -4,13 +4,13 @@
 ![format](https://github.com/Matt-Gleich/dots/workflows/format/badge.svg)
 
 ```txt
-matt@gleich.lan 
---------------- 
+matt@gleich.local 
+----------------- 
 OS: macOS 11.2.2 x86_64 
 Host: MacBookPro16,1 
 Kernel: Darwin 20.3.0 
 Packages: 196 (brew) 
-Shell: fish 3.1.2 
+Shell: fish 3.2.0 
 DE: Aqua 
 WM: Rectangle 
 Terminal: iTerm2 
