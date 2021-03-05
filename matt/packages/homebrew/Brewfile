@@ -98,8 +98,6 @@ brew "prettier"
 brew "pstree"
 # File browser
 brew "ranger"
-# Rust toolchain installer
-brew "rustup-init"
 # Autoformat shell script source code
 brew "shfmt"
 # Formatting tool for reformatting Swift code
