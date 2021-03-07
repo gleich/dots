@@ -274,5 +274,15 @@
     "prefix": ["and"],
     "body": ["\\&"],
     "description": "And shorthand symbol"
+  },
+  "Correct": {
+    "prefix": ["cor"],
+    "body": ["\\ding{51} \\green{Correct}"],
+    "description": "Correct"
+  },
+  "Incorrect": {
+    "prefix": ["icor"],
+    "body": ["\\ding{55} \\red{Incorrect}"],
+    "description": "Incorrect"
   }
 }

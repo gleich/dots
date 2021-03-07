@@ -340,9 +340,7 @@
     }
   },
   "emmet.triggerExpansionOnTab": true,
-  "emmet.extensionsPath": [
-    "~/.config/emmet/"
-  ],
+  "emmet.extensionsPath": ["~/.config/emmet/"],
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -416,6 +414,7 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 1,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "rust.rustfmt_path": "/Users/matt/.cargo/bin/rustfmt"
 }

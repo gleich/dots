@@ -23,7 +23,6 @@ James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
 Kasik96.swift
 MartinLaRegina.clear-view-indent
-matklad.rust-analyzer
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
