@@ -59,6 +59,7 @@
     "Strava",
     "VLANs",
     "Vals",
+    "Vercel",
     "Xcode",
     "arange",
     "auralite",
@@ -339,7 +340,9 @@
     }
   },
   "emmet.triggerExpansionOnTab": true,
-  "emmet.extensionsPath": "~/.config/emmet/",
+  "emmet.extensionsPath": [
+    "~/.config/emmet/"
+  ],
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -413,5 +416,6 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
