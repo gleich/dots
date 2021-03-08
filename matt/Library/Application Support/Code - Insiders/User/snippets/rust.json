@@ -3,5 +3,10 @@
     "prefix": "main",
     "body": ["fn main() {", "\t$1", "}"],
     "description": "Main function"
+  },
+  "Output Line": {
+    "prefix": "pln",
+    "body": ["println!(\"$1\");"],
+    "description": "Output line"
   }
 }

@@ -231,7 +231,7 @@
   },
   "Table of Contents": {
     "prefix": ["toc"],
-    "body": ["\\tableofcontents", "\\newpage"],
+    "body": ["\\tableofcontents", "\\newpage\n"],
     "description": "Table of Contents"
   },
   "Explain Equation Macro": {
