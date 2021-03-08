@@ -299,7 +299,7 @@
       "tab.activeForeground": "#ffffff",
       "tab.inactiveForeground": "#ffffff",
       "tab.activeBorderTop": "#1eff00",
-      "tab.activeModifiedBorder": "#ff8400",
+      "tab.activeModifiedBorder": "#FFFF00",
       "tab.activeBackground": "#000000",
       "titleBar.activeForeground": "#1eff00",
       "editorGroupHeader.tabsBackground": "#000000",
@@ -415,6 +415,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
-  "rust.rustfmt_path": "/Users/matt/.cargo/bin/rustfmt"
+  "rust.rustfmt_path": "/Users/matt/.cargo/bin/rustfmt",
+  "window.zoomLevel": 1
 }
