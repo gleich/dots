@@ -38,6 +38,7 @@ redhat.vscode-yaml
 ritwickdey.LiveServer
 rust-lang.rust
 shardulm94.trailing-spaces
+silvenon.mdx
 SonarSource.sonarlint-vscode
 streetsidesoftware.code-spell-checker
 tecosaur.latex-utilities

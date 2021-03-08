@@ -7,6 +7,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "k-vernooy/tap"
+tap "kkevinm/itunes-discord-rp"
 tap "linuss1/taps"
 tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
@@ -196,6 +197,8 @@ cask "grammarly"
 cask "graphql-playground"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# A simple app that shows what you're currently listening to in your Discord status.
+cask "itunesdiscordrp"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
