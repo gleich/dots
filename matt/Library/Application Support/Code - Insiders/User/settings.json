@@ -410,11 +410,11 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.activityBar.visible": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "rust.rustfmt_path": "/Users/matt/.cargo/bin/rustfmt",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.activityBar.visible": false
 }
