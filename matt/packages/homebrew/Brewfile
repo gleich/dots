@@ -210,6 +210,8 @@ cask "mactex-no-gui"
 cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Web browser
 cask "opera"
 # Collaboration platform for API development

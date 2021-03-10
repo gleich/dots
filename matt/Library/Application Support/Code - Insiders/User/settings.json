@@ -415,6 +415,6 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "rust.rustfmt_path": "/Users/matt/.cargo/bin/rustfmt",
-  "window.zoomLevel": 1,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 1
 }
