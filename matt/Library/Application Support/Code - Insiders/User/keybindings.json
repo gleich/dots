@@ -34,9 +34,5 @@
   {
     "key": "cmd+d",
     "command": "fgh-code.openProject"
-  },
-  {
-    "key": "ctrl+cmd+e",
-    "command": "emoji.insert"
   }
 ]

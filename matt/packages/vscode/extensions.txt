@@ -21,6 +21,7 @@ golang.go
 icrawl.discord-vscode
 ipedrazas.kubernetes-snippets
 James-Yu.latex-workshop
+jameslan.yaclock
 JeffersonQin.latex-snippets-jeff
 Kasik96.swift
 MartinLaRegina.clear-view-indent
@@ -32,7 +33,6 @@ ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
 npxms.hide-gitignored
-Perkovec.emoji
 plibither8.remove-comments
 redhat.java
 redhat.vscode-yaml
