@@ -23,6 +23,7 @@ ipedrazas.kubernetes-snippets
 James-Yu.latex-workshop
 jameslan.yaclock
 JeffersonQin.latex-snippets-jeff
+jeroen-meijer.pubspec-assist
 Kasik96.swift
 MartinLaRegina.clear-view-indent
 mikestead.dotenv
