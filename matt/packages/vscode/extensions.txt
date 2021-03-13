@@ -26,6 +26,7 @@ JeffersonQin.latex-snippets-jeff
 jeroen-meijer.pubspec-assist
 Kasik96.swift
 MartinLaRegina.clear-view-indent
+matklad.rust-analyzer
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
