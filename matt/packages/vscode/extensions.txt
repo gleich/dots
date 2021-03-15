@@ -17,6 +17,7 @@ emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.github-actions
+foxundermoon.shell-format
 golang.go
 icrawl.discord-vscode
 ipedrazas.kubernetes-snippets
@@ -27,6 +28,7 @@ jeroen-meijer.pubspec-assist
 Kasik96.swift
 MartinLaRegina.clear-view-indent
 matklad.rust-analyzer
+miguelsolorio.fluent-icons
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
@@ -39,7 +41,6 @@ plibither8.remove-comments
 redhat.java
 redhat.vscode-yaml
 ritwickdey.LiveServer
-rust-lang.rust
 shardulm94.trailing-spaces
 silvenon.mdx
 SonarSource.sonarlint-vscode

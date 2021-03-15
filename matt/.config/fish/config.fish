@@ -8,4 +8,3 @@ set fish_greeting
 
 # Completion
 source ~/.config/fish/completion/fgh.fish
-

@@ -243,9 +243,9 @@
     "prefix": ["vars"],
     "body": [
       "\\begin{align*}",
-      "    \\textrm{Variables}\\begin{cases}",
+      "    \\variables{",
       "        $1 = $2 \\\\\\ $3",
-      "    \\end{cases}",
+      "    }",
       "\\end{align*}"
     ],
     "description": "Variable Declaration"

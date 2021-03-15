@@ -1,3 +1,5 @@
+==> New Formulae
+threemux
 tap "beeftornado/rmtree"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -33,6 +35,8 @@ brew "cocoapods"
 brew "cowsay"
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
+# Platform built on V8 to build network applications
+brew "node"
 # AST-based pattern checker for JavaScript
 brew "eslint"
 # Modern replacement for 'ls'
@@ -162,6 +166,8 @@ cask "brave-browser-dev"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
 cask "cool-retro-term"
+# Search engine for developers
+cask "devbook"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices

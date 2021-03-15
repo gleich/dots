@@ -285,7 +285,7 @@
   "jupyter.sendSelectionToInteractiveWindow": false,
   "workbench.colorTheme": "Julia (Monokai Vibrant)",
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust"
+    "editor.defaultFormatter": "matklad.rust-analyzer"
   },
   "rust.all_features": true,
   "workbench.colorCustomizations": {
@@ -418,9 +418,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "rust.rustfmt_path": "/Users/matt/.cargo/bin/rustfmt",
+  "rust.rustfmt_path": "~/.cargo/bin/rustfmt",
   "vsicons.dontShowNewVersionMessage": true,
-  "workbench.activityBar.visible": false,
   "yaclock.hour12": true,
   "yaclock.flashTimeSeparator": true,
   "yaclock.prefix": "🌴🌲 ",
@@ -428,5 +427,7 @@
   "yaclock.showDate": true,
   "yaclock.showAmPm": true,
   "window.zoomLevel": 1,
-  "hadolint.hadolintPath": "/usr/local/bin/hadolint"
+  "hadolint.hadolintPath": "/usr/local/bin/hadolint",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.activityBar.visible": false
 }
