@@ -1,5 +1,3 @@
-==> New Formulae
-threemux
 tap "beeftornado/rmtree"
 tap "homebrew/bundle"
 tap "homebrew/cask"

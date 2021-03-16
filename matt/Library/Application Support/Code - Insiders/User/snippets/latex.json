@@ -26,12 +26,26 @@
     ],
     "description": "Enumeration with capital letters"
   },
+  "Enumeration with capital letters in parentheses": {
+    "prefix": ["enumP"],
+    "body": [
+      "\\begin{enumerate}[label=(\\Alph*)]\n    \\item $1 \n\\end{enumerate}"
+    ],
+    "description": "Enumeration with capital letters in parentheses"
+  },
   "Enumeration with lowercase letters": {
     "prefix": ["enuma"],
     "body": [
       "\\begin{enumerate}[label=\\alph*.]\n    \\item $1 \n\\end{enumerate}"
     ],
     "description": "Enumeration with lowercase letters"
+  },
+  "Enumeration with lowercase letters in parentheses": {
+    "prefix": ["enump"],
+    "body": [
+      "\\begin{enumerate}[label=(\\alph*)]\n    \\item $1 \n\\end{enumerate}"
+    ],
+    "description": "Enumeration with lowercase letters in parentheses"
   },
   "Itemize with no bullets": {
     "prefix": ["itemn"],
