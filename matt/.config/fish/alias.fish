@@ -15,7 +15,7 @@ alias cpwd="pwd | pbcopy"
 alias weather="curl wttr.in"
 alias sch="fcd Junior-Year"
 
-alias clock="tty-clock -tSbBc"
+alias clock="tty-clock -SbBc"
 alias ra="ranger"
 alias v="nvim"
 alias c="clear"

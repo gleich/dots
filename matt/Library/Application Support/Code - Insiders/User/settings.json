@@ -136,6 +136,8 @@
     "subnational",
     "texsch",
     "textdegree",
+    "textemdash",
+    "textendash",
     "textsuperscript",
     "toolchain",
     "uint",
@@ -420,7 +422,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "rust.rustfmt_path": "~/.cargo/bin/rustfmt",
   "vsicons.dontShowNewVersionMessage": true,
-  "yaclock.hour12": true,
   "yaclock.flashTimeSeparator": true,
   "yaclock.prefix": "🌴🌲 ",
   "yaclock.showDay": true,
@@ -429,5 +430,6 @@
   "window.zoomLevel": 1,
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabs": false
 }
