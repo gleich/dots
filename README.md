@@ -10,7 +10,7 @@ OS: macOS 11.2.3 x86_64
 Host: MacBookPro16,1 
 Kernel: Darwin 20.3.0 
 Packages: 202 (brew) 
-Shell: fish 3.2.0 
+Shell: fish 3.2.1 
 DE: Aqua 
 WM: Rectangle 
 Terminal: iTerm2 

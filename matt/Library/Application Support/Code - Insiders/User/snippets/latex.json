@@ -298,5 +298,10 @@
     "prefix": ["icor"],
     "body": ["\\ding{55} \\red{Incorrect}"],
     "description": "Incorrect"
+  },
+  "Yellow Highlighter": {
+    "prefix": ["ye"],
+    "body": ["\\yellow{$1}"],
+    "description": "Yellow Highlighter"
   }
 }
