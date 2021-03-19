@@ -1,5 +1,3 @@
-==> New Formulae
-kertish-dfs
 tap "beeftornado/rmtree"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -273,6 +271,7 @@ mas "Plash", id: 1494023538
 mas "Playgrounds", id: 1496833156
 mas "Poolside FM", id: 1514817810
 mas "RAW Power", id: 1157116444
+mas "Session", id: 1521432881
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Telegram", id: 747648890
