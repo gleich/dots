@@ -430,6 +430,5 @@
   "window.zoomLevel": 1,
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.editor.showTabs": false,
   "workbench.activityBar.visible": false
 }
