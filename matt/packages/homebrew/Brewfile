@@ -29,6 +29,8 @@ brew "bpytop"
 brew "cmatrix"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Disk Usage/Free Utility - a better 'df' alternative

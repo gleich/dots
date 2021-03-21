@@ -2,6 +2,7 @@ aaron-bond.better-comments
 aleksandra.go-group-imports
 alexperronnet.spectrum-vscode-icons
 bmalehorn.vscode-fish
+bodil.prettier-toml
 bungcip.better-toml
 CalebDenio.fgh-code
 cameronbieganek.julia-color-themes

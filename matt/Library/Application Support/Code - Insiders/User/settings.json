@@ -427,8 +427,8 @@
   "yaclock.showDay": true,
   "yaclock.showDate": true,
   "yaclock.showAmPm": true,
-  "window.zoomLevel": 1,
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 1
 }

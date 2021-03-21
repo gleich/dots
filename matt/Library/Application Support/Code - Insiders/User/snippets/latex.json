@@ -233,6 +233,24 @@
     ],
     "description": "Practice Problem"
   },
+  "Sub Practice Problem": {
+    "prefix": ["pras"],
+    "body": [
+      "\\subsection{}",
+      "\t\\subsubsection{Work \\& Answer}",
+      "\t\t\\begin{align*}",
+      "\t\t\t$2",
+      "\t\t\\end{align*}",
+      "\t\t\\msol{$3}",
+      "\t\\subsubsection{Result}",
+      "\t\t$4",
+      "\t\\subsubsection{Correction/Take Away}",
+      "\t\t$5",
+      "",
+      "\\horizontalrule"
+    ],
+    "description": "Sub Practice Problem"
+  },
   "y-axis intercept": {
     "prefix": ["yint"],
     "body": ["$ y $-intercept"],
