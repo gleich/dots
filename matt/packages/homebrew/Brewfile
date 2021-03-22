@@ -170,6 +170,8 @@ cask "cool-retro-term"
 cask "devbook"
 # Voice and text chat software
 cask "discord"
+# Rounds your display corners
+cask "displaperture"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Draw.io is free online diagram software
@@ -266,6 +268,7 @@ mas "Interval", id: 973220423
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
 mas "MindNode", id: 1289197285
+mas "Negative", id: 1378123825
 mas "Numbers", id: 409203825
 mas "Octagon", id: 691956219
 mas "Pages", id: 409201541
