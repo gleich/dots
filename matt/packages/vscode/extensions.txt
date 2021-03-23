@@ -27,6 +27,7 @@ jameslan.yaclock
 JeffersonQin.latex-snippets-jeff
 jeroen-meijer.pubspec-assist
 Kasik96.swift
+Kurozero.vscode-commit-reminder
 MartinLaRegina.clear-view-indent
 matklad.rust-analyzer
 miguelsolorio.fluent-icons
@@ -38,7 +39,6 @@ ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
 npxms.hide-gitignored
-plibither8.remove-comments
 redhat.java
 redhat.vscode-yaml
 ritwickdey.LiveServer
@@ -56,7 +56,7 @@ vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-maven
 vscode-icons-team.vscode-icons
-Vtrois.gitmoji-vscode
 WakaTime.vscode-wakatime
+yaelguilloux.vscode-commit-prompt
 yzhang.markdown-all-in-one
 znck.grammarly
