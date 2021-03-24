@@ -430,5 +430,7 @@
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.activityBar.visible": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "conventionalCommits.scopes": ["dev script", "conf"],
+  "conventionalCommits.gitmoji": false
 }

@@ -34,5 +34,9 @@
   {
     "key": "cmd+d",
     "command": "fgh-code.openProject"
+  },
+  {
+    "key": "cmd+g",
+    "command": "extension.conventionalCommits"
   }
 ]
