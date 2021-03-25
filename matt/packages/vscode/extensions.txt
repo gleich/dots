@@ -17,7 +17,6 @@ dunstontc.viml
 emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
-fabiospampinato.vscode-install-vsix
 formulahendry.github-actions
 foxundermoon.shell-format
 golang.go
@@ -31,7 +30,7 @@ Kasik96.swift
 Kurozero.vscode-commit-reminder
 MartinLaRegina.clear-view-indent
 matklad.rust-analyzer
-Matt-Gleich.theme-blackbird
+MattGleich.theme-blackbird
 miguelsolorio.fluent-icons
 mikestead.dotenv
 ms-python.python

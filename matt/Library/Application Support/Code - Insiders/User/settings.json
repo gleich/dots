@@ -144,6 +144,7 @@
     "uncommented",
     "unstaged",
     "vlan",
+    "vsix",
     "wakatime",
     "webex",
     "zwift"
@@ -280,7 +281,6 @@
   "explorer.compactFolders": false,
   "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
   "editor.glyphMargin": false,
-  "editor.renderLineHighlight": "gutter",
   "editor.folding": false,
   "grammarly.userWords": ["fgh", "repos"],
   "markdown.extension.toc.levels": "1..4",
@@ -359,7 +359,8 @@
       "editorWidget.border": "#16151c",
       "editorSuggestWidget.background": "#000000",
       "editorSuggestWidget.border": "#16151c",
-      "editorSuggestWidget.selectedBackground": "#16151c"
+      "editorSuggestWidget.selectedBackground": "#16151c",
+      "editor.lineHighlightBackground": "#ff0000"
     }
   },
   "emmet.triggerExpansionOnTab": true,
@@ -444,14 +445,15 @@
   "yaclock.showDate": true,
   "yaclock.showAmPm": true,
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
-  "workbench.activityBar.visible": false,
   "window.zoomLevel": 1,
-  "conventionalCommits.scopes": ["dev script", "conf"],
+  "conventionalCommits.scopes": ["script", "config", "license"],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
   "editor.snippetSuggestions": "top",
   "latex-workshop.intellisense.unimathsymbols.enabled": true,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "blackbird",
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "blackbird"
 }
