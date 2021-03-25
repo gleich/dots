@@ -7,16 +7,17 @@ bungcip.better-toml
 CalebDenio.fgh-code
 cameronbieganek.julia-color-themes
 christian-kohler.path-intellisense
-CoenraadS.bracket-pair-colorizer-2
 cschleiden.vscode-github-actions
 Dart-Code.dart-code
 Dart-Code.flutter
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+dracula-theme.theme-dracula
 dunstontc.viml
 emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
+fabiospampinato.vscode-install-vsix
 formulahendry.github-actions
 foxundermoon.shell-format
 golang.go
@@ -30,6 +31,7 @@ Kasik96.swift
 Kurozero.vscode-commit-reminder
 MartinLaRegina.clear-view-indent
 matklad.rust-analyzer
+Matt-Gleich.theme-blackbird
 miguelsolorio.fluent-icons
 mikestead.dotenv
 ms-python.python
