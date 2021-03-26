@@ -1,9 +1,5 @@
 [
   {
-    "key": "cmd+e",
-    "command": "extension.Gitmoji"
-  },
-  {
     "key": "shift+cmd+s",
     "command": "git.stageAll"
   },
@@ -36,7 +32,35 @@
     "command": "fgh-code.openProject"
   },
   {
-    "key": "cmd+g",
+    "key": "cmd+e",
     "command": "extension.conventionalCommits"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState != 'initializing'"
   }
 ]

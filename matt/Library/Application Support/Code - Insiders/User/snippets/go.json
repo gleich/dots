@@ -1,0 +1,11 @@
+{
+	"Check if error is not nil": {
+		"prefix": "ife",
+		"body": [
+			"if err != nil {",
+			"    $1",
+			"}"
+		],
+		"description": "Check if error is not nil"
+	}
+}

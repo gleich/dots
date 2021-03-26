@@ -446,14 +446,23 @@
   "yaclock.showAmPm": true,
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "window.zoomLevel": 1,
-  "conventionalCommits.scopes": ["script", "config", "license"],
+  "conventionalCommits.scopes": [
+    "script",
+    "config",
+    "license",
+    "structure",
+    "init",
+    "format"
+  ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
-  "editor.snippetSuggestions": "top",
   "latex-workshop.intellisense.unimathsymbols.enabled": true,
   "workbench.productIconTheme": "fluent-icons",
   "breadcrumbs.enabled": false,
   "editor.renderLineHighlight": "none",
   "workbench.activityBar.visible": false,
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
   "workbench.colorTheme": "blackbird"
 }

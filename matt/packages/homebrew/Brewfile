@@ -220,8 +220,6 @@ cask "minecraft"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# Web browser
-cask "opera"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes
