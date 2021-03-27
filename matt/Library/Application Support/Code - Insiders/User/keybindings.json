@@ -62,5 +62,9 @@
     "key": "f5",
     "command": "-workbench.action.debug.start",
     "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "texsch.create"
   }
 ]
