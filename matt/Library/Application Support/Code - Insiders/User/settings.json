@@ -422,9 +422,10 @@
   "rust.rustfmt_path": "~/.cargo/bin/rustfmt",
   "vsicons.dontShowNewVersionMessage": true,
   "yaclock.flashTimeSeparator": true,
-  "yaclock.prefix": "🌴🌲 ",
+  "yaclock.prefix": "🌲🌲 ",
   "yaclock.showDay": true,
   "yaclock.showDate": true,
+  "window.titleSeparator": " 🌲 ",
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "window.zoomLevel": 1,
   "conventionalCommits.scopes": [
@@ -433,7 +434,9 @@
     "license",
     "structure",
     "init",
-    "format"
+    "format",
+    "lint",
+    "remove"
   ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
