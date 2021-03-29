@@ -166,12 +166,8 @@ cask "brave-browser-dev"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
 cask "cool-retro-term"
-# Search engine for developers
-cask "devbook"
 # Voice and text chat software
 cask "discord"
-# Rounds your display corners
-cask "displaperture"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Draw.io is free online diagram software

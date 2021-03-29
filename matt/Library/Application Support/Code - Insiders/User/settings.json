@@ -131,6 +131,7 @@
     "repos",
     "rootly",
     "rustfmt",
+    "rustup",
     "sdks",
     "strftime",
     "subnational",
@@ -448,5 +449,6 @@
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "yaclock.hour12": true,
-  "workbench.colorTheme": "blackbird"
+  "workbench.colorTheme": "blackbird",
+  "git.rebaseWhenSync": true
 }
