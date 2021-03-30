@@ -437,7 +437,8 @@
     "init",
     "format",
     "lint",
-    "remove"
+    "remove",
+    "deps"
   ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,

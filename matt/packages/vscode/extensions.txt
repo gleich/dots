@@ -26,7 +26,6 @@ jameslan.yaclock
 JeffersonQin.latex-snippets-jeff
 jeroen-meijer.pubspec-assist
 Kasik96.swift
-Kurozero.vscode-commit-reminder
 MartinLaRegina.clear-view-indent
 matklad.rust-analyzer
 MattGleich.texsch
