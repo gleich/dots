@@ -233,7 +233,7 @@ cask "slack"
 cask "steam"
 # PGF/TikZ diagram editor
 cask "tikzit"
-# Integrated development environment
+# Code editor
 cask "visual-studio-code-insiders"
 # Multimedia player
 cask "vlc"

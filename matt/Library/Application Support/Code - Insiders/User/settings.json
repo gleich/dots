@@ -450,6 +450,6 @@
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "yaclock.hour12": true,
-  "workbench.colorTheme": "blackbird",
-  "git.rebaseWhenSync": true
+  "git.rebaseWhenSync": true,
+  "workbench.colorTheme": "blackbird"
 }
