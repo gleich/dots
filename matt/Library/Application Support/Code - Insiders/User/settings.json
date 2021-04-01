@@ -129,6 +129,7 @@
     "pyyaml",
     "repo",
     "repos",
+    "reqwest",
     "rootly",
     "rustfmt",
     "rustup",
