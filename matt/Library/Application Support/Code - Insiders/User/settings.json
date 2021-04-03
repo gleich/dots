@@ -151,7 +151,7 @@
     "webex",
     "zwift"
   ],
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -211,9 +211,6 @@
     "yaml",
     "yml"
   ],
-  "yaml.schemas": {
-    "file:///Users/matthewgleich/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.6/schemas/action.schema.json": "/action.yml"
-  },
   "editor.fontLigatures": true,
   "dart.warnWhenEditingFilesOutsideWorkspace": false,
   "workbench.editor.highlightModifiedTabs": true,
@@ -279,10 +276,8 @@
   "python.formatting.blackPath": "/usr/local/bin/black",
   "editor.smoothScrolling": true,
   "git.confirmSync": false,
-  "terminal.integrated.rendererType": "dom",
   "explorer.compactFolders": false,
   "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
-  "editor.glyphMargin": false,
   "editor.folding": false,
   "grammarly.userWords": ["fgh", "repos"],
   "markdown.extension.toc.levels": "1..4",
@@ -291,84 +286,9 @@
     "editor.defaultFormatter": "matklad.rust-analyzer"
   },
   "rust.all_features": true,
-  "workbench.colorCustomizations": {
-    "[Julia (Monokai Vibrant)]": {
-      "editorPane.background": "#000000",
-      "editor.background": "#000000",
-      "foreground": "#ffffff",
-      "sideBar.background": "#000000",
-      "titleBar.activeBackground": "#000000",
-      "titleBar.inactiveBackground": "#000000",
-      "titleBar.border": "#000000",
-      "sideBarTitle.foreground": "#1eff00",
-      "tab.inactiveBackground": "#070707",
-      "tab.activeForeground": "#ffffff",
-      "tab.inactiveForeground": "#ffffff",
-      "tab.activeBorderTop": "#1eff00",
-      "tab.activeModifiedBorder": "#FFFF00",
-      "tab.activeBackground": "#000000",
-      "titleBar.activeForeground": "#1eff00",
-      "editorGroupHeader.tabsBackground": "#000000",
-      "button.background": "#000000",
-      "button.foreground": "#1eff00",
-      "button.hoverBackground": "#1eff00",
-      "statusBar.border": "#16151c",
-      "statusBar.background": "#000000",
-      "statusBar.noFolderBackground": "#000000",
-      "statusBar.debuggingBackground": "#000000",
-      "notificationCenterHeader.background": "#000000",
-      "notificationCenter.border": "#16151c",
-      "notificationToast.border": "#16151c",
-      "notifications.background": "#000000",
-      "notifications.border": "#16151c",
-      "notificationsInfoIcon.foreground": "#1eff00",
-      "notificationsWarningIcon.foreground": "#FFFF00",
-      "notificationsErrorIcon.foreground": "#ff0000",
-      "tab.border": "#16151c",
-      "editorGroupHeader.tabsBorder": "#16151c",
-      "badge.background": "#16151c",
-      "badge.foreground": "#FFFFFF",
-      "sideBarSectionHeader.background": "#000000",
-      "sideBarSectionHeader.foreground": "#1eff00",
-      "sideBarSectionHeader.border": "#16151c",
-      "sideBar.dropBackground": "#1eff00",
-      "sideBar.border": "#16151c",
-      "progressBar.background": "#1eff00",
-      "gitDecoration.addedResourceForeground": "#1eff00",
-      "gitDecoration.deletedResourceForeground": "#ff0000",
-      "gitDecoration.modifiedResourceForeground": "#FFFF00",
-      "gitDecoration.untrackedResourceForeground": "#1eff00",
-      "gitDecoration.stageModifiedResourceForeground": "#FFFF00",
-      "list.errorForeground": "#ff0000",
-      "contrastBorder": "#16151c",
-      "input.background": "#000000",
-      "input.border": "#16151c",
-      "inputOption.activeBorder": "#1eff00",
-      "welcomePage.background": "#000000",
-      "editorGutter.addedBackground": "#1eff00",
-      "editorGutter.deletedBackground": "#ff0000",
-      "editorGutter.modifiedBackground": "#FFFF00",
-      "quickInput.background": "#000000",
-      "icon.foreground": "#1eff00",
-      "list.focusForeground": "#1eff00",
-      "list.highlightForeground": "#1eff00",
-      "list.focusBackground": "#16151c",
-      "focusBorder": "#1eff00",
-      "checkbox.background": "#000000",
-      "dropdown.background": "#000000",
-      "dropdown.border": "#16151c",
-      "editorWidget.background": "#000000",
-      "editorWidget.border": "#16151c",
-      "editorSuggestWidget.background": "#000000",
-      "editorSuggestWidget.border": "#16151c",
-      "editorSuggestWidget.selectedBackground": "#16151c",
-      "editor.lineHighlightBackground": "#ff0000"
-    }
-  },
   "emmet.triggerExpansionOnTab": true,
   "emmet.extensionsPath": ["~/.config/emmet/"],
   "grammarly.hideUnavailablePremiumAlerts": true,
-  "editor.occurrencesHighlight": false,
   "vim.enableNeovim": true,
   "latex-workshop.view.pdf.invert": 1,
   "latex-workshop.latex.autoClean.run": "onBuilt",
@@ -397,6 +317,12 @@
     },
     "java:S125": {
       "level": "off"
+    },
+    "java:S3776": {
+      "level": "off"
+    },
+    "java:S1192": {
+      "level": "off"
     }
   },
   "emeraldwalk.runonsave": {
@@ -424,7 +350,7 @@
   "rust.rustfmt_path": "~/.cargo/bin/rustfmt",
   "vsicons.dontShowNewVersionMessage": true,
   "yaclock.flashTimeSeparator": true,
-  "yaclock.prefix": "🌲🌲 ",
+  "yaclock.prefix": "∆∇ 🌲🌲 ∆∇ ",
   "yaclock.showDay": true,
   "yaclock.showDate": true,
   "window.titleSeparator": " 🌲 ",
@@ -452,5 +378,9 @@
   },
   "yaclock.hour12": true,
   "git.rebaseWhenSync": true,
-  "workbench.colorTheme": "blackbird"
+  "editor.cursorStyle": "line-thin",
+  "workbench.colorTheme": "blackbird",
+  "workbench.productIconTheme": "icons-carbon",
+  "editor.occurrencesHighlight": true,
+  "rust-analyzer.notifications.cargoTomlNotFound": false
 }

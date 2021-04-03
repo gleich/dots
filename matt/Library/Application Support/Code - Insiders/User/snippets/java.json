@@ -1,24 +1,29 @@
 {
-	"Print new line to the console": {
-		"prefix": "println",
-		"body": [
-			"System.out.println($1);"
-		],
-		"description": "Print a new line to the console"
-	},
-	"Print to the console": {
-		"prefix": "print",
-		"body": [
-			"System.out.print($1);"
-		],
-		"description": "Print to the console"
-	},
-	"Printf to the console": {
-		"prefix": "printf",
-		"body": [
-			"System.out.printf($1);"
-		],
-		"description": "Printf to the console"
-	}
+  "Print new line to the console": {
+    "prefix": "println",
+    "body": ["System.out.println($1);"],
+    "description": "Print a new line to the console"
+  },
+  "Print to the console": {
+    "prefix": "print",
+    "body": ["System.out.print($1);"],
+    "description": "Print to the console"
+  },
+  "Printf to the console": {
+    "prefix": "printf",
+    "body": ["System.out.printf($1);"],
+    "description": "Printf to the console"
+  },
+  "Class purpose": {
+    "prefix": "purpose",
+    "body": [
+      "/**",
+      " * Purpose: $1",
+      " *",
+      " * @author $2",
+      " * @version $3",
+      " */"
+    ],
+    "description": "Java class purpose"
+  }
 }
-
