@@ -291,6 +291,9 @@
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
   "latex-workshop.view.pdf.invert": 1,
+  "latex-workshop.view.pdf.invertMode.enabled": "always",
+  "latex-workshop.view.autoFocus.enabled": false,
+  "latex-workshop.view.pdf.scrollMode": 2,
   "latex-workshop.latex.autoClean.run": "onBuilt",
   "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.latex.build.forceRecipeUsage": true,
@@ -308,7 +311,6 @@
       "filenamePattern": "*.ipynb"
     }
   ],
-  "editor.minimap.enabled": false,
   "latex-utilities.message.update.show": false,
   "workbench.tree.expandMode": "singleClick",
   "sonarlint.rules": {
@@ -322,6 +324,9 @@
       "level": "off"
     },
     "java:S1192": {
+      "level": "off"
+    },
+    "java:S1871": {
       "level": "off"
     }
   },
@@ -379,8 +384,13 @@
   "yaclock.hour12": true,
   "git.rebaseWhenSync": true,
   "editor.cursorStyle": "line-thin",
-  "workbench.colorTheme": "blackbird",
   "workbench.productIconTheme": "icons-carbon",
   "editor.occurrencesHighlight": true,
-  "rust-analyzer.notifications.cargoTomlNotFound": false
+  "rust-analyzer.notifications.cargoTomlNotFound": false,
+  "[latex]": {
+    "editor.formatOnPaste": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.formatOnSave": false
+  },
+  "workbench.colorTheme": "blackbird"
 }
