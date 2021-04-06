@@ -271,6 +271,16 @@
     "body": ["\\explain{$1}{$2}"],
     "description": "Explain Equation Macro"
   },
+  "Combine Like Terms (Right Side)": {
+    "prefix": ["cltr"],
+    "body": ["\\explain{Combine Like Terms (R)}{$1}"],
+    "description": "Combine Like Terms (Right Side)"
+  },
+  "Combine Like Terms (Left Side)": {
+    "prefix": ["cltl"],
+    "body": ["\\explain{Combine Like Terms (L)}{$1}"],
+    "description": "Combine Like Terms (Left Side)"
+  },
   "Variable Declaration": {
     "prefix": ["vars"],
     "body": [
