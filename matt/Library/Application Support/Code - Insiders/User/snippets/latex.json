@@ -331,5 +331,20 @@
     "prefix": ["ye"],
     "body": ["\\yellow{$1}"],
     "description": "Yellow Highlighter"
+  },
+  "th super script suffix": {
+    "prefix": ["th"],
+    "body": ["$1\\textsuperscript{th}"],
+    "description": "th super script suffix"
+  },
+  "nd super script suffix": {
+    "prefix": ["nd"],
+    "body": ["$1\\textsuperscript{nd}"],
+    "description": "nd super script suffix"
+  },
+  "therefore": {
+    "prefix": ["te"],
+    "body": ["\\therefore"],
+    "description": "therefore"
   }
 }
