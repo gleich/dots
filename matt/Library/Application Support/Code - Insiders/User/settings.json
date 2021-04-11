@@ -361,7 +361,6 @@
   "yaclock.showDate": true,
   "window.titleSeparator": " 🌲 ",
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
-  "window.zoomLevel": 1,
   "conventionalCommits.scopes": [
     "script",
     "config",
@@ -396,5 +395,6 @@
   "workbench.colorTheme": "blackbird",
   "latex-workshop.bibtex-format.sort.enabled": true,
   "latex-workshop.viewer.pdf.internal.keyboardEvent": "force",
-  "latex-workshop.view.pdf.zoom": "page-fit"
+  "latex-workshop.view.pdf.zoom": "page-fit",
+  "window.zoomLevel": 1
 }
