@@ -173,6 +173,7 @@ cask "docker"
 # Draw.io is free online diagram software
 cask "drawio"
 cask "edex-ui"
+# Collaborative team software
 cask "figma"
 # Web browser
 cask "firefox-developer-edition"

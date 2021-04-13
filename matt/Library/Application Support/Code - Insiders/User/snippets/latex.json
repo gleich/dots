@@ -11,7 +11,7 @@
   },
   "Center": {
     "prefix": ["ce"],
-    "body": ["\\begin{center}\n    \\item $1 \n\\end{center}"],
+    "body": ["\\begin{center}\n\t\\item $1 \n\\end{center}"],
     "description": "Center environment"
   },
   "Center Math": {
@@ -22,34 +22,34 @@
   "Enumeration with capital letters": {
     "prefix": ["enumA"],
     "body": [
-      "\\begin{enumerate}[label=\\Alph*.]\n    \\item $1 \n\\end{enumerate}"
+      "\\begin{enumerate}[label=\\Alph*.]\n\t\\item $1 \n\\end{enumerate}"
     ],
     "description": "Enumeration with capital letters"
   },
   "Enumeration with capital letters in parentheses": {
     "prefix": ["enumP"],
     "body": [
-      "\\begin{enumerate}[label=(\\Alph*)]\n    \\item $1 \n\\end{enumerate}"
+      "\\begin{enumerate}[label=(\\Alph*)]\n\t\\item $1 \n\\end{enumerate}"
     ],
     "description": "Enumeration with capital letters in parentheses"
   },
   "Enumeration with lowercase letters": {
     "prefix": ["enuma"],
     "body": [
-      "\\begin{enumerate}[label=\\alph*.]\n    \\item $1 \n\\end{enumerate}"
+      "\\begin{enumerate}[label=\\alph*.]\n\t\\item $1 \n\\end{enumerate}"
     ],
     "description": "Enumeration with lowercase letters"
   },
   "Enumeration with lowercase letters in parentheses": {
     "prefix": ["enump"],
     "body": [
-      "\\begin{enumerate}[label=(\\alph*)]\n    \\item $1 \n\\end{enumerate}"
+      "\\begin{enumerate}[label=(\\alph*)]\n\t\\item $1 \n\\end{enumerate}"
     ],
     "description": "Enumeration with lowercase letters in parentheses"
   },
   "Itemize with no bullets": {
     "prefix": ["itemn"],
-    "body": ["\\begin{itemize}[label=]\n    \\item $1 \n\\end{itemize}"],
+    "body": ["\\begin{itemize}[label=]\n\t\\item $1 \n\\end{itemize}"],
     "description": "Itemize with no bullets"
   },
   "Full set of parentheses": {
@@ -60,14 +60,14 @@
   "Term Table": {
     "prefix": ["ttab"],
     "body": [
-      "\\begin{center}\n    \\begin{tabular}{| c | c |}\n        \\hline\n        \\textbf{Term} & \\textbf{Definition} \\\\\\ \\hline \\hline\n        $1 & $2 \\\\\\ \\hline$3\n    \\end{tabular}\n\\end{center}"
+      "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t    \\hline\n\t    \\textbf{Term} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t    $1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
     ],
     "description": "Term Table"
   },
   "Variable Table": {
     "prefix": ["vtab"],
     "body": [
-      "\\begin{center}\n    \\begin{tabular}{| c | c |}\n        \\hline\n        \\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n        $1 & $2 \\\\\\ \\hline$3\n    \\end{tabular}\n\\end{center}"
+      "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t    \\hline\n\t    \\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t    $1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
     ],
     "description": "Variable Table"
   },
@@ -89,20 +89,20 @@
   "Question": {
     "prefix": ["qe"],
     "body": [
-      "\\section{}\n    \\subsection{Question}\n        $1\n    \\subsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\msol{$3}"
+      "\\section{}\n\t\\subsection{Question}\n\t    $1\n\t\\subsection{Work \\& Answer}\n\t    \\begin{align*}\n\t        $2\n\t    \\end{align*}\n\t    \\msol{$3}"
     ],
     "description": "Question"
   },
   "Question Sub": {
     "prefix": ["qes"],
     "body": [
-      "\\subsection{}\n    \\subsubsection{Question}\n        $1\n    \\subsubsection{Work \\& Answer}\n        \\begin{align*}\n            $2\n        \\end{align*}\n        \\msol{$3}"
+      "\\subsection{}\n\t\\subsubsection{Question}\n\t    $1\n\t\\subsubsection{Work \\& Answer}\n\t    \\begin{align*}\n\t        $2\n\t    \\end{align*}\n\t    \\msol{$3}"
     ],
     "description": "Question inside of a section"
   },
   "Plain Enumeration": {
     "prefix": ["enum"],
-    "body": ["\\begin{enumerate}\n    \\item $1 \n\\end{enumerate}"],
+    "body": ["\\begin{enumerate}\n\t\\item $1 \n\\end{enumerate}"],
     "description": "Plain Enumeration"
   },
   "Plain Text in Math Mode": {
@@ -126,19 +126,34 @@
     "description": "A measured angle"
   },
   "Celcius": {
-    "prefix": ["ct"],
-    "body": ["$1 C$ ^{\\circ} $"],
+    "prefix": ["cet"],
+    "body": ["C$ ^{\\circ} $"],
     "description": "A normal text celcius snippet"
   },
   "Fahrenheit": {
-    "prefix": ["ft"],
-    "body": ["$1 F$ ^{\\circ} $"],
+    "prefix": ["fet"],
+    "body": ["F$ ^{\\circ} $"],
     "description": "A normal text fahrenheit snippet"
   },
   "Kelvin": {
-    "prefix": ["kt"],
-    "body": ["$1 K$ ^{\\circ} $"],
+    "prefix": ["ket"],
+    "body": ["K$ ^{\\circ} $"],
     "description": "A normal text kelvin snippet"
+  },
+  "Celcius Math": {
+    "prefix": ["cem"],
+    "body": ["\\textrm{ C}^{\\circ}"],
+    "description": "A math text celcius snippet"
+  },
+  "Fahrenheit Math": {
+    "prefix": ["fem"],
+    "body": ["\\textrm{ F}^{\\circ}"],
+    "description": "A math text fahrenheit snippet"
+  },
+  "Kelvin Math": {
+    "prefix": ["kem"],
+    "body": ["\\textrm{ K}^{\\circ}"],
+    "description": "A math text kelvin snippet"
   },
   "y axis": {
     "prefix": ["yaxis"],
@@ -268,18 +283,23 @@
   },
   "Explain Equation Macro": {
     "prefix": ["ep"],
-    "body": ["\\explain{$1}{$2}"],
+    "body": ["\\explain{$1}{\n\t$2\n}"],
     "description": "Explain Equation Macro"
   },
   "Combine Like Terms (Right Side)": {
     "prefix": ["cltr"],
-    "body": ["\\explain{Combine Like Terms (R)}{$1}"],
+    "body": ["\\explain{Combine Like Terms (R)}{\n\t$1\n}"],
     "description": "Combine Like Terms (Right Side)"
   },
   "Combine Like Terms (Left Side)": {
     "prefix": ["cltl"],
-    "body": ["\\explain{Combine Like Terms (L)}{$1}"],
+    "body": ["\\explain{Combine Like Terms (L)}{\n\t$1\n}"],
     "description": "Combine Like Terms (Left Side)"
+  },
+  "Variable Insertion": {
+    "prefix": ["is"],
+    "body": ["\\explain{Insert}{\n\t$1\n}"],
+    "description": "Variable Insertion"
   },
   "Variable Declaration": {
     "prefix": ["vars"],
@@ -346,5 +366,15 @@
     "prefix": ["te"],
     "body": ["\\therefore"],
     "description": "therefore"
+  },
+  "approximate equal": {
+    "prefix": ["aeq"],
+    "body": ["\\approxeq"],
+    "description": "approxeq"
+  },
+  "unknown": {
+    "prefix": ["un"],
+    "body": ["\\textrm{?} \\\\\\\n"],
+    "description": "unknown"
   }
 }

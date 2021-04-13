@@ -298,7 +298,7 @@
   "latex-workshop.latex.autoClean.run": "onBuilt",
   "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.latex.build.forceRecipeUsage": true,
-  "latex-workshop.progress.barStyle": "Block Quadrants",
+  "latex-workshop.progress.barStyle": "none",
   "workbench.editor.decorations.badges": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -396,5 +396,6 @@
   "latex-workshop.bibtex-format.sort.enabled": true,
   "latex-workshop.viewer.pdf.internal.keyboardEvent": "force",
   "latex-workshop.view.pdf.zoom": "page-fit",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false
 }
