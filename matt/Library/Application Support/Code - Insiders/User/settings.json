@@ -397,5 +397,6 @@
   "latex-workshop.viewer.pdf.internal.keyboardEvent": "force",
   "latex-workshop.view.pdf.zoom": "page-fit",
   "window.zoomLevel": 1,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "go.toolsManagement.autoUpdate": true
 }

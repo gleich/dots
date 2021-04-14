@@ -4,6 +4,7 @@ bmalehorn.vscode-fish
 bodil.prettier-toml
 bungcip.better-toml
 CalebDenio.fgh-code
+CalebDenio.vs-slack
 christian-kohler.path-intellisense
 Dart-Code.dart-code
 Dart-Code.flutter
@@ -28,7 +29,6 @@ ms-azuretools.vscode-docker
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
-ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
 redhat.java

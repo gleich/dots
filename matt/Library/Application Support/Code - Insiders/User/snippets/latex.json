@@ -60,14 +60,14 @@
   "Term Table": {
     "prefix": ["ttab"],
     "body": [
-      "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t    \\hline\n\t    \\textbf{Term} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t    $1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
+      "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t\t\\hline\n\t\t\\textbf{Term} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
     ],
     "description": "Term Table"
   },
   "Variable Table": {
     "prefix": ["vtab"],
     "body": [
-      "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t    \\hline\n\t    \\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t    $1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
+      "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t\t\\hline\n\t\t\\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
     ],
     "description": "Variable Table"
   },
@@ -89,14 +89,21 @@
   "Question": {
     "prefix": ["qe"],
     "body": [
-      "\\section{}\n\t\\subsection{Question}\n\t    $1\n\t\\subsection{Work \\& Answer}\n\t    \\begin{align*}\n\t        $2\n\t    \\end{align*}\n\t    \\msol{$3}"
+      "\\section{}\n\t\\subsection{Question}\n\t\t$1\n\t\\subsection{Work \\& Answer}\n\t\t\\begin{align*}\n\t\t    $2\n\t\t\\end{align*}\n\t\t\\msol{$3}"
     ],
     "description": "Question"
+  },
+  "Question Normal": {
+    "prefix": ["qen"],
+    "body": [
+      "\\section{}\n\t\\subsection{Question}\n\t\t$1\n\t\\subsection{Answer}\n\t\t\\sol{$3}"
+    ],
+    "description": "Question Normal"
   },
   "Question Sub": {
     "prefix": ["qes"],
     "body": [
-      "\\subsection{}\n\t\\subsubsection{Question}\n\t    $1\n\t\\subsubsection{Work \\& Answer}\n\t    \\begin{align*}\n\t        $2\n\t    \\end{align*}\n\t    \\msol{$3}"
+      "\\subsection{}\n\t\\subsubsection{Question}\n\t\t$1\n\t\\subsubsection{Work \\& Answer}\n\t\t\\begin{align*}\n\t\t    $2\n\t\t\\end{align*}\n\t\t\\msol{$3}"
     ],
     "description": "Question inside of a section"
   },
@@ -376,5 +383,10 @@
     "prefix": ["un"],
     "body": ["\\textrm{?} \\\\\\\n"],
     "description": "unknown"
+  },
+  "ohm text": {
+    "prefix": ["ohm"],
+    "body": ["$ \\Omega $"],
+    "description": "ohm in text"
   }
 }
