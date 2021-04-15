@@ -380,13 +380,23 @@
     "description": "approxeq"
   },
   "unknown": {
-    "prefix": ["un"],
+    "prefix": ["uk"],
     "body": ["\\textrm{?} \\\\\\\n"],
     "description": "unknown"
+  },
+  "unit": {
+    "prefix": ["un"],
+    "body": ["\\textrm{ $1}"],
+    "description": "data unit"
   },
   "ohm text": {
     "prefix": ["ohm"],
     "body": ["$ \\Omega $"],
     "description": "ohm in text"
+  },
+  "ohm math": {
+    "prefix": ["om"],
+    "body": ["\\textrm{ } \\Omega"],
+    "description": "ohm in math"
   }
 }
