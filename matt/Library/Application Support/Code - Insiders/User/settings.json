@@ -378,13 +378,11 @@
   "latex-workshop.intellisense.unimathsymbols.enabled": true,
   "breadcrumbs.enabled": false,
   "editor.renderLineHighlight": "none",
-  "workbench.activityBar.visible": false,
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "yaclock.hour12": true,
   "git.rebaseWhenSync": true,
-  "editor.cursorStyle": "line-thin",
   "workbench.productIconTheme": "icons-carbon",
   "rust-analyzer.notifications.cargoTomlNotFound": false,
   "[latex]": {
@@ -398,5 +396,10 @@
   "latex-workshop.view.pdf.zoom": "page-fit",
   "window.zoomLevel": 1,
   "editor.minimap.enabled": false,
-  "go.toolsManagement.autoUpdate": true
+  "go.toolsManagement.autoUpdate": true,
+  "vim.startInInsertMode": true,
+  "vim.smartRelativeLine": true,
+  "workbench.activityBar.visible": false,
+  "vim.easymotion": true,
+  "docker.showStartPage": false
 }

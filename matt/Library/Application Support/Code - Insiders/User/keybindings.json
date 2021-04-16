@@ -101,5 +101,13 @@
     "key": "shift+tab",
     "command": "-acceptAlternativeSelectedSuggestion",
     "when": "suggestWidgetVisible && textInputFocus && textInputFocus"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "github-actions.workflows.focus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "workbench.files.action.collapseExplorerFolders"
   }
 ]

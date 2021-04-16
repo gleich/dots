@@ -398,5 +398,18 @@
     "prefix": ["om"],
     "body": ["\\textrm{ } \\Omega"],
     "description": "ohm in math"
+  },
+  "circuit tikz": {
+    "prefix": ["ctikz"],
+    "body": ["\\begin{circuitikz} \\draw", "\t$1", "\\end{circuitikz}"],
+    "description": "circuit tikz"
+  },
+  "measured angle": {
+    "prefix": ["ma"],
+    "body": ["\\measuredangle $1^{\\circ}"]
+  },
+  "angle": {
+    "prefix": ["an"],
+    "body": ["\\angle $1^{\\circ}"]
   }
 }
