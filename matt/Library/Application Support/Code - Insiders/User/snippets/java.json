@@ -2,17 +2,14 @@
   "Print new line to the console": {
     "prefix": "println",
     "body": ["System.out.println($1);"],
-    "description": "Print a new line to the console"
   },
   "Print to the console": {
     "prefix": "print",
     "body": ["System.out.print($1);"],
-    "description": "Print to the console"
   },
   "Printf to the console": {
     "prefix": "printf",
     "body": ["System.out.printf($1);"],
-    "description": "Printf to the console"
   },
   "Class purpose": {
     "prefix": "purpose",
@@ -20,10 +17,25 @@
       "/**",
       " * Purpose: $1",
       " *",
-      " * @author $2",
-      " * @version $3",
+      " * @author Matthew Gleich <email@mattglei.ch>",
+      " * @version $2",
       " */"
     ],
-    "description": "Java class purpose"
+  },
+  "java doc": {
+    "prefix": "jdoc",
+    "body": [
+      "/**",
+      " * $1",
+      " *",
+      " * @param $2",
+      " * @return $3",
+      " * @see $4",
+      " */"
+    ],
+  },
+  "name": {
+    "prefix": "name",
+    "body": ["Matthew Gleich <email@mattglei.ch>"]
   }
 }

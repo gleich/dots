@@ -279,7 +279,6 @@
   "python.formatting.blackPath": "/usr/local/bin/black",
   "editor.smoothScrolling": true,
   "git.confirmSync": false,
-  "explorer.compactFolders": false,
   "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
   "editor.folding": false,
   "grammarly.userWords": ["fgh", "repos"],
@@ -401,5 +400,8 @@
   "vim.smartRelativeLine": true,
   "workbench.activityBar.visible": false,
   "vim.easymotion": true,
-  "docker.showStartPage": false
+  "docker.showStartPage": false,
+  "explorer.compactFolders": false,
+  "workbench.editor.wrapTabs": true,
+  "python.pythonPath": "/usr/local/bin/python3"
 }
