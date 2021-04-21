@@ -2,240 +2,196 @@
   "Subsection": {
     "prefix": ["ss"],
     "body": ["\\subsection{$1}"],
-    "description": "Subsection"
   },
   "Subsubsection": {
     "prefix": ["sss"],
     "body": ["\\subsubsection{$1}"],
-    "description": "Subsubsection"
   },
   "Center": {
     "prefix": ["ce"],
     "body": ["\\begin{center}\n\t\\item $1 \n\\end{center}"],
-    "description": "Center environment"
   },
   "Center Math": {
     "prefix": ["cm"],
     "body": ["\\[ $1 \\]"],
-    "description": "Center Math"
   },
   "Enumeration with capital letters": {
     "prefix": ["enumA"],
     "body": [
       "\\begin{enumerate}[label=\\Alph*.]\n\t\\item $1 \n\\end{enumerate}"
     ],
-    "description": "Enumeration with capital letters"
   },
   "Enumeration with capital letters in parentheses": {
     "prefix": ["enumP"],
     "body": [
       "\\begin{enumerate}[label=(\\Alph*)]\n\t\\item $1 \n\\end{enumerate}"
     ],
-    "description": "Enumeration with capital letters in parentheses"
   },
   "Enumeration with lowercase letters": {
     "prefix": ["enuma"],
     "body": [
       "\\begin{enumerate}[label=\\alph*.]\n\t\\item $1 \n\\end{enumerate}"
     ],
-    "description": "Enumeration with lowercase letters"
   },
   "Enumeration with lowercase letters in parentheses": {
     "prefix": ["enump"],
     "body": [
       "\\begin{enumerate}[label=(\\alph*)]\n\t\\item $1 \n\\end{enumerate}"
     ],
-    "description": "Enumeration with lowercase letters in parentheses"
   },
   "Itemize with no bullets": {
     "prefix": ["itemn"],
     "body": ["\\begin{itemize}[label=]\n\t\\item $1 \n\\end{itemize}"],
-    "description": "Itemize with no bullets"
   },
   "Full set of parentheses": {
     "prefix": ["le"],
     "body": ["\\left($1\\right)"],
-    "description": "Full set of parentheses"
   },
   "Term Table": {
     "prefix": ["ttab"],
     "body": [
       "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t\t\\hline\n\t\t\\textbf{Term} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
     ],
-    "description": "Term Table"
   },
   "Variable Table": {
     "prefix": ["vtab"],
     "body": [
       "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t\t\\hline\n\t\t\\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
     ],
-    "description": "Variable Table"
   },
   "Row": {
     "prefix": ["re"],
     "body": ["$1 & $2 \\\\\\ \\hline$3"],
-    "description": "Row"
   },
   "Inline Math": {
     "prefix": ["ie"],
     "body": ["$ $1 $"],
-    "description": "Inline Math"
   },
   "Mathmatical Solution": {
     "prefix": ["sol"],
     "body": ["\\msol{$1}"],
-    "description": "Mathmatical Solution"
   },
   "Question": {
     "prefix": ["qe"],
     "body": [
       "\\section{}\n\t\\subsection{Question}\n\t\t$1\n\t\\subsection{Work \\& Answer}\n\t\t\\begin{align*}\n\t\t    $2\n\t\t\\end{align*}\n\t\t\\msol{$3}"
     ],
-    "description": "Question"
   },
   "Question Normal": {
     "prefix": ["qen"],
     "body": [
       "\\section{}\n\t\\subsection{Question}\n\t\t$1\n\t\\subsection{Answer}\n\t\t\\sol{$3}"
     ],
-    "description": "Question Normal"
   },
   "Question Sub": {
     "prefix": ["qes"],
     "body": [
       "\\subsection{}\n\t\\subsubsection{Question}\n\t\t$1\n\t\\subsubsection{Work \\& Answer}\n\t\t\\begin{align*}\n\t\t    $2\n\t\t\\end{align*}\n\t\t\\msol{$3}"
     ],
-    "description": "Question inside of a section"
   },
   "Plain Enumeration": {
     "prefix": ["enum"],
     "body": ["\\begin{enumerate}\n\t\\item $1 \n\\end{enumerate}"],
-    "description": "Plain Enumeration"
   },
   "Plain Text in Math Mode": {
     "prefix": ["rm"],
-    "body": ["\\textrm{$1}"],
-    "description": "Plain Text in Math Mode"
+    "body": ["\\text{$1}"],
   },
   "Bold text": {
     "prefix": ["bf"],
     "body": ["\\textbf{$1}"],
-    "description": "Bold text"
   },
   "Right Arrow": {
     "prefix": ["ira"],
     "body": ["$ \\rightarrow $"],
-    "description": "Right Arrow"
   },
   "Angle": {
     "prefix": ["an"],
     "body": ["$ \\measuredangle $1^{\\circ} $"],
-    "description": "A measured angle"
   },
   "Celcius": {
     "prefix": ["cet"],
     "body": ["C$ ^{\\circ} $"],
-    "description": "A normal text celcius snippet"
   },
   "Fahrenheit": {
     "prefix": ["fet"],
     "body": ["F$ ^{\\circ} $"],
-    "description": "A normal text fahrenheit snippet"
   },
   "Kelvin": {
     "prefix": ["ket"],
     "body": ["K$ ^{\\circ} $"],
-    "description": "A normal text kelvin snippet"
   },
   "Celcius Math": {
     "prefix": ["cem"],
-    "body": ["\\textrm{ C}^{\\circ}"],
-    "description": "A math text celcius snippet"
+    "body": ["\\text{ C}^{\\circ}"],
   },
   "Fahrenheit Math": {
     "prefix": ["fem"],
-    "body": ["\\textrm{ F}^{\\circ}"],
-    "description": "A math text fahrenheit snippet"
+    "body": ["\\text{ F}^{\\circ}"],
   },
   "Kelvin Math": {
     "prefix": ["kem"],
-    "body": ["\\textrm{ K}^{\\circ}"],
-    "description": "A math text kelvin snippet"
+    "body": ["\\text{ K}^{\\circ}"],
   },
   "y axis": {
     "prefix": ["yaxis"],
     "body": ["$ y $-axis"],
-    "description": "Just the word y-axis with math mode for y"
   },
   "x axis": {
     "prefix": ["xaxis"],
     "body": ["$ x $-axis"],
-    "description": "Just the word x-axis with math mode for x"
   },
   "icos": {
     "prefix": ["icos"],
     "body": ["$ \\cos \\theta $"],
-    "description": "cos reference in normal text"
   },
   "isin": {
     "prefix": ["isin"],
     "body": ["$ \\sin \\theta $"],
-    "description": "sin reference in normal text"
   },
   "itan": {
     "prefix": ["itan"],
     "body": ["$ \\tan \\theta $"],
-    "description": "tan reference in normal text"
   },
   "cos": {
     "prefix": ["cos"],
     "body": ["\\cos \\theta"],
-    "description": "cos with theta"
   },
   "sin": {
     "prefix": ["sin"],
     "body": ["\\sin \\theta"],
-    "description": "sin with theta"
   },
   "tan": {
     "prefix": ["tan"],
     "body": ["\\tan \\theta"],
-    "description": "tan with theta"
   },
   "icsc": {
     "prefix": ["icsc"],
     "body": ["$ \\csc \\theta $"],
-    "description": "csc reference in normal text"
   },
   "isec": {
     "prefix": ["isec"],
     "body": ["$ \\sec \\theta $"],
-    "description": "sec reference in normal text"
   },
   "icot": {
     "prefix": ["icot"],
     "body": ["$ \\cot \\theta $"],
-    "description": "cot reference in normal text"
   },
   "csc": {
     "prefix": ["csc"],
     "body": ["\\csc \\theta"],
-    "description": "csc with theta"
   },
   "sec": {
     "prefix": ["sec"],
     "body": ["\\sec \\theta"],
-    "description": "sec with theta"
   },
   "cot": {
     "prefix": ["cot"],
     "body": ["\\cot \\theta"],
-    "description": "cot with theta"
   },
   "Right Arrow in Math": {
     "prefix": ["ra"],
     "body": ["\\rightarrow"],
-    "description": "Right Arrow in Math"
   },
   "Practice Problem": {
     "prefix": ["pra"],
@@ -253,7 +209,6 @@
       "",
       "\\horizontalrule"
     ],
-    "description": "Practice Problem"
   },
   "Sub Practice Problem": {
     "prefix": ["pras"],
@@ -271,42 +226,34 @@
       "",
       "\\horizontalrule"
     ],
-    "description": "Sub Practice Problem"
   },
   "y-axis intercept": {
     "prefix": ["yint"],
     "body": ["$ y $-intercept"],
-    "description": "y-axis intercept"
   },
   "x-axis intercept": {
     "prefix": ["xint"],
     "body": ["$ x $-intercept"],
-    "description": "x-axis intercept"
   },
   "Table of Contents": {
     "prefix": ["toc"],
     "body": ["\\tableofcontents", "\\newpage\n"],
-    "description": "Table of Contents"
   },
   "Explain Equation Macro": {
     "prefix": ["ep"],
     "body": ["\\explain{$1}{\n\t$2\n}"],
-    "description": "Explain Equation Macro"
   },
   "Combine Like Terms (Right Side)": {
     "prefix": ["cltr"],
     "body": ["\\explain{Combine Like Terms (R)}{\n\t$1\n}"],
-    "description": "Combine Like Terms (Right Side)"
   },
   "Combine Like Terms (Left Side)": {
     "prefix": ["cltl"],
     "body": ["\\explain{Combine Like Terms (L)}{\n\t$1\n}"],
-    "description": "Combine Like Terms (Left Side)"
   },
   "Variable Insertion": {
     "prefix": ["is"],
     "body": ["\\explain{Insert}{\n\t$1\n}"],
-    "description": "Variable Insertion"
   },
   "Variable Declaration": {
     "prefix": ["vars"],
@@ -317,92 +264,66 @@
       "    }",
       "\\end{align*}"
     ],
-    "description": "Variable Declaration"
-  },
-  "Variable Declaration Statement": {
-    "prefix": ["va"],
-    "body": ["$1 = $2 \\\\\\ $3"],
-    "description": "Variable Declaration Statement"
-  },
-  "Text Super Script": {
-    "prefix": ["tss"],
-    "body": ["$2\\textsuperscript{$1}"],
-    "description": "Text Super Script"
   },
   "Initial Equation": {
     "prefix": ["int"],
     "body": ["\\initialeq{$1}"],
-    "description": "Initial Equation"
   },
   "Variable Declaration in Problem": {
     "prefix": ["vas"],
     "body": ["\\variables{\n\t$1\n}"],
-    "description": "Variable Declaration in Problem"
   },
   "And shorthand symbol": {
     "prefix": ["and"],
     "body": ["\\&"],
-    "description": "And shorthand symbol"
   },
   "Correct": {
     "prefix": ["cor"],
     "body": ["\\ding{51} \\green{Correct}"],
-    "description": "Correct"
   },
   "Incorrect": {
     "prefix": ["icor"],
     "body": ["\\ding{55} \\red{Incorrect}"],
-    "description": "Incorrect"
   },
   "Yellow Highlighter": {
     "prefix": ["ye"],
     "body": ["\\yellow{$1}"],
-    "description": "Yellow Highlighter"
   },
   "th super script suffix": {
     "prefix": ["th"],
     "body": ["$1\\textsuperscript{th}"],
-    "description": "th super script suffix"
   },
   "nd super script suffix": {
     "prefix": ["nd"],
     "body": ["$1\\textsuperscript{nd}"],
-    "description": "nd super script suffix"
   },
   "therefore": {
     "prefix": ["te"],
     "body": ["\\therefore"],
-    "description": "therefore"
   },
   "approximate equal": {
     "prefix": ["aeq"],
     "body": ["\\approxeq"],
-    "description": "approxeq"
   },
   "unknown": {
     "prefix": ["uk"],
-    "body": ["\\textrm{?} \\\\\\\n"],
-    "description": "unknown"
+    "body": ["\\var{$1}{\\text{?}} \\\\\\"],
   },
   "unit": {
     "prefix": ["un"],
-    "body": ["\\textrm{ $1}"],
-    "description": "data unit"
+    "body": ["\\text{ $1}"],
   },
   "ohm text": {
     "prefix": ["ohm"],
     "body": ["$ \\Omega $"],
-    "description": "ohm in text"
   },
   "ohm math": {
     "prefix": ["om"],
-    "body": ["\\textrm{ } \\Omega"],
-    "description": "ohm in math"
+    "body": ["\\text{ } \\Omega"],
   },
   "circuit tikz": {
     "prefix": ["ctikz"],
     "body": ["\\begin{circuitikz} \\draw", "\t$1", "\\end{circuitikz}"],
-    "description": "circuit tikz"
   },
   "measured angle": {
     "prefix": ["ma"],
@@ -411,5 +332,25 @@
   "angle": {
     "prefix": ["an"],
     "body": ["\\angle $1^{\\circ}"]
+  },
+  "vector components": {
+    "prefix": ["com"],
+    "body": ["\\left\\langle $1 \\right\\rangle"]
+  },
+  "variable": {
+    "prefix": ["va"],
+    "body": ["\\var{$1}{$2}"]
+  },
+  "variable with text name": {
+    "prefix": ["vat"],
+    "body": ["\\vart{$1}{$2}"]
+  },
+  "variable with unit": {
+    "prefix": ["vau"],
+    "body": ["\\varu{$1}{$2}{$3}"]
+  },
+  "variable with unit and text name": {
+    "prefix": ["vatu"],
+    "body": ["\\vartu{$1}{$2}{$3}"]
   }
 }

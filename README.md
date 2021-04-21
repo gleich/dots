@@ -13,7 +13,7 @@ Packages: 205 (brew)
 Shell: fish 3.2.2 
 DE: Aqua 
 WM: Rectangle 
-Terminal: iTerm2 
-Terminal Font: VictorMono-SemiBold 19 (normal) / FiraCodeNerdFontCompleteM-Regular 21 (non-ascii) 
+Terminal: kitty 
+Terminal Font: Victor Mono SemiBold 19.0 
 GPU Driver: macOS Default Graphics Driver 
 ```
