@@ -402,7 +402,6 @@
   "vim.easymotion": true,
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
-  "workbench.editor.wrapTabs": true,
   "python.pythonPath": "/usr/local/bin/python3",
   "window.zoomLevel": 1
 }
