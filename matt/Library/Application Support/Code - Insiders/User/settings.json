@@ -403,5 +403,6 @@
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
   "python.pythonPath": "/usr/local/bin/python3",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.editor.untitled.hint": "hidden"
 }

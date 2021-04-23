@@ -9,7 +9,7 @@ matt@gleich.lan
 OS: macOS 11.2.3 x86_64 
 Host: MacBookPro16,1 
 Kernel: Darwin 20.3.0 
-Packages: 205 (brew) 
+Packages: 206 (brew) 
 Shell: fish 3.2.2 
 DE: Aqua 
 WM: Rectangle 
