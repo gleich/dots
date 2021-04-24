@@ -293,13 +293,12 @@
   "emmet.extensionsPath": ["~/.config/emmet/"],
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
-  "latex-workshop.view.pdf.invert": 1,
   "latex-workshop.view.pdf.invertMode.enabled": "always",
   "latex-workshop.latex.autoClean.run": "onBuilt",
   "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.progress.barStyle": "none",
-  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.badges": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -328,6 +327,9 @@
       "level": "off"
     },
     "java:S1871": {
+      "level": "off"
+    },
+    "typescript:S1117": {
       "level": "off"
     }
   },
@@ -398,11 +400,16 @@
   "go.toolsManagement.autoUpdate": true,
   "vim.startInInsertMode": true,
   "vim.smartRelativeLine": true,
-  "workbench.activityBar.visible": false,
   "vim.easymotion": true,
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
   "python.pythonPath": "/usr/local/bin/python3",
   "window.zoomLevel": 1,
-  "workbench.editor.untitled.hint": "hidden"
+  "workbench.editor.untitled.hint": "hidden",
+  "latex-workshop.view.pdf.invert": 1,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.showStatusBar": true,
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "fgh-code.promptOnOpen": false,
+  "workbench.activityBar.visible": false
 }

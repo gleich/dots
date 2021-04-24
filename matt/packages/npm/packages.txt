@@ -3,7 +3,7 @@
 ├── caprover@2.1.1
 ├── emoj@3.1.0
 ├── generator-code@1.4.10
-├── npm@7.11.0
+├── npm@7.11.1
 ├── ts-node@9.1.1
 ├── typescript@4.2.4
 ├── vsce@1.87.1

@@ -33,6 +33,7 @@ ms-python.vscode-pylance
 ms-toolsai.jupyter
 naumovs.color-highlight
 njpwerner.autodocstring
+rangav.vscode-thunder-client
 redhat.java
 shardulm94.trailing-spaces
 silvenon.mdx
