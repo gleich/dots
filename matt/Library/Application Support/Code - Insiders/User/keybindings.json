@@ -113,5 +113,9 @@
   {
     "key": "ctrl+cmd+s",
     "command": "texsch.separate"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "thunder-client-sidebar.focus"
   }
 ]
