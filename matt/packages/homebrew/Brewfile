@@ -1,4 +1,6 @@
+tap "armmbed/formulae"
 tap "beeftornado/rmtree"
+tap "filosottile/musl-cross"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -7,20 +9,32 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "k-vernooy/tap"
-tap "kkevinm/itunes-discord-rp"
 tap "linuss1/taps"
 tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
 tap "orf/brew"
+tap "osx-cross/arm"
 tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
 brew "act"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Perl compatible regular expressions library
+brew "pcre"
+# Library for command-line editing
+brew "readline"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
 # Automatic configure script builder
 brew "autoconf"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# GNU binary tools for native development
+brew "binutils"
 # Python code formatter
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
@@ -45,6 +59,10 @@ brew "exa"
 brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU multiple precision arithmetic library
+brew "gmp"
+# GNU awk utility
+brew "gawk"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -53,6 +71,8 @@ brew "git"
 brew "gitmoji"
 # Render markdown on the CLI
 brew "glow"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -71,6 +91,8 @@ brew "goreleaser"
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Automatically generate simple man pages
+brew "help2man"
 # Improved top (interactive process viewer)
 brew "htop"
 # Command-line note taker
@@ -81,6 +103,8 @@ brew "languagetool"
 brew "lastpass-cli"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Next-gen compiler infrastructure
+brew "llvm"
 # Rainbows and unicorns in your console!
 brew "lolcat"
 # Powerful, lightweight programming language
@@ -129,8 +153,6 @@ brew "vegeta"
 brew "vim"
 # Vim script Language Lint
 brew "vint"
-# V programming language
-brew "vlang"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
@@ -139,6 +161,8 @@ brew "watch"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# Linux cross compilers based on musl libc
+brew "filosottile/musl-cross/musl-cross", args: ["with-arm-hf", "without-x86_64"]
 # My rendition of the classic tetris.
 brew "k-vernooy/tap/tetris"
 # 🎄 A Christmas tree right from your terminal!
@@ -204,8 +228,6 @@ cask "grammarly"
 cask "graphql-playground"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# A simple app that shows what you're currently listening to in your Discord status.
-cask "itunesdiscordrp"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
