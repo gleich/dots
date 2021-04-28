@@ -6,9 +6,9 @@
 ```txt
 matt@gleich.home 
 ---------------- 
-OS: macOS 11.2.3 x86_64 
+OS: macOS 11.3 x86_64 
 Host: MacBookPro16,1 
-Kernel: Darwin 20.3.0 
+Kernel: Darwin 20.4.0 
 Packages: 219 (brew) 
 Shell: fish 3.2.2 
 DE: Aqua 
