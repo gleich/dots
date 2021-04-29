@@ -189,8 +189,6 @@ cask "balenaetcher"
 cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser-dev"
-# Tool to list all active shortcuts of the current application
-cask "cheatsheet"
 cask "cool-retro-term"
 # Voice and text chat software
 cask "discord"
