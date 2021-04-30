@@ -5,8 +5,8 @@
     "description": "Main function"
   },
   "Output Line": {
-    "prefix": "pln",
-    "body": ["println!(\"$1\");"],
+    "prefix": "ln",
+    "body": ["println!($1);"],
     "description": "Output line"
   }
 }

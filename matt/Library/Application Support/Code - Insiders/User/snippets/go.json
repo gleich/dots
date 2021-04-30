@@ -1,11 +1,14 @@
 {
-	"Check if error is not nil": {
-		"prefix": "ife",
-		"body": [
-			"if err != nil {",
-			"    $1",
-			"}"
-		],
-		"description": "Check if error is not nil"
-	}
+  "Check if error is not nil": {
+    "prefix": "ife",
+    "body": ["if err != nil {", "    $1", "}"]
+  },
+  "println": {
+    "prefix": "pl",
+    "body": ["fmt.Println($1)"]
+  },
+  "printf": {
+    "prefix": "pf",
+    "body": ["fmt.Printf($1)"]
+  }
 }
