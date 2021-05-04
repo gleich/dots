@@ -50,6 +50,7 @@ vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-maven
 vscode-icons-team.vscode-icons
+vscodevim.vim
 WakaTime.vscode-wakatime
 yzhang.markdown-all-in-one
 znck.grammarly

@@ -332,6 +332,9 @@
     },
     "typescript:S1117": {
       "level": "off"
+    },
+    "java:S3400": {
+      "level": "off"
     }
   },
   "emeraldwalk.runonsave": {
@@ -412,5 +415,6 @@
   "editor.suggest.showStatusBar": true,
   "go.useCodeSnippetsOnFunctionSuggest": true,
   "fgh-code.promptOnOpen": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "vim.sneak": true
 }

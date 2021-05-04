@@ -307,7 +307,7 @@
   },
   "unknown": {
     "prefix": ["uk"],
-    "body": ["\\var{$1}{\\text{?}} \\\\\\"],
+    "body": ["\\var{$1}{\\text{?}}"],
   },
   "unit": {
     "prefix": ["un"],
@@ -352,5 +352,9 @@
   "variable with unit and text name": {
     "prefix": ["vatu"],
     "body": ["\\vartu{$1}{$2}{$3}"]
+  },
+  "math step": {
+    "prefix": ["sp"],
+    "body": ["\\step{ $1 }"]
   }
 }
