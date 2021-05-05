@@ -1,14 +1,14 @@
 {
   "Print new line to the console": {
-    "prefix": "println",
+    "prefix": "pl",
     "body": ["System.out.println($1);"],
   },
   "Print to the console": {
-    "prefix": "print",
+    "prefix": "pr",
     "body": ["System.out.print($1);"],
   },
   "Printf to the console": {
-    "prefix": "printf",
+    "prefix": "pf",
     "body": ["System.out.printf($1);"],
   },
   "Class purpose": {
