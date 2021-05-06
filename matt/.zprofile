@@ -7,3 +7,10 @@ export GOPATH="/Users/matt/go"
 export PATH=$PATH:$GOBIN
 export GO111MODULE=on
 export force_color_prompt=yes
+
+
+
+
+
+
+

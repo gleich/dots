@@ -335,6 +335,12 @@
     },
     "java:S3400": {
       "level": "off"
+    },
+    "java:S135": {
+      "level": "off"
+    },
+    "java:S2189": {
+      "level": "off"
     }
   },
   "emeraldwalk.runonsave": {
@@ -416,5 +422,6 @@
   "go.useCodeSnippetsOnFunctionSuggest": true,
   "fgh-code.promptOnOpen": false,
   "workbench.activityBar.visible": false,
-  "vim.sneak": true
+  "vim.sneak": true,
+  "editor.cursorStyle": "line-thin"
 }
