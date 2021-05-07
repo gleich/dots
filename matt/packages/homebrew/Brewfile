@@ -224,6 +224,8 @@ cask "google-backup-and-sync"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
 cask "graphql-playground"
+# Vector graphics editor
+cask "inkscape"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # GPU-based terminal emulator
