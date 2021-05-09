@@ -241,6 +241,8 @@ cask "minecraft"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Software for Anne Pro and Anne Pro 2
+cask "obinskit"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes
