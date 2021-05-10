@@ -47,6 +47,7 @@ def main():
             "kitty",
             "zathura",
             "raycast",
+            "resin",
         ],
     )
     copy_files(
