@@ -117,6 +117,8 @@ brew "neofetch"
 brew "neovim"
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
+# Web-based PostgreSQL database browser
+brew "pgweb"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Python package management tool
@@ -241,8 +243,6 @@ cask "minecraft"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# Software for Anne Pro and Anne Pro 2
-cask "obinskit"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes

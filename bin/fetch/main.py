@@ -86,7 +86,6 @@ def main():
             ".rustup/settings.toml",
         ],
     )
-    shutil.rmtree(os.path.join(".", USR_NAME, ".config", "nvim", "autoload"))
     write_to_readme()
     push_changes()
 
