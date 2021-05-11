@@ -46,7 +46,6 @@ def main():
             "omf",
             "kitty",
             "zathura",
-            "raycast",
             "resin",
         ],
     )
