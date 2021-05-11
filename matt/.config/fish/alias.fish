@@ -32,10 +32,9 @@ alias vim="nvim"
 alias gst="git status"
 alias gpu="git pull"
 alias gp="git push"
-alias gm="gitmoji --commit"
-alias gma="git add . && git status && gitmoji --commit"
+alias gm="resin"
+alias gma="resin -a"
 alias gl="git log"
 
 # github
 alias gv="gh repo view -w"
-
