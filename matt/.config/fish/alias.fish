@@ -34,7 +34,9 @@ alias gpu="git pull"
 alias gp="git push"
 alias gm="resin"
 alias gma="resin -a"
+alias gmap="resin -a -p"
 alias gl="git log"
 
 # github
 alias gv="gh repo view -w"
+alias ni="gh issue create"

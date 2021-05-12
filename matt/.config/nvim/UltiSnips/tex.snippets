@@ -1,85 +1,395 @@
-snippet ie "In-line mathematics"
-$ $1 $
+snippet ira
+$ \rightarrow $
 endsnippet
 
-snippet cm "Centered mathematics"
+snippet enumA
+\begin{enumerate}[label=\Alph*.]
+	\item $1
+\end{enumerate}
+endsnippet
+
+snippet qes
+\subsection{}
+	\subsubsection{Question}
+		$1
+	\subsubsection{Work \& Answer}
+		\begin{align*}
+		   $2
+		\end{align*}
+		\msol{$3}
+endsnippet
+
+snippet yint
+$ y $-intercept
+endsnippet
+
+snippet cm
 \[ $1 \]
 endsnippet
 
-snippet s "Section"
-\section{$1}
+snippet isin
+$ \sin \theta $
 endsnippet
 
-snippet ss "Subsection"
-\subsection{$1}
-endsnippet
-
-snippet sss "Sub subsection"
-\subsubsection{$1}
-endsnippet
-
-snippet sol "Solution"
-\begin{center}
-    \item \textit{Sol.}
-\end{center}
-
-endsnippet
-
-snippet c "Center environment"
-\begin{center}
-    \item $1
-\end{center}
-endsnippet
-
-snippet cd "Center dot"
-\cdot $1
-endsnippet
-
-snippet q "Quote"
-``$1''
-endsnippet
-
-snippet r "Right arrow"
-\rightarrow $1
-endsnippet
-
-snippet enumA "Enumeration with capital letters"
-\begin{enumerate}[label=\Alph*.]
-    \item $1
-\end{enumerate}
-endsnippet
-
-snippet enuma "Enumeration with letters"
+snippet enuma
 \begin{enumerate}[label=\alph*.]
-    \item $1
+	\item $1
 \end{enumerate}
 endsnippet
 
-snippet itemn "Itemize with no bullets"
+snippet enum
+\begin{enumerate}
+	\item $1
+\end{enumerate}
+endsnippet
+
+snippet isec
+$ \sec \theta $
+endsnippet
+
+snippet uk
+\var{$1}{\text{?}}
+endsnippet
+
+snippet an
+\angle $1^{\circ}
+endsnippet
+
+snippet ie
+$ $1 $
+endsnippet
+
+snippet ket
+K$ ^{\circ} $
+endsnippet
+
+snippet cot
+\cot \theta
+endsnippet
+
+snippet fem
+\text{ F}^{\circ}
+endsnippet
+
+snippet ctikz
+\begin{circuitikz} \draw
+	$1
+\end{circuitikz}
+endsnippet
+
+snippet and
+\&
+endsnippet
+
+snippet toc
+\tableofcontents
+\newpage
+
+endsnippet
+
+snippet fet
+F$ ^{\circ} $
+endsnippet
+
+snippet qe
+\section{}
+	\subsection{Question}
+		$1
+	\subsection{Work \& Answer}
+		\begin{align*}
+		   $2
+		\end{align*}
+		\msol{$3}
+endsnippet
+
+snippet sec
+\sec \theta
+endsnippet
+
+snippet kem
+\text{ K}^{\circ}
+endsnippet
+
+snippet itemn
 \begin{itemize}[label=]
-    \item $1
+	\item $1
 \end{itemize}
 endsnippet
 
-snippet lp "Full parentheses"
-\left( $1 \right)
+snippet icot
+$ \cot \theta $
 endsnippet
 
-snippet / "Fraction"
-\frac{$1}{}
-endsnippet
-
-snippet re "Row end"
-\\\\ \hline$1
-endsnippet
-
-snippet qe "Problem Framework"
+snippet qen
 \section{}
-    \subsection{Question}
-	$1
-    \subsection{Work \& Answer}
+	\subsection{Question}
+		$1
+	\subsection{Answer}
+		\sol{$3}
 endsnippet
 
-snippet ira "Inline right arrow"
-$ \rightarrow $
+snippet xint
+$ x $-intercept
+endsnippet
+
+snippet ep
+\explain{$1}{
+	$2
+}
+endsnippet
+
+snippet vas
+\variables{
+	$1
+}
+endsnippet
+
+snippet icsc
+$ \csc \theta $
+endsnippet
+
+snippet int
+\initialeq{$1}
+endsnippet
+
+snippet vau
+\varu{$1}{$2}{$3}
+endsnippet
+
+snippet cet
+C$ ^{\circ} $
+endsnippet
+
+snippet bf
+\textbf{$1}
+endsnippet
+
+snippet cos
+\cos \theta
+endsnippet
+
+snippet enump
+\begin{enumerate}[label=(\alph*)]
+	\item $1
+\end{enumerate}
+endsnippet
+
+snippet enumP
+\begin{enumerate}[label=(\Alph*)]
+	\item $1
+\end{enumerate}
+endsnippet
+
+snippet pras
+\subsection{}
+	\subsubsection{Work \& Answer}
+		\begin{align*}
+			$2
+		\end{align*}
+		\msol{$3}
+	\subsubsection{Result}
+		$4
+	\subsubsection{Correction/Take Away}
+		$5
+
+\horizontalrule
+endsnippet
+
+snippet cltr
+\explain{Combine Like Terms (R)}{
+	$1
+}
+endsnippet
+
+snippet tan
+\tan \theta
+endsnippet
+
+snippet ra
+\rightarrow
+endsnippet
+
+snippet an
+$ \measuredangle $1^{\circ} $
+endsnippet
+
+snippet ce
+\begin{center}
+	\item $1
+\end{center}
+endsnippet
+
+snippet pra
+\section{}
+	\subsection{Work \& Answer}
+		\begin{align*}
+			$2
+		\end{align*}
+		\msol{$3}
+	\subsection{Result}
+		$4
+	\subsection{Correction/Take Away}
+		$5
+
+\horizontalrule
+endsnippet
+
+snippet rm
+\text{$1}
+endsnippet
+
+snippet cor
+\ding{51} \green{Correct}
+endsnippet
+
+snippet th
+$1\textsuperscript{th}
+endsnippet
+
+snippet nd
+$1\textsuperscript{nd}
+endsnippet
+
+snippet com
+\left\langle $1 \right\rangle
+endsnippet
+
+snippet sss
+\subsubsection{$1}
+endsnippet
+
+snippet te
+\therefore
+endsnippet
+
+snippet ye
+\yellow{$1}
+endsnippet
+
+snippet icor
+\ding{55} \red{Incorrect}
+endsnippet
+
+snippet sol
+\msol{$1}
+endsnippet
+
+snippet om
+\text{ } \Omega
+endsnippet
+
+snippet vat
+\vart{$1}{$2}
+endsnippet
+
+snippet ma
+\measuredangle $1^{\circ}
+endsnippet
+
+snippet ohm
+$ \Omega $
+endsnippet
+
+snippet re
+$1 & $2 \\\ \hline$3
+endsnippet
+
+snippet itan
+$ \tan \theta $
+endsnippet
+
+snippet vatu
+\vartu{$1}{$2}{$3}
+endsnippet
+
+snippet ss
+\subsection{$1}
+endsnippet
+
+snippet icos
+$ \cos \theta $
+endsnippet
+
+snippet vars
+\begin{align*}
+    \variables{
+        $1 = $2 \\\ $3
+    }
+\end{align*}
+endsnippet
+
+snippet xaxis
+$ x $-axis
+endsnippet
+
+snippet aeq
+\approxeq
+endsnippet
+
+snippet vtab
+\begin{center}
+	\begin{tabular}{| c | c |}
+		\hline
+		\textbf{Variable} & \textbf{Definition} \\\ \hline \hline
+		$1 & $2 \\\ \hline$3
+	\end{tabular}
+\end{center}
+endsnippet
+
+snippet cltl
+\explain{Combine Like Terms (L)}{
+	$1
+}
+endsnippet
+
+snippet cem
+\text{ C}^{\circ}
+endsnippet
+
+snippet csc
+\csc \theta
+endsnippet
+
+snippet is
+\explain{Insert}{
+	$1
+}
+endsnippet
+
+snippet yaxis
+$ y $-axis
+endsnippet
+
+snippet va
+\var{$1}{$2}
+endsnippet
+
+snippet sp
+\step{ $1 }
+endsnippet
+
+snippet un
+\text{ $1}
+endsnippet
+
+snippet ttab
+\begin{center}
+	\begin{tabular}{| c | c |}
+		\hline
+		\textbf{Term} & \textbf{Definition} \\\ \hline \hline
+		$1 & $2 \\\ \hline$3
+	\end{tabular}
+\end{center}
+endsnippet
+
+snippet sin
+\sin \theta
+endsnippet
+
+snippet le
+\left($1\right)
+endsnippet
+
+snippet s
+\section{$1}
 endsnippet

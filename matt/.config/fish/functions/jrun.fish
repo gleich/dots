@@ -1,6 +1,6 @@
 function jrun
-    set BINARY_NAME "${1:0:-5}"
+    set -l binary_name (string trim --right --chars=".java" $1)
     javac $1
-    java $BINARY_NAME
-    rm $BINARY_NAME
+    java $binary_name
+    rm *.class
 end

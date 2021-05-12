@@ -1,7 +1,40 @@
-snippet scan "stdin scanner"
-Scanner scan = new Scanner(System.in);
+snippet purpose
+/**
+ * Purpose: $1
+ *
+ * @author Matthew Gleich <email@mattglei.ch>
+ * @version $2
+ */
 endsnippet
 
-snippet pl "println" 
+snippet name
+Matthew Gleich <email@mattglei.ch>
+endsnippet
+
+snippet pf
+System.out.printf($1);
+endsnippet
+
+snippet pr
+System.out.print($1);
+endsnippet
+
+snippet jdoc
+/**
+ * $1
+ *
+ * @param $2
+ * @return $3
+ * @see $4
+ */
+endsnippet
+
+snippet pl
 System.out.println($1);
+endsnippet
+
+snippet pc "Public class"
+public class $1 {
+	$2
+}
 endsnippet

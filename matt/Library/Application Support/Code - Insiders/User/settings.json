@@ -411,7 +411,6 @@
   "latex-workshop.view.pdf.zoom": "page-fit",
   "editor.minimap.enabled": false,
   "go.toolsManagement.autoUpdate": true,
-  "vim.startInInsertMode": true,
   "vim.smartRelativeLine": true,
   "vim.easymotion": true,
   "docker.showStartPage": false,

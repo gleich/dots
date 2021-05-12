@@ -3,9 +3,11 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 " nerdtree
-let mapleader = ','
+let mapleader = ' '
 nmap <leader>ne :NERDTreeToggle<cr>
 let NERDTreeMinimalUI=1
+let NERDTreeWinPos='right'
+let NERDTreeShowHidden = 1
 
 " spelunker
 set nospell
@@ -50,3 +52,21 @@ let g:ale_disable_lsp = 1
 " tokyonight
 let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
+
+" tex-coneal.vim
+let g:tex_conceal_frac=1
+set conceallevel=2
+let g:tex_conceal='abdgm'
+
+" vim-go
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_types = 1
+let g:go_auto_type_info = 1
