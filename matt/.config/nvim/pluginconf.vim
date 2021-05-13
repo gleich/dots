@@ -53,11 +53,6 @@ let g:ale_disable_lsp = 1
 let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
 
-" tex-coneal.vim
-let g:tex_conceal_frac=1
-set conceallevel=2
-let g:tex_conceal='abdgm'
-
 " vim-go
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_extra_types = 1
@@ -70,3 +65,12 @@ let g:go_highlight_function_calls = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_types = 1
 let g:go_auto_type_info = 1
+
+" startify
+let g:startify_lists = [
+          \ { 'type': 'files',     'header': ['   🌲 Files:']                        },
+          \ { 'type': 'dir',       'header': ['   🌲 Current Dir: '. getcwd()]       },
+          \ { 'type': 'sessions',  'header': ['   🌲 Sessions:']                     },
+          \ { 'type': 'bookmarks', 'header': ['   🌲 Bookmarks:']                    },
+          \ ]
+let g:startify_custom_header = startify#pad(split(system('CAT ~/.config/nvim/vim.ascii'), '\n'))

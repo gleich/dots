@@ -12,7 +12,7 @@ alias sl="ls"
 alias rick="curl -s -L http://bit.ly/10hA8iC | bash"
 alias cpwd="pwd | pbcopy"
 alias weather="curl wttr.in"
-alias sch="fcd Junior-Year"
+alias sch="fcd junior"
 
 alias clock="tty-clock -SbBc"
 alias ra="ranger"

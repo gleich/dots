@@ -15,7 +15,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'SirVer/ultisnips'                             " Snippet engine
 	Plug 'honza/vim-snippets'                           " Snippets
 	Plug 'dense-analysis/ale'                           " Formatters
-	Plug 'KeitaNakamura/tex-conceal.vim'                " LaTeX conealment
 	Plug 'tpope/vim-surround'                           " Fancy surround commands
 	Plug 'tpope/vim-commentary'                         " Comment out a line easily
 	Plug 'morhetz/gruvbox'                              " Retro theme
