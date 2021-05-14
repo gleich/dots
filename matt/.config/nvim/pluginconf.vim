@@ -74,3 +74,20 @@ let g:startify_lists = [
           \ { 'type': 'bookmarks', 'header': ['   🌲 Bookmarks:']                    },
           \ ]
 let g:startify_custom_header = startify#pad(split(system('CAT ~/.config/nvim/vim.ascii'), '\n'))
+
+" vim-tex
+let g:tex_fast=''
+let g:tex_no_error=1
+let g:Tex_IgnoredWarnings =
+    \''."\n".
+    \'Underfull'."\n".
+    \'Overfull'."\n".
+    \'specifier changed to'."\n".
+    \'You have requested'."\n".
+    \'Missing number, treated as zero.'."\n".
+    \'There were undefined references'."\n".
+    \'Citation %.%# undefined'."\n".
+    \'Reference %.%# undefined'."\n".
+    \'LaTeX Warning: Reference'."\n".
+    \'Foreign command %.%#'."\n"
+let g:Tex_IgnoreLevel = 11

@@ -11,6 +11,7 @@ alias dc="cd"
 alias sl="ls"
 alias rick="curl -s -L http://bit.ly/10hA8iC | bash"
 alias cpwd="pwd | pbcopy"
+alias ccd="cd (printf '%s' (pbpaste))"
 alias weather="curl wttr.in"
 alias sch="fcd junior"
 
