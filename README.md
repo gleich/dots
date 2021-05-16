@@ -14,6 +14,6 @@ Shell: fish 3.2.2
 DE: Aqua 
 WM: Rectangle 
 Terminal: kitty 
-Terminal Font: Victor Mono Semibold 20.0 
+Terminal Font: Victor Mono Semibold 17.0 
 GPU Driver: macOS Default Graphics Driver 
 ```

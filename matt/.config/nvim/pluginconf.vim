@@ -91,3 +91,7 @@ let g:Tex_IgnoredWarnings =
     \'LaTeX Warning: Reference'."\n".
     \'Foreign command %.%#'."\n"
 let g:Tex_IgnoreLevel = 11
+
+" coc
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)

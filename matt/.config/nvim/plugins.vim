@@ -5,7 +5,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'ap/vim-css-color'                             " Hex colors displayed
 	Plug 'preservim/nerdtree'                           " File tree
 	Plug 'voldikss/vim-floaterm'                        " Floating terminal
-	Plug 'mhinz/vim-signify'                            " Show changes in gutter
+	Plug 'airblade/vim-gitgutter'                       " Show changes in gutter
 	Plug 'mhinz/vim-startify'                           " Improved start page
 	Plug 'wakatime/vim-wakatime'                        " Time tracking
 	Plug 'fatih/vim-go'                                 " Support for the go programming language
@@ -22,6 +22,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'fatih/vim-go'                                 " Golang support
 	Plug 'Matt-Gleich/blackbird.vim'                    " The best theme around
 	Plug 'ryanoasis/vim-devicons'                       " Fancy file icons
+	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'      " Colored nerdtree
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
