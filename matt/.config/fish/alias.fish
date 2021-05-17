@@ -15,6 +15,8 @@ alias cpwd="pwd | pbcopy"
 alias ccd="cd (printf '%s' (pbpaste))"
 alias weather="curl wttr.in"
 alias sch="fcd junior"
+alias tmp="cd /var/tmp"
+alias logoff="exit"
 
 alias clock="tty-clock -SbBc"
 alias ra="ranger"
@@ -42,3 +44,4 @@ alias gl="git log"
 # github
 alias gv="gh repo view -w"
 alias ni="gh issue create"
+alias ci="gh workflow view"
