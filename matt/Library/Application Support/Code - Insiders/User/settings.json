@@ -306,12 +306,9 @@
   "vim.handleKeys": {
     "<D-c>": false
   },
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter-notebook",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
   "latex-utilities.message.update.show": false,
   "workbench.tree.expandMode": "singleClick",
   "sonarlint.rules": {

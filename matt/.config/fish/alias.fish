@@ -16,7 +16,8 @@ alias ccd="cd (printf '%s' (pbpaste))"
 alias weather="curl wttr.in"
 alias sch="fcd junior"
 alias tmp="cd /var/tmp"
-alias logoff="exit"
+alias tv="cd ~/src/Matt-Gleich/private/tex/junior && zathura (fzf)"
+alias lg="lazygit"
 
 alias clock="tty-clock -SbBc"
 alias ra="ranger"
@@ -40,8 +41,12 @@ alias gm="resin"
 alias gma="resin -a"
 alias gmap="resin -a -p"
 alias gl="git log"
+alias amenda="git add . && git commit --amend --no-edit"
 
 # github
 alias gv="gh repo view -w"
 alias ni="gh issue create"
 alias ci="gh workflow view"
+
+# texsch
+alias autob="texsch auto-build"

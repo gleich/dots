@@ -24,7 +24,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'ryanoasis/vim-devicons'                       " Fancy file icons
 	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'      " Colored nerdtree
 	Plug 'tpope/vim-fugitive'                           " Git commands inside vim
-	Plug 'thaerkh/vim-indentguides'                     " Nice indentation guides
+	Plug 'lervag/vimtex'                                " LaTeX support for vip
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

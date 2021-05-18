@@ -4,10 +4,11 @@ nmap ga <Plug>(EasyAlign)
 
 " nerdtree
 let mapleader = ' '
-nmap <leader>ne :NERDTreeToggle<cr>
+nmap <leader>n :NERDTreeToggle<cr>
 let NERDTreeMinimalUI=1
 let NERDTreeWinPos='right'
 let NERDTreeShowHidden = 1
+let NERDTreeGitStatusWithFlags = 1
 
 " spelunker
 set nospell
@@ -17,8 +18,8 @@ let g:spelunker_disable_acronym_checking = 1
 
 " snippets
 let g:UltiSnipsExpandTrigger='<tab>'
-let g:UltiSnipsJumpForwardTrigger='<c-b>'
-let g:UltiSnipsJumpBackwardTrigger='<c-z>'
+let g:UltiSnipsJumpForwardTrigger='<tab>'
+let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
 let g:UltiSnipsEditSplit='vertical'
 
 " ale
@@ -75,23 +76,20 @@ let g:startify_lists = [
           \ ]
 let g:startify_custom_header = startify#pad(split(system('CAT ~/.config/nvim/vim.ascii'), '\n'))
 
-" vim-tex
-let g:tex_fast=''
-let g:tex_no_error=1
-let g:Tex_IgnoredWarnings =
-    \''."\n".
-    \'Underfull'."\n".
-    \'Overfull'."\n".
-    \'specifier changed to'."\n".
-    \'You have requested'."\n".
-    \'Missing number, treated as zero.'."\n".
-    \'There were undefined references'."\n".
-    \'Citation %.%# undefined'."\n".
-    \'Reference %.%# undefined'."\n".
-    \'LaTeX Warning: Reference'."\n".
-    \'Foreign command %.%#'."\n"
-let g:Tex_IgnoreLevel = 11
-
 " coc
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
+
+" vimtex
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_quickfix_mode = 0
+let g:vimtex_mappings_enabled = 0
+let g:vimtex_log_ignore = [
+        \ 'Underfull',
+        \ 'Overfull',
+        \ 'specifier changed to',
+        \ 'Token not allowed in a PDF string']
+let g:vimtex_matchparen_enabled = 0
+
+" fzf
+nmap <leader>f :GFiles<cr>
