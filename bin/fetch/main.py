@@ -34,7 +34,6 @@ def main():
     copy_folders(
         ".config",
         [
-            "alfred",
             "neofetch",
             "nuke",
             "bpytop/themes",
