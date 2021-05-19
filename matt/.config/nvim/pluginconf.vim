@@ -90,6 +90,8 @@ let g:vimtex_log_ignore = [
         \ 'specifier changed to',
         \ 'Token not allowed in a PDF string']
 let g:vimtex_matchparen_enabled = 0
+set conceallevel=2
+let g:tex_conceal='abdmg'
 
 " fzf
 nmap <leader>f :GFiles<cr>

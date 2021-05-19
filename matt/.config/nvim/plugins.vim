@@ -16,15 +16,15 @@ call plug#begin('~/.vim/plugged')
 	Plug 'dense-analysis/ale'                           " Formatters
 	Plug 'tpope/vim-surround'                           " Fancy surround commands
 	Plug 'tpope/vim-commentary'                         " Comment out a line easily
-	Plug 'morhetz/gruvbox'                              " Retro theme
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fast file search
 	Plug 'junegunn/fzf.vim'                             " Fast file search
-	Plug 'fatih/vim-go'                                 " Golang support
 	Plug 'Matt-Gleich/blackbird.vim'                    " The best theme around
 	Plug 'ryanoasis/vim-devicons'                       " Fancy file icons
 	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'      " Colored nerdtree
 	Plug 'tpope/vim-fugitive'                           " Git commands inside vim
 	Plug 'lervag/vimtex'                                " LaTeX support for vip
+	Plug 'mattn/emmet-vim'                              " Emmet for vim
+	Plug 'dylnmc/synstack.vim'                          " Easily show syntax highlighting group under current cursor
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

@@ -15,18 +15,9 @@ set termguicolors  " Enable fancy colors
 set nohlsearch     " Turn off highlight after search
 set noswapfile     " Turn off swap files
 set noerrorbells   " Turn off error bells
-set ignorecase     " Ignore cases in search
-set smartcase      " Allow for custom, case sensitive searches
 set nobackup       " Turn off backups
 set incsearch      " Show results while searching
-set conceallevel=0 " Turn off concealment
 filetype plugin on " Turn on file detectionp
+let &t_ut=''       " Fix kitty output
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Turn off auto comment insertion
-
-function! SynStack()
-  if !exists("*synstack")
-    return
-  endif
-  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
-endfunc

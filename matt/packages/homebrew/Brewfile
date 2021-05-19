@@ -129,6 +129,8 @@ brew "prettier"
 brew "pstree"
 # File browser
 brew "ranger"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Rust toolchain installer
 brew "rustup-init"
 # Autoformat shell script source code
