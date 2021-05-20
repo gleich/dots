@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/vim-easy-align'                      " Easy alignment of characters
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Language server
 	Plug 'sheerun/vim-polyglot'                         " Improved language server
 	Plug 'ap/vim-css-color'                             " Hex colors displayed
 	Plug 'preservim/nerdtree'                           " File tree
@@ -24,6 +23,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'dylnmc/synstack.vim'                          " Easily show syntax highlighting group under current cursor
 	Plug 'junegunn/goyo.vim'                            " Focused writing mode
 	Plug 'sbdchd/neoformat'                             " Formatters
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Language server
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

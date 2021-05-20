@@ -126,7 +126,7 @@ brew "ninja"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Web-based PostgreSQL database browser

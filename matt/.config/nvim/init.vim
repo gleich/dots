@@ -17,8 +17,13 @@ set nohlsearch     " Turn off highlight after search
 set noswapfile     " Turn off swap files
 set noerrorbells   " Turn off error bells
 set nobackup       " Turn off backups
+set nowritebackup  " Turn off write backups
 set incsearch      " Show results while searching
 filetype plugin on " Turn on file detectionp
 let &t_ut=''       " Fix kitty output
+set shortmess+=c   " Don't pass messages to |ins-completion-menu|.
+set cmdheight=2    " Give more space for displaying messages.
+set hidden         " TextEdit might fail if hidden is not set.
+set encoding=utf-8 " Ensure encoding is utf 8
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Turn off auto comment insertion
