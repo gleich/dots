@@ -1,3 +1,4 @@
+source ~/.config/nvim/preload.vim
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/pluginconf.vim
 

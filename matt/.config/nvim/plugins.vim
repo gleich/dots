@@ -9,11 +9,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'mhinz/vim-startify'                           " Improved start page
 	Plug 'wakatime/vim-wakatime'                        " Time tracking
 	Plug 'fatih/vim-go'                                 " Support for the go programming language
-	Plug 'kamykn/spelunker.vim'                         " Improved spell check
-	Plug 'kamykn/popup-menu.nvim'                       " Popup menu instead of new buffer selector
 	Plug 'SirVer/ultisnips'                             " Snippet engine
 	Plug 'honza/vim-snippets'                           " Snippets
-	Plug 'dense-analysis/ale'                           " Formatters
 	Plug 'tpope/vim-surround'                           " Fancy surround commands
 	Plug 'tpope/vim-commentary'                         " Comment out a line easily
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fast file search
@@ -22,9 +19,11 @@ call plug#begin('~/.vim/plugged')
 	Plug 'ryanoasis/vim-devicons'                       " Fancy file icons
 	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'      " Colored nerdtree
 	Plug 'tpope/vim-fugitive'                           " Git commands inside vim
-	Plug 'lervag/vimtex'                                " LaTeX support for vip
+	Plug 'lervag/vimtex'                                " LaTeX support for vim
 	Plug 'mattn/emmet-vim'                              " Emmet for vim
 	Plug 'dylnmc/synstack.vim'                          " Easily show syntax highlighting group under current cursor
+	Plug 'junegunn/goyo.vim'                            " Focused writing mode
+	Plug 'sbdchd/neoformat'                             " Formatters
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

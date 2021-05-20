@@ -17,6 +17,8 @@ tap "osx-cross/arm"
 tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
 brew "act"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Perl compatible regular expressions library
@@ -25,10 +27,14 @@ brew "pcre"
 brew "readline"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
 # Automatic configure script builder
 brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -39,6 +45,8 @@ brew "binutils"
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Cross-platform make
+brew "cmake"
 # Console Matrix
 brew "cmatrix"
 # Dependency manager for Cocoa projects
@@ -73,6 +81,8 @@ brew "gitmoji"
 brew "glow"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+# Generic library support script
+brew "libtool"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -111,6 +121,8 @@ brew "lolcat"
 brew "lua"
 # Mac App Store command-line interface
 brew "mas"
+# Small build system for use with gyp or CMake
+brew "ninja"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
