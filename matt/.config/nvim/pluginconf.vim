@@ -11,10 +11,16 @@ let NERDTreeShowHidden = 1
 let NERDTreeGitStatusWithFlags = 1
 
 " spelunker
-" set nospell
-" let g:spelunker_disable_uri_checking = 1
-" let g:spelunker_disable_email_checking = 1
-" let g:spelunker_disable_acronym_checking = 1
+set nospell
+let g:spelunker_disable_uri_checking = 1
+let g:spelunker_disable_email_checking = 1
+let g:spelunker_disable_acronym_checking = 1
+let g:spelunker_check_type = 2
+let g:spelunker_disable_auto_group = 1
+augroup spelunker
+  autocmd!
+  autocmd CursorHold *.tex,*.md call spelunker#check_displayed_words()
+augroup END
 
 " snippets
 let g:UltiSnipsExpandTrigger='<tab>'
@@ -73,4 +79,10 @@ set conceallevel=2
 let g:tex_conceal='abdmg'
 
 " fzf
-nmap <leader>f :GFiles<cr>
+nmap <leader>s :GFiles<cr>
+
+" synstack.vim
+nmap <leader>p <plug>(SynStack)
+
+" neoformat
+nmap <leader>f :Neoformat<cr>

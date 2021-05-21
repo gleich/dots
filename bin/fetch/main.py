@@ -83,6 +83,7 @@ def main():
             "Library/Application Support/Code - Insiders/User/settings.json",
             ".gnupg/gpg-agent.conf",
             ".rustup/settings.toml",
+            ".actrc",
         ],
     )
     write_to_readme()

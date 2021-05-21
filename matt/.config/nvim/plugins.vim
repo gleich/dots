@@ -24,6 +24,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/goyo.vim'                            " Focused writing mode
 	Plug 'sbdchd/neoformat'                             " Formatters
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Language server
+	Plug 'kamykn/spelunker.vim'                         " Improved spell check
+	Plug 'kamykn/popup-menu.nvim'                       " Popup menu instead of new buffer selector
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
