@@ -22,10 +22,10 @@ call plug#begin('~/.vim/plugged')
 	Plug 'mattn/emmet-vim'                              " Emmet for vim
 	Plug 'dylnmc/synstack.vim'                          " Easily show syntax highlighting group under current cursor
 	Plug 'junegunn/goyo.vim'                            " Focused writing mode
-	Plug 'sbdchd/neoformat'                             " Formatters
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Language server
 	Plug 'kamykn/spelunker.vim'                         " Improved spell check
 	Plug 'kamykn/popup-menu.nvim'                       " Popup menu instead of new buffer selector
+	Plug 'dense-analysis/ale'                           " Formatters
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

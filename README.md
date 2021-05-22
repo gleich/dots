@@ -9,11 +9,11 @@ matt@gleich.lan
 OS: macOS 11.3.1 x86_64 
 Host: MacBookPro16,1 
 Kernel: Darwin 20.4.0 
-Packages: 225 (brew) 
+Packages: 227 (brew) 
 Shell: fish 3.2.2 
 DE: Aqua 
 WM: Rectangle 
 Terminal: kitty 
-Terminal Font: Victor Mono Semibold 18.5 
+Terminal Font: Victor Mono SemiBold 18.5 
 GPU Driver: macOS Default Graphics Driver 
 ```

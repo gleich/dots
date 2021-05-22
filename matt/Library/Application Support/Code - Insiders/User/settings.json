@@ -421,5 +421,6 @@
   "go.useCodeSnippetsOnFunctionSuggest": true,
   "fgh-code.promptOnOpen": false,
   "workbench.activityBar.visible": false,
-  "vim.debug.silent": true // Remember this!!!
+  "vim.debug.silent": true,
+  "security.workspace.trust.untrustedFiles": "open" // Remember this!!!
 }

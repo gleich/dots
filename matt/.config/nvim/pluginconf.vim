@@ -43,7 +43,6 @@ let g:go_highlight_structs = 1
 let g:go_highlight_function_calls = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_types = 1
-let g:go_auto_type_info = 1
 
 " startify
 let g:startify_lists = [
@@ -84,5 +83,40 @@ nmap <leader>s :GFiles<cr>
 " synstack.vim
 nmap <leader>p <plug>(SynStack)
 
-" neoformat
-nmap <leader>f :Neoformat<cr>
+" vim-floaterm
+let g:floaterm_autoclose = 1
+nmap <leader>t :FloatermToggle<cr>
+
+" ale
+let g:ale_linters = {
+	\ 'markdown': ['null'],
+	\ 'vim': ['null'],
+	\}
+let g:ale_fixers = {
+	\ '*': [
+		\ 'remove_trailing_lines',
+		\ 'trim_whitespace'
+	\ ],
+	\ 'rust': ['rustfmt'],
+	\ 'sh': ['shfmt'],
+	\ 'zsh': ['shfmt'],
+	\ 'python': ['black'],
+	\ 'typescript': ['eslint', 'prettier'],
+	\ 'javascript': ['eslint', 'prettier'],
+	\ 'typescriptreact': ['eslint', 'prettier'],
+	\ 'javascriptreact': ['eslint', 'prettier'],
+	\ 'css': ['prettier'],
+	\ 'less': ['prettier'],
+	\ 'scss': ['prettier'],
+	\ 'json': ['prettier'],
+	\ 'json5': ['prettier'],
+	\ 'graphql': ['prettier'],
+	\ 'markdown': ['prettier'],
+	\ 'html': ['prettier'],
+	\ 'yaml': ['prettier'],
+	\ 'Dockerfile': ['hadolint'],
+	\ 'Dart': ['dartfmt'],
+    \ 'java': ['google_java_format']
+	\ }
+let g:ale_fix_on_save = 1
+let g:ale_disable_lsp = 1

@@ -1,7 +1,7 @@
 " Taken from this: https://stackoverflow.com/a/42389579
 function! AddItem()
   let [end_lnum, end_col] = searchpairpos('\\begin{', '', '\\end{', 'nW')
-  if match(getline(end_lnum), '\(itemize\|enumerate\|description\)') != -1
+  if match(getline(end_lnum), '\(itemize\|enumerate\|description\|center\)') != -1
     return "\\item "
   else
     return ""
