@@ -23,6 +23,7 @@ set shortmess+=c   " Don't pass messages to |ins-completion-menu|.
 set cmdheight=2    " Give more space for displaying messages.
 set hidden         " TextEdit might fail if hidden is not set.
 set encoding=utf-8 " Ensure encoding is utf 8
+set scrolloff=5    " Add bottom padding of 5 lines
 
-set statusline=\ %f%m\ 🌲\ LNS:\ %L\ PCT:\ %%%p\ COL:\ %v\ %=\ %{strftime('%c')} " Custom status line
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o   " Turn off auto comment insertion
+set statusline=\ λ\ %f%m\ 🌲\ LNS:\ %L\ PCT:\ %%%p\ COL:\ %v\ %=\ %{strftime('%c')} " Custom status line
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o      " Turn off auto comment insertion

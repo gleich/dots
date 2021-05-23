@@ -2,6 +2,7 @@
   "dependencies": {
     "coc-css": ">=1.2.6",
     "coc-java": ">=1.5.3",
+    "coc-rust-analyzer": ">=0.44.0",
     "coc-tsserver": ">=1.7.0"
   }
 }

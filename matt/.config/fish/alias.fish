@@ -18,6 +18,7 @@ alias sch="fcd junior"
 alias tmp="cd /var/tmp"
 alias tv="cd ~/src/Matt-Gleich/private/tex/junior && zathura (fzf)"
 alias lg="lazygit"
+alias q="exit"
 
 alias clock="tty-clock -SbBc"
 alias ra="ranger"

@@ -28,10 +28,6 @@ let g:UltiSnipsJumpForwardTrigger='<tab>'
 let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
 let g:UltiSnipsEditSplit='vertical'
 
-" tokyonight
-let g:tokyonight_style = 'night'
-let g:tokyonight_enable_italic = 1
-
 " vim-go
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_extra_types = 1
@@ -52,6 +48,7 @@ let g:startify_lists = [
           \ { 'type': 'bookmarks', 'header': ['   🌲 Bookmarks:']                    },
           \ ]
 let g:startify_custom_header = startify#pad(split(system('CAT ~/.config/nvim/vim.ascii'), '\n'))
+let g:startify_change_to_dir = 0
 
 " coc
 if has("nvim-0.5.0") || has("patch-8.1.1564")

@@ -2,5 +2,7 @@
   "codeLens.enable": true,
   "diagnostic.errorSign": "🍒",
   "diagnostic.warningSign": "🍊",
-  "diagnostic.infoSign": "🍏"
+  "diagnostic.infoSign": "🍏",
+  "coc.preferences.hoverTarget": "float",
+  "rust-analyzer.trace.server": "verbose"
 }
