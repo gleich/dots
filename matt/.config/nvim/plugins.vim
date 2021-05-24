@@ -16,7 +16,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf.vim'                             " Fast file search
 	Plug 'Matt-Gleich/blackbird.vim'                    " The best theme around
 	Plug 'ryanoasis/vim-devicons'                       " Fancy file icons
-	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'      " Colored nerdtree
 	Plug 'tpope/vim-fugitive'                           " Git commands inside vim
 	Plug 'lervag/vimtex'                                " LaTeX support for vim
 	Plug 'mattn/emmet-vim'                              " Emmet for vim

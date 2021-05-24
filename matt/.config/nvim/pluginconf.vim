@@ -9,6 +9,7 @@ let NERDTreeMinimalUI=1
 let NERDTreeWinPos='right'
 let NERDTreeShowHidden = 1
 let NERDTreeGitStatusWithFlags = 1
+let NERDTreeIgnore = ['.DS_Store']
 
 " spelunker
 set nospell
@@ -75,7 +76,7 @@ set conceallevel=2
 let g:tex_conceal='abdmg'
 
 " fzf
-nmap <leader>s :GFiles<cr>
+nmap <leader>s :FZF<cr>
 
 " synstack.vim
 nmap <leader>p <plug>(SynStack)
@@ -88,6 +89,7 @@ nmap <leader>t :FloatermToggle<cr>
 let g:ale_linters = {
 	\ 'markdown': ['null'],
 	\ 'vim': ['null'],
+	\ 'go': ['golangci-lint -D revive'],
 	\}
 let g:ale_fixers = {
 	\ '*': [
@@ -98,10 +100,10 @@ let g:ale_fixers = {
 	\ 'sh': ['shfmt'],
 	\ 'zsh': ['shfmt'],
 	\ 'python': ['black'],
-	\ 'typescript': ['eslint', 'prettier'],
-	\ 'javascript': ['eslint', 'prettier'],
-	\ 'typescriptreact': ['eslint', 'prettier'],
-	\ 'javascriptreact': ['eslint', 'prettier'],
+	\ 'typescript': ['prettier'],
+	\ 'javascript': ['prettier'],
+	\ 'typescriptreact': ['prettier'],
+	\ 'javascriptreact': ['prettier'],
 	\ 'css': ['prettier'],
 	\ 'less': ['prettier'],
 	\ 'scss': ['prettier'],
