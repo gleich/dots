@@ -87,9 +87,9 @@ def main():
             ".actrc",
         ],
     )
+    shutil.rmtree("./matt/.config/fish/completions")
     write_to_readme()
     push_changes()
-    shutil.rmtree("./matt/.config/fish/completions")
 
 
 def ensure_correct_path():
