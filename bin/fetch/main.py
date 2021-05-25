@@ -41,7 +41,6 @@ def main():
             "ranger",
             "nvim",
             "texsch",
-            "zsh",
             "fish",
             "omf",
             "kitty",
@@ -75,9 +74,6 @@ def main():
         [
             ".gitconfig",
             ".tmux.conf",
-            ".zshrc",
-            ".zprofile",
-            ".p10k.zsh",
             ".docker/config.json",
             "Library/Application Support/eDEX-UI/settings.json",
             "Library/Application Support/Code - Insiders/User/keybindings.json",
