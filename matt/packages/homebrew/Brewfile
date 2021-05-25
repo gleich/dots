@@ -153,6 +153,8 @@ brew "sl"
 brew "swiftformat"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
+# User interface to the TELNET protocol
+brew "telnet"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Terminal multiplexer

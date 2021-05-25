@@ -2,6 +2,7 @@ import os
 import shutil
 from pathlib import Path
 from loguru import logger
+import shutil
 
 USR_NAME = "matt"
 home = Path.home()
@@ -88,6 +89,7 @@ def main():
     )
     write_to_readme()
     push_changes()
+    shutil.rmtree("./matt/.config/fish/completions")
 
 
 def ensure_correct_path():

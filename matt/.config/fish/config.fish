@@ -8,7 +8,8 @@ source ~/.config/fish/functions/conf.fish
 set fish_greeting
 
 # Completion
-source ~/.config/fish/completion/fgh.fish
+source ~/.config/fish/completions/fgh.fish
+source ~/.config/fish/completions/texsch.fish
 
 # use terminal colors
 set -U fish_color_autosuggestion      brblack
