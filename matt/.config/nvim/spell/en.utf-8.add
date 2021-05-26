@@ -59,7 +59,6 @@ multiselect
 logoru
 chdir
 com
-com
 texsch
 propto
 hline
@@ -76,3 +75,5 @@ floralwhite
 stylesheets
 autocomplete
 multiline
+boltflow
+doublespacing

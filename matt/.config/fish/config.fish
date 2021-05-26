@@ -11,7 +11,7 @@ set fish_greeting
 source ~/.config/fish/completions/fgh.fish
 source ~/.config/fish/completions/texsch.fish
 
-# use terminal colors
+# Use terminal colors
 set -U fish_color_autosuggestion      brblack
 set -U fish_color_cancel              -r
 set -U fish_color_command             brgreen
@@ -38,3 +38,7 @@ set -U fish_pager_color_completion    normal
 set -U fish_pager_color_description   yellow
 set -U fish_pager_color_prefix        'white' '--bold' '--underline'
 set -U fish_pager_color_progress      'brwhite' '--background=cyan'
+
+# Vim
+fish_vi_key_bindings
+set fish_cursor_insert line blink

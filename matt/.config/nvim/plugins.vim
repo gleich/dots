@@ -24,6 +24,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'kamykn/spelunker.vim'                         " Improved spell check
 	Plug 'kamykn/popup-menu.nvim'                       " Popup menu instead of new buffer selector
 	Plug 'dense-analysis/ale'                           " Formatters
+	Plug 'junegunn/goyo.vim'                            " Distraction-free writing in Vim
 
 	" Markdown preview plugin
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

@@ -27,7 +27,6 @@ set scrolloff=5    " Add bottom padding of 5 lines
 
 set statusline=\ λ\ %f%m\ 🌲\ LNS:\ %L\ PCT:\ %%%p\ COL:\ %v\ %=\ %{strftime('%c')} " Custom status line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o      " Turn off auto comment insertion
-
-let @c = 'dawvU'            " Make the word after the current word the start of the scentence
-let @a = 'oSitemn	'     " Add itemn to line below (latex)
-let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
+let @c = 'dawvU'                                                                    " Make the word after the current word the start of the scentence
+let @n = 'jjoSitemn	'                                                         " Add itemn to next parent item (latex)
+let @a = 'G$vgg^"*y'                                                                " Copy all the text in the current file to the clipboard

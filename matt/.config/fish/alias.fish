@@ -1,6 +1,6 @@
 # scripts
 alias update="sh ~/src/Matt-Gleich/public/python/scripts/update.sh"
-alias fetch="cd ~/src/Matt-Gleich/public/shell/dots/bin/fetch && poetry run python3 main.py"
+alias fetch="cd ~/src/Matt-Gleich/public/vim-script/dots/bin/fetch && poetry run python3 main.py"
 alias mindnode="cd ~/src/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
 
 alias ls="exa -a --grid --icons --group-directories-first --classify"
@@ -33,6 +33,7 @@ alias finfo="exa --long --extended "
 alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
+alias iv="nvim"
 
 # git
 alias gst="git status"
