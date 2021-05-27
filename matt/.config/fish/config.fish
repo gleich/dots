@@ -1,10 +1,6 @@
 source ~/.config/fish/alias.fish
+source ~/.config/fish/functions.fish
 source ~/.config/fish/vars.fish
-
-# Functions
-source ~/.config/fish/functions/fgh.fish
-source ~/.config/fish/functions/conf.fish
-
 set fish_greeting
 
 # Completion

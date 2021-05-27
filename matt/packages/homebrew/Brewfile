@@ -1,5 +1,3 @@
-==> New Casks
-xppen-pentablet
 tap "armmbed/formulae"
 tap "beeftornado/rmtree"
 tap "filosottile/musl-cross"

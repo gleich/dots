@@ -50,7 +50,18 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o  
 
 let @c = 'dawvU'            " Make the word after the current word the start of the sentence
 let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
-let @a = 'G$vgg^"*y'        " Copy all the text in the current file to the clipboard
+
+"  ,_   _          _,       ,
+" /  | |/ /|/|/|  / |  |/\_/ \_
+"    |/|_/ | | |_/\/|_/|_/  \/
+"                     (|
+" Remappings λ 🍁
+
+let mapleader = ' '
+nmap <leader>a :%y+<cr>
+nmap <leader>Q :wq<cr>
+nmap <leader>q :q<cr>
+nmap <leader>w :w<cr>
 
 "     |\        _, o        ,
 "  |/\_|/ |  |  / | | /|/|  / \_
@@ -98,7 +109,6 @@ call plug#end()
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 " preservim/nerdtree  ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-let mapleader = ' '
 nmap <leader>n :NERDTreeToggle<cr>
 let NERDTreeMinimalUI=1
 let NERDTreeWinPos='right'
