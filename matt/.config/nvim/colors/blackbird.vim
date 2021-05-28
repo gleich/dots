@@ -167,3 +167,6 @@ hi yamlBlockMappingKey guifg=#e92741 guibg=NONE guisp=NONE gui=NONE ctermfg=160 
 
 " json
 hi jsoncBraces guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+
+" html
+hi htmlTag guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE

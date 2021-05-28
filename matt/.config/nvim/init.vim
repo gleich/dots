@@ -20,26 +20,29 @@ colorscheme blackbird " Set color theme
 "  (|
 " General λ ⚙️
 
-set number         " Line numbers
-set tabstop=4      " Default tab stop
-set updatetime=50  " Faster completion
-set timeoutlen=500 " By default timeoutlen is 1000 ms
-set relativenumber " Relative side numbers
-set spelllang=en   " Spell check language to English
-set termguicolors  " Enable fancy colors
-set nohlsearch     " Turn off highlight after search
-set noswapfile     " Turn off swap files
-set noerrorbells   " Turn off error bells
-set nobackup       " Turn off backups
-set nowritebackup  " Turn off write backups
-set incsearch      " Show results while searching
-filetype plugin on " Turn on file detection
-let &t_ut=''       " Fix kitty output
-set shortmess+=c   " Don't pass messages to |ins-completion-menu|.
-set cmdheight=2    " Give more space for displaying messages.
-set hidden         " TextEdit might fail if hidden is not set.
-set encoding=utf-8 " Ensure encoding is utf 8
-set scrolloff=5    " Add bottom padding of 5 lines
+set number              " Line numbers
+set tabstop=4           " Default tab stop
+set updatetime=50       " Faster completion
+set timeoutlen=500      " By default timeoutlen is 1000 ms
+set relativenumber      " Relative side numbers
+set spelllang=en        " Spell check language to English
+set termguicolors       " Enable fancy colors
+set nohlsearch          " Turn off highlight after search
+set noswapfile          " Turn off swap files
+set noerrorbells        " Turn off error bells
+set nobackup            " Turn off backups
+set nowritebackup       " Turn off write backups
+set incsearch           " Show results while searching
+set smartcase           " Have searches use smartcases
+filetype plugin on      " Turn on file detection
+let &t_ut=''            " Fix kitty output
+set shortmess+=c        " Don't pass messages to |ins-completion-menu|.
+set cmdheight=2         " Give more space for displaying messages.
+set hidden              " TextEdit might fail if hidden is not set.
+set encoding=utf-8      " Ensure encoding is utf 8
+set undodir=~/.vim/undo " Undo directory location
+set undofile            " Increase undo lifetime
+set scrolloff=5         " Add bottom padding of 5 lines
 set statusline=\ λ\ %f%m\ 🌲\ LNS:\ %L\ PCT:\ %%%p\ COL:\ %v\ %=\ %{strftime('%c')} " Custom status line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o      " Turn off auto comment insertion
 
@@ -57,11 +60,13 @@ let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
 "                     (|
 " Remappings λ 🍁
 
-let mapleader = ' '
+let mapleader = ';'
 nmap <leader>a :%y+<cr>
 nmap <leader>Q :wq<cr>
 nmap <leader>q :q<cr>
 nmap <leader>w :w<cr>
+nmap <leader>c :e ~/.config/nvim/init.vim<cr>
+nmap <leader>u :UltiSnipsEdit<cr>
 
 "     |\        _, o        ,
 "  |/\_|/ |  |  / | | /|/|  / \_
@@ -115,6 +120,7 @@ let NERDTreeWinPos='right'
 let NERDTreeShowHidden = 1
 let NERDTreeGitStatusWithFlags = 1
 let NERDTreeIgnore = ['.DS_Store']
+let NERDTreeQuitOnOpen = 1
 " kamykn/spelunker.vim ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 set nospell
 let g:spelunker_disable_uri_checking = 1

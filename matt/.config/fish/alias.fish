@@ -52,3 +52,4 @@ alias ci="gh workflow view"
 
 # texsch
 alias autob="texsch auto-build"
+alias new="texsch create"

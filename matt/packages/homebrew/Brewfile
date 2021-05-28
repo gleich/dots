@@ -161,6 +161,8 @@ brew "thefuck"
 brew "tmux"
 # Program that allows you to count code, quickly
 brew "tokei"
+# Command-line interface to the freedesktop.org trashcan
+brew "trash-cli"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Digital clock in ncurses
