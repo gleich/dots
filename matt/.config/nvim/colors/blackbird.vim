@@ -127,7 +127,7 @@ hi texTabularChar guifg=#e92741 guibg=NONE guisp=NONE gui=NONE ctermfg=160 cterm
 hi texCmdItem guifg=#e92741 guibg=NONE guisp=NONE gui=italic ctermfg=160 ctermbg=NONE cterm=italic
 hi texFilesArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi texArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
-hi texPartArgTitle guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi texPartArgTitle guifg=#fdf7cd guibg=NONE guisp=NONE gui=underline ctermfg=230 ctermbg=NONE cterm=underline
 hi texTitleArg guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 
 " rust

@@ -53,6 +53,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o  
 
 let @c = 'dawvU'            " Make the word after the current word the start of the sentence
 let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
+let @e = 'c$'
 
 "  ,_   _          _,       ,
 " /  | |/ /|/|/|  / |  |/\_/ \_
