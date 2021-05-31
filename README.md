@@ -12,9 +12,8 @@ Kernel: Darwin 20.5.0
 Packages: 229 (brew) 
 Shell: fish 3.2.2 
 DE: Aqua 
-WM: Quartz Compositor 
-WM Theme: Blue (Dark) 
+WM: Rectangle 
 Terminal: kitty 
-Terminal Font: Victor Mono SemiBold 18.5 
+Terminal Font: Victor Mono SemiBold 17.0 
 GPU Driver: macOS Default Graphics Driver 
 ```

@@ -1,2 +1,2 @@
-scopes = ["docker", "structure"]
+scopes = ["structure", "format"]
 sign = true

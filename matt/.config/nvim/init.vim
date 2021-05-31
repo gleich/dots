@@ -43,7 +43,8 @@ set encoding=utf-8      " Ensure encoding is utf 8
 set undodir=~/.vim/undo " Undo directory location
 set undofile            " Increase undo lifetime
 set scrolloff=5         " Add bottom padding of 5 lines
-set statusline=\ λ\ %f%m\ 🌲\ LNS:\ %L\ PCT:\ %%%p\ COL:\ %v\ %=\ %{strftime('%c')} " Custom status line
+set noshowmode          " Don't show the vim mode at the bottom of the screen
+set statusline=\ λ\ %#StatusLineMode#\ %{mode()}\ %#StatusLine#\ 🌲\ %#StatusLineFile#%t%#StatusLine#\ 🌲\ %m " Custom status line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o      " Turn off auto comment insertion
 
 "          _,   _   ,_   _   ,
@@ -68,6 +69,7 @@ nmap <leader>q :q<cr>
 nmap <leader>w :w<cr>
 nmap <leader>c :e ~/.config/nvim/init.vim<cr>
 nmap <leader>u :UltiSnipsEdit<cr>
+nmap <leader>k :call spelunker#check_displayed_words()<cr>
 
 "     |\        _, o        ,
 "  |/\_|/ |  |  / | | /|/|  / \_
@@ -92,7 +94,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tpope/vim-commentary'                         " 💬 Comment out a line easily
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " 🗄️ Fast file search
 	Plug 'junegunn/fzf.vim'                             " 🗄️ Fast file search
-	Plug 'Matt-Gleich/blackbird.vim'                    " 🏴 The best theme around
+	Plug 'blackbirdtheme/blackbird.vim'                 " 🏴 The best theme around
 	Plug 'ryanoasis/vim-devicons'                       " 💡 Fancy file icons
 	Plug 'tpope/vim-fugitive'                           " ☁️ Git commands inside vim
 	Plug 'lervag/vimtex'                                " ⚗️ LaTeX support for vim
@@ -102,6 +104,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'kamykn/popup-menu.nvim'                       " 🍿 Popup menu instead of new buffer selector
 	Plug 'dense-analysis/ale'                           " 🍺 Formatters
 	Plug 'junegunn/goyo.vim'                            " ✍️ Distraction-free writing in Vim
+	Plug 'mileszs/ack.vim'                              " 🔍 Setup search for ripgrep
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  } " ✍️ Markdown previewing
 call plug#end()
 
@@ -121,7 +124,6 @@ let NERDTreeWinPos='right'
 let NERDTreeShowHidden = 1
 let NERDTreeGitStatusWithFlags = 1
 let NERDTreeIgnore = ['.DS_Store']
-let NERDTreeQuitOnOpen = 1
 " kamykn/spelunker.vim ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 set nospell
 let g:spelunker_disable_uri_checking = 1
@@ -131,7 +133,6 @@ let g:spelunker_check_type = 2
 let g:spelunker_disable_auto_group = 1
 augroup spelunker
   autocmd!
-  autocmd CursorHold *.tex,*.md call spelunker#check_displayed_words()
 augroup END
 " SirVer/ultisnips ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:UltiSnipsExpandTrigger='<tab>'
@@ -173,8 +174,6 @@ let g:vimtex_log_ignore = [
         \ 'specifier changed to',
         \ 'Token not allowed in a PDF string']
 let g:vimtex_matchparen_enabled = 0
-set conceallevel=2
-let g:tex_conceal='abdmg'
 " junegunn/fzf ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 nmap <leader>s :FZF<cr>
 let g:fzf_colors = {
@@ -230,3 +229,6 @@ let g:ale_fixers = {
 	\ }
 let g:ale_fix_on_save = 1
 let g:ale_disable_lsp = 1
+let g:ale_sign_column_always = 1
+let g:ale_sign_error = '!!'
+let g:ale_sign_warning = '>>'

@@ -223,6 +223,7 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "latex-workshop.message.error.show": false,
+  "editor.fontLigatures": "'ss01'",
   "latex-workshop.message.warning.show": false,
   "workbench.sideBar.location": "right",
   "debug.openDebug": "neverOpen",
