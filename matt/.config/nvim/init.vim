@@ -9,7 +9,7 @@
 " _|_ |)    _          _
 "  |  |/\  |/ /|/|/|  |/
 "  |_/|  |/|_/ | | |_/|_/
-" Theme λ 🎨
+" Theme ⎇λ 🎨
 
 syntax on             " Turn on syntax highlighting
 colorscheme blackbird " Set color theme
@@ -18,7 +18,7 @@ colorscheme blackbird " Set color theme
 " / | |/ /|/|  |/ /  | / |  |/
 " \/|/|_/ | |_/|_/   |/\/|_/|_/
 "  (|
-" General λ ⚙️
+" General ⎇λ ⚙️
 
 set number              " Line numbers
 set tabstop=4           " Default tab stop
@@ -26,8 +26,8 @@ set updatetime=50       " Faster completion
 set timeoutlen=500      " By default timeoutlen is 1000 ms
 set relativenumber      " Relative side numbers
 set spelllang=en        " Spell check language to English
-set termguicolors       " Enable fancy colors
-set nohlsearch          " Turn off highlight after search
+set termguicolors       " Enable gui colors
+set nohlsearch          " No longer show search results after search
 set noswapfile          " Turn off swap files
 set noerrorbells        " Turn off error bells
 set nobackup            " Turn off backups
@@ -40,17 +40,15 @@ set shortmess+=c        " Don't pass messages to |ins-completion-menu|.
 set cmdheight=2         " Give more space for displaying messages.
 set hidden              " TextEdit might fail if hidden is not set.
 set encoding=utf-8      " Ensure encoding is utf 8
-set undodir=~/.vim/undo " Undo directory location
-set undofile            " Increase undo lifetime
 set scrolloff=5         " Add bottom padding of 5 lines
 set noshowmode          " Don't show the vim mode at the bottom of the screen
-set statusline=\ λ\ %#StatusLineMode#\ %{mode()}\ %#StatusLine#\ 🌲\ %#StatusLineFile#%t%#StatusLine#\ 🌲\ %m " Custom status line
+set statusline=\ ⎇\ λ\ %#StatusLineMode#\ %{mode()}\ %#StatusLine#\ 🌲\ %#StatusLineFile#%t%#StatusLine#\ 🌲\ %m " Custom status line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o      " Turn off auto comment insertion
 
 "          _,   _   ,_   _   ,
 " /|/|/|  / |  /   /  | / \_/ \_
 "  | | |_/\/|_/\__/   |/\_/  \/
-" Macros λ 🔩
+" Macros ⎇λ🔩
 
 let @c = 'dawvU'            " Make the word after the current word the start of the sentence
 let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
@@ -60,7 +58,7 @@ let @e = 'c$'
 " /  | |/ /|/|/|  / |  |/\_/ \_
 "    |/|_/ | | |_/\/|_/|_/  \/
 "                     (|
-" Remappings λ 🍁
+" Remappings ⎇λ 🍁
 
 let mapleader = ';'
 nmap <leader>a :%y+<cr>
@@ -70,12 +68,22 @@ nmap <leader>w :w<cr>
 nmap <leader>c :e ~/.config/nvim/init.vim<cr>
 nmap <leader>u :UltiSnipsEdit<cr>
 nmap <leader>k :call spelunker#check_displayed_words()<cr>
+nmap <leader>n :NERDTreeFocus<cr>
+nmap <leader>N :NERDTreeToggle<cr>
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)
+nmap <leader>s :FZF<cr>
+nmap <leader>p <plug>(SynStack)
+nmap <leader>t :FloatermToggle<cr>
 
 "     |\        _, o        ,
 "  |/\_|/ |  |  / | | /|/|  / \_
 "  |_/ |_/ \/|_/\/|/|/ | |_/ \/
 " (|             (|
-" Plugins λ 🔌
+" Plugins ⎇λ 🔌
 
 call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/vim-easy-align'                      " 📐 Easy alignment of characters
@@ -96,15 +104,12 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf.vim'                             " 🗄️ Fast file search
 	Plug 'blackbirdtheme/blackbird.vim'                 " 🏴 The best theme around
 	Plug 'ryanoasis/vim-devicons'                       " 💡 Fancy file icons
-	Plug 'tpope/vim-fugitive'                           " ☁️ Git commands inside vim
 	Plug 'lervag/vimtex'                                " ⚗️ LaTeX support for vim
 	Plug 'dylnmc/synstack.vim'                          " 🎨 Easily show syntax highlighting group under current cursor
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}     " 🌹 Language server
 	Plug 'kamykn/spelunker.vim'                         " 💬 Improved spell check
 	Plug 'kamykn/popup-menu.nvim'                       " 🍿 Popup menu instead of new buffer selector
 	Plug 'dense-analysis/ale'                           " 🍺 Formatters
-	Plug 'junegunn/goyo.vim'                            " ✍️ Distraction-free writing in Vim
-	Plug 'mileszs/ack.vim'                              " 🔍 Setup search for ripgrep
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  } " ✍️ Markdown previewing
 call plug#end()
 
@@ -112,13 +117,9 @@ call plug#end()
 "  |/\_|/ |  |  / | | /|/|     /   / \_/|/|  |/ | / |
 "  |_/ |_/ \/|_/\/|/|/ | |_/   \__/\_/  | |_/|_/|/\/|/
 " (|             (|                          |)    (|
-" Plugin Configuration λ ⚗️
+" Plugin Configuration ⎇λ ⚗️
 
-" junegunn/vim-easy-align ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-xmap ga <Plug>(EasyAlign)
-nmap ga <Plug>(EasyAlign)
 " preservim/nerdtree  ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-nmap <leader>n :NERDTreeToggle<cr>
 let NERDTreeMinimalUI=1
 let NERDTreeWinPos='right'
 let NERDTreeShowHidden = 1
@@ -161,9 +162,6 @@ let g:startify_custom_header = startify#pad(split(system('CAT ~/.config/nvim/vim
 let g:startify_change_to_dir = 0
 " neoclide/coc.nvim ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 autocmd CursorHold * silent call CocActionAsync('highlight')
-nmap <leader>rn <Plug>(coc-rename)
-nmap <leader>gd <Plug>(coc-definition)
-nmap <leader>gr <Plug>(coc-references)
 " lervag/vimtex ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_quickfix_mode = 0
@@ -175,7 +173,6 @@ let g:vimtex_log_ignore = [
         \ 'Token not allowed in a PDF string']
 let g:vimtex_matchparen_enabled = 0
 " junegunn/fzf ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-nmap <leader>s :FZF<cr>
 let g:fzf_colors = {
   \ 'fg':      ['fg', 'Normal'],
   \ 'bg':      ['bg', 'Normal'],
@@ -190,11 +187,8 @@ let g:fzf_colors = {
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
-" dylnmc/synstack.vim ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-nmap <leader>p <plug>(SynStack)
 " voldikss/vim-floaterm ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:floaterm_autoclose = 1
-nmap <leader>t :FloatermToggle<cr>
 " dense-analysis/ale ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:ale_linters = {
 	\ 'markdown': ['null'],

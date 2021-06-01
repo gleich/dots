@@ -423,5 +423,6 @@
   "fgh-code.promptOnOpen": false,
   "workbench.activityBar.visible": false,
   "vim.debug.silent": true,
-  "security.workspace.trust.untrustedFiles": "open" // Remember this!!!
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false // Remember this!!!
 }

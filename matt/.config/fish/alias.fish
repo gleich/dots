@@ -1,7 +1,7 @@
 # scripts
-alias update="sh ~/src/Matt-Gleich/public/python/scripts/update.sh"
+alias update="sh ~/src/Matt-Gleich/public/shell/scripts/update.sh"
 alias fetch="cd ~/src/Matt-Gleich/public/vim-script/dots/bin/fetch && poetry run python3 main.py"
-alias mindnode="cd ~/src/Matt-Gleich/public/python/scripts/ && poetry run python3 mindnode.py"
+alias mindnode="cd ~/src/Matt-Gleich/public/shell/scripts/ && poetry run python3 mindnode.py"
 
 alias ls="exa -a --grid --icons --group-directories-first --classify"
 alias lsa="exa -la --git --icons --group-directories-first --classify"
