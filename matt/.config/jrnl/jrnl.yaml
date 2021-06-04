@@ -10,7 +10,7 @@ encrypt: true
 highlight: true
 indent_character: "|"
 journals:
-  default: /Users/matt/github/Matt-Gleich/public/markdown/2021/logs/
+  default: /Users/matt/github/gleich/public/markdown/2021/logs/
 linewrap: 79
 tagsymbols: "@"
 template: false

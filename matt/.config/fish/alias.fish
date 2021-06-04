@@ -1,7 +1,7 @@
 # scripts
-alias update="sh ~/src/Matt-Gleich/public/shell/scripts/update.sh"
-alias fetch="cd ~/src/Matt-Gleich/public/vim-script/dots/bin/fetch && poetry run python3 main.py"
-alias mindnode="cd ~/src/Matt-Gleich/public/shell/scripts/ && poetry run python3 mindnode.py"
+alias update="sh ~/src/gleich/public/shell/scripts/update.sh"
+alias fetch="cd ~/src/gleich/public/vim-script/dots/bin/fetch && poetry run python3 main.py"
+alias mindnode="cd ~/src/gleich/public/shell/scripts/ && poetry run python3 mindnode.py"
 
 alias ls="exa -a --grid --icons --group-directories-first --classify"
 alias lsa="exa -la --git --icons --group-directories-first --classify"
@@ -16,7 +16,7 @@ alias ccd="cd (printf '%s' (pbpaste))"
 alias weather="curl wttr.in"
 alias sch="fcd junior"
 alias tmp="cd ~/tmp"
-alias tv="cd ~/src/Matt-Gleich/private/tex/junior && zathura (fzf)"
+alias tv="cd ~/src/gleich/private/tex/junior && zathura (fzf)"
 alias lg="lazygit"
 alias q="exit"
 

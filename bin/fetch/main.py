@@ -92,7 +92,7 @@ def ensure_correct_path():
     """Ensure that this program is running from the correct location"""
     logger.info("Verifying path")
     cwd = os.getcwd()
-    correct_path = f"/Users/{USR_NAME}/src/Matt-Gleich/public/vim-script/dots/bin/fetch"
+    correct_path = f"/Users/{USR_NAME}/src/gleich/public/vim-script/dots/bin/fetch"
     if cwd != correct_path:
         logger.error(f"Please run from {correct_path}")
         exit(1)
@@ -172,7 +172,7 @@ def write_to_readme():
             f"""
 # dots
 
-![format](https://github.com/Matt-Gleich/dots/workflows/format/badge.svg)
+![format](https://github.com/gleich/dots/workflows/format/badge.svg)
 
 ```txt
 {neofetch_output}
