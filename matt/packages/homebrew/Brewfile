@@ -10,7 +10,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "k-vernooy/tap"
 tap "linuss1/taps"
-tap "gleich/taps"
+tap "matt-gleich/taps"
 tap "moritzsternemann/apple-fonts"
 tap "orf/brew"
 tap "osx-cross/arm"
@@ -186,11 +186,11 @@ brew "filosottile/musl-cross/musl-cross", args: ["with-arm-hf", "without-x86_64"
 # My rendition of the classic tetris.
 brew "k-vernooy/tap/tetris"
 # 🎄 A Christmas tree right from your terminal!
-brew "gleich/taps/ctree"
+brew "matt-gleich/taps/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
-brew "gleich/taps/fgh"
+brew "matt-gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
-brew "gleich/taps/nuke"
+brew "matt-gleich/taps/nuke"
 # Ping, but with a graph.
 brew "orf/brew/gping"
 brew "zegervdv/zathura/zathura"
