@@ -77,6 +77,8 @@ nmap <leader>gr <Plug>(coc-references)
 nmap <leader>s :FZF<cr>
 nmap <leader>p <plug>(SynStack)
 nmap <leader>t :FloatermToggle<cr>
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 "     |\        _, o        ,
 "  |/\_|/ |  |  / | | /|/|  / \_
