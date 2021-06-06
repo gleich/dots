@@ -3,7 +3,7 @@ alias update="sh ~/src/gleich/public/shell/scripts/update.sh"
 alias fetch="cd ~/src/gleich/public/vim-script/dots/bin/fetch && poetry run python3 main.py"
 alias mindnode="cd ~/src/gleich/public/shell/scripts/ && poetry run python3 mindnode.py"
 
-alias ls="exa -a --grid --icons --group-directories-first --classify"
+alias ls="exa -l --git --icons --group-directories-first --classify"
 alias lsa="exa -la --git --icons --group-directories-first --classify"
 alias tree="exa -a --tree --git-ignore --icons --group-directories-first --classify"
 alias cat="bat"

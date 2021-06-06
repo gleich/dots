@@ -9,7 +9,7 @@
 " _|_ |)    _          _
 "  |  |/\  |/ /|/|/|  |/
 "  |_/|  |/|_/ | | |_/|_/
-" Theme ⎇λ 🎨
+" Theme ⎇ λ 🎨
 
 syntax on             " Turn on syntax highlighting
 colorscheme blackbird " Set color theme
@@ -18,7 +18,7 @@ colorscheme blackbird " Set color theme
 " / | |/ /|/|  |/ /  | / |  |/
 " \/|/|_/ | |_/|_/   |/\/|_/|_/
 "  (|
-" General ⎇λ ⚙️
+" General ⎇ λ ⚙️
 
 set number              " Line numbers
 set tabstop=4           " Default tab stop
@@ -48,7 +48,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o  
 "          _,   _   ,_   _   ,
 " /|/|/|  / |  /   /  | / \_/ \_
 "  | | |_/\/|_/\__/   |/\_/  \/
-" Macros ⎇λ🔩
+" Macros ⎇ λ🔩
 
 let @c = 'dawvU'            " Make the word after the current word the start of the sentence
 let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
@@ -59,7 +59,7 @@ let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
 "                     (|
 " Remappings ⎇λ 🍁
 
-let mapleader = ';'
+let mapleader = ' '
 nmap <leader>a :%y+<cr>
 nmap <leader>Q :wq<cr>
 nmap <leader>q :q<cr>
@@ -79,12 +79,18 @@ nmap <leader>p <plug>(SynStack)
 nmap <leader>t :FloatermToggle<cr>
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap <leader>r *:%s///g<left><left>
+nmap <leader>rg :Rg<cr>
+nmap <leader><down> <C-w><down>
+nmap <leader><up> <C-w><up>
+nmap <leader><left> <C-w><left>
+nmap <leader><right> <C-w><right>
 
 "     |\        _, o        ,
 "  |/\_|/ |  |  / | | /|/|  / \_
 "  |_/ |_/ \/|_/\/|/|/ | |_/ \/
 " (|             (|
-" Plugins ⎇λ 🔌
+" Plugins ⎇ λ 🔌
 
 call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/vim-easy-align'                      " 📐 Easy alignment of characters
@@ -103,7 +109,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tpope/vim-commentary'                         " 💬 Comment out a line easily
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " 🗄️ Fast file search
 	Plug 'junegunn/fzf.vim'                             " 🗄️ Fast file search
-	Plug 'blackbirdtheme/blackbird.vim'                 " 🏴 The best theme around
 	Plug 'ryanoasis/vim-devicons'                       " 💡 Fancy file icons
 	Plug 'lervag/vimtex'                                " ⚗️ LaTeX support for vim
 	Plug 'dylnmc/synstack.vim'                          " 🎨 Easily show syntax highlighting group under current cursor
@@ -111,6 +116,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'kamykn/spelunker.vim'                         " 💬 Improved spell check
 	Plug 'kamykn/popup-menu.nvim'                       " 🍿 Popup menu instead of new buffer selector
 	Plug 'dense-analysis/ale'                           " 🍺 Formatters
+	Plug 'tpope/vim-fugitive'                           " ♟️ Giit commands from vim
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  } " ✍️ Markdown previewing
 call plug#end()
 
@@ -118,7 +124,7 @@ call plug#end()
 "  |/\_|/ |  |  / | | /|/|     /   / \_/|/|  |/ | / |
 "  |_/ |_/ \/|_/\/|/|/ | |_/   \__/\_/  | |_/|_/|/\/|/
 " (|             (|                          |)    (|
-" Plugin Configuration ⎇λ ⚗️
+" Plugin Configuration ⎇ λ ⚗️
 
 " preservim/nerdtree  ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let NERDTreeMinimalUI=1
