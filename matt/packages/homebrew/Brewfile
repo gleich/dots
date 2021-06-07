@@ -149,6 +149,8 @@ brew "rustup-init"
 brew "shfmt"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
+# Count lines of code in many languages
+brew "sloccount"
 # Formatting tool for reformatting Swift code
 brew "swiftformat"
 # Tool to enforce Swift style and conventions
@@ -316,7 +318,7 @@ mas "Octagon", id: 691956219
 mas "Pages", id: 409201541
 mas "Plash", id: 1494023538
 mas "Playgrounds", id: 1496833156
-mas "Poolside FM", id: 1514817810
+mas "Poolsuite FM", id: 1514817810
 mas "RAW Power", id: 1157116444
 mas "Session", id: 1521432881
 mas "Shazam", id: 897118787

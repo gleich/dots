@@ -59,16 +59,16 @@ let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
 "                     (|
 " Remappings ⎇λ 🍁
 
-let mapleader = ' '
+let mapleader = '.'
 nmap <leader>a :%y+<cr>
-nmap <leader>Q :wq<cr>
+nmap <leader>b :wq<cr>
 nmap <leader>q :q<cr>
 nmap <leader>w :w<cr>
 nmap <leader>c :e ~/.config/nvim/init.vim<cr>
 nmap <leader>u :UltiSnipsEdit<cr>
 nmap <leader>k :call spelunker#check_displayed_words()<cr>
-nmap <leader>n :NERDTreeFocus<cr>
-nmap <leader>N :NERDTreeToggle<cr>
+nmap <leader>l :NERDTreeFocus<cr>
+nmap <leader>n :NERDTreeToggle<cr>
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 nmap <leader>rn <Plug>(coc-rename)
