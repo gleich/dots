@@ -250,6 +250,8 @@ cask "graphql-playground"
 cask "inkscape"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Keyboard customizer
+cask "karabiner-elements"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager

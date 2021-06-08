@@ -117,7 +117,7 @@ hi FloatermBorder guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 cterm
 hi texBeginEndName guifg=#00ecd8 guibg=NONE guisp=NONE gui=italic ctermfg=50 ctermbg=NONE cterm=italic
 hi texEnvArgName guifg=#00ecd8 guibg=NONE guisp=NONE gui=italic ctermfg=50 ctermbg=NONE cterm=italic
 hi texBeginEnd guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi texMathZoneX guifg=#418fdd guibg=NONE guisp=NONE gui=italic ctermfg=68 ctermbg=NONE cterm=italic
+hi texMathZoneX guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi texMathZoneW guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi texMathSuperSub guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi texMathZone guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
