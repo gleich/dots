@@ -43,7 +43,6 @@ set noshowmode            " Don't show the vim mode at the bottom of the screen
 set undodir=~/.vim/undoir " Where to store undo files
 set undofile              " Make undo files
 set lazyredraw            " Make redraw faster
-set ttyfast               " Make redraw faster
 set autoindent            " Try to autoindent
 set statusline=\ ⎇\ λ\ %#StatusLineMode#\ %{mode()}\ %#StatusLine#\ 🌲\ %#StatusLineFile#%t%#StatusLine#\ 🌲\ %m " Custom status line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o      " Turn off auto comment insertion

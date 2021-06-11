@@ -245,6 +245,8 @@ cask "gitify"
 cask "google-backup-and-sync"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
+# Graphically shows disk usage within a file system
+cask "grandperspective"
 cask "graphql-playground"
 # Vector graphics editor
 cask "inkscape"
