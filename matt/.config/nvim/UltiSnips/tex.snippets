@@ -410,7 +410,7 @@ snippet /b
 endsnippet
 
 snippet par
-{$1 \atop $2} \text{$3}
+\ce{^{$1}_{$2} $3}
 endsnippet
 
 snippet lat
@@ -427,4 +427,24 @@ endsnippet
 
 snippet ga
 \gamma
+endsnippet
+
+snippet plot
+\begin{center}
+	\begin{tikzpicture}
+		\pgfplotsset{scale only axis, width=10cm}
+		\begin{axis}[
+			xlabel=$1,
+			ylabel=$2,
+			grid style=dashed,
+			grid,
+			title=$3,
+		]
+		\addplot[mark=otimes*]
+		coordinates{
+			$4
+		};
+		\end{axis}
+	\end{tikzpicture}
+\end{center}
 endsnippet

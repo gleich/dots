@@ -183,6 +183,8 @@ brew "watch"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # Linux cross compilers based on musl libc
 brew "filosottile/musl-cross/musl-cross", args: ["with-arm-hf", "without-x86_64"]
 # My rendition of the classic tetris.
