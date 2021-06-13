@@ -44,6 +44,7 @@ alias gma="resin -a"
 alias gmap="resin -a -p"
 alias gl="git log"
 alias amenda="git add . && git commit --amend --no-edit"
+alias gb="git checkout -b"
 
 # github
 alias gv="gh repo view -w"

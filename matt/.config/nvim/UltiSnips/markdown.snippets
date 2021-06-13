@@ -2,7 +2,7 @@ extends html
 
 
 snippet h1
-#
+#`echo " "`
 endsnippet
 
 snippet h2
@@ -23,4 +23,11 @@ endsnippet
 
 snippet bo
 **$1**
+endsnippet
+
+snippet note
+<!-- Copyright © `date +"%Y"` -->
+<!-- Created: `date +"%D"` -->
+
+# ${1:title}
 endsnippet
