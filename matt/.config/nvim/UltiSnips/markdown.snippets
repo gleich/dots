@@ -26,8 +26,10 @@ snippet bo
 endsnippet
 
 snippet note
-<!-- Copyright © `date +"%Y"` -->
-<!-- Created: `date +"%D"` -->
+<!-- Copyright © `date +"%Y"` Matt Gleich -->
+<!--      Created: `date +"%D"`       -->
 
-# ${1:title}
+# `!p snip.rv = snip.basename`
+
+$1
 endsnippet

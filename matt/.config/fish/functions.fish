@@ -27,3 +27,8 @@ function gop
 	golangci-lint run
 	go mod tidy
 end
+
+# replace text recursively with ease
+function repall
+	grep -rl $argv[1] ./ | LC_ALL=C xargs sed -i '' 's/'$argv[1]'/'$argv[2]'/g'
+end

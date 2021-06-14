@@ -63,12 +63,16 @@ brew "node"
 brew "eslint"
 # Modern replacement for 'ls'
 brew "exa"
+# GNU multiple precision arithmetic library
+brew "gmp"
+# Generic library support script
+brew "libtool"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GNU multiple precision arithmetic library
-brew "gmp"
 # GNU awk utility
 brew "gawk"
 # GitHub command-line tool
@@ -81,8 +85,6 @@ brew "gitmoji"
 brew "glow"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
-# Generic library support script
-brew "libtool"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software

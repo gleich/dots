@@ -272,7 +272,7 @@ snippet vtab
 	\begin{tabular}{| c | l |}
 		\hline
 		\textbf{Variable} & \textbf{Definition} \\\ \hline \hline
-		$1 & $2 \\\ \hline$3
+		$ $1 $ & $2 \\\ \hline$3
 	\end{tabular}
 \end{center}
 endsnippet
@@ -315,6 +315,7 @@ endsnippet
 
 snippet s
 \section{$1}
+`echo "    "`
 endsnippet
 
 snippet /
@@ -436,7 +437,6 @@ snippet plot
 		\begin{axis}[
 			xlabel=$1,
 			ylabel=$2,
-			grid style=dashed,
 			grid,
 			title=$3,
 		]
@@ -447,4 +447,16 @@ snippet plot
 		\end{axis}
 	\end{tikzpicture}
 \end{center}
+endsnippet
+
+snippet co
+($1, $2)
+endsnippet
+
+snippet rei
+$ $1 $ & $2 \\\ \hline
+endsnippet
+
+snippet da
+\Delta`echo " "`
 endsnippet
