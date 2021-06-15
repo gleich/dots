@@ -61,7 +61,7 @@ let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
 "                     (|
 " Remappings ⎇λ 🍁
 
-let mapleader = '.'
+let mapleader = ' '
 nmap <leader>a :%y+<cr>
 nmap <leader>b :wq<cr>
 nmap <leader>q :q<cr>
