@@ -1,4 +1,4 @@
-snippet ira
+snippet ira i
 $ \rightarrow $
 endsnippet
 
@@ -55,18 +55,18 @@ $ \sec \theta $
 endsnippet
 
 snippet uk
-\var{ $1 }{\text{?}}
+\var{$1}{\text{?}}
 endsnippet
 
-snippet an
+snippet an "angle" i
 $1^{\circ}
 endsnippet
 
-snippet ie
+snippet ie "Inline math" i
 $ $1 $
 endsnippet
 
-snippet fem
+snippet fem "Fahrenheit" i
 \text{ F}^{\circ}
 endsnippet
 
@@ -95,7 +95,7 @@ snippet qen
         \sol{$3}
 endsnippet
 
-snippet xint
+snippet xint "x intercept" i
 $ x $-intercept
 endsnippet
 
@@ -170,7 +170,7 @@ snippet clt
 }
 endsnippet
 
-snippet ra
+snippet ra "rightarrow" i
 \rightarrow
 endsnippet
 
@@ -255,15 +255,15 @@ snippet ss
 \subsection{$1}
 endsnippet
 
-snippet xaxis
+snippet xaxis "x axis" i
 $ x $-axis
 endsnippet
 
-snippet aeq
-\approxeq
+snippet aeq "approximately equal to" i
+\approxeq`echo " "`
 endsnippet
 
-snippet ap
+snippet ap "approximately" i
 \approx`echo " "`
 endsnippet
 
@@ -301,28 +301,27 @@ snippet sp
 \step{ $1 }
 endsnippet
 
-snippet asn
+snippet asn "arcsin" i
 \arcsin
 endsnippet
 
-snippet sn
+snippet sn "sin" i
 \sin
 endsnippet
 
-snippet le
+snippet lp "left and right parentheses" i
 \left( $1 \right)
 endsnippet
 
 snippet s
 \section{$1}
-`echo "    "`
 endsnippet
 
-snippet /
-\frac{ $1 }{ $2 }
+snippet / "Fraction" i
+\frac{$1}{$2}
 endsnippet
 
-snippet x
+snippet x "multiply vector" i
 \cdot`echo " "`
 endsnippet
 
@@ -332,39 +331,39 @@ snippet ver
 \end{verbatim}
 endsnippet
 
-snippet prop
+snippet prop "proportional to" i
 \propto
 endsnippet
 
-snippet rm
+snippet rm "text in math mode" i
 \text{$1}
 endsnippet
 
-snippet sq
+snippet sq "square root" i
 \sqrt{ $1 }
 endsnippet
 
-snippet the
+snippet the "theta" i
 \theta
 endsnippet
 
-snippet la
+snippet la "lambda" i
 \lambda
 endsnippet
 
-snippet st
+snippet st "statement starter" i
 \statement{ $1 }
 endsnippet
 
-snippet fo
+snippet fo "formula starter" i
 \formula{ $1 }
 endsnippet
 
-snippet e
+snippet eq "equation starter" i
 \eq{ $1 }
 endsnippet
 
-snippet eq
+snippet eq "equivalent" i
 \equiv
 endsnippet
 
@@ -382,12 +381,8 @@ snippet ali
 \end{align*}
 endsnippet
 
-snippet ve
+snippet ve "vector" i
 \vec{$1}
-endsnippet
-
-snippet lp
-\left( $1 \right)
 endsnippet
 
 snippet cd
@@ -406,27 +401,23 @@ snippet do
 $ \dots $
 endsnippet
 
-snippet /b
-{$1 \atop $2}
-endsnippet
-
 snippet par
 \ce{^{$1}_{$2} $3}
 endsnippet
 
-snippet lat
+snippet lat "left arrow tail" i
 \leftarrowtail
 endsnippet
 
-snippet al
+snippet al "greek alpha" i
 \alpha
 endsnippet
 
-snippet be
+snippet be "greek beta" i
 \beta
 endsnippet
 
-snippet ga
+snippet ga "greek gamma" i
 \gamma
 endsnippet
 
@@ -449,7 +440,7 @@ snippet plot
 \end{center}
 endsnippet
 
-snippet co
+snippet co "coordinate" i
 ($1, $2)
 endsnippet
 
@@ -457,7 +448,7 @@ snippet rei
 $ $1 $ & $2 \\\ \hline
 endsnippet
 
-snippet da
+snippet da "delta" i
 \Delta`echo " "`
 endsnippet
 
