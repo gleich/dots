@@ -266,6 +266,8 @@ cask "kitty"
 cask "lastpass"
 # Software for Logitech devices
 cask "logitech-options"
+# Utility for pairing devices with Unifying receivers
+cask "logitech-unifying"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Sandbox construction video game
@@ -297,6 +299,9 @@ cask "tikzit"
 cask "visual-studio-code-insiders"
 # Multimedia player
 cask "vlc"
+# Video communication and virtual meeting platform
+cask "webex"
+cask "webex-meetings"
 # Video communication and virtual meeting platform
 cask "zoom"
 cask "zwift"
