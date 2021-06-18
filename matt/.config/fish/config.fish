@@ -1,5 +1,6 @@
 source ~/.config/fish/alias.fish
 source ~/.config/fish/functions.fish
+source ~/.config/fish/conf_functions.fish
 source ~/.config/fish/vars.fish
 source ~/.config/fish/wakatime.fish
 set fish_greeting

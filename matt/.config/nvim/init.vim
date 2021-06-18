@@ -9,7 +9,7 @@
 " _|_ |)    _          _
 "  |  |/\  |/ /|/|/|  |/
 "  |_/|  |/|_/ | | |_/|_/
-" Theme ⎇ λ 🎨
+" Theme 🎨
 
 syntax on             " Turn on syntax highlighting
 colorscheme blackbird " Set color theme
@@ -18,7 +18,7 @@ colorscheme blackbird " Set color theme
 " / | |/ /|/|  |/ /  | / |  |/
 " \/|/|_/ | |_/|_/   |/\/|_/|_/
 "  (|
-" General ⎇ λ ⚙️
+" General ⚙️
 
 set tabstop=4             " Default tab stop
 set updatetime=50         " Faster completion
@@ -44,13 +44,13 @@ set undodir=~/.vim/undoir " Where to store undo files
 set undofile              " Make undo files
 set lazyredraw            " Make redraw faster
 set autoindent            " Try to autoindent
-set statusline=\ ⎇\ λ\ %#StatusLineMode#\ %{mode()}\ %#StatusLine#\ 🌲\ %#StatusLineFile#%t%#StatusLine#\ 🌲\ %m " Custom status line
+set statusline=%#StatusLineMode#\ %{toupper(mode())}\ %#StatusLine#\ %t\ %m " Custom status line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o      " Turn off auto comment insertion
 
 "          _,   _   ,_   _   ,
 " /|/|/|  / |  /   /  | / \_/ \_
 "  | | |_/\/|_/\__/   |/\_/  \/
-" Macros ⎇ λ🔩
+" Macros 🔩
 
 let @c = 'dawvU'            " Make the word after the current word the start of the sentence
 let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
@@ -59,7 +59,7 @@ let @n = 'jjoSitemn	' " Add itemn to next parent item (latex)
 " /  | |/ /|/|/|  / |  |/\_/ \_
 "    |/|_/ | | |_/\/|_/|_/  \/
 "                     (|
-" Remappings ⎇λ 🍁
+" Remappings 🍁
 
 let mapleader = ' '
 nmap <leader>a :%y+<cr>
@@ -92,7 +92,7 @@ nmap <leader><right> <C-w><right>
 "  |/\_|/ |  |  / | | /|/|  / \_
 "  |_/ |_/ \/|_/\/|/|/ | |_/ \/
 " (|             (|
-" Plugins ⎇ λ 🔌
+" Plugins 🔌
 
 call plug#begin('~/.vim/plugged')
     Plug 'junegunn/vim-easy-align'                      " 📐 Easy alignment of characters
@@ -125,7 +125,7 @@ call plug#end()
 "  |/\_|/ |  |  / | | /|/|     /   / \_/|/|  |/ | / |
 "  |_/ |_/ \/|_/\/|/|/ | |_/   \__/\_/  | |_/|_/|/\/|/
 " (|             (|                          |)    (|
-" Plugin Configuration ⎇ λ ⚗️
+" Plugin Configuration ⚗️
 
 " preservim/nerdtree  ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let NERDTreeMinimalUI=1

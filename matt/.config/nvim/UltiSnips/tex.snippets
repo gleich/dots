@@ -301,7 +301,7 @@ snippet sp
 \step{ $1 }
 endsnippet
 
-snippet asn "arcsin" i
+snippet sna "arcsin" i
 \arcsin
 endsnippet
 
@@ -371,7 +371,7 @@ snippet q
 \`\`$1''
 endsnippet
 
-snippet de
+snippet de "degree" i
 $1$^{\circ}$
 endsnippet
 
@@ -401,8 +401,12 @@ snippet do
 $ \dots $
 endsnippet
 
-snippet par
+snippet nuc "nuclei" i
 \ce{^{$1}_{$2} $3}
+endsnippet
+
+snippet nuct "nuclei in math mode" i
+\text{\ce{^{$1}_{$2} $3}}
 endsnippet
 
 snippet lat "left arrow tail" i
