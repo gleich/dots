@@ -15,6 +15,10 @@ snippet pl
 fmt.Println($1)
 endsnippet
 
+snippet plf
+fmt.Printf("%#v", $1)
+endsnippet
+
 snippet it
 for _, $1 := range $2 {
 	$3
@@ -32,6 +36,10 @@ snippet rn
 return nil
 endsnippet
 
+snippet r
+return`echo " "`
+endsnippet
+
 snippet init
 func init() {
 	$1
@@ -40,4 +48,15 @@ endsnippet
 
 snippet c
 // $1
+endsnippet
+
+snippet jc
+\`json:"$1"\`
+endsnippet
+
+snippet te
+// Test for the $1 function
+func Test$1(t *testing.T) {
+	$2
+}
 endsnippet
