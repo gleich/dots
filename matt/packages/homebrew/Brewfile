@@ -278,6 +278,8 @@ cask "ngrok"
 cask "notion"
 # Software for Anne Pro and Anne Pro 2
 cask "obinskit"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes

@@ -84,6 +84,7 @@
     "creds",
     "cupertino",
     "dateutil",
+    "dockerenv",
     "dtype",
     "eagleye",
     "effecient",
@@ -170,7 +171,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "Victor Mono",
+  "editor.fontFamily": "Victor Mono Semibold",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -242,7 +243,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "'Victor Mono', 'MesloLGS-NF-Regular'",
+  "terminal.integrated.fontFamily": "'Victor Mono Semibold', 'MesloLGS-NF-Regular'",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.cursorStyle": "line",
   "[html]": {
@@ -424,5 +425,10 @@
   "workbench.activityBar.visible": false,
   "vim.debug.silent": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "security.workspace.trust.enabled": false // Remember this!!!
+  "security.workspace.trust.enabled": false,
+  "vim.camelCaseMotion.enable": true,
+  "vim.highlightedyank.duration": 100,
+  "vim.vimrc.enable": true,
+  "editor.selectionHighlight": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false
 }
