@@ -73,6 +73,7 @@ def main():
         ".",
         [
             ".gitconfig",
+            "crons.txt",
             ".tmux.conf",
             ".docker/config.json",
             "Library/Application Support/eDEX-UI/settings.json",

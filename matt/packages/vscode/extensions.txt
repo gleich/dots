@@ -35,6 +35,7 @@ naumovs.color-highlight
 njpwerner.autodocstring
 rangav.vscode-thunder-client
 redhat.java
+ritwickdey.LiveServer
 shardulm94.trailing-spaces
 silvenon.mdx
 SonarSource.sonarlint-vscode
