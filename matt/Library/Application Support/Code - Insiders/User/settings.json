@@ -298,7 +298,7 @@
   "vim.enableNeovim": true,
   "latex-workshop.view.pdf.invertMode.enabled": "always",
   "latex-workshop.latex.autoClean.run": "onBuilt",
-  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.progress.barStyle": "none",
   "workbench.editor.decorations.badges": false,
@@ -370,10 +370,10 @@
   "rust.rustfmt_path": "~/.cargo/bin/rustfmt",
   "vsicons.dontShowNewVersionMessage": true,
   "yaclock.flashTimeSeparator": true,
-  "yaclock.prefix": "∆∇ 🌲🌲 ∆∇ ",
+  "yaclock.prefix": "",
   "yaclock.showDay": true,
   "yaclock.showDate": true,
-  "window.titleSeparator": " 🌲 ",
+  "window.titleSeparator": " | ",
   "hadolint.hadolintPath": "/usr/local/bin/hadolint",
   "conventionalCommits.scopes": [
     "script",
@@ -430,5 +430,8 @@
   "vim.highlightedyank.duration": 100,
   "vim.vimrc.enable": true,
   "editor.selectionHighlight": false,
-  "editor.suggest.snippetsPreventQuickSuggestions": false
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "explorer.confirmDragAndDrop": false,
+  "vim.useSystemClipboard": true,
+  "editor.tabCompletion": "on"
 }

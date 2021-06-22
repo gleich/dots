@@ -248,6 +248,7 @@ cask "font-sf-pro"
 cask "font-victor-mono"
 # App that shows GitHub notifications on the desktop
 cask "gitify"
+# Back up and sync files with Google Drive
 cask "google-backup-and-sync"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
@@ -272,6 +273,8 @@ cask "logitech-unifying"
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Sandbox construction video game
 cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost

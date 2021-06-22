@@ -247,6 +247,10 @@
     "prefix": ["cltr"],
     "body": ["\\explain{Combine Like Terms (R)}{\n\t$1\n}"],
   },
+  "Combine Like Terms": {
+    "prefix": ["clt"],
+    "body": ["\\explain{Combine Like Terms}{\n\t$1\n}"],
+  },
   "Combine Like Terms (Left Side)": {
     "prefix": ["cltl"],
     "body": ["\\explain{Combine Like Terms (L)}{\n\t$1\n}"],
@@ -356,5 +360,9 @@
   "math step": {
     "prefix": ["sp"],
     "body": ["\\step{ $1 }"]
+  },
+  "formula": {
+    "prefix": "fo",
+    "body": "\\formula{$1}"
   }
 }
