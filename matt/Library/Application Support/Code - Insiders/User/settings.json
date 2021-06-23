@@ -125,6 +125,7 @@
     "ngnix",
     "numpy",
     "oauthlib",
+    "octodns",
     "osascript",
     "popen",
     "postgres",
@@ -433,5 +434,6 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "explorer.confirmDragAndDrop": false,
   "vim.useSystemClipboard": true,
-  "editor.tabCompletion": "on"
+  "editor.tabCompletion": "on",
+  "python.showStartPage": false
 }
