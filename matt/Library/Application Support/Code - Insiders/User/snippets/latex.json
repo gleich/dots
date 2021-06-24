@@ -297,6 +297,10 @@
     "prefix": ["th"],
     "body": ["$1\\textsuperscript{th}"],
   },
+  "rd super script suffix": {
+    "prefix": ["rd"],
+    "body": ["$1\\textsuperscript{rd}"],
+  },
   "nd super script suffix": {
     "prefix": ["nd"],
     "body": ["$1\\textsuperscript{nd}"],
