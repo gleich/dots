@@ -6,10 +6,10 @@
 ├── generator-code@1.5.1
 ├── live-server@1.2.1
 ├── mapscii@0.3.1
-├── npm@7.18.1
+├── npm@7.19.0
 ├── ts-node@10.0.0
 ├── typescript@4.3.4
 ├── vercel@23.0.1
-├── vsce@1.94.0
+├── vsce@1.95.0
 └── yo@4.2.0
 

@@ -15,3 +15,7 @@
 0 */12 * * * cd ~ && crontab -l >> crons.txt
 */10 * * * * /Users/matt/Library/Application Support/Developer/Shared/Xcode/Plug-ins/WakaTime.xcplugin/Contents/Resources/check_need_reinstall_plugin.py
 0 */12 * * * cd ~ && crontab -l >> crons.txt
+*/10 * * * * /Users/matt/Library/Application Support/Developer/Shared/Xcode/Plug-ins/WakaTime.xcplugin/Contents/Resources/check_need_reinstall_plugin.py
+0 */12 * * * cd ~ && crontab -l >> crons.txt
+*/10 * * * * /Users/matt/Library/Application Support/Developer/Shared/Xcode/Plug-ins/WakaTime.xcplugin/Contents/Resources/check_need_reinstall_plugin.py
+0 */12 * * * cd ~ && crontab -l >> crons.txt
