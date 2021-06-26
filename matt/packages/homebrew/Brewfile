@@ -135,6 +135,8 @@ brew "pfetch"
 brew "pgweb"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
 # Python package management tool
 brew "poetry"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML

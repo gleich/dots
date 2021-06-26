@@ -405,6 +405,8 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.formatOnSave": false
   },
+  "vim.incsearch": true,
+  "vim.hlsearch": true,
   "workbench.colorTheme": "blackbird",
   "latex-workshop.bibtex-format.sort.enabled": true,
   "latex-workshop.viewer.pdf.internal.keyboardEvent": "force",
@@ -416,7 +418,6 @@
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
   "python.pythonPath": "/usr/local/bin/python3",
-  "window.zoomLevel": 1,
   "workbench.editor.untitled.hint": "hidden",
   "latex-workshop.view.pdf.invert": 1,
   "editor.suggest.insertMode": "replace",
@@ -435,5 +436,15 @@
   "explorer.confirmDragAndDrop": false,
   "vim.useSystemClipboard": true,
   "editor.tabCompletion": "on",
-  "python.showStartPage": false
+  "python.showStartPage": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["C-r"],
+      "commands": ["redo"]
+    }
+  ]
 }

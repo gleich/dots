@@ -56,7 +56,7 @@
   "Variable Table": {
     "prefix": ["vtab"],
     "body": [
-      "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t\t\\hline\n\t\t\\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
+      "\\begin{center}\n\t\\begin{tabular}{| c | l |}\n\t\t\\hline\n\t\t\\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$ $1 $ & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
     ],
   },
   "Row": {
