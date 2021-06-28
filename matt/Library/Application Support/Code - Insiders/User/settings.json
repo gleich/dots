@@ -302,7 +302,6 @@
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.progress.barStyle": "none",
-  "workbench.editor.decorations.badges": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -406,7 +405,6 @@
     "editor.formatOnSave": false
   },
   "vim.incsearch": true,
-  "vim.hlsearch": true,
   "workbench.colorTheme": "blackbird",
   "latex-workshop.bibtex-format.sort.enabled": true,
   "latex-workshop.viewer.pdf.internal.keyboardEvent": "force",
@@ -446,5 +444,7 @@
       "before": ["C-r"],
       "commands": ["redo"]
     }
-  ]
+  ],
+  "workbench.editor.decorations.colors": false,
+  "conventionalCommits.showNewVersionNotes": false
 }

@@ -1,197 +1,197 @@
 {
   "Subsection": {
     "prefix": ["ss"],
-    "body": ["\\subsection{$1}"],
+    "body": ["\\subsection{$1}"]
   },
   "Subsubsection": {
     "prefix": ["sss"],
-    "body": ["\\subsubsection{$1}"],
+    "body": ["\\subsubsection{$1}"]
   },
   "Center": {
     "prefix": ["ce"],
-    "body": ["\\begin{center}\n\t\\item $1 \n\\end{center}"],
+    "body": ["\\begin{center}\n\t\\item $1 \n\\end{center}"]
   },
   "Center Math": {
     "prefix": ["cm"],
-    "body": ["\\[ $1 \\]"],
+    "body": ["\\[ $1 \\]"]
   },
   "Enumeration with capital letters": {
     "prefix": ["enumA"],
     "body": [
       "\\begin{enumerate}[label=\\Alph*.]\n\t\\item $1 \n\\end{enumerate}"
-    ],
+    ]
   },
   "Enumeration with capital letters in parentheses": {
     "prefix": ["enumP"],
     "body": [
       "\\begin{enumerate}[label=(\\Alph*)]\n\t\\item $1 \n\\end{enumerate}"
-    ],
+    ]
   },
   "Enumeration with lowercase letters": {
     "prefix": ["enuma"],
     "body": [
       "\\begin{enumerate}[label=\\alph*.]\n\t\\item $1 \n\\end{enumerate}"
-    ],
+    ]
   },
   "Enumeration with lowercase letters in parentheses": {
     "prefix": ["enump"],
     "body": [
       "\\begin{enumerate}[label=(\\alph*)]\n\t\\item $1 \n\\end{enumerate}"
-    ],
+    ]
   },
   "Itemize with no bullets": {
     "prefix": ["itemn"],
-    "body": ["\\begin{itemize}[label=]\n\t\\item $1 \n\\end{itemize}"],
+    "body": ["\\begin{itemize}[label=]\n\t\\item $1 \n\\end{itemize}"]
   },
   "Full set of parentheses": {
     "prefix": ["le"],
-    "body": ["\\left($1\\right)"],
+    "body": ["\\left($1\\right)"]
   },
   "Term Table": {
     "prefix": ["ttab"],
     "body": [
       "\\begin{center}\n\t\\begin{tabular}{| c | c |}\n\t\t\\hline\n\t\t\\textbf{Term} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$1 & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
-    ],
+    ]
   },
   "Variable Table": {
     "prefix": ["vtab"],
     "body": [
       "\\begin{center}\n\t\\begin{tabular}{| c | l |}\n\t\t\\hline\n\t\t\\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$ $1 $ & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
-    ],
+    ]
   },
   "Row": {
     "prefix": ["re"],
-    "body": ["$1 & $2 \\\\\\ \\hline$3"],
+    "body": ["$1 & $2 \\\\\\ \\hline$3"]
   },
   "Inline Math": {
     "prefix": ["ie"],
-    "body": ["$ $1 $"],
+    "body": ["$ $1 $"]
   },
   "Mathmatical Solution": {
     "prefix": ["sol"],
-    "body": ["\\msol{$1}"],
+    "body": ["\\msol{$1}"]
   },
   "Question": {
     "prefix": ["qe"],
     "body": [
       "\\section{}\n\t\\subsection{Question}\n\t\t$1\n\t\\subsection{Work \\& Answer}\n\t\t\\begin{align*}\n\t\t    $2\n\t\t\\end{align*}\n\t\t\\msol{$3}"
-    ],
+    ]
   },
   "Question Normal": {
     "prefix": ["qen"],
     "body": [
       "\\section{}\n\t\\subsection{Question}\n\t\t$1\n\t\\subsection{Answer}\n\t\t\\sol{$3}"
-    ],
+    ]
   },
   "Question Sub": {
     "prefix": ["qes"],
     "body": [
       "\\subsection{}\n\t\\subsubsection{Question}\n\t\t$1\n\t\\subsubsection{Work \\& Answer}\n\t\t\\begin{align*}\n\t\t    $2\n\t\t\\end{align*}\n\t\t\\msol{$3}"
-    ],
+    ]
   },
   "Plain Enumeration": {
     "prefix": ["enum"],
-    "body": ["\\begin{enumerate}\n\t\\item $1 \n\\end{enumerate}"],
+    "body": ["\\begin{enumerate}\n\t\\item $1 \n\\end{enumerate}"]
   },
   "Plain Text in Math Mode": {
     "prefix": ["rm"],
-    "body": ["\\text{$1}"],
+    "body": ["\\text{$1}"]
   },
   "Bold text": {
     "prefix": ["bf"],
-    "body": ["\\textbf{$1}"],
+    "body": ["\\textbf{$1}"]
   },
   "Right Arrow": {
     "prefix": ["ira"],
-    "body": ["$ \\rightarrow $"],
+    "body": ["$ \\rightarrow $"]
   },
   "Angle": {
     "prefix": ["an"],
-    "body": ["$ \\measuredangle $1^{\\circ} $"],
+    "body": ["$ \\measuredangle $1^{\\circ} $"]
   },
   "Celcius": {
     "prefix": ["cet"],
-    "body": ["C$ ^{\\circ} $"],
+    "body": ["C$ ^{\\circ} $"]
   },
   "Fahrenheit": {
     "prefix": ["fet"],
-    "body": ["F$ ^{\\circ} $"],
+    "body": ["F$ ^{\\circ} $"]
   },
   "Kelvin": {
     "prefix": ["ket"],
-    "body": ["K$ ^{\\circ} $"],
+    "body": ["K$ ^{\\circ} $"]
   },
   "Celcius Math": {
     "prefix": ["cem"],
-    "body": ["\\text{ C}^{\\circ}"],
+    "body": ["\\text{ C}^{\\circ}"]
   },
   "Fahrenheit Math": {
     "prefix": ["fem"],
-    "body": ["\\text{ F}^{\\circ}"],
+    "body": ["\\text{ F}^{\\circ}"]
   },
   "Kelvin Math": {
     "prefix": ["kem"],
-    "body": ["\\text{ K}^{\\circ}"],
+    "body": ["\\text{ K}^{\\circ}"]
   },
   "y axis": {
     "prefix": ["yaxis"],
-    "body": ["$ y $-axis"],
+    "body": ["$ y $-axis"]
   },
   "x axis": {
     "prefix": ["xaxis"],
-    "body": ["$ x $-axis"],
+    "body": ["$ x $-axis"]
   },
   "icos": {
     "prefix": ["icos"],
-    "body": ["$ \\cos \\theta $"],
+    "body": ["$ \\cos \\theta $"]
   },
   "isin": {
     "prefix": ["isin"],
-    "body": ["$ \\sin \\theta $"],
+    "body": ["$ \\sin \\theta $"]
   },
   "itan": {
     "prefix": ["itan"],
-    "body": ["$ \\tan \\theta $"],
+    "body": ["$ \\tan \\theta $"]
   },
   "cos": {
     "prefix": ["cos"],
-    "body": ["\\cos \\theta"],
+    "body": ["\\cos \\theta"]
   },
   "sin": {
     "prefix": ["sin"],
-    "body": ["\\sin \\theta"],
+    "body": ["\\sin \\theta"]
   },
   "tan": {
     "prefix": ["tan"],
-    "body": ["\\tan \\theta"],
+    "body": ["\\tan \\theta"]
   },
   "icsc": {
     "prefix": ["icsc"],
-    "body": ["$ \\csc \\theta $"],
+    "body": ["$ \\csc \\theta $"]
   },
   "isec": {
     "prefix": ["isec"],
-    "body": ["$ \\sec \\theta $"],
+    "body": ["$ \\sec \\theta $"]
   },
   "icot": {
     "prefix": ["icot"],
-    "body": ["$ \\cot \\theta $"],
+    "body": ["$ \\cot \\theta $"]
   },
   "csc": {
     "prefix": ["csc"],
-    "body": ["\\csc \\theta"],
+    "body": ["\\csc \\theta"]
   },
   "sec": {
     "prefix": ["sec"],
-    "body": ["\\sec \\theta"],
+    "body": ["\\sec \\theta"]
   },
   "cot": {
     "prefix": ["cot"],
-    "body": ["\\cot \\theta"],
+    "body": ["\\cot \\theta"]
   },
   "Right Arrow in Math": {
     "prefix": ["ra"],
-    "body": ["\\rightarrow"],
+    "body": ["\\rightarrow"]
   },
   "Practice Problem": {
     "prefix": ["pra"],
@@ -208,7 +208,7 @@
       "\t\t$5",
       "",
       "\\horizontalrule"
-    ],
+    ]
   },
   "Sub Practice Problem": {
     "prefix": ["pras"],
@@ -225,39 +225,39 @@
       "\t\t$5",
       "",
       "\\horizontalrule"
-    ],
+    ]
   },
   "y-axis intercept": {
     "prefix": ["yint"],
-    "body": ["$ y $-intercept"],
+    "body": ["$ y $-intercept"]
   },
   "x-axis intercept": {
     "prefix": ["xint"],
-    "body": ["$ x $-intercept"],
+    "body": ["$ x $-intercept"]
   },
   "Table of Contents": {
     "prefix": ["toc"],
-    "body": ["\\tableofcontents", "\\newpage\n"],
+    "body": ["\\tableofcontents", "\\newpage\n"]
   },
   "Explain Equation Macro": {
     "prefix": ["ep"],
-    "body": ["\\explain{$1}{\n\t$2\n}"],
+    "body": ["\\explain{$1}{\n\t$2\n}"]
   },
   "Combine Like Terms (Right Side)": {
     "prefix": ["cltr"],
-    "body": ["\\explain{Combine Like Terms (R)}{\n\t$1\n}"],
+    "body": ["\\explain{Combine Like Terms (R)}{\n\t$1\n}"]
   },
   "Combine Like Terms": {
     "prefix": ["clt"],
-    "body": ["\\explain{Combine Like Terms}{\n\t$1\n}"],
+    "body": ["\\explain{Combine Like Terms}{\n\t$1\n}"]
   },
   "Combine Like Terms (Left Side)": {
     "prefix": ["cltl"],
-    "body": ["\\explain{Combine Like Terms (L)}{\n\t$1\n}"],
+    "body": ["\\explain{Combine Like Terms (L)}{\n\t$1\n}"]
   },
   "Variable Insertion": {
     "prefix": ["is"],
-    "body": ["\\explain{Insert}{\n\t$1\n}"],
+    "body": ["\\explain{Insert}{\n\t$1\n}"]
   },
   "Variable Declaration": {
     "prefix": ["vars"],
@@ -267,71 +267,71 @@
       "        $1 = $2 \\\\\\ $3",
       "    }",
       "\\end{align*}"
-    ],
+    ]
   },
   "Initial Equation": {
     "prefix": ["int"],
-    "body": ["\\initialeq{$1}"],
+    "body": ["\\initialeq{$1}"]
   },
   "Variable Declaration in Problem": {
     "prefix": ["vas"],
-    "body": ["\\variables{\n\t$1\n}"],
+    "body": ["\\variables{\n\t$1\n}"]
   },
   "And shorthand symbol": {
     "prefix": ["and"],
-    "body": ["\\&"],
+    "body": ["\\&"]
   },
   "Correct": {
     "prefix": ["cor"],
-    "body": ["\\ding{51} \\green{Correct}"],
+    "body": ["\\ding{51} \\green{Correct}"]
   },
   "Incorrect": {
     "prefix": ["icor"],
-    "body": ["\\ding{55} \\red{Incorrect}"],
+    "body": ["\\ding{55} \\red{Incorrect}"]
   },
   "Yellow Highlighter": {
     "prefix": ["ye"],
-    "body": ["\\yellow{$1}"],
+    "body": ["\\yellow{$1}"]
   },
   "th super script suffix": {
     "prefix": ["th"],
-    "body": ["$1\\textsuperscript{th}"],
+    "body": ["$1\\textsuperscript{th}"]
   },
   "rd super script suffix": {
     "prefix": ["rd"],
-    "body": ["$1\\textsuperscript{rd}"],
+    "body": ["$1\\textsuperscript{rd}"]
   },
   "nd super script suffix": {
     "prefix": ["nd"],
-    "body": ["$1\\textsuperscript{nd}"],
+    "body": ["$1\\textsuperscript{nd}"]
   },
   "therefore": {
     "prefix": ["te"],
-    "body": ["\\therefore"],
+    "body": ["\\therefore "]
   },
   "approximate equal": {
     "prefix": ["aeq"],
-    "body": ["\\approxeq"],
+    "body": ["\\approxeq"]
   },
   "unknown": {
     "prefix": ["uk"],
-    "body": ["\\var{$1}{\\text{?}}"],
+    "body": ["\\var{$1}{\\text{?}}"]
   },
   "unit": {
     "prefix": ["un"],
-    "body": ["\\text{ $1}"],
+    "body": ["\\text{ $1}"]
   },
   "ohm text": {
     "prefix": ["ohm"],
-    "body": ["$ \\Omega $"],
+    "body": ["$ \\Omega $"]
   },
   "ohm math": {
     "prefix": ["om"],
-    "body": ["\\text{ } \\Omega"],
+    "body": ["\\text{ } \\Omega"]
   },
   "circuit tikz": {
     "prefix": ["ctikz"],
-    "body": ["\\begin{circuitikz} \\draw", "\t$1", "\\end{circuitikz}"],
+    "body": ["\\begin{circuitikz} \\draw", "\t$1", "\\end{circuitikz}"]
   },
   "measured angle": {
     "prefix": ["ma"],
@@ -368,5 +368,9 @@
   "formula": {
     "prefix": "fo",
     "body": "\\formula{$1}"
+  },
+  "infinity": {
+    "prefix": "in",
+    "body": "\\infty"
   }
 }
