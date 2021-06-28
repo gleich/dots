@@ -271,7 +271,7 @@
   },
   "Initial Equation": {
     "prefix": ["int"],
-    "body": ["\\initialeq{$1}"]
+    "body": ["\\eq{$1}"]
   },
   "Variable Declaration in Problem": {
     "prefix": ["vas"],
