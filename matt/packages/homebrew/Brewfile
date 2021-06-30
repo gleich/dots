@@ -239,6 +239,7 @@ cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-gnu-unifont"
 cask "font-hack-nerd-font"
+cask "font-ibm-plex"
 # Sans-serif, slab-serif, monospace and quasi‑proportional typeface family
 cask "font-iosevka"
 # Sans-serif, slab-serif, monospace and quasi‑proportional typeface family

@@ -3,7 +3,7 @@
 ├── @types/node@15.12.5
 ├── caprover@2.1.1
 ├── emoj@3.1.0
-├── generator-code@1.5.1
+├── generator-code@1.5.2
 ├── live-server@1.2.1
 ├── mapscii@0.3.1
 ├── npm@7.19.0
