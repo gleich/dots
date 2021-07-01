@@ -446,5 +446,6 @@
     }
   ],
   "workbench.editor.decorations.colors": false,
-  "conventionalCommits.showNewVersionNotes": false
+  "conventionalCommits.showNewVersionNotes": false,
+  "editor.inlineSuggest.enabled": true
 }
