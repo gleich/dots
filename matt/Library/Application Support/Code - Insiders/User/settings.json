@@ -88,6 +88,7 @@
     "dtype",
     "eagleye",
     "effecient",
+    "emojicast",
     "fanboat",
     "flexbox",
     "fluttercommunity",
@@ -447,5 +448,6 @@
   ],
   "workbench.editor.decorations.colors": false,
   "conventionalCommits.showNewVersionNotes": false,
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false
 }
