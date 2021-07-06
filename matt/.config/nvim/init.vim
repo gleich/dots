@@ -127,8 +127,8 @@ call plug#end()
 " Plugin Configuration ⚗️
 
 " preservim/nerdtree  ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-let NERDTreeMinimalUI=1
-let NERDTreeWinPos='right'
+let NERDTreeMinimalUI = 1
+let NERDTreeWinPos ='right'
 let NERDTreeShowHidden = 1
 let NERDTreeGitStatusWithFlags = 1
 let NERDTreeIgnore = ['.DS_Store']
@@ -143,10 +143,10 @@ augroup spelunker
   autocmd!
 augroup END
 " SirVer/ultisnips ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-let g:UltiSnipsExpandTrigger='<tab>'
-let g:UltiSnipsJumpForwardTrigger='<tab>'
-let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
-let g:UltiSnipsEditSplit='vertical'
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+let g:UltiSnipsEditSplit = 'vertical'
 " fatih/vim-go ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_extra_types = 1
