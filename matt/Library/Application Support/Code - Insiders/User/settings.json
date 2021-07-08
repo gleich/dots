@@ -220,7 +220,6 @@
     "yaml",
     "yml"
   ],
-  "editor.fontLigatures": true,
   "dart.warnWhenEditingFilesOutsideWorkspace": false,
   "workbench.editor.highlightModifiedTabs": true,
   "[python]": {
@@ -281,7 +280,7 @@
   "python.formatting.autopep8Args": ["--aggressive"],
   "workbench.list.smoothScrolling": true,
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--fast"],
+  "go.lintFlags": ["--fast", "--enable=\"errcheck\""],
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/usr/local/bin/black",
   "editor.smoothScrolling": true,
@@ -385,14 +384,12 @@
     "init",
     "format",
     "lint",
-    "remove",
     "deps",
     "release"
   ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
   "latex-workshop.intellisense.unimathsymbols.enabled": true,
-  "breadcrumbs.enabled": false,
   "editor.renderLineHighlight": "none",
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
@@ -423,7 +420,6 @@
   "editor.suggest.showStatusBar": true,
   "go.useCodeSnippetsOnFunctionSuggest": true,
   "fgh-code.promptOnOpen": false,
-  "workbench.activityBar.visible": false,
   "vim.debug.silent": true,
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
@@ -454,5 +450,7 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "workbench.colorTheme": "blackbird"
+  "workbench.colorTheme": "blackbird",
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.visible": false
 }

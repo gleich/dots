@@ -28,10 +28,28 @@
       "}"
     ]
   },
+  "test function": {
+    "prefix": "tfn",
+    "body": [
+      "// Test fucntion for the $1 function",
+      "func Test$2(t *testing.T) {",
+      "\t$3",
+      "}"
+    ]
+  },
   "iterate over data": {
     "prefix": "it",
     "body": [
       "for _, $1 := range $2 {",
+      "\t$3",
+      "}"
+    ]
+  },
+  "type": {
+    "prefix": "tp",
+    "body": [
+      "// $1",
+      "type $2 struct {",
       "\t$3",
       "}"
     ]

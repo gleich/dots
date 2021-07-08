@@ -200,7 +200,6 @@ let g:floaterm_autoclose = 1
 let g:ale_linters = {
 	\ 'markdown': ['null'],
 	\ 'vim': ['null'],
-	\ 'go': ['golangci-lint -D revive'],
 	\}
 let g:ale_fixers = {
 	\ '*': [

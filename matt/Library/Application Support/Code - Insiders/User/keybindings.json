@@ -117,5 +117,19 @@
   {
     "key": "shift+cmd+a",
     "command": "thunder-client-sidebar.focus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.navigateEditorGroups"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   }
 ]

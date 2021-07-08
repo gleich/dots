@@ -220,6 +220,8 @@ cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser-dev"
 cask "cool-retro-term"
+# API documentation browser and code snippet manager
+cask "dash"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
