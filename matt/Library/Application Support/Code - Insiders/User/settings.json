@@ -450,7 +450,11 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "workbench.colorTheme": "blackbird",
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "blackbird",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "terminal.integrated.defaultLocation": "editor",
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
