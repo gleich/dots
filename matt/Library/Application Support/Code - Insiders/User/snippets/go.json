@@ -31,7 +31,7 @@
   "test function": {
     "prefix": "tfn",
     "body": [
-      "// Test fucntion for the $1 function",
+      "// Test function for the $1 function",
       "func Test$2(t *testing.T) {",
       "\t$3",
       "}"
@@ -53,5 +53,9 @@
       "\t$3",
       "}"
     ]
+  },
+  "assertion": {
+    "prefix": "as",
+    "body": "assert.Equal(t, ${1:expected}, ${2: actual})"
   }
 }
