@@ -372,5 +372,9 @@
   "infinity": {
     "prefix": "in",
     "body": "\\infty"
+  },
+  "center dot": {
+    "prefix": "cd",
+    "body": "\\cdot "
   }
 }

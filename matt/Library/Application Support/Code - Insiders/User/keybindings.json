@@ -119,10 +119,6 @@
     "command": "thunder-client-sidebar.focus"
   },
   {
-    "key": "cmd+l",
-    "command": "workbench.action.navigateEditorGroups"
-  },
-  {
     "key": "cmd+enter",
     "command": "explorer.openToSide",
     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
@@ -135,5 +131,21 @@
   {
     "key": "cmd+r",
     "command": "git.refresh"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "cmd+up",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "cmd+down",
+    "command": "workbench.action.navigateDown"
   }
 ]

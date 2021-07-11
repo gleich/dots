@@ -251,6 +251,8 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 cask "font-sf-pro"
 cask "font-victor-mono"
+# Font editor and converter for outline and bitmap fonts
+cask "fontforge"
 # App that shows GitHub notifications on the desktop
 cask "gitify"
 # Back up and sync files with Google Drive
