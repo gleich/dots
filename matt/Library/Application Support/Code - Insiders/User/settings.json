@@ -112,6 +112,7 @@
     "infographics",
     "jira",
     "kubectl",
+    "leaderboards",
     "logoru",
     "loguru",
     "macos",
@@ -456,5 +457,6 @@
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3"
 }
