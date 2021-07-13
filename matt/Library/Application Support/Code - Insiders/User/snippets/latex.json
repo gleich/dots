@@ -270,7 +270,7 @@
     ]
   },
   "Initial Equation": {
-    "prefix": ["int"],
+    "prefix": ["eq"],
     "body": ["\\eq{$1}"]
   },
   "Variable Declaration in Problem": {
