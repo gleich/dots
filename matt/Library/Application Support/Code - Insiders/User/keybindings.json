@@ -147,5 +147,9 @@
   {
     "key": "cmd+down",
     "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
   }
 ]

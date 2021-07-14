@@ -23,6 +23,7 @@ MattGleich.theme-blackbird
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode.live-server
 naumovs.color-highlight
 njpwerner.autodocstring
 octref.vetur
