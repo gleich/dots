@@ -133,19 +133,19 @@
     "command": "git.refresh"
   },
   {
-    "key": "cmd+left",
+    "key": "cmd+h",
     "command": "workbench.action.navigateLeft"
   },
   {
-    "key": "cmd+right",
+    "key": "cmd+l",
     "command": "workbench.action.navigateRight"
   },
   {
-    "key": "cmd+up",
+    "key": "cmd+k",
     "command": "workbench.action.navigateUp"
   },
   {
-    "key": "cmd+down",
+    "key": "cmd+j",
     "command": "workbench.action.navigateDown"
   },
   {

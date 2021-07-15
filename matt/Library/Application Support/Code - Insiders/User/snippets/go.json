@@ -48,7 +48,7 @@
   "type": {
     "prefix": "tp",
     "body": [
-      "// $1",
+      "// Outline for a $1",
       "type $2 struct {",
       "\t$3",
       "}"
