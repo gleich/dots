@@ -86,7 +86,7 @@ def main():
     )
     shutil.rmtree("./matt/.config/fish/completions")
     write_to_readme()
-    push_changes()
+    # push_changes()
 
 
 def ensure_correct_path():
