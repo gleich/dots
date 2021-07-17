@@ -86,7 +86,7 @@ def main():
     )
     shutil.rmtree("./matt/.config/fish/completions")
     write_to_readme()
-    # push_changes()
+    push_changes()
 
 
 def ensure_correct_path():
@@ -160,7 +160,7 @@ def push_changes():
     logger.info("Pushing the latest changes")
     os.system("git add .")
     os.system('git commit -m "chore(update): Update to latest config"')
-    os.system("git push")
+    # os.system("git push")
     logger.success("Pushed the latest changes!")
 
 
