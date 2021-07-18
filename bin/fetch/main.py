@@ -56,6 +56,7 @@ def main():
             "gh/config.yml",
             "coc/extensions/package.json",
             "jrnl/jrnl.yaml",
+            "fontforge/prefs",
         ],
     )
 
