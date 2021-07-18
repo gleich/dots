@@ -46,6 +46,7 @@ def main():
             "kitty",
             "zathura",
             "resin",
+            "flutter",
         ],
     )
     copy_files(
@@ -57,6 +58,7 @@ def main():
             "coc/extensions/package.json",
             "jrnl/jrnl.yaml",
             "fontforge/prefs",
+            "yarn/global/package.json",
         ],
     )
 
