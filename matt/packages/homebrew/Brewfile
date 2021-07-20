@@ -1,31 +1,3 @@
-==> New Formulae
-alda
-crun
-iredis
-openfpgaloader
-poppler-qt5
-psalm
-samba
-slirp4netns
-tracker
-vala-language-server
-zet
-==> Renamed Formulae
-parallelstl -> onedpl
-==> New Casks
-dropzone
-font-allison
-font-be-vietnam-pro
-font-besley
-font-klee-one
-font-rampart-one
-font-rock-3d
-font-ruserius
-font-shizuru
-muteme
-wezterm
-==> Deleted Casks
-pdftotext
 tap "armmbed/formulae"
 tap "beeftornado/rmtree"
 tap "filosottile/musl-cross"

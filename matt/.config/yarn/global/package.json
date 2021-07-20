@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "create-next-app": "^11.0.1"
+    "create-next-app": "^11.0.1",
+    "google-font-installer": "^1.2.0"
   }
 }
