@@ -13,6 +13,7 @@ Packages: 264 (brew)
 Shell: fish 3.3.1 
 DE: Aqua 
 WM: Rectangle 
-Terminal: kitty 
+Terminal: iTerm2 
+Terminal Font: VictorMono-Bold 16 (normal) / FiraCodeNerdFontCompleteM-Regular 21 (non-ascii) 
 GPU Driver: macOS Default Graphics Driver 
 ```

@@ -453,7 +453,7 @@
   },
   "breadcrumbs.enabled": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "blackbird",
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",

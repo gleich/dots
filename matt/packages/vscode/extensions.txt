@@ -27,7 +27,6 @@ ms-vscode.live-server
 naumovs.color-highlight
 njpwerner.autodocstring
 octref.vetur
-ritwickdey.LiveServer
 shardulm94.trailing-spaces
 silvenon.mdx
 spywhere.now-playing
