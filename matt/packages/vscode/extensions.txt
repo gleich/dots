@@ -13,6 +13,7 @@ esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
 foxundermoon.shell-format
+GitHub.github-vscode-theme
 golang.go
 James-Yu.latex-workshop
 jameslan.yaclock
