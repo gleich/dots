@@ -19,6 +19,7 @@
   "workbench.iconTheme": "vscode-icons",
   "cSpell.userWords": [
     "AIRTABLE",
+    "Adafruit",
     "Alacritty",
     "Boesen",
     "Brainstem",
@@ -145,6 +146,7 @@
     "rustfmt",
     "rustup",
     "sdks",
+    "sourcegraph",
     "strftime",
     "subnational",
     "texsch",
