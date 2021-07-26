@@ -163,7 +163,7 @@ def push_changes():
     logger.info("Pushing the latest changes")
     os.system("git add .")
     os.system('git commit -m "chore(update): update to latest config"')
-    # os.system("git push")
+    os.system("git push")
     logger.success("Pushed the latest changes!")
 
 
