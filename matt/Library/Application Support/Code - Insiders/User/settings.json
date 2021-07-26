@@ -455,7 +455,7 @@
   },
   "breadcrumbs.enabled": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "GitHub Light",
+  "workbench.colorTheme": "blackbird",
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",
