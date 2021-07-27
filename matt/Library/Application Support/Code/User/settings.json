@@ -454,11 +454,11 @@
     "jupyter-notebook": "left"
   },
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "blackbird",
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "python.defaultInterpreterPath": "/usr/local/bin/python3"
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "workbench.activityBar.visible": false
 }

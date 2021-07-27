@@ -19,11 +19,11 @@ James-Yu.latex-workshop
 jameslan.yaclock
 JeffersonQin.latex-snippets-jeff
 matklad.rust-analyzer
-MattGleich.texsch
 MattGleich.theme-blackbird
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
+ms-toolsai.jupyter
 ms-vscode.live-server
 naumovs.color-highlight
 njpwerner.autodocstring

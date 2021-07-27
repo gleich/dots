@@ -280,6 +280,8 @@ cask "logitech-unifying"
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Sandbox construction video game
 cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -307,8 +309,8 @@ cask "slack"
 cask "steam"
 # PGF/TikZ diagram editor
 cask "tikzit"
-# Code editor
-cask "visual-studio-code-insiders"
+# Open-source code editor
+cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 # Video communication and virtual meeting platform
