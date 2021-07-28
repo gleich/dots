@@ -129,6 +129,8 @@ brew "ninja"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Web-based PostgreSQL database browser
