@@ -7,6 +7,14 @@
       "}"
     ]
   },
+  "Check if error is not nil and return it": {
+    "prefix": "ifer",
+    "body": [
+      "if err != nil {",
+      "\treturn err",
+      "}"
+    ]
+  },
   "println": {
     "prefix": "pl",
     "body": "fmt.Println($1)"
@@ -63,6 +71,14 @@
     "body": [
       "if err != nil {",
       "\tlog.Fatal(err)",
+      "}"
+    ]
+  },
+  "check if a file/folder doesn't exist": {
+    "prefix": "fcheck",
+    "body": [
+      "if _, err := os.Stat($1); os.IsNotExist(err) {",
+      "\t$2",
       "}"
     ]
   }
