@@ -79,6 +79,7 @@
     "caprover",
     "chdir",
     "cjdenio",
+    "cmds",
     "colorbox",
     "consistuaiotn",
     "contituionation",
@@ -389,7 +390,8 @@
     "format",
     "lint",
     "deps",
-    "release"
+    "release",
+    "assets"
   ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
@@ -432,7 +434,6 @@
   "editor.selectionHighlight": false,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "explorer.confirmDragAndDrop": false,
-  "vim.useSystemClipboard": true,
   "editor.tabCompletion": "on",
   "python.showStartPage": false,
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -460,5 +461,13 @@
   "terminal.integrated.defaultLocation": "editor",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "vim.highlightedyank.enable": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["editor.action.rename"]
+    }
+  ]
 }
