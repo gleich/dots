@@ -397,9 +397,6 @@
   "editor.scrollbar.verticalScrollbarSize": 5,
   "latex-workshop.intellisense.unimathsymbols.enabled": true,
   "editor.renderLineHighlight": "none",
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
   "yaclock.hour12": true,
   "git.rebaseWhenSync": true,
   "workbench.productIconTheme": "icons-carbon",
