@@ -8,6 +8,7 @@ cschleiden.vscode-github-actions
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 donjayamanne.githistory
+dracula-theme.theme-dracula
 emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint

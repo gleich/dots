@@ -149,7 +149,7 @@
     "command": "workbench.action.navigateDown"
   },
   {
-    "key": "shift+cmd+w",
+    "key": "alt+w",
     "command": "editor.emmet.action.wrapWithAbbreviation"
   }
 ]

@@ -13,7 +13,7 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "latex-workshop.message.update.show": true,
   "latex-workshop.view.pdf.viewer": "tab",
   "workbench.iconTheme": "vscode-icons",
@@ -90,7 +90,6 @@
     "dockerenv",
     "dtype",
     "eagleye",
-    "effecient",
     "emojicast",
     "fanboat",
     "flexbox",
@@ -99,7 +98,6 @@
     "fpath",
     "getcwd",
     "getenv",
-    "githubv",
     "gitlab",
     "gitmoji",
     "gofmt",
@@ -110,13 +108,11 @@
     "hackclub",
     "hackclubbers",
     "hadolint",
-    "idelolocaial",
     "imread",
     "infographics",
     "jira",
     "kubectl",
     "leaderboards",
-    "logoru",
     "loguru",
     "macos",
     "mattgleich",
@@ -458,7 +454,6 @@
   "terminal.integrated.defaultLocation": "editor",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
-  "workbench.activityBar.visible": false,
   "vim.highlightedyank.enable": true,
   "vim.useSystemClipboard": true,
   "vim.normalModeKeyBindings": [
@@ -466,5 +461,6 @@
       "before": ["<leader>", "r"],
       "commands": ["editor.action.rename"]
     }
-  ]
+  ],
+  "workbench.activityBar.visible": false
 }
