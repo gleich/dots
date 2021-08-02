@@ -455,7 +455,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "vim.highlightedyank.enable": true,
-  "vim.useSystemClipboard": true,
   "vim.normalModeKeyBindings": [
     {
       "before": ["<leader>", "r"],

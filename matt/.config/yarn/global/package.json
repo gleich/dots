@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "create-next-app": "^11.0.1",
-    "google-font-installer": "^1.2.0"
+    "google-font-installer": "^1.2.0",
+    "macos-audio-devices": "^1.4.0"
   }
 }

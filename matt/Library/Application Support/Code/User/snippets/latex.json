@@ -376,5 +376,26 @@
   "center dot": {
     "prefix": "cd",
     "body": "\\cdot "
+  },
+  "coordinate plot": {
+    "prefix": "plot",
+    "body": [
+      "\\begin{center}",
+      "\t\\begin{tikzpicture}",
+      "\t\t\\pgfplotsset{scale only axis, width=10cm}",
+      "\t\t\\begin{axis}[",
+      "\t\t\txlabel=$1",
+      "\t\t\tylabel=$2",
+      "\t\t\tgrid,",
+      "\t\t\ttitle=$3",
+      "\t\t]",
+      "\t\t\\addplot[mark=otimes*]",
+      "\t\tcoordinates{",
+      "\t\t\t$4",
+      "\t\t};",
+      "\t\t\\end{axis}",
+      "\t\\end{tikzpicture}",
+      "\\end{center}"
+    ]
   }
 }
