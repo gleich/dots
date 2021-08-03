@@ -28,6 +28,9 @@ ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-vscode.live-server
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+mtxr.sqltools-driver-pg
 naumovs.color-highlight
 njpwerner.autodocstring
 octref.vetur
