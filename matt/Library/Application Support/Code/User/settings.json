@@ -57,6 +57,7 @@
     "Powerpoint",
     "Printf",
     "Println",
+    "Queryable",
     "RGBO",
     "Raycast",
     "Roboto",
@@ -476,6 +477,5 @@
       "username": "root",
       "password": ""
     }
-  ],
-  "workbench.activityBar.visible": false
+  ]
 }

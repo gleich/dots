@@ -127,6 +127,8 @@ brew "mas"
 # Small build system for use with gyp or CMake
 brew "ninja"
 # Open source relational database management system
+brew "mysql"
+# Open source relational database management system
 brew "mysql-client"
 # Fast, highly customisable system info script
 brew "neofetch"
@@ -144,6 +146,8 @@ brew "pinentry-mac"
 brew "pnpm"
 # Python package management tool
 brew "poetry"
+# Object-relational database system
+brew "postgresql"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Show ps output as a tree
