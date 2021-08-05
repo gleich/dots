@@ -383,7 +383,7 @@
     "config",
     "license",
     "structure",
-    "init",
+    "setup",
     "format",
     "lint",
     "deps",
@@ -476,6 +476,21 @@
       "database": "test",
       "username": "root",
       "password": ""
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "127.0.0.1",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "daily",
+      "group": "planetscale",
+      "database": "daily",
+      "username": "root",
+      "password": ""
     }
-  ]
+  ],
+  "workbench.activityBar.visible": false
 }
