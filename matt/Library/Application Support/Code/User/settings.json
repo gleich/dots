@@ -146,6 +146,7 @@
     "sdks",
     "sourcegraph",
     "strftime",
+    "subcommand",
     "subnational",
     "texsch",
     "textdegree",
