@@ -33,7 +33,6 @@ mtxr.sqltools-driver-mysql
 mtxr.sqltools-driver-pg
 naumovs.color-highlight
 njpwerner.autodocstring
-octref.vetur
 ritwickdey.LiveServer
 shardulm94.trailing-spaces
 silvenon.mdx

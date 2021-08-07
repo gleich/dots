@@ -9,7 +9,7 @@
 ├── npm@7.20.5
 ├── ts-node@10.1.0
 ├── typescript@4.3.5
-├── vercel@23.1.0
+├── vercel@23.1.1
 ├── vsce@1.96.1
 └── yo@4.3.0
 
