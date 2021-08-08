@@ -32,6 +32,8 @@ brew "xz"
 brew "pkg-config"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
+# Aquarium animation in ASCII art
+brew "asciiquarium"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -134,6 +136,8 @@ brew "mysql-client"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pretty system information tool written in POSIX sh
@@ -320,6 +324,8 @@ cask "sf-symbols"
 cask "slack"
 # Video game digital distribution service
 cask "steam"
+# Native GUI tool for relational databases
+cask "tableplus"
 # PGF/TikZ diagram editor
 cask "tikzit"
 # Open-source code editor

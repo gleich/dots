@@ -14,9 +14,7 @@ esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
-foxundermoon.shell-format
 GitHub.github-vscode-theme
-GitHub.vscode-pull-request-github
 golang.go
 James-Yu.latex-workshop
 jameslan.yaclock
@@ -28,12 +26,8 @@ mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
-mtxr.sqltools
-mtxr.sqltools-driver-mysql
-mtxr.sqltools-driver-pg
 naumovs.color-highlight
 njpwerner.autodocstring
-ritwickdey.LiveServer
 shardulm94.trailing-spaces
 silvenon.mdx
 spywhere.now-playing
