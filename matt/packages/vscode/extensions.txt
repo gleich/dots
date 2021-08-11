@@ -13,7 +13,6 @@ emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
-formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
 golang.go
 James-Yu.latex-workshop

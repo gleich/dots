@@ -45,7 +45,7 @@ brew "bat"
 # GNU binary tools for native development
 brew "binutils"
 # Python code formatter
-brew "black"
+brew "black", restart_service: true
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
 # Cross-platform make
@@ -82,7 +82,7 @@ brew "gawk"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Emoji guide for your commit messages
+# Interactive command-line tool for using emoji in commit messages
 brew "gitmoji"
 # Render markdown on the CLI
 brew "glow"
@@ -129,7 +129,7 @@ brew "mas"
 # Small build system for use with gyp or CMake
 brew "ninja"
 # Open source relational database management system
-brew "mysql"
+brew "mysql", restart_service: true
 # Open source relational database management system
 brew "mysql-client"
 # Fast, highly customisable system info script
@@ -151,7 +151,7 @@ brew "pnpm"
 # Python package management tool
 brew "poetry"
 # Object-relational database system
-brew "postgresql"
+brew "postgresql", restart_service: true
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Show ps output as a tree

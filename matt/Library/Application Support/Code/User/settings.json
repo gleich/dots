@@ -280,13 +280,13 @@
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
   "editor.lightbulb.enabled": false,
-  "python.formatting.autopep8Args": ["--aggressive"],
-  "workbench.list.smoothScrolling": true,
+  "python.formatting.autopep8Args": [
+    "--aggressive"
+  ],
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast", "--enable=\"errcheck\""],
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/usr/local/bin/black",
-  "editor.smoothScrolling": true,
   "git.confirmSync": false,
   "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
   "editor.folding": false,
@@ -463,5 +463,6 @@
       "commands": ["editor.action.rename"]
     }
   ],
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "editor.linkedEditing": true
 }
