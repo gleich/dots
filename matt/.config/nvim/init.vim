@@ -116,7 +116,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'kamykn/spelunker.vim'                         " 💬 Improved spell check
 	Plug 'kamykn/popup-menu.nvim'                       " 🍿 Popup menu instead of new buffer selector
 	Plug 'dense-analysis/ale'                           " 🍺 Formatters
-	Plug 'tpope/vim-fugitive'                           " ♟️ Giit commands from vim
+	Plug 'tpope/vim-fugitive'                           " ♟️ Git commands from vim
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  } " ✍️ Markdown previewing
 call plug#end()
 
