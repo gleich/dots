@@ -1,7 +1,0 @@
-map <C-i> recolor
-
-set zoom-center "true"
-set selection-clipboard clipboard
-set render-loading "false"
-
-set recolor true

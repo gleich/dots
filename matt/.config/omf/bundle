@@ -1,5 +1,3 @@
-package https://github.com/jorgebucaran/nvm.fish
 package vcs
 theme chain
 theme default
-theme lambda

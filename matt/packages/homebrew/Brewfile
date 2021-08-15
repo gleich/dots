@@ -1,83 +1,43 @@
-tap "armmbed/formulae"
-tap "beeftornado/rmtree"
-tap "filosottile/musl-cross"
+tap "gleich/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "k-vernooy/tap"
-tap "linuss1/taps"
-tap "matt-gleich/taps"
-tap "moritzsternemann/apple-fonts"
-tap "orf/brew"
-tap "osx-cross/arm"
 tap "planetscale/tap"
-tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
 brew "act"
-# GNU internationalization (i18n) and localization (l10n) library
-brew "gettext"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Perl compatible regular expressions library
-brew "pcre"
-# Library for command-line editing
-brew "readline"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
-# Automatic configure script builder
-brew "autoconf"
-# Tool for generating GNU Standards-compliant Makefiles
-brew "automake"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# GNU binary tools for native development
-brew "binutils"
 # Python code formatter
-brew "black", restart_service: true
+brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
 # Cross-platform make
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
-# Dependency manager for Cocoa projects
-brew "cocoapods"
-# GNU File, Shell, and Text utilities
-brew "coreutils"
 # Configurable talking characters in ASCII art
 brew "cowsay"
-# Disk Usage/Free Utility - a better 'df' alternative
-brew "duf"
 # Platform built on V8 to build network applications
 brew "node"
 # AST-based pattern checker for JavaScript
 brew "eslint"
 # Modern replacement for 'ls'
 brew "exa"
-# GNU multiple precision arithmetic library
-brew "gmp"
-# Generic library support script
-brew "libtool"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GNU awk utility
-brew "gawk"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -86,8 +46,6 @@ brew "git"
 brew "gitmoji"
 # Render markdown on the CLI
 brew "glow"
-# GNU implementation of the famous stream editor
-brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -106,16 +64,10 @@ brew "goreleaser"
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
-# Automatically generate simple man pages
-brew "help2man"
 # Improved top (interactive process viewer)
 brew "htop"
 # Command-line note taker
 brew "jrnl"
-# Style and grammar checker
-brew "languagetool"
-# LastPass command-line interface tool
-brew "lastpass-cli"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Next-gen compiler infrastructure
@@ -126,10 +78,8 @@ brew "lolcat"
 brew "lua"
 # Mac App Store command-line interface
 brew "mas"
-# Small build system for use with gyp or CMake
-brew "ninja"
 # Open source relational database management system
-brew "mysql", restart_service: true
+brew "mysql"
 # Open source relational database management system
 brew "mysql-client"
 # Fast, highly customisable system info script
@@ -140,10 +90,6 @@ brew "neovim"
 brew "nmap"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
-# Pretty system information tool written in POSIX sh
-brew "pfetch"
-# Web-based PostgreSQL database browser
-brew "pgweb"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # 📦🚀 Fast, disk space efficient package manager
@@ -151,7 +97,7 @@ brew "pnpm"
 # Python package management tool
 brew "poetry"
 # Object-relational database system
-brew "postgresql", restart_service: true
+brew "postgresql"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Show ps output as a tree
@@ -166,32 +112,16 @@ brew "rustup-init"
 brew "shfmt"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
-# Count lines of code in many languages
-brew "sloccount"
-# Formatting tool for reformatting Swift code
-brew "swiftformat"
-# Tool to enforce Swift style and conventions
-brew "swiftlint"
-# User interface to the TELNET protocol
-brew "telnet"
-# Programmatically correct mistyped console commands
-brew "thefuck"
 # Terminal multiplexer
 brew "tmux"
 # Program that allows you to count code, quickly
 brew "tokei"
-# Command-line interface to the freedesktop.org trashcan
-brew "trash-cli"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
-# HTTP load testing tool and library
-brew "vegeta"
 # Vi 'workalike' with many additional features
 brew "vim"
-# Vim script Language Lint
-brew "vint"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
@@ -202,32 +132,14 @@ brew "wget"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
-# Linux cross compilers based on musl libc
-brew "filosottile/musl-cross/musl-cross", args: ["with-arm-hf", "without-x86_64"]
-# My rendition of the classic tetris.
-brew "k-vernooy/tap/tetris"
-# 🎄 A Christmas tree right from your terminal!
-brew "matt-gleich/taps/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
-brew "matt-gleich/taps/fgh"
+brew "gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
-brew "matt-gleich/taps/nuke"
-# Ping, but with a graph.
-brew "orf/brew/gping"
+brew "gleich/taps/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
-brew "zegervdv/zathura/zathura"
-brew "zegervdv/zathura/zathura-pdf-poppler"
-# Collection of apps and services for photography, design, video, web, and UX
-cask "adobe-creative-cloud"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
-# Automatic tiling window manager similar to xmonad
-cask "amethyst"
-# Tools for building Android applications
-cask "android-studio"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Menu bar icon organizer
@@ -235,52 +147,15 @@ cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser-dev"
 cask "cool-retro-term"
-# API documentation browser and code snippet manager
-cask "dash"
-# Universal database tool and SQL client
-cask "dbeaver-community"
-# Voice and text chat software
-cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Draw.io is free online diagram software
-cask "drawio"
 cask "edex-ui"
 # Collaborative team software
 cask "figma"
-# Web browser
-cask "firefox-developer-edition"
-# UI toolkit for building applications for mobile, web and desktop
-cask "flutter"
-cask "font-3270"
-cask "font-computer-modern"
-cask "font-fira-code"
-cask "font-fira-code-nerd-font"
-cask "font-gnu-unifont"
-cask "font-hack-nerd-font"
-cask "font-ibm-plex"
-# Sans-serif, slab-serif, monospace and quasi‑proportional typeface family
-cask "font-iosevka"
-# Sans-serif, slab-serif, monospace and quasi‑proportional typeface family
-cask "font-iosevka-slab"
-cask "font-new-york"
-cask "font-sf-compact"
-cask "font-sf-mono"
-cask "font-sf-pro"
 cask "font-victor-mono"
-# Font editor and converter for outline and bitmap fonts
-cask "fontforge"
-# App that shows GitHub notifications on the desktop
-cask "gitify"
-# Back up and sync files with Google Drive
-cask "google-backup-and-sync"
-# Utility to fix grammar errors and style issues in text
-cask "grammarly"
-# Graphically shows disk usage within a file system
-cask "grandperspective"
-cask "graphql-playground"
-# Vector graphics editor
-cask "inkscape"
+cask "font-victor-mono-nerd-font"
+# System monitoring app
+cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customizer
@@ -289,94 +164,22 @@ cask "karabiner-elements"
 cask "kitty"
 # Password manager
 cask "lastpass"
-# Software for Logitech devices
-cask "logitech-options"
-# Utility for pairing devices with Unifying receivers
-cask "logitech-unifying"
-# Controls and monitors all fans on Apple computers
-cask "macs-fan-control"
-# Full TeX Live distribution without GUI applications
-cask "mactex-no-gui"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
-# Sandbox construction video game
-cask "minecraft"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
-# App to write, plan, collaborate, and get organized
-cask "notion"
-# Software for Anne Pro and Anne Pro 2
-cask "obinskit"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
-# Collaboration platform for API development
-cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Desktop chat client for Slack (and Discord)
-cask "ripcord"
-cask "scrapple"
-# Tool that provides consistent, highly configurable symbols for apps
-cask "sf-symbols"
 # Team communication and collaboration software
 cask "slack"
-# Video game digital distribution service
-cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
-# PGF/TikZ diagram editor
-cask "tikzit"
 # Open-source code editor
 cask "visual-studio-code"
-# Multimedia player
-cask "vlc"
-# Video communication and virtual meeting platform
-cask "webex"
-cask "webex-meetings"
-# Video communication and virtual meeting platform
-cask "zoom"
-cask "zwift"
-mas "1Focus", id: 969210610
-mas "2048 Game", id: 871033113
-mas "AdBlock Pro", id: 1018301773
-mas "Amphetamine", id: 937984704
 mas "Asset Catalog Creator Pro", id: 809625456
-mas "Boop", id: 1518425043
-mas "ColorSlurp", id: 1287239339
-mas "Dark Reader for Safari", id: 1438243180
-mas "DevCleaner", id: 1388020431
-mas "Developer", id: 640199958
-mas "Encrypto", id: 935235287
-mas "Firewatch", id: 1164603847
 mas "Gifski", id: 1351639930
-mas "GoodNotes", id: 1444383602
-mas "Grammarly for Safari", id: 1462114288
-mas "HEIC Converter", id: 1294126402
-mas "Image2icon", id: 992115977
-mas "iMovie", id: 408981434
-mas "Interval", id: 973220423
-mas "iStat Menus", id: 1319778037
-mas "Keynote", id: 409183694
-mas "MindNode", id: 1289197285
-mas "Negative", id: 1378123825
-mas "Numbers", id: 409203825
-mas "Octagon", id: 691956219
-mas "Pages", id: 409201541
-mas "Plash", id: 1494023538
-mas "Playgrounds", id: 1496833156
-mas "Poolsuite FM", id: 1514817810
-mas "RAW Power", id: 1157116444
 mas "Session", id: 1521432881
-mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
-mas "Telegram", id: 747648890
-mas "Termius", id: 1176074088
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
-mas "Twitter", id: 1482454543
-mas "UTC Time", id: 1538245904
-mas "XCFormat", id: 1165321484
-mas "Xcode", id: 497799835
-mas "Xcode", id: 497799835
+mas "WireGuard", id: 1451685025

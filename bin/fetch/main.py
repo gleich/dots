@@ -37,54 +37,48 @@ def main():
         [
             "neofetch",
             "nuke",
-            "bpytop/themes",
-            "ranger",
             "nvim",
             "texsch",
             "fish",
             "omf",
             "kitty",
-            "zathura",
+            # "zathura",
             "resin",
-            "flutter",
         ],
     )
     copy_files(
         ".config",
         [
-            "bpytop/bpytop.conf",
             "fgh/config.yaml",
             "gh/config.yml",
             "coc/extensions/package.json",
             "jrnl/jrnl.yaml",
-            "fontforge/prefs",
             "yarn/global/package.json",
+            "planetscale/pscale.yml",
         ],
     )
 
     copy_folders(
         ".",
         [
-            "Library/Developer/Xcode/UserData/KeyBindings",
-            "Library/Developer/Xcode/UserData/FontAndColorThemes",
-            "Library/Developer/Xcode/UserData/CodeSnippets",
+            # "Library/Developer/Xcode/UserData/KeyBindings",
+            # "Library/Developer/Xcode/UserData/FontAndColorThemes",
+            # "Library/Developer/Xcode/UserData/CodeSnippets",
             "Library/Application Support/Code/User/snippets",
-            "Library/Preferences/gitmoji-nodejs",
         ],
     )
     copy_files(
         ".",
         [
             ".gitconfig",
-            "crons.txt",
+            # "crons.txt",
             ".tmux.conf",
             ".docker/config.json",
-            "Library/Application Support/eDEX-UI/settings.json",
+            # "Library/Application Support/eDEX-UI/settings.json",
             "Library/Application Support/Code/User/keybindings.json",
             "Library/Application Support/Code/User/settings.json",
             ".gnupg/gpg-agent.conf",
             ".rustup/settings.toml",
-            ".actrc",
         ],
     )
     shutil.rmtree("./matt/.config/fish/completions")

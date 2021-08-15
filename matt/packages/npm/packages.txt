@@ -1,15 +1,3 @@
 /usr/local/lib
-├── @jaebradley/wakatime-cli@1.4.9
-├── @types/node@16.6.1
-├── caprover@2.1.1
-├── emoj@3.1.0
-├── generator-code@1.5.5
-├── live-server@1.2.1
-├── mapscii@0.3.1
-├── npm@7.20.6
-├── ts-node@10.2.0
-├── typescript@4.3.5
-├── vercel@23.1.2
-├── vsce@1.96.1
-└── yo@4.3.0
+└── npm@7.20.3
 

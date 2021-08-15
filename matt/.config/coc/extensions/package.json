@@ -1,9 +1,1 @@
-{
-  "dependencies": {
-    "coc-css": ">=1.2.6",
-    "coc-go": ">=0.13.3",
-    "coc-pyright": ">=1.1.141",
-    "coc-rust-analyzer": ">=0.44.0",
-    "coc-tsserver": ">=1.7.0"
-  }
-}
+{"dependencies":{}}
