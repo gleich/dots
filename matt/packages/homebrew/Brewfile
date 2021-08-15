@@ -10,6 +10,8 @@ tap "planetscale/tap"
 brew "act"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
+# Text-based UI library
+brew "ncurses"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -164,6 +166,8 @@ cask "karabiner-elements"
 cask "kitty"
 # Password manager
 cask "lastpass"
+# Full TeX Live distribution without GUI applications
+cask "mactex-no-gui"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Control your tools with a few keystrokes
@@ -177,9 +181,17 @@ cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
 mas "Asset Catalog Creator Pro", id: 809625456
+mas "Developer", id: 640199958
 mas "Gifski", id: 1351639930
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "MindNode", id: 1289197285
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Session", id: 1521432881
+mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
+mas "Twitter", id: 1482454543
 mas "WireGuard", id: 1451685025
