@@ -13,6 +13,7 @@ emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
 golang.go
 James-Yu.latex-workshop
@@ -20,6 +21,7 @@ jameslan.yaclock
 JeffersonQin.latex-snippets-jeff
 matklad.rust-analyzer
 MattGleich.theme-blackbird
+mgmcdermott.vscode-language-babel
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
@@ -32,6 +34,7 @@ spywhere.now-playing
 streetsidesoftware.code-spell-checker
 tecosaur.latex-utilities
 usernamehw.errorlens
+VisualStudioExptTeam.vscodeintellicode
 vivaxy.vscode-conventional-commits
 vscode-icons-team.vscode-icons
 vscodevim.vim

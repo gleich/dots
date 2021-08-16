@@ -1,6 +1,7 @@
 tap "gleich/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
@@ -166,6 +167,8 @@ cask "karabiner-elements"
 cask "kitty"
 # Password manager
 cask "lastpass"
+# Software for Logitech devices
+cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Meet, chat, call, and collaborate in just one place
@@ -180,6 +183,8 @@ cask "slack"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Asset Catalog Creator Pro", id: 809625456
 mas "Developer", id: 640199958
 mas "Gifski", id: 1351639930
