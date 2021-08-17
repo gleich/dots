@@ -157,6 +157,8 @@ cask "edex-ui"
 cask "figma"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
+# App that shows GitHub notifications on the desktop
+cask "gitify"
 # System monitoring app
 cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -183,6 +185,8 @@ cask "slack"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# Keep an eye on your Vercel deployments
+cask "zeitgeist"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Asset Catalog Creator Pro", id: 809625456
