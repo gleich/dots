@@ -16,6 +16,7 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
 golang.go
+icrawl.discord-vscode
 James-Yu.latex-workshop
 jameslan.yaclock
 JeffersonQin.latex-snippets-jeff

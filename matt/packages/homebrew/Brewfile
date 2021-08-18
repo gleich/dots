@@ -150,6 +150,8 @@ cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser-dev"
 cask "cool-retro-term"
+# Voice and text chat software
+cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 cask "edex-ui"
@@ -175,6 +177,8 @@ cask "logitech-options"
 cask "mactex-no-gui"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Collaboration platform for API development
+cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
