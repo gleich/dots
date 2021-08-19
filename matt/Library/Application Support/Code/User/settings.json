@@ -95,6 +95,7 @@
     "fanboat",
     "flexbox",
     "fluttercommunity",
+    "fname",
     "fnames",
     "fpath",
     "getcwd",
@@ -462,5 +463,6 @@
     }
   ],
   "editor.linkedEditing": true,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "rust-analyzer.updates.channel": "nightly"
 }
