@@ -388,7 +388,8 @@
     "lint",
     "deps",
     "release",
-    "assets"
+    "assets",
+    "minor"
   ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,

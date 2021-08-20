@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "create-next-app": "^11.1.0"
+    "create-next-app": "^11.1.0",
+    "vsce": "^1.96.1"
   }
 }
