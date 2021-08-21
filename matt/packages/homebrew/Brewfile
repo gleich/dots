@@ -157,6 +157,7 @@ cask "docker"
 cask "edex-ui"
 # Collaborative team software
 cask "figma"
+cask "font-computer-modern"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # App that shows GitHub notifications on the desktop
@@ -175,8 +176,6 @@ cask "lastpass"
 cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
-# Meet, chat, call, and collaborate in just one place
-cask "microsoft-teams"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes

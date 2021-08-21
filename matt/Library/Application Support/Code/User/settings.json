@@ -410,7 +410,6 @@
   "latex-workshop.view.pdf.zoom": "page-fit",
   "editor.minimap.enabled": false,
   "go.toolsManagement.autoUpdate": true,
-  "vim.smartRelativeLine": true,
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
   "python.pythonPath": "/usr/local/bin/python3",

@@ -148,7 +148,11 @@
     "command": "editor.emmet.action.wrapWithAbbreviation"
   },
   {
-    "key": "cmd+t",
+    "key": "shift+cmd+t",
     "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal"
   }
 ]
