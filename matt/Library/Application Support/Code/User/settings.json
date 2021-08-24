@@ -2,7 +2,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": true,
   "cSpell.language": "en",
-  "editor.suggestSelection": "first",
   "files.exclude": {
     ".idea": true,
     "**/*.class": true,
@@ -178,7 +177,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "Victor Mono Semibold",
+  "editor.fontFamily": "Victor Mono",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -449,7 +448,7 @@
     "jupyter-notebook": "left"
   },
   "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "blackbird",
+  "workbench.colorTheme": "🏴 blackbird → midnight",
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",
@@ -463,6 +462,10 @@
     }
   ],
   "editor.linkedEditing": true,
-  "workbench.activityBar.visible": false,
-  "rust-analyzer.updates.channel": "nightly"
+  "rust-analyzer.updates.channel": "nightly",
+  "errorLens.fontWeight": "900",
+  "editor.fontWeight": "bold",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.activityBar.visible": false
 }

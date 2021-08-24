@@ -19,6 +19,7 @@ alias tmp="cd ~/tmp"
 alias tv="cd ~/src/gleich/private/tex/junior && zathura (fzf)"
 alias lg="lazygit"
 alias q="exit"
+alias ssh="kitty +kitten ssh"
 
 alias clock="tty-clock -SbBc"
 alias ra="ranger"

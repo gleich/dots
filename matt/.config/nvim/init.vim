@@ -161,7 +161,7 @@ let g:go_highlight_types = 1
 " mhinz/vim-startify ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:startify_lists = [
           \ { 'type': 'files',     'header': ['   🌲 Files:']                        },
-          \ { 'type': 'dir',       'header': ['   🌲 Current Dir: '. getcwd()]       },
+          \ { 'type': 'dir',       'header': ['   🌲 Current Dir: '.getcwd()]        },
           \ { 'type': 'sessions',  'header': ['   🌲 Sessions:']                     },
           \ { 'type': 'bookmarks', 'header': ['   🌲 Bookmarks:']                    },
           \ ]
