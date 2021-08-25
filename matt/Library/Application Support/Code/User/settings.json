@@ -448,7 +448,7 @@
     "jupyter-notebook": "left"
   },
   "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "🏴 blackbird → midnight",
+  "workbench.colorTheme": "🏴 blackbird → dusk",
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",
@@ -467,5 +467,7 @@
   "editor.fontWeight": "bold",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",
+  "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight"
 }

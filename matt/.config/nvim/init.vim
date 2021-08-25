@@ -115,7 +115,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}     " 🌹 Language server
 	Plug 'kamykn/spelunker.vim'                         " 💬 Improved spell check
 	Plug 'kamykn/popup-menu.nvim'                       " 🍿 Popup menu instead of new buffer selector
-	Plug 'dense-analysis/ale'                           " 🍺 Formatters
 	Plug 'tpope/vim-fugitive'                           " ♟️ Git commands from vim
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  } " ✍️ Markdown previewing
 call plug#end()
@@ -196,39 +195,3 @@ let g:fzf_colors = {
   \ 'header':  ['fg', 'Comment'] }
 " voldikss/vim-floaterm ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:floaterm_autoclose = 1
-" dense-analysis/ale ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-let g:ale_linters = {
-	\ 'markdown': ['null'],
-	\ 'vim': ['null'],
-	\}
-let g:ale_fixers = {
-	\ '*': [
-		\ 'remove_trailing_lines',
-		\ 'trim_whitespace'
-	\ ],
-	\ 'rust': ['rustfmt'],
-	\ 'sh': ['shfmt'],
-	\ 'zsh': ['shfmt'],
-	\ 'python': ['black'],
-	\ 'typescript': ['prettier'],
-	\ 'javascript': ['prettier'],
-	\ 'typescriptreact': ['prettier'],
-	\ 'javascriptreact': ['prettier'],
-	\ 'css': ['prettier'],
-	\ 'less': ['prettier'],
-	\ 'scss': ['prettier'],
-	\ 'json': ['prettier'],
-	\ 'json5': ['prettier'],
-	\ 'graphql': ['prettier'],
-	\ 'markdown': ['prettier'],
-	\ 'html': ['prettier'],
-	\ 'yaml': ['prettier'],
-	\ 'Dockerfile': ['hadolint'],
-	\ 'Dart': ['dartfmt'],
-    \ 'java': ['google_java_format']
-	\ }
-let g:ale_fix_on_save = 1
-let g:ale_disable_lsp = 1
-let g:ale_sign_column_always = 1
-let g:ale_sign_error = '!!'
-let g:ale_sign_warning = '>>'
