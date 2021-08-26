@@ -154,6 +154,7 @@
     "textendash",
     "textsuperscript",
     "toolchain",
+    "transpiled",
     "uint",
     "uncommented",
     "unstaged",
@@ -469,5 +470,7 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.activityBar.visible": false,
   "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",
-  "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight"
+  "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight",
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.scrollPreviewWithEditor": false
 }
