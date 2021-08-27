@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "create-next-app": "^11.1.0",
+    "docusaurus": "^1.14.7",
     "vercel": "^23.1.2",
     "vsce": "^1.96.1"
   }
