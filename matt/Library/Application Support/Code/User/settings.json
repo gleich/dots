@@ -22,6 +22,7 @@
     "Alacritty",
     "Boesen",
     "Brainstem",
+    "CLI's",
     "CNDs",
     "COVID",
     "CPUs",
@@ -397,7 +398,6 @@
   "editor.renderLineHighlight": "none",
   "yaclock.hour12": true,
   "git.rebaseWhenSync": true,
-  "workbench.productIconTheme": "icons-carbon",
   "rust-analyzer.notifications.cargoTomlNotFound": false,
   "[latex]": {
     "editor.formatOnPaste": false,
@@ -449,7 +449,6 @@
     "jupyter-notebook": "left"
   },
   "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "🏴 blackbird → dusk",
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",
@@ -472,5 +471,8 @@
   "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",
   "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight",
   "markdown.preview.scrollEditorWithPreview": false,
-  "markdown.preview.scrollPreviewWithEditor": false
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.colorTheme": "🏴 blackbird → midnight",
+  "editor.quickSuggestions": true
 }

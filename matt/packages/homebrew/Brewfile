@@ -141,6 +141,8 @@ brew "gleich/taps/fgh"
 brew "gleich/taps/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
 # Application launcher and productivity software
 cask "alfred"
 # Tool to flash OS images to SD cards & USB drives
@@ -162,8 +164,6 @@ cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # App that shows GitHub notifications on the desktop
 cask "gitify"
-# System monitoring app
-cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customizer
@@ -195,16 +195,19 @@ cask "zeitgeist"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Asset Catalog Creator Pro", id: 809625456
+mas "Atom Run", id: 850435736
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
 mas "Helium", id: 1054607607
+mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "RAW Power", id: 1157116444
 mas "Session", id: 1521432881
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
