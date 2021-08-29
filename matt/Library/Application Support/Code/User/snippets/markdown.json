@@ -1,28 +1,26 @@
 {
-	"Markdown table": {
+	"Table": {
 		"prefix": "ta",
 		"body": [
 			"| **$1** | **$2** |",
 			"| -- | -- |",
 			"| $3 | $4 |"
-		],
-		"description": "Markdown table"
+		]
 	},
-	"Markdown row": {
+	"Table Row": {
 		"prefix": "tr",
-		"body": [
-			"| $1 | $2 |"
-		],
-		"description": "Markdown row"
+		"body": "| $1 | $2 |"
 	},
-	"Bold text": {
-		"prefix": "bo",
-		"body": "**$1**",
-		"description": "Bold text"
-	},
-	"Italicized text": {
+	"Italicized": {
 		"prefix": "it",
-		"body": "_$1_",
-		"description": "Italicized text"
-	}
+		"body": "_$1_"
+	},
+	"Bold": {
+		"prefix": "bo",
+		"body": "**$1**"
+	},
+	"Inline Code": {
+		"prefix": "ic",
+		"body": "`$1`"
+	},
 }

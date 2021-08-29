@@ -178,6 +178,10 @@ cask "logitech-options"
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Sandbox construction video game
+cask "minecraft"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes
@@ -186,12 +190,12 @@ cask "raycast"
 cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
+# Video game digital distribution service
+cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
-# Keep an eye on your Vercel deployments
-cask "zeitgeist"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Asset Catalog Creator Pro", id: 809625456
