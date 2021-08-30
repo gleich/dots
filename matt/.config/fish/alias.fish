@@ -28,7 +28,6 @@ alias pimportsort="pub run import_sorter:main"
 alias fimportsort="flutter pub run import_sorter:main"
 alias t="touch"
 alias md="mkdir"
-alias finfo="exa --long --extended "
 
 # neovim/vim/vi
 alias v="nvim"

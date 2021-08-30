@@ -7,6 +7,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "planetscale/tap"
+tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
 brew "act"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
@@ -141,6 +142,8 @@ brew "gleich/taps/fgh"
 brew "gleich/taps/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
+brew "zegervdv/zathura/zathura"
+brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Application launcher and productivity software
@@ -203,6 +206,7 @@ mas "Atom Run", id: 850435736
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
+mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
 mas "Helium", id: 1054607607

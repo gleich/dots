@@ -10,9 +10,9 @@ encrypt: true
 highlight: true
 indent_character: "|"
 journals:
-  default: /Users/matt/github/Matt-Gleich/public/markdown/2021/logs/
+  default: /Users/matt/src/gleich/private/text/journal
 linewrap: 79
 tagsymbols: "@"
 template: false
-timeformat: "%Y-%m-%d %H:%M"
+timeformat: "%Y-%m-%d"
 version: v2.6
