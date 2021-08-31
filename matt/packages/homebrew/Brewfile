@@ -116,6 +116,8 @@ brew "rustup-init"
 brew "shfmt"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
+# Convert your ascii diagram scribbles into happy little SVG
+brew "svgbob"
 # Terminal multiplexer
 brew "tmux"
 # Program that allows you to count code, quickly
@@ -181,6 +183,8 @@ cask "logitech-options"
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
 # Sandbox construction video game
 cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost

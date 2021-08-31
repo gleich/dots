@@ -5,6 +5,7 @@ bungcip.better-toml
 CalebDenio.fgh-code
 christian-kohler.path-intellisense
 cschleiden.vscode-github-actions
+cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 dracula-theme.theme-dracula

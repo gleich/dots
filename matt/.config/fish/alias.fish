@@ -20,6 +20,7 @@ alias tv="cd ~/src/gleich/private/tex/junior && zathura (fzf)"
 alias lg="lazygit"
 alias q="exit"
 alias ssh="kitty +kitten ssh"
+alias sch="fcd senior"
 
 alias clock="tty-clock -SbBc"
 alias ra="ranger"
