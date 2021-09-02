@@ -22,12 +22,6 @@ function fcd --wraps "fgh ls"
   end
 end
 
-# run some common go commands
-function gop
-	golangci-lint run
-	go mod tidy
-end
-
 # replace text recursively with ease
 function repall
 	grep -rl $argv[1] ./ | LC_ALL=C xargs sed -i '' 's/'$argv[1]'/'$argv[2]'/g'
@@ -37,4 +31,16 @@ end
 function release
 	git tag -a $argv[1] -m $argv[1]
 	git push origin $argv[1]
+end
+
+# Open a document in zathura and have kiwi build on saves
+function work_on
+	zathura (
+		string replace docs/ pdfs/ (
+			string replace .md .pdf (
+				string replace .tex .pdf $argv[1]
+			)
+		)
+	) &
+	fswatch -o $argv[1] | xargs -n1 -I{} ~/tmp/build.fish
 end

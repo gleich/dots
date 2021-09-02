@@ -40,6 +40,8 @@ brew "exa"
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Monitor a directory for changes and run a shell command
+brew "fswatch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -169,6 +171,8 @@ cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # App that shows GitHub notifications on the desktop
 cask "gitify"
+# Back up and sync files with Google Drive
+cask "google-backup-and-sync"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customizer

@@ -414,7 +414,6 @@
   "explorer.compactFolders": false,
   "python.pythonPath": "/usr/local/bin/python3",
   "workbench.editor.untitled.hint": "hidden",
-  "latex-workshop.view.pdf.invert": 1,
   "editor.suggest.insertMode": "replace",
   "editor.suggest.showStatusBar": true,
   "go.useCodeSnippetsOnFunctionSuggest": true,
@@ -473,5 +472,6 @@
   "markdown.preview.scrollPreviewWithEditor": false,
   "workbench.productIconTheme": "icons-carbon",
   "workbench.colorTheme": "🏴 blackbird → dusk",
-  "editor.quickSuggestions": true
+  "editor.quickSuggestions": true,
+  "latex-workshop.view.pdf.invert": 1
 }
