@@ -460,12 +460,10 @@
     }
   ],
   "editor.linkedEditing": true,
-  "rust-analyzer.updates.channel": "nightly",
   "errorLens.fontWeight": "900",
   "editor.fontWeight": "bold",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.activityBar.visible": false,
   "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",
   "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight",
   "markdown.preview.scrollEditorWithPreview": false,
@@ -473,5 +471,9 @@
   "workbench.productIconTheme": "icons-carbon",
   "workbench.colorTheme": "🏴 blackbird → dusk",
   "editor.quickSuggestions": true,
-  "latex-workshop.view.pdf.invert": 1
+  "latex-workshop.view.pdf.invert": 1,
+  "workbench.activityBar.visible": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  }
 }

@@ -27,6 +27,7 @@ mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
 naumovs.color-highlight
 njpwerner.autodocstring
 shardulm94.trailing-spaces

@@ -387,7 +387,7 @@
       "\t\t\txlabel=$1,",
       "\t\t\tylabel=$2,",
       "\t\t\tgrid,",
-      "\t\t\ttitle=$1 v.s. $2",
+      "\t\t\ttitle=$1 \\textit{v.s}. $2",
       "\t\t]",
       "\t\t\\addplot[mark=otimes*]",
       "\t\tcoordinates{",
@@ -397,5 +397,9 @@
       "\t\\end{tikzpicture}",
       "\\end{center}"
     ]
+  },
+  "line": {
+    "prefix": "li",
+    "body": "\\overleftrightarrow{$1}"
   }
 }
