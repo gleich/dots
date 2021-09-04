@@ -183,6 +183,8 @@ cask "kitty"
 cask "lastpass"
 # Software for Logitech devices
 cask "logitech-options"
+# Utility for pairing devices with Unifying receivers
+cask "logitech-unifying"
 # Controls and monitors all fans on Apple computers
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
@@ -223,6 +225,7 @@ mas "Keynote", id: 409183694
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Poolsuite FM", id: 1514817810
 mas "RAW Power", id: 1157116444
 mas "Session", id: 1521432881
 mas "Shazam", id: 897118787

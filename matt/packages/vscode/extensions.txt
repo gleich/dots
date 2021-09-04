@@ -42,4 +42,5 @@ vscode-icons-team.vscode-icons
 vscodevim.vim
 WakaTime.vscode-wakatime
 XadillaX.viml
+yzhang.markdown-all-in-one
 znck.grammarly

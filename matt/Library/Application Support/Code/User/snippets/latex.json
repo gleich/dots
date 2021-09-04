@@ -305,6 +305,10 @@
     "prefix": ["nd"],
     "body": ["$1\\textsuperscript{nd}"]
   },
+  "st super script suffix": {
+    "prefix": ["st"],
+    "body": ["$1\\textsuperscript{st}"]
+  },
   "therefore": {
     "prefix": ["te"],
     "body": ["\\therefore "]

@@ -154,5 +154,10 @@
   {
     "key": "cmd+t",
     "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+enter",
+    "command": "-python.execSelectionInTerminal",
+    "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
   }
 ]
