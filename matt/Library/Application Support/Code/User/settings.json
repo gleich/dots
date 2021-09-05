@@ -50,6 +50,7 @@
     "dateutil",
     "DDOS",
     "Denio",
+    "deps",
     "Desmos",
     "dockerenv",
     "Dockerfiles",
