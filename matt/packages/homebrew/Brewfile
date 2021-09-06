@@ -6,6 +6,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "kkevinm/itunes-discord-rp"
 tap "planetscale/tap"
 tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
@@ -175,6 +176,8 @@ cask "gitify"
 cask "google-backup-and-sync"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# A simple app that shows what you're currently listening to in your Discord status.
+cask "itunesdiscordrp"
 # Keyboard customizer
 cask "karabiner-elements"
 # GPU-based terminal emulator
