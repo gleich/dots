@@ -273,6 +273,10 @@
     "prefix": ["eq"],
     "body": ["\\eq{$1}"]
   },
+  "Statement": {
+    "prefix": ["sm"],
+    "body": ["\\statement{$1}"]
+  },
   "Variable Declaration in Problem": {
     "prefix": ["vas"],
     "body": ["\\variables{\n\t$1\n}"]
@@ -402,8 +406,32 @@
       "\\end{center}"
     ]
   },
-  "line": {
-    "prefix": "li",
-    "body": "\\overleftrightarrow{$1}"
+  "angled bar chart": {
+    "prefix": "anbar",
+    "body": [
+      "\\begin{center}",
+      "\t\\begin{tikzpicture}",
+      "\t\t\\begin{axis}[",
+      "\t\t\ttitle=$1",
+      "\t\t\tybar",
+      "\t\t\theight=8cm",
+      "\t\t\twidth=0.8\\textwidth",
+      "\t\t\txlabel=$2",
+      "\t\t\tylabel=$3",
+      "\t\t\tsymbolic x coords={",
+      "\t\t\t\t$4",
+      "\t\t\t},",
+      "\t\t\txtick=data,",
+      "\t\t\tnodes near coords,",
+      "\t\t\tnodes near coords align={vertical},",
+      "\t\t\tx tick label style={rotate=45,anchor=east},",
+      "\t\t]",
+      "\t\t\\addplot coordinates {",
+      "\t\t\t($5,$6)",
+      "\t\t};",
+      "\t\t\\end{axis}",
+      "\t\\end{tikzpicture}",
+      "\\end{center}",
+    ]
   }
 }

@@ -90,6 +90,7 @@
     "imread",
     "infographics",
     "Innersource",
+    "insta",
     "Ints",
     "Ipsilateral",
     "jira",
@@ -440,6 +441,28 @@
     {
       "before": ["C-r"],
       "commands": ["redo"]
+    },
+    { "before": ["down"], "after": ["g", "j"] },
+    { "before": ["up"], "after": ["g", "k"] },
+    {
+      "before": "k",
+      "after": ["g", "j"]
+    },
+    {
+      "before": "j",
+      "after": ["g", "j"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    { "before": ["down"], "after": ["g", "j"] },
+    { "before": ["up"], "after": ["g", "k"] },
+    {
+      "before": "k",
+      "after": ["g", "j"]
+    },
+    {
+      "before": "j",
+      "after": ["g", "j"]
     }
   ],
   "workbench.editor.decorations.colors": false,
