@@ -61,7 +61,11 @@
   },
   "Row": {
     "prefix": ["re"],
-    "body": ["$1 & $2 \\\\\\ \\hline$3"]
+    "body": ["$1 & $2 \\\\\\ \\hline"]
+  },
+  "Row (Three Columns)": {
+    "prefix": ["ree"],
+    "body": ["$1 & $2 & $3 \\\\\\ \\hline"]
   },
   "Inline Math": {
     "prefix": ["ie"],
@@ -103,7 +107,7 @@
   },
   "Right Arrow": {
     "prefix": ["ira"],
-    "body": ["$ \\rightarrow $"]
+    "body": ["$ \\rightarrow $ "]
   },
   "Angle": {
     "prefix": ["an"],
@@ -433,5 +437,9 @@
       "\t\\end{tikzpicture}",
       "\\end{center}",
     ]
+  },
+  "rho": {
+    "prefix": "ro",
+    "body": "\\rho "
   }
 }
