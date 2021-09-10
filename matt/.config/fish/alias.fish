@@ -43,7 +43,7 @@ alias gp="git push"
 alias gm="resin"
 alias gma="resin -a"
 alias gmap="resin -a -p"
-alias gl="git log"
+alias gl="git log --pretty=oneline"
 alias amenda="git add . && git commit --amend --no-edit"
 alias gb="git checkout -b"
 

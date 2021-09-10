@@ -1,3 +1,5 @@
+==> New Formulae
+vespa-cli
 tap "gleich/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
