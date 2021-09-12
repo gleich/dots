@@ -2,5 +2,9 @@
 	"console log": {
 		"prefix": "pl",
 		"body": "console.log($1)"
+	},
+	"export default": {
+		"prefix": "ed",
+		"body": "export default "
 	}
 }
