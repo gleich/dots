@@ -1,4 +1,5 @@
 antfu.icons-carbon
+blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
 bodil.prettier-toml
 bungcip.better-toml

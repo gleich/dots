@@ -1,5 +1,3 @@
-==> New Formulae
-vespa-cli
 tap "gleich/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -169,6 +167,8 @@ cask "docker"
 cask "edex-ui"
 # Collaborative team software
 cask "figma"
+# Web browser
+cask "firefox-developer-edition"
 cask "font-computer-modern"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
