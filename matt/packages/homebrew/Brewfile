@@ -141,6 +141,8 @@ brew "wget"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# 🎄 A Christmas tree right from your terminal!
+brew "gleich/taps/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
 brew "gleich/taps/fgh"
 # ☢️ Force quit all applications with one terminal command
@@ -164,6 +166,8 @@ cask "cool-retro-term"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Draw.io is free online diagram software
+cask "drawio"
 cask "edex-ui"
 # Collaborative team software
 cask "figma"

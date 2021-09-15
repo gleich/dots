@@ -77,7 +77,7 @@
   },
   "Question": {
     "prefix": ["qe"],
-    "body": "\\section{Problem \\#$1}",
+    "body": "\\section{Problem \\#$1}\n\t",
   },
   "Question Normal": {
     "prefix": ["qen"],
@@ -471,5 +471,17 @@
   "sq": {
     "prefix": "sq",
     "body": "\\sqrt{$1} "
+  },
+  "img": {
+    "prefix": "img",
+    "body": [
+      "\\begin{center}",
+      "\t\\item \\includegraphics[width=0.8\\textwidth]{$1}",
+      "\\end{center}"
+    ]
+  },
+  "delta": {
+    "prefix": "de",
+    "body": "\\Delta "
   }
 }
