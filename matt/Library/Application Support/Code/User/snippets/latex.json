@@ -67,6 +67,10 @@
     "prefix": ["ree"],
     "body": ["$1 & $2 & $3 \\\\\\ \\hline"]
   },
+  "Row (Four Columns)": {
+    "prefix": ["reee"],
+    "body": ["$1 & $2 & $3 & $4 \\\\\\ \\hline"]
+  },
   "Inline Math": {
     "prefix": ["ie"],
     "body": ["$ $1 $"]
