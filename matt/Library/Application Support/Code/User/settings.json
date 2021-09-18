@@ -103,6 +103,7 @@
     "Linkedin",
     "loguru",
     "macos",
+    "mattg",
     "mattgleich",
     "matthewgleich",
     "mgleich",
@@ -168,7 +169,6 @@
     "Xcode",
     "zwift"
   ],
-  "workbench.startupEditor": "none",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -504,5 +504,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.visible": false,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "[go]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
 }

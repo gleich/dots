@@ -52,6 +52,3 @@ alias gv="gh repo view -w"
 alias ni="gh issue create"
 alias ci="gh workflow view"
 
-# texsch
-alias autob="texsch auto-build"
-alias new="texsch create"

@@ -73,6 +73,8 @@ brew "gource"
 brew "hadolint"
 # Improved top (interactive process viewer)
 brew "htop"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # Command-line note taker
 brew "jrnl"
 # Simple terminal UI for git commands
