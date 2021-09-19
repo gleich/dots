@@ -1,2 +1,2 @@
-scopes = ["structure", "format"]
+scopes = ["structure", "format", "minor"]
 sign = true
