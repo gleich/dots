@@ -8,6 +8,7 @@ christian-kohler.path-intellisense
 cschleiden.vscode-github-actions
 cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
+Divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
 dracula-theme.theme-dracula
 emeraldwalk.RunOnSave
