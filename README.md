@@ -6,7 +6,7 @@
 ```txt
 matt@gleich.local 
 ----------------- 
-OS: macOS 11.5.2 x86_64 
+OS: macOS 11.6 x86_64 
 Host: MacBookPro16,1 
 Kernel: Darwin 20.6.0 
 Packages: 234 (brew) 

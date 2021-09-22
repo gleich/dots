@@ -104,6 +104,7 @@
     "Linkedin",
     "loguru",
     "macos",
+    "manimlib",
     "mattg",
     "mattgleich",
     "matthewgleich",
@@ -510,5 +511,6 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
-  }
+  },
+  "zenMode.hideLineNumbers": false
 }

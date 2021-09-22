@@ -81,7 +81,7 @@
   },
   "Question": {
     "prefix": ["qe"],
-    "body": "\\section{Problem \\#$1}\n\t",
+    "body": "\\section{Problem \\#$1}\n\t"
   },
   "Question Normal": {
     "prefix": ["qen"],
@@ -449,7 +449,7 @@
       "\t\t};",
       "\t\t\\end{axis}",
       "\t\\end{tikzpicture}",
-      "\\end{center}",
+      "\\end{center}"
     ]
   },
   "rho": {
@@ -487,5 +487,9 @@
   "delta": {
     "prefix": "de",
     "body": "\\Delta "
+  },
+  "eta": {
+    "prefix": "et",
+    "body": "\\eta "
   }
 }
