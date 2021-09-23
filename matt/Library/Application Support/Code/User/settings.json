@@ -123,6 +123,8 @@
     "octodns",
     "osascript",
     "PDFs",
+    "Poiseuille's",
+    "Poiseuilles",
     "popen",
     "postgres",
     "postgresql",
@@ -498,7 +500,6 @@
   "workbench.productIconTheme": "icons-carbon",
   "workbench.colorTheme": "🏴 blackbird → dusk",
   "editor.quickSuggestions": true,
-  "latex-workshop.view.pdf.invert": 1,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
