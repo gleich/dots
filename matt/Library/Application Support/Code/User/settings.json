@@ -513,5 +513,6 @@
       "source.organizeImports": true
     }
   },
-  "zenMode.hideLineNumbers": false
+  "zenMode.hideLineNumbers": false,
+  "latex-workshop.view.pdf.invert": 1
 }
