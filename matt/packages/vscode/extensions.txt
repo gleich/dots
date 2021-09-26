@@ -33,6 +33,7 @@ ms-toolsai.jupyter-keymap
 ms-vscode.live-server
 naumovs.color-highlight
 njpwerner.autodocstring
+sainoba.px-to-rem
 shardulm94.trailing-spaces
 silvenon.mdx
 spywhere.now-playing
