@@ -53,6 +53,8 @@ brew "git"
 brew "gitmoji"
 # Render markdown on the CLI
 brew "glow"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -176,6 +178,7 @@ cask "figma"
 # Web browser
 cask "firefox-developer-edition"
 cask "font-computer-modern"
+cask "font-space-mono"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # App that shows GitHub notifications on the desktop

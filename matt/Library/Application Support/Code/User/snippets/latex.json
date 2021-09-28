@@ -271,7 +271,7 @@
   },
   "Variable Insertion": {
     "prefix": ["is"],
-    "body": ["\\explain{Insert}{\n\t$1\n}"]
+    "body": ["\\explain{Insert}{\n\t\\step{ $1 }\n}"]
   },
   "Variable Declaration": {
     "prefix": ["vars"],
