@@ -39,3 +39,4 @@ set -U fish_pager_color_progress      'brwhite' '--background=cyan'
 # Vim
 fish_vi_key_bindings
 set fish_cursor_insert line blink
+
