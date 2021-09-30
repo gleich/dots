@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "caprover": "^2.2.3",
     "create-next-app": "^11.1.0",
     "docusaurus": "^1.14.7",
     "tailwindcss": "^2.2.12",
