@@ -502,8 +502,10 @@
   "workbench.colorTheme": "🏴 blackbird → dusk",
   "editor.quickSuggestions": true,
   "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-    "mdx": "jsx"
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "mdx": "html"
   },
   "[handlebars]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

@@ -76,8 +76,12 @@
     "body": ["$ $1 $"]
   },
   "Mathmatical Solution": {
-    "prefix": ["sol"],
+    "prefix": ["mso"],
     "body": ["\\msol{$1}"]
+  },
+  "Solution": {
+    "prefix": ["so"],
+    "body": ["\\sol{$1}"]
   },
   "Question": {
     "prefix": ["qe"],

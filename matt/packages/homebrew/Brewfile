@@ -1,3 +1,7 @@
+==> New Casks
+fig
+==> Deleted Casks
+nosqlclient
 tap "gleich/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -223,6 +227,8 @@ cask "slack"
 cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
+# Free and open-source hosted hypervisor for x86 virtualization
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
