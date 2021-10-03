@@ -22,11 +22,6 @@ def main():
         file_name="Brewfile",
     )
     generate_package(
-        name="yarn",
-        cmd="yarn global upgrade",
-        file_name="packages.txt",
-    )
-    generate_package(
         name="vscode",
         cmd="code --list-extensions",
         file_name="extensions.txt",
