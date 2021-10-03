@@ -22,8 +22,8 @@ def main():
         file_name="Brewfile",
     )
     generate_package(
-        name="npm",
-        cmd="npm list -g --depth 0",
+        name="yarn",
+        cmd="yarn global upgrade",
         file_name="packages.txt",
     )
     generate_package(
@@ -38,11 +38,10 @@ def main():
             "neofetch",
             "nuke",
             "nvim",
-            "texsch",
             "fish",
             "omf",
             "kitty",
-            # "zathura",
+            "zathura",
             "resin",
         ],
     )
@@ -71,10 +70,9 @@ def main():
         ".",
         [
             ".gitconfig",
-            # "crons.txt",
             ".tmux.conf",
             ".docker/config.json",
-            # "Library/Application Support/eDEX-UI/settings.json",
+            "Library/Application Support/eDEX-UI/settings.json",
             "Library/Application Support/Code/User/keybindings.json",
             "Library/Application Support/Code/User/settings.json",
             ".gnupg/gpg-agent.conf",
