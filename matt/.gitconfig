@@ -1,7 +1,7 @@
 [user]
 	name = Matt Gleich
 	email = git@mattglei.ch
-	signingkey = DEC46BD660F47565
+	signingkey = 39DBDFD15F08CA77
 [commit]
 	gpgsign = true
 [tag]
@@ -12,3 +12,9 @@
 	editor = nvim
 [gpg]
 	program = gpg
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[url "ssh://git@gitlab.com/"]
+	insteadOf = https://gitlab.com/
+[url "ssh://git@bitbucket.org/"]
+	insteadOf = https://bitbucket.org

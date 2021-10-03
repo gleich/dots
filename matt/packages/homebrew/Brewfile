@@ -1,48 +1,16 @@
-==> New Casks
-fig
-==> Deleted Casks
-nosqlclient
-tap "gleich/taps"
+tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/services"
-tap "kkevinm/itunes-discord-rp"
 tap "planetscale/tap"
 tap "zegervdv/zathura"
-# Run your GitHub Actions locally 🚀
-brew "act"
-# Plugin manager for zsh, inspired by oh-my-zsh and vundle
-brew "antigen"
-# Text-based UI library
-brew "ncurses"
-# Aquarium animation in ASCII art
-brew "asciiquarium"
-# Bourne-Again SHell, a UNIX command interpreter
-brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Python code formatter
-brew "black"
-# Linux/OSX/FreeBSD resource monitor
-brew "bpytop"
-# Cross-platform make
-brew "cmake"
-# Console Matrix
-brew "cmatrix"
-# Configurable talking characters in ASCII art
-brew "cowsay"
-# Platform built on V8 to build network applications
-brew "node"
-# AST-based pattern checker for JavaScript
-brew "eslint"
 # Modern replacement for 'ls'
 brew "exa"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Monitor a directory for changes and run a shell command
@@ -53,148 +21,51 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Interactive command-line tool for using emoji in commit messages
-brew "gitmoji"
-# Render markdown on the CLI
-brew "glow"
-# GNU implementation of the famous stream editor
-brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Fast linters runner for Go
-brew "golangci-lint"
-# Development kit for the Java programming language
-brew "openjdk"
-# Reformats Java source code to comply with Google Java Style
-brew "google-java-format"
-# Language server for the Go language
-brew "gopls"
-# Deliver Go binaries as fast and easily as possible
-brew "goreleaser"
-# Version Control Visualization Tool
-brew "gource"
-# Smarter Dockerfile linter to validate best practices
-brew "hadolint"
-# Improved top (interactive process viewer)
-brew "htop"
-# Tools and libraries to manipulate images in many formats
-brew "imagemagick"
 # Command-line note taker
 brew "jrnl"
 # Simple terminal UI for git commands
 brew "lazygit"
-# Next-gen compiler infrastructure
-brew "llvm"
-# Rainbows and unicorns in your console!
-brew "lolcat"
-# Powerful, lightweight programming language
-brew "lua"
-# Mac App Store command-line interface
-brew "mas"
-# Open source relational database management system
-brew "mysql"
 # Open source relational database management system
 brew "mysql-client"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Port scanning utility for large networks
-brew "nmap"
-# Swiss-army knife of markup format conversion
-brew "pandoc"
+# Platform built on V8 to build network applications
+brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# 📦🚀 Fast, disk space efficient package manager
-brew "pnpm"
 # Python package management tool
 brew "poetry"
-# Object-relational database system
-brew "postgresql"
-# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
-brew "prettier"
-# Show ps output as a tree
-brew "pstree"
-# File browser
-brew "ranger"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
-# Rust toolchain installer
-brew "rustup-init"
-# Autoformat shell script source code
-brew "shfmt"
-# Prints a steam locomotive if you type sl instead of ls
-brew "sl"
-# Convert your ascii diagram scribbles into happy little SVG
-brew "svgbob"
-# Terminal multiplexer
-brew "tmux"
-# Program that allows you to count code, quickly
-brew "tokei"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
-# Digital clock in ncurses
-brew "tty-clock"
-# Vi 'workalike' with many additional features
-brew "vim"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
-# Executes a program periodically, showing output fullscreen
-brew "watch"
-# Internet file retriever
-brew "wget"
 # JavaScript package manager
 brew "yarn"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
-# 🎄 A Christmas tree right from your terminal!
-brew "gleich/taps/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
-brew "gleich/taps/fgh"
+brew "gleich/tap/fgh"
 # ☢️ Force quit all applications with one terminal command
-brew "gleich/taps/nuke"
+brew "gleich/tap/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
 brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
-# Collection of apps and services for photography, design, video, web, and UX
-cask "adobe-creative-cloud"
-# Application launcher and productivity software
-cask "alfred"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
 # Menu bar icon organizer
 cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser-dev"
-cask "cool-retro-term"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Draw.io is free online diagram software
-cask "drawio"
+cask "dockey"
 cask "edex-ui"
-# Collaborative team software
-cask "figma"
-# Web browser
-cask "firefox-developer-edition"
 cask "font-computer-modern"
-cask "font-space-mono"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
-# App that shows GitHub notifications on the desktop
-cask "gitify"
-# Back up and sync files with Google Drive
-cask "google-backup-and-sync"
-# Client for the Google Drive storage service
-cask "google-drive"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
-# A simple app that shows what you're currently listening to in your Discord status.
-cask "itunesdiscordrp"
 # Keyboard customizer
 cask "karabiner-elements"
 # GPU-based terminal emulator
@@ -203,60 +74,13 @@ cask "kitty"
 cask "lastpass"
 # Software for Logitech devices
 cask "logitech-options"
-# Utility for pairing devices with Unifying receivers
-cask "logitech-unifying"
-# Controls and monitors all fans on Apple computers
-cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
-# Provides updates to various Microsoft products
-cask "microsoft-auto-update"
-# Sandbox construction video game
-cask "minecraft"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
-# Collaboration platform for API development
-cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
-# Video game digital distribution service
-cask "steam"
-# Native GUI tool for relational databases
-cask "tableplus"
-# Free and open-source hosted hypervisor for x86 virtualization
-cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
-# Video communication and virtual meeting platform
-cask "zoom"
-mas "Asset Catalog Creator Pro", id: 809625456
-mas "Atom Run", id: 850435736
-mas "ColorSlurp", id: 1287239339
-mas "Developer", id: 640199958
-mas "Disk Speed Test", id: 425264550
-mas "Encrypto", id: 935235287
-mas "Firewatch", id: 1164603847
-mas "GarageBand", id: 682658836
-mas "Gifski", id: 1351639930
-mas "Helium", id: 1054607607
-mas "iMovie", id: 408981434
-mas "iStat Menus", id: 1319778037
-mas "Keynote", id: 409183694
-mas "MindNode", id: 1289197285
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Poolsuite FM", id: 1514817810
-mas "RAW Power", id: 1157116444
-mas "Session", id: 1521432881
-mas "Shazam", id: 897118787
-mas "Spark", id: 1176895641
-mas "Termius", id: 1176074088
-mas "The Unarchiver", id: 425424353
-mas "Things", id: 904280696
-mas "Twitter", id: 1482454543
-mas "WireGuard", id: 1451685025
-mas "Xcode", id: 497799835

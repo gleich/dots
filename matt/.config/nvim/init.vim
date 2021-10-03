@@ -72,14 +72,9 @@ nmap <leader>l :NERDTreeFocus<cr>
 nmap <leader>n :NERDTreeToggle<cr>
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
-nmap <leader>rn <Plug>(coc-rename)
-nmap <leader>gd <Plug>(coc-definition)
-nmap <leader>gr <Plug>(coc-references)
 nmap <leader>s :FZF<cr>
 nmap <leader>p <plug>(SynStack)
 nmap <leader>t :FloatermToggle<cr>
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
 nmap <leader>r *:%s///g<left><left>
 nmap <leader>rg :Rg<cr>
 nmap <leader><down> <C-w><down>
@@ -166,8 +161,6 @@ let g:startify_lists = [
           \ ]
 let g:startify_custom_header = startify#pad(split(system('CAT ~/.config/nvim/vim.ascii'), '\n'))
 let g:startify_change_to_dir = 0
-" neoclide/coc.nvim ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
-autocmd CursorHold * silent call CocActionAsync('highlight')
 " lervag/vimtex ╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_quickfix_mode = 0

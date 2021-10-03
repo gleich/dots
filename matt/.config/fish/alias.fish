@@ -4,6 +4,7 @@ alias fetch="cd ~/src/gleich/public/vim-script/dots/bin/fetch && poetry run pyth
 alias mindnode="cd ~/src/gleich/public/shell/scripts/ && poetry run python3 mindnode.py"
 
 alias ls="exa -a --git --icons --group-directories-first --classify"
+alias l="exa -a --git --icons --group-directories-first --classify"
 alias lsa="exa -la --git --icons --group-directories-first --classify"
 alias tree="exa -a --tree --git-ignore --icons --group-directories-first --classify"
 alias cat="bat"

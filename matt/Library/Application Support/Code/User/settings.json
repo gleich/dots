@@ -261,7 +261,6 @@
   "trailing-spaces.trimOnSave": true,
   "terminal.integrated.fontFamily": "'Victor Mono Semibold', 'VictorMono Nerd Font'",
   "terminal.integrated.fontSize": 15,
-  "terminal.integrated.cursorStyle": "line",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -286,7 +285,7 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "smooth",
   "terminal.integrated.cursorBlinking": true,
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
@@ -470,15 +469,12 @@
       "after": ["g", "j"]
     }
   ],
-  "workbench.editor.decorations.colors": false,
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDelete": false,
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false,
   "terminal.integrated.defaultLocation": "editor",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
@@ -510,7 +506,6 @@
   "[handlebars]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.activityBar.visible": false,
   "breadcrumbs.enabled": false,
   "[go]": {
     "editor.codeActionsOnSave": {
@@ -518,5 +513,8 @@
     }
   },
   "zenMode.hideLineNumbers": false,
-  "latex-workshop.view.pdf.invert": 1
+  "latex-workshop.view.pdf.invert": 1,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.decorations.colors": false,
+  "terminal.integrated.cursorStyle": "line"
 }

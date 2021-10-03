@@ -477,7 +477,7 @@
   },
   "sq": {
     "prefix": "sq",
-    "body": "\\sqrt{$1} "
+    "body": "\\sqrt[$1]{$2} "
   },
   "img": {
     "prefix": "img",
