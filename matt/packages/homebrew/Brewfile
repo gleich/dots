@@ -25,6 +25,8 @@ brew "git"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
 # Command-line note taker
 brew "jrnl"
 # Simple terminal UI for git commands
@@ -37,10 +39,14 @@ brew "neofetch"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
+# Terminal multiplexer
+brew "tmux"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # JavaScript package manager
@@ -66,6 +72,8 @@ cask "edex-ui"
 cask "font-computer-modern"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Keyboard customizer
 cask "karabiner-elements"
 # GPU-based terminal emulator
@@ -76,6 +84,8 @@ cask "lastpass"
 cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Collaboration platform for API development
+cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
