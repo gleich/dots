@@ -9,6 +9,8 @@ tap "planetscale/tap"
 tap "zegervdv/zathura"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Command-line DNS client
+brew "dog"
 # Modern replacement for 'ls'
 brew "exa"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -45,6 +47,8 @@ brew "pandoc"
 brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
+# Convert your ascii diagram scribbles into happy little SVG
+brew "svgbob"
 # Terminal multiplexer
 brew "tmux"
 # Command-line interface to the WakaTime api
@@ -69,6 +73,10 @@ cask "discord"
 cask "docker"
 cask "dockey"
 cask "edex-ui"
+# Collaborative team software
+cask "figma"
+# Web browser
+cask "firefox-developer-edition"
 cask "font-computer-modern"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"

@@ -504,6 +504,7 @@
     "mdx": "html"
   },
   "[handlebars]": {
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "breadcrumbs.enabled": false,

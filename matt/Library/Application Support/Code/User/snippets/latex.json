@@ -121,15 +121,15 @@
   },
   "Celcius": {
     "prefix": ["cet"],
-    "body": ["C$ ^{\\circ} $"]
+    "body": ["$^{\\circ}\\$C"]
   },
   "Fahrenheit": {
     "prefix": ["fet"],
-    "body": ["F$ ^{\\circ} $"]
+    "body": ["$^{\\circ}\\$F"]
   },
   "Kelvin": {
     "prefix": ["ket"],
-    "body": ["K$ ^{\\circ} $"]
+    "body": ["$^{\\circ}\\$K"]
   },
   "Celcius Math": {
     "prefix": ["cem"],
@@ -494,5 +494,9 @@
   "eta": {
     "prefix": "et",
     "body": "\\eta "
+  },
+  "section": {
+    "prefix": "se",
+    "body": "\\section{$1}\n\t$2"
   }
 }
