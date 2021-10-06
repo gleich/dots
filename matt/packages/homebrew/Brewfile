@@ -19,8 +19,6 @@ brew "fish"
 brew "fswatch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GitHub command-line tool
-brew "gh"
 # Distributed revision control system
 brew "git"
 # GNU Pretty Good Privacy (PGP) package
@@ -53,6 +51,8 @@ brew "svgbob"
 brew "tmux"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # JavaScript package manager
 brew "yarn"
 # 📁 Automate the organization of your cloned GitHub repositories
@@ -63,6 +63,8 @@ brew "gleich/tap/nuke"
 brew "planetscale/tap/pscale"
 brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
 # Menu bar icon organizer
 cask "bartender"
 # Web browser focusing on privacy
@@ -100,5 +102,7 @@ cask "raycast"
 cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
+# Native GUI tool for relational databases
+cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
