@@ -301,7 +301,7 @@
   },
   "And shorthand symbol": {
     "prefix": ["and"],
-    "body": ["\\&"]
+    "body": ["\\& "]
   },
   "Correct": {
     "prefix": ["cor"],

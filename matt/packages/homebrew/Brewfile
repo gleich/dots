@@ -25,6 +25,8 @@ brew "git"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Ping, but with a graph
+brew "gping"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Command-line note taker
@@ -49,6 +51,8 @@ brew "poetry"
 brew "svgbob"
 # Terminal multiplexer
 brew "tmux"
+# Program that allows you to count code, quickly
+brew "tokei"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
@@ -106,3 +110,5 @@ cask "slack"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "zoom"
