@@ -84,6 +84,7 @@ cask "figma"
 # Web browser
 cask "firefox-developer-edition"
 cask "font-computer-modern"
+cask "font-space-mono"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # Client for the Google Drive storage service
@@ -98,6 +99,8 @@ cask "lastpass"
 cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# HTTP client that helps testing and describing APIs
+cask "paw"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes
