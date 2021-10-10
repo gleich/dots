@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "caprover": "^2.2.3",
-    "create-next-app": "^11.1.2"
+    "create-next-app": "^11.1.2",
+    "vercel": "^23.1.2"
   }
 }
