@@ -25,6 +25,8 @@ brew "git"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Version Control Visualization Tool
+brew "gource"
 # Ping, but with a graph
 brew "gping"
 # Smarter Dockerfile linter to validate best practices
