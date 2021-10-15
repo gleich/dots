@@ -501,6 +501,6 @@
   },
   "hat": {
     "prefix": "ha",
-    "body": "\\hat{$1}"
+    "body": "\\hat{$1} "
   }
 }

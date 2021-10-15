@@ -61,6 +61,8 @@ brew "wakatime-cli"
 brew "watch"
 # JavaScript package manager
 brew "yarn"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # 📁 Automate the organization of your cloned GitHub repositories
 brew "gleich/tap/fgh"
 # ☢️ Force quit all applications with one terminal command
