@@ -35,6 +35,8 @@ brew "hadolint"
 brew "jrnl"
 # Simple terminal UI for git commands
 brew "lazygit"
+# System information fetcher, with an emphasis on performance and minimalism
+brew "macchina"
 # Open source relational database management system
 brew "mysql-client"
 # Fast, highly customisable system info script
@@ -47,8 +49,12 @@ brew "node"
 brew "pandoc"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
 # Python package management tool
 brew "poetry"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Convert your ascii diagram scribbles into happy little SVG
 brew "svgbob"
 # Terminal multiplexer

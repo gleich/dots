@@ -44,3 +44,7 @@ function work_on
 	) &
 	fswatch -o $argv[1] | xargs -n1 -I{} ~/tmp/build.fish
 end
+
+# go to the top of a project
+function gcd; cd (git rev-parse --show-toplevel); end
+
