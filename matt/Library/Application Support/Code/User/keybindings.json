@@ -60,11 +60,7 @@
     "when": "debuggersAvailable && debugState != 'initializing'"
   },
   {
-    "key": "ctrl+cmd+n",
-    "command": "texsch.create"
-  },
-  {
-    "key": "cmd+h",
+    "key": "ctrl+v",
     "command": "git.viewHistory"
   },
   {
@@ -106,10 +102,6 @@
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
-    "key": "ctrl+cmd+s",
-    "command": "texsch.separate"
-  },
-  {
     "key": "shift+cmd+a",
     "command": "thunder-client-sidebar.focus"
   },
@@ -128,19 +120,19 @@
     "command": "git.refresh"
   },
   {
-    "key": "cmd+h",
+    "key": "ctrl+h",
     "command": "workbench.action.navigateLeft"
   },
   {
-    "key": "cmd+l",
+    "key": "ctrl+l",
     "command": "workbench.action.navigateRight"
   },
   {
-    "key": "cmd+k",
+    "key": "ctrl+k",
     "command": "workbench.action.navigateUp"
   },
   {
-    "key": "cmd+j",
+    "key": "ctrl+j",
     "command": "workbench.action.navigateDown"
   },
   {
@@ -159,5 +151,39 @@
     "key": "shift+enter",
     "command": "-python.execSelectionInTerminal",
     "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+  },
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "cmd+j",
+    "command": "list.focusDown",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "j",
+    "command": "-list.focusDown",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "cmd+j",
+    "command": "list.focusDown",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "j",
+    "command": "-list.focusDown",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+j",
+    "command": "list.scrollDown",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-list.scrollDown",
+    "when": "listFocus && !inputFocus"
   }
 ]

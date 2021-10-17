@@ -19,6 +19,8 @@ brew "fish"
 brew "fswatch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
 # GNU Pretty Good Privacy (PGP) package
@@ -109,6 +111,8 @@ cask "lastpass"
 cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Collaboration platform for API development
