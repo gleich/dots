@@ -483,6 +483,10 @@
     {
       "before": ["<leader>", "r"],
       "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["grammarly.ignoreIssue"]
     }
   ],
   "editor.linkedEditing": true,
@@ -495,7 +499,7 @@
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.colorTheme": "🏴 blackbird → dusk",
+  "workbench.colorTheme": "🏴 blackbird → jungle",
   "editor.quickSuggestions": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"

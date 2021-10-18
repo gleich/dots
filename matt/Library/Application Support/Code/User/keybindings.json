@@ -42,11 +42,11 @@
     "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
   },
   {
-    "key": "cmd+n",
+    "key": "shift+cmd+n",
     "command": "explorer.newFile"
   },
   {
-    "key": "shift+cmd+n",
+    "key": "shift+alt+n",
     "command": "explorer.newFolder"
   },
   {
@@ -153,37 +153,8 @@
     "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
   },
   {
-    "key": "cmd+j",
-    "command": "-workbench.action.togglePanel"
-  },
-  {
-    "key": "cmd+j",
-    "command": "list.focusDown",
-    "when": "notebookEditorFocused && !inputFocus"
-  },
-  {
-    "key": "j",
-    "command": "-list.focusDown",
-    "when": "notebookEditorFocused && !inputFocus"
-  },
-  {
-    "key": "cmd+j",
-    "command": "list.focusDown",
-    "when": "listFocus && !inputFocus"
-  },
-  {
-    "key": "j",
-    "command": "-list.focusDown",
-    "when": "listFocus && !inputFocus"
-  },
-  {
-    "key": "cmd+j",
-    "command": "list.scrollDown",
-    "when": "listFocus && !inputFocus"
-  },
-  {
-    "key": "cmd+down",
-    "command": "-list.scrollDown",
-    "when": "listFocus && !inputFocus"
+    "key": "cmd+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "!editorIsOpen && !multipleEditorGroups"
   }
 ]
