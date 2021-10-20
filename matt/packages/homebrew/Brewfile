@@ -90,6 +90,7 @@ cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 cask "dockey"
+# Sci-fi themed terminal emulator and system monitor
 cask "edex-ui"
 # Collaborative team software
 cask "figma"
@@ -99,6 +100,8 @@ cask "font-computer-modern"
 cask "font-space-mono"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
+# App that shows GitHub notifications on the desktop
+cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Keyboard customizer
