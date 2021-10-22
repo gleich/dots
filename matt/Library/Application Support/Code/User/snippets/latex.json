@@ -502,5 +502,9 @@
   "hat": {
     "prefix": "ha",
     "body": "\\hat{$1} "
+  },
+  "isotope": {
+    "prefix": "iso",
+    "body": "\\isotope[$1][$2]{$3}"
   }
 }

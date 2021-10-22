@@ -90,6 +90,8 @@ cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 cask "dockey"
+# Draw.io is free online diagram software
+cask "drawio"
 # Sci-fi themed terminal emulator and system monitor
 cask "edex-ui"
 # Collaborative team software
