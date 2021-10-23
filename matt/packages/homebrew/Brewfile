@@ -33,6 +33,8 @@ brew "gource"
 brew "gping"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Ping-like tool for HTTP requests
+brew "httping"
 # Command-line note taker
 brew "jrnl"
 # Simple terminal UI for git commands
@@ -67,6 +69,8 @@ brew "tokei"
 brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
+brew "wget"
 # JavaScript package manager
 brew "yarn"
 # Download YouTube videos from the command-line
@@ -126,6 +130,8 @@ cask "postman"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Identify Intel-only apps
+cask "silicon"
 # Team communication and collaboration software
 cask "slack"
 # Video game digital distribution service
