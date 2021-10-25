@@ -519,5 +519,9 @@
   "editor.renderFinalNewline": false,
   "editor.renderWhitespace": "selection",
   "editor.renderControlCharacters": true,
-  "files.trimFinalNewlines": true
+  "files.trimFinalNewlines": true,
+  "errorLens.infoGutterIconColor": "#418FDD",
+  "errorLens.warningGutterIconColor": "#E1DC3F",
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.errorGutterIconColor": "#E92741"
 }

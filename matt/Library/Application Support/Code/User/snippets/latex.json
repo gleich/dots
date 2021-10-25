@@ -514,5 +514,13 @@
   "times": {
     "prefix": "ti",
     "body": "\\times "
+  },
+  "nu": {
+    "prefix": "nu",
+    "body": "\\nu "
+  },
+  "lambda": {
+    "prefix": "la",
+    "body": "\\lambda"
   }
 }
