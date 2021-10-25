@@ -5,7 +5,6 @@ bodil.prettier-toml
 bungcip.better-toml
 CalebDenio.fgh-code
 christian-kohler.path-intellisense
-cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
 Divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
@@ -25,10 +24,8 @@ mgmcdermott.vscode-language-babel
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
-ms-vscode.live-server
 naumovs.color-highlight
 njpwerner.autodocstring
-sainoba.px-to-rem
 shardulm94.trailing-spaces
 silvenon.mdx
 spywhere.now-playing

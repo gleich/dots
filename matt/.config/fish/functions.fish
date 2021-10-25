@@ -42,7 +42,7 @@ function work_on
 			)
 		)
 	) &
-	fswatch -o $argv[1] | xargs -n1 -I{} ~/tmp/build.fish
+	fswatch -o $argv[1] | xargs -n1 -I{} /Users/matt/src/gleich/public/shell/scripts/kiwi-build.fish
 end
 
 # go to the top of a project

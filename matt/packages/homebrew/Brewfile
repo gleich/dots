@@ -110,6 +110,10 @@ cask "font-victor-mono-nerd-font"
 cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Free and open-source media player
+cask "iina"
+# Tool to optimize images to a smaller size
+cask "imageoptim"
 # Keyboard customizer
 cask "karabiner-elements"
 # GPU-based terminal emulator
@@ -124,6 +128,8 @@ cask "mactex-no-gui"
 cask "microsoft-auto-update"
 # HTTP client that helps testing and describing APIs
 cask "paw"
+# PDF compression tool
+cask "pdf-squeezer"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes

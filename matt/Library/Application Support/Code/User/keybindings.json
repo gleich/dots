@@ -120,19 +120,19 @@
     "command": "git.refresh"
   },
   {
-    "key": "ctrl+h",
+    "key": "cmd+h",
     "command": "workbench.action.navigateLeft"
   },
   {
-    "key": "ctrl+l",
+    "key": "cmd+l",
     "command": "workbench.action.navigateRight"
   },
   {
-    "key": "ctrl+k",
+    "key": "cmd+k",
     "command": "workbench.action.navigateUp"
   },
   {
-    "key": "ctrl+j",
+    "key": "cmd+j",
     "command": "workbench.action.navigateDown"
   },
   {
@@ -156,5 +156,16 @@
     "key": "cmd+w",
     "command": "-workbench.action.closeWindow",
     "when": "!editorIsOpen && !multipleEditorGroups"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "kiwi build\u000D"
+    }
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "grammarly.ignoreIssue"
   }
 ]

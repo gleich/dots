@@ -255,23 +255,27 @@
   },
   "Combine Like Terms (Right Side)": {
     "prefix": ["cltr"],
-    "body": ["\\explain{Combine Like Terms (R)}{\n\t$1\n}"]
+    "body": ["\\explain{Combine Like Terms (R)}{\n\t\\step{ $1 }\n}"]
   },
   "Combine Like Terms": {
     "prefix": ["clt"],
-    "body": ["\\explain{Combine Like Terms}{\n\t$1\n}"]
+    "body": ["\\explain{Combine Like Terms}{\n\t\\step{ $1 }\n}"]
   },
   "Combine Like Terms (Left Side)": {
     "prefix": ["cltl"],
-    "body": ["\\explain{Combine Like Terms (L)}{\n\t$1\n}"]
+    "body": ["\\explain{Combine Like Terms (L)}{\n\t\\step{ $1 }\n}"]
   },
   "Combine Like Terms (Up)": {
     "prefix": ["cltu"],
-    "body": ["\\explain{Combine Like Terms ($ \\uparrow $)}{\n\t$1\n}"]
+    "body": [
+      "\\explain{Combine Like Terms ($ \\uparrow $)}{\n\t\\step{ $1 }\n}"
+    ]
   },
   "Combine Like Terms (Down)": {
     "prefix": ["cltd"],
-    "body": ["\\explain{Combine Like Terms ($ \\downarrow $)}{\n\t$1\n}"]
+    "body": [
+      "\\explain{Combine Like Terms ($ \\downarrow $)}{\n\t\\step{ $1 }\n}"
+    ]
   },
   "Variable Insertion": {
     "prefix": ["is"],
@@ -506,5 +510,9 @@
   "isotope": {
     "prefix": "iso",
     "body": "\\isotope[$1][$2]{$3}"
+  },
+  "times": {
+    "prefix": "ti",
+    "body": "\\times "
   }
 }
