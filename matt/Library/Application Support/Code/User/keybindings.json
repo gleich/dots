@@ -167,5 +167,14 @@
   {
     "key": "shift+cmd+c",
     "command": "grammarly.ignoreIssue"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "-rerunSearchEditorSearch",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "latex-workshop.refresh-viewer"
   }
 ]

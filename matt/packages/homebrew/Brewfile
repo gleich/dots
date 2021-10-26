@@ -81,12 +81,12 @@ brew "gleich/tap/fgh"
 brew "gleich/tap/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
-brew "zegervdv/zathura/zathura"
-brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Menu bar icon organizer
 cask "bartender"
+# 3D creation suite
+cask "blender"
 # Web browser focusing on privacy
 cask "brave-browser-dev"
 # Voice and text chat software

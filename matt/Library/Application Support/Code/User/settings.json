@@ -511,7 +511,6 @@
     }
   },
   "zenMode.hideLineNumbers": false,
-  "latex-workshop.view.pdf.invert": 1,
   "workbench.activityBar.visible": false,
   "workbench.editor.decorations.colors": false,
   "terminal.integrated.cursorStyle": "line",
@@ -523,5 +522,6 @@
   "errorLens.infoGutterIconColor": "#418FDD",
   "errorLens.warningGutterIconColor": "#E1DC3F",
   "errorLens.statusBarIconsEnabled": true,
-  "errorLens.errorGutterIconColor": "#E92741"
+  "errorLens.errorGutterIconColor": "#E92741",
+  "latex-workshop.view.pdf.invert": 0.94
 }

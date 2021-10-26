@@ -522,5 +522,9 @@
   "lambda": {
     "prefix": "la",
     "body": "\\lambda"
+  },
+  "scientific notation": {
+    "prefix": "sci",
+    "body": "\\times 10^{$1}"
   }
 }
