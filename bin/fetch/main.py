@@ -36,7 +36,6 @@ def main():
             "fish",
             "omf",
             "kitty",
-            "zathura",
             "resin",
         ],
     )
@@ -46,8 +45,6 @@ def main():
             "fgh/config.yaml",
             "gh/config.yml",
             "coc/extensions/package.json",
-            "jrnl/jrnl.yaml",
-            "yarn/global/package.json",
             "planetscale/pscale.yml",
         ],
     )

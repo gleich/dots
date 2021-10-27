@@ -1,6 +1,3 @@
-==> New Casks
-canon-pixma25xx-printer
-elgato-camera-hub
 tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -9,7 +6,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "planetscale/tap"
-tap "zegervdv/zathura"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Command-line DNS client
@@ -32,20 +28,16 @@ brew "gnupg"
 brew "go"
 # Version Control Visualization Tool
 brew "gource"
-# Ping, but with a graph
-brew "gping"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
-# Ping-like tool for HTTP requests
-brew "httping"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Command-line note taker
 brew "jrnl"
 # Simple terminal UI for git commands
 brew "lazygit"
 # System information fetcher, with an emphasis on performance and minimalism
 brew "macchina"
-# Open source relational database management system
-brew "mysql-client"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -84,8 +76,6 @@ brew "gleich/tap/fgh"
 brew "gleich/tap/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
-# Collection of apps and services for photography, design, video, web, and UX
-cask "adobe-creative-cloud"
 # Menu bar icon organizer
 cask "bartender"
 # 3D creation suite
@@ -96,11 +86,8 @@ cask "brave-browser-dev"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-cask "dockey"
 # Draw.io is free online diagram software
 cask "drawio"
-# Sci-fi themed terminal emulator and system monitor
-cask "edex-ui"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -109,8 +96,6 @@ cask "font-computer-modern"
 cask "font-space-mono"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
-# App that shows GitHub notifications on the desktop
-cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Free and open-source media player
@@ -127,20 +112,12 @@ cask "lastpass"
 cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
-# Provides updates to various Microsoft products
-cask "microsoft-auto-update"
 # HTTP client that helps testing and describing APIs
 cask "paw"
-# PDF compression tool
-cask "pdf-squeezer"
-# Collaboration platform for API development
-cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Identify Intel-only apps
-cask "silicon"
 # Team communication and collaboration software
 cask "slack"
 # Video game digital distribution service

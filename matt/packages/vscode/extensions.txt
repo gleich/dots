@@ -16,7 +16,6 @@ formulahendry.auto-rename-tag
 golang.go
 icrawl.discord-vscode
 James-Yu.latex-workshop
-jameslan.yaclock
 JeffersonQin.latex-snippets-jeff
 matklad.rust-analyzer
 MattGleich.theme-blackbird
@@ -24,6 +23,9 @@ mgmcdermott.vscode-language-babel
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
 naumovs.color-highlight
 njpwerner.autodocstring
 shardulm94.trailing-spaces
