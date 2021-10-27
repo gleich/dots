@@ -8,6 +8,8 @@ tap "homebrew/core"
 tap "planetscale/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Linux/OSX/FreeBSD resource monitor
+brew "bpytop"
 # Command-line DNS client
 brew "dog"
 # Modern replacement for 'ls'
@@ -30,6 +32,8 @@ brew "go"
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Improved top (interactive process viewer)
+brew "htop"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Command-line note taker
@@ -76,6 +80,8 @@ brew "gleich/tap/fgh"
 brew "gleich/tap/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
 # Menu bar icon organizer
 cask "bartender"
 # 3D creation suite
