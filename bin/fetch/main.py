@@ -67,7 +67,6 @@ def main():
             ".gitconfig",
             ".tmux.conf",
             ".docker/config.json",
-            "Library/Application Support/eDEX-UI/settings.json",
             "Library/Application Support/Code/User/keybindings.json",
             "Library/Application Support/Code/User/settings.json",
             ".gnupg/gpg-agent.conf",
