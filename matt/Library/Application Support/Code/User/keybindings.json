@@ -1,0 +1,180 @@
+[
+  {
+    "key": "shift+cmd+s",
+    "command": "git.stageAll"
+  },
+  {
+    "key": "shift+alt+p",
+    "command": "git.push"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "grammarly.check"
+  },
+  {
+    "key": "cmd+d",
+    "command": "fgh-code.openProject"
+  },
+  {
+    "key": "cmd+e",
+    "command": "extension.conventionalCommits"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+alt+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "git.viewHistory"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "shift+tab",
+    "command": "-outdent",
+    "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "-markdown.extension.onShiftTabKey",
+    "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !suggestWidgetVisible && editorLangId == 'markdown'"
+  },
+  {
+    "key": "shift+tab",
+    "command": "-jumpToPrevSnippetPlaceholder",
+    "when": "editorTextFocus && hasPrevTabstop && inSnippetMode"
+  },
+  {
+    "key": "shift+tab",
+    "command": "-insertPrevSuggestion",
+    "when": "hasOtherSuggestions && textInputFocus && textInputFocus && !inSnippetMode && !suggestWidgetVisible && config.editor.tabCompletion == 'on'"
+  },
+  {
+    "key": "shift+tab",
+    "command": "-acceptAlternativeSelectedSuggestion",
+    "when": "suggestWidgetVisible && textInputFocus && textInputFocus"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "github-actions.workflows.focus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "thunder-client-sidebar.focus"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "git.refresh"
+  },
+  {
+    "key": "cmd+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+enter",
+    "command": "-python.execSelectionInTerminal",
+    "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+  },
+  {
+    "key": "cmd+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "!editorIsOpen && !multipleEditorGroups"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "kiwi build\u000D"
+    }
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "grammarly.ignoreIssue"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "-rerunSearchEditorSearch",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "latex-workshop.refresh-viewer"
+  }
+]

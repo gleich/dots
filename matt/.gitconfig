@@ -1,0 +1,14 @@
+[user]
+	name = Matt Gleich
+	email = git@mattglei.ch
+	signingkey = BED5E7AD47918044
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[gpg]
+	program = gpg
