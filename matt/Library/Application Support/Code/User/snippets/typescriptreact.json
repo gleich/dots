@@ -1,0 +1,14 @@
+{
+	"console log": {
+		"prefix": "pl",
+		"body": "console.log($1)"
+	},
+	"export default": {
+		"prefix": "ed",
+		"body": "export default "
+	},
+	"styled jsx": {
+		"prefix": "sl",
+		"body": ["<style jsx>", "\t{`", "\t\t$1", "\t`}", "</style>"]
+	}
+}

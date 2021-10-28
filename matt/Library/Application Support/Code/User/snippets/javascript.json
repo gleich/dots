@@ -1,0 +1,6 @@
+{
+  "Print to console": {
+    "prefix": "pl",
+    "body": "console.log($1);"
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"light": {
+		"prefix": "lm",
+		"description": "check for light mode",
+		"body": [
+			"@media (prefers-color-scheme: light) {",
+			"\t$1",
+			"}"
+		]
+	},
+	"dark": {
+		"prefix": "dm",
+		"description": "check for dark mode",
+		"body": [
+			"@media (prefers-color-scheme: dark) {",
+			"\t$1",
+			"}"
+		]
+	}
+}

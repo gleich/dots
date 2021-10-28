@@ -102,6 +102,8 @@ cask "font-computer-modern"
 cask "font-space-mono"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
+# App that shows GitHub notifications on the desktop
+cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Free and open-source media player
@@ -116,6 +118,8 @@ cask "kitty"
 cask "lastpass"
 # Software for Logitech devices
 cask "logitech-options"
+# Controls and monitors all fans on Apple computers
+cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # HTTP client that helps testing and describing APIs
