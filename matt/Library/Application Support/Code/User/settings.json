@@ -293,7 +293,7 @@
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast", "--enable=\"errcheck\""],
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/usr/local/bin/black",
+  "python.formatting.blackPath": "/opt/homebrew/bin/black",
   "git.confirmSync": false,
   "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
   "editor.folding": false,
@@ -407,7 +407,9 @@
   "[latex]": {
     "editor.formatOnPaste": false,
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
   },
   "vim.incsearch": true,
   "latex-workshop.bibtex-format.sort.enabled": true,
@@ -512,7 +514,6 @@
   },
   "zenMode.hideLineNumbers": false,
   "workbench.editor.decorations.colors": false,
-  "terminal.integrated.cursorStyle": "line",
   "editor.renderLineHighlight": "gutter",
   "editor.renderFinalNewline": false,
   "editor.renderWhitespace": "selection",

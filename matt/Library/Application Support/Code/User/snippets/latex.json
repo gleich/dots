@@ -351,6 +351,10 @@
     "prefix": ["uk"],
     "body": ["\\var{$1}{\\text{?}}"]
   },
+  "unknown with unit": {
+    "prefix": ["uku"],
+    "body": ["\\varu{$1}{\\text{?}}{$2}"]
+  },
   "unit": {
     "prefix": ["un"],
     "body": ["\\text{ $1}"]

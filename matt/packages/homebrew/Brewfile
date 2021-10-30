@@ -8,6 +8,8 @@ tap "homebrew/core"
 tap "planetscale/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Python code formatter
+brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
 # Command-line DNS client
@@ -132,6 +134,8 @@ cask "raycast"
 cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
+# Code-based music creation and performance tool
+cask "sonic-pi"
 # Video game digital distribution service
 cask "steam"
 # Native GUI tool for relational databases
@@ -140,3 +144,26 @@ cask "tableplus"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Boop", id: 1518425043
+mas "Developer", id: 640199958
+mas "Disk Speed Test", id: 425264550
+mas "Encrypto", id: 935235287
+mas "Firewatch", id: 1164603847
+mas "GarageBand", id: 682658836
+mas "Gifski", id: 1351639930
+mas "HEIC Converter", id: 1294126402
+mas "iStat Menus", id: 1319778037
+mas "Keynote", id: 409183694
+mas "MindNode", id: 1289197285
+mas "Mini Metro", id: 1047760200
+mas "Mini Motorways", id: 1456188526
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Poolsuite FM", id: 1514817810
+mas "RAW Power", id: 1157116444
+mas "Spark", id: 1176895641
+mas "Superhighway", id: 1494503555
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
