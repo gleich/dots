@@ -86,6 +86,8 @@ brew "gleich/tap/nuke"
 brew "planetscale/tap/pscale"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Menu bar icon organizer
 cask "bartender"
 # 3D creation suite
