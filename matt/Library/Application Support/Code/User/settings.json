@@ -242,7 +242,7 @@
     "editor.formatOnPaste": false
   },
   "latex-workshop.message.error.show": false,
-  "editor.fontLigatures": "'ss01'",
+  "editor.fontLigatures": "'ss02'",
   "latex-workshop.message.warning.show": false,
   "workbench.sideBar.location": "right",
   "debug.openDebug": "neverOpen",
@@ -498,8 +498,6 @@
   "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
-  "workbench.productIconTheme": "icons-carbon",
-  "workbench.colorTheme": "🏴 blackbird → jungle",
   "editor.quickSuggestions": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -526,5 +524,6 @@
   "errorLens.errorGutterIconColor": "#E92741",
   "latex-workshop.view.pdf.invert": 0.94,
   "workbench.activityBar.visible": false,
-  "conventionalCommits.showNewVersionNotes": false
+  "conventionalCommits.showNewVersionNotes": false,
+  "workbench.colorTheme": "🏴 blackbird → jungle"
 }
