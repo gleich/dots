@@ -523,7 +523,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "latex-workshop.view.pdf.invert": 0.94,
-  "workbench.activityBar.visible": false,
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle"
+  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "workbench.activityBar.visible": false
 }

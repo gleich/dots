@@ -6,6 +6,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "planetscale/tap"
+# Aquarium animation in ASCII art
+brew "asciiquarium"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
@@ -62,8 +64,12 @@ brew "pnpm"
 brew "poetry"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Version control system designed to be a better CVS
+brew "subversion"
 # Convert your ascii diagram scribbles into happy little SVG
 brew "svgbob"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Terminal multiplexer
 brew "tmux"
 # Program that allows you to count code, quickly
@@ -108,6 +114,8 @@ cask "figma"
 cask "firefox-developer-edition"
 cask "font-computer-modern"
 cask "font-space-mono"
+cask "font-tinos"
+cask "font-trirong"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # App that shows GitHub notifications on the desktop

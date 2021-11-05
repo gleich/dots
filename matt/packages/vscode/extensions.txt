@@ -14,6 +14,7 @@ exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 golang.go
+hashicorp.terraform
 icrawl.discord-vscode
 James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
