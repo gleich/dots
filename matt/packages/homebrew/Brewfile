@@ -158,6 +158,8 @@ cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Boop", id: 1518425043
+mas "ColorSlurp", id: 1287239339
+mas "Contributions", id: 1153432612
 mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
 mas "Encrypto", id: 935235287
@@ -174,6 +176,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Poolsuite FM", id: 1514817810
 mas "RAW Power", id: 1157116444
+mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Superhighway", id: 1494503555
 mas "The Unarchiver", id: 425424353
