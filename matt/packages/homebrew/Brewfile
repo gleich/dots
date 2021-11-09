@@ -139,6 +139,7 @@ cask "logitech-options"
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+cask "middleclick"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Control your tools with a few keystrokes
