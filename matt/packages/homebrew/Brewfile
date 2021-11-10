@@ -74,6 +74,8 @@ brew "terraform"
 brew "tmux"
 # Program that allows you to count code, quickly
 brew "tokei"
+# Digital clock in ncurses
+brew "tty-clock"
 # Command-line interface to the WakaTime api
 brew "wakatime-cli"
 # Executes a program periodically, showing output fullscreen
@@ -140,6 +142,10 @@ cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 cask "middleclick"
+# Sandbox construction video game
+cask "minecraft"
+# Desktop virtualization software
+cask "parallels"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Control your tools with a few keystrokes
