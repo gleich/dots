@@ -18,6 +18,7 @@
   "workbench.iconTheme": "vscode-icons",
   "cSpell.userWords": [
     "Adafruit",
+    "Airpods",
     "AIRTABLE",
     "Alacritty",
     "arange",
@@ -525,5 +526,7 @@
   "latex-workshop.view.pdf.invert": 0.94,
   "conventionalCommits.showNewVersionNotes": false,
   "workbench.colorTheme": "🏴 blackbird → jungle",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "svelte.enable-ts-plugin": true,
+  "svelte.ask-to-enable-ts-plugin": false
 }

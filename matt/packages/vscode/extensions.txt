@@ -14,7 +14,6 @@ exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 golang.go
-hashicorp.terraform
 icrawl.discord-vscode
 James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
@@ -33,6 +32,7 @@ shardulm94.trailing-spaces
 silvenon.mdx
 spywhere.now-playing
 streetsidesoftware.code-spell-checker
+svelte.svelte-vscode
 tecosaur.latex-utilities
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
