@@ -115,6 +115,7 @@ cask "figma"
 # Web browser
 cask "firefox-developer-edition"
 cask "font-computer-modern"
+cask "font-inter"
 cask "font-roboto"
 cask "font-space-mono"
 cask "font-tinos"
