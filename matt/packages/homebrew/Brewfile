@@ -116,6 +116,8 @@ cask "figma"
 cask "firefox-developer-edition"
 cask "font-computer-modern"
 cask "font-inter"
+# Original typeface primarily intended for continuous on-screen reading
+cask "font-newsreader"
 cask "font-roboto"
 cask "font-space-mono"
 cask "font-tinos"
