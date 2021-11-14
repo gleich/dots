@@ -115,6 +115,7 @@ cask "figma"
 # Web browser
 cask "firefox-developer-edition"
 cask "font-computer-modern"
+cask "font-ibm-plex"
 cask "font-inter"
 # Original typeface primarily intended for continuous on-screen reading
 cask "font-newsreader"
