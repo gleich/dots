@@ -120,19 +120,19 @@
     "command": "git.refresh"
   },
   {
-    "key": "cmd+h",
+    "key": "ctrl+left",
     "command": "workbench.action.navigateLeft"
   },
   {
-    "key": "cmd+l",
+    "key": "ctrl+right",
     "command": "workbench.action.navigateRight"
   },
   {
-    "key": "cmd+k",
+    "key": "ctrl+up",
     "command": "workbench.action.navigateUp"
   },
   {
-    "key": "cmd+j",
+    "key": "ctrl+down",
     "command": "workbench.action.navigateDown"
   },
   {
