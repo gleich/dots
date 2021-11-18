@@ -6,6 +6,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "planetscale/tap"
+# Fast, simple and clean video downloader
+brew "annie"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -34,6 +36,8 @@ brew "gnupg"
 brew "go"
 # Version Control Visualization Tool
 brew "gource"
+# Ping, but with a graph
+brew "gping"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Improved top (interactive process viewer)
@@ -145,6 +149,7 @@ cask "logitech-options"
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Utility to extend trackpad functionality
 cask "middleclick"
 # Sandbox construction video game
 cask "minecraft"

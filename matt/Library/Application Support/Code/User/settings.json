@@ -245,7 +245,7 @@
     "editor.formatOnPaste": false
   },
   "latex-workshop.message.error.show": false,
-  "editor.fontLigatures": "'ss02'",
+  "editor.fontLigatures": "'ss02','ss06'",
   "latex-workshop.message.warning.show": false,
   "workbench.sideBar.location": "right",
   "debug.openDebug": "neverOpen",
@@ -401,7 +401,8 @@
     "deps",
     "release",
     "assets",
-    "minor"
+    "minor",
+    "wip"
   ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
@@ -531,8 +532,8 @@
   "errorLens.errorGutterIconColor": "#E92741",
   "latex-workshop.view.pdf.invert": 0.94,
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle",
   "workbench.activityBar.visible": false,
   "svelte.enable-ts-plugin": true,
-  "svelte.ask-to-enable-ts-plugin": false
+  "svelte.ask-to-enable-ts-plugin": false,
+  "workbench.colorTheme": "🏴 blackbird → jungle"
 }

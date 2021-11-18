@@ -530,5 +530,13 @@
   "scientific notation": {
     "prefix": "sci",
     "body": "\\times 10^{$1}"
+  },
+  "fra": {
+    "prefix": "/",
+    "body": "\\frac{$1}{$2}"
+  },
+  "chemical formula": {
+    "prefix": "ch",
+    "body": "\\ch{$1}"
   }
 }
