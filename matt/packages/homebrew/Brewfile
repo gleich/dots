@@ -108,6 +108,8 @@ cask "blender"
 cask "brave-browser-dev"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
+# Free app that makes your Internet safer
+cask "cloudflare-warp"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
