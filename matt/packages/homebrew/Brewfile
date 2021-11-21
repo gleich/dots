@@ -155,6 +155,8 @@ cask "mactex-no-gui"
 cask "middleclick"
 # Sandbox construction video game
 cask "minecraft"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Desktop virtualization software
 cask "parallels"
 # HTTP client that helps testing and describing APIs
