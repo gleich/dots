@@ -177,6 +177,8 @@ cask "tableplus"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Affinity Photo", id: 824183456
+mas "Block Fortress", id: 682046205
 mas "Boop", id: 1518425043
 mas "ColorSlurp", id: 1287239339
 mas "Contributions", id: 1153432612
@@ -187,6 +189,7 @@ mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
 mas "HEIC Converter", id: 1294126402
+mas "Interval", id: 973220423
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
 mas "MindNode", id: 1289197285
@@ -199,6 +202,7 @@ mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Superhighway", id: 1494503555
+mas "Surviving Mars", id: 1384295904
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "WireGuard", id: 1451685025
