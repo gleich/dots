@@ -175,6 +175,8 @@ cask "steam"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# Network protocol analyzer
+cask "wireshark"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Affinity Photo", id: 824183456
