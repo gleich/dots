@@ -110,6 +110,8 @@ cask "brave-browser-dev"
 cask "caffeine"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+# API documentation browser and code snippet manager
+cask "dash"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
