@@ -27,6 +27,7 @@ ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
+ms-vscode.cpptools
 naumovs.color-highlight
 njpwerner.autodocstring
 shardulm94.trailing-spaces
@@ -38,6 +39,7 @@ tecosaur.latex-utilities
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vivaxy.vscode-conventional-commits
+vsciot-vscode.vscode-arduino
 vscode-icons-team.vscode-icons
 vscodevim.vim
 WakaTime.vscode-wakatime

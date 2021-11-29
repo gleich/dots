@@ -16,10 +16,14 @@ brew "bat"
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Command-line DNS client
 brew "dog"
 # Modern replacement for 'ls'
 brew "exa"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Monitor a directory for changes and run a shell command
@@ -42,8 +46,6 @@ brew "gping"
 brew "hadolint"
 # Improved top (interactive process viewer)
 brew "htop"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Command-line note taker
 brew "jrnl"
 # Simple terminal UI for git commands
@@ -90,6 +92,8 @@ brew "wget"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Fork of youtube-dl with additional features and fixes
+brew "yt-dlp"
 # 📁 Automate the organization of your cloned GitHub repositories
 brew "gleich/tap/fgh"
 # ☢️ Force quit all applications with one terminal command
@@ -98,6 +102,8 @@ brew "gleich/tap/nuke"
 brew "planetscale/tap/pscale"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Electronics prototyping platform
+cask "arduino"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Menu bar icon organizer
