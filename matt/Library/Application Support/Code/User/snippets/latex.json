@@ -355,10 +355,6 @@
     "prefix": ["uku"],
     "body": ["\\varu{$1}{\\text{?}}{$2}"]
   },
-  "unit": {
-    "prefix": ["un"],
-    "body": ["\\text{ $1}"]
-  },
   "ohm text": {
     "prefix": ["ohm"],
     "body": ["$ \\Omega $"]
@@ -528,8 +524,8 @@
     "body": "\\lambda"
   },
   "scientific notation": {
-    "prefix": "sci",
-    "body": "\\times 10^{$1}"
+    "prefix": "sn",
+    "body": "\\sn{$1}"
   },
   "fra": {
     "prefix": "/",
@@ -538,5 +534,9 @@
   "chemical formula": {
     "prefix": "ch",
     "body": "\\ch{$1}"
+  },
+  "unit": {
+    "prefix": "un",
+    "body": "\\si{$1}"
   }
 }

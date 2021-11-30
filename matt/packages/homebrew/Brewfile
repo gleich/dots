@@ -6,6 +6,9 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "planetscale/tap"
+tap "zegervdv/zathura"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Fast, simple and clean video downloader
 brew "annie"
 # Aquarium animation in ASCII art
@@ -16,8 +19,6 @@ brew "bat"
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Command-line DNS client
 brew "dog"
 # Modern replacement for 'ls'
@@ -100,6 +101,8 @@ brew "gleich/tap/fgh"
 brew "gleich/tap/nuke"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
+brew "zegervdv/zathura/zathura"
+brew "zegervdv/zathura/zathura-pdf-mupdf"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Electronics prototyping platform

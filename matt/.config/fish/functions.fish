@@ -36,3 +36,15 @@ end
 # go to the top of a project
 function gcd; cd (git rev-parse --show-toplevel); end
 
+# Open a document in zathura and have kiwi build on save
+function work_on
+	zathura (
+		string replace docs/ pdfs/ (
+			string replace .md .pdf (
+				string replace .tex .pdf $argv[1]
+			)
+		)
+	) &
+	fswatch -o $argv[1] | xargs -n1 -I{} /Users/matt/src/gleich/public/shell/scripts/kiwi-build.fish
+end
+
