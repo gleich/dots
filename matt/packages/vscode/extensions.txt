@@ -24,7 +24,6 @@ mgmcdermott.vscode-language-babel
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
-ms-vscode.cpptools
 naumovs.color-highlight
 njpwerner.autodocstring
 shardulm94.trailing-spaces

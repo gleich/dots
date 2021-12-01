@@ -535,5 +535,6 @@
   "workbench.activityBar.visible": false,
   "svelte.enable-ts-plugin": true,
   "svelte.ask-to-enable-ts-plugin": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle"
+  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "latex-workshop.view.pdf.invert": 0.95
 }

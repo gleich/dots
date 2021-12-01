@@ -61,6 +61,10 @@ brew "neofetch"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
+# Package for scientific computing with Python
+brew "numpy"
+# Open source computer vision library
+brew "opencv"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pinentry for GPG on Mac
@@ -146,12 +150,12 @@ cask "font-victor-mono-nerd-font"
 cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Graphically shows disk usage within a file system
+cask "grandperspective"
 # Free and open-source media player
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# Keyboard customizer
-cask "karabiner-elements"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
@@ -193,6 +197,7 @@ cask "zoom"
 mas "Affinity Photo", id: 824183456
 mas "Block Fortress", id: 682046205
 mas "Boop", id: 1518425043
+mas "Chemy", id: 1542390153
 mas "ColorSlurp", id: 1287239339
 mas "Contributions", id: 1153432612
 mas "Developer", id: 640199958
@@ -202,6 +207,7 @@ mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
 mas "HEIC Converter", id: 1294126402
+mas "interChem", id: 1549651849
 mas "Interval", id: 973220423
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
@@ -214,6 +220,7 @@ mas "Poolsuite FM", id: 1514817810
 mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
+mas "Speediness", id: 1596706466
 mas "Superhighway", id: 1494503555
 mas "Surviving Mars", id: 1384295904
 mas "The Unarchiver", id: 425424353
