@@ -125,8 +125,6 @@ cask "caffeine"
 cask "cloudflare-warp"
 # API documentation browser and code snippet manager
 cask "dash"
-# Voice and text chat software
-cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Draw.io is free online diagram software
