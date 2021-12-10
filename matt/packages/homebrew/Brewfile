@@ -19,6 +19,8 @@ brew "bat"
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Cross-platform make
+brew "cmake"
 # Command-line DNS client
 brew "dog"
 # Modern replacement for 'ls'
@@ -154,6 +156,8 @@ cask "grandperspective"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
+# Electronics design automation suite
+cask "kicad"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
