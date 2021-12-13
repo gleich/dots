@@ -198,6 +198,7 @@ cask "wireshark"
 cask "zoom"
 mas "Affinity Photo", id: 824183456
 mas "Block Fortress", id: 682046205
+mas "Block Fortress War", id: 874328055
 mas "Boop", id: 1518425043
 mas "Chemy", id: 1542390153
 mas "ColorSlurp", id: 1287239339
