@@ -178,6 +178,8 @@ cask "notion"
 cask "parallels"
 # HTTP client that helps testing and describing APIs
 cask "paw"
+# Timer application
+cask "pomotroid"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -196,6 +198,8 @@ cask "visual-studio-code"
 cask "wireshark"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "1Focus", id: 969210610
+mas "2048 Game", id: 871033113
 mas "Affinity Photo", id: 824183456
 mas "Block Fortress", id: 682046205
 mas "Block Fortress War", id: 874328055
@@ -206,6 +210,7 @@ mas "Contributions", id: 1153432612
 mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
 mas "Encrypto", id: 935235287
+mas "Endel", id: 1484348796
 mas "Firewatch", id: 1164603847
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
@@ -219,6 +224,7 @@ mas "Mini Metro", id: 1047760200
 mas "Mini Motorways", id: 1456188526
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Playgrounds", id: 1496833156
 mas "Poolsuite FM", id: 1514817810
 mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787

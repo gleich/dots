@@ -538,5 +538,13 @@
   "unit": {
     "prefix": "un",
     "body": "\\si{$1}"
+  },
+  "underline": {
+    "prefix": "ul",
+    "body": "\\underline{$1}"
+  },
+  "frac without underline": {
+    "prefix": "fro",
+    "body": "\\genfrac{}{}{0pt}{}{$1}{$2}"
   }
 }
