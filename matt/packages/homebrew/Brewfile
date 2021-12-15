@@ -101,6 +101,8 @@ brew "yarn"
 brew "youtube-dl"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
+# 🎄 A Christmas tree right from your terminal!
+brew "gleich/tap/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
 brew "gleich/tap/fgh"
 # ☢️ Force quit all applications with one terminal command
@@ -117,6 +119,8 @@ cask "arduino"
 cask "balenaetcher"
 # Menu bar icon organizer
 cask "bartender"
+# Desktop password and login vault
+cask "bitwarden"
 # 3D creation suite
 cask "blender"
 # Web browser focusing on privacy
