@@ -5,6 +5,7 @@ bodil.prettier-toml
 bungcip.better-toml
 CalebDenio.fgh-code
 christian-kohler.path-intellisense
+csstools.postcss
 dbaeumer.vscode-eslint
 Divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
