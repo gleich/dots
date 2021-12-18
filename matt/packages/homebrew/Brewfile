@@ -196,6 +196,8 @@ cask "sonic-pi"
 cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
+# Messaging app with a focus on speed and security
+cask "telegram"
 # Open-source code editor
 cask "visual-studio-code"
 # Network protocol analyzer
@@ -213,6 +215,7 @@ mas "ColorSlurp", id: 1287239339
 mas "Contributions", id: 1153432612
 mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
+mas "Dynaper", id: 1435296403
 mas "Encrypto", id: 935235287
 mas "Endel", id: 1484348796
 mas "Firewatch", id: 1164603847
