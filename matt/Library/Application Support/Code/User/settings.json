@@ -502,7 +502,7 @@
   ],
   "editor.linkedEditing": true,
   "errorLens.fontWeight": "900",
-  "editor.fontWeight": "900",
+  "editor.fontWeight": "600",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",

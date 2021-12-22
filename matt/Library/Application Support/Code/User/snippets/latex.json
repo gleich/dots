@@ -546,5 +546,9 @@
   "frac without underline": {
     "prefix": "fro",
     "body": "\\genfrac{}{}{0pt}{}{$1}{$2}"
+  },
+  "align row": {
+    "prefix": "ar",
+    "body": "$1 &\\rightarrow $2 \\\\\\\\"
   }
 }
