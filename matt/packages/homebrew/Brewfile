@@ -21,6 +21,8 @@ brew "black"
 brew "bpytop"
 # Cross-platform make
 brew "cmake"
+# Console Matrix
+brew "cmatrix"
 # Command-line DNS client
 brew "dog"
 # Modern replacement for 'ls'

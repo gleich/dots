@@ -534,8 +534,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "svelte.enable-ts-plugin": true,
-  "svelte.ask-to-enable-ts-plugin": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle"
+  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "svelte.enable-ts-plugin": true
 }
