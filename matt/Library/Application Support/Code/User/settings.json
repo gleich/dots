@@ -535,6 +535,6 @@
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "workbench.colorTheme": "GitHub Light Default",
   "svelte.enable-ts-plugin": true
 }
