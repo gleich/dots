@@ -27,6 +27,7 @@
     "autofocus",
     "autopep",
     "bday",
+    "blinkt",
     "Boesen",
     "borderless",
     "bottomline",
@@ -535,6 +536,6 @@
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.colorTheme": "🏴 blackbird → jungle",
   "svelte.enable-ts-plugin": true
 }
