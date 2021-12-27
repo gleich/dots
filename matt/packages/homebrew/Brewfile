@@ -1,3 +1,4 @@
+tap "filosottile/musl-cross"
 tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"

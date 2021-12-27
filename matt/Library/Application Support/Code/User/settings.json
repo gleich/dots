@@ -127,6 +127,7 @@
     "numpy",
     "oauthlib",
     "octodns",
+    "oled",
     "osascript",
     "paystub",
     "PDFs",
@@ -489,7 +490,7 @@
   },
   "terminal.integrated.defaultLocation": "editor",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "python.defaultInterpreterPath": "/usr/bin/python3",
   "vim.highlightedyank.enable": true,
   "vim.normalModeKeyBindings": [
     {
