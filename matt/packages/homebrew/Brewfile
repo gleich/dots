@@ -104,6 +104,8 @@ brew "yarn"
 brew "youtube-dl"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
+# Programming language designed for robustness, optimality, and clarity
+brew "zig"
 # 🎄 A Christmas tree right from your terminal!
 brew "gleich/tap/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
