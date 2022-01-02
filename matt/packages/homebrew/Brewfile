@@ -134,6 +134,8 @@ cask "brave-browser-dev"
 cask "caffeine"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+# Calendar for professionals and teams
+cask "cron"
 # API documentation browser and code snippet manager
 cask "dash"
 # Voice and text chat software
@@ -247,11 +249,9 @@ mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Speediness", id: 1596706466
-mas "Superhighway", id: 1494503555
 mas "Surviving Mars", id: 1384295904
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
-mas "World of Tanks Blitz", id: 1068932208
 mas "Xcode", id: 497799835

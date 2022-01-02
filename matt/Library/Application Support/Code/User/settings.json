@@ -539,5 +539,6 @@
   "conventionalCommits.showNewVersionNotes": false,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "🏴 blackbird → jungle",
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "vim.showMarksInGutter": true
 }
