@@ -12,6 +12,8 @@ tap "zegervdv/zathura"
 brew "python@3.9"
 # Fast, simple and clean video downloader
 brew "annie"
+# FSF/GNU binutils for cross-compiling to arm-linux
+brew "arm-linux-gnueabihf-binutils"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -159,6 +161,8 @@ cask "font-tinos"
 cask "font-trirong"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
+# Pre-built GNU bare-metal toolchain for 32-bit Arm processors
+cask "gcc-arm-embedded"
 # App that shows GitHub notifications on the desktop
 cask "gitify"
 # Client for the Google Drive storage service
@@ -185,6 +189,8 @@ cask "mactex-no-gui"
 cask "middleclick"
 # Sandbox construction video game
 cask "minecraft"
+# Tool to control external monitor brightness & volume
+cask "monitorcontrol"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
@@ -249,9 +255,11 @@ mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Speediness", id: 1596706466
+mas "Superhighway", id: 1494503555
 mas "Surviving Mars", id: 1384295904
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "Trello", id: 1278508951
 mas "WireGuard", id: 1451685025
+mas "World of Tanks Blitz", id: 1068932208
 mas "Xcode", id: 497799835
