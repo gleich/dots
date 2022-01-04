@@ -58,6 +58,8 @@ brew "htop"
 brew "jrnl"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Next-gen compiler infrastructure
+brew "llvm"
 # System information fetcher, with an emphasis on performance and minimalism
 brew "macchina"
 # Mac App Store command-line interface
@@ -155,6 +157,7 @@ cask "font-ibm-plex"
 cask "font-inter"
 # Original typeface primarily intended for continuous on-screen reading
 cask "font-newsreader"
+# Font with a mechanical skeleton and the forms are largely geometric
 cask "font-roboto"
 cask "font-space-mono"
 cask "font-tinos"
