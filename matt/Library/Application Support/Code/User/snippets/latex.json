@@ -85,7 +85,7 @@
   },
   "Question": {
     "prefix": ["qe"],
-    "body": "\\section{Problem \\#$1}\n\t"
+    "body": "\\section*{Problem \\#$1}\n\t"
   },
   "Question Normal": {
     "prefix": ["qen"],
@@ -256,6 +256,10 @@
   "Combine Like Terms (Right Side)": {
     "prefix": ["cltr"],
     "body": ["\\explain{Combine Like Terms (R)}{\n\t\\step{ $1 }\n}"]
+  },
+  "Solve": {
+    "prefix": ["sol"],
+    "body": ["\\explain{Solve}{\n\t\\step{ $1 }\n}"]
   },
   "Combine Like Terms": {
     "prefix": ["clt"],
@@ -481,7 +485,7 @@
   },
   "sq": {
     "prefix": "sq",
-    "body": "\\sqrt[$1]{$2} "
+    "body": "\\sqrt{$1} "
   },
   "img": {
     "prefix": "img",

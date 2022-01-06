@@ -10,6 +10,8 @@ tap "planetscale/tap"
 tap "zegervdv/zathura"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Fast, simple and clean video downloader
 brew "annie"
 # FSF/GNU binutils for cross-compiling to arm-linux
@@ -84,6 +86,10 @@ brew "pnpm"
 brew "poetry"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Python 3 bindings for the Cairo graphics library
+brew "py3cairo"
+# Software for mathematics, science, and engineering
+brew "scipy"
 # Version control system designed to be a better CVS
 brew "subversion"
 # Convert your ascii diagram scribbles into happy little SVG
@@ -202,8 +208,6 @@ cask "notion"
 cask "parallels"
 # HTTP client that helps testing and describing APIs
 cask "paw"
-# Timer application
-cask "pomotroid"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
