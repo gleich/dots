@@ -32,6 +32,8 @@ brew "cmatrix"
 brew "dog"
 # Modern replacement for 'ls'
 brew "exa"
+# Audio codec
+brew "opus"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
