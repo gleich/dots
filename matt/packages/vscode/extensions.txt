@@ -18,6 +18,7 @@ golang.go
 icrawl.discord-vscode
 James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
+jock.svg
 matklad.rust-analyzer
 MattGleich.theme-blackbird
 mgmcdermott.vscode-language-babel
