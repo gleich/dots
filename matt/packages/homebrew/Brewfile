@@ -12,8 +12,6 @@ tap "zegervdv/zathura"
 brew "python@3.9"
 # Framework for layout and rendering of i18n text
 brew "pango"
-# Fast, simple and clean video downloader
-brew "annie"
 # FSF/GNU binutils for cross-compiling to arm-linux
 brew "arm-linux-gnueabihf-binutils"
 # Aquarium animation in ASCII art
@@ -64,6 +62,8 @@ brew "jrnl"
 brew "lazygit"
 # Next-gen compiler infrastructure
 brew "llvm"
+# Fast and simple video downloader
+brew "lux"
 # System information fetcher, with an emphasis on performance and minimalism
 brew "macchina"
 # Mac App Store command-line interface
