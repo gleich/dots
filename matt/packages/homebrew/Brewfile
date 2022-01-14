@@ -12,8 +12,6 @@ tap "zegervdv/zathura"
 brew "python@3.9"
 # Framework for layout and rendering of i18n text
 brew "pango"
-# FSF/GNU binutils for cross-compiling to arm-linux
-brew "arm-linux-gnueabihf-binutils"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -172,8 +170,6 @@ cask "font-tinos"
 cask "font-trirong"
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
-# Pre-built GNU bare-metal toolchain for 32-bit Arm processors
-cask "gcc-arm-embedded"
 # App that shows GitHub notifications on the desktop
 cask "gitify"
 # Client for the Google Drive storage service
@@ -184,6 +180,8 @@ cask "grandperspective"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
+# Keyboard customizer
+cask "karabiner-elements"
 # Electronics design automation suite
 cask "kicad"
 # GPU-based terminal emulator

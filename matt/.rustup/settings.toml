@@ -3,3 +3,4 @@ profile = "default"
 version = "12"
 
 [overrides]
+"/Users/matt/tmp/myproject" = "nightly-aarch64-apple-darwin"

@@ -161,7 +161,7 @@
     "key": "shift+cmd+b",
     "command": "workbench.action.terminal.sendSequence",
     "args": {
-      "text": "kiwi build && echo && fix_pdfs\u000D"
+      "text": "fix_pdfs && echo && kiwi build\u000D"
     }
   },
   {
