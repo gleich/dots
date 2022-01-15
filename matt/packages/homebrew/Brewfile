@@ -6,7 +6,9 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "osx-cross/avr"
 tap "planetscale/tap"
+tap "tinygo-org/tools"
 tap "zegervdv/zathura"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
@@ -14,6 +16,8 @@ brew "python@3.9"
 brew "pango"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
+# Atmel AVR MCU programmer
+brew "avrdude"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
@@ -50,6 +54,8 @@ brew "go"
 brew "gource"
 # Ping, but with a graph
 brew "gping"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Improved top (interactive process viewer)
@@ -122,8 +128,12 @@ brew "gleich/tap/ctree"
 brew "gleich/tap/fgh"
 # ☢️ Force quit all applications with one terminal command
 brew "gleich/tap/nuke"
+# GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
+brew "osx-cross/avr/avr-gcc@9"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
+# TinyGo is a Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.
+brew "tinygo-org/tools/tinygo"
 brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-mupdf"
 # Collection of apps and services for photography, design, video, web, and UX
