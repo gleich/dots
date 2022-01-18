@@ -305,7 +305,6 @@
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/opt/homebrew/bin/black",
   "git.confirmSync": false,
-  "java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
   "editor.folding": false,
   "markdown.extension.toc.levels": "1..4",
   "jupyter.sendSelectionToInteractiveWindow": false,

@@ -6,10 +6,13 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "messense/macos-cross-toolchains"
 tap "osx-cross/avr"
 tap "planetscale/tap"
 tap "tinygo-org/tools"
 tap "zegervdv/zathura"
+# Run your GitHub Actions locally 🚀
+brew "act"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Framework for layout and rendering of i18n text
@@ -128,6 +131,8 @@ brew "gleich/tap/ctree"
 brew "gleich/tap/fgh"
 # ☢️ Force quit all applications with one terminal command
 brew "gleich/tap/nuke"
+# armv7 Linux GNU eabihf Toolchain
+brew "messense/macos-cross-toolchains/armv7-unknown-linux-gnueabihf"
 # GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
 brew "osx-cross/avr/avr-gcc@9"
 # The PlanetScale CLI
