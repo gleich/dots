@@ -56,7 +56,13 @@
   "Variable Table": {
     "prefix": ["vtab"],
     "body": [
-      "\\begin{center}\n\t\\begin{tabular}{| c | l |}\n\t\t\\hline\n\t\t\\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t\t$ $1 $ & $2 \\\\\\ \\hline$3\n\t\\end{tabular}\n\\end{center}"
+      "\\begin{tabular}{| c | l |}\n\t\\hline\n\t\\textbf{Variable} & \\textbf{Definition} \\\\\\ \\hline \\hline\n\t$ $1 $ & $2 \\\\\\ \\hline$3\n\\end{tabular}"
+    ]
+  },
+  "Variable Table with Units": {
+    "prefix": ["vutab"],
+    "body": [
+      "\\begin{tabular}{| c | l | l |}\n\t\\hline\n\t\\textbf{Variable} & \\textbf{Definition} & \\textbf{Unit} \\\\\\ \\hline \\hline\n\t$ $1 $ & $2 & $3 \\\\\\ \\hline$4\n\\end{tabular}"
     ]
   },
   "Row": {

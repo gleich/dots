@@ -544,5 +544,6 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "workbench.welcomePage.preferReducedMotion": true
+  "workbench.welcomePage.preferReducedMotion": true,
+  "window.zoomLevel": 2
 }
