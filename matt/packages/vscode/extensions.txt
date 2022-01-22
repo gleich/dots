@@ -25,9 +25,11 @@ mgmcdermott.vscode-language-babel
 mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode.cpptools
 naumovs.color-highlight
 njpwerner.autodocstring
 redhat.java
+serayuzgur.crates
 shardulm94.trailing-spaces
 silvenon.mdx
 spywhere.now-playing
@@ -38,6 +40,7 @@ usernamehw.errorlens
 vadimcn.vscode-lldb
 VisualStudioExptTeam.vscodeintellicode
 vivaxy.vscode-conventional-commits
+vsciot-vscode.vscode-arduino
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
 vscjava.vscode-java-pack

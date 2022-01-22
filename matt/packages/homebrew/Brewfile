@@ -1,3 +1,4 @@
+tap "armmbed/formulae"
 tap "filosottile/musl-cross"
 tap "gleich/tap"
 tap "homebrew/bundle"
@@ -15,10 +16,16 @@ tap "zegervdv/zathura"
 brew "act"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Library for USB device access
+brew "libusb"
 # Atmel AVR MCU programmer
 brew "avrdude"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -35,6 +42,8 @@ brew "cmatrix"
 brew "dog"
 # Modern replacement for 'ls'
 brew "exa"
+# Generic library support script
+brew "libtool"
 # Audio codec
 brew "opus"
 # Play, record, convert, and stream audio and video
@@ -105,6 +114,8 @@ brew "subversion"
 brew "svgbob"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# Official documentation format of the GNU project
+brew "texinfo"
 # Terminal multiplexer
 brew "tmux"
 # Program that allows you to count code, quickly
@@ -125,6 +136,7 @@ brew "youtube-dl"
 brew "yt-dlp"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
+brew "armmbed/formulae/arm-none-eabi-gcc"
 # 🎄 A Christmas tree right from your terminal!
 brew "gleich/tap/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories

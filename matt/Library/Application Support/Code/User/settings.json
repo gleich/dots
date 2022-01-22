@@ -544,5 +544,7 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "workbench.welcomePage.preferReducedMotion": true
+  "workbench.welcomePage.preferReducedMotion": true,
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+  "C_Cpp.intelliSenseEngine": "Tag Parser"
 }
