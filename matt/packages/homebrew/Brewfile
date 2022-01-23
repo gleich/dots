@@ -94,6 +94,8 @@ brew "node"
 brew "numpy"
 # Open source computer vision library
 brew "opencv"
+# Development kit for the Java programming language
+brew "openjdk@11"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pinentry for GPG on Mac
