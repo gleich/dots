@@ -84,6 +84,8 @@ brew "lux"
 brew "macchina"
 # Mac App Store command-line interface
 brew "mas"
+# Minimalist GNU for Windows and GCC cross-compilers
+brew "mingw-w64"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -192,6 +194,7 @@ cask "font-ibm-plex"
 cask "font-inter"
 # Original typeface primarily intended for continuous on-screen reading
 cask "font-newsreader"
+cask "font-open-sans"
 # Font with a mechanical skeleton and the forms are largely geometric
 cask "font-roboto"
 cask "font-space-mono"

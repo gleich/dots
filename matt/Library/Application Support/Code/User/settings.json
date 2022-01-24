@@ -37,6 +37,7 @@
     "chdir",
     "cjdenio",
     "CLI's",
+    "clippy",
     "cmds",
     "CNDs",
     "colorbox",
@@ -504,7 +505,7 @@
   ],
   "editor.linkedEditing": true,
   "errorLens.fontWeight": "900",
-  "editor.fontWeight": "600",
+  "editor.fontWeight": "400",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",
@@ -547,5 +548,8 @@
   "workbench.welcomePage.preferReducedMotion": true,
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
   "C_Cpp.intelliSenseEngine": "Tag Parser",
-  "java.home": "/Users/matt/wpilib/2022/jdk"
+  "java.home": "/Users/matt/wpilib/2022/jdk",
+  "rust-analyzer.diagnostics.disabled": [
+    "macro-error"
+  ]
 }
