@@ -256,6 +256,8 @@ cask "tableplus"
 cask "telegram"
 # Open-source code editor
 cask "visual-studio-code"
+# Remote desktop application focusing on security
+cask "vnc-viewer"
 # Network protocol analyzer
 cask "wireshark"
 # Video communication and virtual meeting platform
