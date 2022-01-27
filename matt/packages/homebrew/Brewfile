@@ -240,6 +240,8 @@ cask "notion"
 cask "parallels"
 # HTTP client that helps testing and describing APIs
 cask "paw"
+# Collaboration platform for API development
+cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
