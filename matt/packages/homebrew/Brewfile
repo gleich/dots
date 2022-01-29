@@ -76,8 +76,12 @@ brew "htop"
 brew "jrnl"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Library to talk to FTDI chips
+brew "libftdi"
 # Next-gen compiler infrastructure
 brew "llvm"
+# List USB devices, just like the Linux lsusb command
+brew "lsusb"
 # Fast and simple video downloader
 brew "lux"
 # System information fetcher, with an emphasis on performance and minimalism
