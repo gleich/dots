@@ -660,5 +660,7 @@
         }
       }
     ]
-  }
+  },
+  "discord.removeTimestamp": true,
+  "discord.suppressNotifications": true
 }

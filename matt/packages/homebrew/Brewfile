@@ -68,6 +68,8 @@ brew "gource"
 brew "gping"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
+# Toolkit for creating graphical user interfaces
+brew "gtk4"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Improved top (interactive process viewer)
