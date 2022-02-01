@@ -662,5 +662,6 @@
     ]
   },
   "discord.removeTimestamp": true,
-  "discord.suppressNotifications": true
+  "discord.suppressNotifications": true,
+  "workbench.startupEditor": "none"
 }
