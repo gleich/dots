@@ -20,6 +20,8 @@ brew "python@3.9"
 brew "pkg-config"
 # Framework for layout and rendering of i18n text
 brew "pango"
+# ARP scanning and fingerprinting tool
+brew "arp-scan"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -96,6 +98,8 @@ brew "mingw-w64"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
 # Package for scientific computing with Python
