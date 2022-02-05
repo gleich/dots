@@ -275,7 +275,6 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.enableSmartCommit": true,
   "git.enableCommitSigning": true,
   "bracket-pair-colorizer-2.showBracketsInRuler": true,
   "editor.hover.delay": 200,
@@ -426,7 +425,6 @@
   "latex-workshop.bibtex-format.sort.enabled": true,
   "latex-workshop.viewer.pdf.internal.keyboardEvent": "force",
   "latex-workshop.view.pdf.zoom": "page-fit",
-  "editor.minimap.enabled": false,
   "go.toolsManagement.autoUpdate": true,
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
@@ -664,5 +662,11 @@
   "discord.suppressNotifications": true,
   "workbench.startupEditor": "none",
   "audioCues.enabled": "off",
+  "git.inputValidation": "off",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.enabled": false,
   "workbench.activityBar.visible": false
 }
