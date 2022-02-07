@@ -1,3 +1,4 @@
+4ops.terraform
 antfu.icons-carbon
 blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
@@ -15,6 +16,7 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
 golang.go
+hashicorp.terraform
 icrawl.discord-vscode
 James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff

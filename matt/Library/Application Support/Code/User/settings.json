@@ -668,5 +668,7 @@
   "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.enabled": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "latex-workshop.view.outline.numbers.enabled": false,
+  "rust-analyzer.inlayHints.enable": false
 }

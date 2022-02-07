@@ -176,5 +176,9 @@
   {
     "key": "shift+cmd+r",
     "command": "latex-workshop.refresh-viewer"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.scm.focus"
   }
 ]

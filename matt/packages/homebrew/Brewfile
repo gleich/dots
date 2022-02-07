@@ -76,6 +76,8 @@ brew "gtk4"
 brew "hadolint"
 # Improved top (interactive process viewer)
 brew "htop"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Command-line note taker
 brew "jrnl"
 # Simple terminal UI for git commands
@@ -222,8 +224,6 @@ cask "grandperspective"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# Keyboard customizer
-cask "karabiner-elements"
 # Electronics design automation suite
 cask "kicad"
 # GPU-based terminal emulator
