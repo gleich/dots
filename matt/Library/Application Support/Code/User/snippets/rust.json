@@ -2,5 +2,9 @@
   "Debug Println": {
     "prefix": "dp",
     "body": "println!(\"$1 = {:?}\", $1);"
+  },
+  "Print Line": {
+    "prefix": "pl",
+    "body": "println!($1)"
   }
 }
