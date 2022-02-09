@@ -1,0 +1,6 @@
+{
+  "Debug Println": {
+    "prefix": "dp",
+    "body": "println!(\"$1 = {:?}\", $1);"
+  }
+}

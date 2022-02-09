@@ -461,12 +461,12 @@
     { "before": ["down"], "after": ["g", "j"] },
     { "before": ["up"], "after": ["g", "k"] },
     {
-      "before": "k",
+      "before": ["j"],
       "after": ["g", "j"]
     },
     {
-      "before": "j",
-      "after": ["g", "j"]
+      "before": ["k"],
+      "after": ["g", "k"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -669,6 +669,5 @@
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.enabled": false,
   "workbench.activityBar.visible": false,
-  "latex-workshop.view.outline.numbers.enabled": false,
-  "rust-analyzer.inlayHints.enable": false
+  "latex-workshop.view.outline.numbers.enabled": false
 }
