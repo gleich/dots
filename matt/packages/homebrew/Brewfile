@@ -224,8 +224,6 @@ cask "grandperspective"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# Electronics design automation suite
-cask "kicad"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
@@ -297,11 +295,13 @@ mas "interChem", id: 1549651849
 mas "Interval", id: 973220423
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
+mas "Knights of the Old Republic", id: 416608891
 mas "MindNode", id: 1289197285
 mas "Mini Metro", id: 1047760200
 mas "Mini Motorways", id: 1456188526
 mas "Notchmeister", id: 1599169747
 mas "Numbers", id: 409203825
+mas "Octagon", id: 691956219
 mas "Pages", id: 409201541
 mas "Playgrounds", id: 1496833156
 mas "Poolsuite FM", id: 1514817810

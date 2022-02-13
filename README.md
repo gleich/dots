@@ -4,8 +4,8 @@
 ![format](https://github.com/gleich/dots/workflows/format/badge.svg)
 
 ```txt
-matt@gleich.lan 
---------------- 
+matt@gleich.local 
+----------------- 
 OS: macOS 12.2 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 21.3.0 
