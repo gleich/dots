@@ -6,10 +6,10 @@
 ```txt
 matt@gleich.local 
 ----------------- 
-OS: macOS 12.2 arm64 
+OS: macOS 12.2.1 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 21.3.0 
-Packages: 274 (brew) 
+Packages: 275 (brew) 
 Shell: fish 3.3.1 
 DE: Aqua 
 WM: Rectangle 

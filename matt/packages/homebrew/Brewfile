@@ -1,5 +1,4 @@
 tap "armmbed/formulae"
-tap "filosottile/musl-cross"
 tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -161,6 +160,8 @@ brew "gleich/tap/fgh"
 brew "gleich/tap/nuke"
 # armv7 Linux GNU eabihf Toolchain
 brew "messense/macos-cross-toolchains/armv7-unknown-linux-gnueabihf"
+# x86_64 Linux GNU Toolchain
+brew "messense/macos-cross-toolchains/x86_64-unknown-linux-gnu"
 # GNU compiler collection for AVR 8-bit and 32-bit Microcontrollers
 brew "osx-cross/avr/avr-gcc@9"
 # The PlanetScale CLI
@@ -224,6 +225,8 @@ cask "grandperspective"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
+# Electronics design automation suite
+cask "kicad"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
