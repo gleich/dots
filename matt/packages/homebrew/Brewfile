@@ -237,6 +237,8 @@ cask "logitech-options"
 cask "macs-fan-control"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
 # Utility to extend trackpad functionality
 cask "middleclick"
 # Sandbox construction video game

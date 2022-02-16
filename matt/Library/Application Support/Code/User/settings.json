@@ -669,5 +669,6 @@
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.enabled": false,
   "workbench.activityBar.visible": false,
-  "latex-workshop.view.outline.numbers.enabled": false
+  "latex-workshop.view.outline.numbers.enabled": false,
+  "search.showLineNumbers": true
 }
