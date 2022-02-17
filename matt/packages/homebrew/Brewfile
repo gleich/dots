@@ -81,6 +81,8 @@ brew "jq"
 brew "jrnl"
 # Simple terminal UI for git commands
 brew "lazygit"
+# EXIF parsing library
+brew "libexif"
 # Library to talk to FTDI chips
 brew "libftdi"
 # Next-gen compiler infrastructure
