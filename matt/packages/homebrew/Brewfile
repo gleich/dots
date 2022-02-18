@@ -97,6 +97,8 @@ brew "macchina"
 brew "mas"
 # Minimalist GNU for Windows and GCC cross-compilers
 brew "mingw-w64"
+# Menu-driven communications program
+brew "minicom"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility

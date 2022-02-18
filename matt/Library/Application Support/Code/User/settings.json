@@ -535,7 +535,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "workbench.colorTheme": "GitHub Light",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {
@@ -670,5 +670,6 @@
   "gitlens.hovers.enabled": false,
   "workbench.activityBar.visible": false,
   "latex-workshop.view.outline.numbers.enabled": false,
-  "search.showLineNumbers": true
+  "search.showLineNumbers": true,
+  "java.configuration.updateBuildConfiguration": "automatic"
 }
