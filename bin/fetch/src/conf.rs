@@ -31,7 +31,7 @@ pub struct Folders {
 
 #[derive(Deserialize, Debug)]
 pub struct Files {
-    pub parent: String,
+    pub parent: PathBuf,
     pub children: Vec<PathBuf>,
 }
 
@@ -61,7 +61,12 @@ impl Folders {
     pub fn copy_children(&self, home_dir: &Path) -> Result<()> {
         for child in &self.children {
             let actual_path = home_dir.join(&self.parent).join(child);
-            let parent = child.parent().unwrap_or(&self.parent);
+            let child_parent = child.parent().unwrap().to_path_buf();
+            let parent = if child_parent.to_str().unwrap().is_empty() {
+                &self.parent
+            } else {
+                &child_parent
+            };
             if !parent.exists() {
                 fs::create_dir_all(parent)?;
             }

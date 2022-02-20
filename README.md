@@ -1,8 +1,6 @@
 
 # dots
 
-![format](https://github.com/gleich/dots/workflows/format/badge.svg)
-
 ```txt
 matt@gleich.lan 
 --------------- 

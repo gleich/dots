@@ -1,6 +1,5 @@
 # scripts
 alias update="sh ~/src/gleich/public/shell/scripts/update.sh"
-alias fetch="cd ~/src/gleich/public/vim-script/dots/bin/fetch && poetry run python3 main.py"
 alias mindnode="cd ~/src/gleich/public/shell/scripts/ && poetry run python3 mindnode.py"
 
 alias ls="exa -a --git --icons --group-directories-first --classify"
@@ -52,4 +51,3 @@ alias gb="git checkout -b"
 alias gv="gh repo view -w"
 alias ni="gh issue create"
 alias ci="gh workflow view"
-

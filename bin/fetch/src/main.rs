@@ -75,8 +75,6 @@ fn write_to_readme() -> Result<()> {
             "
 # dots
 
-![format](https://github.com/gleich/dots/workflows/format/badge.svg)
-
 ```txt
 {}
 ```
