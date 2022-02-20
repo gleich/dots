@@ -1,0 +1,38 @@
+[[packages]]
+name = "homebrew"
+cmd = ["brew", "bundle", "dump", "--describe", "--file=-"]
+filename = "Brewfile"
+
+[[packages]]
+name = "vscode"
+cmd = ["code", "--list-extensions"]
+filename = "extensions.txt"
+
+[[folders]]
+parent = ".config"
+children = ["neofetch", "nuke", "nvim", "fish", "omf", "kitty", "resin"]
+
+[[folders]]
+parent = "."
+children = ["Library/Application Support/Code/User/snippets"]
+
+[[files]]
+parent = ".config"
+children = [
+    "fgh/config.yaml",
+    "gh/config.yml",
+    "coc/extensions/package.json",
+    "planetscale/pscale.yml",
+]
+
+[[files]]
+parent = "."
+children = [
+    ".gitconfig",
+    ".tmux.conf",
+    ".docker/config.json",
+    "Library/Application Support/Code/User/keybindings.json",
+    "Library/Application Support/Code/User/settings.json",
+    ".gnupg/gpg-agent.conf",
+    ".rustup/settings.toml",
+]
