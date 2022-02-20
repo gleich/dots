@@ -34,8 +34,8 @@ fn main() {
 
     env::set_current_dir("..").expect("Failed to back to repository root");
 
-    publish_changes().expect("Failed to commit and push changes");
     write_to_readme().expect("Failed to write information to README");
+    publish_changes().expect("Failed to commit and push changes");
 }
 
 fn prepare(home_dir: &Path) -> Result<Config> {
