@@ -79,7 +79,7 @@ fn write_to_readme() -> Result<()> {
 {}
 ```
 ",
-            neofetch_output
+            neofetch_output.trim()
         ),
     )?;
     Ok(())
