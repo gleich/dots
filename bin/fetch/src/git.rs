@@ -11,7 +11,7 @@ pub fn publish_changes() -> Result<()> {
         .arg("-m")
         .arg("chore(update): update to latest config")
         .output()?;
-    Command::new(git_binary).arg("push");
+    Command::new(git_binary).arg("push").output()?;
     info!("Pushed the latest changes");
     Ok(())
 }
