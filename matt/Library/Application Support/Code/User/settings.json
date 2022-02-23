@@ -673,5 +673,6 @@
   "workbench.activityBar.visible": false,
   "latex-workshop.view.outline.numbers.enabled": false,
   "search.showLineNumbers": true,
-  "java.configuration.updateBuildConfiguration": "automatic"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "terminal.integrated.macOptionIsMeta": true
 }
