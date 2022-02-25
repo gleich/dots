@@ -10,6 +10,7 @@ complete -c optic -n "__fish_use_subcommand" -f -a "trash" -d 'Move branch to tr
 complete -c optic -n "__fish_use_subcommand" -f -a "completion" -d 'Generate shell completion for optic'
 complete -c optic -n "__fish_use_subcommand" -f -a "help" -d 'Print this message or the help of the given subcommand(s)'
 complete -c optic -n "__fish_seen_subcommand_from new" -s h -l help -d 'Print help information'
+complete -c optic -n "__fish_seen_subcommand_from build" -l latexmk -d 'Use latexmk instead of pdflatex to build the PDF'
 complete -c optic -n "__fish_seen_subcommand_from build" -s h -l help -d 'Print help information'
 complete -c optic -n "__fish_seen_subcommand_from watch" -s h -l help -d 'Print help information'
 complete -c optic -n "__fish_seen_subcommand_from open" -s h -l help -d 'Print help information'
