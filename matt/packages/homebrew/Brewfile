@@ -234,6 +234,8 @@ cask "grandperspective"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
+# Keyboard customizer
+cask "karabiner-elements"
 # Electronics design automation suite
 cask "kicad"
 # GPU-based terminal emulator

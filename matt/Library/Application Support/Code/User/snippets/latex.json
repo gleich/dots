@@ -95,9 +95,7 @@
   },
   "Question Normal": {
     "prefix": ["qen"],
-    "body": [
-      "\\section{}\n\t\\subsection{Question}\n\t\t$1\n\t\\subsection{Answer}\n\t\t\\sol{$3}"
-    ]
+    "body": "\\subsection*{Problem \\#$1}\n\t"
   },
   "Question Sub": {
     "prefix": ["qes"],
