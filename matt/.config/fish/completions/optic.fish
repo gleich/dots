@@ -8,6 +8,7 @@ complete -c optic -n "__fish_use_subcommand" -f -a "reveal" -d 'Open a branch PD
 complete -c optic -n "__fish_use_subcommand" -f -a "check" -d 'Check to see if any branches don\'t have up-to-date PDFs'
 complete -c optic -n "__fish_use_subcommand" -f -a "trash" -d 'Move branch to trash can'
 complete -c optic -n "__fish_use_subcommand" -f -a "completion" -d 'Generate shell completion for optic'
+complete -c optic -n "__fish_use_subcommand" -f -a "commit" -d 'Commit uncommitted branches'
 complete -c optic -n "__fish_use_subcommand" -f -a "help" -d 'Print this message or the help of the given subcommand(s)'
 complete -c optic -n "__fish_seen_subcommand_from new" -s h -l help -d 'Print help information'
 complete -c optic -n "__fish_seen_subcommand_from build" -l latexmk -d 'Use latexmk instead of pdflatex to build the PDF'
@@ -18,3 +19,5 @@ complete -c optic -n "__fish_seen_subcommand_from reveal" -s h -l help -d 'Print
 complete -c optic -n "__fish_seen_subcommand_from check" -s h -l help -d 'Print help information'
 complete -c optic -n "__fish_seen_subcommand_from trash" -s h -l help -d 'Print help information'
 complete -c optic -n "__fish_seen_subcommand_from completion" -s h -l help -d 'Print help information'
+complete -c optic -n "__fish_seen_subcommand_from commit" -s h -l help -d 'Print help information'
+
