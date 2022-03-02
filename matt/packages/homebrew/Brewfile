@@ -126,6 +126,8 @@ brew "pnpm"
 brew "poetry"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Monitor data's progress through a pipe
+brew "pv"
 # Python 3 bindings for the Cairo graphics library
 brew "py3cairo"
 # Software for mathematics, science, and engineering
@@ -234,6 +236,8 @@ cask "grandperspective"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
+# Keyboard customizer
+cask "karabiner-elements"
 # Electronics design automation suite
 cask "kicad"
 # GPU-based terminal emulator
@@ -323,6 +327,7 @@ mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "Speediness", id: 1596706466
+mas "Structured", id: 1499198946
 mas "Superhighway", id: 1494503555
 mas "Surviving Mars", id: 1384295904
 mas "The Unarchiver", id: 425424353
