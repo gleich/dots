@@ -1,7 +1,6 @@
 use std::process::Command;
 
 use anyhow::Result;
-use log::info;
 
 pub fn publish_changes() -> Result<()> {
     let git_binary = "git";
@@ -12,6 +11,5 @@ pub fn publish_changes() -> Result<()> {
         .arg("chore(update): update to latest config")
         .output()?;
     Command::new(git_binary).arg("push").output()?;
-    info!("Pushed the latest changes");
     Ok(())
 }

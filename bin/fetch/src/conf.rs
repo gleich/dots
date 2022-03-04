@@ -6,7 +6,6 @@ use std::{
 
 use anyhow::{Context, Result};
 use fs_extra::dir;
-use log::info;
 use serde::Deserialize;
 
 #[derive(Deserialize, Debug)]
@@ -52,7 +51,6 @@ impl Package {
         let folder = PathBuf::from("packages").join(&self.name);
         fs::create_dir_all(&folder)?;
         fs::write(folder.join(&self.filename), output)?;
-        info!("Generated package for {}", self.name);
         Ok(())
     }
 }
@@ -75,7 +73,6 @@ impl Folders {
                 child.display(),
                 self.parent.display()
             ))?;
-            info!("Copied folder: {}", actual_path.display());
         }
         Ok(())
     }
@@ -89,7 +86,6 @@ impl Files {
             let copy_path = PathBuf::from(&self.parent).join(child);
             fs::create_dir_all(copy_path.parent().unwrap())?;
             fs::copy(&actual_path, &copy_path)?;
-            info!("Copied file: {}", actual_path.display());
         }
         Ok(())
     }

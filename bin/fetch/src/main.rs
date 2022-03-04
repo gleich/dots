@@ -5,12 +5,10 @@ use std::{
 };
 
 use anyhow::{bail, Result};
-use chrono::{Local, TimeZone};
 use git::publish_changes;
-use log::{info, LevelFilter};
-use simplelog::{ColorChoice, TermLogger, TerminalMode};
 
 use conf::Config;
+use task_log::task;
 
 mod conf;
 mod git;
@@ -20,49 +18,59 @@ fn main() {
     let config = prepare(&home_dir).expect("Failed to read from configuration file");
 
     for package in config.packages {
-        package.generate().expect("Failed to generate package");
+        task(format!("Generating package: {}", package.name), || {
+            package.generate().expect("Failed to generate package");
+        });
     }
     for folders in config.folders {
-        folders
-            .copy_children(&home_dir)
-            .expect("Failed to copy child folders");
+        task(
+            format!("Copying folders from {}", folders.parent.display()),
+            || {
+                folders
+                    .copy_children(&home_dir)
+                    .expect("Failed to copy child folders");
+            },
+        )
     }
     for file in config.files {
-        file.copy_children(&home_dir)
-            .expect("Failed to copy child files");
+        task(
+            format!("Copying files from {}", file.parent.display()),
+            || {
+                file.copy_children(&home_dir)
+                    .expect("Failed to copy child files");
+            },
+        );
     }
 
     env::set_current_dir("..").expect("Failed to back to repository root");
 
-    write_to_readme().expect("Failed to write information to README");
-    publish_changes().expect("Failed to commit and push changes");
+    task("Writing changes to README", || {
+        write_to_readme().expect("Failed to write information to README");
+    });
+    task("Publishing changes", || {
+        publish_changes().expect("Failed to commit and push changes");
+    });
 }
 
 fn prepare(home_dir: &Path) -> Result<Config> {
-    TermLogger::init(
-        LevelFilter::Trace,
-        simplelog::ConfigBuilder::new()
-            .set_time_offset(Local.timestamp(0, 0).offset().to_owned())
-            .build(),
-        TerminalMode::Stdout,
-        ColorChoice::Auto,
-    )
-    .expect("Failed to configure logger");
+    task("Verifying path", || -> Result<()> {
+        let cwd = env::current_dir()?;
+        if !cwd.to_str().unwrap().ends_with("/dots") {
+            bail!("Please run from correct path")
+        };
+        Ok(())
+    })?;
 
-    let cwd = env::current_dir()?;
-    if !cwd.to_str().unwrap().ends_with("/dots") {
-        bail!("Please run from correct path")
-    }
-    info!("Path verified");
-
-    let username = PathBuf::from(home_dir.iter().last().unwrap().to_str().unwrap());
-    if username.exists() {
-        fs::remove_dir_all(&username)?;
-    }
-    fs::create_dir(&username)?;
-    let config = Config::read()?;
-    env::set_current_dir(&username)?;
-    info!("Prepared for fetch. Starting now");
+    let config = task("Creating folders", || -> Result<Config> {
+        let username = PathBuf::from(home_dir.iter().last().unwrap().to_str().unwrap());
+        if username.exists() {
+            fs::remove_dir_all(&username)?;
+        }
+        fs::create_dir(&username)?;
+        let config = Config::read()?;
+        env::set_current_dir(&username)?;
+        Ok(config)
+    })?;
     Ok(config)
 }
 
