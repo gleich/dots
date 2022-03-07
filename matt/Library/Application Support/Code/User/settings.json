@@ -201,7 +201,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "Victor Mono",
+  "editor.fontFamily": "CozetteVector",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -273,8 +273,8 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "'Victor Mono Semibold', 'VictorMono Nerd Font'",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "'CozetteVector'",
+  "terminal.integrated.fontSize": 16,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -506,7 +506,6 @@
   ],
   "editor.linkedEditing": true,
   "errorLens.fontWeight": "900",
-  "editor.fontWeight": "600",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",
