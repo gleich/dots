@@ -12,7 +12,7 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "editor.fontSize": 17,
+  "editor.fontSize": 17.5,
   "latex-workshop.message.update.show": true,
   "latex-workshop.view.pdf.viewer": "tab",
   "workbench.iconTheme": "vscode-icons",

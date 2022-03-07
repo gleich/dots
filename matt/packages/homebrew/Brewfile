@@ -90,6 +90,8 @@ brew "libftdi"
 brew "llvm"
 # List USB devices, just like the Linux lsusb command
 brew "lsusb"
+# Powerful, lightweight programming language
+brew "lua"
 # Fast and simple video downloader
 brew "lux"
 # System information fetcher, with an emphasis on performance and minimalism
@@ -323,6 +325,7 @@ mas "Octagon", id: 691956219
 mas "Pages", id: 409201541
 mas "Playgrounds", id: 1496833156
 mas "Poolsuite FM", id: 1514817810
+mas "Pure Paste", id: 1611378436
 mas "RAW Power", id: 1157116444
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641

@@ -1,8 +1,0 @@
-{
-  "codeLens.enable": true,
-  "diagnostic.errorSign": "🍒",
-  "diagnostic.warningSign": "🍊",
-  "diagnostic.infoSign": "🍏",
-  "coc.preferences.hoverTarget": "float",
-  "rust-analyzer.trace.server": "verbose"
-}
