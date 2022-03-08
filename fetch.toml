@@ -36,6 +36,7 @@ children = [
     ".gnupg/gpg-agent.conf",
     ".rustup/settings.toml",
     ".cargo/config",
+    ".rustup/settings.toml",
     ".gdbinit",
     ".actrc",
     ".minirc.dfl"
