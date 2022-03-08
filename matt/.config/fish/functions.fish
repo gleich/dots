@@ -1,5 +1,5 @@
 # cd to a config folder with ease
-function conf
+function conf --wraps "cd ~/.config/"
 	cd ~/.config/"$argv"
 end
 

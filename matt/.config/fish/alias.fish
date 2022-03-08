@@ -23,12 +23,8 @@ alias ssh="kitty +kitten ssh"
 alias sch="fcd senior"
 
 alias clock="tty-clock -SbBc"
-alias ra="ranger"
 alias c="clear"
-alias pimportsort="pub run import_sorter:main"
-alias fimportsort="flutter pub run import_sorter:main"
 alias t="touch"
-alias md="mkdir"
 
 # neovim/vim/vi
 alias v="nvim"
