@@ -1,5 +1,5 @@
 # cd to a config folder with ease
-function conf --wraps "cd ~/.config/"
+function conf
 	cd ~/.config/"$argv"
 end
 
@@ -35,5 +35,4 @@ end
 
 # go to the top of a project
 function gcd; cd (git rev-parse --show-toplevel); end
-
 

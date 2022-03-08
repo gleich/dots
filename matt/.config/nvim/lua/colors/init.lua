@@ -1,1 +1,1 @@
-require('nightfox').load('nordfox')
+vim.cmd('colorscheme gruvbox')

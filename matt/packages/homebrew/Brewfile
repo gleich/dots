@@ -105,7 +105,7 @@ brew "minicom"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
