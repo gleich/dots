@@ -80,8 +80,7 @@ fn write_to_readme() -> Result<()> {
     fs::write(
         "README.md",
         format!(
-            "
-# dots
+            "# dots
 
 ```txt
 {}

@@ -12,5 +12,3 @@ inoremap <expr><buffer> <CR> getline('.') =~ '\item $'
   \ : (col(".") < col("$") ? '<CR>' : '<CR>'.AddItem() )
 nnoremap <expr><buffer> o "o".AddItem()
 nnoremap <expr><buffer> O "O".AddItem()
-
-let b:ale_linters = []
