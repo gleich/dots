@@ -39,6 +39,10 @@
       "\\begin{enumerate}[label=(\\alph*)]\n\t\\item $1 \n\\end{enumerate}"
     ]
   },
+  "Itemize": {
+    "prefix": ["item"],
+    "body": ["\\begin{itemize}\n\t\\item $1 \n\\end{itemize}"]
+  },
   "Itemize with no bullets": {
     "prefix": ["itemn"],
     "body": ["\\begin{itemize}[label=]\n\t\\item $1 \n\\end{itemize}"]

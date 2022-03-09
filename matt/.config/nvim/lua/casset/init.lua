@@ -10,7 +10,13 @@ require('nvim_comment').setup()
 require('luasnip.loaders.from_vscode').load({ paths = { "./snippets/vscode/" } })
 local ls = require('luasnip')
 ls.config.set_config {
-    history = true,
+    history = false,
     updateevents = "TextChanged, TextChangedI",
     enable_autosnippets = true,
 }
+
+require('colorizer').setup()
+
+require('toggleterm').setup({
+    direction = 'float',
+})

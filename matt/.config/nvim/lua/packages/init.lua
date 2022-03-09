@@ -21,6 +21,7 @@ return require('packer').startup(function()
   }
   use 'morhetz/gruvbox'
   use 'sheerun/vim-polyglot'
+  use 'norcalli/nvim-colorizer.lua'
 
   --> lsp
   use 'neovim/nvim-lspconfig'

@@ -47,3 +47,8 @@ alias gb="git checkout -b"
 alias gv="gh repo view -w"
 alias ni="gh issue create"
 alias ci="gh workflow view"
+
+# optic
+alias ob="optic build"
+alias ore="optic reveal"
+alias ow="optic watch"

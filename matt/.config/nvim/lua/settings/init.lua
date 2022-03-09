@@ -19,3 +19,4 @@ set.termguicolors = true
 set.relativenumber = true
 
 set.hidden = true
+set.backupcopy = 'yes'
