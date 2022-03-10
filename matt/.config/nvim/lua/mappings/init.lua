@@ -3,6 +3,8 @@ local map = vim.api.nvim_set_keymap
 map('n', '<leader>q', ':q<cr>', {})
 map('n', '<leader>n', ':NvimTreeToggle<cr>', {})
 map('n', '<leader>t', ':ToggleTerm<cr>', {})
+map('n', 'j', 'gj', {})
+map('n', 'k', 'gk', {})
 
 --> telescope
 map('n', '<leader>p', ':Telescope find_files<cr>', {})

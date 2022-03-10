@@ -14,14 +14,16 @@ return require('packer').startup(function()
   }
   use 'akinsho/toggleterm.nvim'
   use {
-    'goolord/alpha-nvim',
-    config = function ()
-        require'alpha'.setup(require'alpha.themes.dashboard'.config)
+    "startup-nvim/startup.nvim",
+    requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+    config = function()
+      require"startup".setup()
     end
   }
   use 'morhetz/gruvbox'
   use 'sheerun/vim-polyglot'
   use 'norcalli/nvim-colorizer.lua'
+  use 'arnamak/stay-centered.nvim'
 
   --> lsp
   use 'neovim/nvim-lspconfig'

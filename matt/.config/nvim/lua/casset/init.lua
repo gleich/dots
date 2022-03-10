@@ -20,3 +20,7 @@ require('colorizer').setup()
 require('toggleterm').setup({
     direction = 'float',
 })
+
+require('stay-centered')
+
+require('startup').setup({theme = 'electro'})
