@@ -20,7 +20,6 @@ return require('packer').startup(function()
       require"startup".setup()
     end
   }
-  use 'morhetz/gruvbox'
   use 'sheerun/vim-polyglot'
   use 'norcalli/nvim-colorizer.lua'
   use 'arnamak/stay-centered.nvim'
@@ -46,4 +45,5 @@ return require('packer').startup(function()
 
   --> retired
   -- use 'dstein64/vim-startuptime'
+  -- use 'morhetz/gruvbox'
 end)

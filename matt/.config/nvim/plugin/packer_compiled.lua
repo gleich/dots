@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  gruvbox = {
-    loaded = true,
-    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
-  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
