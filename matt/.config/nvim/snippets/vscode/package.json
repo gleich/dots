@@ -1,0 +1,15 @@
+{
+    "name": "vscode-snippets",
+    "contributes": {
+        "snippets": [
+            {
+                "language": [
+                    "plaintext",
+                    "plaintex",
+                    "tex"
+                ],
+                "path": "./latex.json"
+            }
+        ]
+    }
+}
