@@ -7,8 +7,10 @@ map('n', 'j', 'gj', {})
 map('n', 'k', 'gk', {})
 
 --> telescope
-map('n', '<leader>p', ':Telescope find_files<cr>', {})
-map('n', '<leader>r', ':Telescope oldfiles<cr>', {})
+map('n', '<leader>p', ':Telescope find_files <cr>', {})
+map('n', '<leader>r', ':Telescope oldfiles <cr>', {})
+map('n', '<leader>f', ':Telescope current_buffer_fuzzy_find <cr>', {})
+map('n', '<leader>a', ':Telescope grep_string <cr>', {})
 
 --> luasnip
 local has_words_before = function()
@@ -41,3 +43,6 @@ cmp.setup({
     end, { "i", "s" }),
   },
 })
+
+--> lsp
+require('lspconfig').pyright.setup{}

@@ -44,7 +44,7 @@ local settings = {
         margin = 5,
         content = {
             { "λ LOC  f", "Telescope find_files", "f" },
-            { "μ LOC rf", "Telescope oldfiles", "rf" },
+            { "Ƒ LOC rf", "Telescope oldfiles", "rf" },
             { "Σ COL", "Telescope colorscheme", "co" },
             { "δ FSB", "Telescope file_browser", "fb" },
             { " NF", "lua require'startup'.new_file()", "nf" },

@@ -132,6 +132,8 @@ brew "prettier"
 brew "pv"
 # Python 3 bindings for the Cairo graphics library
 brew "py3cairo"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Software for mathematics, science, and engineering
 brew "scipy"
 # Prints a steam locomotive if you type sl instead of ls
@@ -185,6 +187,8 @@ brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-mupdf"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Electronics prototyping platform
 cask "arduino"
 # Tool to flash OS images to SD cards & USB drives

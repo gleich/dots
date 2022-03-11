@@ -6,6 +6,9 @@ require('nvim-tree').setup {
 
 require('nvim_comment').setup()
 
+require('notify').setup()
+vim.notify = require('notify')
+
 --> luasnip
 require('luasnip.loaders.from_vscode').load({ paths = { "./snippets/vscode/" } })
 local ls = require('luasnip')
@@ -22,5 +25,9 @@ require('toggleterm').setup({
 })
 
 require('stay-centered')
-
+require('nvim-autopairs').setup{}
 require('startup').setup({theme = 'electro'})
+
+--> lsp
+require('lspconfig').pyright.setup({})
+require('rust-tools').setup({})

@@ -24,6 +24,7 @@ return require('packer').startup(function()
   use 'sheerun/vim-polyglot'
   use 'norcalli/nvim-colorizer.lua'
   use 'arnamak/stay-centered.nvim'
+  use 'windwp/nvim-autopairs'
 
   --> lsp
   use 'neovim/nvim-lspconfig'
@@ -33,4 +34,8 @@ return require('packer').startup(function()
   use 'saadparwaiz1/cmp_luasnip'
   use 'L3MON4D3/LuaSnip'
   use 'onsails/lspkind-nvim'
+  use 'simrat39/rust-tools.nvim'
+
+  --> retired
+  -- use 'dstein64/vim-startuptime'
 end)
