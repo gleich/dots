@@ -1,1 +1,1 @@
-vim.cmd('colorscheme blackbird')
+vim.cmd('colorscheme gruvbox')

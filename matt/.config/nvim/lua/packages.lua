@@ -2,7 +2,6 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
-  use 'blackbirdtheme/vim'
   use 'kyazdani42/nvim-tree.lua'
   use 'kyazdani42/nvim-web-devicons'
   use 'wakatime/vim-wakatime'
@@ -32,6 +31,7 @@ return require('packer').startup(function()
       require("trouble").setup {}
     end
   }
+  use 'morhetz/gruvbox'
 
   --> lsp
   use 'neovim/nvim-lspconfig'
@@ -45,5 +45,5 @@ return require('packer').startup(function()
 
   --> retired
   -- use 'dstein64/vim-startuptime'
-  -- use 'morhetz/gruvbox'
+  -- use 'blackbirdtheme/vim'
 end)
