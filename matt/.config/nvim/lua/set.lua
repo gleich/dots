@@ -4,18 +4,18 @@ set.expandtab = true
 set.smarttab = true
 set.shiftwidth = 4
 set.tabstop = 4
-
-set.hlsearch = true
-set.incsearch = true
+set.hlsearch = false
+set.incsearch = false
 set.ignorecase = true
 set.smartcase = true
-
 set.splitbelow = true
 set.splitright = true
 set.fileencoding = 'utf-8'
 set.termguicolors = true
-
-set.relativenumber = true
-
+set.number = true
 set.hidden = true
 set.backupcopy = 'yes'
+set.errorbells = false
+set.autoindent = true
+set.lazyredraw = true
+set.undodir = '/Users/matt/.vim/undoir/'

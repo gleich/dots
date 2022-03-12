@@ -32,6 +32,15 @@ for _, lsp in pairs(servers) do
   }
 end
 
+require('lspconfig').rust_analyzer.setup{
+  on_attach = on_attach,
+  settings = {
+    checkOnSave = {
+      command = 'clippy'
+    }
+  }
+}
+
 -- require('lspconfig').grammarly.setup{
 --   filetypes = {
 --     "markdown",
@@ -39,6 +48,4 @@ end
 --     "tex",
 --   }
 -- }
-
-require('rust-tools').setup({})
 

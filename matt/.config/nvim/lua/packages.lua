@@ -7,10 +7,6 @@ return require('packer').startup(function()
   use 'wakatime/vim-wakatime'
   use 'terrortylor/nvim-comment'
   use 'rcarriga/nvim-notify'
-  use {
-    'nvim-telescope/telescope.nvim',
-    requires = { {'nvim-lua/plenary.nvim'} }
-  }
   use 'akinsho/toggleterm.nvim'
   use {
     "startup-nvim/startup.nvim",
@@ -19,7 +15,6 @@ return require('packer').startup(function()
       require"startup".setup()
     end
   }
-  use 'sheerun/vim-polyglot'
   use 'norcalli/nvim-colorizer.lua'
   use 'arnamak/stay-centered.nvim'
   use 'windwp/nvim-autopairs'
@@ -32,16 +27,30 @@ return require('packer').startup(function()
     end
   }
   use 'morhetz/gruvbox'
+  use 'nvim-lualine/lualine.nvim'
 
-  --> lsp
-  use 'neovim/nvim-lspconfig'
+  --> telescope
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
+  use 'nvim-telescope/telescope-ui-select.nvim'
+
+  --> completion
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-path'
   use 'hrsh7th/cmp-nvim-lsp'
-  use 'saadparwaiz1/cmp_luasnip'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-nvim-lua'
+
+  --> lsp
+  use 'neovim/nvim-lspconfig'
   use 'L3MON4D3/LuaSnip'
   use 'onsails/lspkind-nvim'
-  use 'simrat39/rust-tools.nvim'
+  use 'ray-x/lsp_signature.nvim'
+
+  --> language stuff
+  use 'sheerun/vim-polyglot'
 
   --> retired
   -- use 'dstein64/vim-startuptime'

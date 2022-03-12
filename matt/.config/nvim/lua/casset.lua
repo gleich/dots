@@ -24,5 +24,6 @@ require('toggleterm').setup({
 })
 
 require('stay-centered')
+require('lualine').setup()
 require('nvim-autopairs').setup{}
 require('startup').setup({theme = 'electro'})
