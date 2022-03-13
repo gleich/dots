@@ -44,6 +44,3 @@ cmp.setup({
     end, { "i", "s" }),
   },
 })
-
---> lsp
-require('lspconfig').pyright.setup{}

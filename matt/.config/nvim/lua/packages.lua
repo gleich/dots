@@ -51,6 +51,7 @@ return require('packer').startup(function()
 
   --> language stuff
   use 'sheerun/vim-polyglot'
+  use 'simrat39/rust-tools.nvim'
 
   --> retired
   -- use 'dstein64/vim-startuptime'

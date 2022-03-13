@@ -18,4 +18,6 @@ set.backupcopy = 'yes'
 set.errorbells = false
 set.autoindent = true
 set.lazyredraw = true
+set.updatetime = 300
+set.signcolumn = 'yes'
 set.undodir = '/Users/matt/.vim/undoir/'
