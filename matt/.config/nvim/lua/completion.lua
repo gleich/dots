@@ -28,7 +28,7 @@ cmp.setup({
   }, {
     { name = 'nvim_lua' },
     { name = 'path' },
-    { name = 'buffer', keyword_length = 2 },
+    { name = 'buffer', keyword_length = 10 },
   })
   }
 )

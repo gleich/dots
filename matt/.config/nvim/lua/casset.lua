@@ -8,7 +8,7 @@ require('notify').setup()
 vim.notify = require('notify')
 require('luasnip').config.set_config {
     history = false,
-    updateevents = "TextChanged, TextChangedI",
+    -- updateevents = "TextChanged, TextChangedI",
     enable_autosnippets = true,
 }
 require('colorizer').setup()
