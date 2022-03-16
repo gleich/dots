@@ -26,7 +26,6 @@ return require('packer').startup(function()
       require("trouble").setup {}
     end
   }
-  use 'morhetz/gruvbox'
   use 'nvim-lualine/lualine.nvim'
 
   --> telescope
@@ -35,6 +34,7 @@ return require('packer').startup(function()
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use 'nvim-telescope/telescope-ui-select.nvim'
+  use 'andreasvc/vim-256noir'
 
   --> completion
   use 'hrsh7th/nvim-cmp'
@@ -50,7 +50,7 @@ return require('packer').startup(function()
   use 'ray-x/lsp_signature.nvim'
 
   --> language stuff
-  use 'sheerun/vim-polyglot'
+  -- use 'sheerun/vim-polyglot'
   use 'simrat39/rust-tools.nvim'
 
   --> retired

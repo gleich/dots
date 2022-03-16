@@ -94,11 +94,6 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  gruvbox = {
-    loaded = true,
-    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
-  },
   ["lsp_signature.nvim"] = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
@@ -206,10 +201,10 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
-  ["vim-polyglot"] = {
+  ["vim-256noir"] = {
     loaded = true,
-    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-polyglot",
-    url = "https://github.com/sheerun/vim-polyglot"
+    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-256noir",
+    url = "https://github.com/andreasvc/vim-256noir"
   },
   ["vim-wakatime"] = {
     loaded = true,
