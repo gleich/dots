@@ -27,6 +27,7 @@ return require('packer').startup(function()
     end
   }
   use 'nvim-lualine/lualine.nvim'
+  use 'dylnmc/synstack.vim'
 
   --> telescope
   use {
@@ -52,6 +53,7 @@ return require('packer').startup(function()
   --> language stuff
   -- use 'sheerun/vim-polyglot'
   use 'simrat39/rust-tools.nvim'
+  use 'lervag/vimtex'
 
   --> retired
   -- use 'dstein64/vim-startuptime'

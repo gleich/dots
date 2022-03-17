@@ -5,13 +5,13 @@ map('n', '<leader>n', ':NvimTreeToggle<cr>', {})
 map('n', '<leader>t', ':ToggleTerm<cr>', {})
 map('n', 'j', 'gj', {})
 map('n', 'k', 'gk', {})
+map('n', '<leader>s', ':set spell!<cr>', {})
 
 --> telescope
 map('n', '<leader>p', ':Telescope find_files <cr>', {})
 map('n', '<leader>r', ':Telescope oldfiles <cr>', {})
 map('n', '<leader>f', ':Telescope current_buffer_fuzzy_find <cr>', {})
 map('n', '<leader>a', ':Telescope grep_string <cr>', {})
-map('n', '<leader>s', ':Telescope spell_suggest <cr>', {})
 
 --> luasnip
 local has_words_before = function()

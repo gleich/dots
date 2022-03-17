@@ -21,3 +21,8 @@ set.lazyredraw = true
 set.updatetime = 300
 set.signcolumn = 'yes'
 set.undodir = '/Users/matt/.vim/undoir/'
+set.spelllang = 'en'
+set.spellsuggest = 'best,9'
+
+vim.cmd('let g:tex_flavor=\'latex\'')
+

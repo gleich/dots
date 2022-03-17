@@ -180,6 +180,11 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/stay-centered.nvim",
     url = "https://github.com/arnamak/stay-centered.nvim"
   },
+  ["synstack.vim"] = {
+    loaded = true,
+    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/synstack.vim",
+    url = "https://github.com/dylnmc/synstack.vim"
+  },
   ["telescope-ui-select.nvim"] = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
@@ -210,6 +215,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-wakatime",
     url = "https://github.com/wakatime/vim-wakatime"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   }
 }
 

@@ -81,10 +81,6 @@
     "prefix": ["reee"],
     "body": ["$1 & $2 & $3 & $4 \\\\\\ \\hline"]
   },
-  "Inline Math": {
-    "prefix": ["ie"],
-    "body": ["$ $1 $"]
-  },
   "Mathmatical Solution": {
     "prefix": ["mso"],
     "body": ["\\msol{$1}"]
@@ -570,5 +566,17 @@
       "\t$1",
       "\\end{align*}"
     ]
+  },
+  "inline math": {
+      "prefix": "ie",
+      "body": "\\$ $1 \\$"
+  },
+  "bar": {
+      "prefix": "ba",
+      "body": "\\bar{$1} "
+  },
+  "quote": {
+      "prefix": "q",
+      "body": "``$1''"
   }
 }
