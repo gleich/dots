@@ -23,6 +23,7 @@ set.signcolumn = 'yes'
 set.undodir = '/Users/matt/.vim/undoir/'
 set.spelllang = 'en'
 set.spellsuggest = 'best,9'
+set.swapfile = false
 
 vim.cmd('let g:tex_flavor=\'latex\'')
 

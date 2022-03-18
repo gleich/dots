@@ -5,7 +5,7 @@ return require('packer').startup(function()
   use 'kyazdani42/nvim-tree.lua'
   use 'kyazdani42/nvim-web-devicons'
   use 'wakatime/vim-wakatime'
-  use 'terrortylor/nvim-comment'
+  use 'numToStr/Comment.nvim'
   use 'rcarriga/nvim-notify'
   use 'akinsho/toggleterm.nvim'
   use {
@@ -28,6 +28,7 @@ return require('packer').startup(function()
   }
   use 'nvim-lualine/lualine.nvim'
   use 'dylnmc/synstack.vim'
+  use 'tpope/vim-surround'
 
   --> telescope
   use {

@@ -3,14 +3,13 @@ require('nvim-tree').setup {
         enable = true,
     },
 }
-require('nvim_comment').setup()
+require('Comment').setup()
 require('notify').setup()
 vim.notify = require('notify')
-require('luasnip').config.set_config {
-    history = false,
-    -- updateevents = "TextChanged, TextChangedI",
-    enable_autosnippets = true,
-}
+require('luasnip').config.set_config({
+    updateevents = "TextChanged, TextChangedI",
+    region_check_events = "CursorMoved"
+})
 require('colorizer').setup()
 require('toggleterm').setup({
     direction = 'float',
