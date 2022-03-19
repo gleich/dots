@@ -26,7 +26,7 @@ for _, lsp in pairs(servers) do
   }
 end
 
-vim.cmd('autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 200)')
+vim.cmd('autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 300)')
 
 -- require('lspconfig').grammarly.setup{
 --   filetypes = {
