@@ -29,6 +29,7 @@ return require('packer').startup(function()
   use 'nvim-lualine/lualine.nvim'
   use 'dylnmc/synstack.vim'
   use 'tpope/vim-surround'
+  use 'andweeb/presence.nvim'
 
   --> telescope
   use {

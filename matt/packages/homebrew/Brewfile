@@ -36,6 +36,8 @@ brew "bat"
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Multi-platform, multi-architecture disassembly framework
+brew "capstone"
 # Cross-platform make
 brew "cmake"
 # Console Matrix

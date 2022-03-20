@@ -11,7 +11,7 @@ endif
 set t_Co=256
 let g:colors_name = 'blackbird'
 
-hi Normal guifg=#fdf7cd guibg=#000000 guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi Normal guifg=#fdf7cd guibg=#0f0f0f guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi Conceal guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi IncSearch guifg=#000000 guibg=#fdf7cd guisp=#fdf7cd gui=bold ctermfg=NONE ctermbg=77 cterm=bold
 hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
