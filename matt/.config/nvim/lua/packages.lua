@@ -30,6 +30,8 @@ return require('packer').startup(function()
   use 'dylnmc/synstack.vim'
   use 'tpope/vim-surround'
   use 'andweeb/presence.nvim'
+  use 'williamboman/nvim-lsp-installer'
+  use 'kosayoda/nvim-lightbulb'
 
   --> telescope
   use {

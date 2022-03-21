@@ -82,6 +82,8 @@ brew "htop"
 brew "jq"
 # Command-line note taker
 brew "jrnl"
+# Statically typed programming language for the JVM
+brew "kotlin"
 # Simple terminal UI for git commands
 brew "lazygit"
 # EXIF parsing library
@@ -100,6 +102,8 @@ brew "lux"
 brew "macchina"
 # Mac App Store command-line interface
 brew "mas"
+# Java-based project management
+brew "maven"
 # Minimalist GNU for Windows and GCC cross-compilers
 brew "mingw-w64"
 # Menu-driven communications program

@@ -1,6 +1,6 @@
 local map = vim.api.nvim_set_keymap
 
-map('n', '<leader>q', ':q<cr>', {})
+map('n', '<leader>q', ':lua vim.lsp.buf.code_action()<cr>', {})
 map('n', '<leader>n', ':NvimTreeToggle<cr>', {})
 map('n', '<leader>t', ':ToggleTerm<cr>', {})
 map('n', 'j', 'gj', {})

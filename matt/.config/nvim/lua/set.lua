@@ -21,9 +21,14 @@ set.lazyredraw = true
 set.updatetime = 300
 set.signcolumn = 'yes'
 set.undodir = '/Users/matt/.vim/undoir/'
+set.undofile = true
 set.spelllang = 'en'
 set.spellsuggest = 'best,9'
 set.swapfile = false
+set.cursorline = true
+set.cursorlineopt = 'number'
+set.showmode = false
+set.backup = false
 
 vim.cmd('let g:tex_flavor=\'latex\'')
 
