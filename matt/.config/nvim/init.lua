@@ -1,7 +1,7 @@
 require("set")
 require("packages")
 require("colors")
-require("casset")
+require("cassette")
 require("mappings")
 require("lsp")
 require("set")
