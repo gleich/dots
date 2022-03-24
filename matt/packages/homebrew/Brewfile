@@ -211,6 +211,8 @@ cask "brave-browser-dev"
 cask "caffeine"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+# Terminal emulator mimicking the old cathode display
+cask "cool-retro-term"
 # Calendar for professionals and teams
 cask "cron"
 # API documentation browser and code snippet manager
