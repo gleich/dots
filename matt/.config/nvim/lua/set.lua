@@ -29,6 +29,7 @@ set.cursorline = true
 set.cursorlineopt = 'number'
 set.showmode = false
 set.backup = false
+set.spell = true
 
 vim.cmd('let g:tex_flavor=\'latex\'')
 
