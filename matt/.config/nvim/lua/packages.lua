@@ -30,7 +30,6 @@ return require('packer').startup(function()
   use 'dylnmc/synstack.vim'
   use 'tpope/vim-surround'
   use 'andweeb/presence.nvim'
-  use 'williamboman/nvim-lsp-installer'
   use 'kosayoda/nvim-lightbulb'
   use({ "iamcco/markdown-preview.nvim", ft = "markdown", run = "cd app && yarn install" })
 

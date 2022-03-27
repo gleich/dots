@@ -17,12 +17,6 @@ vim.api.nvim_set_keymap('n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR
 vim.api.nvim_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
 vim.api.nvim_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 
-local lsp_installer = require("nvim-lsp-installer")
-
-lsp_installer.on_server_ready(function(server)
-    server:setup({})
-end)
-
 vim.cmd('autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 300)')
 
 -- require('lspconfig').grammarly.setup{
