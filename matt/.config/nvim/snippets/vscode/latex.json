@@ -117,7 +117,7 @@
   },
   "Right Arrow": {
     "prefix": ["ira"],
-    "body": ["$ \\rightarrow $ "]
+    "body": ["\\$ \\rightarrow \\$ "]
   },
   "Angle": {
     "prefix": ["an"],
@@ -533,7 +533,7 @@
   },
   "scientific notation": {
     "prefix": "sn",
-    "body": "\\sn{$1}"
+    "body": "\\times 10^{$1}"
   },
   "fra": {
     "prefix": "/",
@@ -578,5 +578,9 @@
   "quote": {
       "prefix": "q",
       "body": "``$1''"
+  },
+  "plank's constant": {
+      "prefix": "hb",
+      "body": "\\hbar"
   }
 }
