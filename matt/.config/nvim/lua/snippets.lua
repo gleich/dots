@@ -3,6 +3,9 @@ local ls = require('luasnip')
 ls.snippets = {
     rust = {
         ls.parser.parse_snippet("dp", "println!(\"$1 = {:?}\", $1);")
+    },
+    markdown = {
+        ls.parser.parse_snippet("cm", "\\[$1\\]")
     }
 }
 
