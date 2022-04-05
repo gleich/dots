@@ -215,6 +215,8 @@ cask "cloudflare-warp"
 cask "cool-retro-term"
 # Calendar for professionals and teams
 cask "cron"
+# Tool to run Windows software
+cask "crossover"
 # API documentation browser and code snippet manager
 cask "dash"
 # Voice and text chat software
