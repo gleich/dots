@@ -539,9 +539,9 @@
     "prefix": "/",
     "body": "\\frac{$1}{$2}"
   },
-  "chemical formula": {
+  "chi": {
     "prefix": "ch",
-    "body": "\\ch{$1}"
+    "body": "\\chi "
   },
   "unit": {
     "prefix": "un",
@@ -582,5 +582,13 @@
   "plank's constant": {
       "prefix": "hb",
       "body": "\\hbar"
+  },
+  "matrix": {
+      "prefix": "bat",
+      "body": [
+          "\\begin{bmatrix}",
+          "\t$1",
+          "\\end{bmatrix}"
+      ]
   }
 }
