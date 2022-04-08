@@ -125,7 +125,7 @@
   },
   "Celcius": {
     "prefix": ["cet"],
-    "body": ["$1$^{\\circ}\\$C"]
+    "body": ["1\\$^{\\circ}\\$C"]
   },
   "Fahrenheit": {
     "prefix": ["fet"],
