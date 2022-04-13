@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["gruvbox.nvim"] = {
-    loaded = true,
-    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
-  },
   ["lsp_signature.nvim"] = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
@@ -160,11 +155,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
-  },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
