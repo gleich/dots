@@ -13,6 +13,7 @@ return require('packer').startup(function()
     requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
     config = function()
       require"startup".setup()
+      vim.opt.spell = false
     end
   }
   use 'norcalli/nvim-colorizer.lua'
