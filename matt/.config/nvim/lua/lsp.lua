@@ -18,12 +18,3 @@ vim.api.nvim_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts
 vim.api.nvim_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 
 vim.cmd('autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 300)')
-
--- require('lspconfig').grammarly.setup{
---   filetypes = {
---     "markdown",
---     "plaintex",
---     "tex",
---   }
--- }
-

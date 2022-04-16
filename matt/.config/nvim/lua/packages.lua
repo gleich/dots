@@ -56,11 +56,12 @@ return require('packer').startup(function()
   use 'ray-x/lsp_signature.nvim'
 
   --> language stuff
-  -- use 'sheerun/vim-polyglot'
   use 'simrat39/rust-tools.nvim'
   use 'lervag/vimtex'
+  use 'fatih/vim-go'
 
   --> retired
   -- use 'dstein64/vim-startuptime'
   -- use 'blackbirdtheme/vim'
+  -- use 'sheerun/vim-polyglot'
 end)

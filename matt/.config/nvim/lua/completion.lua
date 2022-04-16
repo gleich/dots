@@ -33,16 +33,9 @@ cmp.setup({
   }
 )
 
--- Use buffer source for `/` (if you enabled `native_menu`, this won't work anymore).
--- cmp.setup.cmdline('/', {
--- sources = {
---   { name = 'buffer' }
---     }
--- })
-
 -- Setup lspconfig.
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-local servers = { 'pyright', 'texlab', 'rust_analyzer' }
+local servers = { 'pyright', 'texlab', 'rust_analyzer', 'gopls' }
 for _, lsp in pairs(servers) do
   require('lspconfig')[lsp].setup {
     capabilities = capabilities

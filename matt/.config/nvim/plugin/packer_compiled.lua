@@ -187,7 +187,7 @@ _G.packer_plugins = {
     url = "https://github.com/simrat39/rust-tools.nvim"
   },
   ["startup.nvim"] = {
-    config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fstartup\frequire\0" },
+    config = { "\27LJ\2\nS\0\0\3\0\6\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\3\0009\0\4\0+\1\1\0=\1\5\0K\0\1\0\nspell\bopt\bvim\nsetup\fstartup\frequire\0" },
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/startup.nvim",
     url = "https://github.com/startup-nvim/startup.nvim"
@@ -228,6 +228,11 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-256noir",
     url = "https://github.com/andreasvc/vim-256noir"
   },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-surround",
@@ -246,14 +251,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: startup.nvim
-time([[Config for startup.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fstartup\frequire\0", "config", "startup.nvim")
-time([[Config for startup.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
+-- Config for: startup.nvim
+time([[Config for startup.nvim]], true)
+try_loadstring("\27LJ\2\nS\0\0\3\0\6\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\3\0009\0\4\0+\1\1\0=\1\5\0K\0\1\0\nspell\bopt\bvim\nsetup\fstartup\frequire\0", "config", "startup.nvim")
+time([[Config for startup.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads
