@@ -144,8 +144,6 @@ brew "ripgrep"
 brew "scipy"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
-# Version control system designed to be a better CVS
-brew "subversion"
 # Convert your ascii diagram scribbles into happy little SVG
 brew "svgbob"
 # Tool to build, change, and version infrastructure
