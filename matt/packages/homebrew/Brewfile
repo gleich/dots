@@ -244,6 +244,8 @@ cask "font-victor-mono-nerd-font"
 cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Utility to fix grammar errors and style issues in text
+cask "grammarly"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
 # Free and open-source media player
