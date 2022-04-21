@@ -150,6 +150,8 @@ brew "svgbob"
 brew "terraform"
 # Official documentation format of the GNU project
 brew "texinfo"
+# Simplified and community-driven man pages
+brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # Program that allows you to count code, quickly
