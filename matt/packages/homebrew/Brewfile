@@ -7,6 +7,7 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "messense/macos-cross-toolchains"
 tap "osx-cross/avr"
 tap "planetscale/tap"
@@ -72,6 +73,8 @@ brew "gource"
 brew "gping"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
+# Gorgeous metric visualizations and dashboards for timeseries databases
+brew "grafana"
 # Toolkit for creating graphical user interfaces
 brew "gtk4"
 # Smarter Dockerfile linter to validate best practices
