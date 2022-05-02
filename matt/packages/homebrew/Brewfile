@@ -1,4 +1,5 @@
 tap "armmbed/formulae"
+tap "cjdenio/tap"
 tap "domq/gdb"
 tap "gleich/tap"
 tap "homebrew/bundle"
@@ -176,6 +177,7 @@ brew "yt-dlp"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
 brew "armmbed/formulae/arm-none-eabi-gcc"
+brew "cjdenio/tap/underpass"
 # 🎄 A Christmas tree right from your terminal!
 brew "gleich/tap/ctree"
 # 📁 Automate the organization of your cloned GitHub repositories
@@ -342,6 +344,7 @@ mas "Knights of the Old Republic", id: 416608891
 mas "MindNode", id: 1289197285
 mas "Mini Metro", id: 1047760200
 mas "Mini Motorways", id: 1456188526
+mas "Negative", id: 1378123825
 mas "Notchmeister", id: 1599169747
 mas "Numbers", id: 409203825
 mas "Octagon", id: 691956219
