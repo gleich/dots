@@ -43,3 +43,7 @@ vim.cmd('let g:go_highlight_function_calls = 1')
 vim.cmd('let g:go_highlight_operators = 1')
 vim.cmd('let g:go_highlight_types = 1')
 
+vim.cmd('let g:vim_svelte_plugin_load_full_syntax = 1')
+
+vim.cmd('let g:user_emmet_leader_key=\'<C-Z>\'')
+

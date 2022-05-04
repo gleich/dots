@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["lsp_signature.nvim"] = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
@@ -237,6 +242,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-svelte-plugin"] = {
+    loaded = true,
+    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/vim-svelte-plugin",
+    url = "https://github.com/leafOfTree/vim-svelte-plugin"
   },
   ["vim-wakatime"] = {
     loaded = true,

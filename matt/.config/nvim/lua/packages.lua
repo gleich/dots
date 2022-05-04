@@ -41,6 +41,7 @@ return require('packer').startup(function()
   }
   use 'nvim-telescope/telescope-ui-select.nvim'
   use 'andreasvc/vim-256noir'
+  use 'mattn/emmet-vim'
 
   --> completion
   use 'hrsh7th/nvim-cmp'
@@ -59,6 +60,7 @@ return require('packer').startup(function()
   use 'simrat39/rust-tools.nvim'
   use 'lervag/vimtex'
   use 'fatih/vim-go'
+  use 'leafOfTree/vim-svelte-plugin'
 
   --> retired
   -- use 'dstein64/vim-startuptime'
