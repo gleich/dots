@@ -24,6 +24,8 @@ brew "pkg-config"
 brew "pango"
 # ARP scanning and fingerprinting tool
 brew "arp-scan"
+# Text-based UI library
+brew "ncurses"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -54,6 +56,8 @@ brew "libtool"
 brew "opus"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# C routines to compute the Discrete Fourier Transform
+brew "fftw"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Monitor a directory for changes and run a shell command
@@ -136,6 +140,8 @@ brew "pinentry-mac"
 brew "pnpm"
 # Python package management tool
 brew "poetry"
+# Cross-platform library for audio I/O
+brew "portaudio"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Monitor data's progress through a pipe
