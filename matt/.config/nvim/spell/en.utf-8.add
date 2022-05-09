@@ -37,3 +37,4 @@ blinkt
 gpio
 latexmk
 pdflatex
+CORS
