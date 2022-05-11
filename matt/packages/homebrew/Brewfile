@@ -92,6 +92,8 @@ brew "jq"
 brew "jrnl"
 # Statically typed programming language for the JVM
 brew "kotlin"
+# Lazier way to manage everything docker
+brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
 # EXIF parsing library
