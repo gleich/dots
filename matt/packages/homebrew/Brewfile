@@ -210,6 +210,8 @@ cask "adobe-creative-cloud"
 cask "alacritty"
 # Electronics prototyping platform
 cask "arduino"
+# Multi-track audio editor and recorder
+cask "audacity"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Menu bar icon organizer
