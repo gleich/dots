@@ -222,8 +222,6 @@ cask "bitwarden"
 cask "blender"
 # Web browser focusing on privacy
 cask "brave-browser-dev"
-# Utility that prevents the system from going to sleep
-cask "caffeine"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
 # Terminal emulator mimicking the old cathode display
@@ -325,6 +323,7 @@ cask "vnc-viewer"
 cask "wireshark"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "1Blocker", id: 1365531024
 mas "1Focus", id: 969210610
 mas "2048 Game", id: 871033113
 mas "Affinity Photo", id: 824183456
