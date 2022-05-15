@@ -269,6 +269,8 @@ cask "iina"
 cask "imageoptim"
 # Keyboard customizer
 cask "karabiner-elements"
+# Electronics design automation suite
+cask "kicad"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
