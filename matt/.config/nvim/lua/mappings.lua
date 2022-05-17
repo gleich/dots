@@ -8,7 +8,7 @@ map('n', 'k', 'gk', {})
 map('n', '<leader>s', ':set spell!<cr>', {})
 
 --> telescope
-map('n', '<leader>p', ':Telescope find_files <cr>', {})
+map('n', '<leader>p', ':Telescope find_files hidden=true <cr>', {})
 map('n', '<leader>r', ':Telescope oldfiles <cr>', {})
 map('n', '<leader>f', ':Telescope current_buffer_fuzzy_find <cr>', {})
 map('n', '<leader>a', ':Telescope live_grep <cr>', {})
