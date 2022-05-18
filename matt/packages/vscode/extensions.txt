@@ -1,5 +1,6 @@
 4ops.terraform
 antfu.icons-carbon
+antfu.theme-vitesse
 blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
 bodil.prettier-toml

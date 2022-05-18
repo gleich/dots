@@ -12,6 +12,7 @@ tap "homebrew/services"
 tap "messense/macos-cross-toolchains"
 tap "osx-cross/avr"
 tap "planetscale/tap"
+tap "rootlyhq/tap"
 tap "tinygo-org/tools"
 tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
@@ -72,6 +73,8 @@ brew "git"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Deliver Go binaries as fast and easily as possible
+brew "goreleaser"
 # Version Control Visualization Tool
 brew "gource"
 # Ping, but with a graph
@@ -156,6 +159,8 @@ brew "ripgrep"
 brew "scipy"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
+# Version control system designed to be a better CVS
+brew "subversion"
 # Convert your ascii diagram scribbles into happy little SVG
 brew "svgbob"
 # Tool to build, change, and version infrastructure
@@ -200,6 +205,8 @@ brew "messense/macos-cross-toolchains/x86_64-unknown-linux-gnu"
 brew "osx-cross/avr/avr-gcc@9"
 # The PlanetScale CLI
 brew "planetscale/tap/pscale"
+# Command line tool for rootly.io
+brew "rootlyhq/tap/rootly"
 # TinyGo is a Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.
 brew "tinygo-org/tools/tinygo"
 brew "zegervdv/zathura/zathura"
@@ -243,6 +250,7 @@ cask "figma"
 # Web browser
 cask "firefox-developer-edition"
 cask "font-computer-modern"
+cask "font-dm-mono"
 cask "font-ibm-plex"
 cask "font-inter"
 # Original typeface primarily intended for continuous on-screen reading

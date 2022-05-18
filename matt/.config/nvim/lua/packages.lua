@@ -33,6 +33,7 @@ return require('packer').startup(function()
   use 'andweeb/presence.nvim'
   use 'kosayoda/nvim-lightbulb'
   use({ "iamcco/markdown-preview.nvim", ft = "markdown", run = "cd app && yarn install" })
+  use 'ellisonleao/gruvbox.nvim'
 
   --> telescope
   use {
