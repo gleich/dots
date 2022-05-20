@@ -273,7 +273,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "'CozetteVector'",
+  "terminal.integrated.fontFamily": "'DM Mono', 'VectorMono Nerd Font'",
   "terminal.integrated.fontSize": 16,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -672,5 +672,6 @@
   "latex-workshop.view.outline.numbers.enabled": false,
   "search.showLineNumbers": true,
   "java.configuration.updateBuildConfiguration": "automatic",
-  "terminal.integrated.macOptionIsMeta": true
+  "terminal.integrated.macOptionIsMeta": true,
+  "editor.bracketPairColorization.enabled": false
 }

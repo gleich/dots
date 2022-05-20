@@ -9,9 +9,9 @@ map('n', '<leader>s', ':set spell!<cr>', {})
 
 --> telescope
 map('n', '<leader>p', ':Telescope find_files hidden=true <cr>', {})
-map('n', '<leader>r', ':Telescope oldfiles <cr>', {})
+map('n', '<leader>r', ':Telescope oldfiles hidden=true <cr>', {})
 map('n', '<leader>f', ':Telescope current_buffer_fuzzy_find <cr>', {})
-map('n', '<leader>a', ':Telescope live_grep <cr>', {})
+map('n', '<leader>a', ':Telescope live_grep hidden=true <cr>', {})
 
 --> luasnip
 local has_words_before = function()
