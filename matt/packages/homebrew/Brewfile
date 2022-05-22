@@ -245,6 +245,8 @@ cask "discord"
 cask "docker"
 # Draw.io is free online diagram software
 cask "drawio"
+# Sci-fi themed terminal emulator and system monitor
+cask "edex-ui"
 # Collaborative team software
 cask "figma"
 # Web browser
