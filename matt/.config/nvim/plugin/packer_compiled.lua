@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/Users/matt/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["lsp_signature.nvim"] = {
     loaded = true,
     path = "/Users/matt/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
