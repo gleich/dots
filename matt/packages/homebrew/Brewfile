@@ -247,6 +247,8 @@ cask "docker"
 cask "drawio"
 # Sci-fi themed terminal emulator and system monitor
 cask "edex-ui"
+# Launcher for *Epic Games* games
+cask "epic-games"
 # Collaborative team software
 cask "figma"
 # Web browser
