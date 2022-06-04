@@ -12,7 +12,7 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "latex-workshop.message.update.show": true,
   "latex-workshop.view.pdf.viewer": "tab",
   "workbench.iconTheme": "vscode-icons",
@@ -274,7 +274,7 @@
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
   "terminal.integrated.fontFamily": "'DM Mono', 'VectorMono Nerd Font'",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -536,7 +536,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "Vitesse Dark Soft",
+  "workbench.colorTheme": "🏴 blackbird → jungle",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {

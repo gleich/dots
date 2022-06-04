@@ -52,7 +52,6 @@ vscjava.vscode-maven
 vscode-icons-team.vscode-icons
 vscodevim.vim
 WakaTime.vscode-wakatime
-wpilibsuite.vscode-wpilib
 XadillaX.viml
 yzhang.markdown-all-in-one
 znck.grammarly
