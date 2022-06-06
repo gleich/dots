@@ -103,6 +103,8 @@ brew "lazygit"
 brew "libexif"
 # Library to talk to FTDI chips
 brew "libftdi"
+# Postgres C API library
+brew "libpq"
 # Next-gen compiler infrastructure
 brew "llvm"
 # List USB devices, just like the Linux lsusb command
