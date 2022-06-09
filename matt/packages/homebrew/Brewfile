@@ -321,6 +321,8 @@ cask "raycast"
 cask "rectangle"
 # Signal analysis for Saleae's devices
 cask "saleae-logic"
+# Tool that provides consistent, highly configurable symbols for apps
+cask "sf-symbols"
 # Team communication and collaboration software
 cask "slack"
 # Code-based music creation and performance tool

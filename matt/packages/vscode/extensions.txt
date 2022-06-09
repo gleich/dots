@@ -15,7 +15,6 @@ exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
-gitkraken.gitkraken-authentication
 golang.go
 hashicorp.terraform
 icrawl.discord-vscode
