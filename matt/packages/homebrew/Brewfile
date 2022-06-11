@@ -82,7 +82,7 @@ brew "gping"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # Gorgeous metric visualizations and dashboards for timeseries databases
-brew "grafana"
+brew "grafana", restart_service: true
 # Toolkit for creating graphical user interfaces
 brew "gtk4"
 # Smarter Dockerfile linter to validate best practices
@@ -225,8 +225,6 @@ cask "audacity"
 cask "balenaetcher"
 # Menu bar icon organizer
 cask "bartender"
-# Desktop password and login vault
-cask "bitwarden"
 # 3D creation suite
 cask "blender"
 # Web browser focusing on privacy
@@ -289,6 +287,8 @@ cask "kicad"
 cask "kitty"
 # Password manager
 cask "lastpass"
+# App to manage software development and track bugs
+cask "linear-linear"
 # Software for Logitech devices
 cask "logitech-options"
 # Controls and monitors all fans on Apple computers
@@ -341,10 +341,11 @@ cask "vnc-viewer"
 cask "wireshark"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "1Blocker", id: 1365531024
 mas "1Focus", id: 969210610
 mas "2048 Game", id: 871033113
+mas "AdGuard for Safari", id: 1440147259
 mas "Affinity Photo", id: 824183456
+mas "Bitwarden", id: 1352778147
 mas "Block Fortress", id: 682046205
 mas "Block Fortress War", id: 874328055
 mas "Boop", id: 1518425043

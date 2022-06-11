@@ -511,7 +511,11 @@
   "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
-  "editor.quickSuggestions": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
