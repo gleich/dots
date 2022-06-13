@@ -82,7 +82,7 @@ brew "gping"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # Gorgeous metric visualizations and dashboards for timeseries databases
-brew "grafana", restart_service: true
+brew "grafana"
 # Toolkit for creating graphical user interfaces
 brew "gtk4"
 # Smarter Dockerfile linter to validate best practices
@@ -131,6 +131,8 @@ brew "neovim", args: ["HEAD"]
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
+# Platform built on V8 to build network applications
+brew "node@16"
 # Package for scientific computing with Python
 brew "numpy"
 # On-chip debugging, in-system programming and boundary-scan testing
@@ -319,6 +321,8 @@ cask "postman"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# View, Screen Share, organize, import, and download files to a reMarkable device
+cask "remarkable"
 # Signal analysis for Saleae's devices
 cask "saleae-logic"
 # Tool that provides consistent, highly configurable symbols for apps
@@ -376,6 +380,7 @@ mas "Notchmeister", id: 1599169747
 mas "Numbers", id: 409203825
 mas "Octagon", id: 691956219
 mas "Pages", id: 409201541
+mas "Parcel", id: 639968404
 mas "Pixel Studio", id: 1477015249
 mas "Playgrounds", id: 1496833156
 mas "Poolsuite FM", id: 1514817810

@@ -678,5 +678,6 @@
   "java.configuration.updateBuildConfiguration": "automatic",
   "terminal.integrated.macOptionIsMeta": true,
   "editor.bracketPairColorization.enabled": false,
-  "editor.fontWeight": "bold"
+  "editor.fontWeight": "bold",
+  "python.venvPath": "/Users/matt/Library/Caches/pypoetry/virtualenvs/"
 }
