@@ -15,6 +15,7 @@ exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
+GitHub.vscode-pull-request-github
 golang.go
 hashicorp.terraform
 icrawl.discord-vscode
@@ -28,6 +29,7 @@ mikestead.dotenv
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode.cpptools
+ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
 redhat.java
