@@ -33,6 +33,8 @@ brew "asciiquarium"
 brew "automake"
 # Library for USB device access
 brew "libusb"
+# Library to talk to FTDI chips
+brew "libftdi"
 # Atmel AVR MCU programmer
 brew "avrdude"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -101,8 +103,6 @@ brew "lazydocker"
 brew "lazygit"
 # EXIF parsing library
 brew "libexif"
-# Library to talk to FTDI chips
-brew "libftdi"
 # Postgres C API library
 brew "libpq"
 # Next-gen compiler infrastructure

@@ -9,6 +9,7 @@ CalebDenio.fgh-code
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 Divlo.vscode-styled-jsx-languageserver
+donjayamanne.githistory
 emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
