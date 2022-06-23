@@ -273,7 +273,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "'DM Mono', 'VectorMono Nerd Font'",
+  "terminal.integrated.fontFamily": "VictorMono Nerd Font",
   "terminal.integrated.fontSize": 14,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -672,12 +672,12 @@
   "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.enabled": false,
-  "workbench.activityBar.visible": false,
   "latex-workshop.view.outline.numbers.enabled": false,
   "search.showLineNumbers": true,
   "java.configuration.updateBuildConfiguration": "automatic",
   "terminal.integrated.macOptionIsMeta": true,
   "editor.bracketPairColorization.enabled": false,
   "editor.fontWeight": "bold",
-  "python.venvPath": "/Users/matt/Library/Caches/pypoetry/virtualenvs/"
+  "python.venvPath": "/Users/matt/Library/Caches/pypoetry/virtualenvs/",
+  "terminal.integrated.fontWeight": "bold"
 }

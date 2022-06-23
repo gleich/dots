@@ -179,6 +179,6 @@
   },
   {
     "key": "shift+cmd+g",
-    "command": "workbench.scm.focus"
+    "command": "workbench.action.toggleAuxiliaryBar"
   }
 ]
