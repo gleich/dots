@@ -271,8 +271,6 @@ cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # App that shows GitHub notifications on the desktop
 cask "gitify"
-# Client for the Google Drive storage service
-cask "google-drive"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
 # Graphically shows disk usage within a file system
@@ -396,4 +394,5 @@ mas "Trello", id: 1278508951
 mas "Twitter", id: 1482454543
 mas "WireGuard", id: 1451685025
 mas "World of Tanks Blitz", id: 1068932208
+mas "Xcode", id: 497799835
 mas "Xcode", id: 497799835
