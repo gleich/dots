@@ -679,5 +679,6 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.fontWeight": "bold",
   "python.venvPath": "/Users/matt/Library/Caches/pypoetry/virtualenvs/",
-  "terminal.integrated.fontWeight": "bold"
+  "terminal.integrated.fontWeight": "bold",
+  "workbench.productIconTheme": "icons-carbon"
 }

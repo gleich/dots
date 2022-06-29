@@ -281,6 +281,8 @@ cask "iina"
 cask "imageoptim"
 # Keyboard customizer
 cask "karabiner-elements"
+# Electronics design automation suite
+cask "kicad"
 # GPU-based terminal emulator
 cask "kitty"
 # Password manager
@@ -307,8 +309,6 @@ cask "ngrok"
 cask "notion"
 # Native code editor
 cask "nova"
-# Desktop virtualization software
-cask "parallels"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Collaboration platform for API development
