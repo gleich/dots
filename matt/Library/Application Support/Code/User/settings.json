@@ -132,6 +132,7 @@
     "oauthlib",
     "octodns",
     "oled",
+    "openapi",
     "osascript",
     "paystub",
     "PDFs",

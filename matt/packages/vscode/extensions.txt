@@ -24,7 +24,6 @@ James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
 jock.svg
 linear.linear-connect
-matklad.rust-analyzer
 MattGleich.theme-blackbird
 mgmcdermott.vscode-language-babel
 mikestead.dotenv
@@ -35,6 +34,7 @@ ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
 redhat.java
+rust-lang.rust-analyzer
 serayuzgur.crates
 shardulm94.trailing-spaces
 silvenon.mdx
