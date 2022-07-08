@@ -681,5 +681,7 @@
   "editor.fontWeight": "bold",
   "python.venvPath": "/Users/matt/Library/Caches/pypoetry/virtualenvs/",
   "terminal.integrated.fontWeight": "bold",
-  "workbench.productIconTheme": "icons-carbon"
+  "workbench.productIconTheme": "icons-carbon",
+  "window.commandCenter": true,
+  "editor.minimap.enabled": false
 }
