@@ -1,3 +1,5 @@
-default_toolchain = "nightly-aarch64-apple-darwin"
+default_toolchain = "esp"
 profile = "default"
 version = "12"
+
+[overrides]
