@@ -313,6 +313,8 @@ cask "nova"
 cask "paw"
 # Collaboration platform for API development
 cask "postman"
+# Access and edit GoPro photos and videos
+cask "quik"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
