@@ -143,6 +143,8 @@ brew "opencv"
 brew "openjdk@11"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Minimal dumb-terminal emulation program
+brew "picocom"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # 📦🚀 Fast, disk space efficient package manager
