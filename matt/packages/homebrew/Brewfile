@@ -267,6 +267,7 @@ cask "font-roboto"
 cask "font-space-mono"
 cask "font-tinos"
 cask "font-trirong"
+# Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
 cask "font-victor-mono-nerd-font"
 # App that shows GitHub notifications on the desktop

@@ -285,7 +285,6 @@
   "html.format.endWithNewline": true,
   "trailing-spaces.showStatusBarMessage": false,
   "extensions.ignoreRecommendations": true,
-  "python.languageServer": "Pylance",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "[dart]": {
@@ -432,7 +431,6 @@
   "go.toolsManagement.autoUpdate": true,
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
-  "python.pythonPath": "/usr/local/bin/python3",
   "workbench.editor.untitled.hint": "hidden",
   "editor.suggest.insertMode": "replace",
   "editor.suggest.showStatusBar": true,
@@ -492,7 +490,6 @@
   },
   "terminal.integrated.defaultLocation": "editor",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "python.defaultInterpreterPath": "/usr/bin/python3",
   "vim.highlightedyank.enable": true,
   "vim.normalModeKeyBindings": [
     {
@@ -679,7 +676,6 @@
   "terminal.integrated.macOptionIsMeta": true,
   "editor.bracketPairColorization.enabled": false,
   "editor.fontWeight": "bold",
-  "python.venvPath": "/Users/matt/Library/Caches/pypoetry/virtualenvs/",
   "terminal.integrated.fontWeight": "bold",
   "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": true,
