@@ -681,5 +681,6 @@
   "terminal.integrated.fontWeight": "bold",
   "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": true,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 3
 }
