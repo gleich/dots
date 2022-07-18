@@ -17,10 +17,10 @@ tap "tinygo-org/tools"
 tap "zegervdv/zathura"
 # Run your GitHub Actions locally 🚀
 brew "act"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # ARP scanning and fingerprinting tool
