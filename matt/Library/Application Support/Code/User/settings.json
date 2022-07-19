@@ -540,7 +540,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "Vitesse Dark Soft",
+  "workbench.colorTheme": "Vitesse Light Soft",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {
@@ -682,5 +682,5 @@
   "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": true,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 3
+  "window.zoomLevel": -1
 }
