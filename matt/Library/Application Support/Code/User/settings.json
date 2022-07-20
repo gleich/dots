@@ -314,7 +314,7 @@
   "markdown.extension.toc.levels": "1..4",
   "jupyter.sendSelectionToInteractiveWindow": false,
   "[rust]": {
-    "editor.defaultFormatter": "matklad.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "rust.all_features": true,
   "emmet.triggerExpansionOnTab": true,
@@ -667,7 +667,6 @@
   "discord.suppressNotifications": true,
   "workbench.startupEditor": "none",
   "git.inputValidation": "off",
-  "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
@@ -682,5 +681,5 @@
   "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": true,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": -1
+  "githubPullRequests.createOnPublishBranch": "never"
 }
