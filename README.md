@@ -10,6 +10,6 @@ Packages: 304 (brew)
 Shell: fish 3.5.1 
 DE: Aqua 
 WM: Rectangle 
-Terminal: vscode 
+Terminal: kitty 
 GPU Driver: macOS Default Graphics Driver
 ```
