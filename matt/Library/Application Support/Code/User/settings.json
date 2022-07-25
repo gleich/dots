@@ -540,7 +540,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "Vitesse Light Soft",
+  "workbench.colorTheme": "Vitesse Dark Soft",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {
@@ -680,6 +680,5 @@
   "terminal.integrated.fontWeight": "bold",
   "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": true,
-  "editor.minimap.enabled": false,
-  "githubPullRequests.createOnPublishBranch": "never"
+  "editor.minimap.enabled": false
 }
