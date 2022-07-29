@@ -39,6 +39,10 @@ brew "libftdi"
 brew "avrdude"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Platform built on V8 to build network applications
+brew "node"
+# Secure and free password manager for all of your devices
+brew "bitwarden-cli"
 # Python code formatter
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
@@ -129,8 +133,6 @@ brew "neofetch"
 brew "neovim", args: ["HEAD"]
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
-brew "node"
 # Platform built on V8 to build network applications
 brew "node@16"
 # Package for scientific computing with Python
