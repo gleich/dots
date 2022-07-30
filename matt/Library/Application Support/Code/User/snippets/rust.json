@@ -6,5 +6,9 @@
   "Print Line": {
     "prefix": "pl",
     "body": "println!($1)"
+  },
+  "From String": {
+    "prefix": "fst",
+    "body": "String::from($1)"
   }
 }
