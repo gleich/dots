@@ -204,7 +204,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "Victor Mono",
+  "editor.fontFamily": "IBM Plex Mono",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -276,7 +276,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "VictorMono Nerd Font",
+  "terminal.integrated.fontFamily": "IBM Plex Mono",
   "terminal.integrated.fontSize": 14,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -540,7 +540,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "workbench.colorTheme": "Vitesse Dark Soft",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {
@@ -550,7 +550,6 @@
   "workbench.welcomePage.preferReducedMotion": true,
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
   "C_Cpp.intelliSenseEngine": "Tag Parser",
-  "java.home": "/Users/matt/wpilib/2022/jdk",
   "rust-analyzer.diagnostics.disabled": ["macro-error"],
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -681,5 +680,7 @@
   "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": true,
   "editor.minimap.enabled": false,
-  "githubPullRequests.createOnPublishBranch": "never"
+  "githubPullRequests.createOnPublishBranch": "never",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-18-full.jdk/Contents/Home"
 }

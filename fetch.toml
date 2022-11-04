@@ -10,7 +10,7 @@ filename = "extensions.txt"
 
 [[folders]]
 parent = ".config"
-children = ["neofetch", "nuke", "nvim", "fish", "omf", "kitty", "resin"]
+children = ["fish", "omf", "kitty", "resin"]
 
 [[folders]]
 parent = "."
@@ -18,25 +18,16 @@ children = ["Library/Application Support/Code/User/snippets"]
 
 [[files]]
 parent = ".config"
-children = [
-    "fgh/config.yaml",
-    "gh/config.yml",
-    "planetscale/pscale.yml",
-]
+children = ["gh/config.yml"]
 
 [[files]]
 parent = "."
 children = [
     ".gitconfig",
-    ".tmux.conf",
     ".docker/config.json",
     "Library/Application Support/Code/User/keybindings.json",
     "Library/Application Support/Code/User/settings.json",
     ".gnupg/gpg-agent.conf",
     ".rustup/settings.toml",
-    ".cargo/config",
     ".rustup/settings.toml",
-    ".gdbinit",
-    ".actrc",
-    ".minirc.dfl"
 ]
