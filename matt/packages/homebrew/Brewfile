@@ -27,6 +27,8 @@ brew "neofetch"
 brew "neovim"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Python package management tool
+brew "poetry"
 # Version control system designed to be a better CVS
 brew "subversion"
 # Internet file retriever
