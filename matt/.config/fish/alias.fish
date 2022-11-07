@@ -4,6 +4,7 @@ alias q="exit"
 alias src="cd ~/src"
 alias l="ls"
 alias sl="ls"
+alias update="sh ~/src/scripts/update.sh"
 
 # gh
 alias gv="gh repo view -w"
