@@ -6,8 +6,9 @@ alias l="ls"
 alias sl="ls"
 alias update="sh ~/src/scripts/update.sh"
 
-# gh
+# git/gh
 alias gv="gh repo view -w"
+alias gp="git push"
 
 # resin
 alias gmap="resin -a -p"

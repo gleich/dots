@@ -5,6 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "zegervdv/zathura"
 # FSF/GNU binutils for cross-compiling to arm-linux
 brew "arm-linux-gnueabihf-binutils"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -39,6 +40,10 @@ brew "watch"
 brew "wget"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
+# PDF viewer
+brew "zegervdv/zathura/zathura"
+# Poppler backend plugin for zathura
+brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Menu bar icon organizer
