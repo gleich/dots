@@ -74,6 +74,8 @@ cask "liberica-jdk15-full"
 cask "liberica-jdk18-full"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# HTTP client that helps testing and describing APIs
+cask "paw"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
