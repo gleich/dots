@@ -683,6 +683,5 @@
   "editor.minimap.enabled": false,
   "githubPullRequests.createOnPublishBranch": "never",
   "terminal.integrated.defaultProfile.osx": "fish",
-  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-18-full.jdk/Contents/Home",
-  "window.zoomLevel": 1
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-18-full.jdk/Contents/Home"
 }

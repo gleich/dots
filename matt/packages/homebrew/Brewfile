@@ -8,6 +8,10 @@ tap "homebrew/core"
 tap "zegervdv/zathura"
 # FSF/GNU binutils for cross-compiling to arm-linux
 brew "arm-linux-gnueabihf-binutils"
+# Secure and free password manager for all of your devices
+brew "bitwarden-cli"
+# Python code formatter
+brew "black"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool

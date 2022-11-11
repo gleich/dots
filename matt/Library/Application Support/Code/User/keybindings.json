@@ -24,10 +24,6 @@
     "command": "grammarly.check"
   },
   {
-    "key": "cmd+d",
-    "command": "fgh-code.openProject"
-  },
-  {
     "key": "cmd+e",
     "command": "extension.conventionalCommits"
   },
@@ -180,5 +176,9 @@
   {
     "key": "shift+cmd+g",
     "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.quickOpenRecent"
   }
 ]
