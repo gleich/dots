@@ -10,7 +10,7 @@ filename = "extensions.txt"
 
 [[folders]]
 parent = ".config"
-children = ["fish", "omf", "kitty", "resin"]
+children = ["fish", "omf", "kitty", "resin", "neofetch"]
 
 [[folders]]
 parent = "."
