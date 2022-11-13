@@ -12,6 +12,8 @@ brew "arm-linux-gnueabihf-binutils"
 brew "bitwarden-cli"
 # Python code formatter
 brew "black"
+# AST-based pattern checker for JavaScript
+brew "eslint"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
@@ -44,6 +46,8 @@ brew "subversion"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager
+brew "yarn"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
 # PDF viewer
