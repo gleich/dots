@@ -36,6 +36,8 @@ brew "neovim"
 brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Version control system designed to be a better CVS
 brew "subversion"
 # Executes a program periodically, showing output fullscreen
