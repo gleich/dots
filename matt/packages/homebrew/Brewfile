@@ -34,6 +34,8 @@ brew "hadolint"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Package for scientific computing with Python
+brew "numpy"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Python package management tool
@@ -73,6 +75,8 @@ cask "font-computer-modern"
 cask "font-ibm-plex-mono"
 # Mona Sans, a variable font from GitHub
 cask "font-mona-sans"
+# Monospaced font with cursive italics and programming symbol ligatures
+cask "font-victor-mono"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
