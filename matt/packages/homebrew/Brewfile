@@ -68,8 +68,11 @@ cask "docker"
 cask "figma"
 # Web browser
 cask "firefox-developer-edition"
+cask "font-computer-modern"
 # Corporate typeface for IBM
 cask "font-ibm-plex-mono"
+# Mona Sans, a variable font from GitHub
+cask "font-mona-sans"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
@@ -84,6 +87,8 @@ cask "liberica-jdk15-full"
 cask "liberica-jdk18-full"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Sandbox construction video game
+cask "minecraft"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Imaging utility to install operating systems to a microSD card
