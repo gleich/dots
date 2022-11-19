@@ -12,6 +12,8 @@ brew "arm-linux-gnueabihf-binutils"
 brew "bitwarden-cli"
 # Python code formatter
 brew "black"
+# Console Matrix
+brew "cmatrix"
 # AST-based pattern checker for JavaScript
 brew "eslint"
 # User-friendly command-line shell for UNIX-like operating systems
