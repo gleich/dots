@@ -5,6 +5,7 @@ alias src="cd ~/src"
 alias l="ls"
 alias sl="ls"
 alias update="sh ~/src/scripts/update.sh"
+alias cpwd="pwd | pbcopy"
 
 # git/gh
 alias gv="gh repo view -w"
