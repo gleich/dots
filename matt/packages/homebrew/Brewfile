@@ -95,6 +95,8 @@ cask "liberica-jdk18-full"
 cask "mactex-no-gui"
 # Sandbox construction video game
 cask "minecraft"
+# Retro video game emulation
+cask "openemu"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Imaging utility to install operating systems to a microSD card
