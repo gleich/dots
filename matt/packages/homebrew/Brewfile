@@ -32,6 +32,8 @@ brew "golangci-lint"
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
