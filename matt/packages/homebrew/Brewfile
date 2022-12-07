@@ -62,6 +62,8 @@ brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# AirPods companion app
+cask "airbuddy"
 # Menu bar icon organizer
 cask "bartender"
 # Desktop password and login vault
@@ -77,6 +79,7 @@ cask "firefox-developer-edition"
 cask "font-computer-modern"
 # Corporate typeface for IBM
 cask "font-ibm-plex-mono"
+cask "font-inter"
 # Mona Sans, a variable font from GitHub
 cask "font-mona-sans"
 # Monospaced font with cursive italics and programming symbol ligatures
