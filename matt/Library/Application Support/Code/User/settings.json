@@ -399,7 +399,7 @@
   "yaclock.showDay": true,
   "yaclock.showDate": true,
   "window.titleSeparator": " | ",
-  "hadolint.hadolintPath": "/usr/local/bin/hadolint",
+  "hadolint.hadolintPath": "/opt/homebrew/bin/hadolint",
   "conventionalCommits.scopes": [
     "script",
     "config",

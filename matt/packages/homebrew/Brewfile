@@ -99,6 +99,8 @@ cask "mactex-no-gui"
 cask "minecraft"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Retro video game emulation
