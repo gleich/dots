@@ -5,6 +5,7 @@ alias src="cd ~/src"
 alias l="ls"
 alias sl="ls"
 alias cpwd="pwd | pbcopy"
+alias tmp="cd  ~/tmp"
 
 # git/gh
 alias gv="gh repo view -w"

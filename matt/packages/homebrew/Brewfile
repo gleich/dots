@@ -1,3 +1,4 @@
+tap "airplanedev/tap"
 tap "bell-sw/liberica"
 tap "gleich/taps"
 tap "homebrew/bundle"
@@ -56,6 +57,7 @@ brew "wget"
 brew "yarn"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
+brew "airplanedev/tap/airplane"
 # PDF viewer
 brew "zegervdv/zathura/zathura"
 # Poppler backend plugin for zathura
@@ -96,6 +98,8 @@ cask "kitty"
 cask "liberica-jdk15-full"
 # 100% open-source Java implementation
 cask "liberica-jdk18-full"
+# App to manage software development and track bugs
+cask "linear-linear"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Sandbox construction video game
