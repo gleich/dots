@@ -11,6 +11,7 @@ alias tmp="cd  ~/tmp"
 alias gv="gh repo view -w"
 alias gp="git push"
 alias gl="git log"
+alias gpu="git pull"
 
 # resin
 alias gmap="resin -a -p"

@@ -5,6 +5,7 @@ bmalehorn.vscode-fish
 bodil.prettier-toml
 bungcip.better-toml
 christian-kohler.path-intellisense
+cschleiden.vscode-github-actions
 dbaeumer.vscode-eslint
 Divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
