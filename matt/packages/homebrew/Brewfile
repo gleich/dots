@@ -47,6 +47,8 @@ brew "pinentry-mac"
 brew "poetry"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Persistent key-value database, with built-in net interface
+brew "redis"
 # Version control system designed to be a better CVS
 brew "subversion"
 # Executes a program periodically, showing output fullscreen
