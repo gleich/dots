@@ -64,6 +64,8 @@ brew "airplanedev/tap/airplane"
 brew "zegervdv/zathura/zathura"
 # Poppler backend plugin for zathura
 brew "zegervdv/zathura/zathura-pdf-poppler"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # AirPods companion app
@@ -72,6 +74,8 @@ cask "airbuddy"
 cask "bartender"
 # Desktop password and login vault
 cask "bitwarden"
+# Bluetooth Low Energy browser
+cask "bluetility"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices

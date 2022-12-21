@@ -22,6 +22,7 @@ James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
 jock.svg
 MattGleich.theme-blackbird
+meganrogge.template-string-converter
 mgmcdermott.vscode-language-babel
 mikestead.dotenv
 ms-python.isort
