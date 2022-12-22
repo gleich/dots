@@ -61,6 +61,7 @@
     "dockerenv",
     "Dockerfiles",
     "DOCKERHUB",
+    "dotenv",
     "dtype",
     "eagleye",
     "Elon",
@@ -543,7 +544,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "Vitesse Dark Soft",
+  "workbench.colorTheme": "Vitesse Light Soft",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {
