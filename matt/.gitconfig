@@ -12,3 +12,5 @@
 	editor = nvim
 [gpg]
 	program = gpg
+[push]
+	autoSetupRemote = true

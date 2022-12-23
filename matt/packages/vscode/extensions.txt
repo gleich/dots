@@ -1,5 +1,6 @@
 antfu.icons-carbon
 antfu.theme-vitesse
+arthurwhite.white
 blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
 bodil.prettier-toml
