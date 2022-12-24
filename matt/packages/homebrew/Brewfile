@@ -92,6 +92,8 @@ cask "font-inter"
 cask "font-mona-sans"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
+# Web browser
+cask "google-chrome"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
