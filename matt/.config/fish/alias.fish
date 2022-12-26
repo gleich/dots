@@ -10,7 +10,7 @@ alias tmp="cd  ~/tmp"
 # git/gh
 alias gv="gh repo view -w"
 alias gp="git push"
-alias gl="git log"
+alias gl="git log --no-decorate"
 alias gpu="git pull"
 
 # resin

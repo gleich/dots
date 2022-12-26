@@ -35,6 +35,8 @@ brew "gource"
 brew "hadolint"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Postgres C API library
+brew "libpq"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
