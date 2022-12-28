@@ -47,6 +47,8 @@ brew "numpy"
 brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
+# Object-relational database system
+brew "postgresql@14"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Persistent key-value database, with built-in net interface
@@ -136,6 +138,8 @@ cask "remarkable"
 cask "slack"
 # Video game digital distribution service
 cask "steam"
+# Native GUI tool for relational databases
+cask "tableplus"
 # Python IDE for beginners
 cask "thonny"
 # Open-source code editor
