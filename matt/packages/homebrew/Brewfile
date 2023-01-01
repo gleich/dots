@@ -1,5 +1,6 @@
 tap "airplanedev/tap"
 tap "bell-sw/liberica"
+tap "gleich/tap"
 tap "gleich/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -64,6 +65,8 @@ brew "yarn"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
 brew "airplanedev/tap/airplane"
+# Update the copyright year in all of your GitHub repos 
+brew "gleich/tap/new_yearify"
 # PDF viewer
 brew "zegervdv/zathura/zathura"
 # Poppler backend plugin for zathura
@@ -80,6 +83,8 @@ cask "bartender"
 cask "bitwarden"
 # Bluetooth Low Energy browser
 cask "bluetility"
+# Calendar for professionals and teams
+cask "cron"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
