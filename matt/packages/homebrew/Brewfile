@@ -71,8 +71,6 @@ brew "gleich/tap/new_yearify"
 brew "zegervdv/zathura/zathura"
 # Poppler backend plugin for zathura
 brew "zegervdv/zathura/zathura-pdf-poppler"
-# Password manager that keeps all passwords secure behind one password
-cask "1password"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # AirPods companion app
