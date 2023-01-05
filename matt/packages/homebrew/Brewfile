@@ -81,8 +81,6 @@ cask "bartender"
 cask "bitwarden"
 # Bluetooth Low Energy browser
 cask "bluetility"
-# Calendar for professionals and teams
-cask "cron"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
