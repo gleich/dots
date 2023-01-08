@@ -143,6 +143,8 @@ cask "steam"
 cask "tableplus"
 # Python IDE for beginners
 cask "thonny"
+# To-do list
+cask "todoist"
 # Open-source code editor
 cask "visual-studio-code"
 # Remote desktop server application
