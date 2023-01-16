@@ -95,6 +95,8 @@ cask "font-ibm-plex-mono"
 cask "font-inter"
 # Mona Sans, a variable font from GitHub
 cask "font-mona-sans"
+# Original typeface primarily intended for continuous on-screen reading
+cask "font-newsreader"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
 # Web browser
