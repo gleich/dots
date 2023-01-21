@@ -44,6 +44,8 @@ brew "neofetch"
 brew "neovim"
 # Package for scientific computing with Python
 brew "numpy"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Python package management tool
