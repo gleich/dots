@@ -141,6 +141,8 @@ cask "raycast"
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device
 cask "remarkable"
+# Emoji picker optimized for blind people
+cask "rocket"
 # Team communication and collaboration software
 cask "slack"
 # Video game digital distribution service
