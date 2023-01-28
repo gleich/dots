@@ -1,12 +1,12 @@
 # dots
 
 ```txt
-matt@gleich.wireless.rit.edu 
----------------------------- 
+matt@gleich-laptop.student.rit.edu 
+---------------------------------- 
 OS: macOS 13.2 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 22.3.0 
-Packages: 170 (brew) 
+Packages: 172 (brew) 
 Shell: fish 3.6.0 
 DE: Aqua 
 WM: Rectangle 
