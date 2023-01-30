@@ -18,6 +18,8 @@ brew "black"
 brew "cmatrix"
 # AST-based pattern checker for JavaScript
 brew "eslint"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
