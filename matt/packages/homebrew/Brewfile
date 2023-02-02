@@ -18,6 +18,8 @@ brew "black"
 brew "cmatrix"
 # AST-based pattern checker for JavaScript
 brew "eslint"
+# Modern replacement for 'ls'
+brew "exa"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -157,6 +159,10 @@ cask "tableplus"
 cask "thonny"
 # To-do list
 cask "todoist"
+# Cycling training system
+cask "trainerroad"
+# Keyboard configurator
+cask "via"
 # Open-source code editor
 cask "visual-studio-code"
 # Remote desktop server application

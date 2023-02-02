@@ -2,10 +2,11 @@ alias c="clear"
 alias vi="nvim"
 alias q="exit"
 alias src="cd ~/src"
+alias ls="ls -a"
 alias l="ls"
 alias sl="ls"
 alias cpwd="pwd | pbcopy"
-alias tmp="cd  ~/tmp"
+alias tmp="cd ~/tmp"
 
 # git/gh
 alias gv="gh repo view -w"
@@ -16,3 +17,6 @@ alias gpu="git pull"
 # resin
 alias gmap="resin -a -p"
 alias gma="resin -a"
+
+# yarn
+alias yds="yarn run dev --open" # run development for svelte

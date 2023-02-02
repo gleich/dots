@@ -1,9 +1,9 @@
-function conf
-	cd ~/.config/$argv
+function conf --wraps="cd -"
+    cd /Users/matt/.config/$argv
 end
 
 function ccat
-	cat $argv | pbcopy
+    cat $argv | pbcopy
 end
 
 function backup_remarkable
