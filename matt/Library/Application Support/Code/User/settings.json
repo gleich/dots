@@ -539,7 +539,7 @@
   "zenMode.hideLineNumbers": false,
   "workbench.editor.decorations.colors": false,
   "editor.renderLineHighlight": "gutter",
-  "editor.renderFinalNewline": false,
+  "editor.renderFinalNewline": "off",
   "editor.renderWhitespace": "selection",
   "editor.renderControlCharacters": true,
   "files.trimFinalNewlines": true,
@@ -691,5 +691,6 @@
   "githubPullRequests.createOnPublishBranch": "never",
   "terminal.integrated.defaultProfile.osx": "fish",
   "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-18-full.jdk/Contents/Home",
-  "svelte.plugin.svelte.note-new-transformation": false
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "git.openRepositoryInParentFolders": "always"
 }
