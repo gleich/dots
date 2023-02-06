@@ -548,7 +548,7 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "workbench.colorTheme": "Vitesse Dark Soft",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {
@@ -692,5 +692,11 @@
   "terminal.integrated.defaultProfile.osx": "fish",
   "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-18-full.jdk/Contents/Home",
   "svelte.plugin.svelte.note-new-transformation": false,
-  "git.openRepositoryInParentFolders": "always"
+  "git.openRepositoryInParentFolders": "always",
+  "grammarly.files.include": [
+    "**/README.md",
+    "**/readme.md",
+    "**/*.txt",
+    "**/*.tex"
+  ]
 }
