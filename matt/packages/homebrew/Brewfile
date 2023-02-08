@@ -1,5 +1,6 @@
 tap "airplanedev/tap"
 tap "bell-sw/liberica"
+tap "felixkratz/formulae"
 tap "gleich/tap"
 tap "gleich/taps"
 tap "homebrew/bundle"
@@ -7,6 +8,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "zegervdv/zathura"
 # FSF/GNU binutils for cross-compiling to arm-linux
 brew "arm-linux-gnueabihf-binutils"
@@ -81,12 +83,8 @@ brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# AirPods companion app
-cask "airbuddy"
 # Menu bar icon organizer
 cask "bartender"
-# Desktop password and login vault
-cask "bitwarden"
 # Bluetooth Low Energy browser
 cask "bluetility"
 # Calendar for professionals and teams
@@ -165,10 +163,6 @@ cask "trainerroad"
 cask "via"
 # Open-source code editor
 cask "visual-studio-code"
-# Remote desktop server application
-cask "vnc-server"
-# Remote desktop application focusing on security
-cask "vnc-viewer"
 # Video communication and virtual meeting platform
 cask "zoom"
 cask "zwift"
