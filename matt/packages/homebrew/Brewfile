@@ -9,6 +9,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "lencx/chatgpt", "https://github.com/lencx/ChatGPT.git"
 tap "zegervdv/zathura"
 # FSF/GNU binutils for cross-compiling to arm-linux
 brew "arm-linux-gnueabihf-binutils"
@@ -98,6 +99,8 @@ cask "figma"
 # Web browser
 cask "firefox-developer-edition"
 cask "font-computer-modern"
+# Bitmap programming font
+cask "font-cozette"
 # Corporate typeface for IBM
 cask "font-ibm-plex-mono"
 cask "font-inter"
@@ -165,4 +168,5 @@ cask "via"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Indoor cycling game
 cask "zwift"
