@@ -17,6 +17,8 @@ brew "arm-linux-gnueabihf-binutils"
 brew "bitwarden-cli"
 # Python code formatter
 brew "black"
+# Linux/OSX/FreeBSD resource monitor
+brew "bpytop"
 # Console Matrix
 brew "cmatrix"
 # AST-based pattern checker for JavaScript
