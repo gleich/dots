@@ -1,7 +1,6 @@
 alias c="clear"
 alias vi="nvim"
 alias q="exit"
-alias src="cd ~/src"
 alias l="ls"
 alias sl="ls"
 alias cpwd="pwd | pbcopy"

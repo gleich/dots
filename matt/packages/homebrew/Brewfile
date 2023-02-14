@@ -73,6 +73,8 @@ brew "subversion"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# Hackable, minimal, fast TUI file explorer
+brew "xplr"
 # JavaScript package manager
 brew "yarn"
 # Fork of youtube-dl with additional features and fixes

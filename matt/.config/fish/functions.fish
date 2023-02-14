@@ -1,5 +1,9 @@
 function conf --wraps="cd -"
-    cd /Users/matt/.config/$argv
+   cd /Users/matt/.config/$argv
+end
+
+function s --wraps="cd -"
+   cd /Users/matt/src/$argv
 end
 
 function ccat

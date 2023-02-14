@@ -180,5 +180,21 @@
   {
     "key": "cmd+d",
     "command": "workbench.action.quickOpenRecent"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "cmd+k cmd+right",
+    "command": "-workbench.action.focusRightGroup"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "cmd+k cmd+left",
+    "command": "-workbench.action.focusLeftGroup"
   }
 ]
