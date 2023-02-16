@@ -13,6 +13,8 @@ tap "lencx/chatgpt", "https://github.com/lencx/ChatGPT.git"
 tap "zegervdv/zathura"
 # FSF/GNU binutils for cross-compiling to arm-linux
 brew "arm-linux-gnueabihf-binutils"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Secure and free password manager for all of your devices
 brew "bitwarden-cli"
 # Python code formatter
