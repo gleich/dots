@@ -39,7 +39,9 @@ serayuzgur.crates
 shardulm94.trailing-spaces
 spywhere.now-playing
 streetsidesoftware.code-spell-checker
+sumneko.lua
 svelte.svelte-vscode
+tauri-apps.tauri-vscode
 tecosaur.latex-utilities
 unifiedjs.vscode-mdx
 usernamehw.errorlens

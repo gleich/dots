@@ -92,6 +92,8 @@ brew "zegervdv/zathura/zathura-pdf-poppler"
 cask "adobe-creative-cloud"
 # Menu bar icon organizer
 cask "bartender"
+# 3D creation suite
+cask "blender"
 # Bluetooth Low Energy browser
 cask "bluetility"
 # Calendar for professionals and teams

@@ -548,7 +548,6 @@
   "errorLens.statusBarIconsEnabled": true,
   "errorLens.errorGutterIconColor": "#E92741",
   "conventionalCommits.showNewVersionNotes": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle",
   "svelte.enable-ts-plugin": true,
   "vim.showMarksInGutter": true,
   "[svelte]": {
@@ -698,5 +697,6 @@
     "**/readme.md",
     "**/*.txt",
     "**/*.tex"
-  ]
+  ],
+  "workbench.colorTheme": "🏴 blackbird → jungle"
 }
