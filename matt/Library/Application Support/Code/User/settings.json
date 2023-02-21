@@ -681,7 +681,6 @@
   "search.showLineNumbers": true,
   "java.configuration.updateBuildConfiguration": "automatic",
   "terminal.integrated.macOptionIsMeta": true,
-  "editor.bracketPairColorization.enabled": false,
   "editor.fontWeight": "bold",
   "terminal.integrated.fontWeight": "bold",
   "workbench.productIconTheme": "icons-carbon",
@@ -698,5 +697,6 @@
     "**/*.txt",
     "**/*.tex"
   ],
-  "workbench.colorTheme": "Vitesse Dark Soft"
+  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "editor.bracketPairColorization.enabled": false
 }
