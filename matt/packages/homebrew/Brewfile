@@ -45,6 +45,8 @@ brew "golangci-lint"
 brew "gource"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Improved top (interactive process viewer)
+brew "htop"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Postgres C API library
@@ -69,6 +71,8 @@ brew "prettier"
 brew "python-tk@3.10"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# Prints a steam locomotive if you type sl instead of ls
+brew "sl"
 # Version control system designed to be a better CVS
 brew "subversion"
 # Executes a program periodically, showing output fullscreen
@@ -146,6 +150,8 @@ cask "ngrok"
 cask "notion"
 # Retro video game emulation
 cask "openemu"
+# Desktop virtualization software
+cask "parallels"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Imaging utility to install operating systems to a microSD card
