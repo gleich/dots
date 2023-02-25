@@ -262,7 +262,8 @@
   "workbench.editor.highlightModifiedTabs": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnPaste": false
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": true
   },
   "latex-workshop.message.error.show": false,
   "editor.fontLigatures": "'ss02','ss06'",
