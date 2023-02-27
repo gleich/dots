@@ -5,6 +5,7 @@ tap "gleich/tap"
 tap "gleich/taps"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
@@ -100,8 +101,6 @@ cask "bartender"
 cask "blender"
 # Bluetooth Low Energy browser
 cask "bluetility"
-# Calendar for professionals and teams
-cask "cron"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
@@ -138,6 +137,8 @@ cask "liberica-jdk15-full"
 cask "liberica-jdk18-full"
 # App to manage software development and track bugs
 cask "linear-linear"
+# Software for Logitech devices
+cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Sandbox construction video game
