@@ -529,7 +529,8 @@
     "javascript": "jsx"
   },
   "emmet.includeLanguages": {
-    "mdx": "html"
+    "mdx": "html",
+    "javascript": "javascript-react"
   },
   "breadcrumbs.enabled": false,
   "[go]": {
