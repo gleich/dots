@@ -699,6 +699,6 @@
     "**/*.txt",
     "**/*.tex"
   ],
-  "workbench.colorTheme": "🏴 blackbird → jungle",
-  "editor.bracketPairColorization.enabled": false
+  "editor.bracketPairColorization.enabled": false,
+  "workbench.colorTheme": "🏴 blackbird → jungle"
 }
