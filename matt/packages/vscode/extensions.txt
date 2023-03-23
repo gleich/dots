@@ -6,7 +6,6 @@ bmalehorn.vscode-fish
 bodil.prettier-toml
 bungcip.better-toml
 christian-kohler.path-intellisense
-cschleiden.vscode-github-actions
 dbaeumer.vscode-eslint
 Divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
@@ -16,6 +15,7 @@ exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
+github.vscode-github-actions
 GitHub.vscode-pull-request-github
 golang.go
 icrawl.discord-vscode
