@@ -2,7 +2,7 @@ function conf --wraps="cd -"
    cd /Users/matt/.config/$argv
 end
 
-function s --wraps="cd -"
+function src
    cd /Users/matt/src/$argv
 end
 
@@ -15,3 +15,4 @@ function backup_remarkable
     cd remarkable
     scp -r root@10.11.99.1:/home/root/.local/share/remarkable/xochitl "remarkable-$(date -I)"
 end
+
