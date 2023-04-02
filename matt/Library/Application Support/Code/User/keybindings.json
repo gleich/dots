@@ -179,7 +179,7 @@
   },
   {
     "key": "cmd+d",
-    "command": "workbench.action.quickOpenRecent"
+    "command": "workbench.action.openRecent"
   },
   {
     "key": "cmd+right",
