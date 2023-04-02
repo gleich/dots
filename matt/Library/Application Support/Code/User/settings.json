@@ -532,7 +532,6 @@
     "mdx": "html",
     "javascript": "javascript-react"
   },
-  "breadcrumbs.enabled": false,
   "[go]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
