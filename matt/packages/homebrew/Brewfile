@@ -95,6 +95,8 @@ brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Memory training application
+cask "anki"
 # Menu bar icon organizer
 cask "bartender"
 # 3D creation suite
