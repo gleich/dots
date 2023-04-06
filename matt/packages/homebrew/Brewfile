@@ -154,8 +154,6 @@ cask "ngrok"
 cask "notion"
 # Retro video game emulation
 cask "openemu"
-# Desktop virtualization software
-cask "parallels"
 # HTTP client that helps testing and describing APIs
 cask "paw"
 # Imaging utility to install operating systems to a microSD card
