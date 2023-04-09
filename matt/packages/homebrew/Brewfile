@@ -124,8 +124,6 @@ cask "font-newsreader"
 cask "font-playfair-display"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
-# Web browser
-cask "google-chrome"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
@@ -164,6 +162,8 @@ cask "raycast"
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device
 cask "remarkable"
+# Tool that provides consistent, highly configurable symbols for apps
+cask "sf-symbols"
 # Team communication and collaboration software
 cask "slack"
 # Video game digital distribution service
