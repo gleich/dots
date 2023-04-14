@@ -706,5 +706,6 @@
     "plaintext": false,
     "markdown": false,
     "java": true
-  }
+  },
+  "redhat.telemetry.enabled": true
 }
