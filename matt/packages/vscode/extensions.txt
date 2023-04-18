@@ -14,7 +14,6 @@ esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
-GitHub.copilot
 GitHub.github-vscode-theme
 github.vscode-github-actions
 GitHub.vscode-pull-request-github
