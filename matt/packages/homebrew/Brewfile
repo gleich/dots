@@ -136,6 +136,8 @@ cask "kitty"
 cask "liberica-jdk15-full"
 # 100% open-source Java implementation
 cask "liberica-jdk18-full"
+# Office suite
+cask "libreoffice"
 # App to manage software development and track bugs
 cask "linear-linear"
 # Software for Logitech devices
