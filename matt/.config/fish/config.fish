@@ -58,33 +58,3 @@ function fish_mode_prompt
     set_color normal
     echo '>-'
 end
-
-
-function _my_cd_completion
-    set -l dir /Users/matt/src
-    for file in $dir/*
-        if test -d $file -a ! -L $file
-            if test -d $file/.git
-                # Include Git directories in command completions
-                echo (basename $file)
-            else
-                # Offer completions for non-Git directories
-                echo (basename $file)
-            end
-        end
-    end
-end
-
-
-function git
-    if test (count $argv) -gt 0
-        set cmd $argv[1]
-        if contains -- $cmd branch checkout commit push pull clone fetch merge rebase reset log status diff tag
-            return
-        end
-    end
-
-    command git $argv
-end
-
-complete -f -c src -a '(_my_cd_completion)'

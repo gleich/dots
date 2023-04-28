@@ -32,6 +32,8 @@ brew "exa"
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -86,6 +88,8 @@ brew "xplr"
 brew "yarn"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 brew "airplanedev/tap/airplane"
 # Update the copyright year in all of your GitHub repos 
 brew "gleich/tap/new_yearify"
@@ -124,6 +128,8 @@ cask "font-newsreader"
 cask "font-playfair-display"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
+# Developer targeted fonts with a high number of glyphs
+cask "font-victor-mono-nerd-font"
 # Free and open-source media player
 cask "iina"
 # System monitoring app

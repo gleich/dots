@@ -1,11 +1,3 @@
-function conf --wraps="cd -"
-    cd /Users/matt/.config/$argv
-end
-
-function src
-    builtin cd /Users/matt/src/$argv
-end
-
 function ccat
     cat $argv | pbcopy
 end

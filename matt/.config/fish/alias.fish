@@ -1,10 +1,11 @@
+# general
 alias c="clear"
 alias vi="nvim"
 alias q="exit"
 alias l="ls"
 alias sl="ls"
 alias cpwd="pwd | pbcopy"
-alias tmp="cd ~/tmp"
+alias ore="omf reload"
 
 # git/gh
 alias gv="gh repo view -w"
