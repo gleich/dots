@@ -699,7 +699,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Vitesse Dark Soft",
+  "workbench.colorTheme": "🏴 blackbird → jungle",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
