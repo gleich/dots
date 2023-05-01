@@ -1,7 +1,10 @@
 function co
-    set config_path ~/.config/$argv
-    cd $config_path
+    if count $argv > /dev/null
+        set src_path ~/.config/$argv
+    else
+        set src_path ~/.config/
+    end
+    cd $src_path
 end
 
-# Register the completion
 complete -c co -a "(command ls ~/.config/)"

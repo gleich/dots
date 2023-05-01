@@ -708,5 +708,6 @@
     "java": true
   },
   "redhat.telemetry.enabled": true,
-  "terminal.integrated.scrollback": 10000
+  "terminal.integrated.scrollback": 10000,
+  "lldb.suppressUpdateNotifications": true
 }
