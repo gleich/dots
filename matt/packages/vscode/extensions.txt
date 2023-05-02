@@ -30,6 +30,7 @@ ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode.cpptools
+ms-vscode.live-server
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring

@@ -78,6 +78,8 @@ brew "redis"
 brew "sl"
 # Version control system designed to be a better CVS
 brew "subversion"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
@@ -130,6 +132,8 @@ cask "font-playfair-display"
 cask "font-victor-mono"
 # Developer targeted fonts with a high number of glyphs
 cask "font-victor-mono-nerd-font"
+# Graphically shows disk usage within a file system
+cask "grandperspective"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
