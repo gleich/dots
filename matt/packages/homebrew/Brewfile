@@ -152,6 +152,8 @@ cask "libreoffice"
 cask "linear-linear"
 # Software for Logitech devices
 cask "logitech-options"
+# Cable-free audio router
+cask "loopback"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Sandbox construction video game
