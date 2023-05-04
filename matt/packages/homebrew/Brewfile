@@ -152,8 +152,6 @@ cask "libreoffice"
 cask "linear-linear"
 # Software for Logitech devices
 cask "logitech-options"
-# Cable-free audio router
-cask "loopback"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Sandbox construction video game
@@ -164,6 +162,8 @@ cask "monitorcontrol"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Open-source software for live streaming and screen recording
+cask "obs"
 # Retro video game emulation
 cask "openemu"
 # HTTP client that helps testing and describing APIs
