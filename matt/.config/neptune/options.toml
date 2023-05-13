@@ -1,0 +1,23 @@
+[[books]]
+name = "Atomic Habits"
+author = "James Clear"
+
+[[books]]
+name = "Tiny Habits"
+author = "BJ Fogg"
+
+[[classes]]
+id = "Other"
+name = "Other"
+
+[[classes]]
+id = "PSYC 101"
+name = "Introduction to Psychology"
+
+[[classes]]
+id = "MATH 172"
+name = "Calculus B"
+
+[[classes]]
+id = "SWEN 261"
+name = "Introduction to Software Engineering"
