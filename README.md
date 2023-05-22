@@ -3,9 +3,9 @@
 ```txt
 matt@gleich.lan 
 --------------- 
-OS: macOS 13.3.1 arm64 
+OS: macOS 13.4 arm64 
 Host: MacBookPro18,4 
-Kernel: Darwin 22.4.0 
+Kernel: Darwin 22.5.0 
 Packages: 227 (brew) 
 Shell: fish 3.6.1 
 DE: Aqua 
