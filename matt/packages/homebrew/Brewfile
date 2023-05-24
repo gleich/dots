@@ -54,6 +54,8 @@ brew "htop"
 brew "imagemagick"
 # Postgres C API library
 brew "libpq"
+# Java-based project management
+brew "maven"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
