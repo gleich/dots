@@ -56,6 +56,8 @@ brew "imagemagick"
 brew "libpq"
 # Java-based project management
 brew "maven"
+# Open source relational database management system
+brew "mysql-client"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
