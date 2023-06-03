@@ -111,8 +111,6 @@ cask "bartender"
 cask "blender"
 # Bluetooth Low Energy browser
 cask "bluetility"
-# Voice and text chat software
-cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Online diagram software
