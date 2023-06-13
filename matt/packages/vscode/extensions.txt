@@ -1,3 +1,4 @@
+Angular.ng-template
 antfu.icons-carbon
 antfu.theme-vitesse
 arthurwhite.white

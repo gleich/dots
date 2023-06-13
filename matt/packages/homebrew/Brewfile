@@ -1,207 +1,72 @@
-tap "airplanedev/tap"
-tap "bell-sw/liberica"
-tap "felixkratz/formulae"
-tap "gleich/tap"
-tap "gleich/taps"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
-tap "homebrew/services"
-tap "lencx/chatgpt", "https://github.com/lencx/ChatGPT.git"
-tap "zegervdv/zathura"
-# FSF/GNU binutils for cross-compiling to arm-linux
-brew "arm-linux-gnueabihf-binutils"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
-# Secure and free password manager for all of your devices
-brew "bitwarden-cli"
 # Python code formatter
 brew "black"
-# Linux/OSX/FreeBSD resource monitor
-brew "bpytop"
-# Console Matrix
-brew "cmatrix"
-# AST-based pattern checker for JavaScript
-brew "eslint"
-# Modern replacement for 'ls'
-brew "exa"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
-# Command-line fuzzy finder written in Go
-brew "fzf"
 # GitHub command-line tool
 brew "gh"
-# Distributed revision control system
-brew "git"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
+# Passphrase entry dialog utilizing the Assuan protocol
+brew "pinentry"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Fast linters runner for Go
-brew "golangci-lint"
-# Version Control Visualization Tool
-brew "gource"
-# Smarter Dockerfile linter to validate best practices
-brew "hadolint"
-# Improved top (interactive process viewer)
-brew "htop"
-# Tools and libraries to manipulate images in many formats
-brew "imagemagick"
-# Postgres C API library
-brew "libpq"
-# Java-based project management
-brew "maven"
+# Powerful, lightweight programming language
+brew "lua"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Package for scientific computing with Python
-brew "numpy"
-# Swiss-army knife of markup format conversion
-brew "pandoc"
+# Platform built on V8 to build network applications
+brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Python package management tool
-brew "poetry"
-# Object-relational database system
-brew "postgresql@14"
-# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
-brew "prettier"
-# Python interface to Tcl/Tk
-brew "python-tk@3.10"
-# Persistent key-value database, with built-in net interface
-brew "redis"
-# Prints a steam locomotive if you type sl instead of ls
-brew "sl"
-# Version control system designed to be a better CVS
-brew "subversion"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
-# Executes a program periodically, showing output fullscreen
-brew "watch"
-# Internet file retriever
-brew "wget"
-# Hackable, minimal, fast TUI file explorer
-brew "xplr"
 # JavaScript package manager
 brew "yarn"
-# Fork of youtube-dl with additional features and fixes
-brew "yt-dlp"
-# Shell extension to navigate your filesystem faster
-brew "zoxide"
-brew "airplanedev/tap/airplane"
-# Update the copyright year in all of your GitHub repos 
-brew "gleich/tap/new_yearify"
-# PDF viewer
-brew "zegervdv/zathura/zathura"
-# Poppler backend plugin for zathura
-brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# Memory training application
-cask "anki"
+# Chromium based browser
+cask "arc"
 # Menu bar icon organizer
 cask "bartender"
-# 3D creation suite
-cask "blender"
-# Bluetooth Low Energy browser
-cask "bluetility"
+# Desktop password and login vault
+cask "bitwarden"
+# Track and budget money
+cask "copilot"
+# Calendar for professionals and teams
+cask "cron"
+# Voice and text chat software
+cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Online diagram software
-cask "drawio"
-# Collaborative team software
-cask "figma"
-# Web browser
-cask "firefox-developer-edition"
-cask "font-computer-modern"
-# Bitmap programming font
-cask "font-cozette"
-# Corporate typeface for IBM
-cask "font-ibm-plex-mono"
-cask "font-inter"
-# Mona Sans, a variable font from GitHub
-cask "font-mona-sans"
-# Original typeface primarily intended for continuous on-screen reading
-cask "font-newsreader"
-cask "font-playfair-display"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
-# Developer targeted fonts with a high number of glyphs
-cask "font-victor-mono-nerd-font"
-# Graphically shows disk usage within a file system
-cask "grandperspective"
-# Free and open-source media player
-cask "iina"
 # System monitoring app
 cask "istat-menus"
-# Keyboard customizer
-cask "karabiner-elements"
-# Electronics design automation suite
-cask "kicad"
 # GPU-based terminal emulator
 cask "kitty"
-# 100% open-source Java implementation
-cask "liberica-jdk15-full"
-# 100% open-source Java implementation
-cask "liberica-jdk18-full"
-# Office suite
-cask "libreoffice"
-# App to manage software development and track bugs
-cask "linear-linear"
-# Software for Logitech devices
-cask "logitech-options"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
-# Sandbox construction video game
-cask "minecraft"
-# Tool to control external monitor brightness & volume
-cask "monitorcontrol"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
-# App to write, plan, collaborate, and get organized
-cask "notion"
-# Open-source software for live streaming and screen recording
-cask "obs"
-# Retro video game emulation
-cask "openemu"
-# HTTP client that helps testing and describing APIs
-cask "paw"
-# Imaging utility to install operating systems to a microSD card
-cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device
 cask "remarkable"
-# Tool that provides consistent, highly configurable symbols for apps
-cask "sf-symbols"
 # Team communication and collaboration software
 cask "slack"
 # Video game digital distribution service
 cask "steam"
-# Native GUI tool for relational databases
-cask "tableplus"
-# Python IDE for beginners
-cask "thonny"
-# To-do list
-cask "todoist"
 # Cycling training system
 cask "trainerroad"
-# Keyboard configurator
-cask "via"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-# Indoor cycling game
-cask "zwift"
+vscode "Angular.ng-template"
 vscode "antfu.icons-carbon"
 vscode "antfu.theme-vitesse"
 vscode "arthurwhite.white"
