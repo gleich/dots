@@ -6,7 +6,6 @@ alias l="ls"
 alias sl="ls"
 alias cpwd="pwd | pbcopy"
 alias ore="omf reload"
-alias update="cd /Users/matt/src/dots && fetch --update"
 
 # git/gh
 alias gv="gh repo view -w"
