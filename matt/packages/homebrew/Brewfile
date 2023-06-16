@@ -1,7 +1,13 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+# Platform built on V8 to build network applications
+brew "node"
+# Secure and free password manager for all of your devices
+brew "bitwarden-cli"
 # Python code formatter
 brew "black"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
@@ -20,12 +26,14 @@ brew "lua"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Platform built on V8 to build network applications
-brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # JavaScript package manager
 brew "yarn"
+# Fork of youtube-dl with additional features and fixes
+brew "yt-dlp"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Chromium based browser
@@ -44,6 +52,10 @@ cask "discord"
 cask "docker"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
+# Developer targeted fonts with a high number of glyphs
+cask "font-victor-mono-nerd-font"
+# Free and open-source media player
+cask "iina"
 # System monitoring app
 cask "istat-menus"
 # GPU-based terminal emulator
