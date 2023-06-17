@@ -50,6 +50,9 @@ cask "cron"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+cask "font-bebas-neue"
+# Corporate typeface for IBM
+cask "font-ibm-plex-mono"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
 # Developer targeted fonts with a high number of glyphs
@@ -62,6 +65,8 @@ cask "istat-menus"
 cask "kitty"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# HTTP client that helps testing and describing APIs
+cask "rapidapi"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
