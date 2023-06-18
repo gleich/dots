@@ -30,6 +30,8 @@ brew "neovim"
 brew "pinentry-mac"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # JavaScript package manager
 brew "yarn"
 # Fork of youtube-dl with additional features and fixes
@@ -95,6 +97,7 @@ vscode "christian-kohler.path-intellisense"
 vscode "dbaeumer.vscode-eslint"
 vscode "Divlo.vscode-styled-jsx-languageserver"
 vscode "donjayamanne.githistory"
+vscode "dustypomerleau.rust-syntax"
 vscode "emeraldwalk.RunOnSave"
 vscode "esbenp.prettier-vscode"
 vscode "exiasr.hadolint"

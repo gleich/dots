@@ -31,5 +31,14 @@ require("lazy").setup({
     config = function()
       require("nvim-tree").setup {}
     end,
+  },
+
+  -- coding tracking
+  {"wakatime/vim-wakatime"},
+
+  -- file search
+  {
+   'nvim-telescope/telescope.nvim', tag = '0.1.1',
+   dependencies = { 'nvim-lua/plenary.nvim' }
   }
 })

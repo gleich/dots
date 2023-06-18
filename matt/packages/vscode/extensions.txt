@@ -10,6 +10,7 @@ christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 Divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
+dustypomerleau.rust-syntax
 emeraldwalk.RunOnSave
 esbenp.prettier-vscode
 exiasr.hadolint
