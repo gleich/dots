@@ -32,8 +32,11 @@ ms-python.black-formatter
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
 ms-vscode.cpptools
 ms-vscode.live-server
+ms-vscode.remote-explorer
 naumovs.color-highlight
 njpwerner.autodocstring
 redhat.java
