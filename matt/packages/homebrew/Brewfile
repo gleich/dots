@@ -22,6 +22,10 @@ brew "gnupg"
 brew "go"
 # Powerful, lightweight programming language
 brew "lua"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility

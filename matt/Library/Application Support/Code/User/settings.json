@@ -114,6 +114,7 @@
     "leaderboards",
     "lightmode",
     "Linkedin",
+    "linkplain",
     "loguru",
     "macos",
     "manimlib",
@@ -689,7 +690,7 @@
   "editor.minimap.enabled": false,
   "githubPullRequests.createOnPublishBranch": "never",
   "terminal.integrated.defaultProfile.osx": "fish",
-  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-18-full.jdk/Contents/Home",
+  "java.jdt.ls.java.home": "/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home",
   "svelte.plugin.svelte.note-new-transformation": false,
   "git.openRepositoryInParentFolders": "always",
   "grammarly.files.include": [
@@ -709,5 +710,6 @@
   },
   "redhat.telemetry.enabled": true,
   "terminal.integrated.scrollback": 50000,
-  "lldb.suppressUpdateNotifications": true
+  "lldb.suppressUpdateNotifications": true,
+  "java.format.enabled": false
 }
