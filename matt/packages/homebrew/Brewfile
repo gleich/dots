@@ -73,6 +73,8 @@ cask "istat-menus"
 cask "kitty"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Sandbox construction video game
+cask "minecraft"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card

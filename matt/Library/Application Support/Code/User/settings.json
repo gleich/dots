@@ -262,7 +262,7 @@
   "dart.warnWhenEditingFilesOutsideWorkspace": false,
   "workbench.editor.highlightModifiedTabs": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnPaste": false,
     "editor.formatOnType": true
   },
@@ -711,5 +711,7 @@
   "redhat.telemetry.enabled": true,
   "terminal.integrated.scrollback": 50000,
   "lldb.suppressUpdateNotifications": true,
-  "java.format.enabled": false
+  "java.format.enabled": false,
+  "githubPullRequests.pullBranch": "never",
+  "window.zoomLevel": -1
 }
