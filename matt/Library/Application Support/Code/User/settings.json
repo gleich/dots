@@ -712,6 +712,5 @@
   "terminal.integrated.scrollback": 50000,
   "lldb.suppressUpdateNotifications": true,
   "java.format.enabled": false,
-  "githubPullRequests.pullBranch": "never",
-  "window.zoomLevel": -1
+  "githubPullRequests.pullBranch": "never"
 }

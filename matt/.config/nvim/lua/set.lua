@@ -1,9 +1,20 @@
+vim.scriptencoding = "utf-8"
+
 local settings = {
     number = true,
     tabstop = 4,
     expandtab = true,
     softtabstop = 4,
-    shiftwidth = 4,
+    shiftwidth = 2,
+    autoindent = true,
+    cursorline = true,
+    expandtab = true,
+    encoding = "utf-8",
+    title = true,
+    wildmenu = true,
+    ttimeoutlen = 0,
+    showcmd = true,
+    showmatch = true,
 }
 
 local cmds = {

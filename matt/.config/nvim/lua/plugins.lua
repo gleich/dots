@@ -40,5 +40,24 @@ require("lazy").setup({
   {
    'nvim-telescope/telescope.nvim', tag = '0.1.1',
    dependencies = { 'nvim-lua/plenary.nvim' }
+  },
+
+  -- status line
+  {
+   'nvim-lualine/lualine.nvim',
+   dependencies = { 'nvim-tree/nvim-web-devicons' },
+   config = function()
+     require("lualine").setup {}
+   end,
+  },
+
+  -- lsp client setup
+  {
+    "williamboman/mason.nvim",
+    build = ":MasonUpdate",
+     config = function()
+       require("mason").setup {}
+     end,
+   dependencies = { 'nvim-tree/nvim-web-devicons' },
   }
 })
