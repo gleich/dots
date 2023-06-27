@@ -1,6 +1,2 @@
--- Main editor config file
--- brings everything into port :)
-
-require("plugins")
-require("set")
-require("mappings")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

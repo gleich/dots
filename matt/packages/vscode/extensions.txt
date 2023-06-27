@@ -44,6 +44,7 @@ rust-lang.rust-analyzer
 serayuzgur.crates
 shardulm94.trailing-spaces
 spywhere.now-playing
+sswg.swift-lang
 streetsidesoftware.code-spell-checker
 sumneko.lua
 svelte.svelte-vscode
