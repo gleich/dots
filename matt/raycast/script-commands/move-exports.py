@@ -45,5 +45,7 @@ if moved_github and not moved_strava:
     print("Moved only github export")
 elif not moved_github and moved_strava:
     print("Moved only strava export")
+elif moved_github and moved_strava:
+    print("Moved github and strava exports")
 else:
     print("Moved no exports")
