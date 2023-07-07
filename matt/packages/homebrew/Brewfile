@@ -45,6 +45,8 @@ brew "pinentry-mac"
 brew "python@3.10"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Tool to enforce Swift style and conventions
+brew "swiftlint"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # JavaScript package manager
