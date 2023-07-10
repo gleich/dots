@@ -92,6 +92,8 @@ cask "iina"
 cask "istat-menus"
 # GPU-based terminal emulator
 cask "kitty"
+# Office suite
+cask "libreoffice"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Sandbox construction video game
