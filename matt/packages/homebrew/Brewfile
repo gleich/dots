@@ -90,6 +90,8 @@ cask "garmin-express"
 cask "iina"
 # System monitoring app
 cask "istat-menus"
+# Keyboard customizer
+cask "karabiner-elements"
 # GPU-based terminal emulator
 cask "kitty"
 # Office suite
