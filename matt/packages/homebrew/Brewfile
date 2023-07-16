@@ -92,7 +92,7 @@ cask "iina"
 cask "istat-menus"
 # GPU-based terminal emulator
 cask "kitty"
-# Office suite
+# Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
