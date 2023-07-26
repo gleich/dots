@@ -5,7 +5,6 @@ arthurwhite.white
 blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
 bodil.prettier-toml
-bungcip.better-toml
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 Divlo.vscode-styled-jsx-languageserver
@@ -49,6 +48,7 @@ sswg.swift-lang
 streetsidesoftware.code-spell-checker
 sumneko.lua
 svelte.svelte-vscode
+tamasfe.even-better-toml
 tauri-apps.tauri-vscode
 tecosaur.latex-utilities
 unifiedjs.vscode-mdx
