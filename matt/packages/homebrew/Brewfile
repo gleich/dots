@@ -7,6 +7,8 @@ brew "node"
 brew "bitwarden-cli"
 # Python code formatter
 brew "black"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Validating, recursive, caching DNS resolver
@@ -25,6 +27,8 @@ brew "pinentry"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Powerful, lightweight programming language
@@ -45,6 +49,8 @@ brew "pinentry-mac"
 brew "python@3.10"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Launcher to analyze a project with SonarQube
+brew "sonar-scanner"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
 # Executes a program periodically, showing output fullscreen
@@ -98,6 +104,10 @@ cask "libreoffice"
 cask "mactex-no-gui"
 # Sandbox construction video game
 cask "minecraft"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card
