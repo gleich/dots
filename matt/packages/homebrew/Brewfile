@@ -9,6 +9,8 @@ brew "bitwarden-cli"
 brew "black"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
+# Command-line DNS client
+brew "dog"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Validating, recursive, caching DNS resolver
@@ -108,6 +110,8 @@ cask "minecraft"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Open-source software for live streaming and screen recording
+cask "obs"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card
