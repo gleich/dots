@@ -92,6 +92,8 @@ cask "font-ibm-plex-mono"
 cask "font-victor-mono"
 # Developer targeted fonts with a high number of glyphs
 cask "font-victor-mono-nerd-font"
+# Horizontal and vertical rulers
+cask "free-ruler"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
 # Free and open-source media player
