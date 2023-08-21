@@ -23,10 +23,8 @@ brew "fish"
 brew "gh"
 # Interpreter for PostScript and PDF
 brew "ghostscript"
-# Passphrase entry dialog utilizing the Assuan protocol
-brew "pinentry"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
+# Distributed revision control system
+brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Smarter Dockerfile linter to validate best practices
@@ -45,6 +43,8 @@ brew "neofetch"
 brew "neovim"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Passphrase entry dialog utilizing the Assuan protocol
+brew "pinentry"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Interpreted, interactive, object-oriented programming language
@@ -96,6 +96,8 @@ cask "font-victor-mono-nerd-font"
 cask "free-ruler"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
+# Tools to protect your emails and files
+cask "gpg-suite"
 # Free and open-source media player
 cask "iina"
 # System monitoring app

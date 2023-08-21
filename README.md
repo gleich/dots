@@ -1,9 +1,9 @@
 # dots
 
 ```txt
-matt@gleich.local 
------------------ 
-OS: macOS 13.5 arm64 
+matt@gleich.lan 
+--------------- 
+OS: macOS 13.5.1 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 22.6.0 
 Packages: 176 (brew) 
