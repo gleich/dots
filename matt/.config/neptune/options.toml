@@ -7,9 +7,9 @@ id = "Other"
 name = "Other"
 
 [[classes]]
-id = "MATH 172"
-name = "Calculus B"
+id = "COMM 142"
+name = "Introduction Technical Communication"
 
 [[classes]]
-id = "SWEN 261"
-name = "Introduction to Software Engineering"
+id = "CSCI 243"
+name = "The Mechanics of Programming"
