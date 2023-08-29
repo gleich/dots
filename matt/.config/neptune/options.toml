@@ -13,3 +13,11 @@ name = "Introduction Technical Communication"
 [[classes]]
 id = "CSCI 243"
 name = "The Mechanics of Programming"
+
+[[classes]]
+id = "MATH 190"
+name = "Discrete Mathematics For Computing"
+
+[[classes]]
+id = "PHYS 211A"
+name = "Physics"
