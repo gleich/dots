@@ -20,4 +20,8 @@ name = "Discrete Mathematics For Computing"
 
 [[classes]]
 id = "PHYS 211A"
-name = "Physics"
+name = "University Physics 1A"
+
+[[classes]]
+id = "UWRT 150"
+name = "Writing Seminar (FYW)"

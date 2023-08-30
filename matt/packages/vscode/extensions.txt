@@ -23,6 +23,7 @@ icrawl.discord-vscode
 James-Yu.latex-workshop
 JeffersonQin.latex-snippets-jeff
 jock.svg
+LeetCode.vscode-leetcode
 MattGleich.theme-blackbird
 meganrogge.template-string-converter
 mgmcdermott.vscode-language-babel
