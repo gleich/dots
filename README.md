@@ -1,7 +1,7 @@
 # dots
 
 ```txt
-matt@gleich-2.wireless.rit.edu 
+matt@gleich-3.wireless.rit.edu 
 ------------------------------ 
 OS: macOS 13.5.1 arm64 
 Host: MacBookPro18,4 

@@ -37,6 +37,7 @@ ms-vscode-remote.remote-ssh-edit
 ms-vscode.cpptools
 ms-vscode.live-server
 ms-vscode.remote-explorer
+ms-vscode.wordcount
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
