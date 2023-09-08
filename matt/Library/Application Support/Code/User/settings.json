@@ -700,7 +700,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Vitesse Dark Soft",
+  "workbench.colorTheme": "Vitesse Light Soft",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
