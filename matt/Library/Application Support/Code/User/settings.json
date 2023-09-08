@@ -212,7 +212,6 @@
   "files.autoSaveDelay": 100,
   "emmet.showSuggestionsAsSnippets": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.formatOnSave": true,
   "latex-workshop.intellisense.package.enabled": true,
   "editor.fontFamily": "Victor Mono",
   "dart.debugExternalLibraries": true,
@@ -701,7 +700,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Vitesse Light Soft",
+  "workbench.colorTheme": "Vitesse Dark Soft",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
