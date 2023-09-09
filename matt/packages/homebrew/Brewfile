@@ -129,6 +129,8 @@ cask "raycast"
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device
 cask "remarkable"
+# Tool that provides consistent, highly configurable symbols for apps
+cask "sf-symbols"
 # Video game digital distribution service
 cask "steam"
 # Cycling training system
