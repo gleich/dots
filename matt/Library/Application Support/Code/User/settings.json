@@ -711,5 +711,5 @@
   "redhat.telemetry.enabled": true,
   "terminal.integrated.scrollback": 50000,
   "lldb.suppressUpdateNotifications": true,
-  "githubPullRequests.pullBranch": "never"
+  "githubPullRequests.pullBranch": "never",
 }

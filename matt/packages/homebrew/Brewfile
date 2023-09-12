@@ -72,6 +72,8 @@ brew "zegervdv/zathura/zathura-pdf-poppler"
 cask "adobe-creative-cloud"
 # Chromium based browser
 cask "arc"
+# Integrated CAD, CAM, CAE, and PCB software
+cask "autodesk-fusion360"
 # Menu bar icon organizer
 cask "bartender"
 # Desktop password and login vault

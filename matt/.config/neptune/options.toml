@@ -24,4 +24,8 @@ name = "University Physics 1A"
 
 [[classes]]
 id = "UWRT 150"
-name = "Writing Seminar (FYW)"
+name = "First Year Writing: Seminar"
+
+[[classes]]
+id = "CSCI 99"
+name = "Undergraduate Co-op Seminar"
