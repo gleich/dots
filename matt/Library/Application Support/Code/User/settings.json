@@ -331,7 +331,7 @@
   "emmet.extensionsPath": ["~/.config/emmet/"],
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
-  "latex-workshop.view.pdf.invertMode.enabled": "always",
+  // "latex-workshop.view.pdf.invertMode.enabled": "always",
   "latex-workshop.latex.autoClean.run": "onBuilt",
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.build.forceRecipeUsage": true,
