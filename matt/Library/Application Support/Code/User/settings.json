@@ -333,7 +333,7 @@
   "vim.enableNeovim": true,
   // "latex-workshop.view.pdf.invertMode.enabled": "always",
   "latex-workshop.latex.autoClean.run": "onBuilt",
-  "latex-workshop.latex.autoBuild.run": "never",
+  // "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.progress.barStyle": "none",
   "[typescriptreact]": {
@@ -700,7 +700,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Vitesse Dark Soft",
+  "workbench.colorTheme": "GitHub Dark Default",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
