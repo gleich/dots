@@ -1,0 +1,215 @@
+tap "gleich/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "zegervdv/zathura"
+# Platform built on V8 to build network applications
+brew "node"
+# Secure and free password manager for all of your devices
+brew "bitwarden-cli"
+# Python code formatter
+brew "black"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Command-line DNS client
+brew "dog"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# GitHub command-line tool
+brew "gh"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Powerful, lightweight programming language
+brew "lua"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Passphrase entry dialog utilizing the Assuan protocol
+brew "pinentry"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Launcher to analyze a project with SonarQube
+brew "sonar-scanner"
+# Tool to enforce Swift style and conventions
+brew "swiftlint"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# JavaScript package manager
+brew "yarn"
+# Fork of youtube-dl with additional features and fixes
+brew "yt-dlp"
+# ☢️ Force quit all applications with one terminal command
+brew "gleich/tap/nuke"
+# PDF viewer
+brew "zegervdv/zathura/zathura"
+# Poppler backend plugin for zathura
+brew "zegervdv/zathura/zathura-pdf-poppler"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
+# Chromium based browser
+cask "arc"
+# Integrated CAD, CAM, CAE, and PCB software
+cask "autodesk-fusion360"
+# Menu bar icon organizer
+cask "bartender"
+# Desktop password and login vault
+cask "bitwarden"
+# Track and budget money
+cask "copilot"
+# Calendar for professionals and teams
+cask "cron"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Online diagram software
+cask "drawio"
+# Collaborative team software
+cask "figma"
+cask "font-bebas-neue"
+# Corporate typeface for IBM
+cask "font-ibm-plex-mono"
+# Monospaced font with cursive italics and programming symbol ligatures
+cask "font-victor-mono"
+# Developer targeted fonts with a high number of glyphs
+cask "font-victor-mono-nerd-font"
+# Horizontal and vertical rulers
+cask "free-ruler"
+# Update maps and software, sync with Garmin Connect and register your device
+cask "garmin-express"
+# Tools to protect your emails and files
+cask "gpg-suite"
+# Free and open-source media player
+cask "iina"
+# System monitoring app
+cask "istat-menus"
+# GPU-based terminal emulator
+cask "kitty"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
+# Full TeX Live distribution without GUI applications
+cask "mactex-no-gui"
+# Sandbox construction video game
+cask "minecraft"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# App to write, plan, collaborate, and get organized
+cask "notion"
+# G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
+cask "prusaslicer"
+# HTTP client that helps testing and describing APIs
+cask "rapidapi"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# View, Screen Share, organize, import, and download files to a reMarkable device
+cask "remarkable"
+# Tool that provides consistent, highly configurable symbols for apps
+cask "sf-symbols"
+# Video game digital distribution service
+cask "steam"
+# Cycling training system
+cask "trainerroad"
+# Open-source code editor
+cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "zoom"
+vscode "Angular.ng-template"
+vscode "antfu.icons-carbon"
+vscode "antfu.theme-vitesse"
+vscode "arthurwhite.white"
+vscode "blanu.vscode-styled-jsx"
+vscode "bmalehorn.vscode-fish"
+vscode "bodil.prettier-toml"
+vscode "christian-kohler.path-intellisense"
+vscode "dbaeumer.vscode-eslint"
+vscode "Divlo.vscode-styled-jsx-languageserver"
+vscode "donjayamanne.githistory"
+vscode "dustypomerleau.rust-syntax"
+vscode "emeraldwalk.RunOnSave"
+vscode "esbenp.prettier-vscode"
+vscode "exiasr.hadolint"
+vscode "formulahendry.auto-close-tag"
+vscode "formulahendry.auto-rename-tag"
+vscode "GitHub.github-vscode-theme"
+vscode "github.vscode-github-actions"
+vscode "GitHub.vscode-pull-request-github"
+vscode "golang.go"
+vscode "icrawl.discord-vscode"
+vscode "James-Yu.latex-workshop"
+vscode "JeffersonQin.latex-snippets-jeff"
+vscode "jock.svg"
+vscode "LeetCode.vscode-leetcode"
+vscode "MattGleich.theme-blackbird"
+vscode "meganrogge.template-string-converter"
+vscode "mgmcdermott.vscode-language-babel"
+vscode "mikestead.dotenv"
+vscode "ms-python.black-formatter"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.live-server"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.wordcount"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "naumovs.color-highlight"
+vscode "njpwerner.autodocstring"
+vscode "redhat.java"
+vscode "rust-lang.rust-analyzer"
+vscode "serayuzgur.crates"
+vscode "shardulm94.trailing-spaces"
+vscode "spywhere.now-playing"
+vscode "sswg.swift-lang"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "sumneko.lua"
+vscode "svelte.svelte-vscode"
+vscode "tamasfe.even-better-toml"
+vscode "tauri-apps.tauri-vscode"
+vscode "tecosaur.latex-utilities"
+vscode "unifiedjs.vscode-mdx"
+vscode "usernamehw.errorlens"
+vscode "vadimcn.vscode-lldb"
+vscode "VisualStudioExptTeam.intellicode-api-usage-examples"
+vscode "VisualStudioExptTeam.vscodeintellicode"
+vscode "vivaxy.vscode-conventional-commits"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "vscode-icons-team.vscode-icons"
+vscode "vscodevim.vim"
+vscode "WakaTime.vscode-wakatime"
+vscode "XadillaX.viml"
+vscode "yzhang.markdown-all-in-one"
+vscode "znck.grammarly"
