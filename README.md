@@ -1,11 +1,11 @@
 # dots
 
 ```txt
-matt@gleich-5.wireless.rit.edu 
------------------------------- 
-OS: macOS 13.6 arm64 
+matt@gleich-5.local 
+------------------- 
+OS: macOS 14.0 arm64 
 Host: MacBookPro18,4 
-Kernel: Darwin 22.6.0 
+Kernel: Darwin 23.0.0 
 Packages: 180 (brew) 
 Shell: fish 3.6.1 
 DE: Aqua 
