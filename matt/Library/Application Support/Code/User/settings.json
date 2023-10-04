@@ -702,7 +702,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "🏴 blackbird → jungle",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
