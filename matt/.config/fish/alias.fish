@@ -14,7 +14,6 @@ alias gv="gh repo view -w"
 alias gp="git push"
 alias gl="git log --no-decorate"
 alias gpu="git pull"
-alias gs="git status"
 alias cl="gh repo clone"
 
 # resin

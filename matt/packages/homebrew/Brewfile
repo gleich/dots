@@ -20,12 +20,18 @@ brew "unbound"
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Monitor a directory for changes and run a shell command
+brew "fswatch"
 # GitHub command-line tool
 brew "gh"
 # Interpreter for PostScript and PDF
 brew "ghostscript"
 # Distributed revision control system
 brew "git"
+# Passphrase entry dialog utilizing the Assuan protocol
+brew "pinentry"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Smarter Dockerfile linter to validate best practices
@@ -44,8 +50,6 @@ brew "neofetch"
 brew "neovim"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
-# Passphrase entry dialog utilizing the Assuan protocol
-brew "pinentry"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Interpreted, interactive, object-oriented programming language
@@ -101,6 +105,8 @@ cask "font-victor-mono-nerd-font"
 cask "free-ruler"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Tools to protect your emails and files
 cask "gpg-suite"
 # Free and open-source media player
@@ -113,6 +119,8 @@ cask "kitty"
 cask "libreoffice"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
 # Sandbox construction video game
 cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -135,6 +143,8 @@ cask "remarkable"
 cask "sf-symbols"
 # Video game digital distribution service
 cask "steam"
+# To-do & task list manager
+cask "ticktick"
 # Cycling training system
 cask "trainerroad"
 # Open-source code editor
@@ -210,6 +220,7 @@ vscode "vscjava.vscode-maven"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
 vscode "WakaTime.vscode-wakatime"
+vscode "wayou.vscode-todo-highlight"
 vscode "XadillaX.viml"
 vscode "yzhang.markdown-all-in-one"
 vscode "znck.grammarly"
