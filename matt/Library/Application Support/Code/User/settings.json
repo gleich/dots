@@ -702,7 +702,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "🏴 blackbird → jungle",
+  "workbench.colorTheme": "Bearded Theme Arc Reversed",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,

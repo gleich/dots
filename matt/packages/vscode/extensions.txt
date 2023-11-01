@@ -2,6 +2,7 @@ Angular.ng-template
 antfu.icons-carbon
 antfu.theme-vitesse
 arthurwhite.white
+BeardedBear.beardedtheme
 blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
 bodil.prettier-toml
