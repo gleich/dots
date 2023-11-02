@@ -446,7 +446,6 @@
   "go.toolsManagement.autoUpdate": true,
   "docker.showStartPage": false,
   "explorer.compactFolders": false,
-  "workbench.editor.untitled.hint": "hidden",
   "editor.suggest.insertMode": "replace",
   "editor.suggest.showStatusBar": true,
   "go.useCodeSnippetsOnFunctionSuggest": true,
@@ -702,7 +701,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Bearded Theme Arc Reversed",
+  "workbench.colorTheme": "Bearded Theme Arc EolStorm",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -715,5 +714,6 @@
   "lldb.suppressUpdateNotifications": true,
   "githubPullRequests.pullBranch": "never",
   "editor.formatOnSave": true,
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.activityBar.location": "top"
 }
