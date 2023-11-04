@@ -216,7 +216,7 @@
   "emmet.showSuggestionsAsSnippets": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "Victor Mono",
+  "editor.fontFamily": "Geist Mono",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
