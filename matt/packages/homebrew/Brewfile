@@ -97,6 +97,7 @@ cask "figma"
 cask "font-bebas-neue"
 # Corporate typeface for IBM
 cask "font-ibm-plex-mono"
+cask "font-inter"
 # Monospaced font with cursive italics and programming symbol ligatures
 cask "font-victor-mono"
 # Developer targeted fonts with a high number of glyphs
