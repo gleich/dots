@@ -702,7 +702,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Bearded Theme Arc EolStorm",
+  "workbench.colorTheme": "Bearded Theme Anthracite",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
