@@ -80,8 +80,6 @@ cask "arc"
 cask "autodesk-fusion360"
 # Menu bar icon organizer
 cask "bartender"
-# Desktop password and login vault
-cask "bitwarden"
 # Track and budget money
 cask "copilot"
 # Calendar for professionals and teams
