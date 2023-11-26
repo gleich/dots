@@ -127,6 +127,8 @@ cask "minecraft"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Desktop virtualization software
+cask "parallels"
 # G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
 cask "prusaslicer"
 # HTTP client that helps testing and describing APIs
