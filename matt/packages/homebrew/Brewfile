@@ -143,6 +143,8 @@ cask "rectangle"
 cask "remarkable"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
+# Team communication and collaboration software
+cask "slack"
 # Video game digital distribution service
 cask "steam"
 # To-do & task list manager
