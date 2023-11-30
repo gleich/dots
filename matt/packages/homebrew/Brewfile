@@ -8,6 +8,8 @@ brew "node"
 brew "bitwarden-cli"
 # Python code formatter
 brew "black"
+# Linux/OSX/FreeBSD resource monitor
+brew "bpytop"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
 # Command-line DNS client
@@ -40,6 +42,8 @@ brew "hadolint"
 brew "lazygit"
 # Powerful, lightweight programming language
 brew "lua"
+# Utility for directing compilation
+brew "make"
 # Development kit for the Java programming language
 brew "openjdk"
 # Java-based project management
@@ -80,6 +84,8 @@ cask "arc"
 cask "autodesk-fusion360"
 # Menu bar icon organizer
 cask "bartender"
+# Terminal emulator mimicking the old cathode display
+cask "cool-retro-term"
 # Track and budget money
 cask "copilot"
 # Calendar for professionals and teams
