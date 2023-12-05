@@ -10,6 +10,8 @@ brew "bitwarden-cli"
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Console Matrix
+brew "cmatrix"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
 # Command-line DNS client
@@ -78,6 +80,8 @@ brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Chromium based browser
 cask "arc"
 # Integrated CAD, CAM, CAE, and PCB software
@@ -147,6 +151,8 @@ cask "raycast"
 cask "rectangle"
 # View, Screen Share, organize, import, and download files to a reMarkable device
 cask "remarkable"
+# Emoji picker optimized for blind people
+cask "rocket"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # Team communication and collaboration software
