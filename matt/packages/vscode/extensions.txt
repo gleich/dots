@@ -1,3 +1,4 @@
+akamud.vscode-theme-onedark
 Angular.ng-template
 antfu.icons-carbon
 antfu.theme-vitesse
