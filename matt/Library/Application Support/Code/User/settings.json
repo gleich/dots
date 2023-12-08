@@ -311,7 +311,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   "editor.cursorBlinking": "smooth",
   "terminal.integrated.cursorBlinking": true,
@@ -538,7 +538,7 @@
   },
   "[go]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "zenMode.hideLineNumbers": false,
@@ -716,5 +716,6 @@
   "githubPullRequests.pullBranch": "never",
   "editor.formatOnSave": true,
   "workbench.editor.empty.hint": "hidden",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "liveshare.populateGitCoAuthors": "never"
 }
