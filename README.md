@@ -6,7 +6,7 @@ matt@gleich-6.wireless.rit.edu
 OS: macOS 14.2 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 23.2.0 
-Packages: 204 (brew) 
+Packages: 205 (brew) 
 Shell: fish 3.6.4 
 DE: Aqua 
 WM: Rectangle 

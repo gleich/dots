@@ -62,6 +62,8 @@ brew "pinentry-mac"
 brew "python@3.10"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Prints a steam locomotive if you type sl instead of ls
+brew "sl"
 # Launcher to analyze a project with SonarQube
 brew "sonar-scanner"
 # Tool to enforce Swift style and conventions
@@ -151,8 +153,6 @@ cask "raspberry-pi-imager"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# View, Screen Share, organize, import, and download files to a reMarkable device
-cask "remarkable"
 # Emoji picker optimized for blind people
 cask "rocket"
 # Tool that provides consistent, highly configurable symbols for apps
