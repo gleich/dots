@@ -82,8 +82,6 @@ brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Chromium based browser
 cask "arc"
 # Integrated CAD, CAM, CAE, and PCB software
@@ -141,8 +139,6 @@ cask "minecraft"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# Desktop virtualization software
-cask "parallels"
 # G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
 cask "prusaslicer"
 # HTTP client that helps testing and describing APIs
