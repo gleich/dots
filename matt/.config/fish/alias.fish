@@ -15,6 +15,7 @@ alias gp="git push"
 alias gl="git log --no-decorate"
 alias gpu="git pull"
 alias cl="gh repo clone"
+alias gs="git status"
 
 # resin
 alias gmap="resin -a -p"
