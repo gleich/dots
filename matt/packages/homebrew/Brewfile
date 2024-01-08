@@ -159,8 +159,6 @@ cask "slack"
 cask "steam"
 # To-do & task list manager
 cask "ticktick"
-# Cycling training system
-cask "trainerroad"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
