@@ -163,6 +163,8 @@ cask "ticktick"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Indoor cycling game
+cask "zwift"
 vscode "akamud.vscode-theme-onedark"
 vscode "Angular.ng-template"
 vscode "antfu.icons-carbon"
