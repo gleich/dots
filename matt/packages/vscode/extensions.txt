@@ -30,6 +30,10 @@ MattGleich.theme-blackbird
 meganrogge.template-string-converter
 mgmcdermott.vscode-language-babel
 mikestead.dotenv
+ms-dotnettools.csdevkit
+ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
+ms-dotnettools.vscodeintellicode-csharp
 ms-python.black-formatter
 ms-python.isort
 ms-python.python
