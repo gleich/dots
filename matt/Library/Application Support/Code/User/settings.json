@@ -717,6 +717,5 @@
   "editor.formatOnSave": true,
   "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
-  "liveshare.populateGitCoAuthors": "never",
-  "window.zoomLevel": 1
+  "liveshare.populateGitCoAuthors": "never"
 }

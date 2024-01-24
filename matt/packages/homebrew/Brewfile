@@ -46,14 +46,12 @@ brew "lazygit"
 brew "lua"
 # Utility for directing compilation
 brew "make"
-# Development kit for the Java programming language
-brew "openjdk"
-# Java-based project management
-brew "maven"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Development kit for the Java programming language
+brew "openjdk@17"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pinentry for GPG on Mac
@@ -64,8 +62,6 @@ brew "python@3.10"
 brew "ripgrep"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
-# Launcher to analyze a project with SonarQube
-brew "sonar-scanner"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
 # Executes a program periodically, showing output fullscreen
@@ -125,6 +121,8 @@ cask "grammarly-desktop"
 cask "iina"
 # System monitoring app
 cask "istat-menus"
+# Electronics design automation suite
+cask "kicad"
 # GPU-based terminal emulator
 cask "kitty"
 # Free cross-platform office suite, fresh version
