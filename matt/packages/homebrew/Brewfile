@@ -46,6 +46,8 @@ brew "lazygit"
 brew "lua"
 # Utility for directing compilation
 brew "make"
+# Java-based project management
+brew "maven"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility

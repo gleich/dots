@@ -290,7 +290,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "IBM Plex Mono",
+  "terminal.integrated.fontFamily": "Geist Mono",
   "terminal.integrated.fontSize": 14,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -717,5 +717,6 @@
   "editor.formatOnSave": true,
   "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
-  "liveshare.populateGitCoAuthors": "never"
+  "liveshare.populateGitCoAuthors": "never",
+  "markdown.preview.fontFamily": "Geist Mono"
 }
