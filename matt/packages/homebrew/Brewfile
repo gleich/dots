@@ -155,8 +155,6 @@ cask "rocket"
 cask "sf-symbols"
 # Team communication and collaboration software
 cask "slack"
-# Video game digital distribution service
-cask "steam"
 # To-do & task list manager
 cask "ticktick"
 # Open-source code editor
