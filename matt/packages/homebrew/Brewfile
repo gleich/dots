@@ -85,18 +85,18 @@ cask "adobe-creative-cloud"
 # Chromium based browser
 cask "arc"
 # Integrated CAD, CAM, CAE, and PCB software
-cask "autodesk-fusion360"
-# Menu bar icon organizer
+cask "autodesk-fusion"
+# Menu bar icon organiser
 cask "bartender"
+# Hardware benchmarking utility
+cask "cinebench"
 # Terminal emulator mimicking the old cathode display
 cask "cool-retro-term"
 # Track and budget money
 cask "copilot"
-# Calendar for professionals and teams
-cask "cron"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
+# App to build and share containerised applications and microservices
 cask "docker"
 # Online diagram software
 cask "drawio"
@@ -139,8 +139,10 @@ cask "microsoft-auto-update"
 cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
-# App to write, plan, collaborate, and get organized
+# App to write, plan, collaborate, and get organised
 cask "notion"
+# Calendar for professionals and teams
+cask "notion-calendar"
 # G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
 cask "prusaslicer"
 # HTTP client that helps testing and describing APIs
@@ -151,7 +153,7 @@ cask "raspberry-pi-imager"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Emoji picker optimized for blind people
+# Emoji picker optimised for blind people
 cask "rocket"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
