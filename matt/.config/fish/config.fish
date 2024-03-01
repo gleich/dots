@@ -37,7 +37,7 @@ set fish_cursor_insert line blink
 
 # custom vim prompt theme
 function fish_mode_prompt
-    echo '<'
+    echo ' ['
     switch $fish_bind_mode
         case default
             set_color --bold red
@@ -56,5 +56,5 @@ function fish_mode_prompt
             echo '?'
     end
     set_color normal
-    echo '>-'
+    echo '] '
 end

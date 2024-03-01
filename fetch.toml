@@ -17,7 +17,6 @@ children = [
     "resin",
     "neofetch",
     "zathura",
-    "neptune",
     "raycast/script-commands",
     "nvim"
 ]

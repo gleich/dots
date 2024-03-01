@@ -1,13 +1,13 @@
 [credential "https://github.com"]
-	helper = 
+	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
+	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [user]
 	name = Matt Gleich
 	email = git@mattglei.ch
-	signingkey = 5D837433CD6CA870
+	signingkey = 5D71E0B9B10DC701
 [commit]
 	gpgsign = true
 [tag]
