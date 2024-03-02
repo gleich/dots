@@ -46,6 +46,8 @@ cask "dockey"
 cask "font-geist-mono"
 # Tools to protect your emails and files
 cask "gpg-suite"
+# Grammarly for desktop
+cask "grammarly-desktop"
 # Free and open-source media player
 cask "iina"
 # GPU-based terminal emulator
