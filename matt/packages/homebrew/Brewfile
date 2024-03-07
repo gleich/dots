@@ -1,7 +1,5 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
@@ -30,6 +28,8 @@ brew "poetry"
 brew "yarn"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
 # Chromium based browser
 cask "arc"
 # Menu bar icon organiser
@@ -56,6 +56,8 @@ cask "kitty"
 cask "mactex"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# Converts and edits video, audio or image files
+cask "permute"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Control your tools with a few keystrokes
