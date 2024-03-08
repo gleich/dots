@@ -50,6 +50,8 @@ cask "gpg-suite"
 cask "grammarly-desktop"
 # Free and open-source media player
 cask "iina"
+# System monitoring app
+cask "istat-menus"
 # GPU-based terminal emulator
 cask "kitty"
 # Full TeX Live distribution with GUI applications
