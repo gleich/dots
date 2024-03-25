@@ -26,7 +26,7 @@ brew "pinentry-mac"
 brew "poetry"
 # JavaScript package manager
 brew "yarn"
-# Fork of youtube-dl with additional features and fixes
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
@@ -60,6 +60,8 @@ cask "istat-menus"
 cask "kitty"
 # Full TeX Live distribution with GUI applications
 cask "mactex"
+# Sandbox construction video game
+cask "minecraft"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Converts and edits video, audio or image files
