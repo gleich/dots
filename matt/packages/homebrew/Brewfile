@@ -24,6 +24,8 @@ brew "openjdk"
 brew "pinentry-mac"
 # Python package management tool
 brew "poetry"
+# Prints a steam locomotive if you type sl instead of ls
+brew "sl"
 # JavaScript package manager
 brew "yarn"
 # Feature-rich command-line audio/video downloader
@@ -36,6 +38,8 @@ cask "arc"
 cask "bartender"
 # Desktop password and login vault
 cask "bitwarden"
+# Terminal emulator mimicking the old cathode display
+cask "cool-retro-term"
 # Command-line display management utility
 cask "cscreen"
 # Voice and text chat software
