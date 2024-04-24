@@ -140,6 +140,7 @@
     "negatable",
     "neopixel",
     "ngnix",
+    "niranth",
     "numpy",
     "oauthlib",
     "octodns",
@@ -474,8 +475,14 @@
       "before": ["C-r"],
       "commands": ["redo"]
     },
-    { "before": ["down"], "after": ["g", "j"] },
-    { "before": ["up"], "after": ["g", "k"] },
+    {
+      "before": ["down"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["up"],
+      "after": ["g", "k"]
+    },
     {
       "before": ["j"],
       "after": ["g", "j"]
@@ -486,8 +493,14 @@
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
-    { "before": ["down"], "after": ["g", "j"] },
-    { "before": ["up"], "after": ["g", "k"] },
+    {
+      "before": ["down"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["up"],
+      "after": ["g", "k"]
+    },
     {
       "before": "k",
       "after": ["g", "j"]

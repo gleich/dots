@@ -4,32 +4,16 @@ tap "homebrew/cask-fonts"
 brew "fish"
 # GitHub command-line tool
 brew "gh"
-# Distributed revision control system
-brew "git"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# OpenType text shaping engine
-brew "harfbuzz"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
-# Development kit for the Java programming language
-brew "openjdk"
-# Pinentry for GPG on Mac
-brew "pinentry-mac"
-# Python package management tool
-brew "poetry"
-# Prints a steam locomotive if you type sl instead of ls
-brew "sl"
-# JavaScript package manager
-brew "yarn"
-# Feature-rich command-line audio/video downloader
-brew "yt-dlp"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Chromium based browser
@@ -38,40 +22,28 @@ cask "arc"
 cask "bartender"
 # Desktop password and login vault
 cask "bitwarden"
-# Terminal emulator mimicking the old cathode display
-cask "cool-retro-term"
-# Command-line display management utility
-cask "cscreen"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
-# Advanced Dock preferences
-cask "dockey"
+# Collaborative team software
+cask "figma"
 # Monospaced typeface designed to be used where code is represented
 cask "font-geist-mono"
-# Update maps and software, sync with Garmin Connect and register your device
-cask "garmin-express"
 # Tools to protect your emails and files
 cask "gpg-suite"
-# Grammarly for desktop
-cask "grammarly-desktop"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
 cask "istat-menus"
 # GPU-based terminal emulator
 cask "kitty"
-# Full TeX Live distribution with GUI applications
-cask "mactex"
-# Sandbox construction video game
-cask "minecraft"
+# Full TeX Live distribution without GUI applications
+cask "mactex-no-gui"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Converts and edits video, audio or image files
 cask "permute"
-# HTTP client that helps testing and describing APIs
-cask "rapidapi"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -80,14 +52,11 @@ cask "rectangle"
 cask "slack"
 # Video game digital distribution service
 cask "steam"
-# Cycling training system
-cask "trainerroad"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-# Indoor cycling game
-cask "zwift"
+vscode "adamgraham.polykai-theme"
 vscode "akamud.vscode-theme-onedark"
 vscode "antfu.icons-carbon"
 vscode "antfu.theme-vitesse"

@@ -1,7 +1,0 @@
-{
-  "Println": {
-    "prefix": "pl",
-    "body": ["System.out.println(\"$1\");"],
-    "description": "Print a string on a new line"
-  }
-}

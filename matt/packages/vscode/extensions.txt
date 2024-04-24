@@ -1,3 +1,4 @@
+adamgraham.polykai-theme
 akamud.vscode-theme-onedark
 antfu.icons-carbon
 antfu.theme-vitesse
