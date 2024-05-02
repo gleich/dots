@@ -44,6 +44,8 @@ cask "mactex-no-gui"
 cask "notion"
 # Converts and edits video, audio or image files
 cask "permute"
+# HTTP client that helps testing and describing APIs
+cask "rapidapi"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -78,7 +80,6 @@ vscode "github.github-vscode-theme"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
-vscode "icrawl.discord-vscode"
 vscode "james-yu.latex-workshop"
 vscode "jeffersonqin.latex-snippets-jeff"
 vscode "jock.svg"
