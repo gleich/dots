@@ -6,6 +6,8 @@ brew "fish"
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -32,6 +34,8 @@ cask "figma"
 cask "font-geist-mono"
 # Tools to protect your emails and files
 cask "gpg-suite"
+# Grammarly for desktop
+cask "grammarly-desktop"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
