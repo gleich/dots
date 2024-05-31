@@ -1,4 +1,4 @@
-default_toolchain = "nightly-aarch64-apple-darwin"
+default_toolchain = "stable-aarch64-apple-darwin"
 profile = "default"
 version = "12"
 

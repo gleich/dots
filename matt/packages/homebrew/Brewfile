@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+# Python code formatter
+brew "black"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
@@ -14,6 +16,10 @@ brew "neofetch"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
+# Python package management tool
+brew "poetry"
+# Tool Command Language
+brew "tcl-tk"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Collection of apps and services for photography, design, video, web, and UX
@@ -50,6 +56,8 @@ cask "notion"
 cask "permute"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas

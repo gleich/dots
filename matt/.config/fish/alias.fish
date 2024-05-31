@@ -7,7 +7,6 @@ alias sl="ls"
 alias cpwd="pwd | pbcopy"
 alias ore="omf reload"
 alias vico="nvim ~/.config/nvim"
-alias ssh="kitty +kitten ssh"
 
 # git/gh
 alias gv="gh repo view -w"
