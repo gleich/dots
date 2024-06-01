@@ -21,6 +21,7 @@ github.vscode-github-actions
 github.vscode-pull-request-github
 golang.go
 james-yu.latex-workshop
+jdinhlife.gruvbox
 jeffersonqin.latex-snippets-jeff
 jock.svg
 leetcode.vscode-leetcode
