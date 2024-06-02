@@ -20,6 +20,7 @@ github.github-vscode-theme
 github.vscode-github-actions
 github.vscode-pull-request-github
 golang.go
+icrawl.discord-vscode
 james-yu.latex-workshop
 jdinhlife.gruvbox
 jeffersonqin.latex-snippets-jeff
