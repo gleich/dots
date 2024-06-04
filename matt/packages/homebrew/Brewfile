@@ -40,6 +40,8 @@ cask "docker"
 cask "figma"
 # Monospaced typeface designed to be used where code is represented
 cask "font-geist-mono"
+# Update maps and software, sync with Garmin Connect and register your device
+cask "garmin-express"
 # Tools to protect your emails and files
 cask "gpg-suite"
 # Grammarly for desktop
