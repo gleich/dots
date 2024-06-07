@@ -11,7 +11,6 @@ dbaeumer.vscode-eslint
 divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
 dustypomerleau.rust-syntax
-emeraldwalk.runonsave
 esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
@@ -47,6 +46,7 @@ njpwerner.autodocstring
 rust-lang.rust-analyzer
 serayuzgur.crates
 shardulm94.trailing-spaces
+skyran.js-jsx-snippets
 spywhere.now-playing
 sswg.swift-lang
 streetsidesoftware.code-spell-checker

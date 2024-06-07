@@ -333,9 +333,7 @@
   },
   "rust.all_features": true,
   "emmet.triggerExpansionOnTab": true,
-  "emmet.extensionsPath": [
-    "~/.config/emmet/"
-  ],
+  "emmet.extensionsPath": ["~/.config/emmet/"],
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
   // "latex-workshop.view.pdf.invertMode.enabled": "always",
@@ -385,14 +383,6 @@
     "java:S1319": {
       "level": "off"
     }
-  },
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": "\\.go$",
-        "cmd": "golines ${file} -w"
-      }
-    ]
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
