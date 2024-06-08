@@ -24,6 +24,8 @@ brew "poetry"
 brew "tcl-tk"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# JavaScript package manager
+brew "yarn"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Chromium based browser
@@ -56,6 +58,8 @@ cask "istat-menus"
 cask "kitty"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Converts and edits video, audio or image files
