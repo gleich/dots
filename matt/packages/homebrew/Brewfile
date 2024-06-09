@@ -15,7 +15,7 @@ brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Platform built on V8 to build network applications
-brew "node"
+brew "node@20"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python package management tool
