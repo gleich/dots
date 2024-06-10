@@ -123,6 +123,7 @@
     "macos",
     "manimlib",
     "mattg",
+    "mattglei",
     "mattgleich",
     "matthewgleich",
     "mgleich",
@@ -723,5 +724,6 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
   "liveshare.populateGitCoAuthors": "never",
-  "markdown.preview.fontFamily": "Geist Mono"
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
