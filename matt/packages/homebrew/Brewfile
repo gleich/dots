@@ -40,9 +40,7 @@ cask "discord"
 cask "docker"
 # Collaborative team software
 cask "figma"
-# Monospaced typeface designed to be used where code is represented
 cask "font-geist-mono"
-# Variable font designed for display
 cask "font-inter"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
