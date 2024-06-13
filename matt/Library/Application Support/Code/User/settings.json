@@ -727,5 +727,6 @@
   "workbench.activityBar.location": "top",
   "liveshare.populateGitCoAuthors": "never",
   "markdown.preview.fontFamily": "Geist Mono",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "svg.preview.mode": "img"
 }
