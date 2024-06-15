@@ -1,3 +1,4 @@
+tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 # Python code formatter
@@ -26,6 +27,11 @@ brew "tcl-tk"
 brew "tree"
 # JavaScript package manager
 brew "yarn"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
+# Update the copyright year in all of your GitHub repos 
+brew "gleich/tap/new_yearify"
+brew "gleich/tap/solar"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Chromium based browser
@@ -54,6 +60,8 @@ cask "iina"
 cask "istat-menus"
 # GPU-based terminal emulator
 cask "kitty"
+# Music services manager
+cask "lastfm"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Reverse proxy, secure introspectable tunnels to localhost
