@@ -1,0 +1,13 @@
+{
+	"Styled JSX": {
+		"prefix": "stj",
+		"body": [
+			"<style jsx>",
+			"\t{`",
+			"\t\t$1",
+			"\t`}",
+			"</style>"
+		],
+		"description": "Styled JSX"
+	}
+}
