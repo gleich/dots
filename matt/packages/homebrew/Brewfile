@@ -7,6 +7,8 @@ brew "black"
 brew "fish"
 # GitHub command-line tool
 brew "gh"
+# Git extension for versioning large files
+brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Smarter Dockerfile linter to validate best practices

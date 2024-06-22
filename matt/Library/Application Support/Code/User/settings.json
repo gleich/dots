@@ -337,9 +337,7 @@
   },
   "rust.all_features": true,
   "emmet.triggerExpansionOnTab": true,
-  "emmet.extensionsPath": [
-    "~/.config/emmet/"
-  ],
+  "emmet.extensionsPath": ["~/.config/emmet/"],
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
   // "latex-workshop.view.pdf.invertMode.enabled": "always",
@@ -550,7 +548,8 @@
   "[go]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
-    }
+    },
+    "editor.defaultFormatter": "golang.go"
   },
   "zenMode.hideLineNumbers": false,
   "workbench.editor.decorations.colors": false,
@@ -713,7 +712,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorTheme": "Atom One Dark",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -731,5 +730,7 @@
   "liveshare.populateGitCoAuthors": "never",
   "markdown.preview.fontFamily": "Geist Mono",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "svg.preview.mode": "img"
+  "svg.preview.mode": "img",
+  "github-actions.workflows.pinned.refresh.interval": 10,
+  "github-actions.workflows.pinned.refresh.enabled": true
 }
