@@ -49,7 +49,6 @@ serayuzgur.crates
 shardulm94.trailing-spaces
 skyran.js-jsx-snippets
 spywhere.now-playing
-sswg.swift-lang
 streetsidesoftware.code-spell-checker
 sumneko.lua
 svelte.svelte-vscode
