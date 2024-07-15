@@ -295,7 +295,7 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "IBM Plex Mono",
   "terminal.integrated.fontSize": 14,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
