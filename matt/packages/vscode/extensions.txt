@@ -45,7 +45,6 @@ ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
 rust-lang.rust-analyzer
-serayuzgur.crates
 shardulm94.trailing-spaces
 skyran.js-jsx-snippets
 spywhere.now-playing
