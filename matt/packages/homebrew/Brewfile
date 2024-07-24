@@ -1,6 +1,7 @@
 tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "minio/stable"
 # Python code formatter
 brew "black"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -34,6 +35,8 @@ brew "yt-dlp"
 # Update the copyright year in all of your GitHub repos 
 brew "gleich/tap/new_yearify"
 brew "gleich/tap/solar"
+# MinIO Client for object storage and filesystems
+brew "minio/stable/mc"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Chromium based browser

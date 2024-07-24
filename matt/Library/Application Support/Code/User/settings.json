@@ -12,7 +12,7 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "latex-workshop.message.update.show": true,
   "latex-workshop.view.pdf.viewer": "tab",
   "workbench.iconTheme": "vscode-icons",
@@ -135,6 +135,7 @@
     "microservice",
     "microservices",
     "Minikube",
+    "minio",
     "mkdir",
     "modtime",
     "Monokai",
@@ -296,7 +297,7 @@
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
   "terminal.integrated.fontFamily": "IBM Plex Mono",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -618,7 +619,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Bearded Theme Monokai Stone",
+  "workbench.colorTheme": "GitHub Dark",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
