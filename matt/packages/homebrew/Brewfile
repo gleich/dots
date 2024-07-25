@@ -22,6 +22,8 @@ brew "neovim"
 brew "node@20"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Python package management tool
 brew "poetry"
 # Tool Command Language
