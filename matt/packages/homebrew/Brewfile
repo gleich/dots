@@ -12,6 +12,8 @@ brew "gh"
 brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Fast linters runner for Go
+brew "golangci-lint"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Fast, highly customisable system info script
