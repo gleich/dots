@@ -20,6 +20,7 @@ github.github-vscode-theme
 github.vscode-github-actions
 github.vscode-pull-request-github
 golang.go
+hashicorp.terraform
 icrawl.discord-vscode
 james-yu.latex-workshop
 jdinhlife.gruvbox
