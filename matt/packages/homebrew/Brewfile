@@ -49,6 +49,8 @@ cask "arc"
 cask "bartender"
 # Desktop password and login vault
 cask "bitwarden"
+# Terminal emulator mimicking the old cathode display
+cask "cool-retro-term"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
