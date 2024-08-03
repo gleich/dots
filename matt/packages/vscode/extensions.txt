@@ -12,6 +12,7 @@ dbaeumer.vscode-eslint
 divlo.vscode-styled-jsx-languageserver
 donjayamanne.githistory
 dustypomerleau.rust-syntax
+emeraldwalk.runonsave
 esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag

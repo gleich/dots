@@ -639,5 +639,13 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "svg.preview.mode": "img",
   "github-actions.workflows.pinned.refresh.interval": 10,
-  "github-actions.workflows.pinned.refresh.enabled": true
+  "github-actions.workflows.pinned.refresh.enabled": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.go$",
+        "cmd": "golines ${file} -w"
+      }
+    ]
+  }
 }
