@@ -64,6 +64,7 @@ cask "firefox@developer-edition"
 cask "font-geist-mono"
 cask "font-ibm-plex-mono"
 cask "font-inter"
+cask "font-jetbrains-mono"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
 # Tools to protect your emails and files

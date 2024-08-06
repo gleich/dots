@@ -296,7 +296,6 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontFamily": "IBM Plex Mono",
   "terminal.integrated.fontSize": 13,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -647,5 +646,6 @@
         "cmd": "golines ${file} -w"
       }
     ]
-  }
+  },
+  "terminal.integrated.fontFamily": "Jetbrains Mono"
 }
