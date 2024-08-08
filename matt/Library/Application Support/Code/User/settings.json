@@ -600,8 +600,6 @@
   "search.showLineNumbers": true,
   "java.configuration.updateBuildConfiguration": "automatic",
   "terminal.integrated.macOptionIsMeta": true,
-  "editor.fontWeight": "600",
-  "terminal.integrated.fontWeight": "bold",
   "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": true,
   "editor.minimap.enabled": false,
