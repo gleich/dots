@@ -277,7 +277,7 @@
     "editor.formatOnType": true
   },
   "latex-workshop.message.error.show": false,
-  "editor.fontLigatures": "'ss02','ss06'",
+  "editor.fontLigatures": "'zero'",
   "latex-workshop.message.warning.show": false,
   "workbench.sideBar.location": "right",
   "debug.openDebug": "neverOpen",
@@ -329,7 +329,6 @@
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/opt/homebrew/bin/black",
   "git.confirmSync": false,
-  "editor.folding": false,
   "markdown.extension.toc.levels": "1..4",
   "jupyter.sendSelectionToInteractiveWindow": false,
   "[rust]": {
@@ -618,7 +617,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorTheme": "poimandres-noitalics-storm",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -647,5 +646,6 @@
       }
     ]
   },
-  "terminal.integrated.fontFamily": "Jetbrains Mono"
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "editor.folding": false
 }

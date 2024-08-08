@@ -2,7 +2,6 @@ adamgraham.polykai-theme
 akamud.vscode-theme-onedark
 antfu.icons-carbon
 antfu.theme-vitesse
-beardedbear.beardedtheme
 blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
 bodil.prettier-toml
@@ -27,7 +26,6 @@ james-yu.latex-workshop
 jdinhlife.gruvbox
 jeffersonqin.latex-snippets-jeff
 jock.svg
-leetcode.vscode-leetcode
 mattgleich.theme-blackbird
 meganrogge.template-string-converter
 mgmcdermott.vscode-language-babel
@@ -46,6 +44,7 @@ ms-vscode.wordcount
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
+pmndrs.pmndrs
 rust-lang.rust-analyzer
 shardulm94.trailing-spaces
 skyran.js-jsx-snippets
