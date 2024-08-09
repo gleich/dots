@@ -103,6 +103,8 @@ cask "steam"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "adamgraham.polykai-theme"
