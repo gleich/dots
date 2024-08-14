@@ -16,6 +16,7 @@ esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
+garmin.monkey-c
 github.github-vscode-theme
 github.vscode-github-actions
 github.vscode-pull-request-github
