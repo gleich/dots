@@ -43,6 +43,8 @@ brew "gleich/tap/solar"
 brew "minio/stable/mc"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Chromium based browser
 cask "arc"
 # Menu bar icon organiser
