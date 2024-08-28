@@ -91,8 +91,12 @@ cask "mactex-no-gui"
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# Calendar for professionals and teams
+cask "notion-calendar"
 # Converts and edits video, audio or image files
 cask "permute"
+# Create experiments in behavioral science
+cask "psychopy"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card
@@ -148,6 +152,9 @@ vscode "mattgleich.theme-blackbird"
 vscode "meganrogge.template-string-converter"
 vscode "mgmcdermott.vscode-language-babel"
 vscode "mikestead.dotenv"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
 vscode "ms-python.black-formatter"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
