@@ -4,6 +4,8 @@ tap "homebrew/cask-fonts"
 tap "minio/stable"
 # Python code formatter
 brew "black"
+# .NET Core
+brew "dotnet"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
