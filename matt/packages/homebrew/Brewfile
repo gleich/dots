@@ -18,6 +18,10 @@ brew "go"
 brew "golangci-lint"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -93,8 +97,6 @@ cask "mactex-no-gui"
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
 cask "notion"
-# Calendar for professionals and teams
-cask "notion-calendar"
 # Converts and edits video, audio or image files
 cask "permute"
 # Create experiments in behavioral science
@@ -172,6 +174,7 @@ vscode "ms-vsliveshare.vsliveshare"
 vscode "naumovs.color-highlight"
 vscode "njpwerner.autodocstring"
 vscode "pmndrs.pmndrs"
+vscode "redhat.java"
 vscode "rust-lang.rust-analyzer"
 vscode "shardulm94.trailing-spaces"
 vscode "skyran.js-jsx-snippets"
@@ -183,7 +186,15 @@ vscode "tamasfe.even-better-toml"
 vscode "tecosaur.latex-utilities"
 vscode "usernamehw.errorlens"
 vscode "vadimcn.vscode-lldb"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vivaxy.vscode-conventional-commits"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
 vscode "wakatime.vscode-wakatime"

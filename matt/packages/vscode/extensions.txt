@@ -49,6 +49,7 @@ ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
 pmndrs.pmndrs
+redhat.java
 rust-lang.rust-analyzer
 shardulm94.trailing-spaces
 skyran.js-jsx-snippets
@@ -60,7 +61,15 @@ tamasfe.even-better-toml
 tecosaur.latex-utilities
 usernamehw.errorlens
 vadimcn.vscode-lldb
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
 vivaxy.vscode-conventional-commits
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
 vscode-icons-team.vscode-icons
 vscodevim.vim
 wakatime.vscode-wakatime
