@@ -36,6 +36,8 @@ brew "pnpm"
 brew "poetry"
 # Tool Command Language
 brew "tcl-tk"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)

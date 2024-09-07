@@ -648,5 +648,8 @@
     ]
   },
   "terminal.integrated.fontFamily": "Jetbrains Mono",
-  "editor.folding": false
+  "editor.folding": false,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  }
 }
