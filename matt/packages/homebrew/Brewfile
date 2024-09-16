@@ -93,6 +93,8 @@ cask "istat-menus"
 cask "kitty"
 # Music services manager
 cask "lastfm"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Reverse proxy, secure introspectable tunnels to localhost
