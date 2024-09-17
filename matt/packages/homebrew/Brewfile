@@ -2,6 +2,8 @@ tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "minio/stable"
+# MPEG-4 command-line tool
+brew "atomicparsley"
 # Python code formatter
 brew "black"
 # .NET Core
