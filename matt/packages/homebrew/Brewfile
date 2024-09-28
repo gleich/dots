@@ -83,6 +83,8 @@ cask "font-inter"
 cask "font-jetbrains-mono"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Tools to protect your emails and files
 cask "gpg-suite"
 # Grammarly for desktop
