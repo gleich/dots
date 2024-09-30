@@ -651,5 +651,8 @@
   "editor.folding": false,
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
   }
 }
