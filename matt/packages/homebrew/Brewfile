@@ -44,6 +44,8 @@ brew "terraform"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # JavaScript package manager
 brew "yarn"
 # Feature-rich command-line audio/video downloader
@@ -105,6 +107,8 @@ cask "mactex-no-gui"
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# Open-source software for live streaming and screen recording
+cask "obs"
 # Converts and edits video, audio or image files
 cask "permute"
 # HTTP client that helps testing and describing APIs
@@ -163,7 +167,6 @@ vscode "mattgleich.theme-blackbird"
 vscode "meganrogge.template-string-converter"
 vscode "mgmcdermott.vscode-language-babel"
 vscode "mikestead.dotenv"
-vscode "ms-dotnettools.csdevkit"
 vscode "ms-dotnettools.csharp"
 vscode "ms-dotnettools.vscode-dotnet-runtime"
 vscode "ms-python.black-formatter"
