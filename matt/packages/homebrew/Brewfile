@@ -63,8 +63,6 @@ cask "alacritty"
 cask "arc"
 # Menu bar icon organiser
 cask "bartender"
-# Desktop password and login vault
-cask "bitwarden"
 # Terminal emulator mimicking the old cathode display
 cask "cool-retro-term"
 # Voice and text chat software
