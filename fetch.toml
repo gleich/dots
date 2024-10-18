@@ -18,8 +18,7 @@ children = [
     "neofetch",
     "zathura",
     "raycast/script-commands",
-    "nvim",
-    "sketchybar"
+    "nvim"
 ]
 
 [[folders]]

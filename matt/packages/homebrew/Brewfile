@@ -1,6 +1,8 @@
+tap "felixkratz/formulae"
 tap "gleich/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "homebrew/services"
 tap "minio/stable"
 # MPEG-4 command-line tool
 brew "atomicparsley"
@@ -50,6 +52,8 @@ brew "watch"
 brew "yarn"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Custom macOS statusbar with shell plugin, interaction and graph support
+brew "felixkratz/formulae/sketchybar"
 # Update the copyright year in all of your GitHub repos 
 brew "gleich/tap/new_yearify"
 brew "gleich/tap/solar"
@@ -78,6 +82,7 @@ cask "figma"
 # Web browser
 cask "firefox@developer-edition"
 cask "font-geist-mono"
+cask "font-hack-nerd-font"
 cask "font-ibm-plex-mono"
 cask "font-inter"
 cask "font-jetbrains-mono"
