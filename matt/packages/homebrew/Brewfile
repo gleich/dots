@@ -86,6 +86,7 @@ cask "font-hack-nerd-font"
 cask "font-ibm-plex-mono"
 cask "font-inter"
 cask "font-jetbrains-mono"
+cask "font-proggy-clean-tt-nerd-font"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
 # Client for the Google Drive storage service
@@ -124,6 +125,8 @@ cask "raycast"
 cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
+# Music streaming service
+cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Native GUI tool for relational databases

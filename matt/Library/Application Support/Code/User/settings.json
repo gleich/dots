@@ -12,7 +12,6 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "editor.fontSize": 14,
   "latex-workshop.message.update.show": true,
   "latex-workshop.view.pdf.viewer": "tab",
   "workbench.iconTheme": "vscode-icons",
@@ -226,7 +225,7 @@
   "emmet.showSuggestionsAsSnippets": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "Liberation Mono",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -570,24 +569,24 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          //following will be in italic (=FlottFlott)
-          "comment",
-          "entity.name.type.class", //class names
-          "keyword", //import, export, return…
-          "constant", //String, Number, Boolean…, this, super
-          "storage.modifier", //static keyword
-          "storage.type.class.js" //class keyword
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  },
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "scope": [
+  //         //following will be in italic (=FlottFlott)
+  //         "comment",
+  //         "entity.name.type.class", //class names
+  //         "keyword", //import, export, return…
+  //         "constant", //String, Number, Boolean…, this, super
+  //         "storage.modifier", //static keyword
+  //         "storage.type.class.js" //class keyword
+  //       ],
+  //       "settings": {
+  //         "fontStyle": "italic"
+  //       }
+  //     }
+  //   ]
+  // },
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
   "rust-analyzer.diagnostics.disabled": ["macro-error"],
   "discord.removeTimestamp": true,
@@ -617,7 +616,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "poimandres-noitalics-storm",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -657,5 +656,6 @@
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
-  "jupyter.interactiveWindow.textEditor.executeSelection": false
+  "jupyter.interactiveWindow.textEditor.executeSelection": false,
+  "editor.fontSize": 13.5
 }
