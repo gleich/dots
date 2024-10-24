@@ -1,5 +1,6 @@
 adamgraham.polykai-theme
 akamud.vscode-theme-onedark
+angular.ng-template
 antfu.icons-carbon
 antfu.theme-vitesse
 blanu.vscode-styled-jsx
