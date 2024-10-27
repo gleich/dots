@@ -657,5 +657,6 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "jupyter.interactiveWindow.textEditor.executeSelection": false,
-  "editor.fontSize": 13.5
+  "editor.fontSize": 13.5,
+  "terminal.integrated.fontWeight": "600"
 }
