@@ -50,6 +50,7 @@
     "COVID",
     "CPUs",
     "creds",
+    "cringy",
     "cupertino",
     "darkmode",
     "Datatypes",
@@ -122,6 +123,7 @@
     "linkplain",
     "lipgloss",
     "loguru",
+    "lowkey",
     "macos",
     "manimlib",
     "mapbox",
@@ -616,7 +618,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "GitHub Dark",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
