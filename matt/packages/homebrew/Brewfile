@@ -40,6 +40,8 @@ brew "pipx"
 brew "pnpm"
 # Python package management tool
 brew "poetry"
+# Launcher to analyze a project with SonarQube
+brew "sonar-scanner"
 # Tool Command Language
 brew "tcl-tk"
 # Tool to build, change, and version infrastructure
