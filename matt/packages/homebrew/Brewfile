@@ -8,6 +8,8 @@ tap "minio/stable"
 brew "atomicparsley"
 # Python code formatter
 brew "black"
+# Statistics utility to count lines of code
+brew "cloc"
 # .NET Core
 brew "dotnet"
 # User-friendly command-line shell for UNIX-like operating systems
