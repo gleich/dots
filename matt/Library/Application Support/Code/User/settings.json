@@ -618,7 +618,7 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "GitHub Light",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
