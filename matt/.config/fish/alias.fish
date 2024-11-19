@@ -5,6 +5,7 @@ alias q="exit"
 alias l="ls"
 alias sl="ls"
 alias cpwd="pwd | pbcopy"
+alias pcd="cd (pbpaste)"
 alias ore="omf reload"
 alias vico="nvim ~/.config/nvim"
 
@@ -14,6 +15,7 @@ alias gp="git push"
 alias gl="git log --no-decorate"
 alias gpu="git pull"
 alias cl="gh repo clone"
+alias gcd="cd (git rev-parse --show-toplevel)"
 
 # resin
 alias gmap="resin -a -p"
