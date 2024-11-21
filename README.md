@@ -3,7 +3,7 @@
 ```txt
 matt@Matts-MacBook-Pro-9.local 
 ------------------------------ 
-OS: macOS 15.1 arm64 
+OS: macOS 15.1.1 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 24.1.0 
 Packages: 97 (brew) 
