@@ -71,6 +71,8 @@ cask "adobe-creative-cloud"
 cask "alacritty"
 # Menu bar icon organiser
 cask "bartender"
+# Web browser focusing on privacy
+cask "brave-browser"
 # Terminal emulator mimicking the old cathode display
 cask "cool-retro-term"
 # Voice and text chat software
