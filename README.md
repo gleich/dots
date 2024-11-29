@@ -1,8 +1,8 @@
 # dots
 
 ```txt
-matt@new-host-7.home 
--------------------- 
+matt@Matts-MBP-9.home 
+--------------------- 
 OS: macOS 15.1.1 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 24.1.0 
