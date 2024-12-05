@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "minio/stable"
+tap "zegervdv/zathura"
 # MPEG-4 command-line tool
 brew "atomicparsley"
 # Python code formatter
@@ -36,6 +37,8 @@ brew "neovim"
 brew "node@20"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Fast, disk space efficient package manager
@@ -65,6 +68,10 @@ brew "gleich/tap/new_yearify"
 brew "gleich/tap/solar"
 # MinIO Client for object storage and filesystems
 brew "minio/stable/mc"
+# PDF viewer
+brew "zegervdv/zathura/zathura"
+# Poppler backend plugin for zathura
+brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # GPU-accelerated terminal emulator
@@ -73,6 +80,8 @@ cask "alacritty"
 cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Terminal emulator mimicking the old cathode display
 cask "cool-retro-term"
 # Voice and text chat software
@@ -90,6 +99,7 @@ cask "firefox@developer-edition"
 cask "font-geist-mono"
 cask "font-hack-nerd-font"
 cask "font-ibm-plex-mono"
+cask "font-ibm-plex-sans"
 cask "font-inter"
 cask "font-jetbrains-mono"
 cask "font-proggy-clean-tt-nerd-font"
