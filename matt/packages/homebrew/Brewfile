@@ -76,6 +76,8 @@ brew "zegervdv/zathura/zathura-pdf-poppler"
 cask "adobe-creative-cloud"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Chromium based browser
+cask "arc"
 # Menu bar icon organiser
 cask "bartender"
 # Web browser focusing on privacy
