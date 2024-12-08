@@ -78,8 +78,6 @@ cask "adobe-creative-cloud"
 cask "alacritty"
 # Menu bar icon organiser
 cask "bartender"
-# Web browser focusing on privacy
-cask "brave-browser"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Terminal emulator mimicking the old cathode display
@@ -149,6 +147,8 @@ cask "steam"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# Web browser with built-in email client focusing on customization and control
+cask "vivaldi"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm"
 # Multiplayer code editor
