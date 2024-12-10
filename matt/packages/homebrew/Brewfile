@@ -9,6 +9,8 @@ tap "zegervdv/zathura"
 brew "atomicparsley"
 # Python code formatter
 brew "black"
+# Linux/OSX/FreeBSD resource monitor
+brew "bpytop"
 # Statistics utility to count lines of code
 brew "cloc"
 # .NET Core
@@ -25,6 +27,8 @@ brew "go"
 brew "golangci-lint"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
 # Development kit for the Java programming language
 brew "openjdk"
 # Java-based project management
@@ -35,6 +39,8 @@ brew "neofetch"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node@20"
+# Package for scientific computing with Python
+brew "numpy"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pinentry for GPG on Mac
@@ -45,6 +51,8 @@ brew "pipx"
 brew "pnpm"
 # Python package management tool
 brew "poetry"
+# Python library for creating static, animated, and interactive visualizations
+brew "python-matplotlib"
 # Launcher to analyze a project with SonarQube
 brew "sonar-scanner"
 # Tool Command Language
