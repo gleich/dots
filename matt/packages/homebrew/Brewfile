@@ -53,12 +53,16 @@ brew "pnpm"
 brew "poetry"
 # Python library for creating static, animated, and interactive visualizations
 brew "python-matplotlib"
+# Software for mathematics, science, and engineering
+brew "scipy"
 # Launcher to analyze a project with SonarQube
 brew "sonar-scanner"
 # Tool Command Language
 brew "tcl-tk"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# CLI tool to generate terraform files from existing infrastructure
+brew "terraformer", args: ["HEAD"]
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -213,6 +217,7 @@ vscode "ms-vscode.wordcount"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "naumovs.color-highlight"
 vscode "njpwerner.autodocstring"
+vscode "openai.openai-chatgpt-adhoc"
 vscode "pmndrs.pmndrs"
 vscode "redhat.java"
 vscode "rust-lang.rust-analyzer"

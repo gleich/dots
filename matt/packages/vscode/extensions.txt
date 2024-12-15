@@ -48,6 +48,7 @@ ms-vscode.wordcount
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
 njpwerner.autodocstring
+openai.openai-chatgpt-adhoc
 pmndrs.pmndrs
 redhat.java
 rust-lang.rust-analyzer
