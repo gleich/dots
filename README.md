@@ -1,8 +1,8 @@
 # dots
 
 ```txt
-matt@Matts-MacBook-Pro-10.local 
-------------------------------- 
+matt@matts-mbp-10.lan 
+--------------------- 
 OS: macOS 15.2 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 24.2.0 
