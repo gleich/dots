@@ -6,6 +6,7 @@ antfu.theme-vitesse
 blanu.vscode-styled-jsx
 bmalehorn.vscode-fish
 bodil.prettier-toml
+bradlc.vscode-tailwindcss
 christian-kohler.path-intellisense
 clinyong.vscode-css-modules
 dbaeumer.vscode-eslint
