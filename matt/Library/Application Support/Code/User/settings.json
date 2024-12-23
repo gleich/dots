@@ -662,5 +662,6 @@
   "jupyter.interactiveWindow.textEditor.executeSelection": false,
   "editor.fontSize": 13.5,
   "terminal.integrated.fontWeight": "600",
-  "latex-workshop.view.pdf.invert": 0.88
+  "latex-workshop.view.pdf.invert": 0.88,
+  "workbench.editor.restoreViewState": false
 }

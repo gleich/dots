@@ -125,8 +125,6 @@ cask "grammarly-desktop"
 cask "iina"
 # System monitoring app
 cask "istat-menus"
-# Keyboard customiser
-cask "karabiner-elements"
 # GPU-based terminal emulator
 cask "kitty"
 # Music services manager
