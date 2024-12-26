@@ -648,7 +648,7 @@
       }
     ]
   },
-  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontFamily": "IBM Plex Mono",
   "editor.folding": false,
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
@@ -661,7 +661,8 @@
   },
   "jupyter.interactiveWindow.textEditor.executeSelection": false,
   "editor.fontSize": 13.5,
-  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.fontWeight": "500",
   "latex-workshop.view.pdf.invert": 0.88,
-  "workbench.editor.restoreViewState": false
+  "workbench.editor.restoreViewState": false,
+  "terminal.integrated.fontLigatures": true
 }
