@@ -10,6 +10,6 @@ Packages: 163 (brew)
 Shell: fish 3.7.1 
 DE: Aqua 
 WM: Rectangle 
-Terminal: update 
+Terminal: ghostty 
 GPU Driver: macOS Default Graphics Driver
 ```

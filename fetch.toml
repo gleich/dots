@@ -13,7 +13,6 @@ parent = ".config"
 children = [
     "fish",
     "omf",
-    "kitty",
     "resin",
     "neofetch",
     "zathura",
