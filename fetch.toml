@@ -22,7 +22,10 @@ children = [
 
 [[folders]]
 parent = "."
-children = ["Library/Application Support/Code/User/snippets"]
+children = [
+    "Library/Application Support/Code/User/snippets",
+    "Library/Application Support/com.mitchellh.ghostty",
+]
 
 [[files]]
 parent = ".config"
