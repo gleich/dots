@@ -1,0 +1,6 @@
+font-family = "IBM Plex Mono"
+font-feature = "zero"
+font-style = "medium"
+
+theme = "Nocturnal Winter"
+shell-integration = "fish"
