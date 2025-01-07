@@ -73,6 +73,8 @@ brew "watch"
 brew "yarn"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Programming language designed for robustness, optimality, and clarity
+brew "zig"
 # Custom macOS statusbar with shell plugin, interaction and graph support
 brew "felixkratz/formulae/sketchybar"
 # Update the copyright year in all of your GitHub repos 
@@ -159,10 +161,6 @@ cask "tableplus"
 cask "visual-studio-code"
 # Web browser with built-in email client focusing on customization and control
 cask "vivaldi"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "wezterm"
-# Multiplayer code editor
-cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "adamgraham.polykai-theme"

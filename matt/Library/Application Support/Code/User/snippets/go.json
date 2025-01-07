@@ -1,0 +1,9 @@
+{
+	"Wrap error": {
+		"prefix": "re",
+		"body": [
+			"fmt.Errorf(\"%v $1\", err)"
+		],
+		"description": "Wrap a given error"
+	}
+}

@@ -1,6 +1,6 @@
 font-family = "IBM Plex Mono"
 font-feature = "zero"
-font-style = "medium"
+font-style = "semibold"
 
-theme = "Nocturnal Winter"
+theme = "GitHub Dark"
 shell-integration = "fish"
