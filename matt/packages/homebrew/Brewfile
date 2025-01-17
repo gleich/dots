@@ -67,6 +67,8 @@ brew "terraformer", args: ["HEAD"]
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Find and verify credentials
+brew "trufflehog"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # JavaScript package manager
@@ -157,6 +159,8 @@ cask "slack"
 cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
+# File transfer application
+cask "transmit"
 # Open-source code editor
 cask "visual-studio-code"
 # Web browser with built-in email client focusing on customization and control
