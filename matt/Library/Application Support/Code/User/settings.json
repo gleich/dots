@@ -621,7 +621,6 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "GitHub Dark",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -667,5 +666,6 @@
   "latex-workshop.view.pdf.invert": 0.88,
   "workbench.editor.restoreViewState": false,
   "terminal.integrated.fontLigatures": true,
-  "editor.fontWeight": "500"
+  "editor.fontWeight": "500",
+  "workbench.colorTheme": "GitHub Dark Dimmed"
 }
