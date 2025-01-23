@@ -5,5 +5,14 @@
 			"fmt.Errorf(\"%v $1\", err)"
 		],
 		"description": "Wrap a given error"
+	},
+	"Return error": {
+		"prefix": "ife",
+		"body": [
+			"if err != nil {",
+			"\treturn fmt.Errorf(\"%v $1\", err)",
+			"}"
+		],
+		"description": "Return the error"
 	}
 }

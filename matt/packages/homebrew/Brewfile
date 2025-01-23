@@ -71,6 +71,8 @@ brew "tree"
 brew "trufflehog"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Tools for the WireGuard secure network tunnel
+brew "wireguard-tools"
 # JavaScript package manager
 brew "yarn"
 # Feature-rich command-line audio/video downloader
@@ -141,6 +143,8 @@ cask "mactex-no-gui"
 cask "microsoft-auto-update"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # Converts and edits video, audio or image files
