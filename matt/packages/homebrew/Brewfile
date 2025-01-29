@@ -69,6 +69,8 @@ brew "tmux"
 brew "tree"
 # Find and verify credentials
 brew "trufflehog"
+# Markup-based typesetting system
+brew "typst"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Tools for the WireGuard secure network tunnel
