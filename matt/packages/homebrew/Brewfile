@@ -57,6 +57,8 @@ brew "python-matplotlib"
 brew "scipy"
 # Launcher to analyze a project with SonarQube
 brew "sonar-scanner"
+# MIPS32 simulator
+brew "spim"
 # Tool Command Language
 brew "tcl-tk"
 # Tool to build, change, and version infrastructure
