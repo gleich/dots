@@ -1,11 +1,11 @@
 # dots
 
 ```txt
-matt@Matts-MacBook-Pro-10.local 
-------------------------------- 
-OS: macOS 15.2 arm64 
+matt@MacBookPro.lan 
+------------------- 
+OS: macOS 15.3 arm64 
 Host: MacBookPro18,4 
-Kernel: Darwin 24.2.0 
+Kernel: Darwin 24.3.0 
 Packages: 168 (brew) 
 Shell: fish 3.7.1 
 DE: Aqua 

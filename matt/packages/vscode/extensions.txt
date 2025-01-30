@@ -47,6 +47,7 @@ ms-vscode.live-server
 ms-vscode.remote-explorer
 ms-vscode.wordcount
 ms-vsliveshare.vsliveshare
+myriad-dreamin.tinymist
 naumovs.color-highlight
 njpwerner.autodocstring
 openai.openai-chatgpt-adhoc
