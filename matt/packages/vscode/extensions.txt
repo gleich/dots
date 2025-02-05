@@ -18,6 +18,8 @@ esbenp.prettier-vscode
 exiasr.hadolint
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
+github.copilot
+github.copilot-chat
 github.github-vscode-theme
 github.vscode-github-actions
 github.vscode-pull-request-github
@@ -29,6 +31,7 @@ james-yu.latex-workshop
 jdinhlife.gruvbox
 jeffersonqin.latex-snippets-jeff
 jock.svg
+kdarkhan.mips
 mattgleich.theme-blackbird
 meganrogge.template-string-converter
 mgmcdermott.vscode-language-babel
