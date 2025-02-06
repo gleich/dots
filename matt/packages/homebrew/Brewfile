@@ -102,8 +102,6 @@ cask "alacritty"
 cask "bartender"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
-# Terminal emulator mimicking the old cathode display
-cask "cool-retro-term"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
@@ -137,8 +135,6 @@ cask "grammarly-desktop"
 cask "iina"
 # System monitoring app
 cask "istat-menus"
-# Music services manager
-cask "lastfm"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Full TeX Live distribution without GUI applications

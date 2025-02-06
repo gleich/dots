@@ -5,4 +5,4 @@ font-style = "semibold"
 theme = "GitHub Dark"
 shell-integration = "fish"
 
-keybind = global:ctrl+grave_accent=toggle_quick_terminal
+window-padding-x = 5

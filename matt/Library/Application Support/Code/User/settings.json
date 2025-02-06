@@ -626,10 +626,11 @@
   ],
   "editor.bracketPairColorization.enabled": false,
   "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
+    "*": false,
     "plaintext": false,
     "markdown": false,
+    "scminput": false,
+    "yaml": false,
     "java": true
   },
   "redhat.telemetry.enabled": true,
