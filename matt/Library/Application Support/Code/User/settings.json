@@ -28,6 +28,7 @@
     "autopep",
     "bday",
     "blinkt",
+    "blurhash",
     "Boesen",
     "borderless",
     "bottomline",
@@ -48,6 +49,7 @@
     "contituionation",
     "contralateral",
     "Coronavirus",
+    "COVERFRAME",
     "COVID",
     "CPUs",
     "creds",
@@ -122,6 +124,7 @@
     "Kubernetes",
     "latexmk",
     "leaderboards",
+    "Libermensch",
     "lightmode",
     "Lightroom's",
     "Linkedin",
@@ -672,5 +675,11 @@
   "workbench.editor.restoreViewState": false,
   "terminal.integrated.fontLigatures": true,
   "editor.fontWeight": "500",
-  "workbench.colorTheme": "GitHub Dark Dimmed"
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "[typst]": {
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  },
+  "[typst-code]": {
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  }
 }
