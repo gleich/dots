@@ -2,7 +2,7 @@
 	"Wrap error": {
 		"prefix": "re",
 		"body": [
-			"fmt.Errorf(\"%v $1\", err)"
+			"fmt.Errorf(\"%w $1\", err)"
 		],
 		"description": "Wrap a given error"
 	},
@@ -10,7 +10,7 @@
 		"prefix": "ife",
 		"body": [
 			"if err != nil {",
-			"\treturn fmt.Errorf(\"%v $1\", err)",
+			"\treturn fmt.Errorf(\"%w $1\", err)",
 			"}"
 		],
 		"description": "Return the error"
