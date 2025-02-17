@@ -17,15 +17,13 @@ children = [
     "neofetch",
     "zathura",
     "raycast/script-commands",
-    "nvim"
+    "nvim",
+    "kitty"
 ]
 
 [[folders]]
 parent = "."
-children = [
-    "Library/Application Support/Code/User/snippets",
-    "Library/Application Support/com.mitchellh.ghostty",
-]
+children = ["Library/Application Support/Code/User/snippets"]
 
 [[files]]
 parent = ".config"
