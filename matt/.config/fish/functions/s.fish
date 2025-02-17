@@ -7,4 +7,4 @@ function s
     cd $src_path
 end
 
-complete -c s -a "(command ls ~/src/gleich)"
+complete -c s -f -a "(command ls ~/src/gleich)"

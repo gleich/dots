@@ -89,6 +89,8 @@ brew "zig"
 brew "felixkratz/formulae/sketchybar"
 # Update the copyright year in all of your GitHub repos 
 brew "gleich/tap/new_yearify"
+# ☢️ Force quit all applications with one terminal command
+brew "gleich/tap/nuke"
 brew "gleich/tap/solar"
 # MinIO Client for object storage and filesystems
 brew "minio/stable/mc"

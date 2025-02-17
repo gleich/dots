@@ -59,6 +59,6 @@ function fish_mode_prompt
     echo '] '
 end
 
-# bun
+# bun install path
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
