@@ -7,6 +7,8 @@ tap "minio/stable"
 tap "zegervdv/zathura"
 # MPEG-4 command-line tool
 brew "atomicparsley"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Python code formatter
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
@@ -15,6 +17,10 @@ brew "bpytop"
 brew "cloc"
 # .NET Core
 brew "dotnet"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
@@ -55,8 +61,12 @@ brew "pnpm"
 brew "poetry"
 # Python library for creating static, animated, and interactive visualizations
 brew "python-matplotlib"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Software for mathematics, science, and engineering
 brew "scipy"
+# Fuzzy Finder in rust!
+brew "sk"
 # Launcher to analyze a project with SonarQube
 brew "sonar-scanner"
 # MIPS32 simulator

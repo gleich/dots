@@ -1,5 +1,5 @@
 function co
-    if count $argv > /dev/null
+    if test (count $argv) -gt 0
         set src_path ~/.config/$argv
     else
         set src_path ~/.config/
@@ -7,4 +7,4 @@ function co
     cd $src_path
 end
 
-complete -c s -f -a "(command ls ~/.config/)"
+complete -c s -f -a "(command ls ~/.config)"
