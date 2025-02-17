@@ -27,6 +27,8 @@ brew "go"
 brew "golangci-lint"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Development kit for the Java programming language
@@ -96,8 +98,6 @@ brew "zegervdv/zathura/zathura"
 brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Menu bar icon organiser
 cask "bartender"
 # OpenAI's official ChatGPT desktop app

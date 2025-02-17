@@ -4,5 +4,3 @@ font-style = "semibold"
 
 theme = "GitHub Dark"
 shell-integration = "fish"
-
-window-padding-x = 5

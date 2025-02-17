@@ -89,6 +89,7 @@
     "glados",
     "Gleich",
     "Gleich's",
+    "godoc",
     "godotenv",
     "Goffstown",
     "gofmt",
@@ -159,6 +160,7 @@
     "niranth",
     "notionapi",
     "numpy",
+    "nvim",
     "oauthlib",
     "octodns",
     "oled",
@@ -630,14 +632,6 @@
     "**/*.tex"
   ],
   "editor.bracketPairColorization.enabled": false,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "yaml": false,
-    "java": true
-  },
   "redhat.telemetry.enabled": true,
   "terminal.integrated.scrollback": 50000,
   "lldb.suppressUpdateNotifications": true,
@@ -683,5 +677,8 @@
   },
   "[typst-code]": {
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
   }
 }
