@@ -1,7 +1,0 @@
-font-family = "IBM Plex Mono"
-font-feature = "zero"
-font-style = "semibold"
-
-theme = "GitHub Dark"
-background = "#22272e"
-shell-integration = "fish"

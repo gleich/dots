@@ -7,4 +7,4 @@ function co
     cd $src_path
 end
 
-complete -c s -f -a "(command ls ~/.config)"
+complete -c co -f -a "(command ls ~/.config)"

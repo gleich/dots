@@ -13,6 +13,9 @@ require('lazy').setup({
   -- detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
 
+  -- emmet html snippets
+  'mattn/emmet-vim',
+
   -- add git related signs to the gutter
   {
     'lewis6991/gitsigns.nvim',
@@ -51,8 +54,24 @@ require('lazy').setup({
       require('lualine').setup({
         options = {
           icons_enabled = vim.g.have_nerd_font,
-          theme = 'auto'
-        }
+          theme = 'auto',
+          component_separators = { left = '|', right = '|'},
+          section_separators = { left = '', right = ''},
+        },
+        sections = {
+          lualine_a = {
+            {
+              'mode', 
+              color = { gui = 'bold' },
+              fmt = function(str) return str:sub(1,1) end
+            }
+          },
+          lualine_b = {'branch', 'diff'},
+          lualine_c = {'filename'},
+          lualine_x = {},
+          lualine_y = {},
+          lualine_z = {}
+        },
       })
     end
   },

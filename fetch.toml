@@ -33,6 +33,7 @@ children = ["gh/config.yml"]
 parent = "."
 children = [
     ".gitconfig",
+    ".hushlogin",
     ".docker/config.json",
     "Library/Application Support/Code/User/keybindings.json",
     "Library/Application Support/Code/User/settings.json",

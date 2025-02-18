@@ -11,11 +11,6 @@ vim.g.have_nerd_font = true
 -- do not show mode as it is already in status line
 vim.opt.showmode = false
 
--- sync clipboard between os and neovim
-vim.schedule(function()
-    vim.opt.clipboard = 'unnamedplus'
-end)
-
 -- decrease update time
 vim.opt.updatetime = 100
 

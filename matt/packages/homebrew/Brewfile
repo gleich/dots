@@ -135,8 +135,6 @@ cask "font-jetbrains-mono"
 cask "font-proggy-clean-tt-nerd-font"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
-# Terminal emulator that uses platform-native UI and GPU acceleration
-cask "ghostty"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Tools to protect your emails and files
@@ -147,6 +145,8 @@ cask "grammarly-desktop"
 cask "iina"
 # System monitoring app
 cask "istat-menus"
+# GPU-based terminal emulator
+cask "kitty"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Full TeX Live distribution without GUI applications
