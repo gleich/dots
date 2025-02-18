@@ -1,7 +1,7 @@
 alias c="clear"
 alias vi="nvim"
 alias q="exit"
-alias ls="eza --icons"
+alias ls="eza --icons -a"
 alias l="ls"
 alias sl="ls"
 alias cpwd="pwd | pbcopy"
