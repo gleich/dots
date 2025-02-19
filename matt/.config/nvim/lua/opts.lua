@@ -25,10 +25,22 @@ vim.opt.signcolumn = 'yes'
 
 -- display certain whitespace characters
 vim.opt.list = true
-vim.opt.listchars = { tab = '> ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
 
 -- preview substitutions
 vim.opt.inccommand = 'split'
 
 -- min number of screen lines to keep above and below cursor
 vim.opt.scrolloff = 10
+
+-- a tab character appears as 2 spaces wide
+vim.opt.tabstop = 2
+
+-- indentation uses 2 spaces per level
+vim.opt.shiftwidth = 2
+
+-- editing operations treat a tab as 2 spaces
+vim.opt.softtabstop = 2
+
+-- disable mouse support
+vim.opt.mouse = ""

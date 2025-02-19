@@ -16,6 +16,24 @@ require('lazy').setup({
   -- emmet html snippets
   'mattn/emmet-vim',
 
+  -- code time tracking
+  { 'wakatime/vim-wakatime', event = 'BufReadPre' },
+
+  -- color hex codes and color color formats
+  {
+    ' norcalli/nvim-colorizer.lua',
+    config = function ()
+      require('colorizer').setup()
+    end
+  },
+
+  -- autopairs
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    config = true
+  },
+
   -- add git related signs to the gutter
   {
     'lewis6991/gitsigns.nvim',
@@ -29,6 +47,7 @@ require('lazy').setup({
       },
     },
   },
+
 
   -- theme
   {
@@ -75,7 +94,7 @@ require('lazy').setup({
           },
           lualine_b = { 'branch', 'diff' },
           lualine_c = { 'filename' },
-          lualine_x = {},
+          lualine_x = { 'filetype' },
           lualine_y = {},
           lualine_z = {}
         },
@@ -166,6 +185,20 @@ require('lazy').setup({
     },
   },
 
+  -- floating texting window
+  {
+    'j-hui/fidget.nvim',
+    opts = {
+      notification = {
+        window = {
+          normal_hl = 'Comment',
+          winblend = 0,
+          border = "solid"
+        }
+      }
+    }
+  },
+
   -- main lsp configuration
   {
     'neovim/nvim-lspconfig',
@@ -174,7 +207,6 @@ require('lazy').setup({
       'WhoIsSethDaniel/mason-tool-installer.nvim',
       'hrsh7th/cmp-nvim-lsp',
       { 'williamboman/mason.nvim', opts = {} },
-      { 'j-hui/fidget.nvim',       opts = {} },
     },
     config = function()
       vim.api.nvim_create_autocmd('LspAttach', {
@@ -284,6 +316,7 @@ require('lazy').setup({
         pyright = {},
         rust_analyzer = {},
         ts_ls = {},
+        cssls = {},
         lua_ls = {
           settings = {
             Lua = {
@@ -341,6 +374,8 @@ require('lazy').setup({
       local luasnip = require 'luasnip'
       luasnip.config.setup {}
 
+      vim.cmd [[highlight CmpBorder guifg=#808080 guibg=none]]
+
       cmp.setup {
         snippet = {
           expand = function(args)
@@ -370,6 +405,17 @@ require('lazy').setup({
           --  completions whenever it has completion options available.
           ['<C-Space>'] = cmp.mapping.complete {},
         },
+        window = {
+          completion = {
+            border = 'rounded',
+            -- Link the float border to your custom highlight group
+            winhighlight = "Normal:CmpPmenu,FloatBorder:CmpBorder",
+          },
+          documentation = {
+            border = 'rounded',
+            winhighlight = "Normal:CmpDoc,FloatBorder:CmpBorder",
+          },
+        },
         sources = {
           {
             name = 'lazydev',
@@ -382,5 +428,22 @@ require('lazy').setup({
         },
       }
     end,
+  },
+
+  -- highlight, edit, and navigate code
+  { -- Highlight, edit, and navigate code
+    'nvim-treesitter/nvim-treesitter',
+    build = ':TSUpdate',
+    main = 'nvim-treesitter.configs', -- Sets main module to use for opts
+    -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
+    opts = {
+      ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc', 'go' },
+      auto_install = true,
+      highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = { 'ruby' },
+      },
+      indent = { enable = true, disable = { 'ruby' } },
+    },
   },
 })
