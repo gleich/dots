@@ -9,7 +9,6 @@ alias pcd="cd (pbpaste)"
 alias ore="omf reload"
 alias vico="nvim ~/.config/nvim"
 alias cat="bat -n --theme=gruvbox-dark"
-alias ssh="kitten ssh"
 
 # git and gh
 alias gv="gh repo view -w"
