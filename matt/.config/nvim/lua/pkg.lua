@@ -50,24 +50,9 @@ require("lazy").setup({
 
 	-- theme
 	{
-		"projekt0n/github-nvim-theme",
-		name = "github-theme",
-		lazy = false, -- make sure we load this during startup if it is your main colorscheme
-		priority = 1000, -- make sure to load this before all the other start plugins
+		"navarasu/onedark.nvim",
 		config = function()
-			require("github-theme").setup({
-				options = {
-					transparent = true,
-					darken = {
-						floats = false,
-						sidebars = {
-							enable = false,
-							list = {},
-						},
-					},
-				},
-			})
-			vim.cmd("colorscheme github_dark")
+			require("onedark").load()
 		end,
 	},
 
@@ -203,7 +188,26 @@ require("lazy").setup({
 		"nvim-tree/nvim-tree.lua",
 		lazy = false,
 		config = function()
-			require("nvim-tree").setup()
+			require("nvim-tree").setup({
+				renderer = {
+					icons = {
+						glyphs = {
+							git = {
+								unstaged = "+",
+								staged = "+",
+								unmerged = "~",
+								renamed = "~",
+								untracked = "+",
+								deleted = "_",
+								ignored = "‾",
+							},
+						},
+					},
+				},
+				git = {
+					enable = true,
+				},
+			})
 			vim.keymap.set("n", "<leader>b", "<cmd>:NvimTreeToggle<CR>", { desc = "toggle neovim tree" })
 		end,
 	},
@@ -350,6 +354,8 @@ require("lazy").setup({
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
 				"stylua", -- Used to format Lua code
+				"golines",
+				"goimports",
 			})
 
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
@@ -400,11 +406,7 @@ require("lazy").setup({
 			end,
 			formatters_by_ft = {
 				lua = { "stylua" },
-				-- Conform can also run multiple formatters sequentially
-				-- python = { "isort", "black" },
-				--
-				-- You can use 'stop_after_first' to run the first available formatter from the list
-				-- javascript = { "prettierd", "prettier", stop_after_first = true },
+				go = { "goimports", "golines" },
 			},
 		},
 	},
@@ -520,9 +522,5 @@ require("lazy").setup({
 			},
 			indent = { enable = true, disable = { "ruby" } },
 		},
-	},
-}, {
-	ui = {
-		icons = vim.g.have_nerd_font,
 	},
 })

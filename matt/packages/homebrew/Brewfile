@@ -126,6 +126,7 @@ cask "drawio"
 cask "figma"
 # Web browser
 cask "firefox@developer-edition"
+cask "font-cozette"
 cask "font-geist-mono"
 cask "font-hack-nerd-font"
 cask "font-ibm-plex-mono"

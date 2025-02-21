@@ -34,8 +34,6 @@ set -U fish_pager_color_progress brwhite '--background=cyan'
 # vim
 fish_vi_key_bindings
 set fish_cursor_insert line blink
-
-# custom vim prompt theme
 function fish_mode_prompt
     echo ' ['
     switch $fish_bind_mode
