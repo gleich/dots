@@ -18,6 +18,7 @@ children = [
     "zathura",
     "raycast/script-commands",
     "nvim",
+    "gh",
     "kitty"
 ]
 
