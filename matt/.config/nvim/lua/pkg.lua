@@ -50,9 +50,24 @@ require("lazy").setup({
 
 	-- theme
 	{
-		"navarasu/onedark.nvim",
+		"projekt0n/github-nvim-theme",
+		name = "github-theme",
+		lazy = false, -- make sure we load this during startup if it is your main colorscheme
+		priority = 1000, -- make sure to load this before all the other start plugins
 		config = function()
-			require("onedark").load()
+			require("github-theme").setup({
+				options = {
+					transparent = true,
+					darken = {
+						floats = false,
+						sidebars = {
+							enable = false,
+							list = {},
+						},
+					},
+				},
+			})
+			vim.cmd("colorscheme github_dark")
 		end,
 	},
 
@@ -188,7 +203,42 @@ require("lazy").setup({
 		"nvim-tree/nvim-tree.lua",
 		lazy = false,
 		config = function()
+			local height_ratio = 0.8
+			local width_ratio = 0.5
 			require("nvim-tree").setup({
+				disable_netrw = true,
+				hijack_netrw = true,
+				respect_buf_cwd = true,
+				hijack_cursor = true,
+				sync_root_with_cwd = true,
+				update_focused_file = { enable = true, update_root = true },
+				view = {
+					relativenumber = true,
+					float = {
+						enable = true,
+						open_win_config = function()
+							local screen_w = vim.opt.columns:get()
+							local screen_h = vim.opt.lines:get() - vim.opt.cmdheight:get()
+							local window_w = screen_w * width_ratio
+							local window_h = screen_h * height_ratio
+							local window_w_int = math.floor(window_w)
+							local window_h_int = math.floor(window_h)
+							local center_x = (screen_w - window_w) / 2
+							local center_y = ((vim.opt.lines:get() - window_h) / 2) - vim.opt.cmdheight:get()
+							return {
+								border = "rounded",
+								relative = "editor",
+								row = center_y,
+								col = center_x,
+								width = window_w_int,
+								height = window_h_int,
+							}
+						end,
+					},
+					width = function()
+						return math.floor(vim.opt.columns:get() * width_ratio)
+					end,
+				},
 				renderer = {
 					icons = {
 						glyphs = {
@@ -232,6 +282,7 @@ require("lazy").setup({
 
 					map("gd", require("telescope.builtin").lsp_definitions, "[G]oto [D]efinition")
 					map("gr", require("telescope.builtin").lsp_references, "[G]oto [R]eferences")
+					map("<leader>r", vim.lsp.buf.rename, "[R]ename")
 
 					-- This function resolves a difference between neovim nightly (version 0.11) and stable (version 0.10)
 					---@param client vim.lsp.Client

@@ -671,7 +671,7 @@
   "workbench.editor.restoreViewState": false,
   "terminal.integrated.fontLigatures": true,
   "editor.fontWeight": "500",
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "Atom One Dark",
   "[typst]": {
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
   },

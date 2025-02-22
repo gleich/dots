@@ -17,6 +17,7 @@ alias gl="git log --no-decorate"
 alias gpu="git pull"
 alias cl="gh repo clone"
 alias gcd="cd (git rev-parse --show-toplevel)"
+alias lg="lazygit"
 
 # resin
 alias gmap="resin -a -p"
