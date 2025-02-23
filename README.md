@@ -1,4 +1,5 @@
 # dots
+
 ```txt
 matt@MacBookPro 
 --------------- 
@@ -10,7 +11,5 @@ Shell: fish 3.7.1
 DE: Aqua 
 WM: Rectangle 
 Terminal: not a tty 
-GPU Driver: macOS Default Graphics Driver 
-
-
+GPU Driver: macOS Default Graphics Driver
 ```
