@@ -28,17 +28,11 @@ require("lazy").setup({
 	-- color hex codes and color color formats
 	{
 		"norcalli/nvim-colorizer.lua",
+		lazy = true,
 		config = function()
-			require("colorizer").setup({
-				DEFAULT_OPTIONS = {
-					names = false,
-					rgb_fn = true,
-					hsl_fn = true,
-					css = true,
-					css_fn = true,
-				},
-			})
+			require("colorizer").setup()
 		end,
+		ft = { "css", "conf", "javascriptreact", "html" },
 	},
 
 	-- autopairs
@@ -348,19 +342,6 @@ require("lazy").setup({
 							end,
 						})
 					end
-
-					-- -- The following code creates a keymap to toggle inlay hints in your
-					-- -- code, if the language server you are using supports them
-					-- --
-					-- -- This may be unwanted, since they displace some of your code
-					-- if
-					-- 	client
-					-- 	and client_supports_method(client, vim.lsp.protocol.Methods.textDocument_inlayHint, event.buf)
-					-- then
-					-- 	map("<leader>th", function()
-					-- 		vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({ bufnr = event.buf }))
-					-- 	end, "[T]oggle Inlay [H]ints")
-					-- end
 				end,
 			})
 
@@ -505,9 +486,12 @@ require("lazy").setup({
 			local luasnip = require("luasnip")
 			luasnip.config.setup({})
 
+			require("luasnip.loaders.from_snipmate").lazy_load()
+
 			vim.cmd([[highlight CmpBorder guifg=#808080 guibg=none]])
 
 			cmp.setup({
+				preselect = cmp.PreselectMode.None,
 				snippet = {
 					expand = function(args)
 						luasnip.lsp_expand(args.body)

@@ -1,0 +1,10 @@
+snippet ife 
+	if err != nil {
+		${0}
+	}
+
+snippet re 
+	return ${0} fmt.Errorf("%w: ${1}", err)
+
+snippet fa 
+	timber.Fatal(err, "failed to ${0}")

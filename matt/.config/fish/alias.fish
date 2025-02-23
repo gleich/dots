@@ -24,6 +24,7 @@ alias lg="lazygit"
 alias gv="gh repo view -w"
 alias cl="gh repo clone"
 alias wv="gh run list --limit 5"
+alias ww="gh run watch"
 
 # resin
 alias gmap="resin -a -p"
