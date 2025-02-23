@@ -40,4 +40,5 @@ children = [
     "Library/Application Support/Code/User/settings.json",
     ".gnupg/gpg-agent.conf",
     ".rustup/settings.toml",
+    ".cargo/.crates.toml",
 ]
