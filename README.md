@@ -13,7 +13,7 @@ DE: Aqua
 WM: Rectangle 
 CPU: Apple M1 Max 
 GPU: Apple M1 Max 
-Memory: 5436MiB / 65536MiB (8%) 
+Memory: 5219MiB / 65536MiB (7%) 
 GPU Driver: macOS Default Graphics Driver 
 Disk (/): 10G / 1.8T (2%)
 ```
