@@ -8,10 +8,11 @@ alias cpwd="pwd | pbcopy"
 alias pcd="cd (pbpaste)"
 alias ore="omf reload"
 alias vico="nvim ~/.config/nvim"
-alias cat="bat -n --theme=gruvbox-dark"
+alias cat="bat -n --theme=OneHalfDark"
 
 # git
 alias gp="git push"
+alias gs="git status"
 alias gl="git log --no-decorate"
 alias gpu="git pull"
 alias gcd="cd (git rev-parse --show-toplevel)"

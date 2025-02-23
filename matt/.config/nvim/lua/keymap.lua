@@ -26,3 +26,7 @@ vim.keymap.set(
 
 -- create a new tab
 vim.keymap.set("n", "<leader>t", "<cmd>tabnew<cr>", { desc = "create a new tab" })
+
+-- git
+vim.keymap.set("n", "<leader>gv", "<cmd>GBrowse<cr>", { desc = "open current git repo in browser" })
+vim.keymap.set("n", "<leader>ga", "<cmd>Git add .<cr>", { desc = "add all files in the current directory" })

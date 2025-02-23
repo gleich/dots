@@ -16,6 +16,12 @@ require("lazy").setup({
 	-- emmet html snippets
 	"mattn/emmet-vim",
 
+	-- git support
+	"tpope/vim-fugitive",
+
+	-- github support
+	"tpope/vim-rhubarb",
+
 	-- code time tracking
 	{ "wakatime/vim-wakatime", event = "BufReadPre" },
 
@@ -23,7 +29,15 @@ require("lazy").setup({
 	{
 		"norcalli/nvim-colorizer.lua",
 		config = function()
-			require("colorizer").setup()
+			require("colorizer").setup({
+				DEFAULT_OPTIONS = {
+					names = false,
+					rgb_fn = true,
+					hsl_fn = true,
+					css = true,
+					css_fn = true,
+				},
+			})
 		end,
 	},
 
@@ -335,18 +349,18 @@ require("lazy").setup({
 						})
 					end
 
-					-- The following code creates a keymap to toggle inlay hints in your
-					-- code, if the language server you are using supports them
-					--
-					-- This may be unwanted, since they displace some of your code
-					if
-						client
-						and client_supports_method(client, vim.lsp.protocol.Methods.textDocument_inlayHint, event.buf)
-					then
-						map("<leader>th", function()
-							vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({ bufnr = event.buf }))
-						end, "[T]oggle Inlay [H]ints")
-					end
+					-- -- The following code creates a keymap to toggle inlay hints in your
+					-- -- code, if the language server you are using supports them
+					-- --
+					-- -- This may be unwanted, since they displace some of your code
+					-- if
+					-- 	client
+					-- 	and client_supports_method(client, vim.lsp.protocol.Methods.textDocument_inlayHint, event.buf)
+					-- then
+					-- 	map("<leader>th", function()
+					-- 		vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({ bufnr = event.buf }))
+					-- 	end, "[T]oggle Inlay [H]ints")
+					-- end
 				end,
 			})
 
