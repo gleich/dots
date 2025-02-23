@@ -353,7 +353,9 @@
   },
   "rust.all_features": true,
   "emmet.triggerExpansionOnTab": true,
-  "emmet.extensionsPath": ["~/.config/emmet/"],
+  "emmet.extensionsPath": [
+    "~/.config/emmet/"
+  ],
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
   // "latex-workshop.view.pdf.invertMode.enabled": "always",
@@ -671,7 +673,7 @@
   "workbench.editor.restoreViewState": false,
   "terminal.integrated.fontLigatures": true,
   "editor.fontWeight": "500",
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
   "[typst]": {
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
   },

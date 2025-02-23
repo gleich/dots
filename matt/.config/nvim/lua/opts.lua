@@ -31,7 +31,7 @@ vim.opt.listchars = { tab = "  ", trail = "·", nbsp = "␣" }
 vim.opt.inccommand = "split"
 
 -- min number of screen lines to keep above and below cursor
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 900
 
 -- a tab character appears as 4 spaces wide
 vim.opt.tabstop = 4
@@ -55,7 +55,3 @@ vim.opt.undofile = true
 
 -- enable extra color support
 vim.opt.termguicolors = true
-
--- enable netrw
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1

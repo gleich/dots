@@ -10,14 +10,19 @@ alias ore="omf reload"
 alias vico="nvim ~/.config/nvim"
 alias cat="bat -n --theme=gruvbox-dark"
 
-# git and gh
-alias gv="gh repo view -w"
+# git
 alias gp="git push"
 alias gl="git log --no-decorate"
 alias gpu="git pull"
-alias cl="gh repo clone"
 alias gcd="cd (git rev-parse --show-toplevel)"
+
+# lazygit
 alias lg="lazygit"
+
+# gh
+alias gv="gh repo view -w"
+alias cl="gh repo clone"
+alias wv="gh run list --limit 5"
 
 # resin
 alias gmap="resin -a -p"

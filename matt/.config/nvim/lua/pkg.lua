@@ -213,7 +213,7 @@ require("lazy").setup({
 				sync_root_with_cwd = true,
 				update_focused_file = { enable = true, update_root = true },
 				view = {
-					relativenumber = true,
+					signcolumn = "no",
 					float = {
 						enable = true,
 						open_win_config = function()
@@ -240,6 +240,7 @@ require("lazy").setup({
 					end,
 				},
 				renderer = {
+					highlight_git = "icon",
 					icons = {
 						glyphs = {
 							git = {
@@ -258,7 +259,8 @@ require("lazy").setup({
 					enable = true,
 				},
 			})
-			vim.keymap.set("n", "<leader>b", "<cmd>:NvimTreeToggle<CR>", { desc = "toggle neovim tree" })
+
+			vim.keymap.set("n", "<leader>x", "<cmd>:NvimTreeToggle<CR>", { desc = "toggle neovim tree" })
 		end,
 	},
 
