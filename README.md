@@ -1,4 +1,5 @@
 # dots
+
 updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots)
 
 ```txt
@@ -14,7 +15,7 @@ DE: Aqua
 WM: Rectangle 
 CPU: Apple M1 Max 
 GPU: Apple M1 Max 
-Memory: 6960MiB / 65536MiB (10%) 
+Memory: 6973MiB / 65536MiB (10%) 
 GPU Driver: macOS Default Graphics Driver 
 Disk (/): 10G / 1.8T (2%)
 ```
