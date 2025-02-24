@@ -32,7 +32,7 @@ require("lazy").setup({
 		config = function()
 			require("colorizer").setup()
 		end,
-		ft = { "css", "conf", "javascriptreact", "html" },
+		ft = { "css", "conf", "javascriptreact", "html", "go" },
 	},
 
 	-- autopairs
@@ -213,6 +213,19 @@ require("lazy").setup({
 		config = function()
 			local height_ratio = 0.8
 			local width_ratio = 0.5
+
+			vim.api.nvim_create_autocmd("FileType", {
+				pattern = "NvimTree",
+				callback = function()
+					vim.keymap.set(
+						"n",
+						"<Esc>",
+						"<cmd>NvimTreeClose<CR>",
+						{ buffer = true, noremap = true, silent = true }
+					)
+				end,
+			})
+
 			require("nvim-tree").setup({
 				disable_netrw = true,
 				hijack_netrw = true,
@@ -220,6 +233,13 @@ require("lazy").setup({
 				hijack_cursor = true,
 				sync_root_with_cwd = true,
 				update_focused_file = { enable = true, update_root = true },
+				actions = {
+					open_file = {
+						window_picker = {
+							enable = false,
+						},
+					},
+				},
 				view = {
 					signcolumn = "no",
 					float = {
@@ -388,6 +408,7 @@ require("lazy").setup({
 				rust_analyzer = {},
 				ts_ls = {},
 				cssls = {},
+				terraformls = {},
 				lua_ls = {
 					settings = {
 						Lua = {

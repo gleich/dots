@@ -1,5 +1,6 @@
 alias c="clear"
 alias vi="nvim"
+alias vim="nvim"
 alias q="exit"
 alias ls="eza --icons -a"
 alias l="ls"
@@ -7,7 +8,6 @@ alias sl="ls"
 alias cpwd="pwd | pbcopy"
 alias pcd="cd (pbpaste)"
 alias ore="omf reload"
-alias vico="nvim ~/.config/nvim"
 alias cat="bat -n --theme=OneHalfDark"
 
 # git
@@ -23,7 +23,8 @@ alias lg="lazygit"
 # gh
 alias gv="gh repo view -w"
 alias cl="gh repo clone"
-alias wl="gh run list --limit 5"
+alias wl="gh run list --limit 10"
+alias wlw="watch -n 5 -c 'script -q /dev/null gh run list --limit 10 | sed -E \"s/^.*(STATUS)/\1/\"'"
 alias ww="gh run watch"
 alias wv="gh run view --log"
 alias wvf="gh run view --log-failed"
@@ -31,6 +32,3 @@ alias wvf="gh run view --log-failed"
 # resin
 alias gmap="resin -a -p"
 alias gma="resin -a"
-
-# yarn
-alias yds="yarn run dev --open"
