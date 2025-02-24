@@ -127,6 +127,7 @@ cask "figma"
 # Web browser
 cask "firefox@developer-edition"
 cask "font-cozette"
+cask "font-fira-code"
 cask "font-geist-mono"
 cask "font-hack-nerd-font"
 cask "font-ibm-plex-mono"
@@ -176,6 +177,8 @@ cask "slack"
 cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
+# Mesh VPN based on WireGuard
+cask "tailscale"
 # File transfer application
 cask "transmit"
 # Open-source code editor

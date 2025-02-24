@@ -32,7 +32,7 @@ require("lazy").setup({
 		config = function()
 			require("colorizer").setup()
 		end,
-		ft = { "css", "conf", "javascriptreact", "html", "go" },
+		ft = { "css", "conf", "javascriptreact", "html", "go", "lua" },
 	},
 
 	-- autopairs
@@ -79,10 +79,35 @@ require("lazy").setup({
 		end,
 	},
 
+	-- icons
+	{
+		"nvim-tree/nvim-web-devicons",
+		config = function()
+			require("nvim-web-devicons").setup({
+				override = {
+					go = {
+						icon = "",
+						color = "#00ADD8",
+						name = "Go",
+					},
+					["go.mod"] = {
+						icon = "",
+						color = "#00ADD8",
+						name = "GoMod",
+					},
+					["go.sum"] = {
+						icon = "",
+						color = "#00ADD8",
+						name = "GoSum",
+					},
+				},
+			})
+		end,
+	},
+
 	-- status line
 	{
 		"nvim-lualine/lualine.nvim",
-		dependencies = { "nvim-tree/nvim-web-devicons" },
 		config = function()
 			require("lualine").setup({
 				options = {
@@ -146,7 +171,6 @@ require("lazy").setup({
 		dependencies = {
 			"nvim-lua/plenary.nvim",
 			"nvim-telescope/telescope-ui-select.nvim",
-			{ "nvim-tree/nvim-web-devicons", enabled = vim.g.have_nerd_font },
 			{
 				"nvim-telescope/telescope-fzf-native.nvim",
 				build = "make",
@@ -180,7 +204,7 @@ require("lazy").setup({
 		end,
 	},
 
-	-- configures lua lsp, runtime and plugins used for completion,
+	-- configures lua lsp, run time and plugins used for completion,
 	-- annotations, and signatures of neovim apis
 	{
 		"folke/lazydev.nvim",
@@ -397,7 +421,7 @@ require("lazy").setup({
 			-- LSP servers and clients are able to communicate to each other what features they support.
 			--  By default, Neovim doesn't support everything that is in the LSP specification.
 			--  When you add nvim-cmp, luasnip, etc. Neovim now has *more* capabilities.
-			--  So, we create ew capabilities with nvim cmp, and then broadcast that to the servers.
+			--  So, we create new capabilities with nvim cmp, and then broadcast that to the servers.
 			local capabilities = vim.lsp.protocol.make_client_capabilities()
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
