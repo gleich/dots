@@ -10,12 +10,10 @@ Host: MacBookPro18,4
 Kernel: Darwin 24.3.0 
 Packages: 178 (brew) 
 Shell: fish 3.7.1 
-Resolution: 2560x1440, 2560x1440 
+Resolution: 2560x1440 @ 60Hz, 2560x1440 @ 60Hz 
 DE: Aqua 
 WM: Rectangle 
 CPU: Apple M1 Max 
 GPU: Apple M1 Max 
-Memory: 7111MiB / 65536MiB (10%) 
-GPU Driver: macOS Default Graphics Driver 
-Disk (/): 10G / 1.8T (2%)
+GPU Driver: macOS Default Graphics Driver
 ```
