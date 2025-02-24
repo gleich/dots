@@ -55,3 +55,7 @@ vim.opt.undofile = true
 
 -- enable extra color support
 vim.opt.termguicolors = true
+
+-- spell
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
