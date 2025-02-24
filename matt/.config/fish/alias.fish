@@ -23,8 +23,10 @@ alias lg="lazygit"
 # gh
 alias gv="gh repo view -w"
 alias cl="gh repo clone"
-alias wv="gh run list --limit 5"
+alias wl="gh run list --limit 5"
 alias ww="gh run watch"
+alias wv="gh run view --log"
+alias wvf="gh run view --log-failed"
 
 # resin
 alias gmap="resin -a -p"

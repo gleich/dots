@@ -10,7 +10,7 @@ Host: MacBookPro18,4
 Kernel: Darwin 24.3.0 
 Packages: 178 (brew) 
 Shell: fish 3.7.1 
-Resolution: 2560x1440 @ 60Hz, 2560x1440 @ 60Hz 
+Resolution: 1800x1169 @ 120Hz 
 DE: Aqua 
 WM: Rectangle 
 CPU: Apple M1 Max 
