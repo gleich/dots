@@ -87,6 +87,8 @@ brew "trufflehog"
 brew "typst"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Command-line client for WebSockets
+brew "websocat"
 # Tools for the WireGuard secure network tunnel
 brew "wireguard-tools"
 # JavaScript package manager
@@ -221,7 +223,6 @@ vscode "jdinhlife.gruvbox"
 vscode "jeffersonqin.latex-snippets-jeff"
 vscode "jock.svg"
 vscode "kdarkhan.mips"
-vscode "mattgleich.theme-blackbird"
 vscode "meganrogge.template-string-converter"
 vscode "mgmcdermott.vscode-language-babel"
 vscode "mikestead.dotenv"

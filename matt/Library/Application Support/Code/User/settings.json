@@ -108,6 +108,7 @@
     "hadolint",
     "Hagner",
     "heartrate",
+    "Hevy",
     "Homocysteine",
     "Hyperpluralism",
     "imgs",
@@ -314,7 +315,6 @@
   "trailing-spaces.backgroundColor": "rgba(0,0,0,0)",
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
-  "terminal.integrated.fontSize": 13,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -353,9 +353,7 @@
   },
   "rust.all_features": true,
   "emmet.triggerExpansionOnTab": true,
-  "emmet.extensionsPath": [
-    "~/.config/emmet/"
-  ],
+  "emmet.extensionsPath": ["~/.config/emmet/"],
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
   // "latex-workshop.view.pdf.invertMode.enabled": "always",
@@ -642,7 +640,7 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
   "liveshare.populateGitCoAuthors": "never",
-  "markdown.preview.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "IBM Plex Mono",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "svg.preview.mode": "img",
   "github-actions.workflows.pinned.refresh.interval": 10,
@@ -667,7 +665,6 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "jupyter.interactiveWindow.textEditor.executeSelection": false,
-  "editor.fontSize": 13.5,
   "terminal.integrated.fontWeight": "500",
   "latex-workshop.view.pdf.invert": 0.88,
   "workbench.editor.restoreViewState": false,

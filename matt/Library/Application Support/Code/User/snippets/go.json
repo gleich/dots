@@ -10,9 +10,16 @@
 		"prefix": "ife",
 		"body": [
 			"if err != nil {",
-			"\treturn fmt.Errorf(\"%w $1\", err)",
+			"\t$1",
 			"}"
 		],
 		"description": "Return the error"
+	},
+	"Fatal Error": {
+		"prefix": "fa",
+		"body": [
+			"timber.Fatal(err, \"failed to $1\")",
+		],
+		"description": "log out a fatal error"
 	}
 }

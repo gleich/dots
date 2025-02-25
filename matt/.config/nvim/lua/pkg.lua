@@ -194,7 +194,9 @@ require("lazy").setup({
 
 			-- key mappings
 			local builtin = require("telescope.builtin")
-			vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "[F]ind [F]iles" })
+			vim.keymap.set("n", "<leader>ff", function()
+				builtin.find_files({ hidden = true, file_ignore_patterns = { "%.git/" } })
+			end, { desc = "[F]ind [F]iles (including hidden)" })
 			vim.keymap.set("n", "<leader>lg", builtin.live_grep, { desc = "[L]ive [G]rep" })
 
 			-- fuzzy finder for neovim configuration files
@@ -264,6 +266,19 @@ require("lazy").setup({
 						},
 					},
 				},
+				filters = {
+					custom = { "^\\.git$" },
+				},
+				diagnostics = {
+					enable = true,
+					show_on_dirs = true,
+					icons = {
+						error = "󰅚 ",
+						warning = "󰀪 ",
+						info = "󰋽 ",
+						hint = "󰌶 ",
+					},
+				},
 				view = {
 					signcolumn = "no",
 					float = {
@@ -307,9 +322,6 @@ require("lazy").setup({
 						},
 					},
 				},
-				git = {
-					enable = true,
-				},
 			})
 
 			vim.keymap.set("n", "<leader>x", "<cmd>:NvimTreeToggle<CR>", { desc = "toggle neovim tree" })
@@ -337,6 +349,7 @@ require("lazy").setup({
 					map("gd", require("telescope.builtin").lsp_definitions, "[G]oto [D]efinition")
 					map("gr", require("telescope.builtin").lsp_references, "[G]oto [R]eferences")
 					map("<leader>r", vim.lsp.buf.rename, "[R]ename")
+					map("gv", vim.lsp.buf.hover, "[G]et [V]er documentation")
 
 					-- This function resolves a difference between neovim nightly (version 0.11) and stable (version 0.10)
 					---@param client vim.lsp.Client
