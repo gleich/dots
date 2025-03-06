@@ -650,7 +650,7 @@
     "commands": [
       {
         "match": "\\.go$",
-        "cmd": "golines ${file} -w"
+        "cmd": "golines --shorten-comments ${file} -w"
       }
     ]
   },
