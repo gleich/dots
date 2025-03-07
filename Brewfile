@@ -128,6 +128,7 @@ cask "drawio"
 cask "figma"
 # Web browser
 cask "firefox@developer-edition"
+cask "font-computer-modern"
 cask "font-cozette"
 cask "font-fira-code"
 cask "font-geist-mono"
