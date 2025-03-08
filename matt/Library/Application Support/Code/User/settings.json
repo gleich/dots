@@ -369,7 +369,8 @@
     "<D-c>": false
   },
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
+    "*.ipynb": "jupyter-notebook",
+    "*.svg": "default"
   },
   "latex-utilities.message.update.show": false,
   "workbench.tree.expandMode": "singleClick",
@@ -680,5 +681,6 @@
   },
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
-  }
+  },
+  "workbench.editor.enablePreview": false
 }
