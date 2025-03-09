@@ -1,0 +1,11 @@
+{
+	"script": {
+		"prefix": "sc",
+		"body": [
+			"<script lang=\"ts\">",
+			"$1",
+			"</script>",
+		],
+		"description": "script tag with typescript"
+	},
+}

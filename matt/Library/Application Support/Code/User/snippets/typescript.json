@@ -1,0 +1,9 @@
+{
+	"props": {
+		"prefix": "pr",
+		"body": [
+			"const { $1 }: { $1 } = \\$props();",
+		],
+		"description": "svelte props"
+	}
+}

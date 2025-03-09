@@ -682,5 +682,7 @@
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
   },
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false
 }
