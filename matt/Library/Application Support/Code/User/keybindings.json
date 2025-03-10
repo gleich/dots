@@ -98,10 +98,6 @@
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
-    "key": "shift+cmd+a",
-    "command": "thunder-client-sidebar.focus"
-  },
-  {
     "key": "cmd+enter",
     "command": "explorer.openToSide",
     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
@@ -180,21 +176,5 @@
   {
     "key": "cmd+d",
     "command": "workbench.action.openRecent"
-  },
-  {
-    "key": "cmd+right",
-    "command": "workbench.action.focusRightGroup"
-  },
-  {
-    "key": "cmd+k cmd+right",
-    "command": "-workbench.action.focusRightGroup"
-  },
-  {
-    "key": "cmd+left",
-    "command": "workbench.action.focusLeftGroup"
-  },
-  {
-    "key": "cmd+k cmd+left",
-    "command": "-workbench.action.focusLeftGroup"
   }
 ]
