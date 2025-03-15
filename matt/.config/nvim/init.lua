@@ -1,5 +1,4 @@
 -- neovim editor configuration
--- fjeoig foroo
 -- © Matt Gleich 2025 under MIT License
 
 require("opts")
