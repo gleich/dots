@@ -3,12 +3,12 @@
 updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots)
 
 ```txt
-matt@new-host-7.home 
--------------------- 
+matt@MacBookPro.lan 
+------------------- 
 OS: macOS 15.3.2 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 24.3.0 
-Packages: 183 (brew) 
+Packages: 184 (brew) 
 Shell: fish 4.0.1 
 DE: Aqua 
 WM: Rectangle 
