@@ -5,6 +5,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "minio/stable"
 tap "zegervdv/zathura"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # MPEG-4 command-line tool
 brew "atomicparsley"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -21,6 +23,8 @@ brew "dotnet"
 brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GitHub command-line tool
