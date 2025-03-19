@@ -241,7 +241,7 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.formatTool": "gofmt",
+  "go.formatTool": "custom",
   "go.useLanguageServer": true,
   "files.autoSaveDelay": 100,
   "emmet.showSuggestionsAsSnippets": true,
