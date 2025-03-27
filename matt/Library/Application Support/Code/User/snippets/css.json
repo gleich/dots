@@ -1,0 +1,11 @@
+{
+	"Max width media query": {
+		"prefix": "max",
+		"body": [
+			"@media (max-width: $1px) {",
+			"\t$2",
+			"}"
+		],
+		"description": "Media query with max width"
+	}
+}
