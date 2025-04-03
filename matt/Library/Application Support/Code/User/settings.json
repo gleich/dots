@@ -78,6 +78,7 @@
     "emojicast",
     "fanboat",
     "fintech",
+    "Firewatch",
     "flexbox",
     "fluttercommunity",
     "fname",
@@ -553,8 +554,8 @@
   "errorLens.fontWeight": "700",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.preferredLightColorTheme": "🏴 blackbird → dusk",
-  "workbench.preferredDarkColorTheme": "🏴 blackbird → midnight",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "editor.quickSuggestions": {
@@ -690,5 +691,7 @@
   },
   "workbench.editor.enablePreview": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  "eslint.validate": ["svelte", "typescript", "javascript"]
+  "eslint.validate": ["svelte", "typescript", "javascript"],
+  "workbench.preferredHighContrastLightColorTheme": "GitHub Light",
+  "window.autoDetectColorScheme": true
 }
