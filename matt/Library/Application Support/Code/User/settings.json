@@ -693,5 +693,6 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "eslint.validate": ["svelte", "typescript", "javascript"],
   "workbench.preferredHighContrastLightColorTheme": "GitHub Light",
-  "window.autoDetectColorScheme": true
+  "window.autoDetectColorScheme": true,
+  "breadcrumbs.enabled": false
 }

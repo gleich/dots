@@ -176,5 +176,10 @@
   {
     "key": "cmd+d",
     "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
   }
 ]
