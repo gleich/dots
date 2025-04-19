@@ -549,7 +549,7 @@
   "vim.showMarksInGutter": true,
   "[svelte]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // "editor.tokenColorCustomizations": {
   //   "textMateRules": [
