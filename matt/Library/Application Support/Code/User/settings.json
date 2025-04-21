@@ -648,7 +648,6 @@
   },
   "workbench.editor.highlightModifiedTabs": true,
   "vim.startInInsertMode": true,
-  "editor.formatOnSaveMode": "modificationsIfAvailable",
   "editor.minimap.enabled": false,
   "chat.agent.enabled": false,
   "workbench.navigationControl.enabled": false,
