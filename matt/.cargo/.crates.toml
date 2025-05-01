@@ -8,5 +8,5 @@
 "fetch 0.1.0 (path+file:///Users/matt/src/dots/bin/fetch)" = ["fetch"]
 "neptune 0.1.0 (path+file:///Users/matt/tmp/neptune)" = ["neptune"]
 "optic 2.0.1 (path+file:///Users/matt/src/gleich/optic)" = ["optic"]
-"resin 1.6.0 (path+file:///Users/matt/src/gleich/resin)" = ["resin"]
+"resin 1.6.2 (path+file:///Users/matt/src/gleich/resin)" = ["resin"]
 "update 0.1.0 (path+file:///Users/matt/src/gleich/scripts/update)" = ["update"]
