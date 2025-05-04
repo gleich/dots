@@ -5,6 +5,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "minio/stable"
 tap "zegervdv/zathura"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # MPEG-4 command-line tool
@@ -101,8 +103,6 @@ brew "yarn"
 brew "yt-dlp"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
-# Custom macOS statusbar with shell plugin, interaction and graph support
-brew "felixkratz/formulae/sketchybar"
 # Update the copyright year in all of your GitHub repos 
 brew "gleich/tap/new_yearify"
 # ☢️ Force quit all applications with one terminal command

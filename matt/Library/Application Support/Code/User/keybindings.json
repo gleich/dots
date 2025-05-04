@@ -180,6 +180,10 @@
   },
   {
     "key": "cmd+g",
-    "command": "workbench.scm.focus"
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "alt+cmd+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
   }
 ]
