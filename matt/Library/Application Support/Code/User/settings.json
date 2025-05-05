@@ -654,5 +654,6 @@
   "workbench.navigationControl.enabled": false,
   "window.density.editorTabHeight": "compact",
   "chat.commandCenter.enabled": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "editor.rulers": [{ "column": 80, "color": "#3b3b3b" }]
 }

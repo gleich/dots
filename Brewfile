@@ -1,5 +1,7 @@
+tap "cloudflare/cloudflare"
 tap "felixkratz/formulae"
 tap "gleich/tap"
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
@@ -79,8 +81,6 @@ brew "sonar-scanner"
 brew "spim"
 # Tool Command Language
 brew "tcl-tk"
-# Tool to build, change, and version infrastructure
-brew "terraform"
 # CLI tool to generate terraform files from existing infrastructure
 brew "terraformer", args: ["HEAD"]
 # Terminal multiplexer
@@ -108,6 +108,8 @@ brew "gleich/tap/new_yearify"
 # ☢️ Force quit all applications with one terminal command
 brew "gleich/tap/nuke"
 brew "gleich/tap/solar"
+# Terraform
+brew "hashicorp/tap/terraform"
 # MinIO Client for object storage and filesystems
 brew "minio/stable/mc"
 # PDF viewer
