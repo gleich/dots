@@ -8,7 +8,7 @@ matt@MacBookPro.lan
 OS: macOS 15.4.1 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 24.4.0 
-Packages: 227 (brew) 
+Packages: 238 (brew) 
 Shell: fish 4.0.2 
 DE: Aqua 
 WM: Rectangle 

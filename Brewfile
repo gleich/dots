@@ -9,18 +9,30 @@ tap "minio/stable"
 tap "zegervdv/zathura"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# Checks ansible playbooks for practices and behaviour
+brew "ansible-lint"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # MPEG-4 command-line tool
 brew "atomicparsley"
+# Automatic configure script builder
+brew "autoconf"
+# Collection of over 500 reusable autoconf macros
+brew "autoconf-archive"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
 brew "black"
 # Linux/OSX/FreeBSD resource monitor
 brew "bpytop"
+# Object-file caching compiler wrapper
+brew "ccache"
 # Statistics utility to count lines of code
 brew "cloc"
+# Cross-platform make
+brew "cmake"
 # .NET Core
 brew "dotnet"
 # Modern, maintained replacement for ls
@@ -43,12 +55,18 @@ brew "golangci-lint"
 brew "hadolint"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Development kit for the Java programming language
 brew "openjdk"
 # Java-based project management
 brew "maven"
+# Small build system for use with gyp or CMake
+brew "ninja"
+# Netwide Assembler (NASM) is an 80x86 assembler
+brew "nasm"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -221,6 +239,7 @@ vscode "icrawl.discord-vscode"
 vscode "james-yu.latex-workshop"
 vscode "jdinhlife.gruvbox"
 vscode "kdarkhan.mips"
+vscode "matthewpi.caddyfile-support"
 vscode "meganrogge.template-string-converter"
 vscode "mgmcdermott.vscode-language-babel"
 vscode "mikestead.dotenv"
@@ -238,6 +257,7 @@ vscode "ms-vsliveshare.vsliveshare"
 vscode "naumovs.color-highlight"
 vscode "njpwerner.autodocstring"
 vscode "pmndrs.pmndrs"
+vscode "redhat.vscode-yaml"
 vscode "rust-lang.rust-analyzer"
 vscode "shardulm94.trailing-spaces"
 vscode "skyran.js-jsx-snippets"
