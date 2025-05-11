@@ -443,8 +443,6 @@ require("lazy").setup({
 				gopls = {},
 				pyright = {},
 				rust_analyzer = {},
-				ts_ls = {},
-				cssls = {},
 				terraformls = {},
 				lua_ls = {
 					settings = {

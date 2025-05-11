@@ -1,40 +1,12 @@
-tap "cloudflare/cloudflare"
-tap "felixkratz/formulae"
-tap "gleich/tap"
 tap "hashicorp/tap"
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/services"
-tap "minio/stable"
-tap "zegervdv/zathura"
-# Automate deployment, configuration, and upgrading
-brew "ansible"
-# Checks ansible playbooks for practices and behaviour
-brew "ansible-lint"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
-# MPEG-4 command-line tool
-brew "atomicparsley"
-# Automatic configure script builder
-brew "autoconf"
-# Collection of over 500 reusable autoconf macros
-brew "autoconf-archive"
-# Tool for generating GNU Standards-compliant Makefiles
-brew "automake"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
 brew "black"
-# Linux/OSX/FreeBSD resource monitor
-brew "bpytop"
-# Object-file caching compiler wrapper
-brew "ccache"
 # Statistics utility to count lines of code
 brew "cloc"
 # Cross-platform make
 brew "cmake"
-# .NET Core
-brew "dotnet"
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find
@@ -45,8 +17,10 @@ brew "ffmpeg"
 brew "fish"
 # GitHub command-line tool
 brew "gh"
-# Git extension for versioning large files
-brew "git-lfs"
+# Distributed revision control system
+brew "git"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Fast linters runner for Go
@@ -55,159 +29,59 @@ brew "golangci-lint"
 brew "hadolint"
 # Simple terminal UI for git commands
 brew "lazygit"
-# Package compiler and linker metadata toolkit
-brew "pkgconf"
-# Clone of ls with colorful output, file type icons, and more
-brew "lsd"
-# Development kit for the Java programming language
-brew "openjdk"
-# Java-based project management
-brew "maven"
-# Small build system for use with gyp or CMake
-brew "ninja"
-# Netwide Assembler (NASM) is an 80x86 assembler
-brew "nasm"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Platform built on V8 to build network applications
-brew "node@20"
-# Package for scientific computing with Python
-brew "numpy"
-# Swiss-army knife of markup format conversion
-brew "pandoc"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Execute binaries from Python packages in isolated environments
-brew "pipx"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Python package management tool
 brew "poetry"
-# Python library for creating static, animated, and interactive visualizations
-brew "python-matplotlib"
+# Static type checker for Python
+brew "pyright"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Software for mathematics, science, and engineering
-brew "scipy"
 # Fuzzy Finder in rust!
 brew "sk"
-# Launcher to analyze a project with SonarQube
-brew "sonar-scanner"
-# MIPS32 simulator
-brew "spim"
-# Tool Command Language
-brew "tcl-tk"
-# CLI tool to generate terraform files from existing infrastructure
-brew "terraformer", args: ["HEAD"]
-# Terminal multiplexer
-brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Find and verify credentials
-brew "trufflehog"
-# Markup-based typesetting system
-brew "typst"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
-# Command-line client for WebSockets
-brew "websocat"
-# Tools for the WireGuard secure network tunnel
-brew "wireguard-tools"
 # JavaScript package manager
 brew "yarn"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-# Programming language designed for robustness, optimality, and clarity
-brew "zig"
-# Update the copyright year in all of your GitHub repos 
-brew "gleich/tap/new_yearify"
-# ☢️ Force quit all applications with one terminal command
-brew "gleich/tap/nuke"
-brew "gleich/tap/solar"
 # Terraform
 brew "hashicorp/tap/terraform"
-# MinIO Client for object storage and filesystems
-brew "minio/stable/mc"
-# PDF viewer
-brew "zegervdv/zathura/zathura"
-# Poppler backend plugin for zathura
-brew "zegervdv/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Menu bar icon organiser
 cask "bartender"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
+# Desktop password and login vault
+cask "bitwarden"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
-# Emulator to play GameCube and Wii games
-cask "dolphin"
-# Online diagram software
-cask "drawio"
-# Collaborative team software
-cask "figma"
-# Web browser
-cask "firefox@developer-edition"
-cask "font-computer-modern"
-cask "font-cozette"
-cask "font-fira-code"
-cask "font-geist-mono"
-cask "font-hack-nerd-font"
 cask "font-ibm-plex-mono"
-cask "font-ibm-plex-sans"
-cask "font-inter"
-cask "font-jetbrains-mono"
-cask "font-proggy-clean-tt-nerd-font"
-# Update maps and software, sync with Garmin Connect and register your device
-cask "garmin-express"
-# Client for the Google Drive storage service
-cask "google-drive"
-# Tools to protect your emails and files
-cask "gpg-suite"
-# Grammarly for desktop
-cask "grammarly-desktop"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
-cask "istat-menus"
+cask "istat-menus@6"
 # GPU-based terminal emulator
 cask "kitty"
-# Free cross-platform office suite, fresh version
-cask "libreoffice"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
-# Provides updates to various Microsoft products
-cask "microsoft-auto-update"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
-# Open-source software for live streaming and screen recording
-cask "obs"
-# Converts and edits video, audio or image files
-cask "permute"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
-# Imaging utility to install operating systems to a microSD card
-cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Instant messaging application focusing on security
-cask "signal"
-# Team communication and collaboration software
-cask "slack"
-# Video game digital distribution service
-cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
-# Mesh VPN based on WireGuard
-cask "tailscale"
-# File transfer application
-cask "transmit"
 # Open-source code editor
 cask "visual-studio-code"
 # Web browser with built-in email client focusing on customization and control
