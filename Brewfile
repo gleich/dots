@@ -74,6 +74,8 @@ cask "istat-menus@6"
 cask "kitty"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Control your tools with a few keystrokes

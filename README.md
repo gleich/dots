@@ -3,8 +3,8 @@
 updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots)
 
 ```txt
-matt@Matts-MacBook-Pro.local 
----------------------------- 
+matt@macbookpro.lan 
+------------------- 
 OS: macOS 15.4.1 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 24.4.0 
