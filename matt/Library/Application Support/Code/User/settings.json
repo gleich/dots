@@ -239,6 +239,7 @@
     "vsix",
     "wakatime",
     "webex",
+    "wsjson",
     "Xcode",
     "zwift"
   ],
@@ -551,7 +552,7 @@
   "vim.showMarksInGutter": true,
   "[svelte]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   // "editor.tokenColorCustomizations": {
   //   "textMateRules": [

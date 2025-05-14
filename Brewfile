@@ -49,6 +49,8 @@ brew "sk"
 brew "tree"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Command-line client for WebSockets
+brew "websocat"
 # JavaScript package manager
 brew "yarn"
 # Feature-rich command-line audio/video downloader
