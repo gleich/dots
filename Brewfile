@@ -68,6 +68,8 @@ cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
 cask "font-ibm-plex-mono"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Free and open-source media player
 cask "iina"
 # System monitoring app
@@ -84,6 +86,8 @@ cask "rapidapi"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Video game digital distribution service
+cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
