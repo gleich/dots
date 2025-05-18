@@ -68,6 +68,8 @@ cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
 cask "font-ibm-plex-mono"
+# GitHub notifications on your menu bar
+cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Free and open-source media player
