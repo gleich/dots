@@ -8,7 +8,7 @@ matt@matt.local
 OS: macOS 15.5 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 24.5.0 
-Packages: 151 (brew) 
+Packages: 152 (brew) 
 Shell: fish 4.0.2 
 DE: Aqua 
 WM: Rectangle 

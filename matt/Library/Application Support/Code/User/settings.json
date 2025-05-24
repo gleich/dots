@@ -657,5 +657,11 @@
   "window.density.editorTabHeight": "compact",
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }

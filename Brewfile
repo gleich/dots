@@ -25,6 +25,8 @@ brew "gnupg"
 brew "go"
 # Fast linters runner for Go
 brew "golangci-lint"
+# Database client and tools for the Go vulnerability database
+brew "govulncheck"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Simple terminal UI for git commands
@@ -114,6 +116,8 @@ vscode "esbenp.prettier-vscode"
 vscode "exiasr.hadolint"
 vscode "formulahendry.auto-close-tag"
 vscode "formulahendry.auto-rename-tag"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"

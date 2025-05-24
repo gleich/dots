@@ -1,2 +1,8 @@
 [v1]
-"resin 1.6.3 (registry+https://github.com/rust-lang/crates.io-index)" = ["resin"]
+"cargo-edit 0.13.4 (registry+https://github.com/rust-lang/crates.io-index)" = [
+    "cargo-add",
+    "cargo-rm",
+    "cargo-set-version",
+    "cargo-upgrade",
+]
+"resin 1.6.3 (path+file:///Users/matt/src/gleich/resin)" = ["resin"]
