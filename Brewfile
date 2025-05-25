@@ -1,4 +1,5 @@
 tap "hashicorp/tap"
+tap "homebrew-zathura/zathura"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
@@ -15,6 +16,8 @@ brew "fd"
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Monitor a directory for changes and run a shell command
+brew "fswatch"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -59,6 +62,10 @@ brew "yarn"
 brew "yt-dlp"
 # Terraform
 brew "hashicorp/tap/terraform"
+# PDF viewer
+brew "homebrew-zathura/zathura/zathura"
+# Poppler backend plugin for zathura
+brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Menu bar icon organiser
@@ -70,6 +77,7 @@ cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
 cask "font-ibm-plex-mono"
+cask "font-inter"
 # GitHub notifications on your menu bar
 cask "gitify"
 # Client for the Google Drive storage service
@@ -84,6 +92,8 @@ cask "kitty"
 cask "mactex-no-gui"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# Converts and edits video, audio or image files
+cask "permute"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Control your tools with a few keystrokes
