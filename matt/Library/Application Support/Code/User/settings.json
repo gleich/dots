@@ -324,7 +324,7 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "rust.all_features": true,
-  "emmet.triggerExpansionOnTab": true,
+"emmet.triggerExpansionOnTab": true,
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
   // "latex-workshop.view.pdf.invertMode.enabled": "always",
