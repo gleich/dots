@@ -1,5 +1,7 @@
 tap "hashicorp/tap"
 tap "homebrew-zathura/zathura"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
@@ -173,3 +175,4 @@ vscode "vscodevim.vim"
 vscode "wakatime.vscode-wakatime"
 vscode "yzhang.markdown-all-in-one"
 vscode "zeshuaro.vscode-python-poetry"
+vscode "zxh404.vscode-proto3"
