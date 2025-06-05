@@ -315,7 +315,7 @@
   "editor.lightbulb.enabled": "off",
   "python.formatting.autopep8Args": ["--aggressive"],
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--fast", "--enable=\"errcheck\""],
+  "go.lintFlags": ["--enable=\"errcheck\""],
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/opt/homebrew/bin/black",
   "git.confirmSync": false,
@@ -324,7 +324,7 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "rust.all_features": true,
-"emmet.triggerExpansionOnTab": true,
+  "emmet.triggerExpansionOnTab": true,
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
   // "latex-workshop.view.pdf.invertMode.enabled": "always",

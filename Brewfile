@@ -112,6 +112,7 @@ cask "visual-studio-code"
 cask "vivaldi"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "4ops.packer"
 vscode "adamgraham.polykai-theme"
 vscode "akamud.vscode-theme-onedark"
 vscode "antfu.icons-carbon"
