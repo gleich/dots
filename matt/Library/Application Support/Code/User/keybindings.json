@@ -20,10 +20,6 @@
     "command": "-workbench.action.openRecent"
   },
   {
-    "key": "shift+cmd+c",
-    "command": "grammarly.check"
-  },
-  {
     "key": "cmd+e",
     "command": "extension.conventionalCommits"
   },
@@ -157,10 +153,6 @@
     }
   },
   {
-    "key": "shift+cmd+c",
-    "command": "grammarly.ignoreIssue"
-  },
-  {
     "key": "shift+cmd+r",
     "command": "-rerunSearchEditorSearch",
     "when": "inSearchEditor"
@@ -185,5 +177,15 @@
   {
     "key": "alt+cmd+b",
     "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "workbench.action.chat.open",
+    "when": "!chatSetupHidden"
+  },
+  {
+    "key": "ctrl+cmd+i",
+    "command": "-workbench.action.chat.open",
+    "when": "!chatSetupHidden"
   }
 ]

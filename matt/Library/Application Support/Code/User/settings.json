@@ -126,6 +126,7 @@
     "Ipsilateral",
     "iste",
     "jira",
+    "kcffactory",
     "kcftech",
     "Kops",
     "Kothari",
@@ -664,5 +665,11 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+  "editor.rulers": [
+    {
+      "column": 100,
+      "color": "#404040"
+    }
+  ]
 }
