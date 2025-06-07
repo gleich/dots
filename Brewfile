@@ -46,6 +46,8 @@ brew "pinentry-mac"
 brew "pnpm"
 # Python package management tool
 brew "poetry"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Static type checker for Python
 brew "pyright"
 # Search tool like grep and The Silver Searcher
