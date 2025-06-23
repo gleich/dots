@@ -79,7 +79,7 @@ cask "bitwarden"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 cask "font-ibm-plex-mono"
 cask "font-inter"
 # GitHub notifications on your menu bar
