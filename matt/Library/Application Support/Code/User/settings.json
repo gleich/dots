@@ -34,6 +34,7 @@
     "bottomline",
     "Brainstem",
     "btask",
+    "buildx",
     "Caddyfile",
     "caprover",
     "Caser",
@@ -673,5 +674,8 @@
       "column": 100,
       "color": "#404040"
     }
-  ]
+  ],
+  "shellcheck.customArgs": ["-x"],
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "github.copilot.nextEditSuggestions.enabled": true
 }

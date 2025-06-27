@@ -50,6 +50,8 @@ brew "poetry"
 brew "prettier"
 # Static type checker for Python
 brew "pyright"
+# Persistent key-value database, with built-in net interface
+brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Fuzzy Finder in rust!
@@ -171,6 +173,7 @@ vscode "sumneko.lua"
 vscode "svelte.svelte-vscode"
 vscode "tamasfe.even-better-toml"
 vscode "tecosaur.latex-utilities"
+vscode "timonwong.shellcheck"
 vscode "usernamehw.errorlens"
 vscode "vadimcn.vscode-lldb"
 vscode "vivaxy.vscode-conventional-commits"
