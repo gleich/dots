@@ -1,7 +1,5 @@
 tap "hashicorp/tap"
 tap "homebrew-zathura/zathura"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
