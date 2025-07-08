@@ -48,8 +48,6 @@ brew "poetry"
 brew "prettier"
 # Static type checker for Python
 brew "pyright"
-# Persistent key-value database, with built-in net interface
-brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Fuzzy Finder in rust!
