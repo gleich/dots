@@ -26,6 +26,7 @@
     "authed",
     "autofocus",
     "autopep",
+    "basestation",
     "bday",
     "blinkt",
     "blurhash",
@@ -129,6 +130,7 @@
     "iste",
     "jira",
     "kcffactory",
+    "kcfproduction",
     "kcfstage",
     "kcftech",
     "Kops",
@@ -676,7 +678,11 @@
       "color": "#404040"
     }
   ],
-  "shellcheck.customArgs": ["-x"],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "shellcheck.customArgs": ["-x"],
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
+  "conventionalCommits.silentAutoCommit": true
 }
