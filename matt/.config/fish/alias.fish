@@ -8,6 +8,7 @@ alias cpwd="pwd | pbcopy"
 alias pcd="cd (pbpaste)"
 alias ore="omf reload"
 alias cat="bat -n --theme=OneHalfDark"
+alias work="sudo bless -mount /Volumes/kcf -setBoot && sudo shutdown -r now"
 
 # git
 alias gp="git push"
