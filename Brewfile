@@ -94,6 +94,8 @@ cask "kitty"
 cask "mactex-no-gui"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Converts and edits video, audio or image files
 cask "permute"
 # HTTP client that helps testing and describing APIs
