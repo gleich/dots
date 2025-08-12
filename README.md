@@ -1,6 +1,6 @@
 # dots
 
-updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots)
+updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots). my system configuration files.
 
 ```txt
 matt@macbookpro.lan 
