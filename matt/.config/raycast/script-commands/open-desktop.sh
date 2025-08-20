@@ -12,5 +12,5 @@
 # Documentation:
 # @raycast.description Opens the Desktop folder in the Finder.
 
-cd ~/Desktop
+cd ~/Desktop || exit
 open .

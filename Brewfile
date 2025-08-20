@@ -50,6 +50,8 @@ brew "prettier"
 brew "pyright"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Autoformat shell script source code
+brew "shfmt"
 # Fuzzy Finder in rust!
 brew "sk"
 # Display directories as trees (with optional color/HTML output)
