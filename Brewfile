@@ -56,6 +56,8 @@ brew "shfmt"
 brew "sk"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Command-line client for WebSockets
