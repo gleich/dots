@@ -9,7 +9,7 @@
 # Documentation:
 # @raycast.description Turned on my Yamaha R-N800A Receiver
 
-receiver_address="192.168.1.39"
+receiver_address="192.168.1.04"
 
 # turn on receiver
 curl --silent --output /dev/null "http://${receiver_address}/YamahaExtendedControl/v1/main/setPower?power=on"
