@@ -78,6 +78,8 @@ cask "adobe-creative-cloud"
 cask "bartender"
 # Desktop password and login vault
 cask "bitwarden"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
