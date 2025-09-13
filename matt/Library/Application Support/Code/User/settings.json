@@ -687,5 +687,6 @@
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
-  "conventionalCommits.silentAutoCommit": true
+  "conventionalCommits.silentAutoCommit": true,
+  "terminal.integrated.stickyScroll.enabled": false
 }
