@@ -74,8 +74,6 @@ brew "homebrew-zathura/zathura/zathura"
 brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# Menu bar icon organiser
-cask "bartender"
 # Desktop password and login vault
 cask "bitwarden"
 # OpenAI's official ChatGPT desktop app
@@ -90,6 +88,8 @@ cask "font-inter"
 cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Utility to hide menu bar items
+cask "hiddenbar"
 # Free and open-source media player
 cask "iina"
 # System monitoring app

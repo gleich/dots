@@ -5,9 +5,9 @@ updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/d
 ```txt
 matt@MacBookPro.lan 
 ------------------- 
-OS: macOS 15.6.1 arm64 
+OS: macOS 26.0 arm64 
 Host: MacBookPro18,4 
-Kernel: Darwin 24.6.0 
+Kernel: Darwin 25.0.0 
 Packages: 191 (brew) 
 Shell: fish 4.0.6 
 DE: Aqua 
