@@ -106,6 +106,8 @@ cask "notion"
 cask "permute"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
