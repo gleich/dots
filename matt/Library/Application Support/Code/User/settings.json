@@ -688,5 +688,6 @@
     "editor.defaultFormatter": "mkhl.shfmt"
   },
   "conventionalCommits.silentAutoCommit": true,
-  "terminal.integrated.stickyScroll.enabled": false
+  "terminal.integrated.stickyScroll.enabled": false,
+  "editor.inlayHints.enabled": "off"
 }
