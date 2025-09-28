@@ -50,6 +50,8 @@ brew "prettier"
 brew "pyright"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Utility that provides fast incremental file transfer
+brew "rsync"
 # Autoformat shell script source code
 brew "shfmt"
 # Fuzzy Finder in rust!

@@ -332,7 +332,6 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
-  "rust.all_features": true,
   "emmet.triggerExpansionOnTab": true,
   "grammarly.hideUnavailablePremiumAlerts": true,
   "vim.enableNeovim": true,
@@ -399,7 +398,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "rust.rustfmt_path": "~/.cargo/bin/rustfmt",
   "vsicons.dontShowNewVersionMessage": true,
   "yaclock.flashTimeSeparator": true,
   "yaclock.prefix": "",
@@ -439,13 +437,9 @@
   "latex-workshop.viewer.pdf.internal.keyboardEvent": "force",
   "latex-workshop.view.pdf.zoom": "page-fit",
   "go.toolsManagement.autoUpdate": true,
-  "docker.showStartPage": false,
   "explorer.compactFolders": false,
   "editor.suggest.insertMode": "replace",
   "editor.suggest.showStatusBar": true,
-  "go.useCodeSnippetsOnFunctionSuggest": true,
-  "fgh-code.promptOnOpen": false,
-  "vim.debug.silent": true,
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
   "vim.camelCaseMotion.enable": true,
@@ -584,7 +578,6 @@
   //   ]
   // },
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
-  "rust-analyzer.diagnostics.disabled": ["macro-error"],
   "discord.removeTimestamp": true,
   "discord.suppressNotifications": true,
   "git.inputValidation": true,
@@ -690,5 +683,14 @@
   },
   "conventionalCommits.silentAutoCommit": true,
   "terminal.integrated.stickyScroll.enabled": false,
-  "editor.inlayHints.enabled": "off"
+  "editor.inlayHints.enabled": "off",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
