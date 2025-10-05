@@ -211,6 +211,7 @@
     "RMAPI",
     "Roboto",
     "rootly",
+    "rppal",
     "rprintln",
     "Rubba",
     "rustfmt",
@@ -266,7 +267,7 @@
   "emmet.showSuggestionsAsSnippets": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "latex-workshop.intellisense.package.enabled": true,
-  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "psudoFont Liga Mono",
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": false,
   "editor.wordWrap": "on",
@@ -521,7 +522,7 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Soft",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "editor.quickSuggestions": {
@@ -618,7 +619,7 @@
       }
     ]
   },
-  "terminal.integrated.fontFamily": "IBM Plex Mono",
+  "terminal.integrated.fontFamily": "psudoFont Liga Mono",
   "editor.folding": false,
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
@@ -661,12 +662,6 @@
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
   "editor.rulers": [
     {
       "column": 100,
@@ -675,9 +670,7 @@
   ],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "shellcheck.customArgs": [
-    "-x"
-  ],
+  "shellcheck.customArgs": ["-x"],
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
@@ -692,5 +685,13 @@
   },
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "*.mutable": {
+        "underline": false
+      }
+    }
   }
 }

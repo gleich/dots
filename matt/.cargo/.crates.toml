@@ -5,4 +5,4 @@
     "cargo-set-version",
     "cargo-upgrade",
 ]
-"resin 1.6.4 (path+file:///Users/matt/src/gleich/resin)" = ["resin"]
+"resin 1.6.5 (path+file:///Users/matt/src/gleich/resin)" = ["resin"]

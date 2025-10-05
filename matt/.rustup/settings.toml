@@ -1,5 +1,5 @@
 version = "12"
-default_toolchain = "stable-aarch64-apple-darwin"
+default_toolchain = "nightly-aarch64-apple-darwin"
 profile = "default"
 
 [overrides]
