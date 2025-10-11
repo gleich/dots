@@ -100,6 +100,8 @@ cask "istat-menus@6"
 cask "kitty"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
+# Sandbox construction video game
+cask "minecraft"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
