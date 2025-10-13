@@ -96,6 +96,8 @@ cask "hiddenbar"
 cask "iina"
 # System monitoring app
 cask "istat-menus@6"
+# Keyboard customiser
+cask "karabiner-elements"
 # GPU-based terminal emulator
 cask "kitty"
 # Full TeX Live distribution without GUI applications
@@ -196,3 +198,9 @@ vscode "wakatime.vscode-wakatime"
 vscode "yzhang.markdown-all-in-one"
 vscode "zeshuaro.vscode-python-poetry"
 vscode "zxh404.vscode-proto3"
+go "go.mattglei.ch/scripts/backups"
+go "go.mattglei.ch/scripts/dots"
+go "github.com/segmentio/golines"
+go "golang.org/x/tools/gopls"
+go "go.mattglei.ch/scripts/isteperm"
+go "go.mattglei.ch/scripts/update"
