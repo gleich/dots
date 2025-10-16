@@ -354,38 +354,6 @@
   },
   "latex-utilities.message.update.show": false,
   "workbench.tree.expandMode": "singleClick",
-  "sonarlint.rules": {
-    "java:S106": {
-      "level": "off"
-    },
-    "java:S125": {
-      "level": "off"
-    },
-    "java:S3776": {
-      "level": "off"
-    },
-    "java:S1192": {
-      "level": "off"
-    },
-    "java:S1871": {
-      "level": "off"
-    },
-    "typescript:S1117": {
-      "level": "off"
-    },
-    "java:S3400": {
-      "level": "off"
-    },
-    "java:S135": {
-      "level": "off"
-    },
-    "java:S2189": {
-      "level": "off"
-    },
-    "java:S1319": {
-      "level": "off"
-    }
-  },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -401,10 +369,6 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "vsicons.dontShowNewVersionMessage": true,
-  "yaclock.flashTimeSeparator": true,
-  "yaclock.prefix": "",
-  "yaclock.showDay": true,
-  "yaclock.showDate": true,
   "window.titleSeparator": " | ",
   "hadolint.hadolintPath": "/opt/homebrew/bin/hadolint",
   "conventionalCommits.scopes": [
@@ -696,5 +660,6 @@
         "underline": false
       }
     }
-  }
+  },
+  "terminal.integrated.fontLigatures.enabled": true
 }

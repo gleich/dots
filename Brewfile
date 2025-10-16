@@ -56,6 +56,8 @@ brew "rsync"
 brew "shfmt"
 # Fuzzy Finder in rust!
 brew "sk"
+# SQL linter and auto-formatter for Humans
+brew "sqlfluff"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -140,6 +142,7 @@ vscode "christian-kohler.path-intellisense"
 vscode "clinyong.vscode-css-modules"
 vscode "dbaeumer.vscode-eslint"
 vscode "donjayamanne.githistory"
+vscode "dorzey.vscode-sqlfluff"
 vscode "dustypomerleau.rust-syntax"
 vscode "editorconfig.editorconfig"
 vscode "emeraldwalk.runonsave"
