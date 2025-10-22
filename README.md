@@ -3,8 +3,8 @@
 updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots). my system configuration files.
 
 ```txt
-matt@MacBookPro-976.lan 
------------------------ 
+matt@MacBookPro-1022.lan 
+------------------------ 
 OS: macOS 26.0.1 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 25.0.0 
