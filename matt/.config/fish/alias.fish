@@ -10,6 +10,9 @@ alias ore="omf reload"
 alias cat="bat -n --theme=OneHalfDark"
 alias work="sudo bless -mount /Volumes/kcf -setBoot && sudo shutdown -r now"
 
+# go
+alias gmt="go mod tidy"
+
 # git
 alias gp="git push"
 alias gs="git status"
