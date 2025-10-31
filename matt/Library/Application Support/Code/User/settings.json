@@ -640,7 +640,9 @@
   ],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "shellcheck.customArgs": ["-x"],
+  "shellcheck.customArgs": [
+    "-x"
+  ],
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
@@ -655,6 +657,9 @@
   },
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "dorzey.vscode-sqlfluff"
   },
   "editor.semanticTokenColorCustomizations": {
     "enabled": true,

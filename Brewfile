@@ -1,5 +1,7 @@
+tap "goreleaser/tap"
 tap "hashicorp/tap"
 tap "homebrew-zathura/zathura"
+tap "synthient/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
@@ -62,6 +64,8 @@ brew "sqlfluff"
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Your CLI home video recorder
+brew "vhs"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Command-line client for WebSockets
@@ -92,6 +96,8 @@ cask "font-inter"
 cask "gitify"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Release engineering, simplified
+cask "goreleaser"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Free and open-source media player
@@ -122,6 +128,8 @@ cask "raycast"
 cask "rectangle"
 # Video game digital distribution service
 cask "steam"
+# Official CLI for synthient
+cask "synthient"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
