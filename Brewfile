@@ -40,6 +40,8 @@ brew "lazygit"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Development kit for the Java programming language
+brew "openjdk"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Fast, disk space efficient package manager
@@ -158,6 +160,7 @@ vscode "esbenp.prettier-vscode"
 vscode "exiasr.hadolint"
 vscode "formulahendry.auto-close-tag"
 vscode "formulahendry.auto-rename-tag"
+vscode "garmin.monkey-c"
 vscode "github.github-vscode-theme"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
