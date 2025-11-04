@@ -21,7 +21,6 @@
     "AIRTABLE",
     "Alacritty",
     "applemusic",
-    "arange",
     "auralite",
     "authed",
     "autofocus",
@@ -58,9 +57,7 @@
     "COVID",
     "CPUs",
     "creds",
-    "cringy",
     "CSCI",
-    "cupertino",
     "darkmode",
     "Datatypes",
     "dateutil",
@@ -640,7 +637,9 @@
   ],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "shellcheck.customArgs": ["-x"],
+  "shellcheck.customArgs": [
+    "-x"
+  ],
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
