@@ -94,6 +94,8 @@ cask "discord"
 cask "docker-desktop"
 cask "font-ibm-plex-mono"
 cask "font-inter"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # GitHub notifications on your menu bar
 cask "gitify"
 # Client for the Google Drive storage service

@@ -238,6 +238,7 @@
     "transpiled",
     "uint",
     "uncommented",
+    "Uniden",
     "unmarshals",
     "unstaged",
     "unsynced",
@@ -637,9 +638,7 @@
   ],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "shellcheck.customArgs": [
-    "-x"
-  ],
+  "shellcheck.customArgs": ["-x"],
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
