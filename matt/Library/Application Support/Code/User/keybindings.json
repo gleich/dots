@@ -86,10 +86,6 @@
     "when": "suggestWidgetVisible && textInputFocus && textInputFocus"
   },
   {
-    "key": "shift+cmd+w",
-    "command": "github-actions.workflows.focus"
-  },
-  {
     "key": "shift+cmd+c",
     "command": "workbench.files.action.collapseExplorerFolders"
   },
@@ -187,5 +183,17 @@
     "key": "ctrl+cmd+i",
     "command": "-workbench.action.chat.open",
     "when": "!chatSetupHidden"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "cmd+k cmd+w",
+    "command": "-workbench.action.closeAllEditors"
   }
 ]
