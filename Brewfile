@@ -92,6 +92,8 @@ cask "chatgpt"
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Collaborative team software
+cask "figma"
 cask "font-ibm-plex-mono"
 cask "font-inter"
 # Terminal emulator that uses platform-native UI and GPU acceleration

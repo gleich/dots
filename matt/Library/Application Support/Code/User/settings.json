@@ -490,7 +490,7 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark Soft",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "editor.quickSuggestions": {
@@ -638,9 +638,7 @@
   ],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "shellcheck.customArgs": [
-    "-x"
-  ],
+  "shellcheck.customArgs": ["-x"],
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
