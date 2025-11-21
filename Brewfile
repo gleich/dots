@@ -130,6 +130,8 @@ cask "raspberry-pi-imager"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Music streaming service
+cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Official CLI for synthient
