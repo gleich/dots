@@ -21,5 +21,18 @@
 			"timber.Fatal(err, \"failed to $1\")",
 		],
 		"description": "log out a fatal error"
+	},
+	"Main program": {
+		"prefix": "main",
+		"body": [
+			"package main",
+			"",
+			"import \"fmt\"",
+			"",
+			"func main() {",
+			"\tfmt.Println(\"foo\")",
+			"}"
+		],
+		"description": "a basic main program"
 	}
 }
