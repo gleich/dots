@@ -24,7 +24,7 @@ brew "fswatch"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# GNU Pretty Good Privacy (PGP) package
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
@@ -86,6 +86,8 @@ brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 cask "adobe-creative-cloud"
 # Desktop password and login vault
 cask "bitwarden"
+# Virtual Audio Driver
+cask "blackhole-2ch"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Voice and text chat software
