@@ -60,6 +60,8 @@ brew "rsync"
 brew "shfmt"
 # Fuzzy Finder in rust!
 brew "sk"
+# SOund eXchange: universal sound sample translator
+brew "sox"
 # SQL linter and auto-formatter for Humans
 brew "sqlfluff"
 # Display directories as trees (with optional color/HTML output)
@@ -222,4 +224,5 @@ go "github.com/segmentio/golines"
 go "golang.org/x/tools/gopls"
 go "go.mattglei.ch/interview"
 go "go.mattglei.ch/scripts/isteperm"
+go "github.com/gleich/osfs"
 go "go.mattglei.ch/scripts/update"
