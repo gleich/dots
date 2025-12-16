@@ -90,6 +90,8 @@ cask "adobe-creative-cloud"
 cask "bitwarden"
 # Virtual Audio Driver
 cask "blackhole-2ch"
+# CD burning application
+cask "burn"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Voice and text chat software
