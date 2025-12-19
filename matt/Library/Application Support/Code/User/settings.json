@@ -268,7 +268,6 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true
   },
-  "go.formatTool": "custom",
   "go.useLanguageServer": true,
   "files.autoSaveDelay": 100,
   "emmet.showSuggestionsAsSnippets": true,
@@ -641,9 +640,7 @@
   ],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "shellcheck.customArgs": [
-    "-x"
-  ],
+  "shellcheck.customArgs": ["-x"],
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
