@@ -2,7 +2,7 @@
 	"Wrap error": {
 		"prefix": "re",
 		"body": [
-			"fmt.Errorf(\"%w $1\", err)"
+			"fmt.Errorf(\"$1: %w\", err)"
 		],
 		"description": "Wrap a given error"
 	},
