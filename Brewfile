@@ -64,6 +64,8 @@ brew "sk"
 brew "sox"
 # SQL linter and auto-formatter for Humans
 brew "sqlfluff"
+# Change macOS audio source from the command-line
+brew "switchaudio-osx"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
