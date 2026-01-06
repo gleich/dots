@@ -672,5 +672,7 @@
     }
   },
   "terminal.integrated.fontLigatures.enabled": true,
-  "editor.fontSize": 12.5
+  "editor.fontSize": 12.5,
+  "editor.copyWithSyntaxHighlighting": false,
+  "go.diagnostic.vulncheck": "Imports"
 }
