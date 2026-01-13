@@ -674,5 +674,6 @@
   "terminal.integrated.fontLigatures.enabled": true,
   "editor.fontSize": 12.5,
   "editor.copyWithSyntaxHighlighting": false,
-  "go.diagnostic.vulncheck": "Imports"
+  "go.diagnostic.vulncheck": "Imports",
+  "terminal.integrated.initialHint": false
 }
