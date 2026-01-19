@@ -109,7 +109,7 @@ cask "ghostty"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Release engineering, simplified
-cask "goreleaser"
+cask "goreleaser/tap/goreleaser"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Free and open-source media player
@@ -143,7 +143,7 @@ cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Official CLI for synthient
-cask "synthient"
+cask "synthient/tap/synthient"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
