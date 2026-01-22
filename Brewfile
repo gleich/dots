@@ -10,6 +10,8 @@ brew "black"
 brew "cloc"
 # Cross-platform make
 brew "cmake"
+# Console Matrix
+brew "cmatrix"
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find
@@ -130,6 +132,8 @@ cask "ngrok"
 cask "notion"
 # Converts and edits video, audio or image files
 cask "permute"
+# Modern programming language in the Lisp/Scheme family
+cask "racket"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card
