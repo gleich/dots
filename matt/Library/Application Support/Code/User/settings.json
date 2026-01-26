@@ -8,7 +8,7 @@
     "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
-    "**/.factorypath": true
+    "**/.factorypath": true,
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
@@ -263,14 +263,14 @@
     "webex",
     "wsjson",
     "Xcode",
-    "zwift"
+    "zwift",
   ],
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[yaml]": {
     "editor.tabSize": 2,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
   },
   "go.useLanguageServer": true,
   "files.autoSaveDelay": 100,
@@ -291,7 +291,7 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnPaste": false,
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "latex-workshop.message.error.show": false,
   "editor.fontLigatures": "'zero'",
@@ -308,7 +308,7 @@
   "trailing-spaces.borderColor": "rgba(0,0,0,0)",
   "trailing-spaces.trimOnSave": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "git.enableCommitSigning": true,
   "bracket-pair-colorizer-2.showBracketsInRuler": true,
@@ -326,7 +326,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
+    "editor.wordBasedSuggestions": "off",
   },
   "editor.cursorBlinking": "smooth",
   "terminal.integrated.cursorBlinking": true,
@@ -341,7 +341,7 @@
   "git.confirmSync": false,
   "markdown.extension.toc.levels": "1..4",
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
   "emmet.triggerExpansionOnTab": true,
   "grammarly.hideUnavailablePremiumAlerts": true,
@@ -352,29 +352,29 @@
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.progress.barStyle": "none",
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "vim.handleKeys": {
-    "<D-c>": false
+    "<D-c>": false,
   },
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook",
-    "*.svg": "default"
+    "*.svg": "default",
   },
   "latex-utilities.message.update.show": false,
   "workbench.tree.expandMode": "singleClick",
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "editor.cursorSurroundingLines": 10000,
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "vsicons.dontShowNewVersionMessage": true,
@@ -392,7 +392,7 @@
     "release",
     "assets",
     "minor",
-    "wip"
+    "wip",
   ],
   "conventionalCommits.gitmoji": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
@@ -405,7 +405,7 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.formatOnSave": false,
     "editor.tabSize": 4,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
   },
   "vim.incsearch": true,
   "latex-workshop.bibtex-format.sort.enabled": true,
@@ -427,56 +427,56 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["u"],
-      "commands": ["undo"]
+      "commands": ["undo"],
     },
     {
       "before": ["o"],
-      "after": ["A", "enter"]
+      "after": ["A", "enter"],
     },
     {
       "before": ["C-r"],
-      "commands": ["redo"]
+      "commands": ["redo"],
     },
     {
       "before": ["down"],
-      "after": ["g", "j"]
+      "after": ["g", "j"],
     },
     {
       "before": ["up"],
-      "after": ["g", "k"]
+      "after": ["g", "k"],
     },
     {
       "before": ["j"],
-      "after": ["g", "j"]
+      "after": ["g", "j"],
     },
     {
       "before": ["k"],
-      "after": ["g", "k"]
-    }
+      "after": ["g", "k"],
+    },
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": ["down"],
-      "after": ["g", "j"]
+      "after": ["g", "j"],
     },
     {
       "before": ["up"],
-      "after": ["g", "k"]
+      "after": ["g", "k"],
     },
     {
       "before": "k",
-      "after": ["g", "j"]
+      "after": ["g", "j"],
     },
     {
       "before": "j",
-      "after": ["g", "j"]
-    }
+      "after": ["g", "j"],
+    },
   ],
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDelete": false,
   "notebook.cellToolbarLocation": {
     "default": "right",
-    "jupyter-notebook": "left"
+    "jupyter-notebook": "left",
   },
   "terminal.integrated.defaultLocation": "editor",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -484,38 +484,38 @@
   "vim.normalModeKeyBindings": [
     {
       "before": ["<leader>", "r"],
-      "commands": ["editor.action.rename"]
+      "commands": ["editor.action.rename"],
     },
     {
       "before": ["<leader>", "c"],
-      "commands": ["grammarly.ignoreIssue"]
-    }
+      "commands": ["grammarly.ignoreIssue"],
+    },
   ],
   "editor.linkedEditing": true,
   "errorLens.fontWeight": "700",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark Medium",
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Soft",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "editor.quickSuggestions": {
     "comments": "on",
     "strings": "on",
-    "other": "on"
+    "other": "on",
   },
   "emmet.syntaxProfiles": {
-    "javascript": "jsx"
+    "javascript": "jsx",
   },
   "emmet.includeLanguages": {
     "mdx": "html",
-    "javascript": "javascript-react"
+    "javascript": "javascript-react",
   },
   "[go]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
+      "source.organizeImports": "explicit",
     },
-    "editor.defaultFormatter": "golang.go"
+    "editor.defaultFormatter": "golang.go",
   },
   "zenMode.hideLineNumbers": false,
   "workbench.editor.decorations.colors": false,
@@ -532,7 +532,7 @@
   "vim.showMarksInGutter": true,
   "[svelte]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.defaultFormatter": "svelte.svelte-vscode",
   },
   // "editor.tokenColorCustomizations": {
   //   "textMateRules": [
@@ -589,14 +589,14 @@
     "commands": [
       {
         "match": "\\.go$",
-        "cmd": "golines --shorten-comments ${file} -w"
-      }
-    ]
+        "cmd": "golines --shorten-comments ${file} -w",
+      },
+    ],
   },
   "terminal.integrated.fontFamily": "psudoFont Liga Mono",
   "editor.folding": false,
   "[terraform]": {
-    "editor.defaultFormatter": "hashicorp.terraform"
+    "editor.defaultFormatter": "hashicorp.terraform",
   },
   "terminal.integrated.fontWeight": "500",
   "latex-workshop.view.pdf.invert": 0.88,
@@ -605,13 +605,13 @@
   "editor.fontWeight": "500",
   "workbench.colorTheme": "GitHub Dark",
   "[typst]": {
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   },
   "[typst-code]": {
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   },
   "[lua]": {
-    "editor.defaultFormatter": "sumneko.lua"
+    "editor.defaultFormatter": "sumneko.lua",
   },
   "workbench.editor.enablePreview": false,
   "diffEditor.ignoreTrimWhitespace": true,
@@ -625,7 +625,7 @@
   "workbench.colorCustomizations": {
     "editorIndentGuide.background1": "#00000001",
     "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingForeground": "#ffffff"
+    "statusBar.debuggingForeground": "#ffffff",
   },
   "workbench.editor.highlightModifiedTabs": true,
   "vim.startInInsertMode": true,
@@ -639,14 +639,14 @@
   "editor.rulers": [
     {
       "column": 100,
-      "color": "#404040"
-    }
+      "color": "#404040",
+    },
   ],
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "github.copilot.nextEditSuggestions.enabled": true,
   "shellcheck.customArgs": ["-x"],
   "[shellscript]": {
-    "editor.defaultFormatter": "mkhl.shfmt"
+    "editor.defaultFormatter": "mkhl.shfmt",
   },
   "conventionalCommits.silentAutoCommit": true,
   "terminal.integrated.stickyScroll.enabled": false,
@@ -655,25 +655,25 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[sql]": {
-    "editor.defaultFormatter": "dorzey.vscode-sqlfluff"
+    "editor.defaultFormatter": "dorzey.vscode-sqlfluff",
   },
   "editor.semanticTokenColorCustomizations": {
     "enabled": true,
     "rules": {
       "*.mutable": {
-        "underline": false
-      }
-    }
+        "underline": false,
+      },
+    },
   },
   "terminal.integrated.fontLigatures.enabled": true,
   "editor.fontSize": 12.5,
   "editor.copyWithSyntaxHighlighting": false,
   "go.diagnostic.vulncheck": "Imports",
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": false,
 }
