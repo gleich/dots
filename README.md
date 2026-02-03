@@ -9,7 +9,7 @@ OS: macOS 26.2 arm64
 Host: MacBookPro18,4 
 Kernel: Darwin 25.2.0 
 Packages: 216 (brew) 
-Shell: fish 4.3.3 
+Shell: fish 4.4.0 
 DE: Aqua 
 WM: Rectangle 
 CPU: Apple M1 Max 
