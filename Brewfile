@@ -44,6 +44,10 @@ brew "neofetch"
 brew "neovim"
 # Development kit for the Java programming language
 brew "openjdk"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# PDF converter to SVG
+brew "pdf2svg"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Fast, disk space efficient package manager
@@ -66,6 +70,8 @@ brew "sk"
 brew "sox"
 # SQL linter and auto-formatter for Humans
 brew "sqlfluff"
+# Nodejs-based tool for optimizing SVG vector graphics files
+brew "svgo"
 # Change macOS audio source from the command-line
 brew "switchaudio-osx"
 # Display directories as trees (with optional color/HTML output)
@@ -117,6 +123,8 @@ cask "goreleaser/tap/goreleaser"
 cask "hiddenbar"
 # Free and open-source media player
 cask "iina"
+# Vector graphics editor
+cask "inkscape"
 # System monitoring app
 cask "istat-menus@6"
 # GPU-based terminal emulator
@@ -190,6 +198,7 @@ vscode "kdarkhan.mips"
 vscode "lishizhen.racket-fmt"
 vscode "meganrogge.template-string-converter"
 vscode "mgmcdermott.vscode-language-babel"
+vscode "mikeburgh.xml-format"
 vscode "mikestead.dotenv"
 vscode "mkhl.shfmt"
 vscode "ms-python.black-formatter"

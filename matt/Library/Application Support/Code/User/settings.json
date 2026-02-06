@@ -261,6 +261,7 @@
     "wakatime",
     "Warningf",
     "webex",
+    "webp",
     "wsjson",
     "Xcode",
     "zwift",
@@ -678,5 +679,8 @@
   "terminal.integrated.initialHint": false,
   "[racket]": {
     "editor.defaultFormatter": "lishizhen.racket-fmt",
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "mikeburgh.xml-format",
   },
 }
