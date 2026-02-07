@@ -366,6 +366,11 @@
   "workbench.tree.expandMode": "singleClick",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true,
+    },
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",

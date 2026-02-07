@@ -1,0 +1,32 @@
+{
+	"drawing": {
+		"prefix": "d",
+		"body": [
+			"<!-- DRAWING -->",
+		],
+		"description": "Notes drawing comment"
+	},
+	"bold": {
+		"prefix": "b",
+		"body": [
+			"**$1**",
+		],
+		"description": "Bold text"
+	},
+	"italic": {
+		"prefix": "i",
+		"body": [
+			"_$1_",
+		],
+		"description": "Italic text"
+	},
+	"mipscode": {
+		"prefix": "mip",
+		"body": [
+			"```mipsasm",
+			"$1",
+			"```"
+		],
+		"description": "MIPS Assembly code block"
+	}
+}
