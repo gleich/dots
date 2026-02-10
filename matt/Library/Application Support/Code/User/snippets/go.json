@@ -34,5 +34,12 @@
 			"}"
 		],
 		"description": "a basic main program"
-	}
+	},
+	"Defer Close": {
+		"prefix": "de",
+		"body": [
+			"defer func() { _ = $1.Close() }()",
+		],
+		"description": "Defer closing and ignore the error"
+	},
 }
