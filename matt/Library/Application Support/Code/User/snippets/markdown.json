@@ -21,7 +21,7 @@
 		"description": "Italic text"
 	},
 	"mipscode": {
-		"prefix": "mip",
+		"prefix": "asm",
 		"body": [
 			"```mipsasm",
 			"$1",
