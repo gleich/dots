@@ -12,6 +12,7 @@ alias work="sudo bless -mount /Volumes/kcf -setBoot && sudo shutdown -r now"
 
 # go
 alias gmt="go mod tidy"
+alias goup="go get -u ./... && go mod tidy && git add . && git commit -m \"chore[deps]: upgrade all\" && gp"
 
 # git
 alias gp="git push"
