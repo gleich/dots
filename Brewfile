@@ -153,8 +153,6 @@ cask "rectangle"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
-# Official CLI for synthient
-cask "synthient/tap/synthient"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
