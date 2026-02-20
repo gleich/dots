@@ -689,4 +689,11 @@
   "[xml]": {
     "editor.defaultFormatter": "mikeburgh.xml-format",
   },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
+  "window.restoreWindows": "one",
 }
