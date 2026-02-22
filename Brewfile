@@ -1,6 +1,7 @@
 tap "goreleaser/tap"
 tap "hashicorp/tap"
 tap "homebrew-zathura/zathura"
+tap "rokartur/betteraudio"
 tap "synthient/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -96,6 +97,8 @@ brew "homebrew-zathura/zathura/zathura"
 brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Menu bar icon organiser
+cask "bartender"
 # Desktop password and login vault
 cask "bitwarden"
 # Virtual Audio Driver
@@ -119,8 +122,6 @@ cask "ghostty"
 cask "google-drive"
 # Release engineering, simplified
 cask "goreleaser/tap/goreleaser"
-# Utility to hide menu bar items
-cask "hiddenbar"
 # Free and open-source media player
 cask "iina"
 # Vector graphics editor
