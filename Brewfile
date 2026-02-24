@@ -150,8 +150,6 @@ cask "raspberry-pi-imager"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Music streaming service
-cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Native GUI tool for relational databases
@@ -228,6 +226,7 @@ vscode "vscodevim.vim"
 vscode "wakatime.vscode-wakatime"
 vscode "yzhang.markdown-all-in-one"
 vscode "zeshuaro.vscode-python-poetry"
+go "go.mattglei.ch/scripts/amtokens"
 go "go.mattglei.ch/scripts/backups"
 go "github.com/go-delve/delve/cmd/dlv"
 go "go.mattglei.ch/scripts/dots"

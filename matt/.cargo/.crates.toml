@@ -5,7 +5,7 @@
     "cargo-set-version",
     "cargo-upgrade",
 ]
-"cargo-update 18.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = [
+"cargo-update 18.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = [
     "cargo-install-update",
     "cargo-install-update-config",
 ]
