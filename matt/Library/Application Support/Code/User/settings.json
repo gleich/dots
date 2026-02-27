@@ -682,9 +682,6 @@
   "editor.copyWithSyntaxHighlighting": false,
   "go.diagnostic.vulncheck": "Imports",
   "terminal.integrated.initialHint": false,
-  "[racket]": {
-    "editor.defaultFormatter": "lishizhen.racket-fmt",
-  },
   "[xml]": {
     "editor.defaultFormatter": "mikeburgh.xml-format",
   },
