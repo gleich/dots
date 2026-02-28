@@ -122,6 +122,8 @@ cask "ghostty"
 cask "google-drive"
 # Release engineering, simplified
 cask "goreleaser/tap/goreleaser"
+# Chromium-based web browser
+cask "helium-browser"
 # Free and open-source media player
 cask "iina"
 # Vector graphics editor
