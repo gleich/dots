@@ -158,8 +158,6 @@ cask "steam"
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
-# Web browser with built-in email client focusing on customization and control
-cask "vivaldi"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "adamgraham.polykai-theme"
@@ -188,6 +186,7 @@ vscode "github.github-vscode-theme"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
+vscode "grafana.grafana-alloy"
 vscode "hashicorp.terraform"
 vscode "jdinhlife.gruvbox"
 vscode "kdarkhan.mips"
