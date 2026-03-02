@@ -8,7 +8,7 @@ matt@gleich-2.local
 OS: macOS 26.3 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 25.3.0 
-Packages: 218 (brew) 
+Packages: 219 (brew) 
 Shell: fish 4.5.0 
 DE: Aqua 
 WM: Rectangle 
