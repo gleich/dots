@@ -3,7 +3,7 @@
 updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots). my system configuration files.
 
 ```txt
-matt@MacBookPro.lan 
+matt@gleich-2.local 
 ------------------- 
 OS: macOS 26.3 arm64 
 Host: MacBookPro18,4 
