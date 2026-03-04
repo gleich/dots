@@ -692,4 +692,7 @@
     "scminput": false,
   },
   "window.restoreWindows": "one",
+  "[racket]": {
+    "editor.defaultFormatter": "lishizhen.racket-fmt",
+  },
 }

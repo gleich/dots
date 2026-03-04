@@ -71,6 +71,8 @@ brew "shfmt"
 brew "sk"
 # SOund eXchange: universal sound sample translator
 brew "sox"
+# MIPS32 simulator
+brew "spim"
 # SQL linter and auto-formatter for Humans
 brew "sqlfluff"
 # Nodejs-based tool for optimizing SVG vector graphics files
