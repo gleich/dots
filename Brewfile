@@ -103,8 +103,6 @@ brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 cask "adobe-creative-cloud"
 # Menu bar icon organiser
 cask "bartender"
-# Desktop password and login vault
-cask "bitwarden"
 # Virtual Audio Driver
 cask "blackhole-2ch"
 # CD burning application
