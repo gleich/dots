@@ -1,0 +1,118 @@
+{
+  "completions": {
+    "words": "enabled",
+  },
+  "toolbar": {
+    "quick_actions": false,
+    "breadcrumbs": false,
+  },
+  "buffer_line_height": "standard",
+  "collaboration_panel": {
+    "dock": "right",
+  },
+  "outline_panel": {
+    "dock": "right",
+  },
+  "git_panel": {
+    "dock": "right",
+  },
+  "icon_theme": "VSCode Icons for Zed (Dark)",
+  "disable_ai": false,
+  "git": {
+    "blame": {
+      "show_avatar": true,
+    },
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": true,
+  "terminal": {
+    "font_family": "psudoFont Liga Mono",
+    "font_size": 12,
+    "font_features": { "zero": true },
+    "blinking": "on",
+    "option_as_meta": true,
+    "max_scroll_history_lines": 50000,
+  },
+  "close_on_file_delete": true,
+  "project_panel": {
+    "dock": "right",
+    "auto_fold_dirs": false,
+  },
+  "global_lsp_settings": {
+    "semantic_token_rules": [
+      {
+        "token_type": "*.mutable",
+        "token_modifiers": [],
+        "style": [],
+        "foreground_color": null,
+        "background_color": null,
+        "underline": null,
+        "strikethrough": null,
+        "font_weight": null,
+        "font_style": null,
+      },
+    ],
+  },
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-6",
+      "enable_thinking": true,
+      "effort": "high",
+    },
+    "single_file_review": true,
+    "enabled": true,
+    "button": true,
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "preview_tabs": { "enabled": false },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_close_button": "hidden",
+  },
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "vertical_scroll_margin": 10000.0,
+  "minimap": { "show": "never" },
+  "hover_popover_delay": 200,
+  "selection_highlight": false,
+  "current_line_highlight": "gutter",
+  "cursor_blink": true,
+  "buffer_font_family": "psudoFont Liga Mono",
+  "buffer_font_features": { "zero": true },
+  "ui_font_features": { "zero": true },
+  "ui_font_family": "IBM Plex Sans",
+  "colorize_brackets": false,
+  "auto_indent_on_paste": true,
+  "linked_edits": true,
+  "show_edit_predictions": false,
+  "wrap_guides": [],
+  "soft_wrap": "editor_width",
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 12.5,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "GitHub Dark Dimmed",
+  },
+  "autosave": "off",
+  "remove_trailing_whitespace_on_save": true,
+  "gutter": {
+    "breakpoints": false,
+    "runnables": false,
+    "folds": false,
+    "min_line_number_digits": 0,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false,
+  },
+  "inline_code_actions": false,
+}
