@@ -115,4 +115,16 @@
     "show_tab_bar_buttons": false,
   },
   "inline_code_actions": false,
+  "title_bar": {
+    "show_branch_icon": true,
+    "show_user_picture": false,
+  },
+  "use_system_prompts": false,
+  "confirm_quit": true,
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+      "padding": 4,
+    },
+  },
 }

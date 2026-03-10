@@ -1,0 +1,90 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-b": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-b": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "alt-shift-p": "git::Push"
+    }
+  },
+  {
+    "context": "GitDiff > Editor",
+    "bindings": {
+      "cmd-shift-s": "git::StageAll"
+    }
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "cmd-shift-s": "git::StageAll"
+    }
+  },
+  {
+    "context": "(GitPanel && ChangesList)",
+    "bindings": {
+      "cmd-shift-s": "git::StageAll"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-g": "git_panel::Toggle"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-t": "terminal_panel::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-d": [
+        "projects::OpenRecent",
+        {
+          "create_new_window": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-cmd-w": "pane::CloseAllItems"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-r": "editor::Rename"
+    }
+  }
+]
