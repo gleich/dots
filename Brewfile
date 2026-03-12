@@ -107,8 +107,8 @@ cask "bartender"
 cask "blackhole-2ch"
 # CD burning application
 cask "burn"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
@@ -236,7 +236,7 @@ go "github.com/synthient/cli/cmd"
 go "github.com/go-delve/delve/cmd/dlv"
 go "go.mattglei.ch/scripts/dots"
 go "github.com/golangci/golangci-lint/cmd/golangci-lint"
-go "github.com/segmentio/golines"
+go "github.com/golangci/golines"
 go "github.com/haya14busa/goplay/cmd/goplay"
 go "golang.org/x/tools/gopls"
 go "github.com/cweill/gotests/gotests"

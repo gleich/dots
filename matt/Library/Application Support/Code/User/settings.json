@@ -12,8 +12,6 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "latex-workshop.message.update.show": true,
-  "latex-workshop.view.pdf.viewer": "tab",
   "workbench.iconTheme": "vscode-icons",
   "cSpell.userWords": [
     "Adafruit",

@@ -65,7 +65,6 @@
     }
   },
   {
-    "context": "Workspace",
     "bindings": {
       "cmd-d": [
         "projects::OpenRecent",
@@ -85,6 +84,23 @@
     "context": "Editor",
     "bindings": {
       "cmd-r": "editor::Rename"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-e": "git::GenerateCommitMessage"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "cmd-e": null
+    }
+  },
+  {
+    "context": "KeymapEditor",
+    "bindings": {
+      "cmd-e": null
     }
   }
 ]

@@ -1,4 +1,7 @@
 {
+  "edit_predictions": {
+    "enabled_in_text_threads": true,
+  },
   "completions": {
     "words": "enabled",
   },
@@ -59,11 +62,11 @@
     ],
   },
   "agent": {
+    "default_profile": "ask",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-6",
-      "enable_thinking": true,
-      "effort": "high",
+      "provider": "copilot_chat",
+      "model": "gpt-5.2",
+      "enable_thinking": false,
     },
     "single_file_review": true,
     "enabled": true,
@@ -125,6 +128,19 @@
     "inline": {
       "enabled": true,
       "padding": 4,
+    },
+  },
+  "languages": {
+    "Go": {
+      "formatter": [
+        { "language_server": { "name": "gopls" } },
+        {
+          "external": {
+            "command": "golines",
+            "arguments": ["--shorten-comments"],
+          },
+        },
+      ],
     },
   },
 }
