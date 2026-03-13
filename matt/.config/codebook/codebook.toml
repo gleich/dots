@@ -1,4 +1,7 @@
+ignore_patterns = ['https?://[^\s]+'] 
+
 words = [
+    "aaaa",
     "adafruit",
     "airpods",
     "airtable",
