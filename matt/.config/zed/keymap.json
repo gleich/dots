@@ -88,7 +88,7 @@
   },
   {
     "bindings": {
-      "cmd-e": "git::GenerateCommitMessage"
+      "alt-shift-c": "git::GenerateCommitMessage"
     }
   },
   {

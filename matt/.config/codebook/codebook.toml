@@ -1,5 +1,3 @@
-ignore_patterns = ['https?://[^\s]+'] 
-
 words = [
     "aaaa",
     "adafruit",
@@ -149,6 +147,7 @@ words = [
     "manimlib",
     "mapbox",
     "mattg",
+    "mattgei",
     "mattglei",
     "mattgleich",
     "matthewgleich",
@@ -258,3 +257,4 @@ words = [
     "xcode",
     "zwift",
 ]
+ignore_patterns = ['https?://[^\s]+']
