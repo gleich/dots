@@ -1,4 +1,7 @@
 {
+  "vim": {
+    "use_system_clipboard": "never"
+  },
   "edit_predictions": {
     "enabled_in_text_threads": true,
   },
@@ -76,6 +79,7 @@
   },
   "preview_tabs": { "enabled": false },
   "tabs": {
+    "show_diagnostics": "all",
     "file_icons": true,
     "git_status": true,
     "show_close_button": "hidden",
