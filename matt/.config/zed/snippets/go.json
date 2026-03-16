@@ -1,0 +1,45 @@
+{
+	"Wrap error": {
+		"prefix": "re",
+		"body": [
+			"fmt.Errorf(\"$1: %w\", err)"
+		],
+		"description": "Wrap a given error"
+	},
+	"Return error": {
+		"prefix": "ife",
+		"body": [
+			"if err != nil {",
+			"\t$1",
+			"}"
+		],
+		"description": "Return the error"
+	},
+	"Fatal Error": {
+		"prefix": "fa",
+		"body": [
+			"timber.Fatal(err, \"failed to $1\")",
+		],
+		"description": "log out a fatal error"
+	},
+	"Main program": {
+		"prefix": "main",
+		"body": [
+			"package main",
+			"",
+			"import \"fmt\"",
+			"",
+			"func main() {",
+			"\tfmt.Println(\"foo\")",
+			"}"
+		],
+		"description": "a basic main program"
+	},
+	"Defer Close": {
+		"prefix": "de",
+		"body": [
+			"defer func() { _ = $1.Close() }()",
+		],
+		"description": "Defer closing and ignore the error"
+	},
+}
