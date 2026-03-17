@@ -197,4 +197,8 @@
     "command": "-chatEditor.action.reject",
     "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isCurrentlyBeingModified || chatEdits.hasEditorModifications && notebookEditorFocused && !chatEdits.isCurrentlyBeingModified",
   },
+  {
+    "key": "shift+alt+g",
+    "command": "github.copilot.git.generateCommitMessage",
+  },
 ]

@@ -692,7 +692,13 @@
     "scminput": false,
   },
   "window.restoreWindows": "one",
-  "[racket]": {
-    "editor.defaultFormatter": "lishizhen.racket-fmt",
-  },
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Use conventional commit message format and keep commits short without sacrificing quality",
+    },
+  ],
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.toggleSidebarVisibility",
+  ],
+  "claudeCode.preferredLocation": "panel",
 }
