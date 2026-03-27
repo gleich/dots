@@ -502,8 +502,6 @@
   "errorLens.fontWeight": "700",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "editor.quickSuggestions": {
@@ -701,4 +699,5 @@
     "workbench.action.toggleSidebarVisibility",
   ],
   "claudeCode.preferredLocation": "panel",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
 }
