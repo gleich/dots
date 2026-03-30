@@ -13,6 +13,8 @@ brew "cloc"
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
+# Embeddable SQL OLAP Database Management System
+brew "duckdb"
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find

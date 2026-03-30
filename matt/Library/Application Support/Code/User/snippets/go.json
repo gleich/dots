@@ -2,7 +2,7 @@
 	"Wrap error": {
 		"prefix": "re",
 		"body": [
-			"fmt.Errorf(\"$1: %w\", err)"
+			"fmt.Errorf(\"$0: %w\", err)"
 		],
 		"description": "Wrap a given error"
 	},
@@ -10,7 +10,7 @@
 		"prefix": "ife",
 		"body": [
 			"if err != nil {",
-			"\t$1",
+			"\t$0",
 			"}"
 		],
 		"description": "Return the error"
@@ -18,7 +18,7 @@
 	"Fatal Error": {
 		"prefix": "fa",
 		"body": [
-			"timber.Fatal(err, \"failed to $1\")",
+			"timber.Fatal(err, \"failed to $0\")",
 		],
 		"description": "log out a fatal error"
 	},
@@ -38,7 +38,7 @@
 	"Defer Close": {
 		"prefix": "de",
 		"body": [
-			"defer func() { _ = $1.Close() }()",
+			"defer func() { _ = $0.Close() }()",
 		],
 		"description": "Defer closing and ignore the error"
 	},
