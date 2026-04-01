@@ -4,7 +4,7 @@
     "rust-analyzer-lsp@claude-plugins-official": true
   },
   "effortLevel": "medium",
-  "voiceEnabled": true,
+  "voiceEnabled": false,
   "attribution": {
     "commit": ""
   }
