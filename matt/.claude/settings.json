@@ -1,0 +1,11 @@
+{
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
+  "effortLevel": "medium",
+  "voiceEnabled": true,
+  "attribution": {
+    "commit": ""
+  }
+}
