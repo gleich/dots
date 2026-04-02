@@ -109,6 +109,8 @@ cask "bartender"
 cask "blackhole-2ch"
 # CD burning application
 cask "burn"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Voice and text chat software

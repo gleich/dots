@@ -224,6 +224,7 @@
     "rustfmt",
     "rustup",
     "sdks",
+    "serde",
     "sourcegraph",
     "Stateful",
     "Strava",

@@ -9,6 +9,7 @@ alias pcd="cd (pbpaste)"
 alias ore="omf reload"
 alias cat="bat -n --theme=OneHalfDark"
 alias work="sudo bless -mount /Volumes/kcf -setBoot && sudo shutdown -r now"
+alias cl="claude"
 
 # go
 alias gmt="go mod tidy"
@@ -26,7 +27,6 @@ alias lg="lazygit"
 
 # gh
 alias gv="gh repo view -w"
-alias cl="gh repo clone"
 alias wl="gh run list --limit 10"
 alias wlw="watch -n 5 -c 'script -q /dev/null gh run list --limit 10 | sed -E \"s/^.*(STATUS)/\1/\"'"
 alias ww="gh run watch"
