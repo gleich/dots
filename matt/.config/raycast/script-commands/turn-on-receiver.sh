@@ -5,6 +5,7 @@
 # @raycast.title Turn on Receiver
 # @raycast.mode silent
 # @raycast.packageName Music
+# @raycast.icon ./icons/yamaha.png
 
 # Documentation:
 # @raycast.description Turned on my Yamaha R-N800A Receiver

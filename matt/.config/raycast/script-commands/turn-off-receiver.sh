@@ -5,6 +5,7 @@
 # @raycast.title Turn off Receiver
 # @raycast.mode silent
 # @raycast.packageName Music
+# @raycast.icon ./icons/yamaha.png
 
 # Documentation:
 # @raycast.description Turned off my Yamaha R-N800A Receiver
