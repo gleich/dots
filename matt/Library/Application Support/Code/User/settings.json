@@ -43,6 +43,7 @@
     "CLI's",
     "CLICKHOUSE",
     "clippy",
+    "cloudflared",
     "cmds",
     "CNDs",
     "codegen",
