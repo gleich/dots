@@ -37,6 +37,8 @@ brew "go"
 brew "golangci-lint"
 # Database client and tools for the Go vulnerability database
 brew "govulncheck"
+# Text-mode partitioning tools
+brew "gptfdisk"
 # OpenTelemetry Collector distribution with programmable pipelines
 brew "grafana-alloy"
 # Smarter Dockerfile linter to validate best practices
@@ -162,6 +164,8 @@ cask "rectangle"
 cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
+# Messaging app with a focus on speed and security
+cask "telegram"
 # Open-source code editor
 cask "visual-studio-code"
 # Multiplayer code editor
@@ -190,7 +194,6 @@ vscode "exiasr.hadolint"
 vscode "formulahendry.auto-close-tag"
 vscode "formulahendry.auto-rename-tag"
 vscode "garmin.monkey-c"
-vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
