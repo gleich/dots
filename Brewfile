@@ -123,6 +123,8 @@ cask "discord"
 cask "docker-desktop"
 # Collaborative team software
 cask "figma"
+# Web browser
+cask "firefox"
 cask "font-ibm-plex-mono"
 cask "font-ibm-plex-sans"
 cask "font-inter"
