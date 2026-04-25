@@ -39,8 +39,6 @@ brew "golangci-lint"
 brew "govulncheck"
 # Text-mode partitioning tools
 brew "gptfdisk"
-# OpenTelemetry Collector distribution with programmable pipelines
-brew "grafana-alloy"
 # Smarter Dockerfile linter to validate best practices
 brew "hadolint"
 # Simple terminal UI for git commands
