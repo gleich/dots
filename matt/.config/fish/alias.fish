@@ -10,7 +10,7 @@ alias ore="omf reload"
 alias cat="bat -n --theme=OneHalfDark"
 alias work="sudo bless -mount /Volumes/kcf -setBoot && sudo shutdown -r now"
 alias cl="claude"
-alias ssh="kitten ssh"
+# alias ssh="kitten ssh"
 
 # go
 alias gmt="go mod tidy"
