@@ -91,6 +91,8 @@ brew "vhs"
 brew "watch"
 # Command-line client for WebSockets
 brew "websocat"
+# Internet file retriever
+brew "wget"
 # JavaScript package manager
 brew "yarn"
 # Feature-rich command-line audio/video downloader
@@ -194,7 +196,6 @@ vscode "exiasr.hadolint"
 vscode "formulahendry.auto-close-tag"
 vscode "formulahendry.auto-rename-tag"
 vscode "garmin.monkey-c"
-vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
