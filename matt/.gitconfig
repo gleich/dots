@@ -7,7 +7,7 @@
 [user]
 	name = Matt Gleich
 	email = git@mattglei.ch
-	signingkey = 0C4065CC7F0175D7
+	signingkey = 968F6FE570DA079F
 [commit]
 	gpgsign = true
 [tag]
