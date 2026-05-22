@@ -128,6 +128,8 @@ cask "firefox"
 cask "font-ibm-plex-mono"
 cask "font-ibm-plex-sans"
 cask "font-inter"
+# Web browser
+cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Release engineering, simplified
