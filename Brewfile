@@ -166,6 +166,8 @@ cask "raycast"
 cask "rectangle"
 # Video game digital distribution service
 cask "steam"
+# Official CLI for synthient
+cask "synthient/tap/synthient"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Messaging app with a focus on speed and security

@@ -171,11 +171,6 @@
     "command": "-workbench.action.toggleAuxiliaryBar",
   },
   {
-    "key": "shift+cmd+c",
-    "command": "workbench.action.chat.open",
-    "when": "!chatSetupHidden",
-  },
-  {
     "key": "ctrl+cmd+i",
     "command": "-workbench.action.chat.open",
     "when": "!chatSetupHidden",
@@ -200,5 +195,19 @@
   {
     "key": "shift+alt+g",
     "command": "github.copilot.git.generateCommitMessage",
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "claude-vscode.focus",
+    "when": "editorTextFocus && !config.claudeCode.useTerminal",
+  },
+  {
+    "key": "cmd+escape",
+    "command": "-claude-vscode.focus",
+    "when": "editorTextFocus && !config.claudeCode.useTerminal",
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "claudeVSCodeSessionsList.focus",
   },
 ]
