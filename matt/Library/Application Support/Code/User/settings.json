@@ -346,9 +346,9 @@
   "go.lintFlags": ["--path-mode=abs", "--fast-only"],
   "go.formatTool": "custom",
   "go.alternateTools": {
-    "customFormatter": "golangci-lint",
+    "customFormatter": "golines",
   },
-  "go.formatFlags": ["fmt", "--stdin"],
+  "go.formatFlags": ["--shorten-comments"],
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/opt/homebrew/bin/black",
   "git.confirmSync": false,
@@ -601,14 +601,6 @@
   "svg.preview.mode": "img",
   "github-actions.workflows.pinned.refresh.interval": 10,
   "github-actions.workflows.pinned.refresh.enabled": true,
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": "\\.go$",
-        "cmd": "golines --shorten-comments ${file} -w",
-      },
-    ],
-  },
   "terminal.integrated.fontFamily": "psudoFont Liga Mono",
   "editor.folding": false,
   "[terraform]": {

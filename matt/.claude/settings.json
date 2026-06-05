@@ -10,5 +10,6 @@
   },
   "effortLevel": "high",
   "editorMode": "vim",
-  "voiceEnabled": false
+  "voiceEnabled": false,
+  "model": "opus"
 }
