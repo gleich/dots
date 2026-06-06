@@ -336,7 +336,6 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
   },
-  "editor.cursorBlinking": "smooth",
   "terminal.integrated.cursorBlinking": true,
   "errorLens.statusBarMessageEnabled": true,
   "workbench.tree.indent": 16,
