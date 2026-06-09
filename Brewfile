@@ -2,7 +2,6 @@ tap "goreleaser/tap"
 tap "hashicorp/tap"
 tap "homebrew-zathura/zathura"
 tap "rokartur/betteraudio"
-tap "synthient/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
@@ -168,8 +167,6 @@ cask "raycast"
 cask "rectangle"
 # Video game digital distribution service
 cask "steam"
-# Official CLI for synthient
-cask "synthient/tap/synthient"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Messaging app with a focus on speed and security
