@@ -153,8 +153,6 @@ cask "ngrok"
 cask "notion"
 # Converts and edits video, audio or image files
 cask "permute"
-# VPN client focusing on security
-cask "protonvpn"
 # Modern programming language in the Lisp/Scheme family
 cask "racket"
 # HTTP client that helps testing and describing APIs
