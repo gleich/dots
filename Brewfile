@@ -1,7 +1,7 @@
-tap "goreleaser/tap"
-tap "hashicorp/tap"
-tap "homebrew-zathura/zathura"
-tap "rokartur/betteraudio"
+tap "goreleaser/tap", trusted: true
+tap "hashicorp/tap", trusted: true
+tap "homebrew-zathura/zathura", trusted: true
+tap "rokartur/betteraudio", trusted: true
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Python code formatter
