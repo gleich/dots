@@ -2,6 +2,7 @@
   "attribution": {
     "commit": ""
   },
+  "model": "opus",
   "enabledPlugins": {
     "gopls-lsp@claude-plugins-official": true,
     "rust-analyzer-lsp@claude-plugins-official": true,
@@ -10,6 +11,5 @@
   },
   "effortLevel": "xhigh",
   "editorMode": "vim",
-  "voiceEnabled": false,
-  "model": "opus"
+  "voiceEnabled": false
 }
