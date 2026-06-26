@@ -141,6 +141,8 @@ cask "iina"
 cask "inkscape"
 # System monitoring app
 cask "istat-menus@6"
+# Jellyfin desktop client
+cask "jellyfin-media-player"
 # GPU-based terminal emulator
 cask "kitty"
 # Full TeX Live distribution without GUI applications
