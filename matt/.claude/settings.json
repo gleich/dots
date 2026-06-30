@@ -11,5 +11,6 @@
   },
   "effortLevel": "xhigh",
   "editorMode": "vim",
-  "voiceEnabled": false
+  "voiceEnabled": false,
+  "tui": "fullscreen"
 }
