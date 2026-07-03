@@ -1,4 +1,5 @@
 tap "goreleaser/tap", trusted: true
+tap "hamed-elfayome/claude-usage"
 tap "hashicorp/tap", trusted: true
 tap "homebrew-zathura/zathura", trusted: true
 tap "rokartur/betteraudio", trusted: true
