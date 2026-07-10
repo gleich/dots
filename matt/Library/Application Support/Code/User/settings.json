@@ -701,4 +701,12 @@
   ],
   "claudeCode.preferredLocation": "panel",
   "workbench.preferredDarkColorTheme": "Gruvbox Dark Soft",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml",
+  ],
 }
