@@ -606,7 +606,7 @@
     "editor.defaultFormatter": "hashicorp.terraform",
   },
   "terminal.integrated.fontWeight": "500",
-  "latex-workshop.view.pdf.invert": 0.88,
+  "latex-workshop.view.pdf.invert": 0,
   "terminal.integrated.fontLigatures": true,
   "editor.fontWeight": "500",
   "workbench.colorTheme": "GitHub Dark",
