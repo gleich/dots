@@ -7,9 +7,18 @@
     "gopls-lsp@claude-plugins-official": true,
     "rust-analyzer-lsp@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": true,
-    "frontend-design@claude-plugins-official": true
+    "frontend-design@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true
   },
-  "effortLevel": "high",
+  "extraKnownMarketplaces": {
+    "go-skills": {
+      "source": {
+        "source": "github",
+        "repo": "spf13/go-skills"
+      }
+    }
+  },
+  "effortLevel": "max",
   "tui": "fullscreen",
   "editorMode": "vim",
   "voiceEnabled": false
