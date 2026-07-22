@@ -18,7 +18,7 @@
       }
     }
   },
-  "effortLevel": "max",
+  "effortLevel": "medium",
   "tui": "fullscreen",
   "editorMode": "vim",
   "voiceEnabled": false
