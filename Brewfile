@@ -116,8 +116,6 @@ cask "burn"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Voice and text chat software
-cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Collaborative team software
