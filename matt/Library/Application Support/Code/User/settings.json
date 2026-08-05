@@ -12,7 +12,6 @@
   },
   "git.autofetch": true,
   "search.useGlobalIgnoreFiles": true,
-  "workbench.iconTheme": "vscode-icons",
   "cSpell.userWords": [
     "Adafruit",
     "Airpods",
@@ -579,7 +578,6 @@
   "search.showLineNumbers": true,
   "java.configuration.updateBuildConfiguration": "automatic",
   "terminal.integrated.macOptionIsMeta": true,
-  "workbench.productIconTheme": "icons-carbon",
   "window.commandCenter": false,
   "githubPullRequests.createOnPublishBranch": "never",
   "terminal.integrated.defaultProfile.osx": "fish",
@@ -700,7 +698,6 @@
     "workbench.action.toggleSidebarVisibility",
   ],
   "claudeCode.preferredLocation": "panel",
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark Soft",
   "yaml.disableSchemaDetection": [
     "**/.github/workflows/*.yml",
     "**/.github/workflows/*.yaml",
@@ -709,4 +706,7 @@
     "**/.forgejo/workflows/*.yml",
     "**/.forgejo/workflows/*.yaml",
   ],
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
 }
