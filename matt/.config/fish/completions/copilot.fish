@@ -81,6 +81,8 @@ complete -c copilot -l remote-export -f -d 'Export your session to GitHub web an
 complete -c copilot -l no-remote-export -f -d 'Disable exporting your session to GitHub web and mobile (also disables remote control)'
 complete -c copilot -l max-ai-credits -r -d 'Set max AI credits for this session'
 complete -c copilot -n '__fish_seen_subcommand_from login' -l host -r -d 'GitHub host URL (default: https://github.com)'
+complete -c copilot -n '__fish_seen_subcommand_from login' -l device-code -f -d 'Authenticate using the OAuth device code flow (default on remote or non-local terminals)'
+complete -c copilot -n '__fish_seen_subcommand_from login' -l web-flow -f -d 'Authenticate using the browser (web) flow (default on likely-local terminals)'
 complete -c copilot -n '__fish_seen_subcommand_from update' -f -a 'stable prerelease'
 complete -c copilot -n '__fish_seen_subcommand_from plugin' -f -a 'install' -d 'Install a plugin'
 complete -c copilot -n '__fish_seen_subcommand_from plugin' -f -a 'uninstall' -d 'Uninstall a plugin'

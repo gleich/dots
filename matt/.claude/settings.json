@@ -2,6 +2,10 @@
   "attribution": {
     "commit": ""
   },
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/matt/.claude/statusline-command.sh"
+  },
   "model": "opus",
   "enabledPlugins": {
     "gopls-lsp@claude-plugins-official": true,
@@ -18,7 +22,7 @@
       }
     }
   },
-  "effortLevel": "medium",
+  "effortLevel": "max",
   "tui": "fullscreen",
   "theme": "auto",
   "editorMode": "vim",

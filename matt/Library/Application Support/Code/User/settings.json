@@ -709,4 +709,5 @@
   "workbench.productIconTheme": "icons-carbon",
   "workbench.iconTheme": "vscode-icons",
   "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "claudeCode.hideOnboarding": true,
 }
