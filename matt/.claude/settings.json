@@ -2,11 +2,11 @@
   "attribution": {
     "commit": ""
   },
+  "model": "opus",
   "statusLine": {
     "type": "command",
     "command": "bash /Users/matt/.claude/statusline-command.sh"
   },
-  "model": "opus",
   "enabledPlugins": {
     "gopls-lsp@claude-plugins-official": true,
     "rust-analyzer-lsp@claude-plugins-official": true,
@@ -22,9 +22,9 @@
       }
     }
   },
-  "effortLevel": "max",
   "tui": "fullscreen",
   "theme": "auto",
   "editorMode": "vim",
-  "voiceEnabled": false
+  "voiceEnabled": false,
+  "skipDangerousModePermissionPrompt": true
 }
