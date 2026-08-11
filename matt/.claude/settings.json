@@ -12,7 +12,8 @@
     "rust-analyzer-lsp@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true,
-    "code-review@claude-plugins-official": true
+    "code-review@claude-plugins-official": true,
+    "synthient@synthient": true
   },
   "extraKnownMarketplaces": {
     "go-skills": {
@@ -20,11 +21,19 @@
         "source": "github",
         "repo": "spf13/go-skills"
       }
+    },
+    "synthient": {
+      "source": {
+        "source": "github",
+        "repo": "synthient/plugins"
+      }
     }
   },
+  "effortLevel": "xhigh",
   "tui": "fullscreen",
+  "skipDangerousModePermissionPrompt": true,
   "theme": "auto",
   "editorMode": "vim",
-  "voiceEnabled": false,
-  "skipDangerousModePermissionPrompt": true
+  "agentPushNotifEnabled": true,
+  "voiceEnabled": false
 }
