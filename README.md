@@ -3,9 +3,9 @@
 updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots). my system configuration files.
 
 ```txt
-matt@MacBookPro.lan 
+matt@macbookpro.lan 
 ------------------- 
-OS: macOS 26.6.1 arm64 
+OS: macOS 26.6.2 arm64 
 Host: MacBookPro18,4 
 Kernel: Darwin 25.6.0 
 Packages: 193 (brew) 
