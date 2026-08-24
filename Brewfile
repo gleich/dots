@@ -1,4 +1,4 @@
-tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap"
+tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap", trusted: { casks: ["claudeusagebar"] }
 tap "goreleaser/tap", trusted: true
 tap "hashicorp/tap", trusted: true
 tap "homebrew-zathura/zathura", trusted: true
@@ -118,8 +118,6 @@ cask "burn"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Menu bar app that tracks Claude and Claude Code usage limits
-cask "artzainnn/tap/claudeusagebar", trusted: true
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Collaborative team software
@@ -143,8 +141,6 @@ cask "iina"
 cask "inkscape"
 # System monitoring app
 cask "istat-menus@6"
-# Jellyfin desktop client
-cask "jellyfin-media-player"
 # GPU-based terminal emulator
 cask "kitty"
 # Full TeX Live distribution without GUI applications
