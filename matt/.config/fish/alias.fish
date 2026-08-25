@@ -9,7 +9,7 @@ alias pcd="cd (pbpaste)"
 alias ore="omf reload"
 alias cat="bat -n --theme=OneHalfDark"
 alias work="sudo bless -mount /Volumes/kcf -setBoot && sudo shutdown -r now"
-alias cl="claude"
+alias ai="codex"
 # alias ssh="kitten ssh"
 
 # go
