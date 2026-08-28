@@ -26,6 +26,8 @@ brew "ffmpeg"
 brew "fish"
 # Monitor a directory for changes and run a shell command
 brew "fswatch"
+# GNU debugger
+brew "gdb"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -64,8 +66,12 @@ brew "poetry"
 brew "prettier"
 # Static type checker for Python
 brew "pyright"
+# Generic machine emulator and virtualizer
+brew "qemu"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# GNU compiler collection for riscv64-elf
+brew "riscv64-elf-gcc"
 # Utility that provides fast incremental file transfer
 brew "rsync"
 # Autoformat shell script source code
