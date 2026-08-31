@@ -18,6 +18,6 @@ curl --silent --output /dev/null "http://${receiver_address}/YamahaExtendedContr
 # set input to USB DAC
 curl --silent --output /dev/null "http://${receiver_address}/YamahaExtendedControl/v1/main/setInput?input=usb_dac"
 
-SwitchAudioSource -s Speakers
+SwitchAudioSource -s "Yamaha USB DAC"
 
 echo "Turned on Yamaha R-N800A"
