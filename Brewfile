@@ -1,8 +1,10 @@
+tap "anomalyco/tap"
 tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap", trusted: { casks: ["claudeusagebar"] }
 tap "goreleaser/tap", trusted: true
 tap "hashicorp/tap", trusted: true
 tap "homebrew-zathura/zathura", trusted: true
 tap "rokartur/betteraudio", trusted: true
+tap "steipete/tap"
 tap "synthient/tap", trusted: { casks: ["synthient"] }
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -46,6 +48,8 @@ brew "gptfdisk"
 brew "hadolint"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Deep clean and optimize your Mac
+brew "mole"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -104,6 +108,8 @@ brew "wget"
 brew "yarn"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
 # Terraform
 brew "hashicorp/tap/terraform"
 # PDF viewer
@@ -124,6 +130,8 @@ cask "burn"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Menu bar usage monitor for Codex and Claude
+cask "steipete/tap/codexbar", trusted: true
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Collaborative team software
@@ -229,6 +237,11 @@ vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpp-devtools"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
 vscode "ms-vscode.live-server"
 vscode "ms-vscode.remote-explorer"
 vscode "naumovs.color-highlight"
