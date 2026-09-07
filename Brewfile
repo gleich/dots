@@ -48,12 +48,16 @@ brew "gptfdisk"
 brew "hadolint"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Run LLMs with MLX
+brew "mlx-lm"
 # Deep clean and optimize your Mac
 brew "mole"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
 # Development kit for the Java programming language
 brew "openjdk"
 # PDF rendering library (based on the xpdf-3.0 code base)
@@ -287,5 +291,6 @@ go "go.mattglei.ch/scripts/timerand"
 go "go.mattglei.ch/scripts/update"
 cargo "cargo-edit"
 cargo "cargo-update"
+cargo "neetcode-log"
 cargo "resin"
 npm "wscat"
