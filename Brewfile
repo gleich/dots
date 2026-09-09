@@ -4,7 +4,7 @@ tap "goreleaser/tap", trusted: true
 tap "hashicorp/tap", trusted: true
 tap "homebrew-zathura/zathura", trusted: true
 tap "rokartur/betteraudio", trusted: true
-tap "steipete/tap"
+tap "steipete/tap", trusted: { casks: ["codexbar"] }
 tap "synthient/tap", trusted: { casks: ["synthient"] }
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -134,8 +134,6 @@ cask "burn"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Menu bar usage monitor for Codex and Claude
-cask "steipete/tap/codexbar", trusted: true
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Collaborative team software
