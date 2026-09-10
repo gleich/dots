@@ -3,10 +3,10 @@
 
 function __copilot_at_path --description 'copilot: true when the resolved subcommand path equals the given tokens'
     set -l tokens (commandline -poc)
-    set -l required '--add-dir' '--add-github-mcp-tool' '--add-github-mcp-toolset' '--additional-mcp-config' '--agent' '--attachment' '--context' '--disable-mcp-server' '--effort' '--env' '--extension-sdk-path' '--header' '--host' '--interactive' '--kind' '--log-dir' '--log-level' '--max-ai-credits' '--max-autopilot-continues' '--mode' '--model' '--name' '--output-format' '--plugin-dir' '--prompt' '--reasoning-effort' '--scope' '--session-id' '--stream' '--timeout' '--tools' '--transport' '-C' '-i' '-n' '-p'
+    set -l required '--add-dir' '--add-github-mcp-tool' '--add-github-mcp-toolset' '--additional-mcp-config' '--agent' '--attachment' '--context' '--disable-mcp-server' '--effort' '--enable-mcp-server' '--env' '--extension-sdk-path' '--header' '--host' '--interactive' '--kind' '--log-dir' '--log-level' '--max-ai-credits' '--max-autopilot-continues' '--mode' '--model' '--name' '--output-format' '--plugin-dir' '--prompt' '--reasoning-effort' '--scope' '--session-id' '--stream' '--timeout' '--tools' '--transport' '--usage-output-file' '-C' '-i' '-n' '-p'
     set -l optional '--bash-env' '--connect' '--mouse' '--resume' '--share' '-r'
     set -l variadic '--allow-tool' '--allow-url' '--available-tools' '--deny-tool' '--deny-url' '--excluded-tools' '--secret-env-vars'
-    set -l known 'login' 'help' 'init' 'update' 'version' 'plugin' 'plugin install' 'plugin uninstall' 'plugin update' 'plugin list' 'plugin marketplace' 'plugin marketplace add' 'plugin marketplace remove' 'plugin marketplace list' 'plugin marketplace browse' 'plugin marketplace update' 'mcp' 'mcp list' 'mcp get' 'mcp add' 'mcp remove' 'plugins' 'plugins list' 'plugins enable' 'plugins disable' 'plugins remove' 'plugins rm' 'plugins install' 'plugins add' 'plugins update' 'plugins marketplace' 'plugins marketplace list' 'plugins marketplace ls' 'plugins marketplace add' 'plugins marketplace remove' 'plugins marketplace rm' 'plugins marketplace browse' 'plugins marketplace update' 'plugins marketplace refresh' 'plugins marketplaces' 'plugins marketplaces list' 'plugins marketplaces ls' 'plugins marketplaces add' 'plugins marketplaces remove' 'plugins marketplaces rm' 'plugins marketplaces browse' 'plugins marketplaces update' 'plugins marketplaces refresh' 'skill' 'skill list' 'skill add' 'skill remove' 'completion'
+    set -l known 'app' 'login' 'help' 'init' 'update' 'version' 'plugin' 'plugin install' 'plugin uninstall' 'plugin update' 'plugin list' 'plugin marketplace' 'plugin marketplace add' 'plugin marketplace remove' 'plugin marketplace list' 'plugin marketplace browse' 'plugin marketplace update' 'mcp' 'mcp list' 'mcp get' 'mcp add' 'mcp remove' 'plugins' 'plugins list' 'plugins enable' 'plugins disable' 'plugins remove' 'plugins rm' 'plugins install' 'plugins add' 'plugins update' 'plugins marketplace' 'plugins marketplace list' 'plugins marketplace ls' 'plugins marketplace add' 'plugins marketplace remove' 'plugins marketplace rm' 'plugins marketplace browse' 'plugins marketplace update' 'plugins marketplace refresh' 'plugins marketplaces' 'plugins marketplaces list' 'plugins marketplaces ls' 'plugins marketplaces add' 'plugins marketplaces remove' 'plugins marketplaces rm' 'plugins marketplaces browse' 'plugins marketplaces update' 'plugins marketplaces refresh' 'skill' 'skill list' 'skill add' 'skill remove' 'completion'
 
     set -l path
     set -l mode none
@@ -69,6 +69,7 @@ function __copilot_at_path --description 'copilot: true when the resolved subcom
     test "$current" = "$target"
 end
 
+complete -c copilot -n '__copilot_at_path ready' -f -a 'app' -d 'Open the GitHub Copilot app'
 complete -c copilot -n '__copilot_at_path ready' -f -a 'login' -d 'Authenticate with Copilot'
 complete -c copilot -n '__copilot_at_path ready' -f -a 'help' -d 'Display help information'
 complete -c copilot -n '__copilot_at_path ready' -f -a 'init' -d 'Initialize Copilot instructions'
@@ -84,7 +85,7 @@ complete -c copilot -l interactive -s i -r -d 'Start interactive mode and automa
 complete -c copilot -l prompt -s p -r -d 'Execute a prompt in non-interactive mode (exits after completion)'
 complete -c copilot -l silent -s s -f -d 'Output only the agent response (no stats), useful for scripting with -p'
 complete -c copilot -l enable-memory -f -d 'Enable memory in prompt mode (disabled by default)'
-complete -c copilot -l model -r -f -a 'auto claude-sonnet-5 claude-fable-5 claude-opus-5 claude-opus-4.8 claude-opus-4.8-fast claude-opus-4.7 claude-sonnet-4.6 claude-opus-4.6 claude-sonnet-4.5 claude-opus-4.5 claude-haiku-4.5 gpt-5.6-sol gpt-5.6-terra gpt-5.6-luna gpt-5.5 gpt-5.4 gpt-5.4-mini gpt-5.3-codex gpt-5-mini mai-code-1-flash-picker gemini-3.7-flash gemini-3.6-flash gemini-3.5-flash gemini-3.1-pro-preview grok-4.5 kimi-k3 kimi-k2.7-code'
+complete -c copilot -l model -r -f -a 'auto claude-sonnet-5 claude-fable-5.1 claude-fable-5 claude-opus-5 claude-opus-4.8 claude-opus-4.8-fast claude-opus-4.7 claude-sonnet-4.6 claude-opus-4.6 claude-sonnet-4.5 claude-opus-4.5 claude-haiku-4.5 gpt-5.6-sol gpt-5.6-terra gpt-5.6-luna gpt-5.5 gpt-5.4 gpt-5.4-mini gpt-5.3-codex gpt-5-mini mai-code-1.1-flash mai-code-1-flash-picker gemini-3.7-flash gemini-3.6-flash gemini-3.5-flash gemini-3.1-pro-preview grok-4.5 kimi-k3 kimi-k2.7-code'
 complete -c copilot -l model -r -f -d 'Set the AI model to use (use \'auto\' to let Copilot pick automatically)'
 complete -c copilot -l effort -l reasoning-effort -r -f -a 'none minimal low medium high xhigh max'
 complete -c copilot -l effort -l reasoning-effort -r -f -d 'Set the reasoning effort level'
@@ -118,14 +119,14 @@ complete -c copilot -l output-format -r -f -a 'text json'
 complete -c copilot -l output-format -r -f -d 'Output format: \'text\' (default) or \'json\' (JSONL, one JSON object per line)'
 complete -c copilot -l share -r -d 'Share session to markdown file after completion in non-interactive mode (default: ./copilot-session-<id>.md)'
 complete -c copilot -l share-gist -f -d 'Share session to a secret GitHub gist after completion in non-interactive mode'
-complete -c copilot -l add-dir -r -d 'Add a directory to the allowed list for file access (can be used multiple times)'
+complete -c copilot -l add-dir -r -d 'Allow file access to a directory and load its .github/skills and .github/agents as trusted configuration (can be used multiple times). A relative path resolves against the session working directory (the --resume/--worktree/-C directory), whatever order the options appear in'
 complete -c copilot -l attachment -r -d 'Attach a file (image or native document) to the initial prompt; only valid in non-interactive mode (can be used multiple times)'
 complete -c copilot -l disable-mcp-server -r -d 'Disable a specific MCP server (can be used multiple times)'
 complete -c copilot -l disable-builtin-mcps -f -d 'Disable all built-in MCP servers (currently: github-mcp-server)'
 complete -c copilot -l enable-all-github-mcp-tools -f -d 'Enable all GitHub MCP server tools instead of the default CLI subset. Overrides --add-github-mcp-toolset and --add-github-mcp-tool options.'
 complete -c copilot -l add-github-mcp-toolset -r -d 'Add a toolset to enable for the GitHub MCP server instead of the default CLI subset (can be used multiple times). Use "all" for all toolsets.'
 complete -c copilot -l add-github-mcp-tool -r -d 'Add a tool to enable for the GitHub MCP server instead of the default CLI subset (can be used multiple times). Use "*" for all tools.'
-complete -c copilot -l plugin-dir -r -d 'Load a plugin from a local directory (can be used multiple times)'
+complete -c copilot -l plugin-dir -r -d 'Load a plugin from a local directory (can be used multiple times). A relative path resolves against the session working directory (the --resume/--worktree/-C directory), whatever order the options appear in'
 complete -c copilot -l additional-mcp-config -r -d 'Additional MCP servers configuration as JSON string or file path (prefix with @) (can be used multiple times; augments config from ~/.copilot/mcp-config.json for this session)'
 complete -c copilot -l allow-all-mcp-server-instructions -f -d 'Include initialization instructions from all MCP servers in the system prompt instead of only allowlisted servers'
 complete -c copilot -l allow-tool -r -d 'Tools the CLI has permission to use; will not prompt for permission'
@@ -154,10 +155,15 @@ complete -c copilot -l remote -f -d 'Enable remote control of your session from 
 complete -c copilot -l no-remote -f -d 'Disable remote control of your session from GitHub web and mobile'
 complete -c copilot -l remote-export -f -d 'Export your session to GitHub web and mobile (read-only; does not enable remote control)'
 complete -c copilot -l no-remote-export -f -d 'Disable exporting your session to GitHub web and mobile (also disables remote control)'
+complete -c copilot -l no-eager-powershell-resolution -f -d 'Disable background PowerShell prompt resolution on Windows'
+complete -c copilot -l enable-mcp-server -r -d 'Enable an MCP server disabled in settings for this run only; nothing is persisted (can be used multiple times)'
 complete -c copilot -l max-ai-credits -r -d 'Set max AI credits for this session'
+complete -c copilot -l assisted-approval -f -d 'Review tool permission requests with the assisted-approval safety judge instead of approving them outright. Equivalent to the `assisted` mode of /permissions. Takes precedence over --allow-all-tools when the judge engages; requires --experimental or enabledFeatureFlags.AUTO_APPROVAL. (env: COPILOT_ASSISTED_APPROVAL)'
+complete -c copilot -l usage-output-file -r -d 'Write final usage statistics as JSON to the specified file'
 complete -c copilot -n '__copilot_at_path any login' -l host -r -d 'GitHub host URL (default: https://github.com)'
 complete -c copilot -n '__copilot_at_path any login' -l device-code -f -d 'Authenticate using the OAuth device code flow (default in remote or headless environments)'
 complete -c copilot -n '__copilot_at_path any login' -l web-flow -f -d 'Authenticate using the browser (web) flow (default on local desktops)'
+complete -c copilot -n '__copilot_at_path any login' -l with-token -f -d 'Read an authentication token from standard input'
 complete -c copilot -n '__copilot_at_path ready update' -f -a 'stable prerelease'
 complete -c copilot -n '__copilot_at_path ready plugin' -f -a 'install' -d 'Install a plugin'
 complete -c copilot -n '__copilot_at_path ready plugin' -f -a 'uninstall' -d 'Uninstall a plugin'
