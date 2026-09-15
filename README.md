@@ -3,11 +3,11 @@
 updated with [gleich/scripts/dots](https://github.com/gleich/scripts/tree/main/dots). my system configuration files.
 
 ```txt
-matt@MacBookPro.lan 
-------------------- 
-OS: macOS 26.6.2 arm64 
+matt@gleich.local 
+----------------- 
+OS: macOS 27.0 arm64 
 Host: MacBookPro18,4 
-Kernel: Darwin 25.6.0 
+Kernel: Darwin 27.0.0 
 Packages: 219 (brew) 
 Shell: fish 4.9.3 
 DE: Aqua 

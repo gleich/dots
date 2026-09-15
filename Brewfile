@@ -124,8 +124,6 @@ brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 cask "adobe-creative-cloud"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
-# Menu bar icon organiser
-cask "bartender"
 # Virtual Audio Driver
 cask "blackhole-2ch"
 # CD burning application
@@ -181,6 +179,8 @@ cask "raspberry-pi-imager"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Removes animations when switching between Spaces
+cask "space-rabbit"
 # Video game digital distribution service
 cask "steam"
 # Native GUI tool for relational databases
@@ -189,6 +189,8 @@ cask "tableplus"
 cask "telegram"
 # Open-source code editor
 cask "visual-studio-code"
+# REST, GraphQL and gRPC client
+cask "yaak"
 # Multiplayer code editor
 cask "zed"
 # Video communication and virtual meeting platform
@@ -282,6 +284,7 @@ go "github.com/cweill/gotests/gotests"
 go "github.com/josharian/impl"
 go "go.mattglei.ch/interview"
 go "go.mattglei.ch/scripts/isteperm"
+go "go.mattglei.ch/scripts/newtracks"
 go "go.mattglei.ch/newyear"
 go "go.mattglei.ch/ritcs"
 go "github.com/synthient/cli/cmd/synthient"
