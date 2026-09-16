@@ -153,8 +153,6 @@ cask "helium-browser"
 cask "iina"
 # Vector graphics editor
 cask "inkscape"
-# System monitoring app
-cask "istat-menus@6"
 # GPU-based terminal emulator
 cask "kitty"
 # Full TeX Live distribution without GUI applications
@@ -181,6 +179,8 @@ cask "raycast"
 cask "rectangle"
 # Removes animations when switching between Spaces
 cask "space-rabbit"
+# System monitor for the menu bar
+cask "stats"
 # Video game digital distribution service
 cask "steam"
 # Native GUI tool for relational databases
