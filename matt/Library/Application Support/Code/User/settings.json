@@ -710,7 +710,6 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.preferredDarkColorTheme": "GitHub Dark",
   "claudeCode.hideOnboarding": true,
-
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools",
     "editor.formatOnSave": true,
@@ -718,5 +717,5 @@
     "editor.indentSize": 4,
     "editor.insertSpaces": false,
   },
-  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, UseTab: ForIndentation, IndentWidth: 4, TabWidth: 4 }",
+  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, UseTab: ForIndentation, IndentWidth: 4, TabWidth: 4, SortIncludes: Never }",
 }
