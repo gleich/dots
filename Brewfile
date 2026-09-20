@@ -141,6 +141,8 @@ cask "firefox"
 cask "font-ibm-plex-mono"
 cask "font-ibm-plex-sans"
 cask "font-inter"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
@@ -149,6 +151,8 @@ cask "google-drive"
 cask "goreleaser/tap/goreleaser"
 # Chromium-based web browser
 cask "helium-browser"
+# Homebrew's official GUI
+cask "homebrew-app"
 # Free and open-source media player
 cask "iina"
 # Vector graphics editor
@@ -167,8 +171,6 @@ cask "notion"
 cask "permute"
 # VPN client focusing on security
 cask "protonvpn"
-# Modern programming language in the Lisp/Scheme family
-cask "racket"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card
