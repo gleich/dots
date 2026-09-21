@@ -95,6 +95,7 @@
     "Funcs",
     "getcwd",
     "getenv",
+    "ghostty",
     "gitlab",
     "gitmoji",
     "glados",

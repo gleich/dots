@@ -9,5 +9,6 @@
     "cargo-install-update",
     "cargo-install-update-config",
 ]
+"interview_prep 0.1.0 (path+file:///Users/matt/src/gleich/interview_prep/script)" = ["interview_prep"]
 "neetcode-log 0.1.0 (path+file:///Users/matt/src/gleich/neetcode/script)" = ["neetcode-log"]
 "resin 1.6.8 (path+file:///Users/matt/src/gleich/resin)" = ["resin"]
