@@ -177,6 +177,8 @@ cask "raspberry-pi-imager"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Signal analysis for Saleae's devices
+cask "saleae-logic"
 # Removes animations when switching between Spaces
 cask "space-rabbit"
 # System monitor for the menu bar
