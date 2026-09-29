@@ -4,6 +4,7 @@ tap "goreleaser/tap", trusted: true
 tap "hashicorp/tap", trusted: true
 tap "homebrew-zathura/zathura", trusted: true
 tap "rokartur/betteraudio", trusted: true
+tap "stablyai/orca"
 tap "steipete/tap", trusted: { casks: ["codexbar"] }
 tap "synthient/tap", trusted: { casks: ["synthient"] }
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -165,6 +166,8 @@ cask "minecraft"
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# IDE for orchestrating AI coding agents across terminals and worktrees
+cask "stablyai/orca/orca", trusted: true
 # Converts and edits video, audio or image files
 cask "permute"
 # VPN client focusing on security
@@ -201,6 +204,7 @@ vscode "adamgraham.polykai-theme"
 vscode "akamud.vscode-theme-onedark"
 vscode "antfu.icons-carbon"
 vscode "antfu.theme-vitesse"
+vscode "anthropic.claude-code"
 vscode "blanu.vscode-styled-jsx"
 vscode "bmalehorn.vscode-fish"
 vscode "bodil.prettier-toml"
