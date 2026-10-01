@@ -1,3 +1,4 @@
+tap "abue-ammar/tinycast", trusted: true
 tap "anomalyco/tap"
 tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap", trusted: { casks: ["claudeusagebar"] }
 tap "goreleaser/tap", trusted: true
@@ -17,6 +18,8 @@ brew "cloc"
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
+# Create and run Linux containers using lightweight virtual machines
+brew "container"
 # Embeddable SQL OLAP Database Management System
 brew "duckdb"
 # Modern, maintained replacement for ls
@@ -135,6 +138,10 @@ cask "chatgpt"
 cask "claude"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Developer platform
+cask "dotnet-sdk"
+# Developer platform
+cask "dotnet-sdk@8"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -176,8 +183,6 @@ cask "protonvpn"
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
-# Control your tools with a few keystrokes
-cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Signal analysis for Saleae's devices
@@ -192,6 +197,8 @@ cask "steam"
 cask "tableplus"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Tiny, fully native launcher, hotkeys, and clipboard history
+cask "abue-ammar/tinycast/tinycast"
 # Open-source code editor
 cask "visual-studio-code"
 # REST, GraphQL and gRPC client
