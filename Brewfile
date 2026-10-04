@@ -18,6 +18,10 @@ brew "cloc"
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
+# General-purpose scripting language
+brew "php"
+# Dependency Manager for PHP
+brew "composer"
 # Create and run Linux containers using lightweight virtual machines
 brew "container"
 # Embeddable SQL OLAP Database Management System
@@ -68,6 +72,8 @@ brew "openjdk"
 brew "poppler"
 # PDF converter to SVG
 brew "pdf2svg"
+# PHP Installer for Extensions
+brew "pie"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Fast, disk space efficient package manager
@@ -86,6 +92,8 @@ brew "ripgrep"
 brew "riscv64-elf-gcc"
 # Utility that provides fast incremental file transfer
 brew "rsync"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # Autoformat shell script source code
 brew "shfmt"
 # Fuzzy Finder in rust!
@@ -183,6 +191,8 @@ cask "protonvpn"
 cask "rapidapi"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Signal analysis for Saleae's devices
@@ -197,8 +207,6 @@ cask "steam"
 cask "tableplus"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Tiny, fully native launcher, hotkeys, and clipboard history
-cask "abue-ammar/tinycast/tinycast"
 # Open-source code editor
 cask "visual-studio-code"
 # REST, GraphQL and gRPC client
