@@ -195,7 +195,6 @@
   "verbose": false,
   "autoContinueAtUsageLimit": false,
   "agentPushNotifEnabled": true,
-  "voiceEnabled": false,
   "autoMode": {
     "environment": [
       "### Org-wide",
@@ -223,5 +222,6 @@
       "**Trusted repo**: this checkout at /Users/matt/src/synthient/sdkgen/sdks/synthient-php (synthient-php, a PHP client SDK) — no git remotes currently configured, so scope trust to the local working tree only",
       "**Org-specific CLIs**: None configured"
     ]
-  }
+  },
+  "voiceEnabled": false
 }
