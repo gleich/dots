@@ -4,6 +4,7 @@ tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap", trusted: { cas
 tap "goreleaser/tap", trusted: true
 tap "hashicorp/tap", trusted: true
 tap "homebrew-zathura/zathura", trusted: true
+tap "munepi/galley"
 tap "rokartur/betteraudio", trusted: true
 tap "stablyai/orca", trusted: { casks: ["orca"] }
 tap "steipete/tap", trusted: { casks: ["codexbar"] }
@@ -12,6 +13,8 @@ tap "synthient/tap", trusted: { casks: ["synthient"] }
 brew "bat"
 # Python code formatter
 brew "black"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
 # Statistics utility to count lines of code
 brew "cloc"
 # Cross-platform make
@@ -157,6 +160,8 @@ cask "firefox"
 cask "font-ibm-plex-mono"
 cask "font-ibm-plex-sans"
 cask "font-inter"
+# Lightweight PDF previewer with SyncTeX support for TeX authors
+cask "munepi/galley/galley", trusted: true
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
