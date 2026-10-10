@@ -178,6 +178,8 @@ cask "homebrew-app"
 cask "iina"
 # Vector graphics editor
 cask "inkscape"
+# Photo library manager and raw image developer
+cask "lightcraft"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Sandbox construction video game
