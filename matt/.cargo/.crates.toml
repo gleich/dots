@@ -1,4 +1,5 @@
 [v1]
+"cargo-audit 0.22.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-audit"]
 "cargo-edit 0.13.13 (registry+https://github.com/rust-lang/crates.io-index)" = [
     "cargo-add",
     "cargo-rm",
