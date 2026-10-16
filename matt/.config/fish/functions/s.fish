@@ -1,9 +1,15 @@
 function s
     set -l src_path
     if test (count $argv) -gt 0
-        set src_path ~/src/$argv[1]
-        if not test -d "$src_path"
-            set src_path ~/src/gleich/$argv[1]
+        for dir in ~/src ~/src/gleich ~/src/*
+            if test -d "$dir/$argv[1]"
+                set src_path "$dir/$argv[1]"
+                break
+            end
+        end
+        if test -z "$src_path"
+            echo "s: $argv[1] not found in ~/src" >&2
+            return 1
         end
     else
         cd ~/src/
@@ -15,4 +21,4 @@ function s
 end
 
 complete -c s -f -a "(cd ~/src; and __fish_complete_directories)"
-complete -c s -f -a "(cd ~/src/gleich; and __fish_complete_directories)"
+complete -c s -f -a "(path basename ~/src/*/*/)"

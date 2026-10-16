@@ -45,6 +45,8 @@ brew "gdb"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Audit git repos for secrets
+brew "gitleaks"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -113,6 +115,8 @@ brew "svgo"
 brew "switchaudio-osx"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Find and verify credentials
+brew "trufflehog"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Your CLI home video recorder
