@@ -188,6 +188,8 @@ cask "lightcraft"
 cask "mactex-no-gui"
 # Sandbox construction video game
 cask "minecraft"
+# Orchestrates virtual Ubuntu instances
+cask "multipass"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
