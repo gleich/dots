@@ -143,8 +143,6 @@ brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 cask "adobe-creative-cloud"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
-# Virtual Audio Driver
-cask "blackhole-2ch"
 # CD burning application
 cask "burn"
 # OpenAI's official ChatGPT desktop app
