@@ -10,6 +10,9 @@
     "cargo-install-update",
     "cargo-install-update-config",
 ]
+"esp-generate 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["esp-generate"]
+"espflash 4.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["espflash"]
+"espup 0.19.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["espup"]
 "interview_prep 0.1.0 (path+file:///Users/matt/src/gleich/interview_prep/script)" = ["interview_prep"]
 "neetcode-log 0.1.0 (path+file:///Users/matt/src/gleich/neetcode/script)" = ["neetcode-log"]
 "resin 1.6.8 (path+file:///Users/matt/src/gleich/resin)" = ["resin"]

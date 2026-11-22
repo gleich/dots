@@ -180,6 +180,8 @@ cask "homebrew-app"
 cask "iina"
 # Vector graphics editor
 cask "inkscape"
+# GPU-based terminal emulator
+cask "kitty"
 # Photo library manager and raw image developer
 cask "lightcraft"
 # Full TeX Live distribution without GUI applications
@@ -206,6 +208,8 @@ cask "raycast"
 cask "rectangle"
 # Signal analysis for Saleae's devices
 cask "saleae-logic"
+# Application to control your PlayStation 4 or PlayStation 5
+cask "sony-ps-remote-play"
 # Removes animations when switching between Spaces
 cask "space-rabbit"
 # System monitor for the menu bar
@@ -322,6 +326,9 @@ go "go.mattglei.ch/scripts/update"
 cargo "cargo-audit"
 cargo "cargo-edit"
 cargo "cargo-update"
+cargo "esp-generate"
+cargo "espflash"
+cargo "espup"
 cargo "interview_prep"
 cargo "neetcode-log"
 cargo "resin"
